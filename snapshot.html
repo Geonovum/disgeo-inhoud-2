@@ -1,0 +1,2924 @@
+<!DOCTYPE html><html lang="nl"><!-- HTML-Header - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --><head><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta content="text/html; charset=utf-8" http-equiv="content-type"><meta name="generator" content="ReSpec 24.5.2">
+        
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <!-- File. . . :  index.html                                                                 -->
+        <!-- Bevat . . :  Template voor de index.html die verplicht is voor respec                   -->
+        <!--              Gebaseerd op https://github.com/Geonovum/respec/wiki                       -->
+        <!--              Deze file moet worden neergezet in de root-directory van de                -->
+        <!--              betreffende standaard.                                                     -->
+        <!-- Door. . . :  Jan van Gelder                                                             -->
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <!-- Log . . . :  20181015 - JvG - Initiele versie                                           -->
+        <!-- - - - - - - -20191022 - IE - ReSpec file Handreiking Archiveren ruimtelijke plannen     -->
+		<!-- - - - - - - - - - - - - - - -                          -  - - - - - - - - - - - - - - - -->
+
+        <!-- meta tags - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        
+        
+        <!-- Invullen: de titel van de standaard of het document - - - - - - - - - - - - - - - - - - -->
+        <title> DiS Geo : Hoofdlijnen inhoud samenhangende objectenregistratie</title>    
+
+        <!-- Kan hier een 'ondertitel' tag worden gemaakt? -->
+		
+        <!-- Invullen: de naam van de lokale CSS file  - - - - - - - - - - - - - - - - - - - - - - - -->
+        <link rel="stylesheet" type="text/css" href="./media/Geonovumstyle.css">
+		<link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico">
+        
+        
+    <style id="respec-mainstyle">/*****************************************************************
+ * ReSpec 3 CSS
+ * Robin Berjon - http://berjon.com/
+ *****************************************************************/
+
+/* Override code highlighter background */
+.hljs {
+  background: transparent !important;
+}
+
+/* --- INLINES --- */
+h1 abbr,
+h2 abbr,
+h3 abbr,
+h4 abbr,
+h5 abbr,
+h6 abbr,
+a abbr {
+  border: none;
+}
+
+dfn {
+  font-weight: bold;
+}
+
+a.internalDFN {
+  color: inherit;
+  border-bottom: 1px solid #99c;
+  text-decoration: none;
+}
+
+a.externalDFN {
+  color: inherit;
+  border-bottom: 1px dotted #ccc;
+  text-decoration: none;
+}
+
+a.bibref {
+  text-decoration: none;
+}
+
+#references :target {
+  background: #eaf3ff;
+}
+
+cite .bibref {
+  font-style: normal;
+}
+
+code {
+  color: #c83500;
+}
+
+th code {
+  color: inherit;
+}
+
+/* --- TOC --- */
+
+.toc a,
+.tof a {
+  text-decoration: none;
+}
+
+a .secno,
+a .figno {
+  color: #000;
+}
+
+ul.tof,
+ol.tof {
+  list-style: none outside none;
+}
+
+.caption {
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+/* --- TABLE --- */
+
+table.simple {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-bottom: 3px solid #005a9c;
+}
+
+.simple th {
+  background: #005a9c;
+  color: #fff;
+  padding: 3px 5px;
+  text-align: left;
+}
+
+.simple th[scope="row"] {
+  background: inherit;
+  color: inherit;
+  border-top: 1px solid #ddd;
+}
+
+.simple td {
+  padding: 3px 10px;
+  border-top: 1px solid #ddd;
+}
+
+.simple tr:nth-child(even) {
+  background: #f0f6ff;
+}
+
+/* --- DL --- */
+
+.section dd>p:first-child {
+  margin-top: 0;
+}
+
+.section dd>p:last-child {
+  margin-bottom: 0;
+}
+
+.section dd {
+  margin-bottom: 1em;
+}
+
+.section dl.attrs dd,
+.section dl.eldef dd {
+  margin-bottom: 0;
+}
+
+#issue-summary>ul,
+.respec-dfn-list {
+  column-count: 2;
+}
+
+#issue-summary li,
+.respec-dfn-list li {
+  list-style: none;
+}
+
+details.respec-tests-details {
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+details.respec-tests-details>* {
+  padding-right: 2em;
+}
+
+details.respec-tests-details[open] {
+  z-index: 999999;
+  position: absolute;
+  border: thin solid #cad3e2;
+  border-radius: 0.3em;
+  background-color: white;
+  padding-bottom: 0.5em;
+}
+
+details.respec-tests-details[open]>summary {
+  border-bottom: thin solid #cad3e2;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  line-height: 2em;
+}
+
+details.respec-tests-details>ul {
+  width: 100%;
+  margin-top: -0.3em;
+}
+
+details.respec-tests-details>li {
+  padding-left: 1em;
+}
+
+a[href].self-link:hover {
+  opacity: 1;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+}
+
+aside.example .marker > a.self-link {
+  color: inherit;
+}
+
+h2>a.self-link,
+h3>a.self-link,
+h4>a.self-link,
+h5>a.self-link,
+h6>a.self-link {
+  border: none;
+  color: inherit;
+  font-size: 83%;
+  height: 2em;
+  left: -1.6em;
+  opacity: .5;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  transition: opacity .2s;
+  width: 2em;
+}
+
+h2>a.self-link::before,
+h3>a.self-link::before,
+h4>a.self-link::before,
+h5>a.self-link::before,
+h6>a.self-link::before {
+  content: "§";
+  display: block;
+}
+
+@media (max-width: 767px) {
+  dd {
+    margin-left: 0;
+  }
+
+  /* Don't position self-link in headings off-screen */
+  h2>a.self-link,
+  h3>a.self-link,
+  h4>a.self-link,
+  h5>a.self-link,
+  h6>a.self-link {
+    left: auto;
+    top: auto;
+  }
+}
+
+@media print {
+  .removeOnSave {
+    display: none;
+  }
+}
+</style><link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/GN-CV.css"><link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico"><script id="initialUserConfig" type="application/json">{
+  "specStatus": "GN-CV",
+  "specType": "AL",
+  "format": "markdown",
+  "github": "https://github.com/geonovum/disgeo-inhoud",
+  "issueBase": "https://github.com/geonovum/disgeo-inhoud/issues",
+  "edDraftURI": "https://geonovum.github.io/disgeo-inhoud",
+  "editors": [
+    {
+      "name": "Dick Krijtenburg",
+      "company": "Geonovum",
+      "companyURL": "https://www.geonovum.nl"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Sandra Leijten",
+      "company": "VNG",
+      "companyURL": "https://www.vng.nl"
+    },
+    {
+      "name": "Marcel Rietdijk",
+      "company": "VNG",
+      "companyURL": "https://www.vng.nl"
+    }
+  ],
+  "shortName": "hiso",
+  "pubDomain": "disgeo",
+  "licence": "cc-by",
+  "localBiblio": {
+    "PUB-1": {
+      "title": "Titel van Publicatie-1",
+      "href": "https://www.link-naar-publicatie-1.nl",
+      "status": "V1.0.1",
+      "publisher": "Publisher-1",
+      "company": "Companynaam"
+    },
+    "PUB-2": {
+      "title": "Titel van Publicatie-2",
+      "href": "https://www.link-naar-publicatie-2.nl",
+      "status": "V1.0.1",
+      "publisher": "Publisher-2",
+      "company": "Companynaam"
+    },
+    "PUB-3": {
+      "title": "Titel van Publicatie-3",
+      "href": "https://www.link-naar-publicatie-3.nl",
+      "status": "V1.0.1",
+      "publisher": "Publisher-3",
+      "company": "Companynaam"
+    },
+    "PUB-4": {
+      "title": "Titel van Publicatie-4",
+      "href": "https://www.link-naar-publicatie-4.nl",
+      "status": "V1.0.1",
+      "publisher": "Publisher-4",
+      "company": "Companynaam"
+    }
+  },
+  "postProcess": [
+    null
+  ],
+  "previousPublishDate": "2020-04-07",
+  "previousMaturity": "CV",
+  "publishISODate": "2020-04-10T00:00:00.000Z",
+  "generatedSubtitle": "Consultatieversie 10 april 2020"
+}</script><meta name="description" content="Hier de (management)samenvatting van het rapport, onderwerp, belangrijkste conclusies/aanbevelingen"><script type="application/ld+json">{
+  "@context": [
+    "http://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "nl",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "inLanguage": {
+        "@language": null
+      },
+      "isBasedOn": {
+        "@type": "@id"
+      },
+      "license": {
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://docs.geostandaarden.nl/disgeo/cv-al-hiso-20200410/",
+  "type": [
+    "TechArticle"
+  ],
+  "name": "DiS Geo : Hoofdlijnen inhoud samenhangende objectenregistratie",
+  "inLanguage": "nl",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2020-04-10",
+  "copyrightHolder": {
+    "name": "Geonovum",
+    "url": "https://www.geonovum.nl/"
+  },
+  "discussionUrl": "https://github.com/geonovum/disgeo-inhoud/issues",
+  "alternativeHeadline": "",
+  "isBasedOn": "https://docs.geostandaarden.nl/disgeo/-al-hiso-20200407/",
+  "description": "Hier de (management)samenvatting van het rapport, onderwerp, belangrijkste conclusies/aanbevelingen",
+  "editor": [
+    {
+      "type": "Person",
+      "name": "Dick Krijtenburg",
+      "worksFor": {
+        "name": "Geonovum",
+        "url": "https://www.geonovum.nl"
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "type": "Person",
+      "name": "Sandra Leijten",
+      "worksFor": {
+        "name": "VNG",
+        "url": "https://www.vng.nl"
+      }
+    },
+    {
+      "type": "Person",
+      "name": "Marcel Rietdijk",
+      "worksFor": {
+        "name": "VNG",
+        "url": "https://www.vng.nl"
+      }
+    }
+  ],
+  "citation": []
+}</script></head>
+    <!-- HTML-Body - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <body class="h-entry"><div class="head">
+  <a href="https://www.geonovum.nl/" class="logo"><img id="Geonovum" alt="Geonovum" width="132" height="67" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg"></a>
+  <h1 class="title p-name" id="title">DiS Geo : Hoofdlijnen inhoud samenhangende objectenregistratie</h1>
+  
+  <h2>Geonovum Algemeen<br>
+  Consultatieversie <time class="dt-published" datetime="2020-04-10">10 april 2020</time></h2>
+  <dl>
+    <dt>Deze versie:</dt><dd><a class="u-url" href="https://docs.geostandaarden.nl/disgeo/cv-al-hiso-20200410/">https://docs.geostandaarden.nl/disgeo/cv-al-hiso-20200410/</a></dd><dt>Laatst gepubliceerde versie:</dt><dd><a href="https://docs.geostandaarden.nl/disgeo/hiso/">https://docs.geostandaarden.nl/disgeo/hiso/</a></dd>
+    
+    <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/disgeo/cv-al-hiso-20200407/">https://docs.geostandaarden.nl/disgeo/cv-al-hiso-20200407/</a></dd>
+    <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/disgeo-inhoud">https://geonovum.github.io/disgeo-inhoud</a></dd>
+    <dt>Redacteur:</dt>
+    <dd class="p-author h-card vcard"><span class="p-name fn">Dick Krijtenburg</span>, <a class="p-org org h-org h-card" href="https://www.geonovum.nl">Geonovum</a></dd>
+    <dt>Auteurs:</dt><dd class="p-author h-card vcard"><span class="p-name fn">Sandra Leijten</span>, <a class="p-org org h-org h-card" href="https://www.vng.nl">VNG</a></dd><dd class="p-author h-card vcard"><span class="p-name fn">Marcel Rietdijk</span>, <a class="p-org org h-org h-card" href="https://www.vng.nl">VNG</a></dd>
+    <dt>Doe mee:</dt><dd>
+      <a href="https://github.com/geonovum/disgeo-inhoud/">GitHub geonovum/disgeo-inhoud</a>
+    </dd><dd>
+      <a href="https://github.com/geonovum/disgeo-inhoud/issues/">Dien een melding in</a>
+    </dd><dd>
+      <a href="https://github.com/geonovum/disgeo-inhoud/commits/">Revisiehistorie</a>
+    </dd><dd>
+      <a href="https://github.com/geonovum/disgeo-inhoud/pulls/">Pull requests</a>
+    </dd>
+  </dl>
+  
+  
+    <dl>
+          <dt>Rechtenbeleid:</dt>
+          <dd>
+            <div class="copyright" style="margin: 0.25em 0;">
+              <abbr title="Creative Commons Attribution 4.0 International Public License">
+              <a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img width="115" height="40" src="https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg" alt="Creative Commons Attribution 4.0 International Public License"></a>
+            </abbr>
+              <div style="display:inline-block; vertical-align:top">
+                <p style="font-size: small;">Creative Commons Attribution 4.0 International Public License<br>(CC-BY)</p>
+              </div>
+            </div>
+          </dd>
+        </dl>
+  <hr title="Separator for header">
+</div><section id="abstract" data-format="markdown" class="introductory"><h2>Samenvatting</h2><p><em>Hier de (management)samenvatting van het rapport, onderwerp, belangrijkste conclusies/aanbevelingen</em></p></section><section id="sotd" class="introductory"><h2>Status van dit document</h2><p>
+    <em>Deze paragraaf beschrijft de status van dit document ten tijde van publicatie. Het is mogelijk dat er actuelere versies van dit document bestaan. Een lijst van Geonovum publicaties en de laatste gepubliceerde versie van dit document zijn te vinden op <a href="https://www.geonovum.nl/geo-standaarden/alle-standaarden">https://www.geonovum.nl/geo-standaarden/alle-standaarden</a>.</em>
+  </p><p>
+
+
+
+    Dit is een door de werkgroep goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar
+    <a href="mailto:geo-standaarden@geonovum.nl">
+        geo-standaarden@geonovum.nl</a>.
+
+
+
+
+
+
+</p><p>
+Deze versie van dit document is bedoeld als <b>een eerste review</b>.
+In het hoofdlijnenrapport zijn de resultaten van verschillende verkenningen samengebracht, 
+zijn uitgangspunten beschreven en is een conceptueel denkkader opgesteld voor de inhoud van 
+de samenhangende objectenregistratie. Dit document is de eerste stap in een langer proces. 
+Gedurende het komende kwartaal wordt de inhoud aangescherpt en verder ingevuld op basis van 
+feedback en nadere verkenningen die uitgevoerd worden. Ook die versies zullen voor feedback 
+worden voorgelegd voordat het besluitvormingsproces gestart wordt.
+</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#inleiding"><span class="secno">1. </span>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aanleiding"><span class="secno">1.1 </span>Aanleiding</a></li><li class="tocline"><a class="tocxref" href="#waarop-is-het-conceptueel-denkraam-gebaseerd"><span class="secno">1.2 </span>Waarop is het conceptueel denkraam gebaseerd?</a></li><li class="tocline"><a class="tocxref" href="#hoe-moet-dit-conceptueel-denkraam-worden-gezien"><span class="secno">1.3 </span>Hoe moet dit conceptueel denkraam worden gezien?</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><span class="secno">1.4 </span>Leeswijzer</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitgangspunten"><span class="secno">2. </span>Uitgangspunten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#scope-van-de-samenhangende-objectenregistratie"><span class="secno">2.1 </span>Scope van de samenhangende objectenregistratie</a></li><li class="tocline"><a class="tocxref" href="#algemene-uitgangspunten-samenhangende-objectenregistratie"><span class="secno">2.2 </span>Algemene uitgangspunten samenhangende objectenregistratie</a></li><li class="tocline"><a class="tocxref" href="#uitgangspunten-over-de-objecttypen"><span class="secno">2.3 </span>Uitgangspunten over de objecttypen</a></li><li class="tocline"><a class="tocxref" href="#uitgangspunten-over-de-eigenschappen"><span class="secno">2.4 </span>Uitgangspunten over de eigenschappen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#beschrijving-denkraam-samenhangende-objectenregistratie"><span class="secno">3. </span>Beschrijving denkraam samenhangende objectenregistratie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#hoofdstructuur-van-de-objectenregistratie"><span class="secno">3.1 </span>Hoofdstructuur van de objectenregistratie</a></li><li class="tocline"><a class="tocxref" href="#fysieke-objecttypen"><span class="secno">3.2 </span>Fysieke objecttypen</a></li><li class="tocline"><a class="tocxref" href="#functionele-objecttypen"><span class="secno">3.3 </span>Functionele objecttypen</a></li><li class="tocline"><a class="tocxref" href="#registratieve-objecttypen"><span class="secno">3.4 </span>Registratieve objecttypen</a></li><li class="tocline"><a class="tocxref" href="#hoofdinvulling-samenhangende-objectenregistratie"><span class="secno">3.5 </span>Hoofdinvulling samenhangende objectenregistratie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#aanzet-tot-nadere-typering-van-de-verschillende-objecttypen"><span class="secno">4. </span>Aanzet tot nadere typering van de verschillende objecttypen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#typering-fysieke-objecttypen-in-de-objectenregistratie"><span class="secno">4.1 </span>Typering fysieke objecttypen in de objectenregistratie</a></li><li class="tocline"><a class="tocxref" href="#typering-functionele-objecttypen-in-objectenregistratie"><span class="secno">4.2 </span>Typering functionele objecttypen in objectenregistratie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#eerste-mapping-op-de-bestaande-basisregistraties"><span class="secno">5. </span>Eerste mapping op de bestaande basisregistraties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#fysieke-objecttypen-0"><span class="secno">5.1 </span>Fysieke objecttypen</a></li><li class="tocline"><a class="tocxref" href="#functionele-objecttypen-0"><span class="secno">5.2 </span>Functionele Objecttypen</a></li><li class="tocline"><a class="tocxref" href="#registratieve-objecttypen-0"><span class="secno">5.3 </span>Registratieve objecttypen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#inrichting-van-het-vervolg"><span class="secno">6. </span>Inrichting van het vervolg</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#inhoudelijke-uitwerkingspunten"><span class="secno">6.1 </span>Inhoudelijke uitwerkingspunten</a></li><li class="tocline"><a class="tocxref" href="#organisatie-van-de-verdere-uitwerking"><span class="secno">6.2 </span>Organisatie van de verdere uitwerking</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#coordinatie-inhoudelijk-spoor"><span class="secno">6.2.1 </span>coördinatie inhoudelijk spoor</a></li><li class="tocline"><a class="tocxref" href="#inhoudelijke-kaders"><span class="secno">6.2.2 </span>inhoudelijke kaders</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#inhoudelijke-specials"><span class="secno">6.2.2.1 </span>Inhoudelijke specials</a></li><li class="tocline"><a class="tocxref" href="#use-cases-gebruikers"><span class="secno">6.2.2.2 </span>Use cases gebruikers</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#globale-planning-van-het-vervolg"><span class="secno">6.3 </span>Globale planning van het vervolg</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bijlagen"><span class="secno">7. </span>Bijlagen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#bijlage-1-lijst-met-afkortingen"><span class="secno">7.1 </span>Bijlage 1 Lijst met afkortingen</a></li><li class="tocline"><a class="tocxref" href="#bijlage-2-voorbeelden-onderscheid-fysieke-objecten-en-functionele-objecten"><span class="secno">7.2 </span>Bijlage 2 Voorbeelden onderscheid fysieke objecten en functionele objecten</a></li><li class="tocline"><a class="tocxref" href="#bijlage-3-aanbevelingen-van-interdisciplinaire-werkgroepen"><span class="secno">7.3 </span>Bijlage 3 Aanbevelingen van interdisciplinaire werkgroepen</a></li></ol></li></ol></nav><div data-format="markdown"><h1>Colofon en Voorwoord</h1>
+<h2>Colofon</h2>
+<p>Deze versie van dit document is tot stand gekomen door de werkgroep "inhoud van de samenhangende objectenregistratie" van DiSGeo, waar de volgende personen deel van uitmaken:</p>
+<table>
+<thead>
+<tr>
+<th>Naam</th>
+<th>Organisatie</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Martijn Odijk</td>
+<td>Ministerie BZK</td>
+</tr>
+<tr>
+<td>Koos Boersma</td>
+<td>Informatiehuis Water</td>
+</tr>
+<tr>
+<td>Annemiek Droogh</td>
+<td>Waarderingskamer</td>
+</tr>
+<tr>
+<td>Stefan van Gerwen</td>
+<td>Provincie Noord Brabant</td>
+</tr>
+<tr>
+<td>Remco in ’t Hout</td>
+<td>Rijkswaterstaat</td>
+</tr>
+<tr>
+<td>Dick Krijtenburg</td>
+<td>Geonovum</td>
+</tr>
+<tr>
+<td>Sandra Leijten</td>
+<td>VNG Realisatie</td>
+</tr>
+<tr>
+<td>Marcel Rietdijk</td>
+<td>VNG Realisatie</td>
+</tr>
+<tr>
+<td>Eric van der Ster</td>
+<td>Ministerie I&amp;W</td>
+</tr>
+<tr>
+<td>Richard Witmer</td>
+<td>Kadaster</td>
+</tr>
+</tbody></table>
+<p><strong>Versiebeheer</strong></p>
+<p>Dit document is aan verandering onderhevig. Het versiebeheer van het document geeft inzicht in wijzigen en de actualiteit ervan.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Versie</strong></th>
+<th><strong>Datum</strong></th>
+<th><strong>Status</strong></th>
+<th><strong>Bewerking</strong></th>
+<th><strong>Toelichting</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1.0</td>
+<td>06-04-2020</td>
+<td>definitief concept</td>
+<td>Initieel document</td>
+<td>Kapstok document  aangemaakt</td>
+</tr>
+</tbody></table>
+</div><section data-format="markdown" id="inleiding"><!--OddPage--><h2 id="x1-inleiding"><span class="secno">1. </span>Inleiding</h2><section id="aanleiding"><h3 id="x1-1-aanleiding"><span class="secno">1.1 </span>Aanleiding</h3><p>In Nederland wordt heel veel informatie bijgehouden over objecten die we buiten in het terrein aantreffen. Bij die objecten kan worden gedacht aan wegen, water, gebouwen, spoorlijnen en bomen. Een deel van de over deze objecten vastgelegde informatie is alleen van belang voor heel specifieke toepassingen. Denk hierbij bijvoorbeeld aan het aantal keren dat een grasveld per jaar wordt gemaaid (maai-regiem). Deze informatie is in het algemeen niet voor iedereen van belang. Er is echter ook informatie die breed wordt gebruikt. Denk dan bijvoorbeeld aan het bouwjaar van een gebouw.
+</p><p>Op dit moment zijn veel van deze breder gebruikte gegevens over objecten verspreid over verschillende registraties. Het gaat daarbij zowel om registraties die de status van basisregistratie hebben gekregen, als om registraties waarin gegevens over deze objecten ten behoeve van een specifieke toepassing of ten behoeve van gebruik binnen een bepaalde sector zijn vastgelegd. De belangrijkste basisregistraties waarin informatie over fysieke objecten is opgenomen zijn de Basisregistratie Adressen en Gebouwen (BAG), de Basisregistratie Grootschalige Topografie (BGT), de Basisregistratie Waardering Onroerende Zaken (WOZ) en de Basisregistratie Topografie (BRT). Voorbeelden van andere registraties waarin gegevens over fysieke objecten zijn opgenomen zijn de registraties voor het Beheer van de Openbare Ruimte (BOR-registraties), Nationaal Wegenbestand (NWB) en het Actueel Hoogtebestand Nederland (AHN).</p><p>Elk van deze registraties kent op dit moment een eigen informatiemodel. Tussen verschillende van deze informatiemodellen heeft in de loop van de jaren afstemming plaatsgevonden. Toch is er nog steeds sprake van een gebrekkige aansluiting tussen deze verschillende informatiemodellen. Met de samenhangende objectenregistratie (SOR) wordt beoogd om meer samenhang aan te brengen tussen de verschillende objecttypen en de eigenschappen die daarover worden bijgehouden. Hiermee kunnen bijhoudingsprocessen worden vereenvoudigd, de informatievoorziening flexibeler worden opgezet en de wensen van gebruikers om meer samenhangende informatie worden ingewilligd.</p></section><section id="waarop-is-het-conceptueel-denkraam-gebaseerd"><h3 id="x1-2-waarop-is-het-conceptueel-denkraam-gebaseerd"><span class="secno">1.2 </span>Waarop is het conceptueel denkraam gebaseerd?</h3><p>Vanaf 2017 wordt er gewerkt aan de verdere beeldvorming over de inhoud en werking van een dergelijke samenhangende objectenregistratie. Daarbij zijn vanuit een kerngroep objectenregistratie eerste denkbeelden ontwikkeld over onder meer de context waarin een dergelijke registratie functioneert en de doelstellingen  die met een dergelijke registratie zouden moeten worden bereikt. 
+Deze doelstellingen zijn:
+</p><ol>
+<li>Een betrouwbare, consistente en actuele samenhangende gegevensset voor heel Nederland;</li>
+<li>Een efficiëntere inwinning en bijhouding van objecten, ook in drie dimensies (3D);
+</li>
+<li>Een betere inpassing in moderne architecturen; </li>
+<li>Meer en eenvoudiger gebruik van deze informatie in maatschappelijke toepassingen, waarbij de registratie zich voor de gebruiker gedraagt als één registratie;
+</li>
+<li>Een onderdeel van een robuuste geo-informatie infrastructuur binnen de generieke digitale infrastructuur en voldoend aan de 12 eisen voor een basisregistratie.</li>
+</ol><p>Ook is nagedacht over de wijze waarop de ontwikkeling van een dergelijke registratie zou moeten plaatsvinden uitgaande van de bestaande situatie en de behoefte een dergelijk traject beheersbaar te houden. Verder zijn er een aantal globale uitgangspunten geformuleerd voor het gegevensmodel van een samenhangende objectenregistratie, het voorziene inwinnings- en productieproces en de (architectuur van de) ontsluiting van gegevens. Tenslotte zijn ook eerste beelden ontwikkeld over de organisatie en governance en over de financiering. De resultaten van dit traject zijn vastgelegd in een beleidsvisie (schetsontwerp) (<a href="https://www.geobasisregistraties.nl/basisregistraties/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie">https://www.geobasisregistraties.nl/basisregistraties/documenten/beleidsnota/2019/11/29/beleidsvisie-samenhangende-objectenregistratie</a>) voor een samenhangende objectenregistratie. Deze is eind november 2019 door het BAG BAO en de Regieraad BGT vastgesteld.</p><p>Naast het uitwerken van algemene denkbeelden over de contouren van een dergelijke registratie, zijn er ook verkenningen uitgevoerd naar de mogelijke inhoud van onderdelen van de registratie. Hiervoor zijn interbestuurlijke werkgroepen voor de onderwerpen bouwwerken, wegen, water en natuur &amp; landschap aan de gang gegaan. De werkgroepen bouwwerken en wegen hebben eind 2018 al eerste resultaten opgeleverd. De resultaten van de andere werkgroepen en de verdieping van de werkgroep wegen waren in november 2019 beschikbaar. De verdieping van de werkgroep bouwwerken verscheen eind februari 2020 verschenen. Alle inhoudelijke verkenningen vormen een belangrijke basis voor de verdere uitwerking van de inhoud van een samenhangende objectenregistratie. In bijlage 3 is voor de verschillende werkgroepen aangegeven op welke wijze is omgegaan met de door hen beschreven aanbevelingen.</p><p>Daarnaast zijn in de afgelopen jaren op verschillende momenten wensen van gebruikers van de verschillende registraties opgehaald en hebben bronhouders van verschillende registraties aangegeven welke verbeteringen naar hun mening mogelijk zijn binnen deze bestaande registraties. Een aantal van deze verbeteringen is of wordt meegenomen in de ontwikkeling die de afzonderlijke registraties doormaken. Zo zijn er in het kader van het BAG 2.0 traject enkele wijzigingen doorgevoerd in het bestaande informatiemodel (zoals de introductie van enkele nieuwe statussen voor verbouwingen). Er zijn echter ook een aantal wijzigingsvoorstellen waarvan (veelal gezien de impact) is besloten om deze op een later moment opnieuw te bezien. Bij dit soort impactvolle wijzigingen kan bijvoorbeeld worden gedacht aan de behoefte om in het kader van de BGT een striktere scheiding door te voeren tussen fysieke objecttypen en functionele objecttypen. En aan de wens om geometrie toe te voegen aan openbare ruimten in de BAG. Deze eerder geuite verbeter¬suggesties kunnen en zullen opnieuw worden beschouwd bij  de verdere uitwerking van de inhoud van een objectenregistratie.</p><p>Tenslotte zijn er in het kader van de gedachtenvorming over een objectenregistratie ook nog enkele aanvullende behoeften naar voren gekomen. Het gaat hierbij onder meer om de wens om bepaalde typen gebieden een meer uniforme plaats in een basisregistratie te geven. Denk aan een aantal bestuurlijke gebieden (zoals gemeenten met hun begrenzing) en een aantal veelvuldig gebruikte andere gebiedsindelingen (zoals een meer eenduidige registratie van wijken en buurten en van de bebouwde kom). Bij de verdere uitwerking van de inhoud van een samenhangende objectenregistratie wordt met deze wensen rekening gehouden.</p></section><section id="hoe-moet-dit-conceptueel-denkraam-worden-gezien"><h3 id="x1-3-hoe-moet-dit-conceptueel-denkraam-worden-gezien"><span class="secno">1.3 </span>Hoe moet dit conceptueel denkraam worden gezien?</h3><p>Op basis van deze verschillende behoeften is door een klein aantal experts een eerste versie van een denkraam voor de inhoud van een samenhangende objectenregistratie opgesteld. Deze eerste versie is vervolgens in een steeds grotere groep van experts vanuit verschillende overheidsorganisaties getoetst en verder uitgewerkt. Het resultaat dat dit traject tot op heden heeft opgeleverd is in dit document vastgelegd als een beschrijving van dit denkraam. Het is daarmee de stolling van de begin 2020 ontwikkelde denkbeelden en daarmee de basis voor de verdere uitwerking en invulling die gedurende de rest van 2020 zal plaatsvinden.</p><p>Hierbij moeten vooraf enkele opmerkingen worden gemaakt:</p><ul>
+<li>Het gaat nadrukkelijk om een eerste concept voor het denkraam. Het schetst de contouren van de inhoudelijke uitwerking van de objectenregistratie. Hiermee wordt bedoeld dat de uitgangspunten en de verschillende door de interbestuurlijke werkgroepen voorgestelde richtingen zijn vertaald in een zo veel mogelijk samenhangende conceptuele beschrijving van de inhoud. De onderliggende uitgangspunten en voorstellen kennen echter nog een verschillende mate van uitwerking. Daarom is er nog geen sprake van een volledige conceptuele beschrijving van de inhoud. Daarvoor zullen begin 2020 nog verdere stappen worden gezet.</li>
+<li>Bij het opstellen van het conceptueel denkraam is gewerkt vanuit het eveneens in de eerder genoemde beleidsvisie opgenomen uitgangspunt dat het ontwerp van een samenhangende objectenregistratie wordt vormgegeven vanuit een nadrukkelijke scheiding tussen de vastlegging van gegevens en de functionaliteit voor het bewerken, opvragen en presenteren daarvan. Hiermee wordt aangesloten op moderne inzichten over de organisatie van de gegevenshuishouding, zoals deze onder meer worden gehanteerd in het kader van Common Ground (<a href="https://commonground.nl/">https://commonground.nl/</a>.</li>
+<li>In dit document wordt van de hierbij behorende architectuur van een gegevenslandschap uitsluitend een verdere uitwerking gegeven aan het onderdeel gegevensbronnen (gebaseerd op eenduidige informatiemodellen). Het hieruit samenstellen van verschillende informatieproducten voor gebruikers (zoals specifieke kaartproducten) is niet opgenomen in dit document. Daaraan zal in een latere fase verder uitwerking worden gegeven.</li>
+<li>In dit document wordt zoveel mogelijk gebruik gemaakt van terminologie die aansluit op de wijze waarop hiermee wordt omgegaan in het hier relevante afsprakenstelsel voor informatiemodellering (Zoals het Metamodel Informatiemodellering (MIM) en de Nederlandse Technische Afspraak (NTA) 8035 over semantische Gegevensmodellering en -Integratie in de Gebouwde Omgeving). Dit betekent onder meer dat er wordt gesproken over objecttypen en de eigenschappen daarvan in plaats van over objecten en gegevens. De termen objecten en gegevens worden gebruikt om specifieke exemplaren van objecttypen en eigenschappen aan te duiden. De “Galecopperbrug” is dus een object van het objecttype “overbruggingsdeel” en “2645 GB” is dus een gegeven van de eigenschap “postcode”.</li>
+<li>De samenhangende objectenregistratie is slechts één van de registraties die onderdeel uitmaakt van een gegevenslandschap met daarin verschillende andere registraties, waaronder een groot aantal domeinspecifieke of sectorale geo-registraties. Hierbij is de grondgedachte dat in de samenhangende objectenregistratie objecttypen en eigenschappen daarvan worden vastgelegd die van belang zijn voor gebruik in verschillende overheidsdomeinen. De samenhangende objectenregistratie bevat daarbij aanhaakpunten (in de vorm van identificatiecodes) waaraan andere registraties kunnen koppelen. De samenhangende objectenregistratie fungeert daarmee als een verbindende schakel tussen de verschillende specifieke eigenschappen die van deze objecttypen zijn geregistreerd in de verschillende sectorale registraties. Hiermee bevordert de samenhangende objectenregistratie indirect ook de samenhang met in die sectorale registraties opgenomen specifieke objecttypen en eigenschappen daarvan.</li>
+<li>Met dit document wordt beoogd om de uitgangspunten over, de samenhang tussen en de betekenis van de in de objectenregistratie te onderscheiden objecttypen te beschrijven. Op een aantal punten leidt dat tot een iets andere ordening van de objecttypen binnen het conceptueel model dan op dit moment het geval is. Hiermee kan op onderdelen de suggestie ontstaan dat het bijhouden van en het gebruiken van gegevens veel complexer wordt. De verwachting is echter dat dit niet het geval zal zijn. De striktere ordening van een aantal objecttypen in het model zal leiden tot een flexibeler en daarmee uiteindelijk beter te beheren en te gebruiken registratie. Veel van de wijzigingen in het conceptueel model zullen daarbij naar verwachting uiteindelijk voor degenen die de registratie bijhouden slechts beperkt zichtbaar zijn, omdat deze door een herschikking van functionaliteit in de gebruikte software kunnen worden opgevangen. Gebruikers kunnen worden voorzien van zowel informatieproducten die aansluiten op de huidige producten als nieuwe informatieproducten waarmee optimaal wordt geprofiteerd van de wijzigingen in het conceptueel model(zie onderstaande figuur).<img src="media/aansluiten.png" alt="aansluiten"></li>
+<li>In dit document zijn verschillende aanzetten tot definities voor objecttypen, mogelijke waarden voor typeringen en beschrijvingen van de aansluiting van objecttypen op bestaande basisregistraties opgenomen. Het gaat hier in alle gevallen om voorlopige beschrijvingen, die bedoeld zijn om een eerste indruk te geven van de achterliggende gedachte bij bepaalde uitgangspunten of keuzes. De exacte uitwerking van deze begrippen zal plaatsvinden in het vervolgtraject. Hierbij zal er nadrukkelijk gebruik worden gemaakt van definities en begrippen zoals die momenteel worden ontwikkeld in parallelle trajecten zoals de vernieuwing van NEN3610 (door Geonovum) en het ontwikkelen van een conceptueel model voor netwerken (door het ministerie van I&amp;W). Dit zal leiden tot aanpassingen, aanscherpingen en nadere uitwerkingen van verschillende in dit document opgenomen begrippen en overzichten. De nu opgenomen definities, waardenlijsten en aansluitingstabellen moeten dan ook niet worden gelezen als definitief of vastgesteld.</li>
+</ul></section><section id="leeswijzer"><h3 id="x1-4-leeswijzer"><span class="secno">1.4 </span>Leeswijzer</h3><p>In hoofdstuk 2 wordt een opsomming gegeven van de verschillende uitgangspunten die worden gehanteerd bij de verdere uitwerking van het conceptueel informatiemodel. Deze uitgangspunten hebben zowel betrekking op de grondgedachten van de samenhangende objectenregistratie als op de in het informatiemodel op te nemen objecttypen en eigenschappen.</p><p>De verschillende objecttypen worden in hoofdstuk 3 op hoofdlijnen uitgewerkt. Daarbij worden de objecttypen opnieuw geordend en voorzien van een eerste aanzet van een definitie. Veelal zal het hierbij gaan om dezelfde of aangescherpte definities van objecttypen, zoals deze ook in de huidige basisregistraties al worden gehanteerd.</p><p>In hoofdstuk 4 is een eerste aanzet opgenomen van een aantal hoofdtyperingen die behoren bij enkele objecttypen.</p><p>Om hetgeen in deze beschrijving is opgenomen beter te kunnen relateren aan hetgeen in de bestaande basisregistraties is opgenomen, bevat hoofdstuk 5 een globale mapping van de objecttypen uit de bestaande basisregistraties op de samenhangende objectenregistratie.</p><p>In hoofdstuk 6 is de globale inrichting van het vervolgtraject beschreven.</p></section></section><section data-format="markdown" id="uitgangspunten"><!--OddPage--><h2 id="x2-uitgangspunten"><span class="secno">2. </span>Uitgangspunten</h2><p>In de beleidsvisie (schetsontwerp) zijn een groot aantal uitgangspunten opgenomen voor de verdere uitwerking van een samenhangende objectenregistratie. Alle uitgangspunten uit de beleidsvisie blijven onverminderd van toepassing. Een deel van deze uitgangspunten kan daarbij min of meer direct worden toegepast bij de verdere uitwerking van de inhoud van de samenhangende objectenregistratie. Een ander gedeelte van de uitgangspunten vraagt nog om een iets verdere concretisering. In dit hoofdstuk is een samenhangende beschrijving opgenomen van zowel de direct bruikbare uitgangspunten als de verder geconcretiseerde uitgangspunten. Het is daarbij de bedoeling dat deze verzameling uitgangspunten fungeert als basis voor zowel het verder uitwerken van het conceptueel inhoudelijk denkraam voor de inhoud van de samenhangende objectenregistratie als in de volgende fase voor het kunnen gaan uitwerken van een informatiemodel. De uitgangspunten hebben in principe geen betrekking op andere registraties dan de objectenregistratie. Het gesprek daarover vindt plaats aan andere tafels. Alle uitgangspunten hebben betrekking op de uiteindelijke situatie. Voorafgaand aan de uitgangspunten wordt hierna eerst de scope van de samenhangende objectenregistratie in enkele principes verwoord.</p><section id="scope-van-de-samenhangende-objectenregistratie"><h3 id="x2-1-scope-van-de-samenhangende-objectenregistratie"><span class="secno">2.1 </span>Scope van de samenhangende objectenregistratie</h3><p><strong>1.     In de SOR worden uitsluitend objecttypen en eigenschappen van objecttypen opgenomen die van belang zijn voor gebruik in verschillende overheidsdomeinen.</strong></p><p>Met dit uitgangspunt wordt invulling gegeven aan de ook nu al bestaande eisen die worden gesteld aan basisregistraties. De objectenregistratie fungeert daarbij als een onderdeel van het fundament voor een gegevenslandschap waarin aanvullend op dit fundament in sectorale en lokale registraties aanvullende objecttypen en eigenschappen worden geregistreerd. De samenhangende objectenregistratie fungeert daarmee dus als een verbindende schakel tussen de verschillende specifieke eigenschappen die van deze objecttypen zijn geregistreerd in de verschillende sectorale registraties. Daarnaast bevordert de samenhangende objectenregistratie indirect ook de samenhang met in die sectorale registraties opgenomen specifieke objecttypen en eigenschappen daarvan. Deze brugfunctie van de samenhangende objectenregistratie is daarmee essentieel voor het integraal kunnen gebruiken van gegevens.</p><p>Dit uitgangspunt betekent praktisch onder meer dat specifieke zoneringen en werkingsgebieden (zoals deze bijvoorbeeld voortvloeien vanuit de Omgevingswet) niet worden opgenomen in de SOR, maar “achterblijven” in sectorale registraties.</p><p><strong>2.    In de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten.</strong></p><p>De scope van de samenhangende objectenregistratie is in eerste instantie beperkt tot de bovengrond en de ondergrondse delen van objecttypen die ook in het terrein zichtbaar zijn. Denk aan aaneengesloten parkeergarages in de BAG. Daarnaast worden enkele objecttypen uit de BGT die daarin op een ander niveau zijn gepositioneerd ook in de scope van de samenhangende objectenregistratie betrokken. Het gaat daarbij met name om tunneldelen en duikers. Het tweede gedeelte van de formulering richt zich daarop.</p><p>Deze afbakening van de scope is een afgeleide van de wens om tot een helder en beheersbaar transitietraject te komen. Het ook opnemen van ondergrondse objecten in de SOR, zoals leidingnetwerken of de verschillende objecttypen die thans worden opgenomen in de Basisregistratie Ondergrond (BRO), zou op dit moment leiden tot een aanzienlijk hogere complexiteit. Dit neemt niet weg dat opname van ondergrondse objecten in de toekomst niet wordt uitgesloten. Het model van de registratie is zodanig opgezet dat op termijn ook ondergrondse objecten in de registratie kunnen worden opgenomen. Deze opname zou in de loop van de tijd ook gefaseerd kunnen plaatsvinden.</p><p><strong>3.    In de SOR worden uitsluitend objecten opgenomen die gelegen zijn op het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren.</strong></p><p>Dit uitgangspunt is met name van belang voor het bepalen wat onder grondgebiedsdekkend moet worden verstaan bij de verdere uitwerking van de registratie. Op dit moment wordt daarbij de lijn gevolgd, zoals deze ook wordt gevolgd in het kader van de BAG en de BGT. Deze beperken zich tot het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren. Een uitzondering hierop betreft de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog). Ook objecten in deze exclaves worden in de samenhangende objectenregistratie opgenomen.</p><p>Een nog nader te onderzoeken vraagpunt is in hoeverre het wenselijk dan wel noodzakelijk is om de territoriale wateren daarbij uit te breiden tot het continentaal plat. Een andere nog nader te onderzoeken vraagpunt is hoe omgegaan moet worden met de het grondgebied van de bijzondere Nederlandse gemeenten (BES-eilanden) en met het grondgebied van de andere Antillen die tot het Koninkrijk der Nederlanden behoren.</p><p><strong>4.    Bestaande objecttypen en de daarbij behorende eigenschappen vanuit de BAG en de BGT, enkele bestaande eigenschappen van objecttypen die raken aan bebouwing vanuit de WOZ en objecttypen en de daarbij behorende eigenschappen vanuit de BRT die (in de toekomst) nodig blijven voor het maken van een vernieuwd BRT kaartproduct, worden (eventueel in andere vorm) overgenomen in de SOR, tenzij er expliciete redenen aanwezig zijn om dat niet te doen.</strong></p><p>De bestaande objecttypen uit de BAG en BGT keren in principe terug in de objectenregistratie, tenzij er voor bepaalde objecttypen expliciet andere keuzen worden gemaakt. Dat laatste lijkt bijvoorbeeld het geval te zijn voor enkele objecttypen in de BGT, die als gevolg van een striktere scheiding tussen fysieke en functionele objecten een ander karakter zullen krijgen dan wel in de huidige vorm zullen verdwijnen. Ten aanzien van de objecttypen uit de BRT zal nog nader bepaald moeten worden welke objecttypen dat betreft. Een aantal van de in de BRT gehanteerde objecttypen komen namelijk in hoge mate overeen met of sluiten in hoge mate aan op objecttypen zoals deze ook zijn opgenomen in de BAG en de BGT. In de BRT zijn echter ook objecttypen opgenomen die mogelijk een onderdeel zouden moeten gaan uitmaken van de SOR.
+</p><p>Ook de verschillende aan deze objecttypen verbonden eigenschappen worden in principe opgenomen in de SOR. Dat geldt ook voor een aantal eigenschappen van objecttypen die behoren tot het informatiemodel van de WOZ. Deze eigenschappen kunnen door wijzigingen in het gebouwgedeelte van het informatiemodel van de SOR naar verwachting aan objecttypen in de SOR worden gerelateerd. Voor alle eigenschappen geldt dat hetgeen in de bestaande registraties als eigenschap is opgenomen, in de SOR als een objecttype (met een andere benaming) kan worden opgenomen. Eigenschappen worden dan inhoudelijk dus wel overgenomen, maar keren in de SOR terug in een andere vorm (zoals een objecttype) en is dus als zodanig geen eigenschap meer.</p></section><section id="algemene-uitgangspunten-samenhangende-objectenregistratie"><h3 id="x2-2-algemene-uitgangspunten-samenhangende-objectenregistratie"><span class="secno">2.2 </span>Algemene uitgangspunten samenhangende objectenregistratie</h3><p><strong>1.     In de SOR zijn uitsluitend gestandaardiseerde objecttypen en eigenschappen opgenomen.</strong></p><p>De inhoud van de objectenregistratie is volledig beschreven in de vorm van een standaard. In de registratie komen dus geen objecttypen voor die niet voldoen aan deze standaard. Ook worden in de objectenregistratie uitsluitend gestandaardiseerde eigenschappen van deze objecttypen opgenomen.</p><p>Onderdeel van deze standaardisatie is dat van de verschillende objecttypen en eigenschappen ook de beoogde kwaliteit is beschreven. Van de objecttypen is dus opgenomen welke eisen er worden gesteld aan de volledigheid en actualiteit van de in de registratie opgenomen objecten. Van de eigenschappen van de objecttypen is vastgelegd wat de beoogde actualiteit en nauwkeurigheid van de in de registratie opgenomen gegevens is.</p><p><strong>2.     Definities van zowel objecttypen als eigenschappen van objecttypen zijn scherp afgebakend, niet multi-interpretabel en sluiten waar mogelijk aan op bestaande definities.</strong></p><p>Het is van groot belang dat de basis van een informatiemodel voor een samenhangende objectenregistratie wordt gevormd door een aantal onderling goed afgestemde en heldere definities. In de bestaande basisregistraties is daarvan momenteel niet altijd sprake. Hierdoor wordt de onderlinge koppelbaarheid van gegevens beperkt en laat de uniformiteit van de opgenomen gegevens (door interpretatieverschillen of in de definities opgenomen vrijheidsgraden) nogal eens te wensen over. Bij de verdere uitwerking van de inhoud van een samenhangende objectenregistratie worden bestaande definities daarom zodanig uitgebreid en geharmoniseerd dat:
+</p><ul>
+<li>een scherp afgebakende en duidelijke definitie van objecttypen en eigenschappen ontstaat;</li>
+<li>definities elkaar semantisch niet overlappen;</li>
+<li>er niet langer gebruik wordt gemaakt van verzamelclassificaties;</li>
+<li>een optimale aansluiting op overkoepelende modellen en sectorale modellen wordt gerealiseerd, zoals NEN 3610 (Basismodel Geo-informatie) en NEN 2660 (Ordeningsregels voor gegevens in de bouw - Termen, definities en algemene regels)</li>
+</ul><p><strong>3. Objecttypen en eigenschappen van objecttypen moeten in de SOR worden opgenomen als deze in het kader van de SOR als wettelijk verplicht zijn aangemerkt en mogen in de registratie worden opgenomen als deze als vrijwillig zijn aangemerkt in het kader van de SOR.</strong></p><p>De grondgedachte van de samenhangende objectenregistratie is dat deze bestaat uit:</p><ul>
+<li>verplichte en gestandaardiseerde objecttypen en eigenschappen (het formele basisregistratie gedeelte)</li>
+<li>vrijwillige maar wel gestandaardiseerde objecttypen en eigenschappen</li>
+</ul><p>Hierbij is het belangrijk dat opname van vrijwillige objecten en gegevens door een bronhouder ook betekent dat deze gegevens blijvend worden bijgehouden. Voor alle opgenomen objecten en gegevens (zowel in het verplichte als het vrijwillige gedeelte) gelden dus blijvend de bijhoudingsregels die behoren bij het betreffende objecttype en eigenschappen. Bij de verdere uitwerking van de organisatie van de samenhangende objectenregistratie zullen afspraken moeten worden gemaakt over de omgang met in de registratie opgenomen objecten en gegevens die blijvend niet aan de bijhoudingsregels voldoen.</p><p>Voor het basisregistratie gedeelte gelden de 12 eisen die aan basisregistraties worden gesteld (<a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/gegevens/naar-een-gegevenslandschap/themas/twaalf-eisen-stelsel-van-basisregistraties/">https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/gegevens/naar-een-gegevenslandschap/themas/twaalf-eisen-stelsel-van-basisregistraties/</a>) en waarvan voor de verdere uitwerking van de inhoud van de samenhangende objectenregistratie met name de eisen 6 (er is duidelijkheid over inhoud en bereik van de registratie) en 11 (de positie van de basisregistratie binnen het stelsel van basisregistraties is duidelijk en de relaties met de basisregistraties zijn beschreven) van belang zijn.</p><p>Het onderscheid tussen het verplichte gedeelte en het vrijwillige gedeelte kan (zoals ook opgenomen in de beleidsvisie) als volgt worden gevisualiseerd:</p><p><img src="media/verplicht_vrijwillig.png" alt="onderscheid verplicht en vrijwillig"></p><p>Dit betekent dus dat gebruikers van het verplichte gedeelte van de samenhangende objectenregistratie zekerheid hebben over de volledigheid van de daarin opgenomen objecten en gegevens. Omdat bronhouders de keuze hebben om objecten of gegevens al dan niet op te nemen in het vrijwillige gedeelte van de objectenregistratie, hebben gebruikers van de samenhangende objectenregistratie die zekerheid niet bij de vrijwillig op te nemen objecten en gegevens. In de communicatie rondom de informatieproducten van de samenhangende objectenregistratie zal dit principe en de mate waarin verschillende bronhouders al dan geen gebruik maken van het vrijwillige gedeelte duidelijk gecommuniceerd moeten worden.</p><p><strong>4.     Objecttypen en eigenschappen van objecttypen worden zodanig in de SOR opgenomen dat uitbreiding en inkrimping van het aantal objecttypen en eigenschappen en het aanpassen van de kwalificatie van objecttypen en eigenschappen als verplicht of vrijwillig binnen het informatiemodel eenvoudig mogelijk is.</strong></p><p>Het moet mogelijk zijn om de inhoud van de samenhangende objectenregistratie relatief eenvoudig aan te kunnen passen. Dit begint met een informatiemodel dat dergelijke aanpassingen kan faciliteren. Dat betekent dat bijvoorbeeld het onderscheid tussen verplichte en vrijwillige objecten in de registratie niet diepgaand in het uitgewerkte informatiemodel moet worden verankerd. Of aanpassing ook daadwerkelijk zal plaatsvinden is uiteraard afhankelijk van de afspraken die er worden gemaakt over de wijze waarop besluitvorming over wijzigingen plaatsvindt en hoe er wordt omgegaan met de gevolgen daarvan voor bronhouders en gebruikers. Bij het doorvoeren van dit soort wijzigingen moeten er altijd heldere transitieafspraken worden gemaakt.</p></section><section id="uitgangspunten-over-de-objecttypen"><h3 id="x2-3-uitgangspunten-over-de-objecttypen"><span class="secno">2.3 </span>Uitgangspunten over de objecttypen</h3><p><strong>1.    In de SOR wordt een expliciet onderscheid gemaakt tussen fysieke en functionele objecttypen.</strong></p><p>Bij de uitwerking van de SOR wordt een scheiding aangebracht tussen fysieke objecttypen en functionele objecttypen. De aanleiding is dat definities van functionele objecttypen sterk samenhangen met specifieke gebruikstoepassingen of afsprakenkaders. Fysieke objecttypen worden altijd gedefinieerd door hetgeen in het terrein zichtbaar is. Door in de SOR een strikte scheiding aan te brengen tussen fysieke objecttypen en functionele objecttypen, kunnen duidelijkere regels worden opgesteld over onder meer samenhang en overlap van verschillende objecttypen. Daar waar dat de in de huidige registraties vaak niet mogelijk is, wordt het in de SOR bijvoorbeeld mogelijk dat er meerdere functionele indelingen op één fysieke locatie voorkomen. Hiermee vergroten we de flexibiliteit en de gebruiksmogelijkheden van de SOR enorm. Functionele en fysieke objecttypen worden hierbij altijd als aparte objecttypen gedefinieerd, als de begrenzing ervan kan verschillen .</p><p><strong>2.    Het objectenmodel van de SOR wordt opgebouwd vanuit de kleinste semantische eenheden die het minimum detailniveau aangeven waarvan is vastgesteld dat deze van waarde zijn voor meerdere gebruikers van de registratie.</strong></p><p>Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste semantische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit minimum detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. Op het moment dat bepaalde gebruikers binnen deze kleinste semantische eenheid voor eigen gebruik nog een nadere detaillering wil aanbrengen, dan zal de gebruiker dat als onderdeel van de eigen sectorale registratie zelf nader moeten vormgeven. Hierbij kan bijvoorbeeld worden gedacht aan het nader detailleren van een groenobject in verschillende beplantingsvakken als onderdeel van het werkproces voor het beheren van de openbare ruimte.</p><p>Een onderwerp dat in het kader van dit uitgangspunt in het vervolgtraject nog nader zal moeten worden uitgewerkt is de vraag op welke wijze binnen het conceptueel model zal worden omgegaan met objecten die het gevolg zijn van aggregatie. Hierbij kan bijvoorbeeld worden gedacht aan de momenteel in de BRT voorkomende objecttype “gebouw” dat ontstaat door aggregatie van het in de BAG en de BGT voorkomende objecttype “pand”. Hierbij is in het kader van de SOR het uitgangspunt dat gegevens worden ingewonnen met een mate van detail die behoort bij een schaalniveau 1 : 1000. Geaggregeerde objecten moeten dus op basis van deze gegevens kunnen worden gevormd.</p><p>Vragen die daarbij eveneens zullen moeten worden beantwoord is in hoeverre geaggregeerde objecten ook terug te herleiden moeten zijn tot de verschillende oorspronkelijke objecten en wat er wordt voorgeschreven voor verplicht gebruik bij geaggregeerde objecten (het algoritme of een vastlegging van de uitkomst van dit algoritme).</p><p><strong>3.    Objecten worden in de SOR opgenomen op het moment dat deze volgens de voor het betreffende objecttype gedefinieerde criteria ontstaan en blijven daarna altijd in de registratie aanwezig, waarbij voor elk objecttype is vastgelegd welke levensfasen in de vastlegging van een object worden onderscheiden.</strong></p><p>Met dit uitgangspunt wordt beoogd dat de volledige levensloop van een object geregistreerd wordt. Deze levensloop begint op het gedefinieerde ontstaansmoment, dat per objecttype kan verschillen. Zo is voor bepaalde objecttypen een planstatus relevant, terwijl dit voor andere objecttypen minder relevant lijkt. De objecten blijven daarna altijd in de registratie aanwezig. Door middel van een vastlegging van de levensfase van een object kan worden bepaald of een object ook nog als zodanig bestaat. Objecten worden daarbij niet afgevoerd, maar historisch gemaakt. Belangrijk is dus dat gedurende de gehele levensloop sprake is van hetzelfde unieke object (met dezelfde identificatiecode).</p><p>In de samenhangende objectenregistratie betekent dit ook dat er eensluidende uitgangspunten moeten worden vastgesteld over het te hanteren historiemodel. Het gaat daarbij onder meer om de wijze waarop wordt omgegaan met de modellering van de formele en materiele historie.</p></section><section id="uitgangspunten-over-de-eigenschappen"><h3 id="x2-4-uitgangspunten-over-de-eigenschappen"><span class="secno">2.4 </span>Uitgangspunten over de eigenschappen</h3><p><strong>1.    Elk object in de SOR wordt voorzien van een unieke identificatiecode die gedurende de gehele levensloop van een object ongewijzigd blijft .</strong></p><p>Elk object in de registratie wordt voorzien van een unieke identificatiecode. Deze identificatiecode maakt het mogelijk om andere gegevens te koppelen aan het betreffende object. Hiervoor is het van belang dat de identificatiecode van een object gedurende de gehele levensloop van een object hetzelfde blijft. Een object blijft op deze wijze voor de gebruiker van de gegevens over het object herkenbaar. Mocht het desalniettemin noodzakelijk zijn wijzigingen aan te brengen in identificatiecodes van objecten, dan zal minimaal moeten worden geborgd dat de oude identificatiecodes gedurende een geruime tijd behouden blijven, om gebruikers de overgang naar de nieuwe identificatiecodes zorgvuldig te laten uitvoeren.</p><p><strong>2.    Van elk object in de SOR is helder wat de typering is van het betreffende object.</strong></p><p>Elk object in de registratie zal altijd moeten worden gekarakteriseerd als een bepaald type object. In het informatiemodel zal daarom moeten worden geborgd dat deze typering is vast te stellen. Dat kan in de verdere uitwerking op twee manieren worden vormgegeven. De eerste manier is via de objecttypenaam. Uit de definitie van het betreffende objecttype volgt dan expliciet wat voor soort object het betreft. Een voorbeeld hiervan zou een objecttype “abri” zijn. Wat voor soort object het betreft kan ook worden vastgelegd door het registreren van een typering als eigenschap van het objecttype. In hetzelfde voorbeeld zou “abri” dan een van de typeringen kunnen zijn die kan worden toegekend aan een objecttype “straatmeubilair”. Op welke wijze typeringen worden opgenomen is afhankelijk van de keuzen die worden gemaakt rondom bepaalde groepen van objecten.</p><p><strong>3.    Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie conform hetgeen daarover voor het betreffende objecttype is bepaald, waarbij de vastlegging hiervan zodanig wordt vormgegeven dat de driedimensionale (3D) beschrijving van een object kan worden opgenomen.</strong></p><p>Opname van geometrie van alle objecten in de registratie is van essentieel belang voor het goed kunnen functioneren van een geo-basisregistratie. Met geometrie wordt daarbij expliciet bedoeld een geo-gerefereerde vastlegging van de begrenzing van een object.  Met geo-gerefereerde vastlegging wordt bedoeld dat de geometrie is beschreven in de vorm van coördinaten die onderdeel uitmaken van een referentie coördinatenstelsel (zoals het RD stelsel of ETRS89). De registratie wordt daarbij direct voorbereid op 3D vastlegging van objecten.</p><p>Hierbij kan de wijze van vastlegging verschillen voor de diverse objecttypen. Sommige objecttypen zullen worden vastgelegd in de vorm van 3D volumes. Andere objecttypen als vlakken met een bepaalde hoogteligging. Voor bepaalde objecten met een minimale omvang kan ook geometrische vastlegging in de vorm van een enkel coördinatendrietal (x, y en z) worden vastgelegd (puntobject).
+</p><p>Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie zullen in de regel nadere eisen worden gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende fysieke objecten). Ook worden bij dit soort objecten soms ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast zal er in de verdere uitwerking ook nog aandacht moeten worden besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan hectometerpaaltjes, verdiepingsnummers en bouwlagen.</p><p><strong>4.    In de SOR kunnen van bepaalde objecttypen aanvullende eigenschappen worden vastgelegd, als deze van belang zijn voor meerdere gebruikers vanuit verschillende gebruikersdomeinen.</strong></p><p>De samenhangende objectenregistratie heeft primair het karakter van een basisregistratie. Dat betekent dat in de registratie van objecttypen alleen eigenschappen worden vastgelegd die in verschillende overheidsdomeinen worden gebruikt. Hierbij kunnen er tussen verschillende objecttypen grote verschillen bestaan tussen het aantal eigenschappen dat dit betreft. Bij het objecttype ‘pand’ worden bijvoorbeeld aanzienlijk meer eigenschappen vastgelegd dan bij een objecttype ‘tunneldeel’.</p><p><strong>5.    Van elk object in de SOR wordt meta-informatie opgenomen conform hetgeen daarover voor het betreffende objecttype is bepaald.</strong></p><p>Bij meta-informatie gaat het onder meer over informatie over de kwaliteit, ontstaansmoment en versie van het object. Voor het vastleggen van meta-informatie zullen nog nadere afspraken moeten worden ontwikkeld, waarbij het uitgangspunt is dat zoveel mogelijk wordt aangesloten op hiervoor bestaande standaarden. Deze zullen worden toegespitst op de verschillende soorten objecttypen. In de huidige basisregistraties wordt aan dit aspect op verschillende wijzen invulling gegeven. In de BAG wordt gewerkt met verwijzingen naar brondocumenten, in de BGT wordt hieraan op dit moment invulling gegeven met de opname van plaatsbepalingspunten en in de WOZ wordt hiervoor specifieke kwaliteitsinformatie aan de registratie toegevoegd.</p></section></section><section data-format="markdown" id="beschrijving-denkraam-samenhangende-objectenregistratie"><!--OddPage--><h2 id="x3-beschrijving-denkraam-samenhangende-objectenregistratie"><span class="secno">3. </span>Beschrijving denkraam samenhangende objectenregistratie</h2><section id="hoofdstructuur-van-de-objectenregistratie"><h3 id="x3-1-hoofdstructuur-van-de-objectenregistratie"><span class="secno">3.1 </span>Hoofdstructuur van de objectenregistratie</h3><p>Een belangrijk uitgangspunt voor de verdere uitwerking van de inhoud van de SOR is een strikte scheiding tussen fysieke objecttypen en functionele objecttypen. Fysieke objecttypen zijn in de werkelijkheid voorkomende tastbare objecttypen, zoals gebouwen, verharding, water, spoorlijnen en bomen. Fysieke objecttypen worden altijd gedefinieerd door hetgeen in het terrein zichtbaar is. Functionele objecttypen hangen altijd samen met specifieke gebruikersbehoeften of formele afsprakenkaders. De definitie van deze objecttypen wordt dan ook altijd bepaald door hetgeen partijen hierover gezamenlijk vastleggen zonder dat dit altijd direct te relateren is aan in het terrein zichtbare onderdelen. Denk aan objecttypen als een park, een carpoolplaats of een waterbergingsgebied, waarvan de begrenzing niet direct tastbaar in het terrein is te constateren, maar volledig wordt bepaald door de exacte afspraken die daarover zijn gemaakt (zoals: hoort de berm van de carpoolplaats wel of niet tot de carpoolplaats?).</p><p><code>Voorbeeld: Van een weg wordt de verharding, bijvoorbeeld asfalt of gebakken klinkers, als een verhardingsobject vastgelegd met type ‘asfalt’ of ‘gebakken klinkers’. De functie van die weg wordt vastgelegd als functioneel gebied. Het functionele gebied zal iets zeggen over het gebruik van de weg, dus is het een ‘rijbaan autosnelweg’ of is het een ‘rijbaan lokale weg’. Maar het kan ook iets zeggen over bijvoorbeeld de weggebruikers die van deze weg gebruik mogen maken, zoals ‘auto’, ‘fietser’ en/of ‘voetganger’. Daarmee zijn er voor een weg dus al twee verschillende functionele indelingen die algemeen gebruikt worden.</code></p><p>De mate waarin er ruimte bestaat om als bronhouder de begrenzing van functionele objecttypen te bepalen wordt in de praktijk in een aantal gevallen beperkt omdat de functionele begrenzing van deze objecten voortvloeit vanuit formele besluiten hierover door een bestuursorgaan. De in deze besluiten opgenomen begrenzingen zullen dan één op één moeten worden overgenomen in de registratie. Bij de andere functionele objecttypen zal de begrenzing van objecten primair worden bepaald door het toepassen van afsprakenkaders en afbakeningsregels door de bronhouder van het betreffende objecttype in de basisregistratie. Om die reden wordt er in de verdere uitwerking van de objectenregistratie een nader onderscheid gemaakt tussen functionele objecten waarvan de afbakening en benoeming plaatsvindt op basis van formele regelgeving of besluiten en de overige functionele objecten. De eerste categorie zullen we hierna verder aanduiden als registratieve objecttypen.</p><p>In het denkraam voor de samenhangende objectenregistratie zijn de objecttypen dus gecategoriseerd naar:</p><ul>
+<li>Fysieke objecttypen
+</li>
+<li>Functionele objecttypen
+</li>
+<li>Registratieve objecttypen</li>
+</ul><p>Deze ordening in drie categorieën kan als volgt worden gevisualiseerd:
+<img src="media/ordening_objecttypen.png" alt="Ordening van objecttypen">
+Het onderscheid in de verschillende kleuren, grijs (verharding), groen, blauw (water) en oranje (bebouwing) is puur bedoeld voor de beeldvorming en is verder van geen betekenis voor het informatiemodel</p><p>Hieronder zijn eerste definities opgenomen van de verschillende in het kader van de samenhangende objectenregistratie onderscheiden fysieke objecttypen, functionele objecttypen en registratieve objecttypen. Het uitgangspunt voor deze definities vormen de in de bestaande basisregistraties gehanteerde definities. Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen zijn deze definities soms op onderdelen aangepast. Waar mogelijk is de aansluiting gezocht op de aangescherpte definities die momenteel in het kader van de vernieuwing van NEN 3610 (basismodel geo-informatie) worden ontwikkeld. Bij enkele objecttypen is gebruik gemaakt van eerste voorlopige definities die door de werkgroepen zijn opgesteld.</p></section><section id="fysieke-objecttypen"><h3 id="x3-2-fysieke-objecttypen"><span class="secno">3.2 </span>Fysieke objecttypen</h3><p>Fysieke objecttypen zijn in de werkelijkheid voorkomende zichtbare en tastbare objecten. Daaronder verstaan we dus objecttypen zoals gebouwen, verharding, water, spoorlijnen en bomen. In het verplichte en gestandaardiseerde deel van de SOR is op maaiveldniveau het grondgebied van Nederland voor de actuele situatie voor 100% bedekt met vlakken die onderdeel uitmaken van een fysiek object. Dat fysieke object kan uitsluitend een object van één van de hieronder benoemde opdelende objecttypen zijn. Objecten mogen elkaar op maaiveldniveau niet overlappen en dienen naadloos op elkaar aan te sluiten. Er mogen op maaiveld niveau ook geen gaten tussen fysieke objecttypen voorkomen. Wanneer objecten boven of onder elkaar liggen, bijvoorbeeld bij een viaduct, liggen ze op verschillende niveaus en kunnen fysieke objecten elkaar wel overlappen. De geometrische vastlegging van fysieke objecttypen kan afhankelijk van het objecttype plaatsvinden in de vorm van een punt, een lijn, een vlak of een volume (3D-object).</p><p>Tot de opdelende fysieke objecttypen worden de volgende objecttypen (met de daarbij behorende voorlopige definities) gerekend:
+</p><ul>
+<li><p><strong>Verhardingsobject</strong>
+In één of meer lagen aangelegd materiaal, welke zijn gelegd over een ondergrond of onderliggende constructie, aangelegd om een oppervlakte geschikt te maken voor het beoogde gebruik, door te egaliseren, te verstevigen en/of te verruwen. 
+(herkomst definitie: Voorstel NEN3610)
+</p>
+</li>
+<li><p><strong>Groenobject</strong>
+Op basis van type begroeiing, beplanting, natuurlijk voorkomen of morfologische aspecten getypeerd stuk aardoppervlak (herkomst definitie: Voorstel NEN3610)</p>
+</li>
+<li><p><strong>Onbepaald terreindeel</strong>
+Fysiek begrensd en zichtbaar terreindeel dat bij een gebouw hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van begroeiing, verharding, en/of water. (eerste versie van definitie voor SOR gebaseerd op definitie erf uit BGT)</p>
+</li>
+<li><p><strong>Waterobject</strong>
+Grondoppervlak permanent of periodiek bedekt met water. (herkomst definitie: Voorstel NEN3610)</p>
+</li>
+<li><p><strong>Gebouw</strong>
+Grootste, aaneengesloten, homogene, duurzaam met de aarde verbonden en omsloten bouwkundige eenheid binnen een Gebouwblok. (herkomst eerste globale aanzet van een definitie: eindrapport werkgroep bouwwerken)</p>
+</li>
+<li><p><strong>Constructie</strong> 
+Overige bouwwerken niet zijnde een Gebouw. (eerste versie van definitie voor SOR)</p>
+</li>
+<li><p><strong>Kunstwerkdeel</strong>
+Onderdeel van een civieltechnisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. (herkomst definitie: BGT 1.1.1)</p>
+</li>
+<li><p><strong>Tunneldeel</strong>
+Onderdeel van een kunstmatig aangelegde, kokervormige onderdoorgang dat essentieel is voor de constructie. (herkomst definitie: BGT 1.1.1)</p>
+</li>
+<li><p><strong>Overbruggingsdeel</strong> 
+Onderdeel van een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins gescheiden zijn, dat essentieel is voor de constructie. (herkomst definitie: BGT 1.1.1)</p>
+</li>
+<li><p><strong>Scheiding</strong>
+Kunstmatig, meestal lineair obstakel met een werend karakter (herkomst definitie: gebaseerd op BGT 1.1.1)</p>
+</li>
+</ul><p>Naast deze opdelende objecttypen worden binnen het gebouwmodel overigens op dit moment ook nog de volgende objecttypen onderscheiden:</p><ul>
+<li><p><strong>Gebouwblok</strong>
+Grootste aaneengesloten samenstel van gebouwen die bouwkundig-constructief met elkaar verbonden zijn. (herkomst eerste globale aanzet van een definitie: eindrapport werkgroep bouwwerken)</p>
+</li>
+<li><p><strong>Bouwlaag</strong>
+De verzameling Ruimten op hetzelfde niveau binnen een Gebouw. (herkomst eerste globale aanzet van een definitie: eindrapport werkgroep bouwwerken)</p>
+</li>
+<li><p><strong>Installatie / voorziening</strong>
+Geheel van relevante installaties of andere voorzieningen in of aan en ten dienste van het Gebouw (herkomst eerste globale aanzet van een definitie: eindrapport werkgroep bouwwerken)</p>
+</li>
+<li><p><strong>Toegangsdeur</strong>
+Deur of andere voorziening die vanaf de openbare weg, een erf of een gedeelde verkeersruimte toegang geeft tot een Gebouw of Verblijfsobject. (herkomst eerste globale aanzet van een definitie: eindrapport werkgroep bouwwerken)</p>
+</li>
+</ul></section><section id="functionele-objecttypen"><h3 id="x3-3-functionele-objecttypen"><span class="secno">3.3 </span>Functionele objecttypen</h3><p>Functionele objecttypen zijn objecttypen waarvan de begrenzing altijd wordt bepaald door hetgeen partijen hierover gezamenlijk vastleggen zonder dat dit altijd direct te relateren is aan in het terrein zichtbare onderdelen. Daaronder verstaan we dus objecttypen als een park, een carpoolplaats en een waterbergingsgebied. Omdat functionele objecttypen sterk afhankelijk zijn van één of meerdere gebruikersgroepen, kunnen meerdere functionele objecttypen boven, onder of naast elkaar voorkomen op dezelfde locatie. Een speelplaats kan bijvoorbeeld bij noodweer ook dienen als waterbergingsgebied. Geometrische vastlegging van functionele objecttypen kan in de vorm van een punt, een lijn, een vlak of een volume (3D-object). Denk hierbij aan verblijfsobjecten (punt), netwerken (lijn) en functionele gebieden (vlak).</p><p>Deze functionele gebieden (vlak) zijn niet landsdekkend. Dit betekent dat ongeacht het niveau, maaiveld of onder/boven maaiveld, functionele objecten het grondgebied van Nederland niet voor 100% bedekken. Objecten mogen elkaar dus overlappen en er mogen gaten voorkomen. In de SOR worden uitsluitend functionele objecttypen opgenomen die van belang zijn voor meerdere gebruikers in verschillende overheidsdomeinen.</p><p>Functionele objecttypen in de objectenregistratie zijn:</p><ul>
+<li><p><strong>Functioneel gebied</strong>
+Door functie of gebruik begrensd gebied. (herkomst definitie: Voorstel NEN3610)</p>
+</li>
+<li><p><strong>Netwerk voor wegen, water en spoor</strong>
+Een samenhangend stelsel van aan elkaar gesloten wegen, spoorwegen, water- en vaarwegen waardoor vlotte verplaatsing tussen twee locaties mogelijk is. Waar van toepassing middels de beoogde modaliteit. Dit is opgebouwd uit verbindingen en knooppunten. (herkomst definitie: Voorstel NEN3610)</p>
+</li>
+<li><p><strong>Verblijfsobject</strong>
+De kleinste binnen een of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. (herkomst definitie: Artikel 1 Wet basisregistratie adressen en gebouwen)</p>
+</li>
+<li><p><strong>Gebouwzone</strong>
+Het grootst mogelijke gedeelte van een bouwwerk dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is. (herkomst eerste globale aanzet van een definitie: eindrapport werkgroep bouwwerken)</p>
+</li>
+</ul></section><section id="registratieve-objecttypen"><h3 id="x3-4-registratieve-objecttypen"><span class="secno">3.4 </span>Registratieve objecttypen</h3><p>Registratieve objecttypen zijn objecttypen waarvan de afbakening en benoeming plaatsvindt op basis van formele regelgeving of besluiten. Het gaat vaak om gebieden waarin sprake is van een eenheid van politiek/bestuurlijke verantwoordelijkheid. Denk hierbij aan de begrenzing van provincies en gemeenten. Maar het kan ook gaan om ruimtelijke objecttypen waarvan het bestaan voortvloeit vanuit hetgeen in een besluit daarover wordt bepaald. Voorbeelden hiervan zijn gemeentelijke besluiten waarin woonplaatsen worden aangewezen, en stand- en ligplaatsen (volgens de Wet BAG) worden benoemd. 
+Geometrische vastlegging van registratieve objecttypen vindt plaats in de vorm van een lijn of een vlak.
+Registratieve objecttypen in de objectenregistratie zijn:
+</p><ul>
+<li><p><strong>Woonplaats</strong>
+Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente. (herkomst definitie: Artikel 1 Wet basisregistratie adressen en gebouwen)</p>
+</li>
+<li><p><strong>Openbare ruimte</strong>
+Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen. (herkomst definitie: Artikel 1 Wet basisregistratie adressen en gebouwen)</p>
+</li>
+<li><p><strong>Nummeraanduiding</strong>
+Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats. (herkomst definitie: Artikel 1 Wet basisregistratie adressen en gebouwen)</p>
+</li>
+<li><p><strong>Ligplaats</strong>
+Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object. (<em>herkomst</em> definitie: Artikel 1 Wet basisregistratie adressen en gebouwen)</p>
+</li>
+<li><p><strong>Standplaats</strong>
+Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte. (herkomst definitie: Artikel 1 Wet basisregistratie adressen en gebouwen)</p>
+</li>
+<li><p><strong>Wijk</strong>
+Een door het bevoegde gemeentelijke orgaan als zodanig afgebakend gebied, aangewezen en van naam voorzien, dat geldt als eenheid van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering en een cluster is van buurten (eerste versie van definitie voor SOR)</p>
+</li>
+<li><p><strong>Buurt</strong>
+Een door het bevoegde gemeentelijke orgaan als zodanig afgebakend gebied, aangewezen en van naam voorzien, dat als kleinste eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering. (eerste versie van definitie voor SOR)</p>
+</li>
+<li><p><strong>Rijk</strong>
+Het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren (eerste versie van definitie voor SOR)</p>
+</li>
+<li><p><strong>Provincie</strong>
+Een door het parlement als provincie in een wet benoemd gedeelte van het Nederlands grondgebied (eerste versie van definitie voor SOR) </p>
+</li>
+<li><p><strong>Gemeente</strong>
+Een door het parlement als gemeente in een wet benoemd gedeelte van het Nederlands grondgebied (eerste versie van definitie voor SOR)</p>
+</li>
+<li><p><strong>Waterschap</strong>
+Een door het bevoegde provinciale orgaan als zodanig afgebakend gebied, aangewezen en van naam voorzien, dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid voor beheer van het water en de waterstaatszorg. (eerste versie van definitie voor SOR)</p>
+</li>
+</ul><p>Ook de <strong>bebouwde kom</strong> zal in de samenhangende objectenregistratie op worden genomen. De verdere uitwerking van dit begrip moet echter nog plaatsvinden.</p></section><section id="hoofdinvulling-samenhangende-objectenregistratie"><h3 id="x3-5-hoofdinvulling-samenhangende-objectenregistratie"><span class="secno">3.5 </span>Hoofdinvulling samenhangende objectenregistratie</h3><p>Opname van de verschillende hiervoor gedefinieerde objecttypen in de eerder gepresenteerde ordening van objecttypen naar fysieke objecttypen, functionele objecttypen en registratieve objecttypen enerzijds en naar hoofdsoorten (verharding, groen, water en bebouwing) anderzijds, levert de volgende hoofdinvulling van de samenhangende objectenregistratie op:</p><p><img src="media/hoofdinvulling.png" alt="Hoofdinvulling"></p><p>Voor de volledigheid wordt er nogmaals op gewezen dat in de hoofdinvulling uitsluitend de op dit moment bekende beelden zijn verwerkt. De hoofdindeling is dus nog niet compleet. Zo ontbreken bijvoorbeeld nog inrichtingselementen zoals deze momenteel in IMGeo zijn opgenomen. De verdere aanvulling van de hoofdinvulling zal in het vervolgtraject plaatsvinden.</p></section></section><section data-format="markdown" id="aanzet-tot-nadere-typering-van-de-verschillende-objecttypen"><!--OddPage--><h2 id="x4-aanzet-tot-nadere-typering-van-de-verschillende-objecttypen"><span class="secno">4. </span>Aanzet tot nadere typering van de verschillende objecttypen</h2><p>In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de verschillende fysieke objecttypen en functionele objecttypen in de samenhangende objectenregistratie. Deze aanzet is primair gebaseerd op de ook nu reeds in de bestaande basisregistraties gehanteerde typeringen. Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen zijn op deze typeringen soms beperkte aanpassingen doorgevoerd. Ook zijn enkele eerste wijzigingen voorgesteld die het gevolg zijn van het in hoofdstuk 2 genoemde uitgangspunt over heldere definiëring. Tenslotte is daar waar mogelijk reeds bekeken in hoeverre aanpalende sectorale typeringen aanleiding kunnen geven tot een aangescherpte typering.
+</p><p>Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).</p><section id="typering-fysieke-objecttypen-in-de-objectenregistratie"><h3 id="x4-1-typering-fysieke-objecttypen-in-de-objectenregistratie"><span class="secno">4.1 </span>Typering fysieke objecttypen in de objectenregistratie</h3><p><strong>Verhardingsobject</strong>
+Voor het objecttype ‘verhardingsobject’ is de typering overgenomen uit IMBOR 2020. Dit leidt tot de volgende mogelijke typeringen:</p><table>
+<thead>
+<tr>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fysiek voorkomen:</td>
+<td></td>
+</tr>
+<tr>
+<td>Asfaltverharding</td>
+<td>Zoab en open deklagen</td>
+</tr>
+<tr>
+<td></td>
+<td>Oppervlakbehandelingen</td>
+</tr>
+<tr>
+<td></td>
+<td>Dichte deklagen</td>
+</tr>
+<tr>
+<td>Betonverharding</td>
+<td>Ongewapend verdeuveld beton</td>
+</tr>
+<tr>
+<td></td>
+<td>Gewapend beton</td>
+</tr>
+<tr>
+<td></td>
+<td>Oppervlakbehandelingen</td>
+</tr>
+<tr>
+<td></td>
+<td>Ongewapend nietverdeuveld beton</td>
+</tr>
+<tr>
+<td>Elementenverharding</td>
+<td>Natuursteen</td>
+</tr>
+<tr>
+<td></td>
+<td>Straatbaksteen</td>
+</tr>
+<tr>
+<td></td>
+<td>Glas</td>
+</tr>
+<tr>
+<td></td>
+<td>Betonstraatstenen</td>
+</tr>
+<tr>
+<td></td>
+<td>Tegels</td>
+</tr>
+<tr>
+<td></td>
+<td>Hout</td>
+</tr>
+<tr>
+<td></td>
+<td>Betonelement</td>
+</tr>
+<tr>
+<td></td>
+<td>Metaal</td>
+</tr>
+<tr>
+<td></td>
+<td>Sierbestrating</td>
+</tr>
+<tr>
+<td>Halfverharding</td>
+<td>Samenhangend</td>
+</tr>
+<tr>
+<td></td>
+<td>Los</td>
+</tr>
+<tr>
+<td>Kunststofverharding</td>
+<td>Kunststof vloer</td>
+</tr>
+<tr>
+<td></td>
+<td>Kunstgras</td>
+</tr>
+<tr>
+<td>Onverhard</td>
+<td>Zand</td>
+</tr>
+<tr>
+<td></td>
+<td>Zwarte grond</td>
+</tr>
+<tr>
+<td></td>
+<td>Open grond</td>
+</tr>
+</tbody></table><p><strong>Onbepaald terreindeel</strong>
+Het objecttype ‘Onbepaald terreindeel’ is een nieuw objecttype. Voorgesteld wordt om de volgende typering op te nemen:</p><table>
+<thead>
+<tr>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fysiek voorkomen:</td>
+<td></td>
+</tr>
+<tr>
+<td>Onbekend</td>
+<td></td>
+</tr>
+</tbody></table><p><strong>Groenobject</strong>
+Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige BGT|IMGeo 2.1.1. Verwacht wordt dat een uitbreiding van typeringen bij groenvoorziening voor hagen en boomspiegels noodzakelijk is. Hiervoor is nadere afstemming met IMBOR 2020 nodig. Dit leidt tot de volgende typeringen voor het objecttype ‘groenobject’:</p><table>
+<thead>
+<tr>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fysiek voorkomen:</td>
+<td></td>
+</tr>
+<tr>
+<td>Boomteelt</td>
+<td></td>
+</tr>
+<tr>
+<td>Bouwland</td>
+<td>Braakliggend</td>
+</tr>
+<tr>
+<td></td>
+<td>Tuinachtige grond</td>
+</tr>
+<tr>
+<td></td>
+<td>Tuinbouwgrond</td>
+</tr>
+<tr>
+<td></td>
+<td>Bollenteelt</td>
+</tr>
+<tr>
+<td></td>
+<td>Vollegrondsteelt</td>
+</tr>
+<tr>
+<td></td>
+<td>Akkerbouw</td>
+</tr>
+<tr>
+<td>Duin</td>
+<td>Gesloten duinvegetatie</td>
+</tr>
+<tr>
+<td></td>
+<td>Open duinvegetatie</td>
+</tr>
+<tr>
+<td>Fruitteelt</td>
+<td>Laagstam boomgaarden</td>
+</tr>
+<tr>
+<td></td>
+<td>Klein fruit</td>
+</tr>
+<tr>
+<td></td>
+<td>Hoogstam boomgaarden</td>
+</tr>
+<tr>
+<td></td>
+<td>Wijngaarden</td>
+</tr>
+<tr>
+<td>Grasland agrarisch</td>
+<td>Weide</td>
+</tr>
+<tr>
+<td></td>
+<td>Grasland overig</td>
+</tr>
+<tr>
+<td></td>
+<td>Schraalgrasland</td>
+</tr>
+<tr>
+<td></td>
+<td>Ruig gras</td>
+</tr>
+<tr>
+<td></td>
+<td>Natuurlijke grasvegetatie</td>
+</tr>
+<tr>
+<td>Gemengd bos</td>
+<td></td>
+</tr>
+<tr>
+<td>Graft</td>
+<td></td>
+</tr>
+<tr>
+<td>Heide</td>
+<td>Droge heide</td>
+</tr>
+<tr>
+<td></td>
+<td>Natte heide</td>
+</tr>
+<tr>
+<td>Houtwal</td>
+<td></td>
+</tr>
+<tr>
+<td>Kwelder</td>
+<td></td>
+</tr>
+<tr>
+<td>Loofbos</td>
+<td>Griend en hakhout</td>
+</tr>
+<tr>
+<td>Moeras</td>
+<td>Moerasvegetatie</td>
+</tr>
+<tr>
+<td>Naaldbos</td>
+<td></td>
+</tr>
+<tr>
+<td>Rietland</td>
+<td>Rietvegetatie</td>
+</tr>
+<tr>
+<td></td>
+<td>Plasberm</td>
+</tr>
+<tr>
+<td>Slik</td>
+<td></td>
+</tr>
+<tr>
+<td>Steilwand</td>
+<td></td>
+</tr>
+<tr>
+<td>Struiken</td>
+<td></td>
+</tr>
+<tr>
+<td>Zandvlakte</td>
+<td>Zandverstuiving</td>
+</tr>
+<tr>
+<td></td>
+<td>Strand en strandwal</td>
+</tr>
+<tr>
+<td>groenvoorziening</td>
+<td>bosplantsoen</td>
+</tr>
+<tr>
+<td></td>
+<td>gras- en kruidachtigen</td>
+</tr>
+<tr>
+<td></td>
+<td>planten</td>
+</tr>
+<tr>
+<td></td>
+<td>struikrozen</td>
+</tr>
+<tr>
+<td></td>
+<td>heesters</td>
+</tr>
+<tr>
+<td></td>
+<td>bodembedekkers</td>
+</tr>
+</tbody></table><p><strong>Waterobject</strong>
+Voor het objecttype ‘waterobject’ is de typering uit de huidige BGT|IMGeo 2.1.1 aangescherpt conform eerder gestelde uitgangspunten. Hierdoor is er geen sprake meer van multitypering van watervlakten. Daarnaast is ervoor gekozen om de typering ‘zee’ onder ‘watervlakte’ te plaatsen, Dit heeft als consequentie dat zee op basis van het huidige model van het verplichte deel naar het vrijwillige deel opschuift. Bij de verdere uitwerking zal worden bekeken op welke wijze hiermee kan worden omgegaan.
+</p><table>
+<thead>
+<tr>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Type:</td>
+<td></td>
+</tr>
+<tr>
+<td>waterloop</td>
+<td>rivier</td>
+</tr>
+<tr>
+<td></td>
+<td>sloot</td>
+</tr>
+<tr>
+<td></td>
+<td>kanaal</td>
+</tr>
+<tr>
+<td></td>
+<td>beek</td>
+</tr>
+<tr>
+<td></td>
+<td>gracht</td>
+</tr>
+<tr>
+<td></td>
+<td>bron</td>
+</tr>
+<tr>
+<td>watervlakte</td>
+<td>zee</td>
+</tr>
+<tr>
+<td></td>
+<td>meer</td>
+</tr>
+<tr>
+<td></td>
+<td>plas</td>
+</tr>
+<tr>
+<td></td>
+<td>ven</td>
+</tr>
+<tr>
+<td></td>
+<td>vijver</td>
+</tr>
+<tr>
+<td>greppel/droge sloot</td>
+<td></td>
+</tr>
+</tbody></table><p><strong>Bebouwing</strong>
+De typering behorende bij de aan gebouwen gerelateerde fysieke objecttypen zal in het vervolgtraject nader worden onderzocht.</p><p><strong>Kunstwerkdeel</strong>
+De typering behorende bij kunstwerkdeel is overgenomen uit de huidige BGT|IMGeo 2.1.1 aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen. Uitgezonderd is de groeiplaatsinrichting omdat hiervoor afstemming met IMBOR2020 nodig is.</p><table>
+<thead>
+<tr>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Type:</td>
+<td></td>
+</tr>
+<tr>
+<td>hoogspanningsmast</td>
+<td></td>
+</tr>
+<tr>
+<td>gemaal</td>
+<td></td>
+</tr>
+<tr>
+<td>Perron</td>
+<td></td>
+</tr>
+<tr>
+<td>sluisdeur</td>
+<td></td>
+</tr>
+<tr>
+<td>strekdam</td>
+<td></td>
+</tr>
+<tr>
+<td>Steiger</td>
+<td></td>
+</tr>
+<tr>
+<td>Stuw</td>
+<td></td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>keermuur</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>overkluizing</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>duiker</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>faunavoorziening</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>vispassage</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>bodemval</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>coupure</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>ponton</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>voorde</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>hellingbaan</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>vlonder</td>
+</tr>
+</tbody></table><p><strong>Tunneldeel</strong>
+De typering behorende bij tunneldeel is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor het tunneldeel geen aanvullingen opgenomen.</p><table>
+<thead>
+<tr>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Tunneldeel</td>
+<td></td>
+</tr>
+</tbody></table><p><strong>Overbruggingsdeel</strong>
+De typering behorende bij overbruggingsdeel is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor het overbruggingsdeel geen aanvullingen opgenomen.</p><table>
+<thead>
+<tr>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>overbruggingsdeel</td>
+<td>Hoort bij type overbrugging:</td>
+</tr>
+<tr>
+<td></td>
+<td>brug</td>
+</tr>
+<tr>
+<td></td>
+<td>aquaduct</td>
+</tr>
+<tr>
+<td></td>
+<td>viaduct</td>
+</tr>
+<tr>
+<td></td>
+<td>ecoduct</td>
+</tr>
+<tr>
+<td></td>
+<td>fly-over</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Type Overbruggingsdeel</td>
+</tr>
+<tr>
+<td></td>
+<td>dek</td>
+</tr>
+<tr>
+<td></td>
+<td>landhoofd</td>
+</tr>
+<tr>
+<td></td>
+<td>pijler</td>
+</tr>
+<tr>
+<td></td>
+<td>sloof</td>
+</tr>
+<tr>
+<td></td>
+<td>pyloon</td>
+</tr>
+</tbody></table><p><strong>Constructie</strong>
+De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.</p><table>
+<thead>
+<tr>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Type:</td>
+<td></td>
+</tr>
+<tr>
+<td>bezinkbak</td>
+<td></td>
+</tr>
+<tr>
+<td>lage trafo</td>
+<td></td>
+</tr>
+<tr>
+<td>Bassin</td>
+<td></td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>sleufsilo</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>infiltratiereservoir</td>
+</tr>
+</tbody></table><p><strong>Scheiding</strong>
+De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor scheiding geen aanvullingen opgenomen.</p><table>
+<thead>
+<tr>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Type:</td>
+<td></td>
+</tr>
+<tr>
+<td>Muur</td>
+<td></td>
+</tr>
+<tr>
+<td>Kademuur</td>
+<td></td>
+</tr>
+<tr>
+<td>damwand</td>
+<td></td>
+</tr>
+<tr>
+<td>geluidsscherm</td>
+<td></td>
+</tr>
+<tr>
+<td>walbescherming</td>
+<td></td>
+</tr>
+<tr>
+<td>Hek</td>
+<td></td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>draadraster</td>
+</tr>
+<tr>
+<td><em>Niet BGT</em></td>
+<td>faunaraster</td>
+</tr>
+</tbody></table></section><section id="typering-functionele-objecttypen-in-objectenregistratie"><h3 id="x4-2-typering-functionele-objecttypen-in-objectenregistratie"><span class="secno">4.2 </span>Typering functionele objecttypen in objectenregistratie</h3><p><strong>Netwerken</strong>
+Voor de functionele typering van netwerken is aangesloten bij de beschikbare typeringen in de BGT|IMGeo voor wegen en spoor. Verdere afstemming is nodig met NWB, IMBOR/IMWV, Prorail en de watersector. Voor wegverbindingen zijn de voorstellen voor IMGeo 2.2 overgenomen. Voor spoorverbindingen is de typering vereenvoudigd. Het uitgangspunt dat objecttypen scherp zijn afgebakend, maakt dat de typering sneltram is vervallen en dat havenkraan vervangen is door (laad-/los)kraan.</p><table>
+<thead>
+<tr>
+<th>Objecttype</th>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Wegverbindingen</td>
+<td>Functie:</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>OV-baan</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>overweg</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>spoorbaan</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>baan voor vliegverkeer</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>rijbaan autosnelweg</td>
+<td>Verbindingsweg</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>calamiteitendoorsteek</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Verkeersdrempel</td>
+</tr>
+<tr>
+<td></td>
+<td>rijbaan autoweg</td>
+<td>Verbindingsweg</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>calamiteitendoorsteek</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Verkeersdrempel</td>
+</tr>
+<tr>
+<td></td>
+<td>rijbaan regionale weg</td>
+<td>Verbindingsweg</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Verkeersdrempel</td>
+</tr>
+<tr>
+<td></td>
+<td>rijbaan lokale weg</td>
+<td>Verkeersdrempel</td>
+</tr>
+<tr>
+<td></td>
+<td>fietspad</td>
+<td>Verkeersdrempel</td>
+</tr>
+<tr>
+<td></td>
+<td>voetpad</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>voetpad op trap</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>ruiterpad</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>inrit</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Spoorverbindingen</td>
+<td>Functie:</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>trein</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>tram</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>(laad/los-)kraan</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Waterwegverbindingen</td>
+<td>Functie:</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>vaaweg</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>hydrologie???</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Knooppunten    \Type:</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>kruispunt fysieke wegen</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>overweg</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>wijziging attribuutwaarde</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>tussenpunt</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table><p><strong>Functionele gebieden</strong>
+De functionele gebieden zijn voor het overzicht opgedeeld in grijze, groene en blauwe gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein. Hierbij is aangesloten op de typering zoals voor BGT|IMGeo wordt gebruikt, inclusief de voorstellen voor IMGeo 2.2. Als gevolg van het uitgangspunt dat fysiek en functie worden gescheiden zijn een aantal functies verschoven van voorheen een typering bij een fysiek object naar een eigenstandig functioneel object.
+</p><table>
+<thead>
+<tr>
+<th>Objecttype</th>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Functioneel Gebied (grijs)</td>
+<td>Functie:</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>verkeerseiland</td>
+<td>Vluchtheuvel</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Verkeersdruppel</td>
+</tr>
+<tr>
+<td></td>
+<td>berm</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>parkeervlak</td>
+<td>Carpoolplaats</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Halteplaats</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>verkeersaansluiting</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>verkeersknooppunt</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Verkeerskruispunt</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Verkeerszone</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Voetgangersgebied</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Woonerf</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>infrastructuur verkeer en vervoer</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Bushalte</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Benzinestation</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Verzorgingsplaats</td>
+</tr>
+</tbody></table><p><strong>.</strong>
+</p><table>
+<thead>
+<tr>
+<th>Objecttype</th>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Functioneel Gebied (groen)</td>
+<td>Functie:</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>oever/slootkant</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Landbouw</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>recreatie: speeltuin</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>recreatie: park</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>recreatie: sportterrein</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>recreatie: camping</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>recreatie: bungalowpark</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>recreatie: volkstuin</td>
+</tr>
+</tbody></table><p><strong>.</strong>
+</p><table>
+<thead>
+<tr>
+<th>Objecttype</th>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Functioneel Gebied (blauw)</td>
+<td>Functie:</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>kering</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>haven</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>opstelpunt open water</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Sluiscomplex</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Zuiveringscomplex</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Waterwingebied</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>waterbergingsgebied</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>infrastructuur waterstaatswerken</td>
+</tr>
+</tbody></table><p><strong>.</strong>
+</p><table>
+<thead>
+<tr>
+<th>Objecttype</th>
+<th>classificatie (verplicht)</th>
+<th>Plus classificatie (vrijwillig)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Functioneel Gebied</td>
+<td>Type:</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Stiltegebied</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Zonnepanelenveld</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Bedrijvigheid</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>natuur en landschap</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Bewoning</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>maatschappelijke en/of publieksvoorziening</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Recreatie</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>Begraafplaats</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>functioneel beheer</td>
+</tr>
+<tr>
+<td></td>
+<td><em>Niet BGT</em></td>
+<td>functioneel beheer: hondenuitlaatplaats</td>
+</tr>
+</tbody></table><p><strong>Bebouwing</strong></p><p>De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen zal in het vervolgtraject nader worden onderzocht.</p><p><strong>Functionele objecttypen uit BRT</strong></p><p>De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen zal in het vervolgtraject nader worden onderzocht.</p></section></section><section data-format="markdown" id="eerste-mapping-op-de-bestaande-basisregistraties"><!--OddPage--><h2 id="x5-eerste-mapping-op-de-bestaande-basisregistraties"><span class="secno">5. </span>Eerste mapping op de bestaande basisregistraties</h2><p>In het in hoofdstuk 3 beschreven denkraam bestaat voor een groot deel uit objecttypen die nu al in bestaande (basis)registraties zijn opgenomen.  Het onderscheid tussen fysieke objecttypen en functionele objecttypen in de SOR zal echter leiden tot een herschikking van een aantal bestaande objecttypen in de BAG, de BGT, de WOZ (objectendeel) en de BRT. In dit hoofdstuk is voor wat betreft de objecttypen een eerste mapping uitgewerkt tussen de inhoud van de bestaande basisregistraties en het in dit document beschreven voorstel voor de inhoud van de samenhangende objectenregistratie. Doelstelling van deze mapping is om een eerste indruk te geven van de wijze waarop de objecten vanuit de bestaande registraties een plaats zullen krijgen in de samenhangende objectenregistratie. Het betreft dus nog niet een volledige uitwerking. Zo heeft er nog geen mapping plaatsgevonden voor de verschillende inrichtende elementen vanuit de BGT. Ook heeft nog geen uitwerking plaatsgevonden van de eigenschappen van de verschillende objecttypen. De verdere uitwerkingen zullen worden opgepakt in het kader van het vervolgtraject.</p><section id="fysieke-objecttypen-0"><h3 id="x5-1-fysieke-objecttypen"><span class="secno">5.1 </span>Fysieke objecttypen</h3><p>De mapping op de bestaande basisregistraties van de fysieke objecttypen, die van belang zijn voor het criterium dat Nederland op maaiveldniveau voor 100% bedekt moet zijn met fysieke objecttypen, levert het volgende eerste resultaat op:</p><table>
+<thead>
+<tr>
+<th>SOR-objecttype</th>
+<th>huidige BR</th>
+<th>object</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>verhardingsobject</td>
+<td>BGT</td>
+<td>wegdeel</td>
+</tr>
+<tr>
+<td></td>
+<td>BGT</td>
+<td>onbegroeid terreindeel</td>
+</tr>
+<tr>
+<td></td>
+<td>BGT</td>
+<td>ondersteunend wegdeel</td>
+</tr>
+<tr>
+<td>groenobject</td>
+<td>BGT</td>
+<td>begroeid terreindeel</td>
+</tr>
+<tr>
+<td></td>
+<td>BGT</td>
+<td>ondersteunend wegdeel</td>
+</tr>
+<tr>
+<td>waterobject</td>
+<td>BGT</td>
+<td>waterdeel</td>
+</tr>
+<tr>
+<td>onbepaald terreindeel</td>
+<td>BGT</td>
+<td>onbegroeid terreindeel; erf</td>
+</tr>
+<tr>
+<td>gebouwblok</td>
+<td>BRT</td>
+<td>gebouw</td>
+</tr>
+<tr>
+<td>gebouw</td>
+<td>BGT</td>
+<td>pand</td>
+</tr>
+<tr>
+<td></td>
+<td>BGT</td>
+<td>overig bouwwerk</td>
+</tr>
+<tr>
+<td></td>
+<td>BAG</td>
+<td>pand</td>
+</tr>
+<tr>
+<td>bouwlaag</td>
+<td>WOZ</td>
+<td>-</td>
+</tr>
+<tr>
+<td>installatie/voorziening</td>
+<td>BGT</td>
+<td>gebouwinstallatie</td>
+</tr>
+<tr>
+<td>toegangsdeur</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>overbruggingsdeel</td>
+<td>BGT</td>
+<td>overbruggingsdeel</td>
+</tr>
+<tr>
+<td>tunneldeel</td>
+<td>BGT</td>
+<td>tunneldeel</td>
+</tr>
+<tr>
+<td>kunstwerkdeel</td>
+<td>BGT</td>
+<td>kunstwerkdeel</td>
+</tr>
+<tr>
+<td>constructie</td>
+<td>BGT</td>
+<td>overig bouwwerk</td>
+</tr>
+<tr>
+<td>scheiding</td>
+<td>BGT</td>
+<td>scheiding</td>
+</tr>
+</tbody></table><ul>
+<li><p><strong>Verhardingsobject</strong>
+In het SOR ‘verhardingsobject’ komen de BGT|IMGeo objecttypen ‘Wegdeel’, ‘Onbegroeid terreindeel’ en ‘Ondersteunend wegdeel’ samen. Dit betreft dan alleen het deel met de fysieke voorkomens verharding van deze objecttypen (zoals asfalt of gebakken klinkers). De functie typeringen van de BGT|IMGeo Wegdelen (zoals rijbaan lokale weg of fietspad) en van de BGT|IMGeo Ondersteunende wegdelen (zoals verkeerseiland en berm) komen terug als functionele objecttypen in de SOR.</p>
+</li>
+<li><p><strong>Groenobject</strong>
+In het SOR ‘groenobject’ komen het BGT|IMGeo objecttype ‘Begroeid terreindeel’ en ‘Ondersteunend wegdeel’ samen. De typering van het object ‘Begroeid terreindeel’ in de BGT|IMGeo bestaat uit fysieke voorkomens (zoals, loofbos, bouwland en groenvoorziening). Voor het ‘Ondersteunend wegdeel’ in de BGT|IMGeo is dit alleen het fysieke voorkomen groenvoorziening.</p>
+</li>
+<li><p><strong>Onbepaald terreindeel</strong>
+Het SOR objecttype ‘onbepaald terreindeel’ is het ‘erf’ uit BGT|IMGeo.  Om exact te zijn: het objecttype ‘Onbegroeid terreindeel’ met als typering fysiek voorkomen erf uit BGT|IMGeo. Wat in de BGT|IMGeo ‘erf’ was wordt in de SOR een zelfstandig fysiek objecttype. Dit geldt voor de BGT objecten ‘erf’ die niet nader worden ingewonnen. Er zijn ook BGT objecten ‘erf’ die in de SOR wel nader moeten kunnen worden ingewonnen omdat bijvoorbeeld detaillering van dit terreindeel nodig is voor de uitvoering van wettelijke taken of het oplossen van maatschappelijke opgaven (zoals de inzet van hulpdiensten en klimaatadaptatie). In dat geval wordt in de SOR dit terreindeel opgenomen als verhardingsobject en/of groenobject en/of waterobject en/of bebouwing.</p>
+</li>
+<li><p><strong>Waterobject</strong>
+Het SOR ‘waterobject’ is het BGT|IMGeo objecttype ‘waterdeel’. De typering van dit objecttype in BGT|IMGeo geeft bijvoorbeeld aan of het een watervlakte of waterloop betreft. Typering ‘haven’ is typisch functioneel en komt dan ook terug bij de functionele objecttypen.</p>
+</li>
+<li><p><strong>Gebouwblok, Gebouw, Bouwlaag, installatie/voorziening en toegangsdeur</strong>
+In de SOR zal worden gewerkt met een vernieuwd gebouwmodel. Op basis van de eerste beschrijving van dit vernieuwde gebouwmodel raakt dit aan de BGT|IMGeo objecttypen ‘pand’, ‘overig bouwwerk’ en ‘gebouwinstallatie’, aan het BAG objecttype ‘pand’ en aan het objecttype ‘gebouw’ uit de BRT. Ook raakt het aan enkele WOZ-deelobjecten uit de WOZ-administratie.</p>
+</li>
+<li><p><strong>Overbruggingsdeel</strong> 
+Het SOR ‘overbruggingsdeel’ is het BGT|IMGeo objecttype ‘overbruggingsdeel’. De typering van dit objecttype in BGT|IMGeo geeft bijvoorbeeld aan om welk type overbruggingsdeel het gaat en bij welk type overbrugging het deel hoort.</p>
+</li>
+<li><p><strong>Tunneldeel</strong>
+Het SOR ‘tunneldeel’ bestaat uit het BGT|IMGeo ‘tunneldeel’.</p>
+</li>
+<li><p><strong>Kunstwerkdeel</strong>
+Het SOR ‘kunstwerkdeel’ bestaat uit het BGT|IMGeo objecttype ‘kunstwerkdeel’.</p>
+</li>
+<li><p><strong>Scheiding</strong>
+Het SOR-objecttype ‘scheiding’ bestaat uit het BGT|IMGeo objecttype ‘(overige-)scheiding’.</p>
+</li>
+<li><p><strong>Constructie</strong>
+Het SOR-objectype ‘constructie’ bestaat uit de verschillende bouwwerken uit BGT|IMGeo die geen plaats hebben gekregen bij het SOR-objecttype gebouw.
+</p>
+</li>
+</ul></section><section id="functionele-objecttypen-0"><h3 id="x5-2-functionele-objecttypen"><span class="secno">5.2 </span>Functionele Objecttypen</h3><p>De mapping op de bestaande basisregistraties van de functionele objecttypen levert het volgende eerste resultaat op:</p><table>
+<thead>
+<tr>
+<th>SOR-objecttype</th>
+<th>huidige BR</th>
+<th>object</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>verblijfsobject</td>
+<td>BAG</td>
+<td>verblijfsobject</td>
+</tr>
+<tr>
+<td>gebouwzone</td>
+<td>WOZ</td>
+<td>WOZ-deelobject (deels)</td>
+</tr>
+<tr>
+<td>functioneel gebied</td>
+<td>BGT</td>
+<td>functioneel gebied</td>
+</tr>
+<tr>
+<td></td>
+<td>BGT</td>
+<td>ondersteunend wegdeel</td>
+</tr>
+<tr>
+<td></td>
+<td>BGT</td>
+<td>ondersteunend waterdeel</td>
+</tr>
+<tr>
+<td>weg verbinding</td>
+<td>NWB</td>
+<td>verbinding</td>
+</tr>
+<tr>
+<td>spoor verbinding</td>
+<td>BGT</td>
+<td>wegdeel; spoor</td>
+</tr>
+<tr>
+<td>waterweg verbinding</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>knooppunt</td>
+<td>NWB</td>
+<td>node</td>
+</tr>
+</tbody></table><ul>
+<li><p><strong>Verblijfsobject en gebouwzone</strong>
+Als onderdeel van een vernieuwd gebouwmodel is er met hoge waarschijnlijk sprake van een SOR ‘verblijfsobject’. Deze is vergelijkbaar met het IMBAG objecttype ‘verblijfsobject’. In het verplichte en gestandaardiseerde deel van de SOR worden de verblijfsobjecten in de vorm van puntgeometrie vastgelegd. In het vrijwillige maar wel gestandaardiseerde deel van de SOR kunnen de verblijfsobjecten in de vorm van vlakgeometrie of een volume vrijwillig worden vastgelegd. De gebouwzone behoeft nog nadere detaillering, maar kent raakvlakken met een gedeelte van de bestaande WOZ-deelobjecten uit de WOZ-administratie.</p>
+</li>
+<li><p><strong>Functioneel gebied</strong> 
+Het SOR objecttyope ‘functioneel gebied’ bestaat uit de BGT|IMGeo objecttypen ‘Functioneel gebied’, ‘Ondersteunend wegdeel’ en ‘Ondersteunend waterdeel’. Dit betreft uitsluitend het gedeelte met de functie typeringen van deze objecttypen in BGT|IMGeo (zoals recreatie:park, berm en oever/slootkant), eventueel aangevuld met nieuwe typeringen. Daarnaast is ook de typering haven, van het objecttype ‘waterdeel’ uit de BGT|IMGeo een functioneel gebied in de SOR. Bij functionele gebieden bestaat er ook een duidelijke relatie met tal van functionele objecttypen in de BRT. Deze relatie zal in het vervolg verder worden uitgewerkt.</p>
+</li>
+<li><p><strong>Netwerk voor wegen, water en spoor</strong>
+In de SOR worden opgenomen objecttypen die de netwerktopografie van wegen, water en spoor vormen. Concreet gaat het bij netwerken over de objecttypen ‘verbindingen’ en ‘knooppunten’.  Netwerken zijn een nieuw onderdeel in de SOR, behalve voor spoor. Het netwerk voor spoor in de SOR is in de BGT|IMGeo vergelijkbaar met het objecttype ‘spoor’. Voor wegen in de SOR is er een netwerk beschikbaar in het Nationaal Wegen Bestand (NWB). En voor water in de SOR wordt gedacht aan het netwerk zoals nu deels in het Nederlands Hydrologisch Instrumentarium (NHI) beschikbaar is. Belangrijke eis die aan netwerken gesteld wordt is dat deze moet zijn gelegen boven op de geometrie van daarvoor vooraf aangewezen fysieke objecttypen. De mapping van de verschillende beschikbare netwerken zal in het vervolg verder worden uitgewerkt.</p>
+</li>
+</ul></section><section id="registratieve-objecttypen-0"><h3 id="x5-3-registratieve-objecttypen"><span class="secno">5.3 </span>Registratieve objecttypen</h3><p>De mapping op de bestaande basisregistraties van de registratieve objecttypen levert het volgende eerste resultaat op:</p><table>
+<thead>
+<tr>
+<th>SOR-objecttype</th>
+<th>huidige BR</th>
+<th>object</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>woonplaats</td>
+<td>BAG</td>
+<td>woonplaats</td>
+</tr>
+<tr>
+<td>openbare ruimte</td>
+<td>BAG</td>
+<td>openbare ruimte</td>
+</tr>
+<tr>
+<td>nummeraanduiding</td>
+<td>BAG</td>
+<td>nummeraanduiding</td>
+</tr>
+<tr>
+<td>standplaats</td>
+<td>BAG</td>
+<td>standplaats</td>
+</tr>
+<tr>
+<td>ligplaats</td>
+<td>BAG</td>
+<td>ligplaats</td>
+</tr>
+<tr>
+<td>Wijk</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Buurt</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>landsgrens</td>
+<td>BRK</td>
+<td>landsgrens</td>
+</tr>
+<tr>
+<td>provinciegrens</td>
+<td>BRK</td>
+<td>provinciegrens</td>
+</tr>
+<tr>
+<td>waterschapsgrens</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>gemeentegrens</td>
+<td>BRK</td>
+<td>gemeentegrens</td>
+</tr>
+</tbody></table><ul>
+<li><p><strong>woonplaats, nummeraanduiding, ligplaats, standplaats</strong>
+Deze objecttypen komen in principe volledig overeen met de huidige BAG objecttypen.</p>
+</li>
+<li><p><strong>openbare ruimte</strong>
+Het huidige BAG objecttype ‘openbare ruimte’ wordt in de SOR op een iets andere wijze vormgegeven. Hierbij is het de bedoeling om in het verplichte en gestandaardiseerde deel van de SOR de benamingen van openbare ruimten die behoren bij de typen weg, spoorbaan en water voor de vindbaarheid te koppelen aan de bij de begrenzing van de openbare ruimte passende netwerksegmenten. In het vrijwillige maar wel gestandaardiseerde deel van de SOR kunnen deze openbare ruimten in de vorm van vlakgeometrie vrijwillig worden vastgelegd. In het vervolg zal daarnaast nog gekeken moeten worden naar de mogelijke typering van openbare ruimten. Vooralsnog wordt eraan gedacht de typering ‘administratief gebied’ te laten vervallen.</p>
+</li>
+<li><p><strong>wijk en buurt</strong>
+Een nieuw onderdeel in het verplichte en gestandaardiseerde deel van de SOR is een territoriale indeling van het grondgebied van een gemeente op niveau van wijken en buurten. In de huidige BAG kan de naamgeving van deze objecten door de bronhouder al zijn opgenomen als openbare ruimte van het type administratief gebied. Nader onderzoek is nodig om te bepalen hoe wijk en buurt als objecttype gaan worden opgenomen in de SOR.</p>
+</li>
+<li><p><strong>bestuurlijke gebieden</strong>
+Gebieden afgebakend door rijks-, provincie- of gemeentegrens, zoals vastgesteld door daartoe bij wet aangewezen organen, zijn nu nog opgenomen in de BRK. Gebieden afgebakend door een waterschapsgrens kennen op dit moment nog geen duidelijke bron. In het vervolg is daarom nader onderzoek nodig om te bepalen welke waterschapsgrenzen hiervoor gebruikt zullen gaan worden en waar deze op dit moment worden geregistreerd.</p>
+</li>
+</ul></section></section><section data-format="markdown" id="inrichting-van-het-vervolg"><!--OddPage--><h2 id="x6-inrichting-van-het-vervolg"><span class="secno">6. </span>Inrichting van het vervolg</h2><p>In dit document zijn de hoofdlijnen beschreven van de inhoud van een samenhangende objectenregistratie. Deze beschrijving bevat nog tal van uitwerkpunten die noodzakelijk zijn om te komen tot een gedetailleerd conceptueel informatiemodel. Dit betekent dat in de vervolgfase in elk geval sturing zal moeten worden gegeven aan deze verdere inhoudelijke detailuitwerkingen. Daarnaast is het noodzakelijk dat bewaakt wordt dat deze verschillende detailuitwerkingen blijven passen in een samenhangend conceptueel informatiemodel. Ook zijn enkele meer algemene punten rondom het conceptueel model van een samenhangende objectenregistratie gesignaleerd, die een nadere uitwerking behoeven. Tenslotte wordt er groot belang gehecht aan het in een vroegtijdig stadium toetsen van de inhoud van een samenhangende objectenregistratie aan de concrete behoeften die er bestaan bij gebruikers vanuit een aantal specifieke use-cases. Samengevat gaat het in de vervolguitwerking van de inhoud van de samenhangende objectenregistratie dus om de volgende hoofdelementen:</p><p><img src="media/hoofdelementen.png" alt="hoofdelementen"></p><p>In dit hoofdstuk wordt nader ingegaan op de eerste beelden die er bestaan bij de noodzakelijke verdere uitwerking van deze hoofdelementen in het vervolgtraject.</p><section id="inhoudelijke-uitwerkingspunten"><h3 id="x6-1-inhoudelijke-uitwerkingspunten"><span class="secno">6.1 </span>Inhoudelijke uitwerkingspunten</h3><p>Bij het opstellen van het denkraam is geconstateerd dat er minimaal een verdere uitwerking zal moeten plaatsvinden van een aantal onderwerpen. Deze onderwerpen zijn hieronder geordend naar enerzijds het eerder in dit document gemaakte onderscheid naar een drietal hoofdgroepen van objecttypen (fysieke objecttypen, functionele objecttypen en registratieve objecttypen) en anderzijds naar een onderscheid in uitwerkpunten die betrekking hebben op kaders, objecttypen en eigenschappen. Dat levert op basis van de huidige inzichten het volgende eerste overzicht van inhoudelijke uitwerkingspunten op:</p><table>
+<thead>
+<tr>
+<th></th>
+<th>Kaders</th>
+<th>Objecttypen</th>
+<th>Eigenschappen</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Algemeen</strong></td>
+<td>Plaats aggregatie en uiteenrafelen in het model</td>
+<td>Uitwerking kader levensfasen objecten</td>
+<td>Uitwerking identificatiecode objecten</td>
+</tr>
+<tr>
+<td></td>
+<td>Verdere uitwerking hoofdstructuur</td>
+<td>Uitwerken mate van detail (schaalniveau)</td>
+<td>Uitwerking eerste overzicht gegevens</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking historiemodel</td>
+<td></td>
+<td>Uitwerking 3D (afstemming)</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking meta-informatie (MIM) zoals kwaliteit</td>
+<td></td>
+<td>Omgang met bronverwijzing (zoals PBP's)</td>
+</tr>
+<tr>
+<td>---------------</td>
+<td>-----------------------------</td>
+<td>--------------------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>Fysieke objecten</strong></td>
+<td>Uitwerking criterium maaiveld 100%</td>
+<td>Uitwerking objectenmodel gebouwen</td>
+<td>Typering gebouwen</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking criterium ondergrondse delen</td>
+<td>Uitwerking kunstwerken, tunnels en overbruggingen</td>
+<td>Typering verhardingsobject</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking grondgebied Nederland</td>
+<td>Uitwerking scheiding</td>
+<td>Typering groenobject</td>
+</tr>
+<tr>
+<td></td>
+<td>Aanscherping definitie opdelende objecttypen</td>
+<td>Fysieke begrenzing water</td>
+<td>Typering waterobject</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking inrichtingselementen</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking samenhang met BRT objecten</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>---------------</td>
+<td>-----------------------------</td>
+<td>--------------------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>Functionele objecten</strong></td>
+<td>Aanscherping definitie functionele objecttypen</td>
+<td>Uitwerking objectenmodel gebouwen</td>
+<td>Typering functionele gebieden</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking eerste lijst functionele gebieden</td>
+<td>Uitwerking keringen</td>
+<td>Typering functionele gebieden verharding</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking samenhang met BRT objecten</td>
+<td>Uitwerking netwerken als onderdeel registratie</td>
+<td>Typering functionele gebieden groen</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Functionele gebieden natuur                        Typering functionele gebieden water</td>
+<td></td>
+</tr>
+<tr>
+<td>---------------</td>
+<td>-----------------------------</td>
+<td>--------------------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>Registratieve objecten</strong></td>
+<td>Uitwerking samenhang met BRT objecten</td>
+<td>Uitwerking openbare ruimten geometrie</td>
+<td>Typering registratieve gebieden</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Naamgeving andere objecten</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Wijken, buurten en territoriale indelingen</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Uitwerking bebouwde kom</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Bestuurlijke gebieden</td>
+<td></td>
+</tr>
+</tbody></table><p>Hierbij is het de verwachting dat bij de verdere uitwerking van de inhoud er nog aanvullende uitwerkingspunten naar voren zullen komen. Het bovenstaande overzicht van inhoudelijke uitwerkingspunten zal dan ook periodiek worden aangepast.</p></section><section id="organisatie-van-de-verdere-uitwerking"><h3 id="x6-2-organisatie-van-de-verdere-uitwerking"><span class="secno">6.2 </span>Organisatie van de verdere uitwerking</h3><section id="coordinatie-inhoudelijk-spoor"><h4 id="x6-2-1-coordinatie-inhoudelijk-spoor"><span class="secno">6.2.1 </span>coördinatie inhoudelijk spoor</h4><p>De hierboven genoemde inhoudelijke uitwerkingspunten zullen op verschillende tafels, in verschillende samenstellingen en op verschillende momenten worden opgepakt. Het is daarom belangrijk dat de verschillende inhoudelijke uitwerkingen onderling op elkaar blijven aansluiten. Een belangrijk aandachtspunt in het vervolgtraject is dan ook de coördinatie van de verschillende uitwerkingsactiviteiten. Deze coördinatie betekent concreet:</p><ul>
+<li>Het initiëren van de concrete uitwerking door betrokken partijen;</li>
+<li>Het aanjagen van de voortgang van deze uitwerkingsactiviteiten;</li>
+<li>Het bewaken van de aansluiting op geformuleerde uitgangspunten;</li>
+<li>Het bevorderen van de onderlinge consistentie van de verschillende uitwerkingen.</li>
+</ul><p>De coördinatie van het inhoudelijk spoor zal formeel plaatsvinden vanuit de werkgroep inhoud. In de praktijk zal dit betekenen dat een aantal deelnemers aan deze werkgroep zorgdragen voor de dagelijkse uitvoering van deze coördinatie.</p></section><section id="inhoudelijke-kaders"><h4 id="x6-2-2-inhoudelijke-kaders"><span class="secno">6.2.2 </span>inhoudelijke kaders</h4><p>In het bovenstaande overzicht zijn een aantal algemene onderwerpen en inhoudelijke kaders benoemd die om een nadere uitwerking vragen. De voorbereiding van deze uitwerking zal plaatsvinden door enkele deelnemers van de werkgroep inhoud, waarbij naar gelang het onderwerp eventueel ook andere deskundigen worden aangehaakt. In alle gevallen zullen de resultaten in de werkgroep inhoud worden besproken. Het gaat in ieder geval om de volgende onderwerpen:</p><table>
+<thead>
+<tr>
+<th></th>
+<th>Kaders</th>
+<th>Objecttypen</th>
+<th>Eigenschappen</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Algemeen</strong></td>
+<td>Plaats aggregatie en uiteenrafelen in het model</td>
+<td>Uitwerking kader levensfasen objecten</td>
+<td>Uitwerking identificatiecode objecten</td>
+</tr>
+<tr>
+<td></td>
+<td>Verdere uitwerking hoofdstructuur</td>
+<td>Uitwerken mate van detail (schaalniveau)</td>
+<td>Uitwerking eerste overzicht gegevens</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking historiemodel</td>
+<td></td>
+<td>Uitwerking 3D (afstemming)</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking meta-informatie (MIM) zoals kwaliteit</td>
+<td></td>
+<td>Omgang met bronverwijzing (zoals PBP's)</td>
+</tr>
+<tr>
+<td>---------------</td>
+<td>-----------------------------</td>
+<td>--------------------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>Fysieke objecten</strong></td>
+<td>Uitwerking criterium maaiveld 100%</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking criterium ondergrondse delen</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking grondgebied Nederland</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Aanscherping definitie opdelende objecttypen</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table><p>Hierbij wordt met de verschillende onderwerpen globaal het volgende bedoeld:</p><ul>
+<li><strong>Plaats aggregatie en uiteenrafelen in het model</strong> : 
+het bepalen hoe wordt omgegaan met geaggregeerde objecttypen zoals een gebouwblok (leggen we deze vast als objecttype of vindt afleiding plaats door middel van logica) en de mate waarin geaggregeerde objecten terug te herleiden moeten zijn tot specifieke objecten;
+</li>
+<li><strong>Verdere uitwerking hoofdstructuur</strong> : 
+een complete samenhangende beschrijving van alle uitgangspunten voor objecttypen en eigenschappen die onderdeel uitmaken van het conceptueel model van de samenhangende objectenregistratie als basis voor de verdere uitwerking van het informatiemodel;</li>
+<li><strong>Uitwerking historiemodel</strong> : 
+analyse van de bestaande wijze van omgang met onder meer materiële en formele historie, de daarbij behorende tijdslijnen en de wijze waarop hiermee in het kader van de samenhangende objectenregistratie zal worden omgegaan;
+</li>
+<li><strong>Uitwerking meta-informatie (zoals kwaliteit)</strong> : 
+het op basis van hiervoor bestaande modellen (zoals MIM en andere normen) uitwerken op welke wijze meta-informatie in de samenhangende objectenregistratie wordt vormgegeven (waarbij er onder meer aandacht wordt geschonken aan het vastleggen van kwaliteitskenmerken van gegevens, rekening houdend met de wijze waarop dit op dit moment in de registraties is vormgegeven);
+</li>
+<li><strong>Uitwerking criterium maaiveld 100%</strong> : 
+nadere uitwerking van de wijze waarop invulling wordt gegeven aan het criterium maaiveld in termen van consistentieregels en de wijze van omgang met het maaiveldprincipe in het geval van 3D objecten;</li>
+<li><strong>Uitwerking criterium ondergrondse delen</strong> : 
+uitwerking van de exacte afbakeningsregels voor ondergrondse delen (van welke objecttypen worden welke ondergrondse delen vastgelegd) en op welke wijze worden ondergrondse delen in de registratie opgenomen (met aandacht voor een invulling via niveauverschillen en 3D  geometrie);
+</li>
+<li><strong>Uitwerking grondgebied Nederland</strong> : 
+er zal moeten worden bepaald of en op welke wijze het grondgebied van Nederland voor de samenhangende objectenregistratie zal worden afgebakend (continentaal plat in de Noordzee en de overzeese gebiedsdelen);</li>
+<li><strong>Aanscherpen definitie opdelende objecttypen</strong> : 
+een exacte beschrijving van alle opdelende objecttypen en de daarbij behorende afbakeningsregels op basis van een gedetailleerde afstemming op andere informatiemodellen (zoals de nieuwe NEN 3610 en sectorale informatiemodellen);
+</li>
+<li><strong>Uitwerken kader levensfasen objecten</strong> : 
+een nadere uitwerking van de wijze waarop in de samenhangende objectenregistratie invulling kan worden gegeven aan de verschillende levensstadia waarin objecten kunnen fungeren (met enerzijds aandacht voor algemene voor alle objecttypen geldende uitgangspunten en anderzijds een verbijzondering daarvan voor enkele specifieke objecttypen);</li>
+<li><strong>Uitwerken mate van detail (schaalniveau)</strong> : 
+analyse van de vraagstukken die samenhangen met een schaalloze wijze van inwinning (kwaliteitseisen kunnen een andere mate van detail kennen dan de detaillering waarmee gegevens in een schaalloze registratie worden opgenomen) en een eerste vertaling hiervan naar kwaliteitseisen;
+</li>
+<li><strong>Uitwerken identificatiecode van objecten</strong> : 
+analyse van de wijze waarop in de huidige registraties wordt omgegaan met identificatiecodes, gewenste vernieuwingen daarin (met aandacht voor lopende verkenningen vanuit BZK) en het komen tot een eerste voorstel voor een meer uniforme wijze van omgang met identificatiecodes (inclusief een eventueel globale transitiestrategie);</li>
+<li><strong>Uitwerking eerste overzicht van eigenschappen</strong> : 
+het verzamelen en samenhangend beschrijven van de verschillende eigenschappen die van de verschillende objecttypen zullen worden geregistreerd;
+</li>
+<li><strong>Uitwerking 3D</strong> : 
+nadere inhoudelijke afstemming met de verschillende ontwikkelingen die er lopen rondom 3D gericht op het op een juiste wijze in het conceptueel model opnemen van 3D eigenschappen van objecttypen;</li>
+<li><strong>Omgang met bronverwijzing</strong> : 
+nadere uitwerking van de wijze waarop binnen de samenhangende objectenregistratie op een uniforme wijze een verwijzing kan plaatsvinden naar bronnen waarop objecten of gegevens zijn gebaseerd (zoals brondocumenten of plaatsbepalingspunten) en de wijze waarop hiervoor voor verschillende objecttypen differentiatie kan plaatsvinden.
+</li>
+</ul><section id="inhoudelijke-specials"><h5 id="x6-2-2-1-inhoudelijke-specials"><span class="secno">6.2.2.1 </span>Inhoudelijke specials</h5><p>Bij het opstellen van deze eerste beschrijving van de inhoud van de objectenregistratie zijn ook tal van specifieke uitwerkpunten benoemd, die noodzakelijk zijn om te komen tot een gedetailleerd conceptueel informatiemodel. Deze uitwerking zal plaatsvinden door of met experts vanuit verschillende domeinen en organisaties. Hierbij wordt van enkele uitwerkingspunten verwacht dat deze een dusdanige complexiteit kennen, dat het wenselijk is hiervoor een tijdelijke detailwerkgroep in te stellen, die in opdracht van de werkgroep inhoud bepaalde inhoudelijke onderwerpen verder uitwerkt. Van andere onderwerpen wordt verwacht dat deze (na een goede voorbereiding in kleiner verband) in voldoende mate kunnen worden uitgewerkt binnen bijvoorbeeld een eenmalige werksessie met de meest betrokken experts. Het gaat daarbij op dit moment dus om de volgende onderwerpen:</p><table>
+<thead>
+<tr>
+<th></th>
+<th>Kaders</th>
+<th>Objecttypen</th>
+<th>Eigenschappen</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Algemeen</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>---------------</td>
+<td>-----------------------------</td>
+<td>--------------------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>Fysieke objecten</strong></td>
+<td></td>
+<td>Uitwerking objectenmodel gebouwen</td>
+<td>Typering gebouwen</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Uitwerking kunstwerken, tunnels en overbruggingen</td>
+<td>Typering verhardingsobject</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Uitwerking scheiding</td>
+<td>Typering groenobject</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Fysieke begrenzing water</td>
+<td>Typering waterobject</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking inrichtingselementen</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking samenhang met BRT objecten</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>---------------</td>
+<td>-----------------------------</td>
+<td>--------------------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>Functionele objecten</strong></td>
+<td>Aanscherping definitie functionele objecttypen</td>
+<td>Uitwerking objectenmodel gebouwen</td>
+<td>Typering functionele gebieden</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking eerste lijst functionele gebieden</td>
+<td>Uitwerking keringen</td>
+<td>Typering functionele gebieden verharding</td>
+</tr>
+<tr>
+<td></td>
+<td>Uitwerking samenhang met BRT objecten</td>
+<td>Uitwerking netwerken als onderdeel registratie</td>
+<td>Typering functionele gebieden groen</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Functionele gebieden natuur                        Typering functionele gebieden water</td>
+<td></td>
+</tr>
+<tr>
+<td>---------------</td>
+<td>-----------------------------</td>
+<td>--------------------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>Registratieve objecten</strong></td>
+<td>Uitwerking samenhang met BRT objecten</td>
+<td>Uitwerking openbare ruimten geometrie</td>
+<td>Typering registratieve gebieden</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Naamgeving andere objecten</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Wijken, buurten en territoriale indelingen</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Uitwerking bebouwde kom</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Bestuurlijke gebieden</td>
+<td></td>
+</tr>
+</tbody></table><p>De organisatorische invulling van deze specifieke inhoudelijke uitwerkingen zal in een afzonderlijk document nog verder worden geconcretiseerd.</p></section><section id="use-cases-gebruikers"><h5 id="x6-2-2-2-use-cases-gebruikers"><span class="secno">6.2.2.2 </span>Use cases gebruikers</h5><p>Het is belangrijk om in een vroegtijdig stadium te toetsen in hoeverre de inhoud van een samenhangende objectenregistratie voldoet aan de concrete behoeften die er bestaan bij de verschillende soorten gebruikers. Eén van de onderdelen van het vervolgtraject is dan ook het aan de hand van specifieke gebruikerssituaties (use-cases) bepalen of de voorgestelde objecttypen en eigenschappen voldoende aansluiten op hetgeen de gebruikers toepassen in hun eigen informatievoorziening. De samenhangende objectenregistratie is daarbij uiteraard niet de enige gegevensbron die wordt gebruikt. In de use cases zal dan ook worden betrokken hoe een samenhangende objectenregistratie zou functioneren in samenhang met andere gegevensverzamelingen.</p><p>Voor het bepalen van de aansluiting op de gebruikersbehoeften zal onder meer gebruik gemaakt worden van:
+•    beschikbare informatiebehoeften voor specifieke gebruikerstoepassingen die in andere trajecten zijn bepaald (zoals Haal Centraal);</p><p>•    resultaten van trajecten gericht  op het onderdeel “gebruik” binnen de doorontwikkeling in samenhang van de geo-basisregistraties (zoals de door Geonovum ontwikkelde demonstrators en activiteiten in het kader van de werkgroep architectuur);</p><p>•    het vanuit enkele belangrijke gebruikersgroepen laten beschrijven van enkele belangrijke use-cases.</p></section></section></section><section id="globale-planning-van-het-vervolg"><h3 id="x6-3-globale-planning-van-het-vervolg"><span class="secno">6.3 </span>Globale planning van het vervolg</h3><p>De volledige uitwerking van de inhoud van de samenhangende objectenregistratie zal naar verwachting het gehele jaar 2020 in beslag nemen. Het is echter wenselijk om reeds in een zo vroegtijdig mogelijk stadium de hoofdlijnen van het inhoudelijk ontwerp te kunnen vaststellen, zodat op basis daarvan besluitvorming over het vervolgtraject kan plaatsvinden en gestart kan worden met het parallel aan elkaar aanpassen van verschillende informatiemodellen. Er wordt daarom gekozen voor een aanpak waarbij in de eerste helft van het jaar de aandacht primair is gericht op de verdere uitwerking van die onderdelen die noodzakelijk zijn voor het kunnen uitwerken van de structuur van het informatiemodel. Detailuitwerkingen die daarop in mindere mate invloed hebben (denk hierbij aan een overzicht van mogelijke domeinwaarden) kunnen dan parallel aan het opstellen van het informatiemodel verder worden uitgewerkt. Dat levert het volgende globale beeld op:
+</p><p><img src="media/planning_vervolg.png" alt="hoofdelementen"></p></section></section><section data-format="markdown" id="bijlagen"><!--OddPage--><h2 id="x7-bijlagen"><span class="secno">7. </span>Bijlagen</h2><section id="bijlage-1-lijst-met-afkortingen"><h3 id="x7-1-bijlage-1-lijst-met-afkortingen"><span class="secno">7.1 </span>Bijlage 1 Lijst met afkortingen</h3><table>
+<thead>
+<tr>
+<th>TERM</th>
+<th>OMSCHRIJVING</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Aquo</td>
+<td>Standaard binnen de watersector</td>
+</tr>
+<tr>
+<td>BAG</td>
+<td>Basisregistratie Adressen en Gebouwen</td>
+</tr>
+<tr>
+<td>BGT</td>
+<td>Basisregistratie Grootschalige Topografie</td>
+</tr>
+<tr>
+<td>BOR</td>
+<td>Beheer Openbare Ruimte</td>
+</tr>
+<tr>
+<td>BRK</td>
+<td>Basisregistratie Kadaster</td>
+</tr>
+<tr>
+<td>BRT</td>
+<td>Basisregistratie Topografie</td>
+</tr>
+<tr>
+<td>IMBOR</td>
+<td>Informatiemodel Beheer Openbare Ruimte (CROW)</td>
+</tr>
+<tr>
+<td>IMGeo</td>
+<td>Informatiemodel Geografie</td>
+</tr>
+<tr>
+<td>IMWV</td>
+<td>Informatiemodel Wegen en Verkeer (CROW)</td>
+</tr>
+<tr>
+<td>NWB</td>
+<td>Nationaal Wegenbestand (RWS)</td>
+</tr>
+<tr>
+<td>SOR</td>
+<td>Samenhangende Objectenregistratie</td>
+</tr>
+<tr>
+<td>WOZ</td>
+<td>Basisregistratie Waardering Onroerende Zaken</td>
+</tr>
+<tr>
+<td>3D</td>
+<td>Het begrip driedimensionaal of 3D duidt in</td>
+</tr>
+<tr>
+<td></td>
+<td>dit geval aan dat de geometrie van een</td>
+</tr>
+<tr>
+<td></td>
+<td>ruimtelijk object met drie meetkundige</td>
+</tr>
+<tr>
+<td></td>
+<td>dimensies wordt beschreven en vastgelegd</td>
+</tr>
+</tbody></table></section><section id="bijlage-2-voorbeelden-onderscheid-fysieke-objecten-en-functionele-objecten"><h3 id="x7-2-bijlage-2-voorbeelden-onderscheid-fysieke-objecten-en-functionele-objecten"><span class="secno">7.2 </span>Bijlage 2 Voorbeelden onderscheid fysieke objecten en functionele objecten</h3><p>In de SOR worden functionele en fysieke objecten altijd als aparte objecttypen getypeerd, als de begrenzing ervan kan verschillen. Hieronder zijn een aantal voorbeelden opgenomen die het onderscheid tussen functionele en fysieke objecten laten zien.</p><p><img src="media/park.png" alt="park"></p><p><img src="media/oever.png" alt="oever"></p></section><section id="bijlage-3-aanbevelingen-van-interdisciplinaire-werkgroepen"><h3 id="x7-3-bijlage-3-aanbevelingen-van-interdisciplinaire-werkgroepen"><span class="secno">7.3 </span>Bijlage 3 Aanbevelingen van interdisciplinaire werkgroepen</h3><p>Rapport werkgroep Wegen, versie 1.0, 3 september 2019 (<a href="https://www.geobasisregistraties.nl/basisregistraties/documenten/rapport/2019/11/07/verkenning-samenhangende-objectenregistratie-eindrapport-werkgroep-wegen">https://www.geobasisregistraties.nl/basisregistraties/documenten/rapport/2019/11/07/verkenning-samenhangende-objectenregistratie-eindrapport-werkgroep-wegen</a>)</p><table>
+<thead>
+<tr>
+<th>Aanbevelingen</th>
+<th>Uitwerking in synthese rapport</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Volledigheid</td>
+<td></td>
+</tr>
+<tr>
+<td>Alle genoemde objecten en kenmerken zijn vanuit het perspectief van wegen verplicht onderdeel van de samenhangende objectenregistratie. Voor het wegenverkeersnet geldt dat het een aaneengesloten samenstel van objecten moet zijn, dit geldt zowel voor de topografie als voor het wegennetwerk.</td>
+<td>In de SOR is de opname van zowel verplichte als vrijwillige inhoud mogelijk. De vanuit het perspectief van wegen voorgestelde objecten en kenmerken zullen vooralsnog in het verplichte gedeelte van het model worden opgenomen. Ook het vereiste dat sprake moet zijn van een aaneengesloten samenstel van objecten wordt als uitgangspunt meegenomen.</td>
+</tr>
+<tr>
+<td>Actualiteit</td>
+<td></td>
+</tr>
+<tr>
+<td>Wegen moeten uiterlijk op datum ‘start aanleg’ of ‘start reconstructie’ met status plan worden vastgelegd in de samenhangende objectenregistratie, dit geldt zowel voor de topografie als voor het wegennetwerk.  Bij ingebruikname / openstelling van een weg, wordt de plan status gewijzigd in een status bestaand voor het wegennetwerk, zodat het voor routering bruikbaar is. En voor wegtopografie wordt de plan status gewijzigd in een status gerealiseerd, niet ingemeten. Binnen 6 maanden wordt de topografie ingewonnen en verandert de status naar bestaand.</td>
+<td>De voorgestelde werkwijze met statussen komt in belangrijke mate overeen met de werkwijze zoals deze voor de SOR wordt beoogd. Daarbij zal er in elk geval door middel van statussen gaan worden geborgd dat de actualiteit van informatie over wegen wordt vergroot. De vraag in hoeverre dit ook verplicht noodzakelijk is voor de wegtopografie zal in het vervolg nog nader moeten worden bekeken.</td>
+</tr>
+<tr>
+<td>Nauwkeurigheid</td>
+<td></td>
+</tr>
+<tr>
+<td>De eisen aan nauwkeurigheid van topografie worden overgenomen van de BGT. De nauwkeurigheidseis die gesteld wordt aan verbindingen en knooppunten is dat zij moeten liggen binnen de wegtopografie.</td>
+<td>De kwaliteitscriteria zullen op een later moment nog worden bepaald. De hier gevraagde kwaliteit (BGT kwaliteit) zou echter niet tot knelpunten moeten leiden. De gestelde eis dat verbindingen en knooppunten moeten liggen binnen de wegtopografie, zal in het ontwerp van de SOR worden opgenomen.</td>
+</tr>
+<tr>
+<td>Algemeen</td>
+<td></td>
+</tr>
+<tr>
+<td>-    In de samenhangende objectenregistratie worden alle wegen vastgelegd. Wegen op particuliere en bedrijventerreinen worden opgenomen voor zover dit nodig is voor de uitvoering van wettelijke taken bijvoorbeeld voor de inzet van hulpdiensten en de dienstverlening door netbeheerders.</td>
+<td>De vanuit het perspectief van wegen voorgestelde populatie van objecten zal vooralsnog in de SOR worden gevolgd. Ook de voorgestelde ondergrens van (onverharde) weginfrastructuur in natuurgebieden zal worden meegenomen in de verdere uitwerking van de SOR. Bij de voor aggregatie noodzakelijke uniformiteit en homogeniteit lijkt vooral sprake te zijn van een kwaliteitsvraagstuk waar ook al in de huidige situatie aan gewerkt kan worden. Daar waar inwinregels onvoldoende scherp zijn afgebakend, zouden deze verder moeten worden verhelderd. Deze kunnen dan in het ontwerp van de SOR worden verankerd.</td>
+</tr>
+<tr>
+<td>-    Stel een ondergrens vast voor het opnemen van natuur- en bospaden in de samenhangende objectenregistratie conform de huidige aanpak van de BRT.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Leg de wegen zo vast dat zij eenvoudig naar een hoger beschouwingsniveau zijn te aggregeren. Dit stelt veel eisen aan uniformiteit en homogeniteit om alle bronhouders de wegen op dezelfde wijze te laten vastleggen.</td>
+<td></td>
+</tr>
+<tr>
+<td>Wegenlegger</td>
+<td></td>
+</tr>
+<tr>
+<td>Elke gemeente in Nederland moet op grond van de Wegenwet over een wegenlegger beschikken. Een wegenlegger toont de openbare wegen en paden buiten de bebouwde kom en hoe de verantwoordelijkheid en onderhoudsplicht voor deze wegen is georganiseerd.  Als de samenhangende objectenregistratie een landsdekkende vastlegging van wegen bevat is dit een wettelijke basis om een wegenlegger als product daarvan te kunnen afgeleiden.</td>
+<td>Dit is geen ontwerpvraagstuk voor de SOR. De vanuit het domein wegen voorgestelde wenselijke afstemming van de wegenlegger op de SOR is een aandachtspunt dat bij het ministerie van I&amp;W zal moeten worden belegd.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>wegennetwerk</td>
+<td></td>
+</tr>
+<tr>
+<td>Er is een aantoonbare behoefte vanuit een breed aantal beleidsthema’s en de daarbij behorende processen aan een routeerbaar wegennetwerk.</td>
+<td>In de SOR is de opname van een routeerbaar wegennetwerk voorzien.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Neem verbindingen en knooppunten om de wegen functioneel te duiden en om dit te gebruiken als een routeerbaar netwerk voor verschillende verkeerscategorieën.</td>
+<td>In de SOR is de opname van verbindingen en knooppunten voorzien. Een functionele duiding kan met deze verbindingen en knooppunten plaatsvinden.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Het model voorziet erin dat bij verbindingen vastgelegd kan worden voor welke (combinatie van) weggebruikers deze verbinding is bedoeld.</td>
+<td>In de SOR is de opname van verbindingen voorzien. De exacte invulling daarvan zal bij het verder uitwerken van het inhoudelijk denkraam worden bepaald. Dit vanuit het domein wegen aangedragen aandachtspunt zal daarbij worden meegenomen.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>De borging van bepaalde kenmerken van verbindingen ligt in genomen verkeersbesluiten door de overheid. Deze gelegitimeerde werkelijkheid is voor veel afnemers van belang. Dit is belangrijker dan het registreren van de locatie van het bijbehorend verkeersbord.</td>
+<td>Dit is geen ontwerpvraagstuk voor de inhoud van de SOR. De vanuit het domein wegen voorgestelde wenselijke afstemming van verkeersbesluiten op de SOR is een aandachtspunt dat bij het ministerie van I&amp;W zal moeten worden belegd. Wel sluit de vanuit het domein wegen voorgestelde benadering goed aan op de wijze waarop voor andere objecttypen in het inhoudelijk denkraam met brondocumenten wordt omgegaan. In de verdere uitwerking zal nader onderzoek worden gedaan naar de wenselijkheid om de bebouwde kom aan de SOR toe te voegen.</td>
+</tr>
+<tr>
+<td>-    Er moet een verwijzing worden vastgelegd naar dat verkeersbesluit plus de bijbehorende ingangsdatum.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Nader onderzoek is nodig om te bepalen of deze verkeersbesluiten eenduidig genoeg de locatie vastleggen en welke maatregelen genomen moeten worden om dit te optimaliseren.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Sommige verkeersbesluiten worden genomen op het niveau van een bebouwde kom en gelden dan voor de inliggende wegen tenzij een ander verkeersbesluit anders bepaalt. De ligging van de komgrenzen is op dit moment niet eenduidig en het meervoudig vastleggen van een dergelijk kom-gerelateerd verkeersbesluit bij de inliggende wegen lijkt voor de hand te liggen, ook om daarmee verkeersbesluiten op één plek vast te leggen in het model om de toegankelijkheid van het gebruik te bevorderen.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ontwikkelaars van navigatiesystemen geven aan dat veel data zelf wordt ingewonnen en dat men daarbij niet de overheid per se nodig heeft, maar de overheid maakt het de maatschappij wel veel makkelijker als de data wordt opengesteld die toch al beschikbaar is in de overheidsprocessen. Waar men de overheid wel nadrukkelijk nodig heeft is als de overheid verkeersbesluiten neemt. Men wil graag voor of op de ingangsdatum van de maatregel weten dat deze maatregel er is en voor welke verbinding deze maatregel geldt.</td>
+<td>Dit is geen ontwerpvraagstuk voor de inhoud van de SOR. De vanuit het domein wegen voorgestelde wenselijke afstemming is een aandachtspunt dat bij het ministerie van I&amp;W zal moeten worden belegd.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Naamgeving en vindbaarheid</td>
+<td></td>
+</tr>
+<tr>
+<td>De naamgeving van wegen is een kenmerk wat qua ordening het beste bij het wegennetwerk past en niet bij wegdelen.</td>
+<td>In de SOR zal de mogelijkheid geboden gaan worden om de geometrie van openbare ruimten op te nemen. Aan de ene kant door het vrijwillig kunnen vastleggen van een bij een besluit behorende geometrie. Aan de andere kant door het koppelen van de benaming aan netwerksegmenten. Deze oplossing zal ook voor wegen worden gevolgd.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2,5- en 3D topografie van wegen</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Vanuit het gebruik wordt nu nog geen meervoudig belang aangedragen voor het vastleggen van een 3D-model met volumes.</td>
+<td>Binnen de SOR zal de mogelijkheid ontstaan om 3D geometrie van objecten op te nemen. De mate waarin dit mogelijk wordt kan verschillen voor de diverse objecttypen. In de aanloop daarheen zal het naar verwachting nog gedurende lange tijd mogelijk blijven om (ook) 2D of 2,5D geometrie op te nemen. Deze zullen dus naast elkaar gaan bestaan. In de verdere uitwerking zal nog worden bepaald op welke wijze dit kan worden vormgegeven. In de verdere uitwerking zal nader onderzoek worden gedaan naar de wenselijkheid om maximale doorrijhoogten aan de SOR toe te voegen dan wel deze in een sectorale registratie op te nemen.</td>
+</tr>
+<tr>
+<td>-    Er is wel meervoudig behoefte aan de hoogte (ten opzichte van NAP) van een weg (ook wel de 2,5D-dimensie genoemd).</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Advies : hanteer dit als een vrijwillig kenmerk wat middels een groeimodel wordt bijgehouden tot het verplicht wordt gesteld.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Ook is er een brede behoefte aan de maximale doorrijhoogte van een verbinding, als deze afwijkt.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Relaties binnen/buiten samenhangende objectenregistratie</td>
+<td></td>
+</tr>
+<tr>
+<td>Relatie met kunstwerken. Het kan nog een overweging zijn om specifiek beweegbare bruggen in de samenhangende objectenregistratie op te nemen om bij een routeerbaar netwerk rekening mee te houden.</td>
+<td>In de SOR is de opname van kunstwerken voorzien. De exacte invulling daarvan zal bij het verder uitwerken van het inhoudelijk denkraam worden bepaald. Dit vanuit het domein wegen aangedragen aandachtspunt zal daarbij worden meegenomen.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Het is aan te bevelen om veerponten op te nemen als kenmerk bij een verbinding. (met daarbij de vastlegging van het type toegestaan vervoer en eventueel de vaarperiodes)</td>
+<td>In de SOR is de opname van verbindingen voorzien. De exacte invulling daarvan zal bij het verder uitwerken van het inhoudelijk denkraam worden bepaald. Dit vanuit het domein wegen aangedragen aandachtspunt zal daarbij worden meegenomen.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Relatie met gebouwen is van groot belang</td>
+<td>In de verdere uitwerking van het inhoudelijke denkraam zal aan deze vanuit het domein wegen benoemde relatie aandacht worden besteed.</td>
+</tr>
+<tr>
+<td>-    Ligging – noodzakelijk voor integrale benadering</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Adressering  - noodzakelijk voor routering</td>
+<td></td>
+</tr>
+<tr>
+<td>Leg niet-verplichte objecten en kenmerken altijd buiten de samenhangende objectenregistratie vast maar zorg voor een heldere verbinding met de samenhangende objectenregistratie.</td>
+<td>Uitgangspunt van de SOR is dat opname van zowel verplichte als vrijwillige inhoud mogelijk is. Deze aanbeveling vanuit het domein wegen wordt dan ook niet overgenomen. Wel zal voldoende moeten worden geborgd dat het voor gebruikers altijd helder is dat er sprake is van een verplichte of vrijwillige inhoud en dus van de te verwachten volledigheid.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BRT</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Zie de BRT niet als een aparte basisregistratie die wordt afgeleid uit de samenhangende objectenregistratie, maar als een geaggregeerd en gegeneraliseerd product wat volledig geautomatiseerd wordt afgeleid uit objecten uit de samenhangende objectenregistratie. Dit geldt voor het aspect wegen maar ook breder. Zorg er voor dat gegevens die nu landelijk in de BRT worden bijgehouden, in de samenhangende objectenregistratie hun plek krijgen.</td>
+<td>De voorgestelde relatie met de BRT komt in belangrijke mate overeen met de werkwijze zoals deze voor de SOR wordt beoogd. Bij de voor aggregatie noodzakelijke uniformiteit en homogeniteit lijkt vooral sprake te zijn van een kwaliteitsvraagstuk waar ook al in de huidige situatie aan gewerkt kan worden. Daar waar inwinregels onvoldoende scherp zijn afgebakend, zouden deze verder moeten worden verhelderd. Deze kunnen dan in het ontwerp van de SOR worden verankerd.</td>
+</tr>
+<tr>
+<td>-    Het is voor bijvoorbeeld het afleiden van een topografische kaart als de BRT uit de BGT van groot belang dat alle bronhouders de afbakeningsregels op dezelfde manier interpreteren. Anders gaat dat ten koste van de continuïteit van het wegennetwerk op de gebiedsgrenzen tussen bronhouders.</td>
+<td></td>
+</tr>
+<tr>
+<td>Digital twin</td>
+<td></td>
+</tr>
+<tr>
+<td>Onderzoek de mogelijkheid van de samenhangende objectenregistratie  als een Digitale TWIN. (A digital twin is a digital copy of any given product updated in real-time.)</td>
+<td>Binnen de SOR zal de mogelijkheid ontstaan om 3D geometrie van objecten op te nemen. Hiermee zou op termijn een digitale twin kunnen ontstaan. Dit is op dit moment echter geen specifiek aandachtspunt bij de verdere uitwerking.</td>
+</tr>
+</tbody></table><p>Rapport werkgroep Water, versie 1.0, 23 oktober 2019 (<a href="https://www.geobasisregistraties.nl/basisregistraties/documenten/rapport/2019/11/07/verkenning-samenhangende-objectenregistratie-eindrapport-werkgroep-water">https://www.geobasisregistraties.nl/basisregistraties/documenten/rapport/2019/11/07/verkenning-samenhangende-objectenregistratie-eindrapport-werkgroep-water</a>)</p><table>
+<thead>
+<tr>
+<th>Aanbevelingen</th>
+<th>Uitwerking in synthese rapport</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Algemeen</td>
+<td></td>
+</tr>
+<tr>
+<td>Beheer: kwaliteit/ betrouwbaarheid en actualiteit.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    In het huidige stelsel van (basis)registraties verschillen de eisen wat betreft actualiteit en kwaliteit van vergelijkbare objecten en kenmerken. Hierdoor levert combinatie van gegevens uit verschillende registraties problemen op.</td>
+<td>De kwaliteitscriteria zullen op een later moment nog worden bepaald. Hierbij kunnen de behoeften vanuit het domein water ten aanzien van de kwaliteitseisen aan basisregistraties worden meegenomen. Deze behoefte zal door de gebruikers vanuit het domein water dan wel zo concreet mogelijk moeten worden geformuleerd. Toezicht door een regieorganisatie is geen ontwerpvraagstuk voor de SOR. Afspraken over de inrichting van kwaliteitsborging en toezicht zullen worden gemaakt bij de verdere besluitvorming over de SOR.</td>
+</tr>
+<tr>
+<td>-    Stel eisen aan het beheer, kwaliteit en actualiteit van gegevens van de aangewezen bronhouders. Een regieorganisatie dient hierop toe te zien en dit te signaleren.</td>
+<td></td>
+</tr>
+<tr>
+<td>Gebruik bestaande standaarden en informatiemodellen/ systemen.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    In de huidige situatie is water beschreven in verschillende informatiemodellen. Deze modellen verschillen qua detaillering en doelgroep. Welke onderdelen geschikt zijn voor opname in de uniforme samenhangende objectenregistratie dient met de usecase nader uitgewerkt te worden. Wel dienen deze registraties in samenhang vanuit een metamodel (figuur 10) onderling in verbinding te worden gebracht.</td>
+<td>Aansluiting op bestaande informatiemodellen wordt meegenomen in het ontwerp van de SOR. In de verdere uitwerking zal een aantal vraagstukken die de onderlinge samenhang bemoeilijken nog nader worden bekeken. Hierbij zal dan ook duidelijk moeten worden wat dit betekent voor de exacte inhoud van de SOR in relatie tot water. De aanbeveling om een koepelorganisatie een regiefunctie te laten vervullen is geen ontwerpvraagstuk voor de SOR. Hierin zal het domein water voor wat betreft de waterstandaarden zelf stappen moeten zetten.</td>
+</tr>
+<tr>
+<td>-    Laat een koepelorganisatie hierin de regiefunctie vervullen.</td>
+<td></td>
+</tr>
+<tr>
+<td>Inhoudelijk</td>
+<td></td>
+</tr>
+<tr>
+<td>Verbeter landelijke water(transport)netwerkgeometrie.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Welke water- en vervoersnetwerken zijn nodig en tot op welk detailniveau?</td>
+<td>In de SOR is ook de opname van netwerken van wegen, spoor en water voorzien. De exacte invulling daarvan zal bij het verder uitwerken van het inhoudelijk denkraam worden bepaald. De vanuit het domein water aangedragen vragen en aandachtspunten zullen daarbij worden meegenomen. Hierbij zal er ook aandacht moeten worden besteed aan de verschillende typen netwerken (zoals hydrologische netwerken en vervoersnetwerken).</td>
+</tr>
+<tr>
+<td>-    Beheer en bijhouding van hartlijnen water (Hydrologisch Netwerk) NHI. Het gaat hierbij ook om de stroomrichting en de relaties tussen de hartlijnen.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    De actualiteit en het detailniveau zullen vermoedelijk doorslaggevend zijn voor de instandhouding. Ergens zal er een afweging gemaakt moeten worden tussen de inspanning voor topografie en netwerk (topografische data vraagt meer inspanning).</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Standaardisering van gebruik van verschillende definities. Er is een onderscheid naar hartlijnenkeringen en aslijnenkeringen.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Werk vanuit standaarden en conform architectuurdefinities. Laat bestaande standaarden leidend zijn en zie hierop toe.</td>
+<td></td>
+</tr>
+<tr>
+<td>Netwerk</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Als voorbeeld (figuur 11) vaarnetwerk: hier gaat het om de routering en de relatie tussen hartlijnen.</td>
+<td>In de SOR is ook de opname van netwerken van wegen, spoor en water voorzien. De exacte invulling daarvan zal bij het verder uitwerken van het inhoudelijk denkraam worden bepaald. Daarbij kunnen ook deze aandachtspunten worden meegenomen.</td>
+</tr>
+<tr>
+<td>-    Netwerk registratie is tevens van toepassing op hydrologische en ecologische vraagstukken.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Registratie dient netwerkanalyses mogelijk te maken.</td>
+<td></td>
+</tr>
+<tr>
+<td>Betere scheiding tussen functie en fysiek voorkomen van water.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    In het huidige stelsel van basisregistraties lopen functie en fysiek voorkomen door elkaar. Dit uit zich onder andere bij water en levert wrijving op voor beheer en onderhoud en netwerktoepassingen van water.</td>
+<td>Het scheiden van fysieke objecten en functionele objecten is een uitgangspunt binnen de SOR. Dit gaat ook gelden voor de objecten die betrekking hebben op water. Een speciaal aandachtspunt rondom water is het feit dat door stijging en daling van het waterpeil geen harde fysieke begrenzing bestaat. Daarover zullen scherpe (uniforme) afspraken moeten worden gemaakt.</td>
+</tr>
+<tr>
+<td>-    Breng een duidelijke scheiding aan in de gegevensregistratie voor de objecten conform advies.</td>
+<td></td>
+</tr>
+<tr>
+<td>Hoogte- en niveauverschillen afstemmen.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Hoe kunnen in de samenhangende objectenregistratie 2D en 3D naast elkaar bestaan, zonder dat hiervoor extra inspanningen in het kader van bijhouding nodig zijn?</td>
+<td>Binnen de SOR zal de mogelijkheid ontstaan om 3D geometrie van objecten op te nemen. De mate waarin dit mogelijk wordt kan verschillen voor de diverse objecttypen. In de aanloop daarheen zal het naar verwachting nog gedurende lange tijd mogelijk blijven om (ook) 2D geometrie op te nemen. Deze zullen dus naast elkaar gaan bestaan. In de verdere uitwerking zal nog worden bepaald op welke wijze dit kan worden vormgegeven. Afspraken over de toedeling van verantwoordelijkheden zullen worden gemaakt bij de verdere besluitvorming over de SOR.</td>
+</tr>
+<tr>
+<td>-    Daar waar nodig en een toegevoegde waarde heeft, prevaleert 3D registratie. Dit is vooral aan de orde bij bovengrondse objecten.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Landelijk bijhouden van een basis hoogtemodel. Wie draagt hiervoor de eindverantwoordelijkheid?</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Gaan leveranciers van software nog investeren in functionaliteiten op 2D met niveauverschillen?</td>
+<td></td>
+</tr>
+<tr>
+<td>Organisatorisch</td>
+<td></td>
+</tr>
+<tr>
+<td>Verbeter de vindbaarheid van het openbare ruimte type water.</td>
+<td></td>
+</tr>
+<tr>
+<td>-   Afstemminging DAMO, IMWA en BOR. In het huidige stelsel van basisregistraties ontbreekt geometrie van openbare ruimten van type water. In de huidige praktijk wordt in de regel gebruik gemaakt van een omschrijving i.p.v. een locatie op de kaart. Met de opkomst en het wijdverspreide gebruik van GIS-viewers is het belang toegenomen om de omschrijving te koppelen aan een eenduidige locatie op de kaart. In een raadsbesluit, dat de openbare ruimte vaststelt, wordt soms de openbare ruimtenaam van een kunstwerk, (gemaal, stuw) benoemd via BAG-openbare ruimte en op een bijbehorende situatietekening afgebakend. De naam is afkomstig van de waterbeheerder. Het detailniveau van de afbakening op de situatietekening is nu nog per gemeente verschillend. De ontwikkelingen rondom IMBOR, IMGeo bieden geen oplossingen voor dit probleem.</td>
+<td>Het voorzien van elk object van een unieke identificatie is een uitgangspunt van de SOR. Ook zal de mogelijkheid geboden gaan worden om de geometrie van openbare ruimten in de SOR op te nemen. Aan de ene kant door het vrijwillig kunnen vastleggen van een bij een besluit behorende geometrie. Aan de andere kant door het koppelen van de benaming aan netwerksegmenten. Deze oplossing zal ook voor water worden gevolgd. De detailuitwerking daarvan dient nog plaats te vinden. Een aandachtspunt daarbij is ook het maken van afspraken over de naamgeving van objecten die zich uitstrekken over meerdere bronhouders. Er bestaat een nadrukkelijke relatie met de naamgeving van andere objecten (zoals gebouwen en complexen).</td>
+</tr>
+<tr>
+<td>-    Elk object dient voorzien te worden van een heldere identificatie nummer en naam. (onder aansturing van een afgestemde naamgevingsconventie)</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Indien een object meerdere partijen zeggenschap hebben over een object, dan dient de naamgeving van het object gelijk te zijn.</td>
+<td></td>
+</tr>
+<tr>
+<td>Centraal vastleggen in de basisregistratie, lokaal bijhouden door bronhouders.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Voor de samenhangende objectenregistratie komt een landelijke voorziening, waarin bronhouders haar wijziging in hun kernregistratie doorvoeren en deze bij het verkrijgen van een besluitvormende status (bv. legger/beheerregister) direct wordt doorgevoerd in de landelijke basisregistratie. Deze bijhouding vindt plaats op basis van meer landelijk geüniformeerde werkprocessen. Waterobjecten en waterstaatsobjecten dienen zo te worden vastgelegd dat samenstel voor verschillende gebruikers mogelijk is. Hierin staat het geïntegreerd beheren van objecten in plaats van registraties centraal. Gebruikers kunnen gegevens direct uit de objectenregistratie opvragen met behulp van moderne bevragingstechnieken (API’s).</td>
+<td>De exacte invulling van voorzieningen is nu geen ontwerpvraagstuk voor de SOR. De voorgestelde werkwijze komt verder wel in belangrijke mate overeen met de werkwijze zoals deze voor de SOR wordt beoogd. Het aan de hand van usecases uitwerken van de wijze waarop vastlegging van gegevens op een federatieve wijze kan plaatsvinden is een suggestie die bij de verdere uitwerking van de SOR zal worden meegenomen. Het verder uitwerken van de mogelijkheden om collectief bepaalde watergegevens vast te leggen en te ontsluiten is aan het domein water.</td>
+</tr>
+<tr>
+<td>-    Aan de hand van de usecase uitwerken welke gegevens centraal dienen te worden vastgelegd en welke via een gefedereerde mechanismen decentraal in de kernregistratie van de bronhouders komt te liggen.</td>
+<td></td>
+</tr>
+<tr>
+<td>Governance inrichten voor vernieuwing/verbetering.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    Onderstaande figuur geeft grofweg weer met welke basisregistraties we van doen hebben en hoe die vanuit de huidige situatie in 2019 de komende jaren zouden moeten migreren naar een samenhangende objectenregistratie. Hier zijn aanpalende registraties nog niet in meegenomen. De zaken die de aspecten ‘Water’ betreffen zijn met ROOD aangemerkt. Nota bene: Deze figuur is niet limitatief bedoeld. Als andere registraties betrokken worden, zoals het NWB, dan kennen deze ook een route naar de samenhangende objectenregistratie.</td>
+<td>Dit is geen ontwerpvraagstuk voor de SOR. Afspraken over de governance zullen worden gemaakt bij de verdere besluitvorming over de SOR. Vanuit het domein water wordt daarbij meegegeven dat er in elk geval een duidelijke toedeling van verantwoordelijkheden voor het bijhouden van waterobjecten moet plaatsvinden.</td>
+</tr>
+<tr>
+<td>-    Er dient helder aangegeven te worden welke bronhouders verantwoordelijk zijn voor welke objecten. Aanvullend wordt er vanuit koepelverantwoordelijkheid gestuurd op de kwaliteit, volledigheid en accuraatheid.</td>
+<td></td>
+</tr>
+<tr>
+<td>Informatiebehoefte, objecten en kenmerken in objectenregistratie.</td>
+<td></td>
+</tr>
+<tr>
+<td>-    In het huidige stelsel van (basis)registraties ontbreken objecten en kenmerken die landsbreed meervoudig gebruikt of gewenst worden. Deze objecten worden nu nog op meerdere plaatsen in aparte registraties bijgehouden, waardoor (soms tegenstrijdige) dubbelingen zijn ontstaan.</td>
+<td>Daar waar sprake is van een behoefte aan landsbreed en binnen meerdere sectoren te gebruiken objecten en kenmerken, dan kunnen deze bij de verdere uitwerking van de SOR worden meegenomen. Deze behoefte zal door de gebruikers vanuit het domein water dan wel zo concreet mogelijk moeten worden geformuleerd.</td>
+</tr>
+<tr>
+<td>-    Gebruikers hebben de behoefte aan een eenduidige en vooral landsdekkende registratie. Bepaal duidelijk het mogelijke gebruik van de informatie aan de hand van usecases en bepaal welke organisatie als bronhouder verantwoordelijk is voor welke set van objecten. Ook bij dit onderdeel is vanuit standaardisatie (Aquo-standaard) een overkoepelende sturing op samenhang onontbeerlijk.</td>
+<td></td>
+</tr>
+</tbody></table><p>Rapport werkgroep Natuur en Landschap, versie 1.0, 30 oktober 2019 (<a href="https://www.geobasisregistraties.nl/basisregistraties/documenten/rapport/2019/11/07/verkenning-samenhangende-objectenregistratie-eindrapport-werkgroep-natuur-en-landschap">https://www.geobasisregistraties.nl/basisregistraties/documenten/rapport/2019/11/07/verkenning-samenhangende-objectenregistratie-eindrapport-werkgroep-natuur-en-landschap</a>)</p><table>
+<thead>
+<tr>
+<th>Aanbevelingen</th>
+<th>Uitwerking in synthese rapport</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Optimale(re) afstemming tussen BRT en BGT.</td>
+<td>Het afstemmen van objecten tussen de BGT en BRT is een uitgangspunt binnen de SOR. Ook zal gestreefd worden naar een afstemming van classificaties. De werkgroep zal hiervan een overzicht aanleveren.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Onderzoek hoe het mogelijk is om de data in de natuurgebieden volledig en actueel op het afgesproken BGT-niveau te brengen.</td>
+<td>Dit is geen ontwerpvraagstuk voor de SOR. Het betreft echter wel een nadrukkelijke gebruikersbehoefte ten aanzien van de BGT. Deze behoefte zal door de gebruikers vanuit het domein natuur en landschap zo concreet mogelijk moeten worden geformuleerd. Er moet bekeken worden hoe dit vervolgens in het voorportaal van de Regieraad BGT moet worden ingebracht. Een voorbeeld is het preciezer vastleggen van (onverharde) weginfrastructuur in natuurgebieden.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Alle natuurobjecten in natuurgebieden worden opgenomen in de BGT met kwaliteitskenmerken die minimaal gebaseerd zijn op de BRT waardoor voor deze objecten minder nauwkeurige grenzen en een andere actualiteit toegestaan zijn dan de BGT elders voorschrijft.</td>
+<td>De kwaliteitscriteria zullen op een later moment nog worden bepaald. De hier gevraagde kwaliteit (minimaal BRT kwaliteit) zou echter niet tot knelpunten moeten leiden.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Stimuleer het terugmelden aan de BGT en BRT vanuit de processen waarin deze basisregistraties geraadpleegd worden.</td>
+<td>Dit is geen ontwerpvraagstuk voor de SOR. De gebruikers vanuit het domein natuur en landschap worden gevraagd dit zelf in het domein onder de aandacht te brengen.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Onderzoek hoe IMGeo uitgebreid kan worden zodat ook diverse landschapsobjecten opgenomen kunnen worden. De huidige lijst met objecten en kenmerken in IMGeo is daarvoor niet volledig genoeg.</td>
+<td>Deze aanbeveling kan pas concreet worden ingevuld op het moment dat de sector zelf eenduidig heeft vastgesteld welke landschapsobjecten en kenmerker daarvoor dan aanvullend in de SOR zouden moeten worden opgenomen. Zonder deze informatie wordt het lastig om aan deze behoeften invulling te geven in het kader van de SOR. In de uitwerking van de inhoud kunnen een aantal bekende inhoudelijke onderwerpen worden meegenomen (zoals naaldbos/loofbos conform de beelden in IMGeo 2.2).  Aan de gebruikers vanuit het domein natuur en landschap wordt gevraagd expliciet te benoemen welke objecten en kenmerken dit dan betreft. Als de sector Natuur te lang wacht met overeenstemming over op te nemen objecten en typeringen, bestaat het risico dat aansluiting op de SOR wordt bemoeilijkt.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Afgestemde semantiek met BGT en uniforme inwinningsregels voor topografie in natuurgebieden en voor de topografische vastlegging van landschapsobjecten waarbij de gehanteerde regels van de BRT overgenomen zouden kunnen worden zoals het weergegeven voorbeeld over bos in paragraaf 2.2.</td>
+<td>Hier lijkt vooral sprake te zijn van het niet uniform door de bronhouders uitvoeren van gemaakte afspraken. Dat is een kwaliteitsvraagstuk waar ook al in de huidige situatie aan gewerkt kan worden. Daar waar inwinregels onvoldoende scherp zijn afgebakend, zouden deze verder moeten worden verhelderd. Deze kunnen dan in het ontwerp van de SOR worden verankerd.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ontvlechting van de begrippen functie en voorkomen in de BGT en BRT.</td>
+<td>Het scheiden van fysieke objecten en functionele objecten is een uitgangspunt binnen de SOR.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Aanbevelingen voor verdere verkenning:</td>
+<td></td>
+</tr>
+<tr>
+<td>Wijs iemand aan die tot taak krijgt te beschrijven welke objecten, tot welk detailniveau en met welke attributen moeten worden opgenomen in de objectenregistratie. Minimaal twee gebruikers binnen een sector of twee sectoren anders is er geen sprake van meervoudig gebruik. Laat deze persoon organisatie-onafhankelijk zijn welke schakelt met de specialisten van de betrokken organisaties. De fysieke werkelijkheid moet altijd het uitgangspunt zijn. Start hierbij met een diepere inventarisatie van de informatiebehoeften bij belanghebbenden.</td>
+<td>Deze aanbeveling zal primair door de sector natuur en landschap zelf moeten worden opgepakt. Het valt buiten de scope van de ontwikkeling van de SOR om breed onderzoek te doen naar uiteen lopende gebruikersbehoeften binnen verschillende domeinen.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Zoek uit met betrokken stakeholders in welke mate fysieke objecten in natuurgebieden een ander kwaliteitsregime mogen hebben ten opzichte van objecten in andere gebieden die in de huidige situatie conform de eisen van de BGT worden bijgehouden. Geef daarbij aandacht aan de actualiteit en de precisie van de grenzen en de herleidbaarheid (metadata) op objectniveau.</td>
+<td>De kwaliteitscriteria zullen op een later moment nog worden bepaald. Deze aanbeveling kan daarin worden meegenomen.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Onderzoek al dan niet binnen de scope van de samenhangende objectenregistratie de mogelijkheid van een eenduidige afbakening van natuurgebieden en de begrenzing van deze functionele gebieden in de topografische kartering mee te nemen. Dit helpt om te sturen op het verschil in kwaliteitsniveau binnen en buiten natuurgebieden.</td>
+<td>Deze aanbeveling kan pas concreet worden ingevuld op het moment dat de sector zelf heeft vastgesteld wat de eenduidige afbakening van een natuurgebied zou moeten zijn. Opname daarvan in de SOR als een functioneel gebied behoort dan tot de mogelijkheden. Afbakening van natuurgebieden ten behoeve van een onderscheid in kwaliteitsregiems lijkt wel noodzakelijk.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>De opdracht voor deze verkenning was op gebruik gericht en niet op de bijhouding. De werkgroep is van mening dat ook op dat punt kansen liggen ter verbetering door eenmalig inwinnen en meervoudig gebruik, door gebruik te maken van data die door andere organisaties worden bijgehouden.</td>
+<td>Deze mening van de werkgroep wordt onderschreven. Zowel in de eenmalige opbouw als in het bijhouden van de registratie zal worden bezien op welke wijze hieraan voor de verschillende objecten in de SOR invulling kan worden gegeven.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Hou in de transitie rekening mee met een financiële inspanning om de samenhangende objectenregistratie op het gewenste kwaliteitspeil te brengen op dit thema. Deze financiële inspanning moet generiek worden gedragen en niet ten laste komen van diegenen die er primair voordeel bij hebben.</td>
+<td>Dit is geen ontwerpvraagstuk voor de SOR. Afspraken over de financiën zullen worden gemaakt bij de verdere besluitvorming over de SOR.</td>
+</tr>
+</tbody></table><p>Eindrapport werkgroep Bouwwerken, versie 1.0, 26 februari 2020 (<a href="https://www.geobasisregistraties.nl/basisregistraties/documenten/rapport/2020/02/26/verkenning-samenhangende-objectenregistratie-eindrapport-werkgroep-bouwwerken">https://www.geobasisregistraties.nl/basisregistraties/documenten/rapport/2020/02/26/verkenning-samenhangende-objectenregistratie-eindrapport-werkgroep-bouwwerken</a>)</p><table>
+<thead>
+<tr>
+<th>Aanbevelingen</th>
+<th>Uitwerking in synthese rapport</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Uitwerken objecttypen, relaties en kenmerken</strong><br>De voorgestelde houtskoolschets verder uitwerken tot objecttypen en relaties aan de hand van praktijkvoorbeelden, gericht op: <br>- Aanscherpen definities;<br>- Beschrijving en werking van onderlinge relaties;<br>-  Classificatie en afbakening van het begrip Gebouwzone;<br>- Nadere uitwerking van de 3D-geometrie per objecttype aan de hand van praktijkvoorbeelden en toetsing aan informatiebehoefte;<br>- Definitieve positionering kenmerken bij objecttypes;<br>- Harmonisatie van typeringen in BRT, BGT, WOZ en BAG.<br></td>
+<td>In de SOR is de opname van de in het rapport voorziene objecttypen en relaties voorzien. De exacte invulling daarvan zal bij het verder uitwerken van het inhoudelijk denkraam worden bepaald. Dit vanuit het domein bouwwerken aangedragen aandachtspunt zullen daarbij worden meegenomen. Naast een nadere afbakening van begrippen gaat het daarbij in elk geval om nadere uitwerking van classificaties, geometrie en eigenschappen van de verschillende objecttypen.</td>
+</tr>
+<tr>
+<td><strong>Keuze basisgegevens/sectoraal en verplicht/niet-verplicht</strong><br>Per objecttype de meervoudige, landsdekkende informatiebehoefte onderzoeken en aan de hand daarvan de volgende keuzes maken:<br>- Sectoraal of basisgegeven;<br>- Verplicht of niet-verplicht.<br></td>
+<td>In de verdere uitwerking zal de informatiebehoefte nader in beeld worden gebracht en op basis daarvan zal zowel worden bepaald welke gegevens tot de inhoud van de SOR zullen behoren (en welke gegevens in sectorale registraties een plaats zullen moeten vinden) als welke van deze gegevens tot het verplichte dan wel vrijwillige gedeelte van de registratie behoren.</td>
+</tr>
+<tr>
+<td><strong>Overige nadere uitwerkingen</strong><br>Uitwerken van de levenscyclus en gebeurtenis gedreven werken</td>
+<td>Het werken met levenscycli is een van de uitgangspunten voor de inhoud van de SOR. De levenscycli van de aan bouwwerken gerelateerde objecttypen zullen in die lijn verder worden uitgewerkt. Gebeurtenisgedreven werken is geen ontwerpvraagstuk voor de inhoud van de SOR. Dit onderwerp zal in de nadere uitwerking van de architectuur een plaats vinden.</td>
+</tr>
+<tr>
+<td><strong>Relatie met BRK</strong> <br>De relatie met de BRK verder onderzoeken in overleg met het  Kadaster</td>
+<td>Gebruikersbehoeften vanuit de BRK zullen worden meegenomen in de verdere uitwerking. Dit vraagstuk zal daarnaast als onderdeel van DiS Geo en de verdere uitwerking van een stelsel van geo-gegevens worden meegenomen.</td>
+</tr>
+</tbody></table></section></section><p role="navigation" id="back-to-top"><a href="#title"><abbr title="Naar begin">↑</abbr></a></p><script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script></body></html>
