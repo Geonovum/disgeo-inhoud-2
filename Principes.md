@@ -6,9 +6,22 @@
 
 #### Bronverwijzing
 
-#### Dekkingsgebied
+#### Grondgebied NL
 
-#### ...
+#### Mate van detail (schaal niveau)
+
+#### Opdelende objecttypen
+
+#### Maaiveld (100%)
+
+#### 3D
+
+#### ondergrondse delen
+
+#### overige scheidingen
+
+
+
 
 ### Algemene principes
 
@@ -20,9 +33,10 @@
 
 #### topologie
 
-#### levensfasen
 
-#### identificatrie
+#### identificatie objecten
+
+#### levensfasen
 
 #### tijdreizen
 
