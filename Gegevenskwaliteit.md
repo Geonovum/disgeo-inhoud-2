@@ -1,5 +1,7 @@
 ## Gegevenskwaliteit
 
+*Dit hoofdstuk krijgt in een later stadium vorm.*
+
 ### Volledigheid
 
 ### Compleetheid

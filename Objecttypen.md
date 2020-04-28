@@ -1,10 +1,12 @@
-## Objecttypen
+## Objecttypen en relaties
 
 In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de verschillende fysieke objecttypen en functionele objecttypen in de samenhangende objectenregistratie. Deze aanzet is primair gebaseerd op de ook nu reeds in de bestaande basisregistraties gehanteerde typeringen. Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen zijn op deze typeringen soms beperkte aanpassingen doorgevoerd. Ook zijn enkele eerste wijzigingen voorgesteld die het gevolg zijn van het in hoofdstuk 2 genoemde uitgangspunt over heldere definiëring. Tenslotte is daar waar mogelijk reeds bekeken in hoeverre aanpalende sectorale typeringen aanleiding kunnen geven tot een aangescherpte typering. 
 
 Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
 
-### Typering fysieke objecttypen in de objectenregistratie
+### Objecttypen
+
+#### fysieke objecttypen 
 
 **Verhardingsobject**
 Voor het objecttype ‘verhardingsobject’ is de typering overgenomen uit IMBOR 2020. Dit leidt tot de volgende mogelijke typeringen:
@@ -196,7 +198,10 @@ De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.
 |*Niet BGT*	|draadraster|
 |*Niet BGT*	|faunaraster|
 
-## Typering functionele objecttypen in objectenregistratie
+**Overige scheidingen**
+
+
+#### functionele objecttypen
 
 **Netwerken**
 Voor de functionele typering van netwerken is aangesloten bij de beschikbare typeringen in de BGT|IMGeo voor wegen en spoor. Verdere afstemming is nodig met NWB, IMBOR/IMWV, Prorail en de watersector. Voor wegverbindingen zijn de voorstellen voor IMGeo 2.2 overgenomen. Voor spoorverbindingen is de typering vereenvoudigd. Het uitgangspunt dat objecttypen scherp zijn afgebakend, maakt dat de typering sneltram is vervallen en dat havenkraan vervangen is door (laad-/los)kraan.
@@ -313,3 +318,6 @@ De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen z
 **Functionele objecttypen uit BRT**
 
 De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen zal in het vervolgtraject nader worden onderzocht.
+
+
+### Objectrelaties

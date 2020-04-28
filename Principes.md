@@ -1,47 +1,33 @@
 ## Principes
 
-### Ontwerpprincipes
+### ...
 
-#### ...
+### Bronverwijzing
 
-#### Bronverwijzing
+### Grondgebied NL
 
-#### Grondgebied NL
+### Mate van detail (schaal niveau)
 
-#### Mate van detail (schaal niveau)
+### Opdelende objecttypen en maaiveld (100%)
 
-#### Opdelende objecttypen
+### 3D
 
-#### Maaiveld (100%)
+### ondergrondse delen
 
-#### 3D
+### Coördinatenstelsel
 
-#### ondergrondse delen
+### Geometrie
 
-#### overige scheidingen
+### topologie
 
+### identificatie objecten
 
+### levensfasen
 
+### tijdreizen
 
-### Algemene principes
+#### historie
 
-#### Bronhouders
-
-#### Coördinatenstelsel
-
-#### Geometrie
-
-#### topologie
-
-
-#### identificatie objecten
-
-#### levensfasen
-
-#### tijdreizen
-
-##### historie
-
-##### toekomst
+#### toekomst
 
 
