@@ -36,6 +36,7 @@ In de uitwerking van de opdracht moeten in elk geval de volgende onderdelen een 
 
 
 *Bekende issues die in de uitwerking van de opdracht moeten worden meegenomen:* 
+
 In een bijlage is (indien beschikbaar) een overzicht opgenomen van de verschillende issues die er vanuit eerdere trajecten bekend zijn of die vanuit de review van tussenproducten (vanuit andere werkgroepen) naar voren zijn gekomen. Het is de bedoeling dat in de op te leveren notitie expliciet is opgenomen op welke wijze het issue is meegenomen en wat de afwegingen zijn geweest voor het wel of niet meenemen van het issue in een oplossing. 
 
 
