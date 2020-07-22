@@ -120,7 +120,9 @@ We kiezen voor optie 2.4 en afhankelijk van de situatie daarbinnen voor stap a o
 
 
 
-### Opdelende objecttypen en referentielaag (100%)
+### Topologie
+
+Opdelende objecttypen en referentielaag (100%)
 
 **NEN3610**
 De Samenhangend objectenregistratie conformeert zich aan NEN3610. 
@@ -130,9 +132,11 @@ NEN3610
 - Heeft het dus ook niet over ‘opdelend’ of ‘inrichtend’ of over een referentielaag als het maaiveld
 
 Dit is het semantische model van NEN3610: 
-![semantisch model lNEN3610](media/Semantisch model NEN3610 v5.png)
+
+![semantisch model lNEN3610](media/Semantisch_model_NEN3610_v5.png)
 
 **Topologie**
+
 ontwerpprincipe : *Het semantisch model van de SOR conformeert zich aan NEN3610*
 
 ontwerpprincipe : *Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels*
@@ -145,13 +149,11 @@ Deze Referentielaag wordt
    - 	Objecten van andere fysieke objecttypen worden ten opzichte hiervan gepositioneerd, zoals bijvoorbeeld Gebouwen en Verharding.   Ook de 3D-verschijningsvormen van objecten kunnen ten opzichte hiervan worden gepositioneerd
    -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
+![topologie](media/topologie.png)
 
 ontwerpprincipe : *In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoet te bedekken*
 - Voorbeeld : de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
 
-
-
-![topologie](media/Stopologoe.png)
 
 
 ### 3D
