@@ -164,9 +164,7 @@ ontwerpprincipe : *In geval van nadere benoemde registratieve objecttypen is er 
 
 ### Geometrie
 
-### topologie
-
-### identificatie objecten
+### Identificatie van objecten
 
 **Samenvattend**
 Er is behoefte aan een persistente universele unieke en betekenisloze identificatie,  en overal geldige, permanente en unieke verwijzing naar een object, waarmee hierdoor interoperabiliteit wordt gemaximaliseerd  en ook solide koppelingen met andere gegevensverzamelingen mogelijk worden, zowel door de tijd heen en bij toepassing van verschillende geometrische representaties.
