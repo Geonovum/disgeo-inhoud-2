@@ -151,7 +151,7 @@ Deze Referentielaag wordt
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
 ![topologie](media/topologie.png)
 
-ontwerpprincipe : *In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoet te bedekken*
+ontwerpprincipe : *In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken*
 - Voorbeeld : de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
 
 
@@ -159,6 +159,30 @@ ontwerpprincipe : *In geval van nadere benoemde registratieve objecttypen is er 
 ### 3D
 
 ### ondergrondse delen
+
+ontwerpprincipe: *In de huidige scope van de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten en dei voor een  mens toegankelijk zijn.*
+
+Waar komen we ondergrondse delen tegen?
+- Gebouw
+- Netwerk; Spoor (trein, metro, tran), weg, water
+- Tunneldeel
+- Kunstwerk (met ondergrondse gebruiksruimte)
+- Kunstwerk; duiker
+- Bak; Afval apart plaats
+
+Wat beschouwen we niet als ondergrondse delen voor de SOR:
+- Put(deksel) niet ondergronds
+- Ondergrondse objecten die al in een andere registratie zijn opgenomen, zoals kabels en leidingen, niet gesprongen explosieven, archeologische vindplaatsen, ed.
+- Oude funderingen, wrakken, etcera, die achter zijn gebleven in de grond, zijn geen onderdeel van SOR, hebben namelijk geen link met bovengronds objecttype uit de SOR en zijn ook niet bedoeld als i=onderdeel van infarstructurele voorzieningen.
+- Wegfundering is wel ondergronds maar bevat geen gebruiksruimte. Hiervan worden sectoraal gegevens vastgelegd. 
+
+
+Aandachtspunten:
+- In de SOR komen ondergrondse delen vooral voor bij gebouwen en bij kunstwerken.
+- Parkeergarages en metrostations zijn ondergrondse gebouwen.
+- Metrobuizen zijn een soort tunnels.
+- Afval apart plaats (=ondergrondse afval container) is een object dat bovengronds toegankelijk is
+
 
 ### Coördinatenstelsel
 
