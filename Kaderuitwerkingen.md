@@ -372,7 +372,7 @@ Voorgesteld wordt per objecttype de volgende metagegevens vast te leggen:
 
 Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
 
-| Aspect  |Beschrijving|Waarom|
+| Aspect  |Beschrijving     |Waarom|
 |---|---|---|
 |Bronverwijzing|Eis tav brondocument of andere bronverwijzing|Helder vastleggen of voor het wijzigen van dit attribuut wel of niet een formeel brondocument vereist is. Er kan ook sprake zijn van een (verplichte) verwijzing naar bijvoorbeeld een luchtfoto of een plaatsbepalingspunt. Tenminste zal vastgelegd moeten worden op basis van welke activiteit het attribuut is geregistreerd of gewijzigd|
 |Autorisatie|Vastleggen bronhouder(s)|Meestal zal dat bronhouder voor een bepaald object(type) ook de bronhouder van de attributen zijn. Het is ook mogelijk dat een andere "bronhouder" wordt aangewezen voor een bepaald attribuut. Als bronhouder wordt de verantwoordelijke instantie vastgelegd. De daadwerkelijk inwinning bijhouding kan mogelijk worden opgedragen (gemandateerd) aan een andere instantie|
@@ -388,7 +388,7 @@ Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
 
 Voorgesteld wordt per object de volgende metagegevens vast te leggen:
 
-| Aspect  |Beschrijving|Waarom|
+| Aspect  |Beschrijving     |Waarom|
 |---|---|---|
 |Bronverwijzing|Verwijzing naar bron|Dit kan verwijzing zijn naar formeel document (zoals een vergunning), een luchtfoto, maar ook een activiteit die geleid heeft tot opname/wijziging van dit object|
 |Autorisatie|Vastleggen bronhouder|Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld) is van belang voor autorisatie tot wijziging, maar ook voor routering van terugmeldingen|
@@ -405,7 +405,7 @@ Voorgesteld wordt per object de volgende metagegevens vast te leggen:
 
 Voorgesteld wordt per attribuut de volgende metagegevens vast te leggen:
 
-| Aspect  |Beschrijving|Waarom|
+| Aspect  |Beschrijving     |Waarom|
 |---|---|---|
 |Bronverwijzing   |Verwijzing naar bron|Dit kan verwijzing zijn naar formeel document (zoals een vergunning), een luchtfoto, maar ook een activiteit die geleid heeft tot opname/wijziging van dit attribuut|
 |Autorisatie|Vastleggen bronhouder|Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld). Is in de regel voor alle attributen van een object gelijk|
