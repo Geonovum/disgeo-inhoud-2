@@ -194,7 +194,7 @@ Aandachtspunten:
 Er is behoefte aan een persistente universele unieke en betekenisloze identificatie,  en overal geldige, permanente en unieke verwijzing naar een object, waarmee hierdoor interoperabiliteit wordt gemaximaliseerd  en ook solide koppelingen met andere gegevensverzamelingen mogelijk worden, zowel door de tijd heen en bij toepassing van verschillende geometrische representaties.
 
 
-**Opbouw identificatie**
+#### Opbouw identificatie
 
 Ontwerpprincipe : *De huidige wijze van objectidentificatie van NEN3610 wordt gehanteerd want de SOR conformeert zich aan de NEN3610-norm*
 
@@ -215,7 +215,7 @@ Ontwerpprincipe : *De opbouw voor alle objecten is gelijk*
 Voor alle objecten in de SOR wordt dezelfde opbouw en toekenning van een identificatie toegepast.
 
 
-**Uniciteit**
+#### Uniciteit
 
 Ontwerpprincipe : *een identificatie binnen Nederland is volledig uniek*
 
@@ -226,7 +226,7 @@ Ontwerpprincipe : *een identificatie wordt mondiaal uniek gemaakt door er de lan
 Conform NEN3610
 
 
-**Uitgifte**
+#### Uitgifte
  
 Ontwerpprincipe : *uitgifte van individuele identificaties in de SOR moet dubbele identificaties voorkomen*
 Er moet een methodiek worden ontwikkeld om uit te sluiten dat dubbele identificaties worden uitgegeven. Tevens moet er direct op getoetst worden bij de voorbereiding van een uitgifte van een identificatie of deze al bestaat om latere schade te voorkomen.
@@ -242,13 +242,13 @@ Ontwerpprincipe : *uitgifte van identificaties vindt niet eerder dan de SOR plaa
 Indien een object in een sectorregistratie mocht ontstaan, dan heeft dat object daar een unieke sectorregistratie-identificatie. Er is dan nog geen sprake van meervoudig gebruik buiten de sector. Als het object vervolgend wordt aangeboden aan de SOR, wordt dan pas en niet eerder een SOR-objectidentificatie uitgegeven. De oorspronkelijke sector registreert vervolgens deze SOR-objectidentificatie waarmee de interoperabiliteit is geborgd.
 
 
-**Hanteerbaarheid**
+#### Hanteerbaarheid
  
 Ontwerpprincipe : *een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar*
 
 De objectidentificatie van de SOR is bedoeld om in het kader van interoperabiliteit te gebruiken bij het volledig geautomatiseerd relaties bevragen tussen verschillende datasets.
 
-**Implementatie-vrij**
+#### Implementatie-vrij
 
 Ontwerpprincipe : *Een objectidentificatie van de SOR kent een functionele versie*
 
@@ -260,14 +260,14 @@ De technische objectidentificatie is de toepassing van de functionele identifica
 Objecten geïmplementeerd in verschillende technische omgevingen moeten middels hun functionele identificatie aan elkaar te relateren zijn. Bijvoorbeeld: een object dat zowel in XML als in JSON als in LD is geïmplementeerd moet herkenbaar zijn als voorkomens van eenzelfde object.
 
 
-**Persistent in de tijd**
+#### Persistent in de tijd
 
 Ontwerpprincipe : *Een objectidentificatie mag niet veranderen in de levensloop van het object zodat tijdreizen maximaal wordt gefaciliteerd*
 
 De identificatie van een object in de SOR moet persistent zijn over de levensloop van dat object, zodat altijd duidelijk is welk object het betreft, ook als het object inmiddels is gesloopt
 
 
-**Filiatie (afkomst/overgang)**
+#### Filiatie (afkomst/overgang)
 
 Ontwerpprincipe : *Het moet mogelijk zijn om de afkomst van een object na te gaan door de relatie vast te leggen met het object/ de objecten waaruit een object is ontstaan*
 
@@ -278,7 +278,7 @@ Ontwerpprincipe : *Het moet mogelijk zijn om de overgang van een object na te ga
 Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn overgegaan in andere objecten door samenvoeging of splitsing. Op een bepaald moment in de tijd bestaat het specifieke object wellicht niet meer, maar wel mogelijk een afstammeling van dit object.
 
 
-**Samenhang**
+#### Samenhang
 
 Ontwerpprincipe : *samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de SOR-objectidentificatie (externe ID)*
 
@@ -290,7 +290,7 @@ Ontwerpprincipe : *samenhang faciliteren van huidige basisregistratie-identifica
 De objecten in de huidige basisregistraties hebben een verplichte unieke identificatie, die in veel aanpalende sectorregistraties wordt gebruikt. Gedurende een nader te bepalen (transitie-)periode zal de samenhang moeten worden bijgehouden tussen de identificatie van de SOR en die van de objecten waaruit SOR-objecten zijn ontstaan.
 
 
-**Levensloop**
+#### Levensloop
 
 Ontwerpprincipe : *De levensloop begint in de samenhangende objectenregistratie*
 
@@ -304,7 +304,7 @@ Zodra een basisobject is beëindigd zal dit worden vastgelegd in de SORmet de bi
 dit moet in afbakeningsregels goed worden uitgewerkt,
 
 
-**Reikwijdte**
+#### Reikwijdte
  
 Ontwerpprincipe : *Het gebruik van objectidentificaties van de SOR is verplicht binnen de overheid*
 
