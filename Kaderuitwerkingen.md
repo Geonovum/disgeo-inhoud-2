@@ -158,7 +158,7 @@ ontwerpprincipe : *In geval van nadere benoemde registratieve objecttypen is er 
 
 ### 3D
 
-### ondergrondse delen
+### Ondergrondse delen
 
 ontwerpprincipe: *In de huidige scope van de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten en die voor een  mens toegankelijk zijn.*
 
@@ -319,12 +319,101 @@ Ontwerpprincipe : *Het gebruik van objectidentificaties wordt binnen het private
 Om integraal gebruik van gegevens over meerdere gegevensverzamelingen heen maximaal te faciliteren wordt het gestimuleerd dat de identificaties van de SOR-objecten als verbindende sleutel worden gebruikt in de private registraties die op die objecten aansluiten en die al dan niet open data zijn. 
 Dit zou bijvoorbeeld via een afsprakenstelsel geregeld kunnen worden
 
-### levensfasen
+### Meta-informatie en bronverwijzing
 
-### tijdreizen
+![Ordening metadata](media/ordening_metadata.png)
 
-#### historie
+Deze paragraaf beschrijft het voorstel voor uniformering van metagegevens in de SOR. 
 
-#### toekomst
+**WAAROM leggen we meta-informatie vast over de gegevens die zijn opgenomen in de SOR**
+•	Zonder meta-informatie :
+•	Géén grip op zorgvuldig gebruik
+•	Géén vertrouwen
+•	Verhoogd risico op herhalen van een onderzoek, nodeloos werk, verkeerde interpretatie, verkeerde toepassing, onterechte meldingen
+•	Het geeft inzicht in:
+•	Waar een gegeven vandaan komt
+•	Interpretatie
+•	Bruikbaarheid
+•	Kwaliteit, nauwkeurigheid, actualiteit, status, bron/herkomst, inwinningsmethode (incl bronverwijzing),
+•	Voor beheer : Welke controles moeten worden gedaan en zijn gedaan
+
+
+**Waar leggen we meta-informatie van vast en waarom**
+1.	Per objecttype, want er zijn eisen die voor het gehele objecttype gelden, zoals eisen aan de volledigheid van de populatie
+2.	Per attribuuttype van een objecttype, want er zijn eisen die altijd voor dat attribuuttype gelden, zoals de controlefrequentie van de geregistreerde objecttypering
+3.	Per object, want we willen inzicht in de toestand van een individueel object
+4.	Per attribuut van een object, want  we willen inzicht in de toestand (kwaliteit, actualiteit, etc.) van een bepaald attribuut van een individueel object 
+
+**“Gegevenscatalogus”**
+Meta-informatie op het niveau van objecttype en attribuuttype leggen we in de huidige situatie in de “gegevenscatalogus” vast. Deze metagegevens zijn in de huidige situaties voor de meeste (basis)registraties moeilijk integraal te bevragen in combinatie met de data zelf. 
+De Werkgroep stelt voor om nadrukkelijk de eis te formuleren, dat deze metagegevens per objecttype en per attribuuttype net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken.
+
+**Aandachtspunten**
+•	We willen het opstellen van een brondocument, uitsluitend als metagegeven voor de registratie, zo veel mogelijk vermijden. Brondocumenten die om andere reden bestaan, worden gebruikt als metagegeven. Verdere aspecten van bronverwijzing worden direct in de registratie als metagegeven opgeslagen zonder de formalisering als "brondocument".
+•	Metagegevens worden bij voorkeur geautomatiseerd vastgelegd. Leveranciers worden gestimuleerd om in de functionaliteit voor bijhouding en controle van de SOR hier expliciet tools voor aan te bieden.
+•	Metagegevens hebben indien mogelijk een defaultwaarde, die vanuit de applicatie automatisch gevuld, zodat alleen door de bronhouder expliciet een gegeven hoeft te worden geregistreerd als wordt afgeweken van deze defaultwaarde.
+
+**Meta-informatie per objecttype**
+
+Voorgesteld wordt per objecttype de volgende metagegevens vast te leggen:
+
+|Aspect   |Beschrijving   | Waarom |
+|---|---|---|
+|Bronverwijzing   |Eis tav brondocument of andere soort bronverwijzing   | Helder vastleggen of voor het opvoeren (of wijzigen) van een object wel of niet een formeel brondocument vereist is. In andere gevallen kan volstaan worden met bijvoorbeeld een verwijzing naar een luchtfoto of een andere wijze van "constatering"  |
+|Autorisatie   |Vastleggen bronhouder(s)   |Bronhouders is partij die objecten kan opvoeren en afvoeren
+Meestal één (categorie) per organisatie, bijvoorbeeld gemeenten of waterschappen  |
+|   |Vastleggen autorisatie gebruik   |Als default zijn alle objecttypen in de SOR openbaar   |
+|Kwaliteitseisen   | Beschrijving populatie  |Om helder te maken dat bijvoorbeeld niet alle gebouwtjes in de SOR worden opgenomen   |
+|   |Minimale activiteiten gericht op periodieke volledigheidscontrole   |   |
+| Kwaliteit  |n.v.t op niveau objecttype   |   |
+| Status  |n.v.t op niveau objecttype   |   |
+
+
+**Meta-informatie per attribuuttype**
+
+Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
+
+
+**Meta-informatie per object**
+
+Voorgesteld wordt per object de volgende metagegevens vast te leggen:
+
+
+**Meta-informatie per attribuut van een object**
+
+Voorgesteld wordt per attribuut de volgende metagegevens vast te leggen:
+
+
+#### Plaatsbepalingspunten
+
+Ook in de SOR zullen plaatsbepalingspunten een rol gaan spelen als bron. Plaatsbepalingspunten  (PBP’s) zoals die nu in de BGT als bronverwijzing bedoeld zijn, zijn immers ook een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie).  Daarvoor is het wel nodig dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar die bron expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens.
+Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig : 
+- Voor gebruikers is dan expliciet bekend welk(e) PBP(’s) bij welk object hoort.
+- PBP’s die niet meer tot de actuele objecten behoren kunnen worden bepaald en in downloads zonder historie worden geschrapt.
+- Conform gegevenscatalogus BGT 1.2: Alleen voor objecten die goed idealiseerbaar zijn in het terrein worden voor de coördinaten die zijn ingemeten middels inwinningsmethoden fotogrammetrisch, terrestrisch, laserscanning of panoramabeelden, plaatsbepalingspunten opgenomen. De goed idealiseerbare objecten zijn de objecten met een positionele nauwkeurigheid van tenminste 30 centimeter.
+- De ligging van elk BGT-object is gedefinieerd door geometrie. Deze geometrie is expliciet gekoppeld aan een BGT-object in de vorm van een attribuut ‘geometrie’. Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten van de goed idealiseerbare objecten, die deel uitmaken van de verzameling van de meetkundige afbakening.
+- Op maaiveldniveau vormen de verbindingen tussen de coördinaten altijd een grens tussen twee aangrenzende objecten in de BGT. Uitzonderingen op deze regel zijn de punten die de geometrie van een spoor en in specifieke gevallen van een lijnvormige scheiding definiëren. De specifieke gevallen treden alleen dan op als een lijnvormige scheiding in zijn geheel binnen een vlakobject ligt en met maximaal een punt raakt aan de begrenzing van dat vlakobject.
+
+**Eisen aan plaatsbepalingspunten**
+
+- Plaatsbepalingspunten (PBP’s) zijn die punten die in coördinaten bekend zijn en die gebruikt zijn bij en onderdeel uitmaken van de begrenzing van BGT-objecten. Elk plaatsbepalingspunt heeft een unieke identificatie . In de SOR moet (anders dan op dit moment in de BGT) in voorkomende gevallen een administratieve koppeling plaats vinden van de geometrie van een object naar de desbetreffende PBP's op basis van het ID.
+- Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de inwinnende instantie die het heeft bepaald en de inwinningsmethode bekend. 
+
+**Aandachtspunten voor vastleggen meta-informatie in de SOR**
+
+- Meta-informatie makkelijk kunnen registreren met ondersteuning vanuit de systemen, zodat het bijvoorbeeld eenvoudig is om metagegevens over te nemen naar andere objecten (bijvoorbeeld alle gebouwen binnen een luchtfoto de status "gecontroleerd" te geven,
+- Zo effectief en efficiënt mogelijk (en daarmee voor belangrijk deel geautomatiseerd) metadata vastleggen 
+- Niet onnodig muteren (met name van geometrie) – alleen het relevante object muteren en niet de aangrenzende objecten in de omgeving allemaal gelijk ook muteren. Het zorgdragen van consistentie van de geometrie is iets voor de producten. Hoe dit het best kan worden opgelost, wordt nog verschillend over gedacht.
+- Zoveel mogelijk als kan werken met domeintabellen in de metadata. Voorbeeld bij inwinning kunnen kiezen uit b.v. terrestrisch, digitalisering, constructie. fotokartering. Dit geldt ook voor "wijze van controle".
+- De ervaring uit de BAG leert dat het opvoeren van brondocumenten een zeer tijdrovende bezigheid is met de vraag of het heeft voldaan aan haar doel. Daarom wordt voorgesteld alleen met formele brondocumenten te werken als deze om andere reden al bestaan (zoals vergunningen). In andere gevallen wordt gebruik van bijvoorbeeld luchtfoto of PBP als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
+
+
+### Levensfasen
+
+### Tijdreizen
+
+#### Historie
+
+#### Toekomst
 
 
