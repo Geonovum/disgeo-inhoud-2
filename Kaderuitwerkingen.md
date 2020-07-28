@@ -353,7 +353,7 @@ De Werkgroep stelt voor om nadrukkelijk de eis te formuleren, dat deze metagegev
 •	Metagegevens worden bij voorkeur geautomatiseerd vastgelegd. Leveranciers worden gestimuleerd om in de functionaliteit voor bijhouding en controle van de SOR hier expliciet tools voor aan te bieden.
 •	Metagegevens hebben indien mogelijk een defaultwaarde, die vanuit de applicatie automatisch gevuld, zodat alleen door de bronhouder expliciet een gegeven hoeft te worden geregistreerd als wordt afgeweken van deze defaultwaarde.
 
-**Meta-informatie per objecttype**
+#### Meta-informatie per objecttype
 
 Voorgesteld wordt per objecttype de volgende metagegevens vast te leggen:
 
@@ -362,13 +362,13 @@ Voorgesteld wordt per objecttype de volgende metagegevens vast te leggen:
 |Bronverwijzing   |Eis tav brondocument of andere soort bronverwijzing   | Helder vastleggen of voor het opvoeren (of wijzigen) van een object wel of niet een formeel brondocument vereist is. In andere gevallen kan volstaan worden met bijvoorbeeld een verwijzing naar een luchtfoto of een andere wijze van "constatering"  |
 |Autorisatie   |Vastleggen bronhouder(s)   |Bronhouders is partij die objecten kan opvoeren en afvoeren. Meestal één (categorie) per organisatie, bijvoorbeeld gemeenten of waterschappen  |
 |   |Vastleggen autorisatie gebruik   |Als default zijn alle objecttypen in de SOR openbaar   |
-|Kwaliteitseisen   | Beschrijving populatie  |Om helder te maken dat bijvoorbeeld niet alle gebouwtjes in de SOR worden opgenomen   |
+|Kwaliteitseisen   |Beschrijving populatie  |Om helder te maken dat bijvoorbeeld niet alle gebouwtjes in de SOR worden opgenomen   |
 |   |Minimale activiteiten gericht op periodieke volledigheidscontrole   |   |
 | Kwaliteit  |n.v.t op niveau objecttype   |   |
 | Status  |n.v.t op niveau objecttype   |   |
 
 
-**Meta-informatie per attribuuttype**
+#### Meta-informatie per attribuuttype
 
 Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
 
@@ -384,7 +384,7 @@ Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
 |Kwaliteit|n.v.t op niveau attribuuttype|   |
 |Status|n.v.t op niveau attribuuttype|   |
 
-**Meta-informatie per object**
+#### Meta-informatie per object
 
 Voorgesteld wordt per object de volgende metagegevens vast te leggen:
 
@@ -401,7 +401,7 @@ Voorgesteld wordt per object de volgende metagegevens vast te leggen:
 
 
 
-**Meta-informatie per attribuut van een object**
+#### Meta-informatie per attribuut van een object
 
 Voorgesteld wordt per attribuut de volgende metagegevens vast te leggen:
 
