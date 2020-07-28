@@ -360,8 +360,7 @@ Voorgesteld wordt per objecttype de volgende metagegevens vast te leggen:
 |Aspect   |Beschrijving   | Waarom |
 |---|---|---|
 |Bronverwijzing   |Eis tav brondocument of andere soort bronverwijzing   | Helder vastleggen of voor het opvoeren (of wijzigen) van een object wel of niet een formeel brondocument vereist is. In andere gevallen kan volstaan worden met bijvoorbeeld een verwijzing naar een luchtfoto of een andere wijze van "constatering"  |
-|Autorisatie   |Vastleggen bronhouder(s)   |Bronhouders is partij die objecten kan opvoeren en afvoeren
-Meestal één (categorie) per organisatie, bijvoorbeeld gemeenten of waterschappen  |
+|Autorisatie   |Vastleggen bronhouder(s)   |Bronhouders is partij die objecten kan opvoeren en afvoeren. Meestal één (categorie) per organisatie, bijvoorbeeld gemeenten of waterschappen  |
 |   |Vastleggen autorisatie gebruik   |Als default zijn alle objecttypen in de SOR openbaar   |
 |Kwaliteitseisen   | Beschrijving populatie  |Om helder te maken dat bijvoorbeeld niet alle gebouwtjes in de SOR worden opgenomen   |
 |   |Minimale activiteiten gericht op periodieke volledigheidscontrole   |   |
@@ -376,9 +375,7 @@ Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
 | Aspect  |Beschrijving|Waarom|
 |---|---|---|
 |Bronverwijzing|Eis tav brondocument of andere bronverwijzing|Helder vastleggen of voor het wijzigen van dit attribuut wel of niet een formeel brondocument vereist is. Er kan ook sprake zijn van een (verplichte) verwijzing naar bijvoorbeeld een luchtfoto of een plaatsbepalingspunt. Tenminste zal vastgelegd moeten worden op basis van welke activiteit het attribuut is geregistreerd of gewijzigd|
-|Autorisatie|Vastleggen bronhouder(s)|Meestal zal dat bronhouder voor een bepaald object(type) ook de bronhouder van de attributen zijn. 
-Het is ook mogelijk dat een andere "bronhouder" wordt aangewezen voor een bepaald attribuut
-Als bronhouder wordt de verantwoordelijke instantie vastgelegd. De daadwerkelijk inwinning bijhouding kan mogelijk worden opgedragen (gemandateerd) aan een andere instantie|
+|Autorisatie|Vastleggen bronhouder(s)|Meestal zal dat bronhouder voor een bepaald object(type) ook de bronhouder van de attributen zijn. Het is ook mogelijk dat een andere "bronhouder" wordt aangewezen voor een bepaald attribuut. Als bronhouder wordt de verantwoordelijke instantie vastgelegd. De daadwerkelijk inwinning bijhouding kan mogelijk worden opgedragen (gemandateerd) aan een andere instantie|
 |   |Vastleggen autorisatie gebruik  |Als default zijn alle attribuuttypen in de SOR openbaar   |
 |Kwaliteitseisen|Vastleggen of attribuut verplicht is of optioneel|De SOR biedt de mogelijkheden om sommige attributen optioneel op te nemen (als een attribuut wordt opgenomen moet de voldoen aan definities en kwaliteitseisen)|
 |   |Beschrijving minimale eisen aan de kwaliteit (precisie, actualiteit)|Vergelijk de eis aan de nauwkeurigheid van de gebruiksoppervlakte in de BAG. Eis kan ook zijn dat een object binnen enkele dagen/maanden na realisatie beschikbaar moet zijn in de BAG. |
@@ -399,10 +396,7 @@ Voorgesteld wordt per object de volgende metagegevens vast te leggen:
 |Kwaliteitseisen|n.v.t  op niveau individueel object|   |
 |Kwaliteit|Beschrijving wijze van inwinning|   |
 |   |Beschrijving wijze (gebruikte bronnen) meest recente controle, moment controle en uitvoerder|Vastlegging van controle zijn zowel voor gebruikers als voor de bronhouder zelf van belang|
-|Status|inOnderzoek, InBewerking
-maar ook "onderzocht"|Omdat de aanduiding inOnderzoek is gekoppeld aan een terugmelding is er behoefte aan een parallelle status ingeval de bronhouder zelf activiteiten rond deze registratie heeft gestart.
-Bij de status wordt steeds aangegeven op welke attributen het "onderzoek" betrekking heeft
-Wanneer onderzoek niet heeft geleid tot wijziging, is het belangrijk dat dit ook herkenbaar is. Valt mogelijk samen met vastlegging (laatste) controle (kwaliteit) |
+|Status|inOnderzoek, InBewerking maar ook *onderzocht*|Omdat de aanduiding inOnderzoek is gekoppeld aan een terugmelding is er behoefte aan een parallelle status ingeval de bronhouder zelf activiteiten rond deze registratie heeft gestart. Bij de status wordt steeds aangegeven op welke attributen het *onderzoek* betrekking heeft. Wanneer onderzoek niet heeft geleid tot wijziging, is het belangrijk dat dit ook herkenbaar is. Valt mogelijk samen met vastlegging (laatste) controle (kwaliteit) |
 |   |Aantekenveld|Mogelijkheid voor beheerders onderling om informatie uit te wisselen  |
 
 
