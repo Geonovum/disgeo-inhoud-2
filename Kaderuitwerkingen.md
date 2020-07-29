@@ -9,7 +9,7 @@ Ontwerpprincipe : *De samenhangende objectenregistratie registreert in navolging
 
 Ontwerpprincipe :  *De samenhangende objectenregistratie wordt uitgebreid met het continentaal plat, zodat objecten in dat gebied ook kunnen worden geregistreerd, zoals windmolens*
 
-De begrenzingen van het continentaal  plat worden meegenomen in de themawerkgroep registratieve objecttypen.
+De begrenzingen van het continentaal  plat worden meegenomen bij de registratieve objecttypen.
 
 
 Ontwerpprincipe : *De samenhangende objectenregistratie kan op termijn mogelijk worden uitgebreid met overzeese gebiedsdelen van het koninkrijk.* 
