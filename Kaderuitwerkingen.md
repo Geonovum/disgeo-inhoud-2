@@ -21,13 +21,10 @@ Ontwerpprincipe : *Objecten in de exclaves van het Koninkrijk België op het Ned
 
 
 ### Mate van detail (schaal niveau)
-Analyse van de vraagstukken die samenhangen met een schaalloze wijze van inwinning (kwaliteitseisen kunnen een andere mate van detail kennen dan de detaillering waarmee gegevens in een schaalloze registratie worden opgenomen) en een eerste vertaling hiervan naar kwaliteitseisen;
-
-**Aanscherping door experts**
 
 *Vermijd schaalloos*
 
-Er wordt sterk geadviseerd om de term ‘schaalloos’ niet gebruiken; Inwinning is nooit schaalloos, en vindt plaats op het hoogste detailniveau van een object en moet zodanig zijn dat het passend is bij het beoogde gebruik. 
+ De term ‘schaalloos’ niet gebruiken; Inwinning is nooit schaalloos, en vindt plaats op het hoogste detailniveau van een object en moet zodanig zijn dat het passend is bij het beoogde gebruik. 
 
 *Van hoog naar laag detailniveau*
 Aandachtspunt hierbij is dat het vervolgens mogelijk moet zijn om het geschikt te maken voor beoogd gebruik op lagere detailniveaus met een consistente geïntegreerde lijn door alle detailniveaus (voorheen schaalniveaus) heen. 
