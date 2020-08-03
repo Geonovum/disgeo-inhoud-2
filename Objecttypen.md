@@ -685,7 +685,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 | Standplaats |Nummeraanduiding is bedoeld voor een standplaats |
 | Ligplaats |Nummeraanduiding is bedoeld voor een ligplaats |
 
-#### Geografische gebieden
+#### Geografische objecttypen
 
 
 ##### Bebouwde kom
