@@ -449,6 +449,20 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 |SOR-objecttype   | wijk  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
+
+| Naam  | Wijk  |
+|---|---|
+| Definitie | Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken |
+|Herkomst definitie  | GFO Basisgegevens
+  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Wijken zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) wijken vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van wijken in de objectenregistratie ontstaat een formele vastlegging van wijken.
+
+  |
+|Toelichting| Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken
+  |
+
+
 Van het objecttype wijk worden de volgende eigenschappen geregistreerd:
 - Identificatiecode 
 - verwijzing naar bijbehorende woonplaats
@@ -459,14 +473,22 @@ Van het objecttype wijk worden de volgende eigenschappen geregistreerd:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |   |   |
-|Wijkcode   |   |   |
-|Wijknaam   |   |   |
-|Geometrie   |   |   |
-|Status   |   |   |
-|overige metagegevens   |*later uitwerken op basis van kaeruitwerknig meta-informatie*   |*ja*   |
+|Identificatie   |De unieke aanduiding van een wijk
+  |Ja |
+|Wijkcode   |De codering van een wijk zoals deze door het CBS wordt gebruikt
+   |Ja   |
+|Wijknaam   |De naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit
+   |Ja   |
+|Geometrie   |De geometrische representatie van de randen van het gebied dat als wijk is benoemd
+   |Ja   |
+|Status   |De fase van de levenscyclus van een wijk waarin de
+betreffende wijk zich bevindt
+   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaeruitwerking meta-informatie*   |*ja*   |
 
-
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|ligt in   |Gerelateerde woonplaats | Ja |
 
 
 
@@ -477,11 +499,34 @@ Van het objecttype wijk worden de volgende eigenschappen geregistreerd:
 ontwerpprincipe: *een wijk valt volledig binnen een  woonplaats*
 ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
 
+| Waarde  | Beschrijving Status  |
+|---|---|
+|Aangewezen|Wijk is benoemd door het bevoegd gezag
+ |
+| Ingetrokken | Wijk is ingetrokken door het bevoegd gezag
+  |
+
+
+
 ##### Buurt
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | buurt  |
 | onderdeel van NEN3610-objecttype |registratief object  |
+
+| Naam  | Buurt  |
+|---|---|
+| Definitie | Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen
+  |
+|Herkomst definitie  | GFO Basisgegevens
+  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Buurten zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) buurten vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van buurten in de objectenregistratie ontstaat een formele vastlegging van buurten.
+  |
+|Toelichting| Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in buurten
+  |
+
+
 
 Van het objecttype buurt worden de volgende eigenschappen geregistreerd:
 - Identificatiecode 
@@ -491,9 +536,36 @@ Van het objecttype buurt worden de volgende eigenschappen geregistreerd:
 - Buurtcode zoals gebruikt door het CBS
 - Geometrie van de buurt zoals opgenomen in het besluit
 
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een buurt
+  |Ja |
+|Buurtcode   |De codering van een buurt zoals deze door het CBS wordt gebruikt
+   |Ja   |
+|Buurtnaam   |De naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit
+   |Ja   |
+|Geometrie   |De geometrische representatie van de randen van het gebied dat als buurt is benoemd
+   |Ja   |
+|Status   |De fase van de levenscyclus van een buurt waarin de
+betreffende buurt zich bevindt
+   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaeruitwerking meta-informatie*   |*ja*   |
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|ligt in   |Gerelateerde wijk | Ja |
+
+
 ontwerpprincipe: *buurten vallen binnen wijken*
 ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
 
+| Waarde  | Beschrijving Status  |
+|---|---|
+|Aangewezen|Buurt is benoemd door het bevoegd gezag
+ |
+| Ingetrokken | Buurt is ingetrokken door het bevoegd gezag
+  |
 
 
 
