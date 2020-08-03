@@ -630,4 +630,54 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 | Ingetrokken | Bebouwde kom wordt niet langer als zodanig onderscheiden|
 
 
+##### Nummeraanduiding
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Nummeraanduiding  |
+| onderdeel van NEN3610-objecttype |registratief object  |
+
+.
+
+
+| Naam  | Nummeraanduiding  |
+|---|---|
+| Definitie | Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats  |
+|Herkomst definitie  | Artikel 1 wet Basisregistratie adressen en gebouwen |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen  |
+|Toelichting| *volgt later* |
+
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Nummeraanduiding  |Ja |
+|Huisnummer |Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende ummering
+   |Ja|
+|Huisletter |Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken   |Ja|
+|Huisnummer  toevoeging|Een door of namens het gemeentebestuur ten aanzien van *een adresseerbaar object* toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter   |Ja|
+|Postcode | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer|Ja|
+|Type object | De aard van het object waaraan een nummeraanduiding is toegekend| Ja|
+|Status   |De fase van de levenscyclus waarin de betreffende Nummeraanduiding zich bevindt    |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|ligt aan| gerelateerde openbare ruimte |Ja|
+|ligt in   |Gerelateerde gemeente | Ja |
+
+.
+
+| Waarde  | Beschrijving Status  |
+|---|---|
+|Aangewezen|Nummeraanduiding is formeel uitgegeven door het bevoegd gezag |
+| Ingetrokken | Nummeraanduiding is formeel ingetrokken door het bevoegd gezag  |
+
+| Waarde  | Beschrijving Type  |
+|---|---|
+|Verblijfsobject|Nummeraanduiding is bedoeld voor een verblijfsobject |
+| Standplaats |Nummeraanduiding is bedoeld voor een standplaats |
+| Ligplaats |Nummeraanduiding is bedoeld voor een ligplaats |
+
+
+
 ### Objectrelaties
