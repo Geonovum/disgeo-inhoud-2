@@ -461,7 +461,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 |Formele naam  |De benaming van een door het gemeentebestuur aangewezen woonplaats   |Ja   |
 |Alternatieve naam | Een alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als Woonplaats is benoemd   |Ja   |
-|Status   |De fase van de levenscyclus  waarin de betreffende Woonplaats zich bevindt    |Ja   |
+|Status   |De fase van de levenscyclus waarin de betreffende Woonplaats zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 |Relatiesoort   |Relatierol |Verplicht|
@@ -506,7 +506,7 @@ Van het objecttype wijk worden de volgende eigenschappen geregistreerd:
 |Wijkcode   |De codering van een wijk zoals deze door het CBS wordt gebruikt   |Ja   |
 |Wijknaam   |De naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit   |Ja   |
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als wijk is benoemd   |Ja   |
-|Status   |De fase van de levenscyclus van een wijk waarin de betreffende wijk zich bevindt    |Ja   |
+|Status   |De fase van de levenscyclus waarin de betreffende wijk zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 |Relatiesoort   |Relatierol |Verplicht|
@@ -562,7 +562,7 @@ Van het objecttype buurt worden de volgende eigenschappen geregistreerd:
 |Buurtcode   |De codering van een buurt zoals deze door het CBS wordt gebruikt    |Ja   |
 |Buurtnaam   |De naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit    |Ja   |
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als buurt is benoemd    |Ja   |
-|Status   |De fase van de levenscyclus van een buurt waarin de betreffende buurt zich bevindt   |Ja   |
+|Status   |De fase van de levenscyclus waarin de betreffende buurt zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 |Relatiesoort   |Relatierol |Verplicht|
@@ -604,7 +604,7 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 |naam   |De plaatselijke naam van de bebouwde kom zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat   |Ja   |
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als bebouwde kom is aangewezen  |Ja   |
 |Type |Het hoofdkarakter van het gebied dat de bebouwde kom vormt |Ja |
-|Status   |De fase van de levenscyclus van een bebouwde kom waarin de betreffende bebouwde kom zich bevindt    |Ja   |
+|Status   |De fase van de levenscyclus waarin de betreffende bebouwde kom zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 |Relatiesoort   |Relatierol |Verplicht|
@@ -628,6 +628,62 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 |---|---|
 |Aangewezen|Bebouwde kom is in gebruik |
 | Ingetrokken | Bebouwde kom wordt niet langer als zodanig onderscheiden|
+
+##### Openbare ruimte
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Openbare ruimte  |
+| onderdeel van NEN3610-objecttype |registratief object  |
+
+.
+
+
+| Naam  | Openbare ruimte  |
+|---|---|
+| Definitie | Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen  |
+|Herkomst definitie  | Artikel 1 wet Basisregistratie adressen en gebouwen   |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | De populatie van openbare ruimten wijzigt als gevolg van de inperking van het aantal typen objecten waaraan een formele benaming van een openbare ruimte kan worden gekoppeld tot wegen en waterelementen |
+|Toelichting| *volgt later*  |
+
+.
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Openbare ruimte  |Ja |
+|Type   |De aard van de als zodanig benoemde openbare ruimte   |Ja   |
+|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja|
+|alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) |Ja|
+|Geometrie   |De geometrische representatie van de randen van het gebied waarin de betreffende openbare ruimte zich bevindt  |Ja   |
+|Status   |De fase van de levenscyclus waarin de betreffende openbare ruimte zich bevindt    |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|ligt in   |Gerelateerde woonplaats | Ja |
+
+
+| Waarde  | Beschrijving Status  |
+|---|---|
+|Aangewezen|openbare ruimte  is formeel uitgegeven door het bevoegd gezag |
+| Ingetrokken | openbare ruimte  is formeel ingetrokken door het bevoegd gezag  |
+
+| Waarde  | Beschrijving Type  |
+|---|---|
+|Weg|Transportvoorzienning voor wegverkeer |
+| Waterlement |Transportvoorzienning voor water|
+
+ontwerpprincipe: *Bij het objecttype spoorweg wordt een (vrijwillige) eigenschap “Naam spoorweg” opgenomen*
+
+ontwerpprincipe: *Bij het objecttype kunstwerk (of eventuele verfijningen daarvan) wordt een (vrijwillige) eigenschap “Naam kunstwerk” opgenomen*
+
+ontwerpprincipe: *Bij het objecttype weg wordt een verwijzing opgenomen naar de identificatiecode van de openbare ruimte waarbinnen de weg is gelegen (als deze formeel is benoemd)*
+
+ontwerpprincipe: *Bij het objecttype waterelement wordt een verwijzing opgenomen naar de identificatiecode van de openbare ruimte waarbinnen het waterelement is gelegen (als deze formeel is benoemd)*
+
+ontwerpprincipe: *Bij het objecttype geografisch gebied wordt een (vrijwillige) eigenschap “Naam geografisch gebied” opgenomen*
+
+ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijningen daarvan) wordt een (vrijwillige) eigenschap “Naam functioneel object” opgenomen*
 
 
 ##### Nummeraanduiding
