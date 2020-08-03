@@ -4,11 +4,21 @@ In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de versc
 
 Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
 
+### NEN3610 is kader
+
+Het SOR-model beschrijft objectentypen uit NEN3610 of zijn een verbijzondering daarvan. steeds wordt aangegeven tot welk NEN3610-objecttype dit SOR-objecttype behoort
+
 ### Objecttypen
 
-#### fysieke objecttypen 
+#### Fysieke Objecttypen 
 
-**Verhardingsobject**
+##### Verhardingsobject
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | verhardingsobject  |
+| onderdeel van NEN3610-objecttype | verharding  |
+
+
 Voor het objecttype ‘verhardingsobject’ is de typering overgenomen uit IMBOR 2020. Dit leidt tot de volgende mogelijke typeringen:
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -38,7 +48,12 @@ Voor het objecttype ‘verhardingsobject’ is de typering overgenomen uit IMBOR
 || 	Zwarte grond|
 || 	Open grond|
 
-**Onbepaald terreindeel**
+##### Onbepaald terreindeel
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | onbepaald terreindeel  |
+| onderdeel van NEN3610-objecttype | Bodem  |
+
 Het objecttype ‘Onbepaald terreindeel’ is een nieuw objecttype. Voorgesteld wordt om de volgende typering op te nemen:
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -46,7 +61,13 @@ Het objecttype ‘Onbepaald terreindeel’ is een nieuw objecttype. Voorgesteld 
 |Fysiek voorkomen:| |	 
 |Onbekend||	
 
-**Groenobject**
+##### Groenobject
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | groenobject |
+| onderdeel van NEN3610-objecttype | **Bodem en/of Begroeiing**  |
+
 Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige BGT|IMGeo 2.1.1. Verwacht wordt dat een uitbreiding van typeringen bij groenvoorziening voor hagen en boomspiegels noodzakelijk is. Hiervoor is nadere afstemming met IMBOR 2020 nodig. Dit leidt tot de volgende typeringen voor het objecttype ‘groenobject’:
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -94,7 +115,13 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 || 	bodembedekkers|
 
 
-**Waterobject**
+##### Waterobject
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | waterobject |
+| onderdeel van NEN3610-objecttype |water |
+
+
 Voor het objecttype ‘waterobject’ is de typering uit de huidige BGT|IMGeo 2.1.1 aangescherpt conform eerder gestelde uitgangspunten. Hierdoor is er geen sprake meer van multitypering van watervlakten. Daarnaast is ervoor gekozen om de typering ‘zee’ onder ‘watervlakte’ te plaatsen, Dit heeft als consequentie dat zee op basis van het huidige model van het verplichte deel naar het vrijwillige deel opschuift. Bij de verdere uitwerking zal worden bekeken op welke wijze hiermee kan worden omgegaan. 
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -114,10 +141,20 @@ Voor het objecttype ‘waterobject’ is de typering uit de huidige BGT|IMGeo 2.
 |greppel/droge sloot	 ||
 
 
-**Bebouwing**
+##### Bebouwing
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | bebouwing  |
+| onderdeel van NEN3610-objecttype | gebouw  |
+
 De typering behorende bij de aan gebouwen gerelateerde fysieke objecttypen zal in het vervolgtraject nader worden onderzocht.
 
-**Kunstwerkdeel**
+##### Kunstwerkdeel
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | kunstwerkdeel  |
+| onderdeel van NEN3610-objecttype | kunstwerk  |
+
 De typering behorende bij kunstwerkdeel is overgenomen uit de huidige BGT|IMGeo 2.1.1 aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen. Uitgezonderd is de groeiplaatsinrichting omdat hiervoor afstemming met IMBOR2020 nodig is.
 
 
@@ -144,14 +181,25 @@ De typering behorende bij kunstwerkdeel is overgenomen uit de huidige BGT|IMGeo 
 |*Niet BGT*	|hellingbaan|
 |*Niet BGT*	|vlonder|
 
-**Tunneldeel**
+##### Tunneldeel
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | tunneldeel  |
+| onderdeel van NEN3610-objecttype | kunstwerk  |
+
 De typering behorende bij tunneldeel is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor het tunneldeel geen aanvullingen opgenomen.
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |---------------------------|--------------------------------|
 |Tunneldeel| |	 
 
-**Overbruggingsdeel**
+##### Overbruggingsdeel
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   |overbruggingsdeel   |
+| onderdeel van NEN3610-objecttype | kunstwerk  |
+
 De typering behorende bij overbruggingsdeel is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor het overbruggingsdeel geen aanvullingen opgenomen.
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -171,7 +219,12 @@ De typering behorende bij overbruggingsdeel is overgenomen uit de huidige BGT|IM
 || 	pyloon|
 
 
-**Constructie**
+##### Constructie
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | constructie  |
+| onderdeel van NEN3610-objecttype | constructie  |
+
 De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -183,7 +236,12 @@ De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.
 |*Niet BGT*	|sleufsilo|
 |*Niet BGT*	|infiltratiereservoir|
 
-**Scheiding**
+##### Scheiding
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | scheiding  |
+| onderdeel van NEN3610-objecttype | **constructie**  |
+
 De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor scheiding geen aanvullingen opgenomen.
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -198,12 +256,21 @@ De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.
 |*Niet BGT*	|draadraster|
 |*Niet BGT*	|faunaraster|
 
-**Overige scheidingen**
+##### Overige scheidingen
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | overige scheidingen  |
+| onderdeel van NEN3610-objecttype | **constructie**  |
 
 
 #### functionele objecttypen
 
-**Netwerken**
+##### Netwerk
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | netwerk  |
+| onderdeel van NEN3610-objecttype | transportvoorziening  |
+
 Voor de functionele typering van netwerken is aangesloten bij de beschikbare typeringen in de BGT|IMGeo voor wegen en spoor. Verdere afstemming is nodig met NWB, IMBOR/IMWV, Prorail en de watersector. Voor wegverbindingen zijn de voorstellen voor IMGeo 2.2 overgenomen. Voor spoorverbindingen is de typering vereenvoudigd. Het uitgangspunt dat objecttypen scherp zijn afgebakend, maakt dat de typering sneltram is vervallen en dat havenkraan vervangen is door (laad-/los)kraan.
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -244,7 +311,14 @@ Voor de functionele typering van netwerken is aangesloten bij de beschikbare typ
 || 	tussenpunt	 ||
 ||||
 
-**Functionele gebieden**
+**Functionele gebiede*
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | funcioneel gebied   |
+| onderdeel van NEN3610-objecttype |functioneel object  |
+
+
+
 De functionele gebieden zijn voor het overzicht opgedeeld in grijze, groene en blauwe gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein. Hierbij is aangesloten op de typering zoals voor BGT|IMGeo wordt gebruikt, inclusief de voorstellen voor IMGeo 2.2. Als gevolg van het uitgangspunt dat fysiek en functie worden gescheiden zijn een aantal functies verschoven van voorheen een typering bij een fysiek object naar een eigenstandig functioneel object.  
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -266,7 +340,7 @@ De functionele gebieden zijn voor het overzicht opgedeeld in grijze, groene en b
 ||*Niet BGT*| 	 	Benzinestation|
 ||*Niet BGT*| 	 	Verzorgingsplaats|  
 
-**.** 
+##### ...
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
@@ -280,7 +354,7 @@ De functionele gebieden zijn voor het overzicht opgedeeld in grijze, groene en b
 ||*Niet BGT*| 	 	recreatie: bungalowpark|
 ||*Niet BGT*| 	 	recreatie: volkstuin|  
   
-**.**     
+##### ...    
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
@@ -294,7 +368,7 @@ De functionele gebieden zijn voor het overzicht opgedeeld in grijze, groene en b
 ||*Niet BGT*|	 	    waterbergingsgebied|
 ||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
   
-**.**     
+##### ... 
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
@@ -311,11 +385,18 @@ De functionele gebieden zijn voor het overzicht opgedeeld in grijze, groene en b
 || 	*Niet BGT*	|functioneel beheer: hondenuitlaatplaats|  
   
   
-**Bebouwing**
+##### Bebouwing
 
 De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen zal in het vervolgtraject nader worden onderzocht.
 
-**Functionele objecttypen uit BRT**
+##### stand- en ligplaats
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | stand- en ligplaats  |
+| onderdeel van NEN3610-objecttype |functioneel object  |
+
+
+##### Functionele objecttypen uit BRT
 
 De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen zal in het vervolgtraject nader worden onderzocht.
 
