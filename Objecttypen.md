@@ -392,12 +392,17 @@ De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen z
 ##### stand- en ligplaats
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | stand- en ligplaats  |
+|SOR-objecttype   | ligplaats  |
 | onderdeel van NEN3610-objecttype |functioneel object  |
 
 Definitie ligplaats (Herkomst  : Catalogus BAG 2018): 
 Door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object 
 https://imbag.github.io/praktijkhandleiding/objecttypen/ligplaats
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | standplaats  |
+| onderdeel van NEN3610-objecttype |functioneel object  |
 
 Definitie standplaats (Herkomst : Catalogus BAG 2018):
 Door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte
@@ -416,6 +421,80 @@ ontwerpprincipe: *Standplaatsen en ligplaatsen vormen een geometrische weergave 
 ##### Functionele objecttypen uit BRT
 
 De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen zal in het vervolgtraject nader worden onderzocht.
+
+
+#### Registratieve objecttypen
+
+
+##### Woonplaats
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | woonplaats  |
+| onderdeel van NEN3610-objecttype |registratief object  |
+
+Van het objecttype woonplaats worden de volgende eigenschappen geregistreerd:
+- Identificatiecode 
+- verwijzing naar bijbehorende burgerlijke gemeente
+- Metagegevens zoals geldigheid en status (mogelijke waarden: aangewezen en ingetrokken)
+- Formele naam van de woonplaats
+- Woonplaatscode
+- Geometrie van de woonplaats zoals opgenomen in het besluit
+
+ontwerpprincipe: *een woonplaats valt volledig binnen een burgerlijke gemeente*
+ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
+
+##### Wijk
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | wijk  |
+| onderdeel van NEN3610-objecttype |registratief object  |
+
+Van het objecttype wijk worden de volgende eigenschappen geregistreerd:
+- Identificatiecode 
+- verwijzing naar bijbehorende woonplaats
+- Metagegevens zoals geldigheid en status (mogelijke waarden: aangewezen en ingetrokken)
+- Formele naam van de wijk
+- Wijkcode zoals gebruikt door het CBS
+- Geometrie van de wijk zoals opgenomen in het besluit
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |   |   |
+|Wijkcode   |   |   |
+|Wijknaam   |   |   |
+|Geometrie   |   |   |
+|Status   |   |   |
+|overige metagegevens   |*later uitwerken op basis van kaeruitwerknig meta-informatie*   |*ja*   |
+
+
+
+
+
+
+
+
+
+ontwerpprincipe: *een wijk valt volledig binnen een  woonplaats*
+ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
+
+##### Buurt
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | buurt  |
+| onderdeel van NEN3610-objecttype |registratief object  |
+
+Van het objecttype buurt worden de volgende eigenschappen geregistreerd:
+- Identificatiecode 
+- verwijzing naar bijbehorende wijk
+- Metagegevens zoals geldigheid en status (mogelijke waarden: aangewezen en ingetrokken)
+- Formele naam van de buurt
+- Buurtcode zoals gebruikt door het CBS
+- Geometrie van de buurt zoals opgenomen in het besluit
+
+ontwerpprincipe: *buurten vallen binnen wijken*
+ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
+
+
 
 
 ### Objectrelaties
