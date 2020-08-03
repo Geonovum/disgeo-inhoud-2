@@ -443,6 +443,37 @@ Van het objecttype woonplaats worden de volgende eigenschappen geregistreerd:
 ontwerpprincipe: *een woonplaats valt volledig binnen een burgerlijke gemeente*
 ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
 
+
+
+| Naam  | Woonplaats  |
+|---|---|
+| Definitie | Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente  |
+|Herkomst definitie  | Artikel 1 wet Basisregistratie adressen en gebouwen    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen   |
+|Toelichting| *volgt later*  |
+
+
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een woonplaats, zoals opgenomen in de landelijke woonplaatsentabel  |Ja |
+|Formele naam  |De benaming van een door het gemeentebestuur aangewezen woonplaats   |Ja   |
+|Alternatieve naam | Een alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|
+|Geometrie   |De geometrische representatie van de randen van het gebied dat als Woonplaats is benoemd   |Ja   |
+|Status   |De fase van de levenscyclus  waarin de betreffende Woonplaats zich bevindt    |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|ligt in   |Gerelateerde gemeente | Ja |
+
+
+| Waarde  | Beschrijving Status  |
+|---|---|
+|Aangewezen|Woonplaats is formeel aangewezen door het bevoegd gezag |
+| Ingetrokken | Woonplaats is formeel ingetrokken door het bevoegd gezag  |
+
 ##### Wijk
 | klasse  | naam  |
 |---|---|
