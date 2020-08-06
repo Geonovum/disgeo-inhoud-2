@@ -93,8 +93,8 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 
 **Domeinwaarden**
 
-| Status ||
-|Waarde  | Beschrijving   |
+
+|Waarde Status| Beschrijving   |
 |---|---|
 |Aangewezen|Woonplaats is formeel aangewezen door het bevoegd gezag |
 | Ingetrokken | Woonplaats is formeel ingetrokken door het bevoegd gezag  |
@@ -142,8 +142,8 @@ ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land
 
 **Domeinwaarden**
 
-| Status ||
-| Waarde  | Beschrijving   |
+
+| Waarde Status | Beschrijving   |
 |---|---|
 |Aangewezen|Wijk is benoemd door het bevoegd gezag |
 | Ingetrokken | Wijk is ingetrokken door het bevoegd gezag  |
@@ -192,8 +192,8 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 
 **Domeinwaarden**
 
-| Status ||
-| Waarde  | Beschrijving   |
+
+| Waarde Status| Beschrijving   |
 |---|---|
 |Aangewezen|Buurt is benoemd door het bevoegd gezag |
 | Ingetrokken | Buurt is ingetrokken door het bevoegd gezag  |
@@ -238,14 +238,14 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 
 **Domeinwaarden**
 
-| Status ||
-| Waarde  | Beschrijving   |
+
+| Waarde Status | Beschrijving   |
 |---|---|
 |Aangewezen|openbare ruimte  is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | openbare ruimte  is formeel ingetrokken door het bevoegd gezag  |
 
-| Type ||
-| Waarde  | Beschrijving   |
+
+| Waarde Type | Beschrijving   |
 |---|---|
 |Weg|Transportvoorzienning voor wegverkeer |
 | Waterlement |Transportvoorzienning voor water|
@@ -303,14 +303,14 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 
 **Domeinwaarden**
 
-| Status ||
-| Waarde  | Beschrijving   |
+
+| Waarde Status | Beschrijving   |
 |---|---|
 |Aangewezen|Nummeraanduiding is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | Nummeraanduiding is formeel ingetrokken door het bevoegd gezag  |
 
-| Type||
-| Waarde  | Beschrijving   |
+
+| Waarde Type | Beschrijving   |
 |---|---|
 |Verblijfsobject|Nummeraanduiding is bedoeld voor een verblijfsobject |
 | Standplaats |Nummeraanduiding is bedoeld voor een standplaats |

@@ -235,7 +235,7 @@ De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | scheiding  |
-| onderdeel van NEN3610-objecttype | constructie  |
+| onderdeel van NEN3610-objecttype | **constructie** |
 
 De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor scheiding geen aanvullingen opgenomen.
 
