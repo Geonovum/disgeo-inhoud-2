@@ -2,18 +2,18 @@
 
 *Dit hoofdstuk krijgt in een later stadium vorm.*
 
-### Volledigheid
+**Volledigheid**
 
-### Compleetheid
+**Compleetheid**
 
-### Juistheid
+**Juistheid**
 
-### Actualiteit
+**Actualiteit**
 
-### Nauwkeurigheid
+**Nauwkeurigheid**
 
-### Tijd
+**Tijd**
 
-###  Aanwijzingen van mogelijke onjuistheden in de registratie
+**Aanwijzingen van mogelijke onjuistheden in de registratie**
 
 
