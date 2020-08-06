@@ -4,10 +4,6 @@ In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de versc
 
 Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
 
-### NEN3610 is kader
-
-Het SOR-model beschrijft objectentypen uit NEN3610 of zijn een verbijzondering daarvan. steeds wordt aangegeven tot welk NEN3610-objecttype dit SOR-objecttype behoort
-
 
 ### Verhardingsobject
 | klasse  | naam  |
@@ -216,13 +212,15 @@ De typering behorende bij overbruggingsdeel is overgenomen uit de huidige BGT|IM
 || 	pyloon|
 
 
-### Constructie
+### Bouwwerkconstructie
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | constructie  |
 | onderdeel van NEN3610-objecttype | constructie  |
 
 De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
+
+*voorheen werd dit **overige bouwwerken** genoemd* 
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |---------------------------|--------------------------------|
@@ -237,7 +235,7 @@ De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | scheiding  |
-| onderdeel van NEN3610-objecttype | **constructie**  |
+| onderdeel van NEN3610-objecttype | constructie  |
 
 De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor scheiding geen aanvullingen opgenomen.
 

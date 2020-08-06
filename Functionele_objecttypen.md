@@ -64,15 +64,15 @@ Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 ||||
 
 
-### Functionele gebieden
+### Functionele zonering
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | funcioneel gebied   |
+|SOR-objecttype   | functionele zonering |
 | onderdeel van NEN3610-objecttype |functioneel object  |
 
 
 
-De functionele gebieden zijn voor het overzicht opgedeeld in grijze, groene en blauwe gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein. Hierbij is aangesloten op de typering zoals voor BGT|IMGeo wordt gebruikt, inclusief de voorstellen voor IMGeo 2.2. Als gevolg van het uitgangspunt dat fysiek en functie worden gescheiden zijn een aantal functies verschoven van voorheen een typering bij een fysiek object naar een eigenstandig functioneel object.  
+De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en blauwe gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein. Hierbij is aangesloten op de typering zoals voor BGT|IMGeo wordt gebruikt, inclusief de voorstellen voor IMGeo 2.2. Als gevolg van het uitgangspunt dat fysiek en functie worden gescheiden zijn een aantal functies verschoven van voorheen een typering bij een fysiek objecttype naar een eigenstandig functioneel objecttype.
 
 #### GRIJS
 
@@ -145,34 +145,6 @@ De functionele gebieden zijn voor het overzicht opgedeeld in grijze, groene en b
 
 De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen zal in het vervolgtraject nader worden onderzocht.
 
-### stand- en ligplaats
-| klasse  | naam  |
-|---|---|
-|SOR-objecttype   | ligplaats  |
-| onderdeel van NEN3610-objecttype |functioneel object  |
-
-Definitie ligplaats (Herkomst  : Catalogus BAG 2018): 
-Door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object 
-https://imbag.github.io/praktijkhandleiding/objecttypen/ligplaats
-
-| klasse  | naam  |
-|---|---|
-|SOR-objecttype   | standplaats  |
-| onderdeel van NEN3610-objecttype |functioneel object  |
-
-Definitie standplaats (Herkomst : Catalogus BAG 2018):
-Door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte
-https://imbag.github.io/praktijkhandleiding/objecttypen/standplaats 
-
-Er is vrijwel geen verschil tussen een ligplaats en een standplaats; beiden beogen hetzelfde te bereiken, nl. een locatie met adres. Het enige verschil is dat er bij een ligplaats sprake is van een drijvend object en bij een standplaats sprake is van een verplaatsbaar object.
-
-Het is van belang is om het begrip ligplaats te onderscheiden van de in de praktijk veelvuldig voorkomende aanmeerplaatsen of afmeerplaatsen. Dergelijke plaatsen zijn bedoeld voor het tijdelijk aan- en afmeren van onder meer pleziervaartuigen en beroepsvaartuigen langs kades en in havens.
-
-
-
-ontwerpprincipe: *Gebruik van stand- en ligplaatsen vooral in het overheidsdomein (gemeenten, inschrijving, nutsvoorzieningen, vindbaarheid)*
-
-ontwerpprincipe: *Standplaatsen en ligplaatsen vormen een geometrische weergave van een gemeentelijk besluit*
 
 ### Functionele objecttypen uit BRT
 

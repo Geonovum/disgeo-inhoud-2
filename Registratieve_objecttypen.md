@@ -93,7 +93,8 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 
 **Domeinwaarden**
 
-| Waarde  | Beschrijving Status  |
+| Status ||
+|Waarde  | Beschrijving   |
 |---|---|
 |Aangewezen|Woonplaats is formeel aangewezen door het bevoegd gezag |
 | Ingetrokken | Woonplaats is formeel ingetrokken door het bevoegd gezag  |
@@ -141,7 +142,8 @@ ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land
 
 **Domeinwaarden**
 
-| Waarde  | Beschrijving Status  |
+| Status ||
+| Waarde  | Beschrijving   |
 |---|---|
 |Aangewezen|Wijk is benoemd door het bevoegd gezag |
 | Ingetrokken | Wijk is ingetrokken door het bevoegd gezag  |
@@ -190,7 +192,8 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 
 **Domeinwaarden**
 
-| Waarde  | Beschrijving Status  |
+| Status ||
+| Waarde  | Beschrijving   |
 |---|---|
 |Aangewezen|Buurt is benoemd door het bevoegd gezag |
 | Ingetrokken | Buurt is ingetrokken door het bevoegd gezag  |
@@ -235,12 +238,14 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 
 **Domeinwaarden**
 
-| Waarde  | Beschrijving Status  |
+| Status ||
+| Waarde  | Beschrijving   |
 |---|---|
 |Aangewezen|openbare ruimte  is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | openbare ruimte  is formeel ingetrokken door het bevoegd gezag  |
 
-| Waarde  | Beschrijving Type  |
+| Type ||
+| Waarde  | Beschrijving   |
 |---|---|
 |Weg|Transportvoorzienning voor wegverkeer |
 | Waterlement |Transportvoorzienning voor water|
@@ -298,13 +303,45 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 
 **Domeinwaarden**
 
-| Waarde  | Beschrijving Status  |
+| Status ||
+| Waarde  | Beschrijving   |
 |---|---|
 |Aangewezen|Nummeraanduiding is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | Nummeraanduiding is formeel ingetrokken door het bevoegd gezag  |
 
-| Waarde  | Beschrijving Type  |
+| Type||
+| Waarde  | Beschrijving   |
 |---|---|
 |Verblijfsobject|Nummeraanduiding is bedoeld voor een verblijfsobject |
 | Standplaats |Nummeraanduiding is bedoeld voor een standplaats |
 | Ligplaats |Nummeraanduiding is bedoeld voor een ligplaats |
+
+
+### Stand- en Ligplaats
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | ligplaats  |
+| onderdeel van NEN3610-objecttype |functioneel object  |
+
+Definitie ligplaats (Herkomst  : Catalogus BAG 2018): 
+Door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object 
+https://imbag.github.io/praktijkhandleiding/objecttypen/ligplaats
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | standplaats  |
+| onderdeel van NEN3610-objecttype |functioneel object  |
+
+Definitie standplaats (Herkomst : Catalogus BAG 2018):
+Door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte
+https://imbag.github.io/praktijkhandleiding/objecttypen/standplaats 
+
+Er is vrijwel geen verschil tussen een ligplaats en een standplaats; beiden beogen hetzelfde te bereiken, nl. een locatie met adres. Het enige verschil is dat er bij een ligplaats sprake is van een drijvend object en bij een standplaats sprake is van een verplaatsbaar object.
+
+Het is van belang is om het begrip ligplaats te onderscheiden van de in de praktijk veelvuldig voorkomende aanmeerplaatsen of afmeerplaatsen. Dergelijke plaatsen zijn bedoeld voor het tijdelijk aan- en afmeren van onder meer pleziervaartuigen en beroepsvaartuigen langs kades en in havens.
+
+
+
+ontwerpprincipe: *Gebruik van stand- en ligplaatsen vooral in het overheidsdomein (gemeenten, inschrijving, nutsvoorzieningen, vindbaarheid)*
+
+ontwerpprincipe: *Standplaatsen en ligplaatsen vormen een geometrische weergave van een gemeentelijk besluit*

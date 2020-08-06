@@ -1,6 +1,0 @@
-## Conceptueel model
-
-
-
-### ...
-
