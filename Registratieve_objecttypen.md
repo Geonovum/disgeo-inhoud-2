@@ -1,7 +1,54 @@
 ## Registratieve objecttypen
 
 
+### Bestuurlijke objecttypen
 
+#### Provincie
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | provincie  |
+| onderdeel van NEN3610-objecttype |registratief object  |
+
+**Definitie**
+
+**Eigenschappen**
+
+**Relaties met andere objecttypen** 
+
+**Domeinwaarden**
+
+
+
+#### Waterschap
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | waterschap |
+| onderdeel van NEN3610-objecttype |registratief object  |
+
+**Definitie**
+
+**Eigenschappen**
+
+**Relaties met andere objecttypen** 
+
+**Domeinwaarden**
+
+#### Burgerlijke gemeente
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | burgerlijke gemeente  |
+| onderdeel van NEN3610-objecttype |registratief object  |
+
+**Definitie**
+
+**Eigenschappen**
+
+**Relaties met andere objecttypen** 
+
+**Domeinwaarden**
 
 
 ### Woonplaats
@@ -10,18 +57,12 @@
 |SOR-objecttype   | woonplaats  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
-Van het objecttype woonplaats worden de volgende eigenschappen geregistreerd:
-- Identificatiecode 
-- verwijzing naar bijbehorende burgerlijke gemeente
-- Metagegevens zoals geldigheid en status (mogelijke waarden: aangewezen en ingetrokken)
-- Formele naam van de woonplaats
-- Woonplaatscode
-- Geometrie van de woonplaats zoals opgenomen in het besluit
 
 ontwerpprincipe: *een woonplaats valt volledig binnen een burgerlijke gemeente*
+
 ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
 
-
+**Definitie**
 
 | Naam  | Woonplaats  |
 |---|---|
@@ -31,7 +72,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen   |
 |Toelichting| *volgt later*  |
 
-
+**Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
@@ -42,10 +83,15 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 |Status   |De fase van de levenscyclus waarin de betreffende Woonplaats zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+
+**Relaties met andere objecttypen** 
+
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |ligt in   |Gerelateerde gemeente | Ja |
 
+
+**Domeinwaarden**
 
 | Waarde  | Beschrijving Status  |
 |---|---|
@@ -53,13 +99,13 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 | Ingetrokken | Woonplaats is formeel ingetrokken door het bevoegd gezag  |
 
 ### Wijk
+
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | wijk  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
-.
-
+**Definitie**
 
 | Naam  | Wijk  |
 |---|---|
@@ -70,13 +116,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 |Toelichting| Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken  |
 
 
-Van het objecttype wijk worden de volgende eigenschappen geregistreerd:
-- Identificatiecode 
-- verwijzing naar bijbehorende woonplaats
-- Metagegevens zoals geldigheid en status (mogelijke waarden: aangewezen en ingetrokken)
-- Formele naam van de wijk
-- Wijkcode zoals gebruikt door het CBS
-- Geometrie van de wijk zoals opgenomen in het besluit
+**Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
@@ -87,18 +127,19 @@ Van het objecttype wijk worden de volgende eigenschappen geregistreerd:
 |Status   |De fase van de levenscyclus waarin de betreffende wijk zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
+
+**Relaties met andere objecttypen** 
+
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |ligt in   |Gerelateerde woonplaats | Ja |
 
-
-
-
-
-
-
 ontwerpprincipe: *een wijk valt volledig binnen een  woonplaats*
+
 ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
+
+
+**Domeinwaarden**
 
 | Waarde  | Beschrijving Status  |
 |---|---|
@@ -108,12 +149,13 @@ ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land
 
 
 ### Buurt
+
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | buurt  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
-.
+**Definitie**
 
 | Naam  | Buurt  |
 |---|---|
@@ -124,15 +166,7 @@ ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land
 |Toelichting| Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in buurten   |
 
 
-
-Van het objecttype buurt worden de volgende eigenschappen geregistreerd:
-- Identificatiecode 
-- verwijzing naar bijbehorende wijk
-- Metagegevens zoals geldigheid en status (mogelijke waarden: aangewezen en ingetrokken)
-- Formele naam van de buurt
-- Buurtcode zoals gebruikt door het CBS
-- Geometrie van de buurt zoals opgenomen in het besluit
-
+**Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
@@ -143,13 +177,18 @@ Van het objecttype buurt worden de volgende eigenschappen geregistreerd:
 |Status   |De fase van de levenscyclus waarin de betreffende buurt zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
+**Relaties met andere objecttypen** 
+
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |ligt in   |Gerelateerde wijk | Ja |
 
 
 ontwerpprincipe: *buurten vallen binnen wijken*
+
 ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
+
+**Domeinwaarden**
 
 | Waarde  | Beschrijving Status  |
 |---|---|
@@ -159,12 +198,13 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 
 
 ### Openbare ruimte
+
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | Openbare ruimte  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
-.
+**Definitie**
 
 
 | Naam  | Openbare ruimte  |
@@ -175,7 +215,7 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 |Gevolgen afbakening  | De populatie van openbare ruimten wijzigt als gevolg van de inperking van het aantal typen objecten waaraan een formele benaming van een openbare ruimte kan worden gekoppeld tot wegen en waterelementen |
 |Toelichting| *volgt later*  |
 
-.
+**Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
@@ -187,10 +227,13 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 |Status   |De fase van de levenscyclus waarin de betreffende openbare ruimte zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
+**Relaties met andere objecttypen** 
+
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |ligt in   |Gerelateerde woonplaats | Ja |
 
+**Domeinwaarden**
 
 | Waarde  | Beschrijving Status  |
 |---|---|
@@ -216,13 +259,13 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 
 
 ### Nummeraanduiding
+
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | Nummeraanduiding  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
-.
-
+**Definitie**
 
 | Naam  | Nummeraanduiding  |
 |---|---|
@@ -232,6 +275,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen  |
 |Toelichting| *volgt later* |
 
+**Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
@@ -245,12 +289,14 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Status   |De fase van de levenscyclus waarin de betreffende Nummeraanduiding zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
+**Relaties met andere objecttypen** 
+
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |ligt aan| gerelateerde openbare ruimte |Ja|
 |ligt in   |Gerelateerde gemeente | Ja |
 
-.
+**Domeinwaarden**
 
 | Waarde  | Beschrijving Status  |
 |---|---|
