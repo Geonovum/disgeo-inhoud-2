@@ -1,24 +1,4 @@
-## Kaderuitwerkingen
-
-
-### Grondgebied NL
-
-In de samenhangende objectenregistratie worden die objecten opgenomen die zich bevinden binnen het grondgebied van Nederland. In de volgende ontwerpprincipes is dit nader aangeduid:
-
-Ontwerpprincipe : *De samenhangende objectenregistratie registreert in navolging van de BAG en de BGT de objecten die gelegen zijn op het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren*
-
-Ontwerpprincipe :  *De samenhangende objectenregistratie wordt uitgebreid met het continentaal plat, zodat objecten in dat gebied ook kunnen worden geregistreerd, zoals windmolens*
-
-De begrenzingen van het continentaal  plat worden meegenomen bij de registratieve objecttypen.
-
-
-Ontwerpprincipe : *De samenhangende objectenregistratie kan op termijn mogelijk worden uitgebreid met overzeese gebiedsdelen van het koninkrijk.* 
-Het informatiemodel moet daar op zijn voorbereid.
-
-
-Ontwerpprincipe : *Objecten in de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog) worden in de samenhangende objectenregistratie opgenomen. De bijhouding daarvan is niet verplicht maar vrijwillig.*
-
-
+## Generieke onderwerpen
 
 ### Mate van detail (schaal niveau)
 
