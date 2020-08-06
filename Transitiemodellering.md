@@ -1,4 +1,6 @@
-## Eerste mapping op de bestaande basisregistraties
+## tRANSITIEMODELLERING
+
+**Eerste mapping op de bestaande basisregistraties**
 
 In het in hoofdstuk 3 beschreven denkraam bestaat voor een groot deel uit objecttypen die nu al in bestaande (basis)registraties zijn opgenomen.  Het onderscheid tussen fysieke objecttypen en functionele objecttypen in de SOR zal echter leiden tot een herschikking van een aantal bestaande objecttypen in de BAG, de BGT, de WOZ (objectendeel) en de BRT. In dit hoofdstuk is voor wat betreft de objecttypen een eerste mapping uitgewerkt tussen de inhoud van de bestaande basisregistraties en het in dit document beschreven voorstel voor de inhoud van de samenhangende objectenregistratie. Doelstelling van deze mapping is om een eerste indruk te geven van de wijze waarop de objecten vanuit de bestaande registraties een plaats zullen krijgen in de samenhangende objectenregistratie. Het betreft dus nog niet een volledige uitwerking. Zo heeft er nog geen mapping plaatsgevonden voor de verschillende inrichtende elementen vanuit de BGT. Ook heeft nog geen uitwerking plaatsgevonden van de eigenschappen van de verschillende objecttypen. De verdere uitwerkingen zullen worden opgepakt in het kader van het vervolgtraject.
 
