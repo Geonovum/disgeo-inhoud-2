@@ -1,4 +1,4 @@
-## tRANSITIEMODELLERING
+## Transitiemodellering
 
 **Eerste mapping op de bestaande basisregistraties**
 
