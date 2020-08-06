@@ -74,7 +74,7 @@ Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 
 De functionele gebieden zijn voor het overzicht opgedeeld in grijze, groene en blauwe gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein. Hierbij is aangesloten op de typering zoals voor BGT|IMGeo wordt gebruikt, inclusief de voorstellen voor IMGeo 2.2. Als gevolg van het uitgangspunt dat fysiek en functie worden gescheiden zijn een aantal functies verschoven van voorheen een typering bij een fysiek object naar een eigenstandig functioneel object.  
 
-### GRIJS
+#### GRIJS
 
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
