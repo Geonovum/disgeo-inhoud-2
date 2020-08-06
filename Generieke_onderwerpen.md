@@ -320,7 +320,8 @@ Deze paragraaf beschrijft de uniformering van metagegevens in de SOR.
 
 **“Gegevenscatalogus”**
 Meta-informatie op het niveau van objecttype en attribuuttype leggen we in de huidige situatie in de “gegevenscatalogus” vast. Deze metagegevens zijn in de huidige situaties voor de meeste (basis)registraties moeilijk integraal te bevragen in combinatie met de data zelf. 
-De Werkgroep stelt voor om nadrukkelijk de eis te formuleren, dat deze metagegevens per objecttype en per attribuuttype net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken.
+
+Ontwerpprincipe : *De metagegevens per objecttype en per attribuuttype vormen een integraal onderdeel van de SOR. zodat deze net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken.
 
 **Aandachtspunten**
 •	We willen het opstellen van een brondocument, uitsluitend als metagegeven voor de registratie, zo veel mogelijk vermijden. Brondocumenten die om andere reden bestaan, worden gebruikt als metagegeven. Verdere aspecten van bronverwijzing worden direct in de registratie als metagegeven opgeslagen zonder de formalisering als "brondocument".
@@ -334,8 +335,8 @@ Voorgesteld wordt per objecttype de volgende metagegevens vast te leggen:
 |Aspect   |Beschrijving   | Waarom |
 |---|---|---|
 |Bronverwijzing   |Eis tav brondocument of andere soort bronverwijzing   | Helder vastleggen of voor het opvoeren (of wijzigen) van een object wel of niet een formeel brondocument vereist is. In andere gevallen kan volstaan worden met bijvoorbeeld een verwijzing naar een luchtfoto of een andere wijze van "constatering"  |
-|Autorisatie   |Vastleggen bronhouder(s)   |Bronhouders is partij die objecten kan opvoeren en afvoeren. Meestal één (categorie) per organisatie, bijvoorbeeld gemeenten of waterschappen  |
-|   |Vastleggen autorisatie gebruik   |Als default zijn alle objecttypen in de SOR openbaar   |
+|Gegevenseigenaar   |Vastleggen bronhouder(s)   |Bronhouders is partij die objecten kan opvoeren en afvoeren. Meestal één (categorie) per organisatie, bijvoorbeeld gemeenten of waterschappen  |
+|   |Vastleggen openbaarheid gebruik   |Als default zijn alle objecttypen in de SOR openbaar   |
 |Kwaliteitseisen   |Beschrijving populatie  |Om helder te maken dat bijvoorbeeld niet alle gebouwtjes in de SOR worden opgenomen   |
 |   |Minimale activiteiten gericht op periodieke volledigheidscontrole   |   |
 | Kwaliteit  |n.v.t op niveau objecttype   |   |
@@ -349,8 +350,8 @@ Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
 | Aspect  |Beschrijving     |Waarom|
 |---|---|---|
 |Bronverwijzing|Eis tav brondocument of andere bronverwijzing|Helder vastleggen of voor het wijzigen van dit attribuut wel of niet een formeel brondocument vereist is. Er kan ook sprake zijn van een (verplichte) verwijzing naar bijvoorbeeld een luchtfoto of een plaatsbepalingspunt. Tenminste zal vastgelegd moeten worden op basis van welke activiteit het attribuut is geregistreerd of gewijzigd|
-|Autorisatie|Vastleggen bronhouder(s)|Meestal zal dat bronhouder voor een bepaald object(type) ook de bronhouder van de attributen zijn. Het is ook mogelijk dat een andere "bronhouder" wordt aangewezen voor een bepaald attribuut. Als bronhouder wordt de verantwoordelijke instantie vastgelegd. De daadwerkelijk inwinning bijhouding kan mogelijk worden opgedragen (gemandateerd) aan een andere instantie|
-|   |Vastleggen autorisatie gebruik  |Als default zijn alle attribuuttypen in de SOR openbaar   |
+|Gegevenseigenaar|Vastleggen bronhouder(s)|Meestal zal dat bronhouder voor een bepaald object(type) ook de bronhouder van de attributen zijn. Het is ook mogelijk dat een andere "bronhouder" wordt aangewezen voor een bepaald attribuut. Als bronhouder wordt de verantwoordelijke instantie vastgelegd. De daadwerkelijk inwinning bijhouding kan mogelijk worden opgedragen (gemandateerd) aan een andere instantie|
+|   |Vastleggen openbaarheid gebruik  |Als default zijn alle attribuuttypen in de SOR openbaar   |
 |Kwaliteitseisen|Vastleggen of attribuut verplicht is of optioneel|De SOR biedt de mogelijkheden om sommige attributen optioneel op te nemen (als een attribuut wordt opgenomen moet de voldoen aan definities en kwaliteitseisen)|
 |   |Beschrijving minimale eisen aan de kwaliteit (precisie, actualiteit)|Vergelijk de eis aan de nauwkeurigheid van de gebruiksoppervlakte in de BAG. Eis kan ook zijn dat een object binnen enkele dagen/maanden na realisatie beschikbaar moet zijn in de BAG. |
 |   |Eisen aan de wijze van inwinning van het attribuut|Bijvoorbeeld de eis dat de geometrie op basis van luchtfoto ingewonnen moet worden|
@@ -365,8 +366,8 @@ Voorgesteld wordt per object de volgende metagegevens vast te leggen:
 | Aspect  |Beschrijving     |Waarom|
 |---|---|---|
 |Bronverwijzing|Verwijzing naar bron|Dit kan verwijzing zijn naar formeel document (zoals een vergunning), een luchtfoto, maar ook een activiteit die geleid heeft tot opname/wijziging van dit object|
-|Autorisatie|Vastleggen bronhouder|Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld) is van belang voor autorisatie tot wijziging, maar ook voor routering van terugmeldingen|
-|   |Vastleggen autorisatie gebruik|Als default zijn alle objecten in de SOR openbaar toegankelijk|
+|Gegevenseigenaar|Vastleggen bronhouder|Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld) is van belang voor autorisatie tot wijziging, maar ook voor routering van terugmeldingen|
+|   |Vastleggen openbaarheid gebruik|Als default zijn alle objecten in de SOR openbaar toegankelijk|
 |Kwaliteitseisen|n.v.t  op niveau individueel object|   |
 |Kwaliteit|Beschrijving wijze van inwinning|   |
 |   |Beschrijving wijze (gebruikte bronnen) meest recente controle, moment controle en uitvoerder|Vastlegging van controle zijn zowel voor gebruikers als voor de bronhouder zelf van belang|
@@ -382,8 +383,8 @@ Voorgesteld wordt per attribuut de volgende metagegevens vast te leggen:
 | Aspect  |Beschrijving     |Waarom|
 |---|---|---|
 |Bronverwijzing   |Verwijzing naar bron|Dit kan verwijzing zijn naar formeel document (zoals een vergunning), een luchtfoto, maar ook een activiteit die geleid heeft tot opname/wijziging van dit attribuut|
-|Autorisatie|Vastleggen bronhouder|Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld). Is in de regel voor alle attributen van een object gelijk|
-|   |Vastleggen autorisatie gebruik|Als default zijn alle attributen in de SOR openbaar toegankelijk|
+|Gegevenseigenaar|Vastleggen bronhouder|Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld). Is in de regel voor alle attributen van een object gelijk|
+|   |Vastleggen openbaarheid gebruik|Als default zijn alle attributen in de SOR openbaar toegankelijk|
 |Kwaliteitseisen|n.v.t  op niveau individueel attribuut|   |
 |Kwaliteit|Beschrijving wijze van inwinning|   |
 |   |Beschrijving wijze (gebruikte bronnen) meest recente controle, moment controle en uitvoerder|Vastlegging van controle zijn zowel voor gebruikers als voor de bronhouder zelf van belang|
@@ -459,22 +460,54 @@ Net als in het informatiemodel per attribuut kan worden vastgelegd of en zo ja w
 ##### Levensfasen en status van een object
 Om het tijdreizen voor alle gebruikers begrijpelijk en ook flexibel te maken, hebben we tevens een aanpak opgenomen voor het omgaan met levensfasen (statussen) van objecten. Dit heeft te maken met het feit dat bij het tijdreizen in de registratie niet alle gebruikers dezelfde wensen hebben. Bij bijvoorbeeld het raadplegen van de "actuele" situatie in het kader van calamiteiten is alleen relevant wat er ook daadwerkelijk aan objecten aanwezig is (inclusief objecten "in aanbouw" of "aanleg in uitvoering"). Maar bij vergunningverlening zal men ook willen zien voor welke objecten inmiddels een vergunning is verleend of anderszins in planning zijn.
 
-Bij het onderscheiden van levensfasen kunnen drie hoofdgroepen worden onderscheiden, met daarbinnen weer enkele afzonderlijke stappen. Welke fasen voor een bepaald objecttype relevant zijn, zal van de aard van het object afhangen. Voor een vergunningplichtig bouwwerk zijn andere (meer) levensfasen van belang dan bijvoorbeeld voor een bepaald landschapselement.
-We gaan uit van de volgende levensfasen (dit kan bij de uitwerking van het informatiemodel worden geconcretiseerd en eventueel verbijzonderd per soort object):
--	planfase
--	"gepland"
--	"vergunning verleend"
--	"sloopvergunning verleend"
--	bestaand/geldig
--	"aanleg in uitvoering", "in aanbouw"
-- 	"in gebruik"
--	"aangewezen", "uitgegeven"
--	"in verbouw", "in transitie"
--	"buiten gebruik"
--	niet (meer) bestaand/geldig 
--	"gesloopt", "beëindigd", "ingetrokken"
--	"niet gerealiseerd"
--	"ten onrechte opgevoerd"
+
+Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo’n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In de samenhangende objectenregistratie komen vier soorten objecttypen voor: fysieke objecttypen, functionele objecttypen, registratieve objecttypen en geografische objecttypen. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen.
+
+Registratieve objecttypen ontstaan als gevolg van besluitvorming. De levenscyclus van registratieve objecttypen bestaat uit twee levensfasen:
+
+- 	Benoemd :		het object is afgebakend op basis van wet- of regelgeving
+- 	Ingetrokken :	het object is ingetrokken op basis van wet- of regelgeving
+of
+- 	Ten onrechte :	het object is ten onrechte in de registratie opgenomen
+
+Bij geografische objecttypen wordt eveneens een onderscheid gemaakt naar twee levensfasen:
+
+- 	Aangewezen :	het object wordt als zodanig onderscheiden
+- 	Beëindigd :	het object wordt niet langer als zodanig onderscheiden
+of
+-  Ten onrechte :	het object is ten onrechte in de registratie opgenomen
+
+Bij fysieke objecttypen worden drie hoofdfasen onderscheiden waarbinnen meerdere levensfasen kunnen voorkomen. De te onderscheiden hoofdfasen zijn: planfase, aanwezigheidsfase en afwezigheidsfase. Welke levensfasen concreet worden onderscheiden is afhankelijk van het specifieke objecttype. Voor een vergunningplichtig bouwwerk zijn andere (meer) levensfasen van belang dan bijvoorbeeld voor een landschapselement. In het algemeen zullen voor niet-vergunningplichtige (veelal eenvoudigere) objecten en vergunningplichtige (veelal complexere) objecten de volgende aan het fysiek bestaan van objecten gerelateerde levensfasen voorkomen:
+
+|Hoofdfase	|Niet-vergunningplichtig	|Vergunningplichtig|
+|---|---|---|
+|Planfase	|Gepland	\Gepland|
+|||	Bouwvergunning verleend|
+|||Sloopvergunning verleend|
+|Aanwezigheidsfase	|Bestaand |In aanbouw|
+|||Bestaand|
+|||	In verbouw|
+|Afwezigheidsfase	|Verwijderd	|Gesloopt|
+||Niet gerealiseerd	|Niet gerealiseerd|
+||Ten onrechte	|Ten onrechte|
+
+
+Bij functionele objecttypen zijn de levensfasen van een object meer verbonden aan het gebruik ervan. Ook hier worden in het algemeen de drie genoemde hoofdfasen onderscheiden, waarbij de te onderscheiden levensfasen afhankelijk zijn van het specifieke objecttype. In het algemeen zullen de komende levensfasen voorkomen:
+
+|Hoofdfase	|Transportvoorziening	|Functionele indeling|
+|---|---|---|
+|Planfase	|Gepland	|Gepland|
+|Aanwezigheidsfase	|Gesloten	|Gevormd|
+||In gebruik	In gebruik|
+||Ontoegankelijk	|Buiten gebruik|
+|Afwezigheidsfase	|Opgeheven	|Beëindigd|
+||Niet gerealiseerd	|Niet gerealiseerd|
+||	Ten onrechte	|Ten onrechte|
+
+
+De levensfase van een object wordt in de registratie vastgelegd als de eigenschap “status” van het object.
+De verbetering (inmeten) van geometrie van een object wordt ten opzichte van bestaande basisregistraties niet langer opgevat als een statusverandering maar als een kwaliteitsverandering. Deze laatste wordt geregistreerd door de opname van meta-informatie.
+
 
 ##### Twee levensfasen op hetzelfde moment
 In de regel zal een object op enig moment in de tijd zich bevinden in één levensfase. Wanneer met de bouw van een woning wordt gestart, gaat het object over van de levensfase (status) "vergunning verleend" naar de fase "in aanbouw". Dat sluit allemaal aan bij het werken met een eenduidige tijdlijn geldigheid.

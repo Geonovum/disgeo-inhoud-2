@@ -78,7 +78,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een woonplaats, zoals opgenomen in de landelijke woonplaatsentabel  |Ja |
 |Formele naam  |De benaming van een door het gemeentebestuur aangewezen woonplaats   |Ja   |
-|Alternatieve naam | Een alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|
+|Alternatieve naam | Een alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)| Nee |
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als Woonplaats is benoemd   |Ja   |
 |Status   |De fase van de levenscyclus waarin de betreffende Woonplaats zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -225,8 +225,8 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 |Identificatie   |De unieke aanduiding van een Openbare ruimte  |Ja |
 |Type   |De aard van de als zodanig benoemde openbare ruimte   |Ja   |
 |Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja|
-|alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) |Ja|
-|Geometrie   |De geometrische representatie van de randen van het gebied waarin de betreffende openbare ruimte zich bevindt  |Ja   |
+|alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of iNee|
+|Geometrie   |De geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  |Ja   |
 |Status   |De fase van de levenscyclus waarin de betreffende openbare ruimte zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
