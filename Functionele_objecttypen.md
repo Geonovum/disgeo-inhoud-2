@@ -9,6 +9,9 @@
 
 Voor de functionele typering van netwerken is aangesloten bij de beschikbare typeringen in de BGT|IMGeo voor wegen en spoor. Verdere afstemming is nodig met NWB, IMBOR/IMWV, Prorail en de watersector. Voor wegverbindingen zijn de voorstellen voor IMGeo 2.2 overgenomen. Voor spoorverbindingen is de typering vereenvoudigd. Het uitgangspunt dat objecttypen scherp zijn afgebakend, maakt dat de typering sneltram is vervallen en dat havenkraan vervangen is door (laad-/los)kraan.
 
+#### Wegennetwerk
+
+
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
 |Wegverbindingen|	Functie:	 ||
@@ -31,11 +34,24 @@ Voor de functionele typering van netwerken is aangesloten bij de beschikbare typ
 ||	ruiterpad	||
 ||	inrit	||
 |||| 	 	 
+
+
+#### Spoornetwerk
+
+Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|-----------|---------------------------|--------------------------------|
+|
 |Spoorverbindingen	|Functie:	 ||
 || 	trein	 ||
 || 	tram	 ||
 ||*Niet BGT*| 	 	(laad/los-)kraan|
-|||| 	 	 
+|||| 	 	
+
+#### Waternetwerk
+
+Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|-----------|---------------------------|--------------------------------|
+	 
 |Waterwegverbindingen	|Functie:	 ||
 || 	vaaweg	 ||
 || 	hydrologie???	 ||
@@ -47,7 +63,8 @@ Voor de functionele typering van netwerken is aangesloten bij de beschikbare typ
 || 	tussenpunt	 ||
 ||||
 
-**Functionele gebiede*
+
+### Functionele gebieden
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | funcioneel gebied   |
