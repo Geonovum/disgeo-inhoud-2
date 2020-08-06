@@ -285,8 +285,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Nummeraanduiding  |Ja |
-|Huisnummer |Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende ummering
-   |Ja|
+|Huisnummer |Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende ummering   |Ja|
 |Huisletter |Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken   |Ja|
 |Huisnummer  toevoeging|Een door of namens het gemeentebestuur ten aanzien van *een adresseerbaar object* toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter   |Ja|
 |Postcode | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer|Ja|

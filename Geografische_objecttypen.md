@@ -9,8 +9,7 @@
 |SOR-objecttype   | bebouwde kom  |
 | onderdeel van NEN3610-objecttype |geografisch object  |
 
-.
-
+**Definitie**
 
 | Naam  | Bebouwde kom  |
 |---|---|
@@ -20,7 +19,7 @@
 |Gevolgen afbakening  | Bebouwde kom is op dit moment nog geen onderdeel van een basisregistratie. Wel zijn in de BRT plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. Door de opname van bebouwde kom in de objectenregistratie ontstaat een formele vastlegging van een algemeen bruikbare bebouwde kom.  |
 |Toelichting|   |
 
-
+**Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
@@ -31,10 +30,13 @@
 |Status   |De fase van de levenscyclus waarin de betreffende bebouwde kom zich bevindt    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
+**Relaties met andere objecten**
+
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |ligt in   |Gerelateerde gemeente | Ja |
 
+**Domeinwaarden**
 
 | Waarde  | Beschrijving Type  |
 |---|---|
