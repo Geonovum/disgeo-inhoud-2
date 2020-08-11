@@ -124,6 +124,44 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 ||*Niet BGT*|	 	    waterbergingsgebied|
 ||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
   
+
+##### Oever/slootkant
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Oever/slootkant |
+| onderdeel van NEN3610-objecttype |Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Oever/slootkant  |
+|---|---|
+| Definitie |   |
+|Herkomst definitie  |    |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+
 #### OVERIG
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|

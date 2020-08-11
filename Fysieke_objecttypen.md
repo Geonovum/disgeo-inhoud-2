@@ -740,7 +740,45 @@ ontwerpprincipe:
 |---|---|
 |||
 
-#### GEBOUWEN
+
+
+#### KUNSTWERK
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Kunstwerk |
+| onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Kunstwerk  |
+|---|---|
+| Definitie |civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf   |
+|Herkomst definitie  |    |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+#### GEBOUW
 
 
 
