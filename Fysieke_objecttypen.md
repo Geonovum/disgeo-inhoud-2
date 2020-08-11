@@ -103,7 +103,602 @@ Voor het objecttype ‘verhardingsobject’ is de typering overgenomen uit IMBOR
 
 ### BLAUW
 
+#### Water
 
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Water  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Water  |
+|---|---|
+| Definitie | Grondoppervlak permanent of periodiek bedekt met water.  |
+|Herkomst definitie  | concept NEN3610 2020    |
+|Verplicht  | Ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+
+
+#### Waterloop
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Waterloop  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Water  |
+|---|---|
+| Definitie |  een langgerekte verlaging in het terrein van natuurlijke of kunstmatige oorsprong die permanent of periodiek stromend water bevat.   |
+|Herkomst definitie  | Aquo Lex   |
+|Verplicht  | Ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+##### Rivier
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Rivier  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Rivier  |
+|---|---|
+| Definitie | Het water, dat ten atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken.  |
+|Herkomst definitie  |   |
+|Verplicht  | Ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+##### Sloot
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Sloot  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Sloot  |
+|---|---|
+| Definitie | Een waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil.  |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting| Een sloot laat zich niet alleen op fysieke aspecten scherp definieren. Het is echter aangelegd met een reden en die reden (waterbeheersing) maakt het beter onderscheidend. |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+##### Kanaal
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Kanaal  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Kanaal  |
+|---|---|
+| Definitie |Een gegraven grote waterloop die dient voor scheepvaart en/of watertransport. |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting| Twee aspecten bepalen de definitie: dat het is aangelegd en dat het voor scheepvaart is bedoeld. Beide moeten gelden om iets een kanaal te noemen. |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+##### Beek
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Beek  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Beek  |
+|---|---|
+| Definitie | Een natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier.  |
+|Herkomst definitie  |   |
+|Verplicht  | Nee  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+##### Gracht
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Gracht  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Gracht  |
+|---|---|
+| Definitie | Een gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden.  |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+
+#### Bron
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Bron  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Bron  |
+|---|---|
+| Definitie | Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt.  |
+|Herkomst definitie  |   |
+|Verplicht  | Ja|
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+#### Watervlakte
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Watervlakte  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Watervlakte  |
+|---|---|
+| Definitie | een verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat   |
+|Herkomst definitie  |   |
+|Verplicht  | Ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+##### Meer
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Meer  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Meer  |
+|---|---|
+| Definitie | *geen onderscheidende definitie gevonden*  |
+|Herkomst definitie  |   |
+|Verplicht  | Nee|
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+##### Plas
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Plas  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Plas  |
+|---|---|
+| Definitie | *geen onderscheidende definitie gevonden*   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+##### Ven
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Ven  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Ven  |
+|---|---|
+| Definitie | *geen onderscheidende definitie gevonden*   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+#### Vijver
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Vijver  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Vijver  |
+|---|---|
+| Definitie | *geen onderscheidende definitie gevonden*  |
+|Herkomst definitie  |   |
+|Verplicht  | Nee |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+
+
+
+##### Zee
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Zee  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Zee  |
+|---|---|
+| Definitie | Uitgestrekt oppervlak zout water.  |
+|Herkomst definitie  | concept NEN3610 2020    |
+|Verplicht  | Nee  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+
+#### Getijdegebied
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Getijdegebied  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Getijdegebied  |
+|---|---|
+| Definitie | Geheel of gedeeltelijk droogvallende gronden, buitendijks gelegen.  |
+|Herkomst definitie  |   |
+|Verplicht  | Ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+
+##### Slik
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Slik  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Slik  |
+|---|---|
+| Definitie | Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
 
 #### GEBOUWEN
 
