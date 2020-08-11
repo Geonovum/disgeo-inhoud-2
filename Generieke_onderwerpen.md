@@ -139,6 +139,21 @@ Dit zou bijvoorbeeld via een afsprakenstelsel geregeld kunnen worden
 #### Coördinatenstelsel
 
 ####  3D
+ontwerpprincipe: de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht is en 3D vrijwillig. 
+
+*hier uitschrijven welke levels of details worden onderscheiden in de SOR voor 3D*
+
+*let op : ook de z-hoogte is van belang naast volume, zoals bij bv fly-overs, etc, etc.*
+
+#### Geometrie-type
+
+| Waarde Type | Beschrijving   |
+|---|---|
+|punt | |
+|lijn ||
+|vlak ||
+|volume||
+
 
 ### Topologie
 

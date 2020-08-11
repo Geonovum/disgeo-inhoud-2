@@ -6,6 +6,63 @@ Deze typering is in deze fase van het traject vooral bedoeld om een eerste indru
 
 
 ### Verhardingsobject
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | verharding  |
+| onderdeel van NEN3610-objecttype |verharding |
+
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | verharding |
+|---|---|
+| Definitie |Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal. |
+|Herkomst definitie  | concept NEN3610-2020  |
+|Verplicht  | Ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-objecttype verharding |Ja |
+|Geometrie-type|vlak|Ja|
+|Afbakening   |  Een verhardingsvlak bestaat uit één type verharding. Het gaat hierbij over het type verharding waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met andere verharding hoeft geen apart vlak te worden gevormd.|Ja   |
+|Status   |   |Ja   |
+|type verharding|aanduiding soort verharding|Ja|
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+
+**Domeinwaarden**
+
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|Aangewezen||
+| Ingetrokken | 
+
+|Waarde Type| Beschrijving   |herkomst|
+|---|---|---|
+|asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|IMBOR2020|
+| betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |IMBOR2020|
+|elementenverharding|de bestrating is in tegenstelling tot een gesloten verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|IMBOR2020|
+|halfverharding|een halfverharding bestaat uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|IMBOR2020|
+|kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient, zoals kunstgras of kunststof toplagen.|IMBOR2020|
+|onverhard|een object zonder specifieke verharding, bestaande uit natuurlijke materialen.|IMBOR2020|
+
+**hieronder het oude materiaal van verhardingsoject - nog opschonen**
+
 | klasse  | naam  |
 |---|---|
 |SOR-objecttype   | verhardingsobject  |
