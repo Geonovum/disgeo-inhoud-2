@@ -1,11 +1,5 @@
 ## Generieke onderwerpen
 
-### test
-
-#### test paragraaf
-
-dit is een test
-**vetgedrukt**
 
 ### Identificatie van objecten
 
