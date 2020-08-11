@@ -4,8 +4,8 @@ In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de versc
 
 Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
 
-
-### Verhardingsobject
+### GRIJS 
+#### Verharding
 
 | klasse  | naam  |
 |---|---|
@@ -97,6 +97,22 @@ Voor het objecttype ‘verhardingsobject’ is de typering overgenomen uit IMBOR
 |Onverhard	|Zand|
 || 	Zwarte grond|
 || 	Open grond|
+
+### GROEN
+
+
+### BLAUW
+
+
+
+#### GEBOUWEN
+
+
+
+
+
+
+
 
 ### Onbepaald terreindeel
 | klasse  | naam  |
