@@ -663,6 +663,9 @@ ontwerpprincipe:
 |||
 
 
+
+
+
 ##### Slik
 
 
@@ -681,6 +684,43 @@ ontwerpprincipe:
 |Herkomst definitie  |    |
 |Verplicht  | Nee  |
 |Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+##### Kwelder
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-objecttype   | Kwelder  |
+| onderdeel van NEN3610-objecttype |Water  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Kwelder  |
+|---|---|
+| Definitie | *geen onderscheidende definitie gevonden*   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting| synoniem : schor  |
 
 **Eigenschappen**
 
