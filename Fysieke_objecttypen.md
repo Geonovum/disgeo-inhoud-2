@@ -120,7 +120,7 @@ ontwerpprincipe:
 | Definitie | Grondoppervlak permanent of periodiek bedekt met water.  |
 |Herkomst definitie  | concept NEN3610 2020    |
 |Verplicht  | Ja  |
-|Toelichting| *volgt later*  |
+|Toelichting|  |
 
 **Eigenschappen**
 
@@ -179,7 +179,7 @@ ontwerpprincipe:
 |---|---|
 |||
 
-##### Rivier
+#### Rivier
 
 
 | klasse  | naam  |
@@ -217,7 +217,7 @@ ontwerpprincipe:
 |Toelichting| Een sloot laat zich niet alleen op fysieke aspecten scherp definieren. Het is echter aangelegd met een reden en die reden (waterbeheersing) maakt het beter onderscheidend. |
 
 
-##### Kanaal
+#### Kanaal
 
 
 | klasse  | naam  |
@@ -257,7 +257,7 @@ ontwerpprincipe:
 
 
 
-##### Gracht
+#### Gracht
 
 
 | klasse  | naam  |
@@ -356,7 +356,7 @@ ontwerpprincipe:
 |Toelichting| *volgt later*  |
 
 
-##### Plas
+#### Plas
 
 
 | klasse  | naam  |
@@ -413,7 +413,7 @@ ontwerpprincipe:
 |Toelichting| *volgt later*  |
 
 
-##### Zee
+#### Zee
 
 
 | klasse  | naam  |
@@ -466,7 +466,7 @@ ontwerpprincipe:
 |Toelichting| *volgt later*  |
 
 
-##### Kwelder
+#### Kwelder
 
 | klasse  | naam  |
 |---|---|
@@ -502,7 +502,7 @@ ontwerpprincipe:
 |---|---|
 |||
 
-#### KUNSTWERK
+### KUNSTWERK
 
 
 
@@ -541,7 +541,7 @@ ontwerpprincipe:
 |||
 
 
-##### Overbruggingsconstructie
+#### Overbruggingsconstructie
 
 | klasse  | naam  |
 |---|---|
@@ -559,7 +559,7 @@ ontwerpprincipe:
 |Toelichting|  |
 
 
-##### Brug
+#### Brug
 
 | klasse  | naam  |
 |---|---|
@@ -577,7 +577,7 @@ ontwerpprincipe:
 |Toelichting|  |
 
 
-##### aquaduct
+#### aquaduct
 
 | klasse  | naam  |
 |---|---|
@@ -614,7 +614,7 @@ ontwerpprincipe:
 |Toelichting|  |
 
 
-##### ecoduct
+#### ecoduct
 
 | klasse  | naam  |
 |---|---|
@@ -632,7 +632,7 @@ ontwerpprincipe:
 |Toelichting|  |
 
 
-##### flyover
+#### flyover
 
 | klasse  | naam  |
 |---|---|
@@ -650,7 +650,7 @@ ontwerpprincipe:
 |Toelichting| *bestaande definitie niet consistent*   |
 
 
-##### tunnel
+#### tunnel
 
 | klasse  | naam  |
 |---|---|
@@ -687,7 +687,7 @@ ontwerpprincipe:
 
 
 
-##### dek
+#### dek
 
 | klasse  | naam  |
 |---|---|
@@ -704,7 +704,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### landhoofd
+#### landhoofd
 
 | klasse  | naam  |
 |---|---|
@@ -721,7 +721,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### pijler
+#### pijler
 
 | klasse  | naam  |
 |---|---|
@@ -755,7 +755,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### pyloon
+#### pyloon
 
 | klasse  | naam  |
 |---|---|
@@ -772,7 +772,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### gemaal
+#### gemaal
 
 | klasse  | naam  |
 |---|---|
@@ -789,7 +789,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### sluis
+#### sluis
 
 | klasse  | naam  |
 |---|---|
@@ -823,7 +823,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### steiger
+#### steiger
 
 | klasse  | naam  |
 |---|---|
@@ -857,7 +857,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### keermuur
+#### keermuur
 
 | klasse  | naam  |
 |---|---|
@@ -891,7 +891,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### faunavoorziening 
+#### faunavoorziening 
 
 | klasse  | naam  |
 |---|---|
@@ -925,7 +925,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### bodemval 
+#### bodemval 
 
 | klasse  | naam  |
 |---|---|
@@ -959,7 +959,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### ponton 
+#### ponton 
 
 | klasse  | naam  |
 |---|---|
@@ -994,201 +994,159 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### xxx
+#### Scheidende constructie
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+|SOR-begrip   | Scheidende constructie |
+| onderdeel van NEN3610-objecttype |Constructie  |
 
 
 **Definitie**
 
-| Naam  | xxx  |
+| Naam  | Scheidende constructie  |
 |---|---|
-| Definitie |xxx   |
+| Definitie |Kunstmatig, meestal lineair obstakel met een werende functie.   |
 |Herkomst definitie  |    |
-|Verplicht  | Nee  |
+|Verplicht  | ja  |
 |Toelichting|  |
 
-##### xxx
+#### kademuur
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+|SOR-begrip   | kademuur |
+| onderdeel van NEN3610-objecttype |Constructie  |
 
 
 **Definitie**
 
-| Naam  | xxx  |
+| Naam  | kademuur  |
 |---|---|
-| Definitie |xxx   |
+| Definitie |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton.    |
 |Herkomst definitie  |    |
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### xxx
+##### damwand
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+|SOR-begrip   | damwand |
+| onderdeel van NEN3610-objecttype |Constructie  |
 
 
 **Definitie**
 
-| Naam  | xxx  |
+| Naam  | damwand  |
 |---|---|
-| Definitie |xxx   |
+| Definitie |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen.   |
 |Herkomst definitie  |    |
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### xxx
+#### walbescherming
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+|SOR-begrip   |walbescherming|
+| onderdeel van NEN3610-objecttype |Constructie  |
 
 
 **Definitie**
 
-| Naam  | xxx  |
+| Naam  | walbescherming  |
 |---|---|
-| Definitie |xxx   |
+| Definitie |Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.   |
 |Herkomst definitie  |    |
-|Verplicht  | Nee  |
+|Verplicht  | ja  |
 |Toelichting|  |
 
-##### xxx
+##### geluidsscherm
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+|SOR-begrip   | geluidsscherm |
+| onderdeel van NEN3610-objecttype |Constructie  |
 
 
 **Definitie**
 
-| Naam  | xxx  |
+| Naam  | geluidsscherm  |
 |---|---|
-| Definitie |xxx   |
+| Definitie |Een scheidende constructie bedoeld om geluidshinder in de buitenlucht te verminderen.    |
 |Herkomst definitie  |    |
-|Verplicht  | Nee  |
+|Verplicht  | ja  |
 |Toelichting|  |
 
-##### xxx
+#### hek
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+|SOR-begrip   | hek |
+| onderdeel van NEN3610-objecttype |Constructie  |
 
 
 **Definitie**
 
-| Naam  | xxx  |
+| Naam  | hek  |
 |---|---|
-| Definitie |xxx   |
+| Definitie |Begrenzing van een terrein in de vorm van een afrastering of schutting.   |
 |Herkomst definitie  |    |
-|Verplicht  | Nee  |
+|Verplicht  | ja  |
 |Toelichting|  |
 
-##### xxx
+##### haag
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+|SOR-begrip   | haag |
+| onderdeel van NEN3610-objecttype |*Constructie  of Groen ????*  |
 
 
 **Definitie**
 
-| Naam  | xxx  |
+| Naam  | haag  |
 |---|---|
-| Definitie |xxx   |
+| Definitie |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
 |Herkomst definitie  |    |
-|Verplicht  | Nee  |
+|Verplicht  | ja  |
 |Toelichting|  |
 
-##### xxx
+#### schutting
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+|SOR-begrip   | schutting |
+| onderdeel van NEN3610-objecttype | Constructie|
 
 
 **Definitie**
 
-| Naam  | xxx  |
+| Naam  | schutting  |
 |---|---|
-| Definitie |xxx   |
+| Definitie |Terreinafscheiding van aaneengesloten elementen, meestal hout of beton.   |
 |Herkomst definitie  |    |
-|Verplicht  | Nee  |
+|Verplicht  | ja  |
 |Toelichting|  |
 
-##### xxx
+##### afrastering
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+|SOR-begrip   | afrastering |
+| onderdeel van NEN3610-objecttype |Constructie  |
 
 
 **Definitie**
 
-| Naam  | xxx  |
+| Naam  | afrastering  |
 |---|---|
-| Definitie |xxx   |
+| Definitie |Kunstmatige terreinafscheiding in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen een of meerdere draden.   |
 |Herkomst definitie  |    |
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### xxx
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | xxx  |
-|---|---|
-| Definitie |xxx   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-##### xxx
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | xxx |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | xxx  |
-|---|---|
-| Definitie |xxx   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-
-
-
-
-
-
-**HIER GEBLEVEN - HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -**
 
 
 #### GEBOUW
@@ -1267,30 +1225,8 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 || 	bodembedekkers|
 
 
-### Waterobject
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | waterobject |
-| onderdeel van NEN3610-objecttype |water |
 
 
-Voor het objecttype ‘waterobject’ is de typering uit de huidige BGT|IMGeo 2.1.1 aangescherpt conform eerder gestelde uitgangspunten. Hierdoor is er geen sprake meer van multitypering van watervlakten. Daarnaast is ervoor gekozen om de typering ‘zee’ onder ‘watervlakte’ te plaatsen, Dit heeft als consequentie dat zee op basis van het huidige model van het verplichte deel naar het vrijwillige deel opschuift. Bij de verdere uitwerking zal worden bekeken op welke wijze hiermee kan worden omgegaan. 
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Type:| |	 
-|waterloop	|rivier|
-|| 	sloot|
-|| 	kanaal|
-|| 	beek|
-|| 	gracht|
-|| 	bron|
-|watervlakte	|zee|
-|| 	meer|
-|| 	plas|
-|| 	ven|
-|| 	vijver|
-|greppel/droge sloot	 ||
 
 
 ### Bebouwing
@@ -1301,74 +1237,7 @@ Voor het objecttype ‘waterobject’ is de typering uit de huidige BGT|IMGeo 2.
 
 De typering behorende bij de aan gebouwen gerelateerde fysieke objecttypen zal in het vervolgtraject nader worden onderzocht.
 
-### Kunstwerkdeel
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | kunstwerkdeel  |
-| onderdeel van NEN3610-objecttype | kunstwerk  |
 
-De typering behorende bij kunstwerkdeel is overgenomen uit de huidige BGT|IMGeo 2.1.1 aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen. Uitgezonderd is de groeiplaatsinrichting omdat hiervoor afstemming met IMBOR2020 nodig is.
-
-
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Type:| |	 	 
-|hoogspanningsmast	 ||
-|gemaal	 ||
-|Perron	 ||
-|sluisdeur	 ||
-|strekdam	 ||
-|Steiger	 ||
-|Stuw	 ||
-|*Niet BGT*	|keermuur|
-|*Niet BGT*	|overkluizing|
-|*Niet BGT*	|duiker|
-|*Niet BGT*	|faunavoorziening|
-|*Niet BGT*	|vispassage|
-|*Niet BGT*	|bodemval|
-|*Niet BGT*	|coupure|
-|*Niet BGT*	|ponton|
-|*Niet BGT*	|voorde|
-|*Niet BGT*	|hellingbaan|
-|*Niet BGT*	|vlonder|
-
-### Tunneldeel
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | tunneldeel  |
-| onderdeel van NEN3610-objecttype | kunstwerk  |
-
-De typering behorende bij tunneldeel is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor het tunneldeel geen aanvullingen opgenomen.
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Tunneldeel| |	 
-
-### Overbruggingsdeel
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   |overbruggingsdeel   |
-| onderdeel van NEN3610-objecttype | kunstwerk  |
-
-De typering behorende bij overbruggingsdeel is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor het overbruggingsdeel geen aanvullingen opgenomen.
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|overbruggingsdeel|Hoort bij type overbrugging: |	
-||	brug|
-|| 	aquaduct|
-|| 	viaduct|
-|| 	ecoduct|
-|| 	fly-over|
-||| 	 
-|| 	Type Overbruggingsdeel
-|| 	dek|
-|| 	landhoofd|
-|| 	pijler|
-|| 	sloof|
-|| 	pyloon|
 
 
 ### Bouwwerkconstructie
