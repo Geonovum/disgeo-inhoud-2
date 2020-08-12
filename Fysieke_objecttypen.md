@@ -994,7 +994,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-#### Scheidende constructie
+### SCHEIDENDE CONSTRUCTIE
 
 | klasse  | naam  |
 |---|---|
@@ -1011,7 +1011,7 @@ ontwerpprincipe:
 |Verplicht  | ja  |
 |Toelichting|  |
 
-##### kademuur
+#### kademuur
 
 | klasse  | naam  |
 |---|---|
@@ -1028,7 +1028,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### damwand
+#### damwand
 
 | klasse  | naam  |
 |---|---|
@@ -1045,7 +1045,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### walbescherming
+#### walbescherming
 
 | klasse  | naam  |
 |---|---|
@@ -1062,7 +1062,7 @@ ontwerpprincipe:
 |Verplicht  | ja  |
 |Toelichting|  |
 
-##### geluidsscherm
+#### geluidsscherm
 
 | klasse  | naam  |
 |---|---|
@@ -1096,7 +1096,7 @@ ontwerpprincipe:
 |Verplicht  | ja  |
 |Toelichting|  |
 
-##### haag
+#### haag
 
 | klasse  | naam  |
 |---|---|
@@ -1113,7 +1113,7 @@ ontwerpprincipe:
 |Verplicht  | ja  |
 |Toelichting|  |
 
-##### schutting
+#### schutting
 
 | klasse  | naam  |
 |---|---|
@@ -1130,7 +1130,7 @@ ontwerpprincipe:
 |Verplicht  | ja  |
 |Toelichting|  |
 
-##### afrastering
+#### afrastering
 
 | klasse  | naam  |
 |---|---|
