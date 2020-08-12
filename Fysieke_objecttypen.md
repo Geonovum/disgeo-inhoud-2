@@ -9,7 +9,7 @@ Deze typering is in deze fase van het traject vooral bedoeld om een eerste indru
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | verharding  |
+|SOR-begrip   | verharding  |
 | onderdeel van NEN3610-objecttype |verharding |
 
 
@@ -29,7 +29,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-objecttype verharding |Ja |
+|Identificatie   |De unieke aanduiding van het SOR-begrip verharding |Ja |
 |Geometrie-type|vlak|Ja|
 |Afbakening   |  Een verhardingsvlak bestaat uit één type verharding. Het gaat hierbij over het type verharding waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met andere verharding hoeft geen apart vlak te worden gevormd.|Ja   |
 |Status   |   |Ja   |
@@ -65,7 +65,7 @@ ontwerpprincipe:
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | verhardingsobject  |
+|SOR-begrip   | verhardingsobject  |
 | onderdeel van NEN3610-objecttype | verharding  |
 
 
@@ -108,7 +108,7 @@ Voor het objecttype ‘verhardingsobject’ is de typering overgenomen uit IMBOR
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Water  |
+|SOR-begrip   | Water  |
 | onderdeel van NEN3610-objecttype |Water  |
 
 ontwerpprincipe: 
@@ -147,7 +147,7 @@ ontwerpprincipe:
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Waterloop  |
+|SOR-begrip   | Waterloop  |
 | onderdeel van NEN3610-objecttype |Water  |
 
 ontwerpprincipe: 
@@ -184,10 +184,9 @@ ontwerpprincipe:
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Rivier  |
+|SOR-begrip   | Rivier  |
 | onderdeel van NEN3610-objecttype |Water  |
-
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -198,33 +197,15 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
 
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
 ##### Sloot
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Sloot  |
+|SOR-begrip   | Sloot  |
 | onderdeel van NEN3610-objecttype |Water  |
-
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -235,33 +216,15 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting| Een sloot laat zich niet alleen op fysieke aspecten scherp definieren. Het is echter aangelegd met een reden en die reden (waterbeheersing) maakt het beter onderscheidend. |
 
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
 ##### Kanaal
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Kanaal  |
+|SOR-begrip   | Kanaal  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -272,33 +235,16 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting| Twee aspecten bepalen de definitie: dat het is aangelegd en dat het voor scheepvaart is bedoeld. Beide moeten gelden om iets een kanaal te noemen. |
 
-**Eigenschappen**
 
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
 ##### Beek
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Beek  |
+|SOR-begrip   | Beek  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -309,33 +255,16 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
 
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
 ##### Gracht
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Gracht  |
+|SOR-begrip   | Gracht  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -346,23 +275,6 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
 
 #### Bron
@@ -370,10 +282,9 @@ ontwerpprincipe:
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Bron  |
+|SOR-begrip   | Bron  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -386,28 +297,14 @@ ontwerpprincipe:
 
 **Eigenschappen**
 
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
 
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
 #### Watervlakte
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Watervlakte  |
+|SOR-begrip   | Watervlakte  |
 | onderdeel van NEN3610-objecttype |Water  |
 
 ontwerpprincipe: 
@@ -438,15 +335,16 @@ ontwerpprincipe:
 |Waarde Status| Beschrijving   |
 |---|---|
 |||
+
 ##### Meer
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Meer  |
+|SOR-begrip   | Meer  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -457,33 +355,15 @@ ontwerpprincipe:
 |Verplicht  | Nee|
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
 ##### Plas
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Plas  |
+|SOR-begrip   | Plas  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -494,32 +374,15 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
 
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 ##### Ven
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Ven  |
+|SOR-begrip   | Ven  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -530,32 +393,15 @@ ontwerpprincipe:
 |Verplicht  | Nee |
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
 
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 #### Vijver
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Vijver  |
+|SOR-begrip   | Vijver  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -566,36 +412,15 @@ ontwerpprincipe:
 |Verplicht  | Nee |
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
-
-
-
 
 ##### Zee
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Zee  |
+|SOR-begrip   | Zee  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -606,34 +431,14 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
-
-
 #### Getijdegebied
 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Getijdegebied  |
+|SOR-begrip   | Getijdegebied  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -644,37 +449,12 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
-
-
-
-
-
 ##### Slik
-
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Slik  |
+|SOR-begrip   | Slik  |
 | onderdeel van NEN3610-objecttype |Water  |
-
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -685,33 +465,15 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting| *volgt later*  |
 
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
 ##### Kwelder
 
-
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Kwelder  |
+|SOR-begrip   | Kwelder  |
 | onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
+
 
 **Definitie**
 
@@ -740,14 +502,14 @@ ontwerpprincipe:
 |---|---|
 |||
 
-
-
 #### KUNSTWERK
+
+
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Kunstwerk |
-| onderdeel van NEN3610-objecttype |Constructie  |
+|SOR-begrip   | Kunstwerk |
+| onderdeel van NEN3610-objecttype | Constructie  |
 
 ontwerpprincipe: 
 
@@ -755,7 +517,7 @@ ontwerpprincipe:
 
 | Naam  | Kunstwerk  |
 |---|---|
-| Definitie |civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf   |
+| Definitie |civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf |
 |Herkomst definitie  |    |
 |Verplicht  | Ja  |
 |Toelichting|  |
@@ -778,6 +540,657 @@ ontwerpprincipe:
 |---|---|
 |||
 
+
+##### Overbruggingsconstructie
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Overbruggingsconstructie |
+| onderdeel van NEN3610-objecttype | Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | Overbruggingsconstructie  |
+|---|---|
+| Definitie |Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
+|Herkomst definitie  |    |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+
+##### Brug
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Brug |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | Brug  |
+|---|---|
+| Definitie |Overbruggingsconstructie over een watervlakte of waterloop, bedoelt voor verkeer.|
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+
+##### aquaduct
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | aquaduct |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+
+**Definitie**
+
+| Naam  | aquaduct  |
+|---|---|
+| Definitie |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+
+##### viaduct
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | viaduct |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | viaduct  |
+|---|---|
+| Definitie |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoelt voor verkeer.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+
+##### ecoduct
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | ecoduct |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | ecoduct  |
+|---|---|
+| Definitie |Overbruggingsconstructie over een weg of spoorweg,  bedoelt voor het passeren van dieren.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+
+##### flyover
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | flyover |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | flyover  |
+|---|---|
+| Definitie |Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.   |
+|Herkomst definitie  |  |
+|Verplicht  | Nee  |
+|Toelichting| *bestaande definitie niet consistent*   |
+
+
+##### tunnel
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | tunnel |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | tunnel  |
+|---|---|
+| Definitie |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+
+##### overkluizing
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | overkluizing |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | overkluizing  |
+|---|---|
+| Definitie |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+
+
+##### dek
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | dek |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | dek  |
+|---|---|
+| Definitie |Direct door het verkeer belaste deel van de bovenbouw van de brug.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### landhoofd
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | landhoofd |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | landhoofd  |
+|---|---|
+| Definitie |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### pijler
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | pijler |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | pijler  |
+|---|---|
+| Definitie |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### sloof
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | sloof |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | sloof  |
+|---|---|
+| Definitie |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### pyloon
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | pyloon |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | pyloon  |
+|---|---|
+| Definitie |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### gemaal
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | gemaal |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | gemaal  |
+|---|---|
+| Definitie |Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### sluis
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | sluis |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | sluis  |
+|---|---|
+| Definitie |Een kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### strekdam
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | strekdam |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | strekdam  |
+|---|---|
+| Definitie |Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### steiger
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | steiger |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | steiger  |
+|---|---|
+| Definitie |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### stuw
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | stuw |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | stuw  |
+|---|---|
+| Definitie |xxEen vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelenx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### keermuur
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | keermuur |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | keermuur  |
+|---|---|
+| Definitie |muur die door vorm, gewicht en fundering zonder verankering de grond keert.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### duiker
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | duiker |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | duiker  |
+|---|---|
+| Definitie |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### faunavoorziening 
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | faunavoorziening  |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | faunavoorziening   |
+|---|---|
+| Definitie |Voorziening bij een infrastructureel werk om de uit dat werk voortvloeiende negatieve gevolgen voor de fauna zoveel mogelijk te voorkomen of te beperken   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### vispassage 
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | vispassage  |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | vispassage   |
+|---|---|
+| Definitie |Een waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### bodemval 
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | bodemval  |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | bodemval   |
+|---|---|
+| Definitie |Sprong in de bodem van een waterloop.    |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### coupure 
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | coupure  |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | coupure   |
+|---|---|
+| Definitie |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### ponton 
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | ponton  |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | ponton   |
+|---|---|
+| Definitie |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft.   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+
+##### voorde
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | voorde |
+| onderdeel van NEN3610-objecttype |*Kunstwerk??????*  |
+
+
+**Definitie**
+
+| Naam  | voorde  |
+|---|---|
+| Definitie |Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop.    |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+##### xxx
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | xxx |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+
+**Definitie**
+
+| Naam  | xxx  |
+|---|---|
+| Definitie |xxx   |
+|Herkomst definitie  |    |
+|Verplicht  | Nee  |
+|Toelichting|  |
+
+
+
+
+
+
+
+
+**HIER GEBLEVEN - HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -HIER GEBLEVEN -**
+
+
 #### GEBOUW
 
 
@@ -790,7 +1203,7 @@ ontwerpprincipe:
 ### Onbepaald terreindeel
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | onbepaald terreindeel  |
+|SOR-begrip   | onbepaald terreindeel  |
 | onderdeel van NEN3610-objecttype | Bodem  |
 
 Het objecttype ‘Onbepaald terreindeel’ is een nieuw objecttype. Voorgesteld wordt om de volgende typering op te nemen:
@@ -804,7 +1217,7 @@ Het objecttype ‘Onbepaald terreindeel’ is een nieuw objecttype. Voorgesteld 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | groenobject |
+|SOR-begrip   | groenobject |
 | onderdeel van NEN3610-objecttype | **Bodem en/of Begroeiing**  |
 
 Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige BGT|IMGeo 2.1.1. Verwacht wordt dat een uitbreiding van typeringen bij groenvoorziening voor hagen en boomspiegels noodzakelijk is. Hiervoor is nadere afstemming met IMBOR 2020 nodig. Dit leidt tot de volgende typeringen voor het objecttype ‘groenobject’:
@@ -857,7 +1270,7 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 ### Waterobject
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | waterobject |
+|SOR-begrip   | waterobject |
 | onderdeel van NEN3610-objecttype |water |
 
 
@@ -883,7 +1296,7 @@ Voor het objecttype ‘waterobject’ is de typering uit de huidige BGT|IMGeo 2.
 ### Bebouwing
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | bebouwing  |
+|SOR-begrip   | bebouwing  |
 | onderdeel van NEN3610-objecttype | gebouw  |
 
 De typering behorende bij de aan gebouwen gerelateerde fysieke objecttypen zal in het vervolgtraject nader worden onderzocht.
@@ -891,7 +1304,7 @@ De typering behorende bij de aan gebouwen gerelateerde fysieke objecttypen zal i
 ### Kunstwerkdeel
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | kunstwerkdeel  |
+|SOR-begrip   | kunstwerkdeel  |
 | onderdeel van NEN3610-objecttype | kunstwerk  |
 
 De typering behorende bij kunstwerkdeel is overgenomen uit de huidige BGT|IMGeo 2.1.1 aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen. Uitgezonderd is de groeiplaatsinrichting omdat hiervoor afstemming met IMBOR2020 nodig is.
@@ -924,7 +1337,7 @@ De typering behorende bij kunstwerkdeel is overgenomen uit de huidige BGT|IMGeo 
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | tunneldeel  |
+|SOR-begrip   | tunneldeel  |
 | onderdeel van NEN3610-objecttype | kunstwerk  |
 
 De typering behorende bij tunneldeel is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor het tunneldeel geen aanvullingen opgenomen.
@@ -936,7 +1349,7 @@ De typering behorende bij tunneldeel is overgenomen uit de huidige BGT|IMGeo 2.1
 ### Overbruggingsdeel
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   |overbruggingsdeel   |
+|SOR-begrip   |overbruggingsdeel   |
 | onderdeel van NEN3610-objecttype | kunstwerk  |
 
 De typering behorende bij overbruggingsdeel is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor het overbruggingsdeel geen aanvullingen opgenomen.
@@ -961,7 +1374,7 @@ De typering behorende bij overbruggingsdeel is overgenomen uit de huidige BGT|IM
 ### Bouwwerkconstructie
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | constructie  |
+|SOR-begrip   | constructie  |
 | onderdeel van NEN3610-objecttype | constructie  |
 
 De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
@@ -980,7 +1393,7 @@ De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.
 ### Scheiding
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | scheiding  |
+|SOR-begrip   | scheiding  |
 | onderdeel van NEN3610-objecttype | **constructie** |
 
 De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor scheiding geen aanvullingen opgenomen.
@@ -1000,7 +1413,7 @@ De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.
 ### Overige scheidingen
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | overige scheidingen  |
+|SOR-begrip   | overige scheidingen  |
 | onderdeel van NEN3610-objecttype | **constructie**  |
 
 
