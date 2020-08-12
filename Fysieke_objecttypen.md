@@ -1149,9 +1149,68 @@ ontwerpprincipe:
 
 
 
-#### GEBOUW
+### Scheiding
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | scheiding  |
+| onderdeel van NEN3610-objecttype | **constructie** |
+
+De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor scheiding geen aanvullingen opgenomen.
+
+|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|---------------------------|--------------------------------|
+|Type:| |		 
+|Muur	 |
+|Kademuur	 |
+|damwand	 |
+|geluidsscherm	 |
+|walbescherming	 |
+|Hek	 |
+|*Niet BGT*	|draadraster|
+|*Niet BGT*	|faunaraster|
+
+### Overige scheidingen
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | overige scheidingen  |
+| onderdeel van NEN3610-objecttype | **constructie**  |
 
 
+
+
+### GEBOUW
+
+
+
+### Bebouwing
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | bebouwing  |
+| onderdeel van NEN3610-objecttype | gebouw  |
+
+De typering behorende bij de aan gebouwen gerelateerde fysieke objecttypen zal in het vervolgtraject nader worden onderzocht.
+
+
+
+
+### Bouwwerkconstructie
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | constructie  |
+| onderdeel van NEN3610-objecttype | constructie  |
+
+De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
+
+*voorheen werd dit **overige bouwwerken** genoemd* 
+
+|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|---------------------------|--------------------------------|
+|Type:| |	
+|bezinkbak	 ||
+|lage trafo	 ||
+|Bassin	 ||
+|*Niet BGT*	|sleufsilo|
+|*Niet BGT*	|infiltratiereservoir|
 
 
 
@@ -1229,60 +1288,5 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 
 
 
-### Bebouwing
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | bebouwing  |
-| onderdeel van NEN3610-objecttype | gebouw  |
-
-De typering behorende bij de aan gebouwen gerelateerde fysieke objecttypen zal in het vervolgtraject nader worden onderzocht.
-
-
-
-
-### Bouwwerkconstructie
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | constructie  |
-| onderdeel van NEN3610-objecttype | constructie  |
-
-De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
-
-*voorheen werd dit **overige bouwwerken** genoemd* 
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Type:| |	
-|bezinkbak	 ||
-|lage trafo	 ||
-|Bassin	 ||
-|*Niet BGT*	|sleufsilo|
-|*Niet BGT*	|infiltratiereservoir|
-
-### Scheiding
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | scheiding  |
-| onderdeel van NEN3610-objecttype | **constructie** |
-
-De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor scheiding geen aanvullingen opgenomen.
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Type:| |		 
-|Muur	 |
-|Kademuur	 |
-|damwand	 |
-|geluidsscherm	 |
-|walbescherming	 |
-|Hek	 |
-|*Niet BGT*	|draadraster|
-|*Niet BGT*	|faunaraster|
-
-### Overige scheidingen
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | overige scheidingen  |
-| onderdeel van NEN3610-objecttype | **constructie**  |
 
 
