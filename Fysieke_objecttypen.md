@@ -179,7 +179,7 @@ ontwerpprincipe:
 |---|---|
 |||
 
-#### Rivier
+##### Rivier
 
 
 | klasse  | naam  |
@@ -217,7 +217,7 @@ ontwerpprincipe:
 |Toelichting| Een sloot laat zich niet alleen op fysieke aspecten scherp definieren. Het is echter aangelegd met een reden en die reden (waterbeheersing) maakt het beter onderscheidend. |
 
 
-#### Kanaal
+##### Kanaal
 
 
 | klasse  | naam  |
@@ -257,7 +257,7 @@ ontwerpprincipe:
 
 
 
-#### Gracht
+##### Gracht
 
 
 | klasse  | naam  |
@@ -356,7 +356,7 @@ ontwerpprincipe:
 |Toelichting| *volgt later*  |
 
 
-#### Plas
+##### Plas
 
 
 | klasse  | naam  |
@@ -394,7 +394,7 @@ ontwerpprincipe:
 |Toelichting| *volgt later*  |
 
 
-#### Vijver
+##### Vijver
 
 
 | klasse  | naam  |
@@ -413,7 +413,7 @@ ontwerpprincipe:
 |Toelichting| *volgt later*  |
 
 
-#### Zee
+##### Zee
 
 
 | klasse  | naam  |
@@ -449,7 +449,7 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting| *volgt later*  |
 
-##### Slik
+#### Slik
 
 | klasse  | naam  |
 |---|---|
@@ -596,7 +596,7 @@ ontwerpprincipe:
 |Toelichting|  |
 
 
-##### viaduct
+#### viaduct
 
 | klasse  | naam  |
 |---|---|
@@ -668,7 +668,7 @@ ontwerpprincipe:
 |Toelichting|  |
 
 
-##### overkluizing
+#### overkluizing
 
 | klasse  | naam  |
 |---|---|
@@ -738,7 +738,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### sloof
+#### sloof
 
 | klasse  | naam  |
 |---|---|
@@ -806,7 +806,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### strekdam
+#### strekdam
 
 | klasse  | naam  |
 |---|---|
@@ -840,7 +840,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### stuw
+#### stuw
 
 | klasse  | naam  |
 |---|---|
@@ -874,7 +874,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### duiker
+#### duiker
 
 | klasse  | naam  |
 |---|---|
@@ -908,7 +908,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### vispassage 
+#### vispassage 
 
 | klasse  | naam  |
 |---|---|
@@ -942,7 +942,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-##### coupure 
+#### coupure 
 
 | klasse  | naam  |
 |---|---|
@@ -977,7 +977,7 @@ ontwerpprincipe:
 |Toelichting|  |
 
 
-##### voorde
+#### voorde
 
 | klasse  | naam  |
 |---|---|
@@ -1011,7 +1011,7 @@ ontwerpprincipe:
 |Verplicht  | ja  |
 |Toelichting|  |
 
-#### kademuur
+##### kademuur
 
 | klasse  | naam  |
 |---|---|
@@ -1045,7 +1045,7 @@ ontwerpprincipe:
 |Verplicht  | Nee  |
 |Toelichting|  |
 
-#### walbescherming
+##### walbescherming
 
 | klasse  | naam  |
 |---|---|
@@ -1113,7 +1113,7 @@ ontwerpprincipe:
 |Verplicht  | ja  |
 |Toelichting|  |
 
-#### schutting
+##### schutting
 
 | klasse  | naam  |
 |---|---|
