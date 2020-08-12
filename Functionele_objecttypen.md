@@ -125,6 +125,9 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 ||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
   
 
+ 
+
+
 ##### Oever/slootkant
 
 | klasse  | naam  |

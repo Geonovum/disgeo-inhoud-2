@@ -100,6 +100,430 @@ Voor het objecttype ‘verhardingsobject’ is de typering overgenomen uit IMBOR
 
 ### GROEN
 
+ 
+#### Loofbos
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Loofbos  |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  | Loofbos |
+|---|---|
+| Definitie |Terreindeel begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |
+|Herkomst definitie  | BGT  |
+|Verplicht  | Ja  |
+|Toelichting| |
+
+ 
+####    gemengd bos
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   |    gemengd bos  |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  |    gemengd bos |
+|---|---|
+| Definitie |Terreindeel begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |   
+|Herkomst definitie  | BGT  |
+|Verplicht  | ja  |
+|Toelichting| | 
+
+#### naaldbos
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | naaldbos  |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  | naaldbos |
+|---|---|
+| Definitie |Terreindeel begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
+|Herkomst definitie  | BGT  |
+|Verplicht  | ja  |
+|Toelichting| | 
+
+####    griend en hakhout  
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   |    griend en hakhout    |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  |   griend en hakhout   |
+|---|---|
+| Definitie |Terreindeel met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt ingekort.   |   
+|Herkomst definitie  | IMGEO 2.0  |
+|Verplicht  | Nee  |
+|Toelichting| | 
+
+
+####    gras- en kruidachtigen
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   |    gras- en kruidachtigen  |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  |    gras- en kruidachtigen |
+|---|---|
+| Definitie |(Grond met) een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie.     
+|Herkomst definitie  | CROW |
+|Verplicht  | ja  |
+|Toelichting| | 
+
+
+####  struiken
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | struiken  |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  | struiken |
+|---|---|
+| Definitie |Terreindeel bedekt met lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en eventueel aanwezigheid van enkele verspreid staande stammen.   |    |
+|Verplicht  | ja  |
+|Toelichting| | 
+
+
+##### heesters 
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | heesters   |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  | heesters  |
+|---|---|
+| Definitie |Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een  gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.  |  
+|Verplicht  | Nee  |
+|Toelichting| | 
+
+
+##### bosplantsoen 
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | bosplantsoen   |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  | bosplantsoen  |
+|---|---|
+| Definitie |Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of  gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.   |    
+|Herkomst definitie  | CROW |
+|Verplicht  | Nee  |
+|Toelichting| | 
+
+##### planten
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | planten  |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  | planten |
+|---|---|
+| Definitie |*niet ingevuld**  |    |
+|Verplicht  | Nee  |
+|Toelichting| | 
+
+
+##### struikrozen
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | struikrozen  |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  | struikrozen |
+|---|---|
+| Definitie |*niet ingevuld*  |    |
+|Verplicht  | Nee  |
+|Toelichting| | 
+
+##### bodembedekkers
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | bodembedekkers  |
+| onderdeel van NEN3610-objecttype |Groen  |
+
+
+**Definitie**
+
+| Naam  | bodembedekkers |
+|---|---|
+| Definitie |*niet ingevuld*  |    |
+|Verplicht  | Nee  |
+|Toelichting| |
+
+
+#### haag
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | haag |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | haag  |
+|---|---|
+| Definitie |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
+|Herkomst definitie  | IMGeo   |
+|Verplicht  | ja  |
+|Toelichting|  |
+
+
+#### bomenrij
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | bomenrij |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | bomenrij |
+|---|---|
+| Definitie |opgaande begroeiing van bomen zonder struiken  |
+|Herkomst definitie  |   |
+|Verplicht  | ja  |
+|Toelichting|  |
+
+#### houtsingel
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | houtsingel |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | houtsingel |
+|---|---|
+| Definitie |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
+|Herkomst definitie  |   |
+|Verplicht  | ja  |
+|Toelichting|  |
+
+#### moeras
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | moeras |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | moeras |
+|---|---|
+| Definitie |Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing.  |
+|Herkomst definitie  | bron: BGT |
+|Verplicht  | ja  |
+|Toelichting|  |
+
+#### heide
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | heide |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | heide |
+|---|---|
+| Definitie |Terreindeel overwegend begroeid met heide en heideachtige vegetaties.  |
+|Herkomst definitie  |BGT|
+|Verplicht  | ja  |
+|Toelichting|  |
+
+#### rietland
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | rietland |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | rietland |
+|---|---|
+| Definitie |Terreindeel overwegend begroeid met rietvegetatie.  |
+|Herkomst definitie  | BGT  |
+|Verplicht  | ja  |
+|Toelichting|  |
+
+####    fruit- bomenteelt
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | fruit- bomenteelt |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | fruit- bomenteelt |
+|---|---|
+| Definitie |Terreindeel begroeid met fruitbomen in de vorm van hoogstam en laagstamboomgaard, druiven of kleinfruit. en Grond in gebruik voor het kweken van jonge siergewassen, bomen enz. ten behoeve van een later gebruik elders.   |
+|Herkomst definitie  | BT / CROW  |
+|Verplicht  | ja  |
+|Toelichting|  |
+
+#####    laagstam boomgaarden 
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   |    laagstam boomgaarden  |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  |    laagstam boomgaarden  |
+|---|---|
+| Definitie |Terreindeel begroeid met laagstamfruitbomen.   |
+|Herkomst definitie  | IMGEO 2.0  |
+|Verplicht  | nee  |
+|Toelichting|  |
+
+#####    hoogstam boomgaarden
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   |    hoogstam boomgaarden |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  |    hoogstam boomgaarden |
+|---|---|
+| Definitie |Terreindeel begroeid met hoogstamfruitbomen.   |
+|Herkomst definitie  | IMGEO 2.0   |
+|Verplicht  | nee  |
+|Toelichting|  |
+
+##### wijngaarden  
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | wijngaarden   |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | wijngaarden   |
+|---|---|
+| Definitie |Terreindeel begroeid met druivenstokken voor wijnbouw.  |
+|Herkomst definitie  |IMGEO 2.0    |
+|Verplicht  | nee  |
+|Toelichting|  |
+
+#####    klein fruit
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   |    klein fruit |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  |    klein fruit |
+|---|---|
+| Definitie |Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen.   |
+|Herkomst definitie  | IMGEO 2.0   |
+|Verplicht  | nee  |
+|Toelichting|  |
+
+##### boomkwekerij 
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | boomkwekerij  |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | boomkwekerij  |
+|---|---|
+| Definitie |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is.  |
+|Herkomst definitie  |   |
+|Verplicht  | nee  |
+|Toelichting|  |
+
+
+##### bouwland 
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | bouwland  |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | bouwland  |
+|---|---|
+| Definitie |TTerreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
+|Herkomst definitie  | BGT  |
+|Verplicht  | ja  |
+|Toelichting|  |
+
 
 ### BLAUW
 
@@ -1096,22 +1520,8 @@ ontwerpprincipe:
 |Verplicht  | ja  |
 |Toelichting|  |
 
-#### haag
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | haag |
-| onderdeel van NEN3610-objecttype |*Constructie  of Groen ????*  |
 
 
-**Definitie**
-
-| Naam  | haag  |
-|---|---|
-| Definitie |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
-|Herkomst definitie  |    |
-|Verplicht  | ja  |
-|Toelichting|  |
 
 #### schutting
 
