@@ -4,7 +4,7 @@
 ### Netwerk
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | netwerk  |
+|SOR-begrip   | netwerk  |
 | onderdeel van NEN3610-objecttype | transportvoorziening  |
 
 Voor de functionele typering van netwerken is aangesloten bij de beschikbare typeringen in de BGT|IMGeo voor wegen en spoor. Verdere afstemming is nodig met NWB, IMBOR/IMWV, Prorail en de watersector. Voor wegverbindingen zijn de voorstellen voor IMGeo 2.2 overgenomen. Voor spoorverbindingen is de typering vereenvoudigd. Het uitgangspunt dat objecttypen scherp zijn afgebakend, maakt dat de typering sneltram is vervallen en dat havenkraan vervangen is door (laad-/los)kraan.
@@ -67,7 +67,7 @@ Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 ### Functionele zonering
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | functionele zonering |
+|SOR-begrip   | functionele zonering |
 | onderdeel van NEN3610-objecttype |functioneel object  |
 
 
@@ -132,7 +132,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Oever/slootkant |
+|SOR-begrip   | Oever/slootkant |
 | onderdeel van NEN3610-objecttype |Functioneel object  |
 
 ontwerpprincipe: 

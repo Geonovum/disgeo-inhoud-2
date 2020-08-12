@@ -7,7 +7,7 @@
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | provincie  |
+|SOR-begrip   | provincie  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
@@ -24,7 +24,7 @@
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | waterschap |
+|SOR-begrip   | waterschap |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
@@ -39,7 +39,7 @@
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | burgerlijke gemeente  |
+|SOR-begrip   | burgerlijke gemeente  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
@@ -54,7 +54,7 @@
 ### Woonplaats
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | woonplaats  |
+|SOR-begrip   | woonplaats  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
 
@@ -103,7 +103,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | wijk  |
+|SOR-begrip   | wijk  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
@@ -154,7 +154,7 @@ ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | buurt  |
+|SOR-begrip   | buurt  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
@@ -204,7 +204,7 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Openbare ruimte  |
+|SOR-begrip   | Openbare ruimte  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
@@ -267,7 +267,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | Nummeraanduiding  |
+|SOR-begrip   | Nummeraanduiding  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
@@ -319,7 +319,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 ### Stand- en Ligplaats
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | ligplaats  |
+|SOR-begrip   | ligplaats  |
 | onderdeel van NEN3610-objecttype |functioneel object  |
 
 Definitie ligplaats (Herkomst  : Catalogus BAG 2018): 
@@ -328,7 +328,7 @@ https://imbag.github.io/praktijkhandleiding/objecttypen/ligplaats
 
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | standplaats  |
+|SOR-begrip   | standplaats  |
 | onderdeel van NEN3610-objecttype |functioneel object  |
 
 Definitie standplaats (Herkomst : Catalogus BAG 2018):

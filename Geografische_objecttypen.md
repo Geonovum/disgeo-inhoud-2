@@ -6,7 +6,7 @@
 ### Bebouwde kom
 | klasse  | naam  |
 |---|---|
-|SOR-objecttype   | bebouwde kom  |
+|SOR-begrip   | bebouwde kom  |
 | onderdeel van NEN3610-objecttype |geografisch object  |
 
 **Definitie**
