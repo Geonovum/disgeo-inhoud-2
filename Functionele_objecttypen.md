@@ -123,7 +123,150 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 ||*Niet BGT*| 	 	Waterwingebied|
 ||*Niet BGT*|	 	    waterbergingsgebied|
 ||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
-  
+
+
+
+
+#### reducering
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | reducering|
+| onderdeel van NEN3610-objecttype | **functioneel object** |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | reducering |
+|---|---|
+| Definitie |voorziening om bepaalde effecten van omgevingsfactoren te verminderen|
+|Herkomst definitie  |nieuw|
+|Verplicht  | ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip reducering|Ja |
+|Geometrie-type|lijn|nee|
+|Afbakening   |  | |
+|type reducering|||
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+|Waarde type reducering| Beschrijving   |Herkomst|
+|---|---|---|
+|geluid|	voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|	nieuw|
+|fijnstof|	voorziening bedoeld om verspreiding van fijnstof te verminderen	|nieuw|
+
+#### kering
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | kering|
+| onderdeel van NEN3610-objecttype | **functioneel object** |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | kering |
+|---|---|
+| Definitie |voorziening met kerende functie|
+|Herkomst definitie  |nieuw|
+|Verplicht  | ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
+|Geometrie-type|lijn|nee|
+|Afbakening   |  | |
+|type kering|||
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+|Waarde type kering| Beschrijving   |Herkomst|
+|---|---|---|
+|grond	|voorziening bedoeld om grond te keren|	nieuw|
+|water	|voorziening bedoeld om water te keren|	nieuw|
+
+
+#### valbescherming
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | valbescherming|
+| onderdeel van NEN3610-objecttype | **functioneel object** |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | valbescherming |
+|---|---|
+| Definitie |voorziening om vallen te voorkomen|
+|Herkomst definitie  |nieuw|
+|Verplicht  | nee  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip valbescherming|Ja |
+|Geometrie-type|lijn|nee|
+|Afbakening   |  | |
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+
+#### afscheiding 
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | afscheiding |
+| onderdeel van NEN3610-objecttype | **functioneel object** |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | afscheiding |
+|---|---|
+| Definitie |Voorziening om terrein af te scheiden.|
+|Herkomst definitie  |nieuw|
+|Verplicht  | nee  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip afscheiding|Ja |
+|Geometrie-type|lijn|nee|
+|Afbakening   |  | |
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ##### jachthaven
 ##### vaarweg beroeps
