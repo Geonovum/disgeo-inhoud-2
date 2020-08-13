@@ -95,6 +95,38 @@ lege regel hoe?
 |   Kunstgras|Kunstgras is een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|IMBOR2020|
 
 
+#### muur
+  
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | muur |
+| onderdeel van NEN3610-objecttype | **constructie** |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | muur |
+|---|---|
+| Definitie |Relatief smal, rechtopstaand bouwwerk.|
+|Herkomst definitie  |Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+|Verplicht  | Ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip muur|Ja |
+|Geometrie-type|lijn|Ja|
+|Geometrie-type|vlak|nee|
+|Afbakening   |  | |
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+
+
 ### ZWART
 
 | klasse  | naam  |
