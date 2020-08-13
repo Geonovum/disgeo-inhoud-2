@@ -53,7 +53,7 @@ ontwerpprincipe:
 |Aangewezen||
 | Ingetrokken |
 
-lege regel?
+lege regel hoe?
 
 |Waarde type verharding| Beschrijving   |Herkomst|
 |---|---|---|
@@ -64,17 +64,17 @@ lege regel?
 |kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient, zoals kunstgras of kunststof toplagen.|IMBOR2020|
 |onverhard|een object zonder specifieke verharding, bestaande uit natuurlijke materialen.|IMBOR2020|  
 
-lege regel?
+lege regel hoe?
 
 |Waarde type verharding plus| Beschrijving   |Herkomst|
 |---|---|---|
 |asfaltverharding||| 
-|   Zoab en open deklagen||IMBOR2020|
+|   Zoab en open deklagen|**geen definitie opgenomen in IMBOR**|IMBOR2020|
 |   Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
-|   Dichte deklagen||IMBOR2020|
+|   Dichte deklagen|**geen definitie opgenomen in IMBOR**|IMBOR2020|
 |betonverharding|||
 |   Ongewapend verdeuveld beton|Ongewapend verdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘verdeuveld’ genoemd.|IMBOR2020|
-| 	Gewapend beton||IMBOR2020|
+| 	Gewapend beton|**geen definitie opgenomen in IMBOR**|IMBOR2020|
 | 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
 | 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|IMBOR2020|
 |elementenverharding|||
@@ -88,15 +88,48 @@ lege regel?
 | 	Metaal|Type gedetailleerd van verhardingsobject, elementenverharding, verharding bestaande uit metalen elementen.|IMBOR2020|
 | 	Sierbestrating|Type gedetailleerd van verhardingsobject, elementenverharding, bestrating uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.|IMBOR2020|
 |Halfverharding|||
-|   Samenhangend||IMBOR2020|
-| 	Los||IMBOR2020|
+|   Samenhangend|Type gedetailleerd van verhardingsobject, halfverharding, waarvan het oppervlak bestaat uit samenhangend materiaal.|IMBOR2020|
+| 	Los|Type gedetailleerd van verhardingsobject, halfverharding: vlak gevuld met losgestort materiaal|IMBOR2020|
 |Kunststofverharding|||
-|	Kunststof vloer||IMBOR2020|
-|   Kunstgras||IMBOR2020|
-|Onverhard|||
-|   Zand||IMBOR2020|
-| 	Zwarte grond||IMBOR2020|
-| 	Open grond||IMBOR2020|
+|	Kunststof vloer|**geen definitie opgenomen in IMBOR**|IMBOR2020|
+|   Kunstgras|Kunstgras is een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|IMBOR2020|
+
+
+### ZWART
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | bodem |
+| onderdeel van NEN3610-objecttype | **Bodem en/of Begroeiing**  |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | bodem |
+|---|---|
+| Definitie ||
+|Herkomst definitie  ||
+|Verplicht  | Ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip bodem|Ja |
+|Geometrie-type|vlak|Ja|
+|Afbakening   |  bodem niet verharding of begroeiing. Het gaat hierbij over het type  waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met ander type hoeft geen apart vlak te worden gevormd.|Ja   |
+|Status   |   |Ja   |
+|type bodem|aanduiding soort verharding|Ja|
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+|Waarde type bodem| Beschrijving   |Herkomst|
+|---|---|---|
+|   Zand|Type gedetailleerd van verhardingsobject, onverhard  waarvan het oppervlak (deklaag) bestaat uit zand.|IMBOR2020|
+| 	Zwarte grond|Type gedetailleerd van verhardingsobject, waarvan het oppervlak bestaat uit zwarte grond.|IMBOR2020|
+| 	Open grond|Type gedetailleerd van verhardingsobject, onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|IMBOR2020|
 
 ### GROEN
 
@@ -1558,32 +1591,6 @@ ontwerpprincipe:
 |Toelichting|  |
 
 
-
-### Scheiding
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | scheiding  |
-| onderdeel van NEN3610-objecttype | **constructie** |
-
-De typering behorende bij scheiding is overgenomen uit de huidige BGT|IMGeo 2.1.1. In het voorstel voor IMGeo 2.2 zijn voor scheiding geen aanvullingen opgenomen.
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Type:| |		 
-|Muur	 |
-|Kademuur	 |
-|damwand	 |
-|geluidsscherm	 |
-|walbescherming	 |
-|Hek	 |
-|*Niet BGT*	|draadraster|
-|*Niet BGT*	|faunaraster|
-
-### Overige scheidingen
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | overige scheidingen  |
-| onderdeel van NEN3610-objecttype | **constructie**  |
 
 
 
