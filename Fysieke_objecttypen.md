@@ -51,9 +51,7 @@ ontwerpprincipe:
 |Waarde Status| Beschrijving   |
 |---|---|
 |Aangewezen||
-| Ingetrokken | 
-
-
+| Ingetrokken |  
 |Waarde type verharding| Beschrijving   |Herkomst|
 |---|---|---|
 |asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|IMBOR2020|
@@ -61,43 +59,39 @@ ontwerpprincipe:
 |elementenverharding|de bestrating is in tegenstelling tot een gesloten verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|IMBOR2020|
 |halfverharding|een halfverharding bestaat uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|IMBOR2020|
 |kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient, zoals kunstgras of kunststof toplagen.|IMBOR2020|
-|onverhard|een object zonder specifieke verharding, bestaande uit natuurlijke materialen.|IMBOR2020|
-
+|onverhard|een object zonder specifieke verharding, bestaande uit natuurlijke materialen.|IMBOR2020|  
 
 |Waarde type verharding plus| Beschrijving   |Herkomst|
 |---|---|---|
-|asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|IMBOR2020|
-
-**hieronder het oude materiaal van verhardingsoject - nog opschonen**
-
-
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-	 
-|asfaltverharading|Zoab en open deklagen||IMBOR2020|
-|| 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
-|| 	Dichte deklagen||IMBOR2020|
-|betonverharding||IMBOR2020|
+|asfaltverharding||| 
+|   Zoab en open deklagen||IMBOR2020|
+|   Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
+|   Dichte deklagen||IMBOR2020|
+|betonverharding|||
+|   Ongewapend verdeuveld beton|Ongewapend verdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘verdeuveld’ genoemd.|IMBOR2020|
 | 	Gewapend beton||IMBOR2020|
-| 	Oppervlakbehandelingen||IMBOR2020|
-| 	Ongewapend nietverdeuveld beton|Ongewapend verdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|IMBOR2020|
-|elementenverharding| Natuursteen||IMBOR2020|
-|| 	Straatbaksteen||IMBOR2020|
-|| 	Glas||IMBOR2020|
-|| 	Betonstraatstenen||IMBOR2020|
-|| 	Tegels||IMBOR2020|
-|| 	Hout||IMBOR2020|
-|| 	Betonelement||IMBOR2020|
-|| 	Metaal||IMBOR2020|
-|| 	Sierbestrating||IMBOR2020|
-|Halfverharding|Samenhangend||IMBOR2020|
-|| 	Los||IMBOR2020|
-|Kunststofverharding|	Kunststof vloer||IMBOR2020|
-| |Kunstgras||IMBOR2020|
-|Onverhard	|Zand||IMBOR2020|
-|| 	Zwarte grond||IMBOR2020|
-|| 	Open grond||IMBOR2020|
+| 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
+| 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|IMBOR2020|
+|elementenverharding|||
+|   Natuursteen||IMBOR2020|
+| 	Straatbaksteen||IMBOR2020|
+| 	Glas||IMBOR2020|
+| 	Betonstraatstenen||IMBOR2020|
+| 	Tegels||IMBOR2020|
+| 	Hout||IMBOR2020|
+| 	Betonelement||IMBOR2020|
+| 	Metaal||IMBOR2020|
+| 	Sierbestrating||IMBOR2020|
+|Halfverharding|||
+|   Samenhangend||IMBOR2020|
+| 	Los||IMBOR2020|
+|Kunststofverharding|||
+|	Kunststof vloer||IMBOR2020|
+|   Kunstgras||IMBOR2020|
+|Onverhard|||
+|   Zand||IMBOR2020|
+| 	Zwarte grond||IMBOR2020|
+| 	Open grond||IMBOR2020|
 
 ### GROEN
 
