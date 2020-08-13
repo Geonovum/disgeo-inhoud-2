@@ -127,7 +127,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 
 
 
-#### reducering
+##### reducering
 
 | klasse  | naam  |
 |---|---|
@@ -162,7 +162,7 @@ ontwerpprincipe:
 |geluid|	voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|	nieuw|
 |fijnstof|	voorziening bedoeld om verspreiding van fijnstof te verminderen	|nieuw|
 
-#### kering
+##### kering
 
 | klasse  | naam  |
 |---|---|
@@ -198,7 +198,7 @@ ontwerpprincipe:
 |water	|voorziening bedoeld om water te keren|	nieuw|
 
 
-#### valbescherming
+##### valbescherming
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | valbescherming|
@@ -227,7 +227,7 @@ ontwerpprincipe:
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
-#### afscheiding 
+##### afscheiding 
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | afscheiding |
@@ -360,7 +360,7 @@ ontwerpprincipe:
 || 	*Niet BGT*	|functioneel beheer: hondenuitlaatplaats|  
   
   
-
+### functionele zonering
 
 #### Verblijfsobject
 
