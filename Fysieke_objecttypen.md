@@ -1774,7 +1774,7 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|Ruimte|Ligt op|Bouwlaatg|
+|Ruimte|Ligt op|Bouwlaag|
 
 **Domeinwaarden**
 

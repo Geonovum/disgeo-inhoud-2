@@ -396,7 +396,7 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|verblijfsobject|Hoort bij 1 of meer|Pand|
+|verblijfsobject|Hoort bij 1 of meer|Gebouw|
 |verblijfsobject|Heeft een |Nummeraanduiding|
 
 **Domeinwaarden**
