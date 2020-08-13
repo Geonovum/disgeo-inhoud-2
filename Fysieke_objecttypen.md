@@ -51,7 +51,10 @@ ontwerpprincipe:
 |Waarde Status| Beschrijving   |
 |---|---|
 |Aangewezen||
-| Ingetrokken |  
+| Ingetrokken |
+
+lege regel?
+
 |Waarde type verharding| Beschrijving   |Herkomst|
 |---|---|---|
 |asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|IMBOR2020|
@@ -60,6 +63,8 @@ ontwerpprincipe:
 |halfverharding|een halfverharding bestaat uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|IMBOR2020|
 |kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient, zoals kunstgras of kunststof toplagen.|IMBOR2020|
 |onverhard|een object zonder specifieke verharding, bestaande uit natuurlijke materialen.|IMBOR2020|  
+
+lege regel?
 
 |Waarde type verharding plus| Beschrijving   |Herkomst|
 |---|---|---|
@@ -73,15 +78,15 @@ ontwerpprincipe:
 | 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
 | 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|IMBOR2020|
 |elementenverharding|||
-|   Natuursteen||IMBOR2020|
-| 	Straatbaksteen||IMBOR2020|
-| 	Glas||IMBOR2020|
-| 	Betonstraatstenen||IMBOR2020|
-| 	Tegels||IMBOR2020|
-| 	Hout||IMBOR2020|
-| 	Betonelement||IMBOR2020|
-| 	Metaal||IMBOR2020|
-| 	Sierbestrating||IMBOR2020|
+|   Natuursteen|Type gedetailleerd van verhardingsobject, elementenverharding, verharding bestaande uit elementen van natuursteen.|IMBOR2020|
+| 	Straatbaksteen|Type gedetailleerd van verhardingsobject, elementenverharding, straatbaksteen is de formele benaming uit NEN-EN1344. In de CROW Systematiek Wegbeheer wordt dit ‘gebakken klinkers’ genoemd.|IMBOR2020|
+| 	Glas|Type gedetailleerd van verhardingsobject, elementenverharding bestaande uit glaselementen.|IMBOR2020|
+| 	Betonstraatstenen|Type gedetailleerd van verhardingsobject, elementenverharding, verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.|IMBOR2020|
+| 	Tegels|Type gedetailleerd van verhardingsobject, elementenverharding, bestrating van tegels, een platte vaak vierkante betonnen steen.|IMBOR2020|
+| 	Hout|Type gedetailleerd van verhardingsobject, elementenverharding, verharding bestaande uit houten elementen.|IMBOR2020|
+| 	Betonelement|Geprepareerde elementen van beton (bijvoorbeeld stelconplaten).|IMBOR2020|
+| 	Metaal|Type gedetailleerd van verhardingsobject, elementenverharding, verharding bestaande uit metalen elementen.|IMBOR2020|
+| 	Sierbestrating|Type gedetailleerd van verhardingsobject, elementenverharding, bestrating uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.|IMBOR2020|
 |Halfverharding|||
 |   Samenhangend||IMBOR2020|
 | 	Los||IMBOR2020|
