@@ -322,7 +322,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |SOR-begrip   | ligplaats  |
 | onderdeel van NEN3610-objecttype |functioneel object  |
 
-Definitie ligplaats (Herkomst  : Catalogus BAG 2018): 
+Definitie ligplaats (Herkomst: Catalogus BAG 2018): 
 Door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object 
 https://imbag.github.io/praktijkhandleiding/objecttypen/ligplaats
 
@@ -331,7 +331,7 @@ https://imbag.github.io/praktijkhandleiding/objecttypen/ligplaats
 |SOR-begrip   | standplaats  |
 | onderdeel van NEN3610-objecttype |functioneel object  |
 
-Definitie standplaats (Herkomst : Catalogus BAG 2018):
+Definitie standplaats (Herkomst: Catalogus BAG 2018):
 Door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte
 https://imbag.github.io/praktijkhandleiding/objecttypen/standplaats 
 

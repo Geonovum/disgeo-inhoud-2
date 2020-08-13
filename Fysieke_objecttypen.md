@@ -906,7 +906,7 @@ ontwerpprincipe:
 | Definitie | *geen onderscheidende definitie gevonden*   |
 |Herkomst definitie  |    |
 |Verplicht  | Nee  |
-|Toelichting| synoniem : schor  |
+|Toelichting| synoniem: schor  |
 
 **Eigenschappen**
 
