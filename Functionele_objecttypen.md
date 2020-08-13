@@ -125,7 +125,42 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 ||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
   
 
- 
+##### jachthaven
+##### vaarweg beroeps
+##### vaarweg recreatief
+##### infiltratiegebied
+##### waterwingebied
+##### zuiveringsinstallatie
+##### zuiveringscomplex
+##### zwemwaterlokatie
+##### recreatie: water, lucht, land
+##### opstelpunt open water
+##### waterbeheergebied kwantiteit
+##### waterbeheergebied kwaliteit
+##### waterbeheergebied beheer waterstaatwerken
+##### waterbeschermingsgebied (geen wateronttrekking, geen gebouwen, niet spuiten etc)
+##### visserijgebied beroeps en recreatief?
+##### waterkering
+##### waterbergingsgebied
+##### havencomplex
+##### gemaalcomplex
+##### sluiscomplex
+##### stuwcomplex
+##### coupurecomplex
+##### perron
+##### scheepvaartbord 
+##### pomp 
+##### dijkpaal 
+##### debietmeter 
+##### weerstation 
+##### waterstandmeter 
+##### bolder 
+##### remmingswerk 
+##### betonning 
+##### geleidewerk 
+##### vuilvang 
+##### meerpaal 
+##### hoogtemerk 
 
 
 ##### Oever/slootkant
