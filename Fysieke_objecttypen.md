@@ -34,6 +34,7 @@ ontwerpprincipe:
 |Afbakening   |  Een verhardingsvlak bestaat uit één type verharding. Het gaat hierbij over het type verharding waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met andere verharding hoeft geen apart vlak te worden gevormd.|Ja   |
 |Status   |   |Ja   |
 |type verharding|aanduiding soort verharding|Ja|
+|type verharding plus|aanduiding soort verharding|Nee|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -52,7 +53,8 @@ ontwerpprincipe:
 |Aangewezen||
 | Ingetrokken | 
 
-|Waarde Type| Beschrijving   |herkomst|
+
+|Waarde type verharding| Beschrijving   |Herkomst|
 |---|---|---|
 |asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|IMBOR2020|
 | betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |IMBOR2020|
@@ -61,42 +63,41 @@ ontwerpprincipe:
 |kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient, zoals kunstgras of kunststof toplagen.|IMBOR2020|
 |onverhard|een object zonder specifieke verharding, bestaande uit natuurlijke materialen.|IMBOR2020|
 
+
+|Waarde type verharding plus| Beschrijving   |Herkomst|
+|---|---|---|
+|asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|IMBOR2020|
+
 **hieronder het oude materiaal van verhardingsoject - nog opschonen**
 
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | verhardingsobject  |
-| onderdeel van NEN3610-objecttype | verharding  |
 
-
-Voor het objecttype ‘verhardingsobject’ is de typering overgenomen uit IMBOR 2020. Dit leidt tot de volgende mogelijke typeringen:
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |---------------------------|--------------------------------|
-|Fysiek voorkomen:| |	 
-|Asfaltverharding	|Zoab en open deklagen|
-|| 	Oppervlakbehandelingen|
-|| 	Dichte deklagen|
-|Betonverharding|Ongewapend verdeuveld beton|
-|| 	Gewapend beton|
-|| 	Oppervlakbehandelingen|
-|| 	Ongewapend nietverdeuveld beton|
-|Elementenverharding| Natuursteen|
-|| 	Straatbaksteen|
-|| 	Glas|
-|| 	Betonstraatstenen|
-|| 	Tegels|
-|| 	Hout|
-|| 	Betonelement|
-|| 	Metaal|
-|| 	Sierbestrating|
-|Halfverharding|Samenhangend|
-|| 	Los|
-|Kunststofverharding|	Kunststof vloer|
-| |Kunstgras|
-|Onverhard	|Zand|
-|| 	Zwarte grond|
-|| 	Open grond|
+	 
+|asfaltverharading|Zoab en open deklagen||IMBOR2020|
+|| 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
+|| 	Dichte deklagen||IMBOR2020|
+|betonverharding||IMBOR2020|
+| 	Gewapend beton||IMBOR2020|
+| 	Oppervlakbehandelingen||IMBOR2020|
+| 	Ongewapend nietverdeuveld beton|Ongewapend verdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|IMBOR2020|
+|elementenverharding| Natuursteen||IMBOR2020|
+|| 	Straatbaksteen||IMBOR2020|
+|| 	Glas||IMBOR2020|
+|| 	Betonstraatstenen||IMBOR2020|
+|| 	Tegels||IMBOR2020|
+|| 	Hout||IMBOR2020|
+|| 	Betonelement||IMBOR2020|
+|| 	Metaal||IMBOR2020|
+|| 	Sierbestrating||IMBOR2020|
+|Halfverharding|Samenhangend||IMBOR2020|
+|| 	Los||IMBOR2020|
+|Kunststofverharding|	Kunststof vloer||IMBOR2020|
+| |Kunstgras||IMBOR2020|
+|Onverhard	|Zand||IMBOR2020|
+|| 	Zwarte grond||IMBOR2020|
+|| 	Open grond||IMBOR2020|
 
 ### GROEN
 
