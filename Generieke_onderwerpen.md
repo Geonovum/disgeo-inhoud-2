@@ -9,65 +9,65 @@ Er is behoefte aan een persistente universele unieke en betekenisloze identifica
 
 #### Opbouw identificatie
 
-Ontwerpprincipe : *De huidige wijze van objectidentificatie van NEN3610 wordt gehanteerd want de SOR conformeert zich aan de NEN3610-norm*
+Ontwerpprincipe: *De huidige wijze van objectidentificatie van NEN3610 wordt gehanteerd want de SOR conformeert zich aan de NEN3610-norm*
 
 
 *Doel van NEN3610ID*
 Binnen de ‘digitale ruimte’ moeten informatie-objecten uniek identificeerbaar zijn. De object-identificatie (object-id) is de pointer naar het informatie-object. Als men het over het informatie-object met een bepaald object-id heeft (of er naar verwijst) dan wil men zeker weten dat daadwerkelijk dat ene informatie-object wordt bedoeld en niet dat men er meerdere ‘terugkrijgt’. Belangrijk is ook om duidelijk te hebben wat de ‘digitale ruimte’ is. Er wordt mee bedoeld de ruimte waarin digitale objecten gezamenlijk voor kunnen komen. Dus in principe de ruimte waarin je informatie met elkaar uitwisselt of deelt.
 
 
-NB : In een separaat project zal worden onderzocht of deze wijze van objectidentificatie ook toepasbaar is in een bredere context buiten de SOR en de geo-wereld
+NB: In een separaat project zal worden onderzocht of deze wijze van objectidentificatie ook toepasbaar is in een bredere context buiten de SOR en de geo-wereld
 
 
-Ontwerpprincipe : *De identificatie voor alle objecten is betekenisloos* 
+Ontwerpprincipe: *De identificatie voor alle objecten is betekenisloos* 
 
 Van belang is dat de objectidentificatie niet betekenisvol geïnterpreteerd mag worden.	
 
-Ontwerpprincipe : *De opbouw voor alle objecten is gelijk*
+Ontwerpprincipe: *De opbouw voor alle objecten is gelijk*
 
 Voor alle objecten in de SOR wordt dezelfde opbouw en toekenning van een identificatie toegepast.
 
 
 #### Uniciteit
 
-Ontwerpprincipe : *een identificatie binnen Nederland is volledig uniek*
+Ontwerpprincipe: *een identificatie binnen Nederland is volledig uniek*
 
 We willen zeker weten dat we in tijd en ruimte het over hetzelfde object in de SOR hebben. De identificatie moet daarom uniek zijn.
 
-Ontwerpprincipe : *een identificatie wordt mondiaal uniek gemaakt door er de landcode aan toe te voegen*
+Ontwerpprincipe: *een identificatie wordt mondiaal uniek gemaakt door er de landcode aan toe te voegen*
 
 Conform NEN3610
 
 
 #### Uitgifte
  
-Ontwerpprincipe : *uitgifte van individuele identificaties in de SOR moet dubbele identificaties voorkomen*
+Ontwerpprincipe: *uitgifte van individuele identificaties in de SOR moet dubbele identificaties voorkomen*
 Er moet een methodiek worden ontwikkeld om uit te sluiten dat dubbele identificaties worden uitgegeven. Tevens moet er direct op getoetst worden bij de voorbereiding van een uitgifte van een identificatie of deze al bestaat om latere schade te voorkomen.
 
-Ontwerpprincipe : *een identificatie aan een object in de SOR wordt toegekend zodra er voor het eerst in de SOR iets over dit object wordt geregistreerd*
+Ontwerpprincipe: *een identificatie aan een object in de SOR wordt toegekend zodra er voor het eerst in de SOR iets over dit object wordt geregistreerd*
 
 Vanwege de eis van persistentie moet de uitgifte van de objectidentificatie direct worden gedaan bij welke registratie van een gegeven en welk moment in de tijdslijn van een object dan ook.
 
-NB : In het eerder genoemde separate project zal worden onderzocht of de identificatie toch niet eerder moet worden uitgegeven
+NB: In het eerder genoemde separate project zal worden onderzocht of de identificatie toch niet eerder moet worden uitgegeven
 
-Ontwerpprincipe : *uitgifte van identificaties vindt niet eerder dan de SOR plaats*
+Ontwerpprincipe: *uitgifte van identificaties vindt niet eerder dan de SOR plaats*
 
 Indien een object in een sectorregistratie mocht ontstaan, dan heeft dat object daar een unieke sectorregistratie-identificatie. Er is dan nog geen sprake van meervoudig gebruik buiten de sector. Als het object vervolgend wordt aangeboden aan de SOR, wordt dan pas en niet eerder een SOR-objectidentificatie uitgegeven. De oorspronkelijke sector registreert vervolgens deze SOR-objectidentificatie waarmee de interoperabiliteit is geborgd.
 
 
 #### Hanteerbaarheid
  
-Ontwerpprincipe : *een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar*
+Ontwerpprincipe: *een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar*
 
 De objectidentificatie van de SOR is bedoeld om in het kader van interoperabiliteit te gebruiken bij het volledig geautomatiseerd relaties bevragen tussen verschillende datasets.
 
 #### Implementatie-vrij
 
-Ontwerpprincipe : *Een objectidentificatie van de SOR kent een functionele versie*
+Ontwerpprincipe: *Een objectidentificatie van de SOR kent een functionele versie*
 
 De SOR kent een functionele objectidentificatie.  De functionele objectidentificatie is systeem (implementatie) onafhankelijk. 
 
-Ontwerpprincipe : *een functionele objectidentificatie kan een of meer technische identificaties hebben*
+Ontwerpprincipe: *een functionele objectidentificatie kan een of meer technische identificaties hebben*
 
 De technische objectidentificatie is de toepassing van de functionele identificatie in een technische omgeving. In de technische uitwerking kunnen aan de functionele identificatie een of meer technische identificaties worden gerelateerd die eenduidig met die ene functionele identificatie verbonden zijn, bijvoorbeeld GML,API of URI.
 Objecten geïmplementeerd in verschillende technische omgevingen moeten middels hun functionele identificatie aan elkaar te relateren zijn. Bijvoorbeeld: een object dat zowel in XML als in JSON als in LD is geïmplementeerd moet herkenbaar zijn als voorkomens van eenzelfde object.
@@ -75,43 +75,43 @@ Objecten geïmplementeerd in verschillende technische omgevingen moeten middels 
 
 #### Persistent in de tijd
 
-Ontwerpprincipe : *Een objectidentificatie mag niet veranderen in de levensloop van het object zodat tijdreizen maximaal wordt gefaciliteerd*
+Ontwerpprincipe: *Een objectidentificatie mag niet veranderen in de levensloop van het object zodat tijdreizen maximaal wordt gefaciliteerd*
 
 De identificatie van een object in de SOR moet persistent zijn over de levensloop van dat object, zodat altijd duidelijk is welk object het betreft, ook als het object inmiddels is gesloopt
 
 
 #### Filiatie (afkomst/overgang)
 
-Ontwerpprincipe : *Het moet mogelijk zijn om de afkomst van een object na te gaan door de relatie vast te leggen met het object/ de objecten waaruit een object is ontstaan*
+Ontwerpprincipe: *Het moet mogelijk zijn om de afkomst van een object na te gaan door de relatie vast te leggen met het object/ de objecten waaruit een object is ontstaan*
 
 Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn ontstaan door samenvoeging of splitsing van andere objecten. Op een bepaald moment in de tijd bestond het specifieke object wellicht nog niet, maar wel een voorouder van dit object.
 
-Ontwerpprincipe : *Het moet mogelijk zijn om de overgang van een object na te gaan door de relatie vast te leggen met het object/ de objecten waarin een object is overgegaan*
+Ontwerpprincipe: *Het moet mogelijk zijn om de overgang van een object na te gaan door de relatie vast te leggen met het object/ de objecten waarin een object is overgegaan*
 
 Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn overgegaan in andere objecten door samenvoeging of splitsing. Op een bepaald moment in de tijd bestaat het specifieke object wellicht niet meer, maar wel mogelijk een afstammeling van dit object.
 
 
 #### Samenhang
 
-Ontwerpprincipe : *samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de SOR-objectidentificatie (externe ID)*
+Ontwerpprincipe: *samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de SOR-objectidentificatie (externe ID)*
 
 Sectorregistraties kennen vaak hun eigen identificatie. Er zal gefaciliteerd moeten worden dat bij de objecten in de sectorregistraties de SOR-identificaties van de SOR-objecten worden vastgelegd.
 De informatie die in de sector opgeslagen is daarmee te ontsluiten op basis van de SOR-objectidentificatie
 
-Ontwerpprincipe : *samenhang faciliteren van huidige basisregistratie-identificaties en de objectidentificatie van de SOR*
+Ontwerpprincipe: *samenhang faciliteren van huidige basisregistratie-identificaties en de objectidentificatie van de SOR*
 
 De objecten in de huidige basisregistraties hebben een verplichte unieke identificatie, die in veel aanpalende sectorregistraties wordt gebruikt. Gedurende een nader te bepalen (transitie-)periode zal de samenhang moeten worden bijgehouden tussen de identificatie van de SOR en die van de objecten waaruit SOR-objecten zijn ontstaan.
 
 
 #### Levensloop
 
-Ontwerpprincipe : *De levensloop begint in de samenhangende objectenregistratie*
+Ontwerpprincipe: *De levensloop begint in de samenhangende objectenregistratie*
 
 Zodra een basisobject is benoemd zal dit worden doorgegeven aan de SOR met de bijbehorende kenmerken omdat het een basisobject is en de kennis daarover gelijk breed beschikbaar moet zijn. 
 
-NB : In het eerder genoemde separate project zal dit nader worden onderzocht 
+NB: In het eerder genoemde separate project zal dit nader worden onderzocht 
 
-ontwerpprincipe : *de levensloop eindigt in de samenhangende objectenregistratie*
+ontwerpprincipe: *de levensloop eindigt in de samenhangende objectenregistratie*
 
 Zodra een basisobject is beëindigd zal dit worden vastgelegd in de SORmet de bijbehorende kenmerken omdat het een basisobject is en de kennis daarover gelijk breed beschikbaar moet zijn.
 dit moet in afbakeningsregels goed worden uitgewerkt,
@@ -119,15 +119,15 @@ dit moet in afbakeningsregels goed worden uitgewerkt,
 
 #### Reikwijdte
  
-Ontwerpprincipe : *Het gebruik van objectidentificaties van de SOR is verplicht binnen de overheid*
+Ontwerpprincipe: *Het gebruik van objectidentificaties van de SOR is verplicht binnen de overheid*
 
 Om integraal gebruik van gegevens over meerdere gegevensverzamelingen heen (interoperabiliteit) maximaal te faciliteren is het noodzakelijk dat de identificaties van de SOR-objecten als verbindende sleutel verplicht worden gebruikt in de sectorregistraties die op die objecten aansluiten. 
 
-Ontwerpprincipe : *Er wordt toezicht gehouden op het gebruik van objectidentificaties van de SOR binnen de registraties van de overheid*
+Ontwerpprincipe: *Er wordt toezicht gehouden op het gebruik van objectidentificaties van de SOR binnen de registraties van de overheid*
 
 Hierbij is het ook noodzakelijk dat er een toezichthouder wordt ingesteld die bewaakt en periodiek audits uitvoert of deze verplichting wel maximaal wordt nageleefd.
 
-Ontwerpprincipe : *Het gebruik van objectidentificaties wordt binnen het private domein gestimuleerd*
+Ontwerpprincipe: *Het gebruik van objectidentificaties wordt binnen het private domein gestimuleerd*
 
 Om integraal gebruik van gegevens over meerdere gegevensverzamelingen heen maximaal te faciliteren wordt het gestimuleerd dat de identificaties van de SOR-objecten als verbindende sleutel worden gebruikt in de private registraties die op die objecten aansluiten en die al dan niet open data zijn. 
 Dit zou bijvoorbeeld via een afsprakenstelsel geregeld kunnen worden
@@ -143,7 +143,7 @@ ontwerpprincipe: de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht i
 
 *hier uitschrijven welke levels of details worden onderscheiden in de SOR voor 3D*
 
-*let op : ook de z-hoogte is van belang naast volume, zoals bij bv fly-overs, etc, etc.*
+*let op: ook de z-hoogte is van belang naast volume, zoals bij bv fly-overs, etc, etc.*
 
 #### Geometrie-type
 
@@ -172,11 +172,11 @@ Dit is het semantische model van NEN3610:
 
 **Topologie**
 
-ontwerpprincipe : *Het semantisch model van de SOR conformeert zich aan NEN3610*
+ontwerpprincipe: *Het semantisch model van de SOR conformeert zich aan NEN3610*
 
-ontwerpprincipe : *Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels*
+ontwerpprincipe: *Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels*
 
-ontwerpprincipe : *Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.*
+ontwerpprincipe: *Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.*
 
 Deze Referentielaag wordt 
 - In geval van fysieke objecttypen volledig gedekt door objecten uit de objecttypen BODEM en WATER.
@@ -186,8 +186,8 @@ Deze Referentielaag wordt
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
 ![topologie](media/topologie.png)
 
-ontwerpprincipe : *In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken*
-- Voorbeeld : de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
+ontwerpprincipe: *In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken*
+- Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
 
 
 
@@ -224,20 +224,20 @@ Onder generaliseren wordt verstaan:
 Onder aggregeren wordt verstaan: 
 - Het samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan dus daarmee ook een aspect van generaliseren zijn. 
 
-Nadere verdieping : https://www.researchgate.net/publication/259639775_A_typology_of_operators_for_maintaining_legible_map_designs_at_multiple_scales
+Nadere verdieping: https://www.researchgate.net/publication/259639775_A_typology_of_operators_for_maintaining_legible_map_designs_at_multiple_scales
 
 **Ontwerpprincipes**
 
-Ontwerpprincipe : *objecttypen ENKEL EN ALLEEN op het voor de SOR meest gedetailleerde noodzakelijke niveau vast leggen (de kleinste semantische eenheden)*
+Ontwerpprincipe: *objecttypen ENKEL EN ALLEEN op het voor de SOR meest gedetailleerde noodzakelijke niveau vast leggen (de kleinste semantische eenheden)*
 
-Ontwerpprincipe : *geaggregeerde dataobjecttypen NIET opnemen in de SOR*
+Ontwerpprincipe: *geaggregeerde dataobjecttypen NIET opnemen in de SOR*
 
-Ontwerpprincipe : *cartografische objecttypen als onderdeel van de producten van DisGeo opnemen*
+Ontwerpprincipe: *cartografische objecttypen als onderdeel van de producten van DisGeo opnemen*
 
-Ontwerpprincipe : *de kwaliteit van de objecten en de bijbehorende gegevens zó  borgen 
+Ontwerpprincipe: *de kwaliteit van de objecten en de bijbehorende gegevens zó  borgen 
 dat geautomatiseerde generalisatie probleemloos kan verlopen*
 
-Ontwerpprincipe : *sectormodellen moeten gebruik maken van de dataobjecten uit de SOR*
+Ontwerpprincipe: *sectormodellen moeten gebruik maken van de dataobjecten uit de SOR*
 
 In het kader van BRT / Top10 NL is een onderzoeksvraag in het huidige generalisatie proces gestreld: is het wenselijk om geaggregeerde dataobjecten met universele unieke persistente identificaties te hebben?  De uitkomst hiervan was dat dit niet het geval bleek te zijn en is daarom niet geïmplementeerd (niet door de kaartschalen heen en niet door de tijd heen).
 Uit Gebruikers-consultaties bleek dat klanten maken geen gebruik van afgeleide kaartschalen voor data-analyses, hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
@@ -291,7 +291,7 @@ Alternatieven:
 1.	Er kunnen wel terugmeldingen meer zijn op de gegeneraliseerde cartografische objecten, maar:
     1.	Deze werken niet door op onderliggende dataobjecten
     1.	Deze werken door op ALLE dataobjecten waar ze uit zijn ontstaan 
-let op : Wil je dat als bv een terugmelding wordt gedaan op een cartografisch object op 1:1.000.000 dit dan doorwerkt op álle dataobjecten die daar in liggen op het laagste schaalniveau en daar individueel behandeld moeten worden.? 
+let op: Wil je dat als bv een terugmelding wordt gedaan op een cartografisch object op 1:1.000.000 dit dan doorwerkt op álle dataobjecten die daar in liggen op het laagste schaalniveau en daar individueel behandeld moeten worden.? 
    1.	Deze werken door op ‘het belangrijkste dataobject’ waar ze uit zijn ontstaan
    1.	Deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
         1. Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders vasn de onderliggende data
@@ -315,7 +315,7 @@ We kiezen voor optie 2.4 en afhankelijk van de situatie daarbinnen voor stap a o
 Deze paragraaf beschrijft de uniformering van metagegevens in de SOR. 
 
 **WAAROM leggen we meta-informatie vast over de gegevens die zijn opgenomen in de SOR**
-•	Zonder meta-informatie :
+•	Zonder meta-informatie:
 •	Géén grip op zorgvuldig gebruik
 •	Géén vertrouwen
 •	Verhoogd risico op herhalen van een onderzoek, nodeloos werk, verkeerde interpretatie, verkeerde toepassing, onterechte meldingen
@@ -324,7 +324,7 @@ Deze paragraaf beschrijft de uniformering van metagegevens in de SOR.
 •	Interpretatie
 •	Bruikbaarheid
 •	Kwaliteit, nauwkeurigheid, actualiteit, status, bron/herkomst, inwinningsmethode (incl bronverwijzing),
-•	Voor beheer : Welke controles moeten worden gedaan en zijn gedaan
+•	Voor beheer: Welke controles moeten worden gedaan en zijn gedaan
 
 
 **Waar leggen we meta-informatie van vast en waarom**
@@ -336,7 +336,7 @@ Deze paragraaf beschrijft de uniformering van metagegevens in de SOR.
 **“Gegevenscatalogus”**
 Meta-informatie op het niveau van objecttype en attribuuttype leggen we in de huidige situatie in de “gegevenscatalogus” vast. Deze metagegevens zijn in de huidige situaties voor de meeste (basis)registraties moeilijk integraal te bevragen in combinatie met de data zelf. 
 
-Ontwerpprincipe : *De metagegevens per objecttype en per attribuuttype vormen een integraal onderdeel van de SOR. zodat deze net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken.
+Ontwerpprincipe: *De metagegevens per objecttype en per attribuuttype vormen een integraal onderdeel van de SOR. zodat deze net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken.
 
 **Aandachtspunten**
 •	We willen het opstellen van een brondocument, uitsluitend als metagegeven voor de registratie, zo veel mogelijk vermijden. Brondocumenten die om andere reden bestaan, worden gebruikt als metagegeven. Verdere aspecten van bronverwijzing worden direct in de registratie als metagegeven opgeslagen zonder de formalisering als "brondocument".
@@ -409,7 +409,7 @@ Voorgesteld wordt per attribuut de volgende metagegevens vast te leggen:
 #### Plaatsbepalingspunten
 
 Ook in de SOR zullen plaatsbepalingspunten een rol gaan spelen als bron. Plaatsbepalingspunten  (PBP’s) zoals die nu in de BGT als bronverwijzing bedoeld zijn, zijn immers ook een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie).  Daarvoor is het wel nodig dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar die bron expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens.
-Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig : 
+Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig: 
 - Voor gebruikers is dan expliciet bekend welk(e) PBP(’s) bij welk object hoort.
 - PBP’s die niet meer tot de actuele objecten behoren kunnen worden bepaald en in downloads zonder historie worden geschrapt.
 - Conform gegevenscatalogus BGT 1.2: Alleen voor objecten die goed idealiseerbaar zijn in het terrein worden voor de coördinaten die zijn ingemeten middels inwinningsmethoden fotogrammetrisch, terrestrisch, laserscanning of panoramabeelden, plaatsbepalingspunten opgenomen. De goed idealiseerbare objecten zijn de objecten met een positionele nauwkeurigheid van tenminste 30 centimeter.
@@ -480,17 +480,17 @@ Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo’n fa
 
 Registratieve objecttypen ontstaan als gevolg van besluitvorming. De levenscyclus van registratieve objecttypen bestaat uit twee levensfasen:
 
-- 	Benoemd :		het object is afgebakend op basis van wet- of regelgeving
-- 	Ingetrokken :	het object is ingetrokken op basis van wet- of regelgeving
+- 	Benoemd:		het object is afgebakend op basis van wet- of regelgeving
+- 	Ingetrokken:	het object is ingetrokken op basis van wet- of regelgeving
 of
-- 	Ten onrechte :	het object is ten onrechte in de registratie opgenomen
+- 	Ten onrechte:	het object is ten onrechte in de registratie opgenomen
 
 Bij geografische objecttypen wordt eveneens een onderscheid gemaakt naar twee levensfasen:
 
-- 	Aangewezen :	het object wordt als zodanig onderscheiden
-- 	Beëindigd :	het object wordt niet langer als zodanig onderscheiden
+- 	Aangewezen:	het object wordt als zodanig onderscheiden
+- 	Beëindigd:	het object wordt niet langer als zodanig onderscheiden
 of
--  Ten onrechte :	het object is ten onrechte in de registratie opgenomen
+-  Ten onrechte:	het object is ten onrechte in de registratie opgenomen
 
 Bij fysieke objecttypen worden drie hoofdfasen onderscheiden waarbinnen meerdere levensfasen kunnen voorkomen. De te onderscheiden hoofdfasen zijn: planfase, aanwezigheidsfase en afwezigheidsfase. Welke levensfasen concreet worden onderscheiden is afhankelijk van het specifieke objecttype. Voor een vergunningplichtig bouwwerk zijn andere (meer) levensfasen van belang dan bijvoorbeeld voor een landschapselement. In het algemeen zullen voor niet-vergunningplichtige (veelal eenvoudigere) objecten en vergunningplichtige (veelal complexere) objecten de volgende aan het fysiek bestaan van objecten gerelateerde levensfasen voorkomen:
 
