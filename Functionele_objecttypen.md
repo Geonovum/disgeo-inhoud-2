@@ -1,5 +1,194 @@
 ## Functionele objecttypen
 
+### functionele zonering
+
+#### Verblijfsobject
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Verblijfsobject  |
+| onderdeel van NEN3610-objecttype |Functioneel object  |
+
+**Definitie**
+
+| Naam  | Verblijfsobject |
+|---|---|
+| Definitie | De kleinste binnen één of meer gebouwen gelegen eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is|
+|Herkomst definitie|Gebaseerd op definitie “verblijfsobject” in artikel 1 Wet basisregistratie adressen en gebouwen |
+|Verplicht  | Ja |
+|Gevolgen afbakening  | Het betreft hier in principe de bestaande populatie verblijfsobjecten zoals deze is opgenomen in de basisregistratie adressen en gebouwen |
+|Toelichting| *volgt later* |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Verblijfsobject  |Ja |
+|Geometrie |De geometrische representatie van een Verblijfsobject *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Gebruiksdoel|Een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld|Ja|
+|Feitelijk gebruik|Een categorisering van het feitelijke gebruik dat van het betreffende verblijfsobject wordt gemaakt|Ja|
+|Gebruiksoppervlakte|De gebruiksoppervlakte van een verblijfsobject |
+|Status   |De fase van de levenscyclus waarin het betreffende verblijfsobject zich bevindt   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|verblijfsobject|Hoort bij 1 of meer|Gebouw|
+|verblijfsobject|Heeft een |Nummeraanduiding|
+
+**Domeinwaarden**
+
+| Waarde Gebruiksdoel| Beschrijving   |
+|---|---|
+|bijeenkomstfunctie ||
+|| |
+|*nader te bepalen op grond wijzigingen Omgevingswet* ||
+
+| Waarde Feitelijk Gebruik| Beschrijving   |
+|---|---|
+| vrijstaande woning ||
+| 2-onder-1-kapwoning ||
+| geschakelde 2-onder-1-kapwoning ||
+| geschakelde woning ||
+| halfvrijstaande woning ||
+| tussenwoning ||
+| hoekwoning ||
+| eindwoning ||
+| galerijflat ||
+| portiekflat ||
+| corridorflat ||
+| maisonnette ||
+| benedenwoning ||
+| bovenwoning ||
+| portiekwoning ||
+| (woonwagen/stacaravan) ||
+| (woonwagenstandplaats/ stacaravanstandplaats) ||
+| (woonboot) ||
+| (ligplaats) ||
+| waterwoning ||
+| tijdelijke woning ||
+| woon-/winkelpand ||
+| (bouwkavel) ||
+| garage ||
+| (parkeerplaats) ||
+| berging ||
+| bijzonder woongebouw ||
+| detailhandel ||
+| horeca ||
+| kantoor ||
+| bedrijfsruimte ||
+| industrie ||
+| agrarisch ||
+| laboratorium ||
+| onderwijs ||
+| cultuur ||
+| medisch ||
+| overheidsfunctie ||
+| nutsvoorzieningen (energie/water) ||
+| transport  ||
+| sport en recreatie ||
+| eredienst ||
+|||
+||*lijst nog afstemmen op laatste versie van WOZ*|
+
+
+
+| Waarde Status | Beschrijving   |
+|---|---|
+|Gepland||
+|Gevormd||
+|Buiten gebruik||
+|Beëindigd||
+|Niet gerealiseerd||
+|Ten onrechte||
+
+
+#### Gebouwzone
+
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Gebouwzone  |
+| onderdeel van NEN3610-objecttype |Functioneel object  |
+
+**Definitie**
+
+| Naam  | Gebouwzone |
+|---|---|
+| Definitie | DHet grootst mogelijke gedeelte van een gebouw dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
+|Herkomst definitie|Begrip gebaseerd op de functionele deelobjecten uit de WOZ en aansluitend bij het begrip Zonering (IfcZone) uit de concepten rondom Bouwwerkinformatiemodellen (BIM), waarbij Ruimten worden gezoneerd tot bijvoorbeeld verblijfsobject of gebouwzone |
+|Verplicht  | Ja |
+|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype |
+|Toelichting| *volgt later* |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Gebouwzone  |Ja |
+|Geometrie |De geometrische representatie van een Gebouwzone *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Geometrie oppervlakte| NTB||
+|Bouwlaag|De bouwlaag waarop de gebouwzone is gelegen|Ja|
+|Bouwjaar|Het bouwjaar waarin een gebouwzone is ontstaan|Ja|
+|Type|Een categorisering van het feitelijke gebruik dat van de betreffende gebouwzone wordt gemaakt|Ja|
+|Aard|Een aanduiding van de fysieke constructie waarin de gebouwzone zich bevindt|Ja|
+|Gebruiksopppervlakte|De gebruiksoppervlakte van een gebouwzone|Ja|
+|Kwaliteitsindicatie||
+|Status   |De fase van de levenscyclus waarin de betreffende Gebouwzone zich bevindt   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|gebouwzone|Hoort bij |Verblijfsobject|
+|gebouwzone|Ligt op |Bouwlaag|
+
+**Domeinwaarden**
+
+| Waarde Type| Beschrijving   |
+|---|---|
+|woonruimte  | | 
+|garage | | 
+|bergruimte | | 
+|kantoorruimte | | 
+|winkelruimte | | 
+|opslagruimte | | 
+|praktijkruimte | | 
+|ruimte medische zorg | | 
+|productieruimte | | 
+|bijeenkomstruimte | | 
+|verkeersruimte | | 
+|technische ruimte | | 
+|||
+||*lijst nog afstemmen op laatste versie van WOZ*|
+
+ Waarde Aard| Beschrijving   |
+|---|---|
+|basisconstructie ||
+|aanbouw/opbouw ||
+|serre ||
+|||
+|*meer*||
+
+ Waarde Kwaliteit| Beschrijving   |
+|---|---|
+|*NTB*  | |
+
+| Waarde Status | Beschrijving   |
+|---|---|
+|Gepland||
+|Gevormd||
+|Buiten gebruik||
+|Beëindigd||
+|Niet gerealiseerd||
+|Ten onrechte||
+
+
 
 ### Netwerk
 | klasse  | naam  |
@@ -360,194 +549,6 @@ ontwerpprincipe:
 || 	*Niet BGT*	|functioneel beheer: hondenuitlaatplaats|  
   
   
-### functionele zonering
-
-#### Verblijfsobject
-
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Verblijfsobject  |
-| onderdeel van NEN3610-objecttype |Functioneel object  |
-
-**Definitie**
-
-| Naam  | Verblijfsobject |
-|---|---|
-| Definitie | De kleinste binnen één of meer gebouwen gelegen eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is|
-|Herkomst definitie|Gebaseerd op definitie “verblijfsobject” in artikel 1 Wet basisregistratie adressen en gebouwen |
-|Verplicht  | Ja |
-|Gevolgen afbakening  | Het betreft hier in principe de bestaande populatie verblijfsobjecten zoals deze is opgenomen in de basisregistratie adressen en gebouwen |
-|Toelichting| *volgt later* |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een Verblijfsobject  |Ja |
-|Geometrie |De geometrische representatie van een Verblijfsobject *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
-|Gebruiksdoel|Een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld|Ja|
-|Feitelijk gebruik|Een categorisering van het feitelijke gebruik dat van het betreffende verblijfsobject wordt gemaakt|Ja|
-|Gebruiksoppervlakte|De gebruiksoppervlakte van een verblijfsobject |
-|Status   |De fase van de levenscyclus waarin het betreffende verblijfsobject zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|verblijfsobject|Hoort bij 1 of meer|Gebouw|
-|verblijfsobject|Heeft een |Nummeraanduiding|
-
-**Domeinwaarden**
-
-| Waarde Gebruiksdoel| Beschrijving   |
-|---|---|
-|bijeenkomstfunctie ||
-|| |
-|*nader te bepalen op grond wijzigingen Omgevingswet* ||
-
-| Waarde Feitelijk Gebruik| Beschrijving   |
-|---|---|
-| vrijstaande woning ||
-| 2-onder-1-kapwoning ||
-| geschakelde 2-onder-1-kapwoning ||
-| geschakelde woning ||
-| halfvrijstaande woning ||
-| tussenwoning ||
-| hoekwoning ||
-| eindwoning ||
-| galerijflat ||
-| portiekflat ||
-| corridorflat ||
-| maisonnette ||
-| benedenwoning ||
-| bovenwoning ||
-| portiekwoning ||
-| (woonwagen/stacaravan) ||
-| (woonwagenstandplaats/ stacaravanstandplaats) ||
-| (woonboot) ||
-| (ligplaats) ||
-| waterwoning ||
-| tijdelijke woning ||
-| woon-/winkelpand ||
-| (bouwkavel) ||
-| garage ||
-| (parkeerplaats) ||
-| berging ||
-| bijzonder woongebouw ||
-| detailhandel ||
-| horeca ||
-| kantoor ||
-| bedrijfsruimte ||
-| industrie ||
-| agrarisch ||
-| laboratorium ||
-| onderwijs ||
-| cultuur ||
-| medisch ||
-| overheidsfunctie ||
-| nutsvoorzieningen (energie/water) ||
-| transport  ||
-| sport en recreatie ||
-| eredienst ||
-|||
-||*lijst nog afstemmen op laatste versie van WOZ*|
-
-
-
-| Waarde Status | Beschrijving   |
-|---|---|
-|Gepland||
-|Gevormd||
-|Buiten gebruik||
-|Beëindigd||
-|Niet gerealiseerd||
-|Ten onrechte||
-
-
-#### Gebouwzone
-
-
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Gebouwzone  |
-| onderdeel van NEN3610-objecttype |Functioneel object  |
-
-**Definitie**
-
-| Naam  | Gebouwzone |
-|---|---|
-| Definitie | DHet grootst mogelijke gedeelte van een gebouw dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
-|Herkomst definitie|Begrip gebaseerd op de functionele deelobjecten uit de WOZ en aansluitend bij het begrip Zonering (IfcZone) uit de concepten rondom Bouwwerkinformatiemodellen (BIM), waarbij Ruimten worden gezoneerd tot bijvoorbeeld verblijfsobject of gebouwzone |
-|Verplicht  | Ja |
-|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype |
-|Toelichting| *volgt later* |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een Gebouwzone  |Ja |
-|Geometrie |De geometrische representatie van een Gebouwzone *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
-|Geometrie oppervlakte| NTB||
-|Bouwlaag|De bouwlaag waarop de gebouwzone is gelegen|Ja|
-|Bouwjaar|Het bouwjaar waarin een gebouwzone is ontstaan|Ja|
-|Type|Een categorisering van het feitelijke gebruik dat van de betreffende gebouwzone wordt gemaakt|Ja|
-|Aard|Een aanduiding van de fysieke constructie waarin de gebouwzone zich bevindt|Ja|
-|Gebruiksopppervlakte|De gebruiksoppervlakte van een gebouwzone|Ja|
-|Kwaliteitsindicatie||
-|Status   |De fase van de levenscyclus waarin de betreffende Gebouwzone zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|gebouwzone|Hoort bij |Verblijfsobject|
-|gebouwzone|Ligt op |Bouwlaag|
-
-**Domeinwaarden**
-
-| Waarde Type| Beschrijving   |
-|---|---|
-|woonruimte  | | 
-|garage | | 
-|bergruimte | | 
-|kantoorruimte | | 
-|winkelruimte | | 
-|opslagruimte | | 
-|praktijkruimte | | 
-|ruimte medische zorg | | 
-|productieruimte | | 
-|bijeenkomstruimte | | 
-|verkeersruimte | | 
-|technische ruimte | | 
-|||
-||*lijst nog afstemmen op laatste versie van WOZ*|
-
- Waarde Aard| Beschrijving   |
-|---|---|
-|basisconstructie ||
-|aanbouw/opbouw ||
-|serre ||
-|||
-|*meer*||
-
- Waarde Kwaliteit| Beschrijving   |
-|---|---|
-|*NTB*  | |
-
-| Waarde Status | Beschrijving   |
-|---|---|
-|Gepland||
-|Gevormd||
-|Buiten gebruik||
-|Beëindigd||
-|Niet gerealiseerd||
-|Ten onrechte||
-
 
 
 ### Functionele objecttypen uit BRT
