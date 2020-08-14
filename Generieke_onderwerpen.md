@@ -379,7 +379,7 @@ Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
 Voorgesteld wordt per object de volgende metagegevens vast te leggen:
 
 | Aspect  |Beschrijving     |Waarom|
-|---|--------------|---|
+|--------|-------------------------|---|
 |Bronverwijzing|Verwijzing naar bron |Dit kan verwijzing zijn naar formeel document (zoals een vergunning), een luchtfoto, maar ook een activiteit die geleid heeft tot opname/wijziging van dit object|
 |Gegevenseigenaar|Vastleggen bronhouder |Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld) is van belang voor autorisatie tot wijziging, maar ook voor routering van terugmeldingen|
 |   |Vastleggen openbaarheid gebruik|Als default zijn alle objecten in de SOR openbaar toegankelijk|
