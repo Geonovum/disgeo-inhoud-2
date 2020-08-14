@@ -1,6 +1,79 @@
 ## Functionele objecttypen
 
-### functionele zonering
+
+### Netwerk
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | netwerk  |
+| onderdeel van NEN3610-objecttype | transportvoorziening  |
+
+Voor de functionele typering van netwerken is aangesloten bij de beschikbare typeringen in de BGT|IMGeo voor wegen en spoor. Verdere afstemming is nodig met NWB, IMBOR/IMWV, Prorail en de watersector. Voor wegverbindingen zijn de voorstellen voor IMGeo 2.2 overgenomen. Voor spoorverbindingen is de typering vereenvoudigd. Het uitgangspunt dat objecttypen scherp zijn afgebakend, maakt dat de typering sneltram is vervallen en dat havenkraan vervangen is door (laad-/los)kraan.
+
+#### Wegennetwerk
+
+
+|Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|-----------|---------------------------|--------------------------------|
+|Wegverbindingen|	Functie:	 ||
+|| 	OV-baan	 ||
+|| 	overweg	 ||
+|| 	spoorbaan	 ||
+|| 	baan voor vliegverkeer	 ||
+|| 	rijbaan autosnelweg	|Verbindingsweg|
+||| 	 	calamiteitendoorsteek|
+|||		Verkeersdrempel|
+|| 	rijbaan autoweg	|Verbindingsweg|
+||| 	 	calamiteitendoorsteek|
+|||		Verkeersdrempel|
+|| 	rijbaan regionale weg	|Verbindingsweg|
+|||		Verkeersdrempel|
+||	rijbaan lokale weg	|Verkeersdrempel|
+||	fietspad	|Verkeersdrempel|
+||	voetpad	||
+||	voetpad op trap	||
+||	ruiterpad	||
+||	inrit	||
+|||| 	 	 
+
+
+#### Spoornetwerk
+
+Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|-----------|---------------------------|--------------------------------|
+|
+|Spoorverbindingen	|Functie:	 ||
+|| 	trein	 ||
+|| 	tram	 ||
+||*Niet BGT*| 	 	(laad/los-)kraan|
+|||| 	 	
+
+#### Waternetwerk
+
+Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|-----------|---------------------------|--------------------------------|
+	 
+|Waterwegverbindingen	|Functie:	 ||
+|| 	vaaweg	 ||
+|| 	hydrologie???	 ||
+|||| 	 	 
+||Knooppunten	\Type:	 |
+|| 	kruispunt fysieke wegen	 ||
+|| 	overweg	 ||
+|| 	wijziging attribuutwaarde	 ||
+|| 	tussenpunt	 ||
+||||
+
+
+### Functionele zonering
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | functionele zonering |
+| onderdeel van NEN3610-objecttype |functioneel object  |
+
+
+
+De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en blauwe gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein. Hierbij is aangesloten op de typering zoals voor BGT|IMGeo wordt gebruikt, inclusief de voorstellen voor IMGeo 2.2. Als gevolg van het uitgangspunt dat fysiek en functie worden gescheiden zijn een aantal functies verschoven van voorheen een typering bij een fysiek objecttype naar een eigenstandig functioneel objecttype.
+
 
 #### Verblijfsobject
 
@@ -190,78 +263,7 @@
 
 
 
-### Netwerk
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | netwerk  |
-| onderdeel van NEN3610-objecttype | transportvoorziening  |
 
-Voor de functionele typering van netwerken is aangesloten bij de beschikbare typeringen in de BGT|IMGeo voor wegen en spoor. Verdere afstemming is nodig met NWB, IMBOR/IMWV, Prorail en de watersector. Voor wegverbindingen zijn de voorstellen voor IMGeo 2.2 overgenomen. Voor spoorverbindingen is de typering vereenvoudigd. Het uitgangspunt dat objecttypen scherp zijn afgebakend, maakt dat de typering sneltram is vervallen en dat havenkraan vervangen is door (laad-/los)kraan.
-
-#### Wegennetwerk
-
-
-|Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|Wegverbindingen|	Functie:	 ||
-|| 	OV-baan	 ||
-|| 	overweg	 ||
-|| 	spoorbaan	 ||
-|| 	baan voor vliegverkeer	 ||
-|| 	rijbaan autosnelweg	|Verbindingsweg|
-||| 	 	calamiteitendoorsteek|
-|||		Verkeersdrempel|
-|| 	rijbaan autoweg	|Verbindingsweg|
-||| 	 	calamiteitendoorsteek|
-|||		Verkeersdrempel|
-|| 	rijbaan regionale weg	|Verbindingsweg|
-|||		Verkeersdrempel|
-||	rijbaan lokale weg	|Verkeersdrempel|
-||	fietspad	|Verkeersdrempel|
-||	voetpad	||
-||	voetpad op trap	||
-||	ruiterpad	||
-||	inrit	||
-|||| 	 	 
-
-
-#### Spoornetwerk
-
-Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|
-|Spoorverbindingen	|Functie:	 ||
-|| 	trein	 ||
-|| 	tram	 ||
-||*Niet BGT*| 	 	(laad/los-)kraan|
-|||| 	 	
-
-#### Waternetwerk
-
-Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-	 
-|Waterwegverbindingen	|Functie:	 ||
-|| 	vaaweg	 ||
-|| 	hydrologie???	 ||
-|||| 	 	 
-||Knooppunten	\Type:	 |
-|| 	kruispunt fysieke wegen	 ||
-|| 	overweg	 ||
-|| 	wijziging attribuutwaarde	 ||
-|| 	tussenpunt	 ||
-||||
-
-
-### Functionele zonering
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | functionele zonering |
-| onderdeel van NEN3610-objecttype |functioneel object  |
-
-
-
-De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en blauwe gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein. Hierbij is aangesloten op de typering zoals voor BGT|IMGeo wordt gebruikt, inclusief de voorstellen voor IMGeo 2.2. Als gevolg van het uitgangspunt dat fysiek en functie worden gescheiden zijn een aantal functies verschoven van voorheen een typering bij een fysiek objecttype naar een eigenstandig functioneel objecttype.
 
 #### GRIJS
 
