@@ -379,14 +379,14 @@ Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
 Voorgesteld wordt per object de volgende metagegevens vast te leggen:
 
 | Aspect  |Beschrijving     |Waarom|
-|---|---|---|
-|Bronverwijzing|Verwijzing naar bron|Dit kan verwijzing zijn naar formeel document (zoals een vergunning), een luchtfoto, maar ook een activiteit die geleid heeft tot opname/wijziging van dit object|
-|Gegevenseigenaar|Vastleggen bronhouder|Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld) is van belang voor autorisatie tot wijziging, maar ook voor routering van terugmeldingen|
+|---|--------------|---|
+|Bronverwijzing|Verwijzing naar bron |Dit kan verwijzing zijn naar formeel document (zoals een vergunning), een luchtfoto, maar ook een activiteit die geleid heeft tot opname/wijziging van dit object|
+|Gegevenseigenaar|Vastleggen bronhouder |Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld) is van belang voor autorisatie tot wijziging, maar ook voor routering van terugmeldingen|
 |   |Vastleggen openbaarheid gebruik|Als default zijn alle objecten in de SOR openbaar toegankelijk|
 |Kwaliteitseisen|n.v.t  op niveau individueel object|   |
 |Kwaliteit|Beschrijving wijze van inwinning|   |
 |   |Beschrijving wijze (gebruikte bronnen) meest recente controle, moment controle en uitvoerder|Vastlegging van controle zijn zowel voor gebruikers als voor de bronhouder zelf van belang|
-|Status|inOnderzoek, InBewerking maar ook *onderzocht*|Omdat de aanduiding inOnderzoek is gekoppeld aan een terugmelding is er behoefte aan een parallelle status ingeval de bronhouder zelf activiteiten rond deze registratie heeft gestart. Bij de status wordt steeds aangegeven op welke attributen het *onderzoek* betrekking heeft. Wanneer onderzoek niet heeft geleid tot wijziging, is het belangrijk dat dit ook herkenbaar is. Valt mogelijk samen met vastlegging (laatste) controle (kwaliteit) |
+|Status|inOnderzoek, InBewerking maar ook *onderzocht*|Omdat de aanduiding inOnderzoek is gekoppeld aan een terugmelding is er behoefte aan een parallelle status ingeval de bronhouder zelf activiteiten rond deze registratie heeft gestart. Wanneer onderzoek niet heeft geleid tot wijziging, is het belangrijk dat dit ook herkenbaar is. Valt mogelijk samen met vastlegging (laatste) controle (kwaliteit) |
 |   |Aantekenveld|Mogelijkheid voor beheerders onderling om informatie uit te wisselen  |
 
 
