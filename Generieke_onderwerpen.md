@@ -339,13 +339,13 @@ Meta-informatie op het niveau van objecttype en attribuuttype leggen we in de hu
 Ontwerpprincipe: *De metagegevens per objecttype en per attribuuttype vormen een integraal onderdeel van de SOR. zodat deze net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken.
 
 **Aandachtspunten**
-•	We willen het opstellen van een brondocument, uitsluitend als metagegeven voor de registratie, zo veel mogelijk vermijden. Brondocumenten die om andere reden bestaan, worden gebruikt als metagegeven. Verdere aspecten van bronverwijzing worden direct in de registratie als metagegeven opgeslagen zonder de formalisering als "brondocument".
+•	Zo veel mogelijk vermijden van het opstellen van een brondocument uitsluitend als metagegeven voor de registratie. Brondocumenten die om andere reden bestaan, worden gebruikt als metagegeven. Verdere aspecten van bronverwijzing worden direct in de registratie als metagegeven opgeslagen zonder de formalisering als "brondocument".
 •	Metagegevens worden bij voorkeur geautomatiseerd vastgelegd. Leveranciers worden gestimuleerd om in de functionaliteit voor bijhouding en controle van de SOR hier expliciet tools voor aan te bieden.
 •	Metagegevens hebben indien mogelijk een defaultwaarde, die vanuit de applicatie automatisch gevuld, zodat alleen door de bronhouder expliciet een gegeven hoeft te worden geregistreerd als wordt afgeweken van deze defaultwaarde.
 
 #### Meta-informatie per objecttype
 
-Voorgesteld wordt per objecttype de volgende metagegevens vast te leggen:
+Per objecttype worden de volgende metagegevens vastgelegd:
 
 |Aspect   |Beschrijving   | Waarom |
 |---|---|---|
@@ -360,7 +360,7 @@ Voorgesteld wordt per objecttype de volgende metagegevens vast te leggen:
 
 #### Meta-informatie per attribuuttype
 
-Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
+Per attribuuttype worden de volgende metagegevens vastgelegd:
 
 | Aspect  |Beschrijving     |Waarom|
 |---|---|---|
@@ -376,11 +376,11 @@ Voorgesteld wordt per attribuuttype de volgende metagegevens vast te leggen:
 
 #### Meta-informatie per object
 
-Voorgesteld wordt per object de volgende metagegevens vast te leggen:
+Per object worden de volgende metagegevens vastgelegd:
 
 | Aspect  |Beschrijving     |Waarom|
-|--------|-------------------------|---|
-|Bronverwijzing|Verwijzing naar bron |Dit kan verwijzing zijn naar formeel document (zoals een vergunning), een luchtfoto, maar ook een activiteit die geleid heeft tot opname/wijziging van dit object|
+|---|---|---|
+|Bronverwijzing |Verwijzing naar bron|Dit kan verwijzing zijn naar formeel document (zoals een vergunning), een luchtfoto, maar ook een activiteit die geleid heeft tot opname/wijziging van dit object|
 |Gegevenseigenaar|Vastleggen bronhouder |Exacte aanduiding wie bronhouder is (welke gemeente bijvoorbeeld) is van belang voor autorisatie tot wijziging, maar ook voor routering van terugmeldingen|
 |   |Vastleggen openbaarheid gebruik|Als default zijn alle objecten in de SOR openbaar toegankelijk|
 |Kwaliteitseisen|n.v.t  op niveau individueel object|   |
@@ -393,7 +393,7 @@ Voorgesteld wordt per object de volgende metagegevens vast te leggen:
 
 #### Meta-informatie per attribuut van een object
 
-Voorgesteld wordt per attribuut de volgende metagegevens vast te leggen:
+Per attribuut worden de volgende metagegevens vastgelegd:
 
 | Aspect  |Beschrijving     |Waarom|
 |---|---|---|
@@ -427,7 +427,7 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 - Zo effectief en efficiënt mogelijk (en daarmee voor belangrijk deel geautomatiseerd) metadata vastleggen 
 - Niet onnodig muteren (met name van geometrie) – alleen het relevante object muteren en niet de aangrenzende objecten in de omgeving allemaal gelijk ook muteren. Het zorgdragen van consistentie van de geometrie is iets voor de producten. Hoe dit het best kan worden opgelost, wordt nog verschillend over gedacht.
 - Zoveel mogelijk als kan werken met domeintabellen in de metadata. Voorbeeld bij inwinning kunnen kiezen uit b.v. terrestrisch, digitalisering, constructie. fotokartering. Dit geldt ook voor "wijze van controle".
-- De ervaring uit de BAG leert dat het opvoeren van brondocumenten een zeer tijdrovende bezigheid is met de vraag of het heeft voldaan aan haar doel. Daarom wordt voorgesteld alleen met formele brondocumenten te werken als deze om andere reden al bestaan (zoals vergunningen). In andere gevallen wordt gebruik van bijvoorbeeld luchtfoto of PBP als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
+- De ervaring uit de BAG leert dat het opvoeren van brondocumenten een zeer tijdrovende bezigheid is met de vraag of het heeft voldaan aan haar doel. Daarom wordt alleen met formele brondocumenten gewerkt als deze om andere reden al bestaan (zoals vergunningen). In andere gevallen wordt gebruik van bijvoorbeeld luchtfoto of PBP als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
 
 
 ### Historie
@@ -436,7 +436,7 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 In deze paragraaf beschrijven we het globaal semantisch historiemodel. Het is gebaseerd op de volgende uitgangspunten:
 -	zo eenvoudig mogelijk. Dus geen registratie en bijhouding van data die niet strikt noodzakelijk zijn voor het beoogde tijdreizen, voor doelmatig beheer door de bronhouder en voor consistentiecontrole op elk willekeurig moment in de tijd. Zo eenvoudig mogelijk betekent ook zo gestandaardiseerd mogelijk. Het model moet geschikt zijn voor alle verschillende objecttypen die binnen de SOR een plek kunnen krijgen en bij voorkeur ook voor andere (basis)registraties. Maximaal aansluiten op bestaande standaarden en ervaringen hoort hier dus ook bij;
 -	een eenduidig model. Dat wil zeggen voor alle attributen binnen de Samenhangende objectenregistratie hetzelfde model en dus geen onderscheid tussen geometrie en administratieve gegevens;
--	Stevige basis gelegen in een internationaal perspectief in combinatie met geldende Nederlandse standaarden. Dus zoveel mogelijk conform internationaal breed omarmde uitgangspunten en best practices, die ook teruggevonden worden in bestaande Nederlandse standaarden. Vanuit deze basis is het voorgestelde historiemodel gebaseerd op twee tijdlijnen (tijdlijn geldigheid en tijdlijn registratie);
+-	Stevige basis gelegen in een internationaal perspectief in combinatie met geldende Nederlandse standaarden. Dus zoveel mogelijk conform internationaal breed omarmde uitgangspunten en best practices, die ook teruggevonden worden in bestaande Nederlandse standaarden. Vanuit deze basis is het historiemodel gebaseerd op twee tijdlijnen (tijdlijn geldigheid en tijdlijn registratie);
 -	tijdreizen in het verleden en in de toekomst. Voor het vastleggen van tijdlijnen in de toekomst wordt dezelfde systematiek gebruikt als voor tijdlijnen in het verleden. Natuurlijk is deze werkwijze alleen mogelijk wanneer tijdlijnen in de toekomst relatief eenvoudig bijgesteld kunnen worden. Natuurlijk kent alleen de tijdlijn geldigheid data in de toekomst. De tijdlijn registratie is gebaseerd op het moment van registreren en deze wordt in beginsel bepaald door de computerklok;
 -	maximale ondersteuning door techniek. De bronhouder moet weinig inspanningen hoeven te doen om de tijdlijnen vast te leggen. Dat hangt deels samen met bepaalde definities (beginGeldigheid van geometrie gemeten in een luchtfoto zal gelijk zijn aan de datum waarop de foto gemaakt is, zonder verplichting tot nader onderzoek, wanneer de werkelijke beginGeldigheid niet blijkt uit andere processen). Ook de te bieden functionaliteit om te bewaken of toekomstmutaties niet ten onrechte in de registratie de actualiteit worden door het voortschrijden van de tijd, is daarbij een belangrijke randvoorwaarde.
 
@@ -444,7 +444,7 @@ In deze paragraaf beschrijven we het globaal semantisch historiemodel. Het is ge
 Het globaal semantisch historiemodel laat zich het best beschrijven vanuit het perspectief van de gebruiker/afnemer. Het model geeft daarmee aan op welke wijze de gebruiker met de gegevens in de SOR een tijdreis kan maken
 
 ##### Tijdlijn geldigheid en tijdlijn registratie
-Voorgesteld wordt het historiemodel te baseren op twee tijdlijnen, namelijk de tijdlijn geldigheid en de tijdlijn registratie. Daarmee adviseren de experts om de in Nederlandse standaarden veel gebruikte benamingen voor de twee tijdlijnen (materiële en formele historie) niet te gebruiken, omdat tijdens het onderzoek dat aan dit advies ten grondslag ligt, is gebleken dat de begrippen materiële en formele historie in verschillende standaarden en verschillende praktijktoepassingen anders gedefinieerd en toegepast worden.
+Het historiemodelis gebaseerd op twee tijdlijnen, namelijk de tijdlijn geldigheid en de tijdlijn registratie. Daarmee adviseren de experts om de in Nederlandse standaarden veel gebruikte benamingen voor de twee tijdlijnen (materiële en formele historie) niet te gebruiken, omdat tijdens het onderzoek dat aan dit advies ten grondslag ligt, is gebleken dat de begrippen materiële en formele historie in verschillende standaarden en verschillende praktijktoepassingen anders gedefinieerd en toegepast worden.
 Hoewel de benaming van de gebruikte tijdlijnen daarmee afwijkt van de bestaande standaarden en praktijktoepassingen zullen de voor deze tijdlijnen gebruikte attributen wel door iedereen worden herkend. Dit zijn voor de tijdlijn geldigheid beginGeldigheid en eindGeldigheid (aangevuld met ingangsdatumObject en einddatumObject voor de bestaansperiode (levensduur) van het object).
 Voor de tijdlijn registratie is dit het attribuut tijdstipRegistratie. tijdstipRegistratie betreft de tijdstempel die door de computerklok wordt geplaats op het moment dat het desbetreffende gegeven (attribuut) beschikbaar wordt gesteld voor de gebruiker.
 
@@ -460,10 +460,10 @@ Deze voorziening kan bijvoorbeeld bestaan uit een overzicht van de wijzigingen d
 Bij de registratie zijn toekomstmutaties mogelijk, maar dit is niet "de regel". Veel mutaties in de SOR worden aangebracht op basis van "constateringen" en deze worden dan dus vastgelegd met een beginGeldigheid in het verleden, bijvoorbeeld de datum van de luchtfoto waaraan de constatering wordt ontleend.
 
 ##### Levensduur; IngangsdatumObject en einddatumObject
-Hoewel het vastleggen van de levensduur van een object (ingangsdatumObject en einddatumObject) redundant is, omdat deze levensduur altijd afgeleid kan worden uit de tijdlijn geldigheid, wordt in het voorgestelde historiemodel er wel vanuit gegaan dat de levensduur afzonderlijk wordt geregistreerd. De ingangsdatumObject zal gelijk zijn aan de oudste beginGeldigheid voor een status "bestaand/geldig" van het betreffende object. Een gebruiker kan deze ingangsdatumObject eventueel zelf afleiden uit de tijdlijn geldigheid, maar er wordt voor gekozen om, parallel aan de registratie van geboortedatum en overlijdensdatum bij personen, de ingangsdatumObject en einddatumObject wel afzonderlijk in de registratie (of in ieder geval in de informatieproducten) op te nemen.
+Hoewel het vastleggen van de levensduur van een object (ingangsdatumObject en einddatumObject) redundant is, omdat deze levensduur altijd afgeleid kan worden uit de tijdlijn geldigheid, wordt in het historiemodel er vanuit gegaan dat de levensduur afzonderlijk wordt geregistreerd. De ingangsdatumObject zal gelijk zijn aan de oudste beginGeldigheid voor een status "bestaand/geldig" van het betreffende object. Een gebruiker kan deze ingangsdatumObject eventueel zelf afleiden uit de tijdlijn geldigheid, maar er wordt voor gekozen om, parallel aan de registratie van geboortedatum en overlijdensdatum bij personen, de ingangsdatumObject en einddatumObject wel afzonderlijk in de registratie (of in ieder geval in de informatieproducten) op te nemen.
 
 ##### Toepassing per attribuut/objecttype
-Het hierboven geschetste model wprdt verplicht  voor alle onderdelen van de SOR. Afnemers kunnen daarbij per attribuut informatie krijgen over beide tijdlijnen. Dit is volgens het voorgestelde historiemodel in samenhang met het voor de SOR op te stellen informatiemodel in beginsel beperkt tot die attributen waarvoor in het informatiemodel wordt vastgelegd dat zij voorzien worden van een tijdlijn geldigheid of van een tijdlijn geldigheid plus tijdlijn registratie. Het aanduiden van het relevant zijn van deze tijdlijnen kan in het informatiemodel, wanneer dat conform het Metamodel voor informatiemodellen (MIM 1.1) wordt opgesteld (Binnen het MIM 1.1 worden nog wel de begrippen materiële en formele historie gebruikt).
+Het hierboven geschetste model wprdt verplicht  voor alle onderdelen van de SOR. Afnemers kunnen daarbij per attribuut informatie krijgen over beide tijdlijnen. Dit is volgens het historiemodel in samenhang met het voor de SOR op te stellen informatiemodel in beginsel beperkt tot die attributen waarvoor in het informatiemodel wordt vastgelegd dat zij voorzien worden van een tijdlijn geldigheid of van een tijdlijn geldigheid plus tijdlijn registratie. Het aanduiden van het relevant zijn van deze tijdlijnen kan in het informatiemodel, wanneer dat conform het Metamodel voor informatiemodellen (MIM 1.1) wordt opgesteld (Binnen het MIM 1.1 worden nog wel de begrippen materiële en formele historie gebruikt).
 
 Er zou bijvoorbeeld afgezien kunnen worden van het vastleggen van deze tijdlijnen, wanneer geen enkele gebruiker nu of in de toekomst behoefte heeft aan deze tijdlijnen voor het desbetreffende attribuut. Een voorbeeld hiervan zou kunnen zijn de toegang tot een verblijfsobject. Dit kenmerk van een verblijfsobject is vooral van belang om hulpdiensten te ondersteunen bij het zo snel mogelijk binnenkomen van een verblijfsobject. Dit is uitsluitend relevant in de actuele situatie. Het in de SOR opnemen van een tijdlijn voor het attribuut toegang is daarom mogelijk niet relevant is, omdat geen enkele afnemer geïnteresseerd is in het feit dat in het verleden de toegang tot dit verblijfsobject elders was. Aan de andere kant kan ook de principiële keuze gemaakt worden dat gegevens in een basisregistratie "niet weggegooid worden". Dat uitgangspunt zou betekenen dat voor alle attributen in de SOR zowel de tijdlijn geldigheid als de tijdlijn registratie verplicht zouden zijn.
 
