@@ -4,6 +4,322 @@ In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de versc
 
 Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
 
+
+
+
+### GEBOUW
+
+#### Gebouw
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Gebouw  |
+| onderdeel van NEN3610-objecttype |Gebouw  |
+
+**Definitie**
+
+| Naam  | Gebouw  |
+|---|---|
+| Definitie | Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen. |
+|Herkomst definitie  |Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen en de INSPIRE richtlijn |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
+|Toelichting| *volgt later* |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Gebouw  |Ja |
+|Geometrie |De geometrische representatie van de randen van een gebouw *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Typering |Het doel waarvoor een gebouw gebruikt wordt  |Ja|
+|Aard|De fysieke verschijningsvorm van een gebouw
+*nader te bepalen of  deze typering ook een antwoord geeft op de vraag in welke hoogteklasse een gebouw is gelegen, welke soortnaam het betreft en van welk fysiek voorkomen sprake is*   |Ja|
+|Oorspronkelijk bouwjaar | DDe aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
+|Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+|Toegangsdeur| NTB ||
+|Aantal bouwlagen | NTB||
+|Status   |De fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+| Waarde Typering| Beschrijving   |
+|---|---|
+|Woning| |
+| Bedrijf ||
+|||
+| ... |*aanvullingen BRT en Bgt??* |
+
+| Waarde Status | Beschrijving   |
+|---|---|
+|Gepland||
+|Bouwvergunning verleend||
+|Sloopvergunning verleend||
+|In aanbouw||
+|Bestaand||
+|In verbouw||
+|Gesloopt||
+|Niet gerealiseerd||
+|Ten onrechte||
+
+
+#### Bouwlaag
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Bouwlaag  |
+| onderdeel van NEN3610-objecttype |Gebouw  |
+
+**Definitie**
+
+| Naam  | Bouwlaag  |
+|---|---|
+| Definitie | De verzameling van ruimten die zijn gelegen op hetzelfde niveau binnen een gebouw |
+|Herkomst definitie  |Gebaseerd op de definitie van het begrip Bouwlaag (IfcBuildingStorey) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype |
+|Toelichting| *volgt later* |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Bouwlaag  |Ja |
+|Geometrie |De geometrische representatie van de randen van een Bouwlaag *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Bowlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
+|Oppervlakte| NTB||
+|Status   |De fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|Bouwlaag|Ligt in|Gebouw|
+
+**Domeinwaarden**
+
+
+| Waarde Status | Beschrijving   |
+|---|---|
+|Gepland||
+|Bouwvergunning verleend||
+|Sloopvergunning verleend||
+|In aanbouw||
+|Bestaand||
+|In verbouw||
+|Gesloopt||
+|Niet gerealiseerd||
+|Ten onrechte||
+
+#### Ruimte
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Ruimte  |
+| onderdeel van NEN3610-objecttype |Gebouw  |
+
+**Definitie**
+
+| Naam  | Ruimte  |
+|---|---|
+| Definitie | Een voor mensen toegankelijk deel van een gebouw, dat ten minste aan de onderzijde en/of de bovenzijde wordt begrensd door een scheidingsconstructie en dat een netto-hoogte heeft van tenminste 1,5 m|
+|Herkomst definitie  |Ontleend aan NEN 2580 en aansluitend op het begrip Ruimte (IfcSpace) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype |
+|Toelichting| *volgt later* |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Ruimte  |Ja |
+|Geometrie |De geometrische representatie van de randen van een Ruimte *nader te preciseren op basis van generieke uitspraken over de vastlegging |van geometrie*  |Ja|
+|Typering|Het doel waarvoor een ruimte gebruikt wordt|Ja|
+|Bouwlaagnummer |De bouwlaag waarop de ruimte zich bevindt|Ja|
+|Oppervlakte| NTB||
+|Status   |De fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|Ruimte|Ligt op|Bouwlaag|
+
+**Domeinwaarden**
+
+| Waarde Typering| Beschrijving   |
+|---|---|
+|Woonkamer| |
+|Keuken ||
+|||
+| ... |*lijst vanuit BIM checken* |
+
+| Waarde Status | Beschrijving   |
+|---|---|
+|Gepland||
+|Bouwvergunning verleend||
+|Sloopvergunning verleend||
+|In aanbouw||
+|Bestaand||
+|In verbouw||
+|Gesloopt||
+|Niet gerealiseerd||
+|Ten onrechte||
+
+#### Installatie
+
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Installatie  |
+| onderdeel van NEN3610-objecttype |Gebouw  |
+
+**Definitie**
+
+| Naam  | Installatie  |
+|---|---|
+| Definitie | Geheel van een relevantie installatie of andere voorziening in of aan en ten dienste van het Gebouw|
+|Herkomst definitie  |Gebaseerd op de GebouwInstallatie uit NEN 2580/ Bouwbesluit/ INSPIRE, IFC-elementen uit de concepten rondom Bouwwerkinformatiemodellen (BIM) en enkele aspecten van  fysieke deelobjecten uit de WOZ|
+|Verplicht  | Nee  *nader te bepalen* |
+|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype. *Nog nader bepaald zal worden hoe we een en ander afstemmen op het BGT objecttype gebouwdeel en op het feit dat installaties ook bij andere objecten dan gebouwen kunnen behoren*|
+|Toelichting| *volgt later* |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Installatie  |Ja |
+|Geometrie |De geometrische representatie van de randen van een Installatie *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Aard|Het doort installatie|Ja|
+|Bijbehorend object |Het object waarbij de betreffende installatie behoort|Ja|
+|Status   |De fase van de levenscyclus waarin de betreffende installatie zich bevindt   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|Installatie|Hoort bij|Verblijfsobject|
+|Installatie|Hoort bij|Gebouw|
+
+**Domeinwaarden**
+
+| Waarde Aard| Beschrijving   |
+|---|---|
+|zonnepanelen < 5 kWp| |
+|zonnepanelen > 5 kWp| |
+|dakkapel ||
+|lift||
+| ... |*lijst vanuit elders checken* |
+
+| Waarde Status | Beschrijving   |
+|---|---|
+|Gepland||
+|Bouwvergunning verleend||
+|Sloopvergunning verleend||
+|In aanbouw||
+|Bestaand||
+|In verbouw||
+|Gesloopt||
+|Niet gerealiseerd||
+|Ten onrechte||
+
+#### Toegangsdeur
+
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Toegangsdeur  |
+| onderdeel van NEN3610-objecttype |Gebouw  |
+
+**Definitie**
+
+| Naam  | Toegangsdeur |
+|---|---|
+| Definitie | Deur of andere voorziening die vanaf de openbare weg, een erf of een gedeelde verkeersruimte toegang geeft tot een object|
+|Herkomst definitie  |Begrip sluit aan bij het begrip Deur (IfcDoor) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
+|Verplicht  | Nee  *nader te bepalen* |
+|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype.  *Bekeken zal nog moeten worden in hoeverre we dit objecttype ook willen relateren aan objecten als kunstwerken en andere constructies.*|
+|Toelichting| *volgt later* |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Toegangsdeur  |Ja |
+|Geometrie |De geometrische representatie van een Toegangsdeur *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Aard|De plaats waarvan de toegangsdeur toegang geeft|Ja|
+|Tyoe|het soort toegangsdeur|Ja|
+|Bijbehorend object |Het object waarin de betreffende toegangsdeur zich bevindt|Ja|
+|Status   |De fase van de levenscyclus waarin de betreffende Toegangsdeur zich bevindt   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|Toegangsdeur|Hoort bij|Verblijfsobject|
+|Toegangsdeur|Hoort bij|Gebouw|
+
+**Domeinwaarden**
+
+| Waarde Aard| Beschrijving   |
+|---|---|
+|directe toegang vanaf eigen terrein| |
+|directe toegang vanaf openbare weg| |
+|toegang vanaf gemeenschappelijke verkeersruimte ||
+
+| Waarde Type| Beschrijving   |
+|---|---|
+|Personen| |
+|Auto| |
+|Vracht||
+
+| Waarde Status | Beschrijving   |
+|---|---|
+|Gepland||
+|Bestaand||
+|Verwijderd|
+|Niet gerealiseerd||
+|Ten onrechte||
+
+
+
+
+### *Bouwwerkconstructie*
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | constructie  |
+| onderdeel van NEN3610-objecttype | constructie  |
+
+De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
+
+*voorheen werd dit **overige bouwwerken** genoemd* 
+
+|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|---------------------------|--------------------------------|
+|Type:| |	
+|bezinkbak	 ||
+|lage trafo	 ||
+|Bassin	 ||
+|*Niet BGT*	|sleufsilo|
+|*Niet BGT*	|infiltratiereservoir|
+
+
+
+
 ### GRIJS 
 #### Verharding
 
@@ -1627,328 +1943,8 @@ ontwerpprincipe:
 
 
 
-### GEBOUW
-
-#### Gebouw
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Gebouw  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
-
-**Definitie**
-
-| Naam  | Gebouw  |
-|---|---|
-| Definitie | Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen. |
-|Herkomst definitie  |Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen en de INSPIRE richtlijn |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
-|Toelichting| *volgt later* |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een Gebouw  |Ja |
-|Geometrie |De geometrische representatie van de randen van een gebouw *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
-|Typering |Het doel waarvoor een gebouw gebruikt wordt  |Ja|
-|Aard|De fysieke verschijningsvorm van een gebouw
-*nader te bepalen of  deze typering ook een antwoord geeft op de vraag in welke hoogteklasse een gebouw is gelegen, welke soortnaam het betreft en van welk fysiek voorkomen sprake is*   |Ja|
-|Oorspronkelijk bouwjaar | DDe aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
-|Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-|Toegangsdeur| NTB ||
-|Aantal bouwlagen | NTB||
-|Status   |De fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
-
-**Domeinwaarden**
-
-| Waarde Typering| Beschrijving   |
-|---|---|
-|Woning| |
-| Bedrijf ||
-|||
-| ... |*aanvullingen BRT en Bgt??* |
-
-| Waarde Status | Beschrijving   |
-|---|---|
-|Gepland||
-|Bouwvergunning verleend||
-|Sloopvergunning verleend||
-|In aanbouw||
-|Bestaand||
-|In verbouw||
-|Gesloopt||
-|Niet gerealiseerd||
-|Ten onrechte||
-
-
-#### Bouwlaag
-
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Bouwlaag  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
-
-**Definitie**
-
-| Naam  | Bouwlaag  |
-|---|---|
-| Definitie | De verzameling van ruimten die zijn gelegen op hetzelfde niveau binnen een gebouw |
-|Herkomst definitie  |Gebaseerd op de definitie van het begrip Bouwlaag (IfcBuildingStorey) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype |
-|Toelichting| *volgt later* |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een Bouwlaag  |Ja |
-|Geometrie |De geometrische representatie van de randen van een Bouwlaag *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
-|Bowlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
-|Oppervlakte| NTB||
-|Status   |De fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|Bouwlaag|Ligt in|Gebouw|
-
-**Domeinwaarden**
-
-
-| Waarde Status | Beschrijving   |
-|---|---|
-|Gepland||
-|Bouwvergunning verleend||
-|Sloopvergunning verleend||
-|In aanbouw||
-|Bestaand||
-|In verbouw||
-|Gesloopt||
-|Niet gerealiseerd||
-|Ten onrechte||
-
-#### Ruimte
-
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Ruimte  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
-
-**Definitie**
-
-| Naam  | Ruimte  |
-|---|---|
-| Definitie | Een voor mensen toegankelijk deel van een gebouw, dat ten minste aan de onderzijde en/of de bovenzijde wordt begrensd door een scheidingsconstructie en dat een netto-hoogte heeft van tenminste 1,5 m|
-|Herkomst definitie  |Ontleend aan NEN 2580 en aansluitend op het begrip Ruimte (IfcSpace) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype |
-|Toelichting| *volgt later* |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een Ruimte  |Ja |
-|Geometrie |De geometrische representatie van de randen van een Ruimte *nader te preciseren op basis van generieke uitspraken over de vastlegging |van geometrie*  |Ja|
-|Typering|Het doel waarvoor een ruimte gebruikt wordt|Ja|
-|Bouwlaagnummer |De bouwlaag waarop de ruimte zich bevindt|Ja|
-|Oppervlakte| NTB||
-|Status   |De fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|Ruimte|Ligt op|Bouwlaag|
-
-**Domeinwaarden**
-
-| Waarde Typering| Beschrijving   |
-|---|---|
-|Woonkamer| |
-|Keuken ||
-|||
-| ... |*lijst vanuit BIM checken* |
-
-| Waarde Status | Beschrijving   |
-|---|---|
-|Gepland||
-|Bouwvergunning verleend||
-|Sloopvergunning verleend||
-|In aanbouw||
-|Bestaand||
-|In verbouw||
-|Gesloopt||
-|Niet gerealiseerd||
-|Ten onrechte||
-
-#### Installatie
-
-
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Installatie  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
-
-**Definitie**
-
-| Naam  | Installatie  |
-|---|---|
-| Definitie | Geheel van een relevantie installatie of andere voorziening in of aan en ten dienste van het Gebouw|
-|Herkomst definitie  |Gebaseerd op de GebouwInstallatie uit NEN 2580/ Bouwbesluit/ INSPIRE, IFC-elementen uit de concepten rondom Bouwwerkinformatiemodellen (BIM) en enkele aspecten van  fysieke deelobjecten uit de WOZ|
-|Verplicht  | Nee  *nader te bepalen* |
-|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype. *Nog nader bepaald zal worden hoe we een en ander afstemmen op het BGT objecttype gebouwdeel en op het feit dat installaties ook bij andere objecten dan gebouwen kunnen behoren*|
-|Toelichting| *volgt later* |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een Installatie  |Ja |
-|Geometrie |De geometrische representatie van de randen van een Installatie *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
-|Aard|Het doort installatie|Ja|
-|Bijbehorend object |Het object waarbij de betreffende installatie behoort|Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende installatie zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|Installatie|Hoort bij|Verblijfsobject|
-|Installatie|Hoort bij|Gebouw|
-
-**Domeinwaarden**
-
-| Waarde Aard| Beschrijving   |
-|---|---|
-|zonnepanelen < 5 kWp| |
-|zonnepanelen > 5 kWp| |
-|dakkapel ||
-|lift||
-| ... |*lijst vanuit elders checken* |
-
-| Waarde Status | Beschrijving   |
-|---|---|
-|Gepland||
-|Bouwvergunning verleend||
-|Sloopvergunning verleend||
-|In aanbouw||
-|Bestaand||
-|In verbouw||
-|Gesloopt||
-|Niet gerealiseerd||
-|Ten onrechte||
-
-#### Toegangsdeur
-
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Toegangsdeur  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
-
-**Definitie**
-
-| Naam  | Toegangsdeur |
-|---|---|
-| Definitie | Deur of andere voorziening die vanaf de openbare weg, een erf of een gedeelde verkeersruimte toegang geeft tot een object|
-|Herkomst definitie  |Begrip sluit aan bij het begrip Deur (IfcDoor) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
-|Verplicht  | Nee  *nader te bepalen* |
-|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype.  *Bekeken zal nog moeten worden in hoeverre we dit objecttype ook willen relateren aan objecten als kunstwerken en andere constructies.*|
-|Toelichting| *volgt later* |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een Toegangsdeur  |Ja |
-|Geometrie |De geometrische representatie van een Toegangsdeur *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
-|Aard|De plaats waarvan de toegangsdeur toegang geeft|Ja|
-|Tyoe|het soort toegangsdeur|Ja|
-|Bijbehorend object |Het object waarin de betreffende toegangsdeur zich bevindt|Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende Toegangsdeur zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|Toegangsdeur|Hoort bij|Verblijfsobject|
-|Toegangsdeur|Hoort bij|Gebouw|
-
-**Domeinwaarden**
-
-| Waarde Aard| Beschrijving   |
-|---|---|
-|directe toegang vanaf eigen terrein| |
-|directe toegang vanaf openbare weg| |
-|toegang vanaf gemeenschappelijke verkeersruimte ||
-
-| Waarde Type| Beschrijving   |
-|---|---|
-|Personen| |
-|Auto| |
-|Vracht||
-
-| Waarde Status | Beschrijving   |
-|---|---|
-|Gepland||
-|Bestaand||
-|Verwijderd|
-|Niet gerealiseerd||
-|Ten onrechte||
-
-
 
 **hieronder checken of dit nog meegenomen moet worden**
-
-### Bebouwing
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | bebouwing  |
-| onderdeel van NEN3610-objecttype | gebouw  |
-
-De typering behorende bij de aan gebouwen gerelateerde fysieke objecttypen zal in het vervolgtraject nader worden onderzocht.
-
-
-
-
-### Bouwwerkconstructie
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | constructie  |
-| onderdeel van NEN3610-objecttype | constructie  |
-
-De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
-
-*voorheen werd dit **overige bouwwerken** genoemd* 
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Type:| |	
-|bezinkbak	 ||
-|lage trafo	 ||
-|Bassin	 ||
-|*Niet BGT*	|sleufsilo|
-|*Niet BGT*	|infiltratiereservoir|
-
 
 
 
