@@ -166,10 +166,6 @@ NEN3610
 - Richt zich NIET op topologieregels
 - Heeft het dus ook niet over ‘opdelend’ of ‘inrichtend’ of over een referentielaag als het maaiveld
 
-Dit is het semantische model van NEN3610: 
-
-![semantisch model lNEN3610](media/Semantisch_model_NEN3610_v5.png)
-
 **Topologie**
 
 ontwerpprincipe: *Het semantisch model van de SOR conformeert zich aan NEN3610*
