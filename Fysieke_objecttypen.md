@@ -1826,7 +1826,14 @@ ontwerpprincipe:
 
 
 
-### muur
+
+
+
+
+
+### CONSTRUCTIE; OVERIGE
+
+#### muur
   
 | klasse  | naam  |
 |---|---|
@@ -1851,12 +1858,12 @@ ontwerpprincipe:
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip muur|Ja |
 |Geometrie-type|lijn|Ja|
-|Geometrie-type|vlak|nee|
+|Geometrie-type|vlak|Nee|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-### hek
+#### hek
   
 | klasse  | naam  |
 |---|---|
@@ -1885,7 +1892,7 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-### raster
+#### raster
   
 | klasse  | naam  |
 |---|---|
@@ -1914,7 +1921,7 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-### scherm
+#### scherm
   
 | klasse  | naam  |
 |---|---|
@@ -1943,12 +1950,6 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-
-
-
-
-
-### CONSTRUCTIE; OVERIGE
 
 
 #### kademuur
