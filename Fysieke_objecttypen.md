@@ -67,7 +67,14 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|||
+|Identificatie   |De unieke aanduiding van het SOR-begrip water |Ja |
+|Geometrie-type|vlak|Ja|
+|Afbakening   |  Een watervlak bestaat uit één type water. |Ja   |
+|Status   |   |Ja   |
+|type water|aanduiding soort water|Ja|
+|type water plus|aanduiding soort water|Nee|
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -81,7 +88,16 @@ ontwerpprincipe:
 |---|---|
 |||
 
+lege regel hoe?
 
+|Waarde type water| Beschrijving   |Herkomst|
+|---|---|---|
+|waterloop|||
+|bron|||
+|watervlakte|||
+|Getijdegebied|||
+|Slik|||
+|Kwelder|||
 
 #### Waterloop
 
