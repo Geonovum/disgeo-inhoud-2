@@ -411,7 +411,7 @@ lege regel hoe?
 |   Kunstgras|Kunstgras is een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|IMBOR2020|
 
 
-#### muur
+### muur
   
 | klasse  | naam  |
 |---|---|
@@ -441,9 +441,97 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+### hek
+  
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | hek |
+| onderdeel van NEN3610-objecttype | **constructie** |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | hek |
+|---|---|
+| Definitie | Een hekwerk of schutting om een gebied af te scheiden of de toegang te beheren.|
+|Herkomst definitie  |nieuw|
+|Verplicht  | *staat ter discussie* |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip hek|Ja |
+|Geometrie-type|lijn|Ja|
+|Afbakening   |  | |
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+### raster
+  
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | raster |
+| onderdeel van NEN3610-objecttype | **constructie** |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | raster |
+|---|---|
+| Definitie |Kunstmatige terreinafscheiding, in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen gaas of één of meerdere draden.|
+|Herkomst definitie  |Gegevenscatalogus IMGeo 2.1.1 *deels aangepast*|
+|Verplicht  | nee  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip raster|Ja |
+|Geometrie-type|lijn|Ja|
+|Afbakening   |  | |
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+### scherm
+  
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | scherm |
+| onderdeel van NEN3610-objecttype | **constructie** |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | scherm |
+|---|---|
+| Definitie |Een lineaire constructie, typisch bedoeld om te reduceren. |
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip scherm|Ja |
+|Geometrie-type|lijn|Ja|
+|Afbakening   |  | |
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 ### ZWART
+
+#### Bodem
 
 | klasse  | naam  |
 |---|---|
@@ -472,6 +560,8 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |type bodem|aanduiding soort verharding|Ja|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Domeinwaarden**
 
 |Waarde type bodem| Beschrijving   |Herkomst|
 |---|---|---|
@@ -1867,101 +1957,7 @@ ontwerpprincipe:
 |Verplicht  | ja  |
 |Toelichting|  |
 
-#### geluidsscherm
 
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | geluidsscherm |
-| onderdeel van NEN3610-objecttype |Constructie  |
-
-
-**Definitie**
-
-| Naam  | geluidsscherm  |
-|---|---|
-| Definitie |Een scheidende constructie bedoeld om geluidshinder in de buitenlucht te verminderen.    |
-|Herkomst definitie  |    |
-|Verplicht  | ja  |
-|Toelichting|  |
-
-#### hek
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | hek |
-| onderdeel van NEN3610-objecttype |Constructie  |
-
-
-**Definitie**
-
-| Naam  | hek  |
-|---|---|
-| Definitie |Begrenzing van een terrein in de vorm van een afrastering of schutting.   |
-|Herkomst definitie  |    |
-|Verplicht  | ja  |
-|Toelichting|  |
-
-
-
-
-#### schutting
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | schutting |
-| onderdeel van NEN3610-objecttype | Constructie|
-
-
-**Definitie**
-
-| Naam  | schutting  |
-|---|---|
-| Definitie |Terreinafscheiding van aaneengesloten elementen, meestal hout of beton.   |
-|Herkomst definitie  |    |
-|Verplicht  | ja  |
-|Toelichting|  |
-
-#### afrastering
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | afrastering |
-| onderdeel van NEN3610-objecttype |Constructie  |
-
-
-**Definitie**
-
-| Naam  | afrastering  |
-|---|---|
-| Definitie |Kunstmatige terreinafscheiding in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen een of meerdere draden.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-
-
-
-
-
-**hieronder checken of dit nog meegenomen moet worden**
-
-
-
-
-
-### Onbepaald terreindeel
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | onbepaald terreindeel  |
-| onderdeel van NEN3610-objecttype | Bodem  |
-
-Het objecttype ‘Onbepaald terreindeel’ is een nieuw objecttype. Voorgesteld wordt om de volgende typering op te nemen:
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Fysiek voorkomen:| |	 
-|Onbekend||	
 
 ### Groenobject
 
