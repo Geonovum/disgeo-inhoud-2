@@ -136,3 +136,45 @@ Aandachtspunten:
 - Parkeergarages en metrostations zijn ondergrondse gebouwen.
 - Metrobuizen zijn een soort tunnels.
 - Afval apart plaats (=ondergrondse afval container) is een object dat bovengronds toegankelijk is
+
+### Regels voor opzet en definities
+
+We toetsen de opzet en definities aan een aantal regels om te bepalen hoe goed de opzet/een definitie is. Hoe meer aan deze regels wordt voldaan, hoe groter de kans dat de definities bruikbaar zijn om mede daarmee een  een samenhangend informatiemodel creëren. 
+
+Het lukt niet altijd een definitie aan alle regels te laten voldoen. Dat heeft veelal te maken met de leesbaarheid van de definitie. Een definitie kan te abstract worden of grammaticaal te ingewikkeld worden voor een lezer om te begrijpen wat er bedoeld wordt. Daarom zijn de regels voor definities slechts indicatief bedoeld. Het zijn hulpmiddelen om te komen tot een goede definitie, maar er kan bewust van worden afgeweken. Probeer dat wel zo min mogelijk te doen. 
+
+#### Regels ten aanzien van opzet
+
+We werken met concepten. Dit zijn objecttypen, eigenschappen en relaties. Bij inhoudelijke inrichting volgen we het mechanisme van de internationale standaarden. (bouw standaarden met standaarden. Bv DublinCore, SKOS, W3C) 
+
+De objecttypen hebben onderlinge relaties. Die relaties worden expliciet benoemd. De meest relevante/voorkomende relatietypen m.b.t. de SOR zijn: 
+
+- Taxonomie: De specialisatie of nadere typering van algemenere objecttypen. Bijvoorbeeld een eik is een type boom, wordt ook wel subtypering genoemd. 
+
+- Compositie: Objecten bestaan uit onderdelen, welke op hun beurt ook objecten zijn. Bijvoorbeeld, een tak is een onderdeel van een boom. 
+
+Er is strikt onderscheid tussen fysieke objecten en functionele, registratieve, geografische objecttypen. Fysieke objecten zijn in de werkelijkheid zichtbare en tastbare objecten. De andere typen zijn virtuele, thematische objecten. Bijvoorbeeld, een gemeentegrens bestaat alleen op de kaart of in een registratie. Het bord dat in de werkelijkheid de grens markeert is een fysiek object. 
+
+#### Regels ten aanzien van definities
+
+Een definitie: 
+
+-	beschrijft één begrip
+
+-	overlapt inhoudelijk niet andere definities (met uitzondering wanneer het ene objecttype een subtype is van het andere) 
+
+-	voegt een onderscheidend kenmerk toe t.o.v. het algemenere supertype, wat bepalend is voor de nadere (sub-)typering. (Een beweegbare brug (subtype) is een brug (supertype) die open kan worden gezet (het onderscheidende kenmerk)) 
+
+-	is gebaseerd op de betekenis van een objecttype en niet op zijn afbakening of geometrische weergave. (een oever wordt niet bepaald door zijn breedte of talud of topologische weergave in een kaart, maar door zijn functie bijv. m.b.t. waterbeheersing) 
+
+-	is gebaseerd op de betekenis van een object en niet op opname eisen (er kan besloten worden om een object o.b.v. zijn omvang wel of niet in te winnen, maar dat is geen onderdeel van de definitie) 
+
+-	is specifiek en bevat derhalve geen indicatieve termen als “vaak”, “veelal, “in principe”, “zoals” etc. 
+
+-	bij fysieke objecten beschrijft het totstandkomingsproces, de samenstelling en bij gemaakte objecten het (gebruiks-)doel 
+
+-	van fysieke objecttypen bevat geen delen die te maken heeft met functionele, registratieve, geografische aspecten 
+
+-	van fysieke objecten bevat geen voorbeelden (van voorkomens, materialen, samenstelling etc.) 
+
+-	van functionele, registratieve, geografische objecttypen bevat geen delen die te maken hebben met aspecten van fysieke objecten
