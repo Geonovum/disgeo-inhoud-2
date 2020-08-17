@@ -13,13 +13,12 @@ Deze typering is in deze fase van het traject vooral bedoeld om een eerste indru
 
 ontwerpprincipe: 
 
-
 **Definitie**
 
 | Naam  | bodem |
 |---|---|
-| Definitie ||
-|Herkomst definitie  ||
+| Definitie |Bovenste deel van het natuurlijke aardoppervlak.|
+|Herkomst definitie  |concept NEN3610 2020|
 |Verplicht  | Ja  |
 |Toelichting| *volgt later*  |
 
@@ -31,7 +30,7 @@ ontwerpprincipe:
 |Geometrie-type|vlak|Ja|
 |Afbakening   |  bodem niet verharding of begroeiing. Het gaat hierbij over het type  waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met ander type hoeft geen apart vlak te worden gevormd.|Ja   |
 |Status   |   |Ja   |
-|type bodem|aanduiding soort verharding|Ja|
+|type bodem|aanduiding soort bodem|Ja|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Domeinwaarden**
@@ -80,7 +79,9 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|||
+|waterloop|bestaat uit|bron|
+|watervlakte|bestaat uit|bron|
+|zee|bestaat uit|slik|
 
 **Domeinwaarden**
 
@@ -96,7 +97,6 @@ lege regel hoe?
 |bron|Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt.|IMGeo 2.1.1|
 |watervlakte|een verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat |AQUO lex|
 |getijdegebied|Geheel of gedeeltelijk droogvallende gronden, buitendijks gelegen.|BRT|
-
 
 lege regel hoe?
 
@@ -979,16 +979,16 @@ lege regel hoe?
 
 |Waarde type verharding plus| Beschrijving   |Herkomst|
 |---|---|---|
-|asfaltverharding||| 
+|**asfaltverharding**||| 
 |   Zoab en open deklagen|**geen definitie opgenomen in IMBOR**|IMBOR2020|
 |   Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
 |   Dichte deklagen|**geen definitie opgenomen in IMBOR**|IMBOR2020|
-|betonverharding|||
+|**betonverharding**|||
 |   Ongewapend verdeuveld beton|Ongewapend verdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘verdeuveld’ genoemd.|IMBOR2020|
 | 	Gewapend beton|**geen definitie opgenomen in IMBOR**|IMBOR2020|
 | 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
 | 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|IMBOR2020|
-|elementenverharding|||
+|**elementenverharding**|||
 |   Natuursteen|Type gedetailleerd van verhardingsobject, elementenverharding, verharding bestaande uit elementen van natuursteen.|IMBOR2020|
 | 	Straatbaksteen|Type gedetailleerd van verhardingsobject, elementenverharding, straatbaksteen is de formele benaming uit NEN-EN1344. In de CROW Systematiek Wegbeheer wordt dit ‘gebakken klinkers’ genoemd.|IMBOR2020|
 | 	Glas|Type gedetailleerd van verhardingsobject, elementenverharding bestaande uit glaselementen.|IMBOR2020|
@@ -998,10 +998,10 @@ lege regel hoe?
 | 	Betonelement|Geprepareerde elementen van beton (bijvoorbeeld stelconplaten).|IMBOR2020|
 | 	Metaal|Type gedetailleerd van verhardingsobject, elementenverharding, verharding bestaande uit metalen elementen.|IMBOR2020|
 | 	Sierbestrating|Type gedetailleerd van verhardingsobject, elementenverharding, bestrating uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.|IMBOR2020|
-|Halfverharding|||
+|**Halfverharding**|||
 |   Samenhangend|Type gedetailleerd van verhardingsobject, halfverharding, waarvan het oppervlak bestaat uit samenhangend materiaal.|IMBOR2020|
 | 	Los|Type gedetailleerd van verhardingsobject, halfverharding: vlak gevuld met losgestort materiaal|IMBOR2020|
-|Kunststofverharding|||
+|**Kunststofverharding**|||
 |	Kunststof vloer|**geen definitie opgenomen in IMBOR**|IMBOR2020|
 |   Kunstgras|Kunstgras is een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|IMBOR2020|
 
@@ -1024,7 +1024,7 @@ ontwerpprincipe:
 | Naam  | Kunstwerk  |
 |---|---|
 | Definitie |civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf |
-|Herkomst definitie  |    |
+|Herkomst definitie  |  nieuw  |
 |Verplicht  | Ja  |
 |Toelichting|  |
 
@@ -1032,13 +1032,102 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|||
+|Identificatie   |De unieke aanduiding van het SOR-begrip kunstwerk |Ja |
+|Geometrie-type|**????**|Ja|
+|Afbakening   |  |  |
+|Status   |   |Ja   |
+|type kunstwerk|aanduiding soort kunswerk|Ja|
+|type kunstwerk plus|aanduiding soort kunstwerk|Nee|
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Relaties met andere objecttypen** 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
+|overbrugging|bestaat uit|type kunstwerkdeel|
+|*sluis|bestaat uit|sluisdeur en kolk*|
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
 |||
+
+lege regel hoe?
+
+|Waarde type kunstwerk| Beschrijving   |Herkomst|
+|---|---|---|
+|overbrugging|Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers.||
+|ondertunneling|||
+
+lege regel hoe?
+
+|Waarde type kunstwerk plus| Beschrijving   |Herkomst|
+|---|---|---|
+|**overbrugging**| ||
+| brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoelt voor verkeer.||
+| aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid.   ||
+| viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoelt voor verkeer.   ||
+| ecoduct |Overbruggingsconstructie over een weg of spoorweg,  bedoelt voor het passeren van dieren.   ||
+| flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   ||
+| overkluizing |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat.   ||
+|**ondertunneling**|||
+| tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   ||
+| duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   ||
+|**geen SOR**|||
+| gemaal |Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.   ||
+| sluis |Een kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt.   |
+| strekdam |Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier.   ||
+| steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.   ||
+| stuw |xxEen vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelenx   ||
+| keermuur |muur die door vorm, gewicht en fundering zonder verankering de grond keert.   ||
+| faunavoorziening |Voorziening bij een infrastructureel werk om de uit dat werk voortvloeiende negatieve gevolgen voor de fauna zoveel mogelijk te voorkomen of te beperken   ||
+| vispassage |Een waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland.   ||
+| bodemval |Sprong in de bodem van een waterloop.    ||
+| coupure |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.||
+| poton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft.   ||
+| voorde |Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop.    ||
+| *kademuur* |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton. *staat ter discussie - scheiding fysiek (muur) en functie (kering)*    ||
+| *damwand* |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen. *staat ter discussie - scheiding fysiek (wand) en functie (kering)*  |
+| *walbescherming* |Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.*staat ter discussie - scheiding fysiek (wand) en functie (kering)*   |
+|schot|||
+|dijk|*is toch een functie en geen kunstwerk?*||
+|stormvloedkering|||
+
+
+#### kunstwerkdeel
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | kunstwerkdeel |
+| onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Kunstwerkdeel  |
+|---|---|
+| Definitie | |
+|Herkomst definitie  |  nieuw  |
+|Verplicht  | nee  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip kunstwerkdeel |Ja |
+|Geometrie-type|**????**|Ja|
+|Afbakening   |  |  |
+|Status   |   |Ja   |
+|type kunstwerkdeel|aanduiding soort kunstwerkdeel|nee|
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|kunstwerk|bestaat uit|kunstwerkdeel|
 
 **Domeinwaarden**
 
@@ -1046,467 +1135,15 @@ ontwerpprincipe:
 |---|---|
 |||
 
-
-#### Overbruggingsconstructie
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Overbruggingsconstructie |
-| onderdeel van NEN3610-objecttype | Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | Overbruggingsconstructie  |
-|---|---|
-| Definitie |Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
-|Herkomst definitie  |    |
-|Verplicht  | Ja  |
-|Toelichting|  |
-
-
-#### Brug
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Brug |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | Brug  |
-|---|---|
-| Definitie |Overbruggingsconstructie over een watervlakte of waterloop, bedoelt voor verkeer.|
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-#### aquaduct
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | aquaduct |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-
-**Definitie**
-
-| Naam  | aquaduct  |
-|---|---|
-| Definitie |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-#### viaduct
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | viaduct |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | viaduct  |
-|---|---|
-| Definitie |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoelt voor verkeer.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-#### ecoduct
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | ecoduct |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | ecoduct  |
-|---|---|
-| Definitie |Overbruggingsconstructie over een weg of spoorweg,  bedoelt voor het passeren van dieren.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-#### flyover
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | flyover |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | flyover  |
-|---|---|
-| Definitie |Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.   |
-|Herkomst definitie  |  |
-|Verplicht  | Nee  |
-|Toelichting| *bestaande definitie niet consistent*   |
-
-
-#### tunnel
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | tunnel |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | tunnel  |
-|---|---|
-| Definitie |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-#### overkluizing
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | overkluizing |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | overkluizing  |
-|---|---|
-| Definitie |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-
-#### dek
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | dek |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | dek  |
-|---|---|
-| Definitie |Direct door het verkeer belaste deel van de bovenbouw van de brug.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### landhoofd
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | landhoofd |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | landhoofd  |
-|---|---|
-| Definitie |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### pijler
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | pijler |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | pijler  |
-|---|---|
-| Definitie |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### sloof
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | sloof |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | sloof  |
-|---|---|
-| Definitie |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### pyloon
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | pyloon |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | pyloon  |
-|---|---|
-| Definitie |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### gemaal
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | gemaal |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | gemaal  |
-|---|---|
-| Definitie |Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### sluis
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | sluis |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | sluis  |
-|---|---|
-| Definitie |Een kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### strekdam
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | strekdam |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | strekdam  |
-|---|---|
-| Definitie |Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### steiger
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | steiger |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | steiger  |
-|---|---|
-| Definitie |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### stuw
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | stuw |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | stuw  |
-|---|---|
-| Definitie |xxEen vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelenx   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### keermuur
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | keermuur |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | keermuur  |
-|---|---|
-| Definitie |muur die door vorm, gewicht en fundering zonder verankering de grond keert.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### duiker
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | duiker |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | duiker  |
-|---|---|
-| Definitie |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### faunavoorziening 
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | faunavoorziening  |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | faunavoorziening   |
-|---|---|
-| Definitie |Voorziening bij een infrastructureel werk om de uit dat werk voortvloeiende negatieve gevolgen voor de fauna zoveel mogelijk te voorkomen of te beperken   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### vispassage 
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | vispassage  |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | vispassage   |
-|---|---|
-| Definitie |Een waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### bodemval 
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | bodemval  |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | bodemval   |
-|---|---|
-| Definitie |Sprong in de bodem van een waterloop.    |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### coupure 
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | coupure  |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | coupure   |
-|---|---|
-| Definitie |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-#### ponton 
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | ponton  |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-
-**Definitie**
-
-| Naam  | ponton   |
-|---|---|
-| Definitie |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-#### voorde
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | voorde |
-| onderdeel van NEN3610-objecttype |*Kunstwerk??????*  |
-
-
-**Definitie**
-
-| Naam  | voorde  |
-|---|---|
-| Definitie |Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop.    |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting|  |
-
-
-
-
-
-
-
-
+lege regel hoe?
+
+|Waarde type kunstwerkdeel| Beschrijving   |Herkomst|
+|---|---|---|
+| dek |Direct door het verkeer belaste deel van de bovenbouw van de brug.   ||
+| landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.   ||
+| pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   ||
+| sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   ||
+| pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   ||
 
 
 ### CONSTRUCTIE; OVERIGE
@@ -1630,55 +1267,5 @@ ontwerpprincipe:
 
 
 
-#### kademuur
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | kademuur |
-| onderdeel van NEN3610-objecttype |Constructie  |
-
-**Definitie**
-
-| Naam  | kademuur  |
-|---|---|
-| Definitie |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton.    |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting| *staat ter discussie - scheiding fysiek (muur) en functie (kering)*  |
-
-
-#### damwand
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | damwand |
-| onderdeel van NEN3610-objecttype |Constructie  |
-
-
-**Definitie**
-
-| Naam  | damwand  |
-|---|---|
-| Definitie |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen.   |
-|Herkomst definitie  |    |
-|Verplicht  | Nee  |
-|Toelichting| *staat ter discussie - scheiding fysiek (wand) en functie (kering)* |
-
-#### walbescherming
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   |walbescherming|
-| onderdeel van NEN3610-objecttype |Constructie  |
-
-
-**Definitie**
-
-| Naam  | walbescherming  |
-|---|---|
-| Definitie |Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.   |
-|Herkomst definitie  |    |
-|Verplicht  | ja  |
-|Toelichting|*staat ter discussie - scheiding fysiek (wand) en functie (kering)*  |
 
 
