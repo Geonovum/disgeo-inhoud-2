@@ -347,33 +347,65 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting|  |
 
-#### parkeervlak
 
-#### parkeerplaats
+#### parkeervlak
+| parkeervlak |Wegdeel bestemd voor het parkeren van motorvoertuigen|
 
 #### carpoolplaats
+| carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling.|
+
+#### laadplein
+| Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben.|
 
 #### transferium
-'
-#### laadplein
-
-#### benzinestation
-
-#### snellaadstation
+| Transferium | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto.|
 
 #### verzorgingsplaats
+| verzorgingsplaats | Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |
 
 #### perron
-
-#### halteplaats
+| perron | Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.|
 
 #### baan voor vliegverkeer
+| baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer. |
+
+#### vliegveld, luchthaven
+| vliegveld, luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accomodatie voor ontvangst en vertrek van passagiers en verzending van goederen.|
 
 #### overweg
+| overweg | Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. |
 
 #### spoorbaan
+| spoorbaan | Gebaand gedeelte voor het verkeer over rails. |
+
+#### emplacement
+| emplacement	 | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen.|
 
 #### OV-baan
+| OV-baan | Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet 
+uitsluitend door markering.|
+
+#### parkeerplaats
+| parkeerplaats |Parkeergelegenheid voor meerdere voertuigen in de openlucht.|
+
+#### benzinestation
+| benzinestation | Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.
+|
+#### snellaadstation
+| Snellaadstation | Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd.|
+
+#### halteplaats
+| Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer.|
+
+#### zone
+| Zone | Verkeerskundige afbakening van een gebied.|
+
+#### verkeersdrempel
+| Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| 
+
+#### molgoot
+| molgoot | Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |
+
 
 ### Functionele zonering GROEN
 
@@ -493,6 +525,8 @@ ontwerpprincipe:
 |grond	|voorziening bedoeld om grond te keren|	nieuw|
 |water	|voorziening bedoeld om water te keren|	nieuw|
 
+
+### Functionele zonering OVERIG
 #### reducering
 
 | klasse  | naam  |
@@ -597,7 +631,7 @@ ontwerpprincipe:
 
 
 
-
+### Functionele zonering *nog toedelen*
 
 ##### jachthaven
 ##### vaarweg beroeps
