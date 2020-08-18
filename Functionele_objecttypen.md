@@ -287,6 +287,8 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 ||*Niet BGT*| 	 	Benzinestation|
 ||*Niet BGT*| 	 	Verzorgingsplaats|  
 
+
+
 #### GROEN
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
@@ -315,6 +317,8 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 ||*Niet BGT*|	 	    waterbergingsgebied|
 ||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
 
+
+
 #### WATERGEBRUIK; HAVENCOMPLEX
 
 #### INFRASTRUCTUUR WATERSTAATSWERKEN; OPPERVLAKTEWATERLICHAAM
@@ -325,7 +329,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 
 #### INFRASTRUCTUUR WATERSTAATSWERKEN; COMPLEX
 
-#### INFRASTRUCTUUR WATERSTAATSWERKEN; OEVER, SLOOTKANT
+#### infrastructuur waterstaatswerken; oever/slootkant
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | Oever/slootkant |
@@ -337,8 +341,9 @@ ontwerpprincipe:
 
 | Naam  | Oever/slootkant  |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  |    |
+| Definitie | *De strook land die in direct contact staat met water, inclusief het gebied tussen
+de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
+|Herkomst definitie  | BGT 1.1.1.     |
 |Verplicht  | Ja  |
 |Toelichting|  |
 
@@ -363,7 +368,7 @@ ontwerpprincipe:
 
 
 
-#### INFRASTRUCTUUR WATERSTAATSWERKEN; KERING
+#### infrastructuur waterstaatswerken; kering
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | kering|
