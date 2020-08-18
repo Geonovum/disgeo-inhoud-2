@@ -44,8 +44,6 @@ ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 | 	Open grond|Type gedetailleerd van verhardingsobject, onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|IMBOR2020|
 
 
-
-
 ### WATER
 
 #### Watervlakte
@@ -1279,8 +1277,8 @@ ontwerpprincipe:
 
 | Naam  | Kunstwerkdeel  |
 |---|---|
-| Definitie | |
-|Herkomst definitie  |  nieuw  |
+| Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
+|Herkomst definitie  |  BGT 1.1.1  |
 |Verplicht  | nee  |
 |Toelichting|  |
 
@@ -1299,16 +1297,14 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|kunstwerk|bestaat uit|kunstwerkdeel|
+| kunstwerkdeel | hoort bij | kunstwerk |
 
 **Domeinwaarden**
 
 |Waarde Status| Beschrijving   |
 |---|---|
 |||
-
-lege regel hoe?
-
+.
 |Waarde type kunstwerkdeel| Beschrijving   |Herkomst|
 |---|---|---|
 | dek |Direct door het verkeer belaste deel van de bovenbouw van de brug.   ||
@@ -1316,7 +1312,9 @@ lege regel hoe?
 | pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   ||
 | sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   ||
 | pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   ||
-
+|---|---|---|
+| sluisdeur |||
+| kolk |||
 
 
 ### CONSTRUCTIE; OVERIGE
@@ -1326,7 +1324,7 @@ lege regel hoe?
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | muur |
-| onderdeel van NEN3610-objecttype | **constructie** |
+| onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
 
@@ -1356,7 +1354,7 @@ ontwerpprincipe:
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | hek |
-| onderdeel van NEN3610-objecttype | **constructie** |
+| onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
 
@@ -1385,7 +1383,7 @@ ontwerpprincipe:
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | raster |
-| onderdeel van NEN3610-objecttype | **constructie** |
+| onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
 
@@ -1414,7 +1412,7 @@ ontwerpprincipe:
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | scherm |
-| onderdeel van NEN3610-objecttype | **constructie** |
+| onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
 
