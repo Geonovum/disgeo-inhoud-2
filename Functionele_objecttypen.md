@@ -40,7 +40,6 @@ Voor de functionele typering van netwerken is aangesloten bij de beschikbare typ
 
 Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
-|
 |Spoorverbindingen	|Functie:	 ||
 || 	trein	 ||
 || 	tram	 ||
@@ -50,8 +49,7 @@ Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 #### Waternetwerk
 
 Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-	 
+|-----------|---------------------------|--------------------------------|	 
 |Waterwegverbindingen	|Functie:	 ||
 || 	vaaweg	 ||
 || 	hydrologie???	 ||
@@ -119,7 +117,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |bijeenkomstfunctie ||
 || |
 |*nader te bepalen op grond wijzigingen Omgevingswet* ||
-
+.
 | Waarde Feitelijk Gebruik| Beschrijving   |
 |---|---|
 | vrijstaande woning ||
@@ -166,9 +164,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 | eredienst ||
 |||
 ||*lijst nog afstemmen op laatste versie van WOZ*|
-
-
-
+.
 | Waarde Status | Beschrijving   |
 |---|---|
 |Gepland||
@@ -180,8 +176,6 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 
 
 #### Gebouwzone
-
-
 
 | klasse  | naam  |
 |---|---|
@@ -239,7 +233,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |technische ruimte | | 
 |||
 ||*lijst nog afstemmen op laatste versie van WOZ*|
-
+.
  Waarde Aard| Beschrijving   |
 |---|---|
 |basisconstructie ||
@@ -247,11 +241,11 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |serre ||
 |||
 |*meer*||
-
+.
  Waarde Kwaliteit| Beschrijving   |
 |---|---|
 |*NTB*  | |
-
+.
 | Waarde Status | Beschrijving   |
 |---|---|
 |Gepland||
@@ -262,11 +256,9 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |Ten onrechte||
 
 
+### Functionele zonering GRIJS
 
-
-
-#### GRIJS
-
+#### GRIJS bestaand
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
@@ -287,6 +279,101 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 ||*Niet BGT*| 	 	Benzinestation|
 ||*Niet BGT*| 	 	Verzorgingsplaats|  
 
+#### verkeerseiland
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Verkeerseiland |
+| onderdeel van NEN3610-objecttype |Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Verkeerseiland  |
+|---|---|
+| Definitie | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.  |
+|Herkomst definitie  | IMBOR2020-1 |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+#### berm
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Berm |
+| onderdeel van NEN3610-objecttype | Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Berm |
+|---|---|
+| Definitie | Een strook grond langs een weg of spoorweg. |
+|Herkomst definitie  | BGT 1.1.1. |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+#### voetgangersgebied
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Voetgangersgebied |
+| onderdeel van NEN3610-objecttype | Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Voetgangersgebied |
+|---|---|
+| Definitie | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. |
+|Herkomst definitie  | BGT 1.1.1. |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+#### woonerf
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Woonerf |
+| onderdeel van NEN3610-objecttype | Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Woonerf |
+|---|---|
+| Definitie | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. |
+|Herkomst definitie  | BGT 1.1.1. |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+#### parkeervlak
+
+#### parkeerplaats
+
+#### carpoolplaats
+
+#### transferium
+'
+#### laadplein
+
+#### benzinestation
+
+#### snellaadstation
+
+#### verzorgingsplaats
+
+#### perron
+
+#### halteplaats
+
+#### baan voor vliegverkeer
+
+#### overweg
+
+#### spoorbaan
+
+#### OV-baan
 
 
 #### GROEN
@@ -329,17 +416,17 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 
 #### INFRASTRUCTUUR WATERSTAATSWERKEN; COMPLEX
 
-#### infrastructuur waterstaatswerken; oever/slootkant
+#### infrastructuur waterstaatswerken; oever,slootkant
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | Oever/slootkant |
+|SOR-begrip   | Oever,slootkant |
 | onderdeel van NEN3610-objecttype |Functioneel object  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | Oever/slootkant  |
+| Naam  | Oever,slootkant  |
 |---|---|
 | Definitie | *De strook land die in direct contact staat met water, inclusief het gebied tussen
 de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
@@ -372,7 +459,7 @@ de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | kering|
-| onderdeel van NEN3610-objecttype | **functioneel object** |
+| onderdeel van NEN3610-objecttype | Functioneel object |
 
 ontwerpprincipe: 
 
@@ -381,7 +468,7 @@ ontwerpprincipe:
 
 | Naam  | kering |
 |---|---|
-| Definitie |voorziening met kerende functie|
+| Definitie | Voorziening met kerende functie. |
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
 |Toelichting| *volgt later*  |
