@@ -375,8 +375,9 @@ ontwerpprincipe:
 
 #### OV-baan
 
+### Functionele zonering GROEN
 
-#### GROEN
+#### GROEN bestaand
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
@@ -389,8 +390,11 @@ ontwerpprincipe:
 ||*Niet BGT*| 	 	recreatie: camping|
 ||*Niet BGT*| 	 	recreatie: bungalowpark|
 ||*Niet BGT*| 	 	recreatie: volkstuin|  
-  
-#### BESTAAND BLAUW 
+
+
+### Functionele zonering BLAUW
+
+#### BLAUW bestaand  
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
@@ -406,15 +410,15 @@ ontwerpprincipe:
 
 
 
-#### WATERGEBRUIK; HAVENCOMPLEX
+#### watergebruik; havencomplex
 
-#### INFRASTRUCTUUR WATERSTAATSWERKEN; OPPERVLAKTEWATERLICHAAM
+#### infrastructuur waterstaatswerken; oppervlaktewaterlichaam
 
-#### INFRASTRUCTUUR WATERSTAATSWERKEN; KWELDER
+#### infrastructuur waterstaatswerken; kwelder
 
-#### INFRASTRUCTUUR WATERSTAATSWERKEN; WATERBERGINGSGEBIED
+#### infrastructuur waterstaatswerken; waterbergingsgebied
 
-#### INFRASTRUCTUUR WATERSTAATSWERKEN; COMPLEX
+#### infrastructuur waterstaatswerken; complex
 
 #### infrastructuur waterstaatswerken; oever,slootkant
 | klasse  | naam  |
