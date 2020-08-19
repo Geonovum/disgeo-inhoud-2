@@ -16,7 +16,7 @@ De trekker en de secretaris kunnen zelf invulling geven aan een passende uitwerk
 
 Begin met het selecteren van relevante deelnemers (experts en gebruikers). Bij de experts gaat het in ieder geval om personen die kennis hebben van bestaande knelpunten. Bij de gebruikers is het belangrijk dat zoveel mogelijk relevante gebruikersgroepen zijn aangehaakt om hun gebruikersbehoeften te formuleren.
 
-In de huidige situatie is het essentieel dat vooraf praktische werkafspraken worden gemaakt over de wijze van afstemming. Daarnaast zullen afspraken moeten worden gemaakt over de verdeling van de werkzaamheden en een gedetailleerdere planning. De deelnemers en de gedetailleerdere planning worden doorgegeven aan het secretariaat van de werkgroep inhoud (Sandra.Leijten@vng.nl en D.Krijtenburg@geonovum.nl).
+In de huidige situatie is het essentieel dat vooraf praktische werkafspraken worden gemaakt over de wijze van afstemming. Daarnaast zullen afspraken moeten worden gemaakt over de verdeling van de werkzaamheden en een gedetailleerdere planning. De deelnemers en de gedetailleerdere planning worden doorgegeven aan het secretariaat van de werkgroep inhoud.
 
 In de uitwerking van de opdracht moeten in elk geval de volgende onderdelen een plaats krijgen:
 -	Verzamelen van reeds bekende beelden, knelpunten en behoeften. Eventuele aandachtspunten voor andere onderwerpen worden direct teruggelegd bij het secretariaat van de werkgroep inhoud, zodat deze direct door andere (werk)groepen kunnen worden opgepakt.
