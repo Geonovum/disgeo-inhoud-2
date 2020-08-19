@@ -36,36 +36,35 @@ In een bijlage is (indien beschikbaar) een overzicht opgenomen van de verschille
 
 
 
-### Bijlage 3 Rapportage Themawerkgroep netwerken
+###  Themawerkgroep netwerken
 
 
-### Bijlage 4 Rapportage Themawerkgroep kunstwerken, keringen en water
+###  Themawerkgroep kunstwerken, keringen en water
 
-### Bijlage 5 Rapportage Themawerkgroep gebouwen
+###  Themawerkgroep gebouwen
 
-### Bijlage 6 Rapportage Kaderuitwerking registratieve objecttypen
+###  Kaderuitwerking registratieve objecttypen
 
-### Bijlage 7 Rapportage Themawerkgroep groen
+###   Themawerkgroep groen
 
-### Bijlage 8 Rapportage Themawerkgroep grijs
+###   Themawerkgroep grijs
 
-### Bijlage 9 Rapportage Kaderuitwerking Historiemodel
+###   Kaderuitwerking Historiemodel
 
-### Bijlage 10 Rapportage Kaderuitwerking Meta-informatie (zoals bronverwijzing en kwaliteitskenmerken)
+###   Kaderuitwerking Meta-informatie (zoals bronverwijzing en kwaliteitskenmerken)
 
+###   Kaderuitwerking Levensfasen
 
-### Bijlage 11 Rapportage Kaderuitwerking Levensfasen
+###   Kaderuitwerking Mate van detail (schaalniveau)
 
-### Bijlage 12 Rapportage Kaderuitwerking Mate van detail (schaalniveau)
+###   Kaderuitwerking Identificatie objecten
 
-### Bijlage 13 Rapportage Kaderuitwerking Identificatie objecten
+###   Kaderuitwerking Ondergrondse delen
 
-### Bijlage 14 Rapportage Kaderuitwerking Ondergrondse delen
+###   Kaderuitwerking Grondgebied NL
 
-### Bijlage 15 Rapportage Kaderuitwerking Grondgebied NL
+###   Kaderuitwerking Opdelende objecttypen (+maaiveld 100%)
 
-### Bijlage 16 Rapportage Kaderuitwerking Opdelende objecttypen (+maaiveld 100%)
+###   Kaderuitwerking Uitwerking overige scheidingen
 
-### Bijlage 17 Rapportage Kaderuitwerking Uitwerking overige scheidingen
-
-### Bijlage 18 Rapportage 3D (afstemming)
+###   3D (afstemming)
