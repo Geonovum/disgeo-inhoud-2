@@ -1,6 +1,7 @@
  
 ## Bijlage 2 Opdrachtomschrijvingen themawerkgroepen  *WORDT APART DOCUMENT*
-I
+
+
 #### Generieke component voor iedere opdrachtomschrijving 
 
 Het kernteam objectenregistratie is de tactisch opdrachtgever voor de ontwikkeling van een samenhangende objectenregistratie (SOR). Voor de verdere uitwerking van de inhoud van de registratie is door het kernteam een interbestuurlijke werkgroep inhoud SOR ingesteld. Deze werkgroep heeft de opdracht om de in het rapport hoofdlijnen inhoud samenhangende objectenregistratie (https://www.geobasisregistraties.nl/documenten/rapport/2020/04/10/reviewversie-hoofdlijnenrapport-samenhangende-objectenregistratie) opgenomen uitgangspunten en denkkader verder aan te scherpen en in te vullen en deze door te ontwikkelen tot een conceptueel model.
