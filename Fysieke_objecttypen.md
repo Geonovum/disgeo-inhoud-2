@@ -542,6 +542,27 @@ x
 |Verplicht  | ja  |
 |Toelichting|  |
 
+
+
+#### bouwland 
+
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | bouwland  |
+| onderdeel van NEN3610-objecttype |Groen |
+
+
+**Definitie**
+
+| Naam  | bouwland  |
+|---|---|
+| Definitie |TTerreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
+|Herkomst definitie  | BGT  |
+|Verplicht  | ja  |
+|Toelichting|  |
+
+
+
 ####    fruit- bomenteelt
 
 | klasse  | naam  |
@@ -645,22 +666,6 @@ x
 |Toelichting|  |
 
 
-##### bouwland 
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | bouwland  |
-| onderdeel van NEN3610-objecttype |Groen |
-
-
-**Definitie**
-
-| Naam  | bouwland  |
-|---|---|
-| Definitie |TTerreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
-|Herkomst definitie  | BGT  |
-|Verplicht  | ja  |
-|Toelichting|  |
 
 #### OUD Groenobject
 
