@@ -4,13 +4,13 @@ In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de versc
 
 Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
 
-### BODEM
+### Bodem
 
 #### Bodem
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | bodem |
+|SOR-begrip   | Bodem |
 | onderdeel van NEN3610-objecttype |  Bodem  |
 
 ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
@@ -44,7 +44,7 @@ ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 | 	Open grond|Type gedetailleerd van verhardingsobject, onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|IMBOR2020|
 
 
-### WATER
+### Water
 
 #### Watervlakte
 | klasse  | naam  |
@@ -84,7 +84,6 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
 
 .
 
@@ -129,13 +128,11 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|bron|hoort bij|waterloop|
 
 **Domeinwaarden**
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
 
 .
 
@@ -151,14 +148,14 @@ ontwerpprincipe:
 #### Bron
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | bron  |
+|SOR-begrip   | Bron  |
 | onderdeel van NEN3610-objecttype |Water  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | bron  |
+| Naam  | Bron  |
 |---|---|
 | Definitie | Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt.|
 |Herkomst definitie  | IMGeo 2.1.1   |
@@ -202,7 +199,7 @@ ontwerpprincipe:
 | Naam  | Getijdengebied  |
 |---|---|
 | Definitie | Geheel of gedeeltelijk droogvallende gronden, buitendijks gelegen.  |
-|Herkomst definitie  | BRT    |
+|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)   |
 |Verplicht  | Ja  |
 |Toelichting|  |
 
@@ -230,7 +227,7 @@ ontwerpprincipe:
 |---|---|
 |||
 
-.
+x
 
 |Waarde type getijdengebied| Beschrijving   |Herkomst|
 |---|---|---|
@@ -239,95 +236,84 @@ ontwerpprincipe:
 |kwelder|*synoniem van schor? en komt ook terug als functioneel object?*||
 
 
-### BEGROEIING
+### Begroeiing
 
- 
 #### Loofbos
-
-
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | Loofbos  |
-| onderdeel van NEN3610-objecttype |Groen  |
-
+| SOR-begrip   | Loofbos  |
+| onderdeel van NEN3610-objecttype | Begroeiing |
 
 **Definitie**
 
 | Naam  | Loofbos |
 |---|---|
 | Definitie |Terreindeel begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |
-|Herkomst definitie  | BGT  |
-|Verplicht  | Ja  |
-|Toelichting| |
+| Herkomst definitie  | BGT  |
+| Verplicht  | Ja  |
+| Toelichting| |
 
- 
-####    gemengd bos
-
-
+#####    Griend en hakhout  
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   |    gemengd bos  |
-| onderdeel van NEN3610-objecttype |Groen  |
+| SOR-begrip   |    Griend en hakhout    |
+| onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
 
-| Naam  |    gemengd bos |
-|---|---|
-| Definitie |Terreindeel begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |   
-|Herkomst definitie  | BGT  |
-|Verplicht  | ja  |
-|Toelichting| | 
-
-#### naaldbos
-
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | naaldbos  |
-| onderdeel van NEN3610-objecttype |Groen  |
-
-
-**Definitie**
-
-| Naam  | naaldbos |
-|---|---|
-| Definitie |Terreindeel begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
-|Herkomst definitie  | BGT  |
-|Verplicht  | ja  |
-|Toelichting| | 
-
-####    griend en hakhout  
-
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   |    griend en hakhout    |
-| onderdeel van NEN3610-objecttype |Groen  |
-
-
-**Definitie**
-
-| Naam  |   griend en hakhout   |
+| Naam  |   Griend en hakhout   |
 |---|---|
 | Definitie |Terreindeel met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt ingekort.   |   
 |Herkomst definitie  | IMGEO 2.0  |
 |Verplicht  | Nee  |
 |Toelichting| | 
 
-
-####    gras- en kruidachtigen
-
-
+ 
+####    Gemengd bos
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   |    gras- en kruidachtigen  |
-| onderdeel van NEN3610-objecttype |Groen  |
+| SOR-begrip   |    Gemengd bos  |
+| onderdeel van NEN3610-objecttype | Begroeiing  |
 
 
 **Definitie**
 
-| Naam  |    gras- en kruidachtigen |
+| Naam  |    Gemengd bos |
+|---|---|
+| Definitie |Terreindeel begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |   
+|Herkomst definitie  | BGT  |
+|Verplicht  | ja  |
+|Toelichting| | 
+
+#### Naaldbos
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Naaldbos  |
+| onderdeel van NEN3610-objecttype |Begroeiing  |
+
+
+**Definitie**
+
+| Naam  | Naaldbos |
+|---|---|
+| Definitie |Terreindeel begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
+|Herkomst definitie  | BGT  |
+|Verplicht  | ja  |
+|Toelichting| | 
+
+
+
+####    Gras- en kruidachtigen
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   |    Gras- en kruidachtigen  |
+| onderdeel van NEN3610-objecttype |Begroeiing  |
+
+
+**Definitie**
+
+| Naam  |    Gras- en kruidachtigen |
 |---|---|
 | Definitie |(Grond met) een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie.     
 |Herkomst definitie  | CROW |
@@ -335,124 +321,111 @@ ontwerpprincipe:
 |Toelichting| | 
 
 
-####  struiken
-
-
+####  Struiken
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | struiken  |
-| onderdeel van NEN3610-objecttype |Groen  |
+|SOR-begrip   | Struiken  |
+| onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
 
-| Naam  | struiken |
+| Naam  | Struiken |
 |---|---|
 | Definitie |Terreindeel bedekt met lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en eventueel aanwezigheid van enkele verspreid staande stammen.   |    |
 |Verplicht  | ja  |
 |Toelichting| | 
 
 
-##### heesters 
-
-
+##### Heesters 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | heesters   |
-| onderdeel van NEN3610-objecttype |Groen  |
+|SOR-begrip   | Heesters   |
+| onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
 
-| Naam  | heesters  |
+| Naam  | Heesters  |
 |---|---|
 | Definitie |Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een  gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.  |  
 |Verplicht  | Nee  |
 |Toelichting| | 
 
 
-##### bosplantsoen 
-
-
+##### Bosplantsoen 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | bosplantsoen   |
-| onderdeel van NEN3610-objecttype |Groen  |
+|SOR-begrip   | Bosplantsoen   |
+| onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
 
-| Naam  | bosplantsoen  |
+| Naam  | Bosplantsoen  |
 |---|---|
 | Definitie |Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of  gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.   |    
 |Herkomst definitie  | CROW |
 |Verplicht  | Nee  |
 |Toelichting| | 
 
-##### planten
-
-
+##### Planten
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | planten  |
-| onderdeel van NEN3610-objecttype |Groen  |
+|SOR-begrip   | Planten  |
+| onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
 
-| Naam  | planten |
-|---|---|
-| Definitie |*niet ingevuld**  |    |
-|Verplicht  | Nee  |
-|Toelichting| | 
-
-
-##### struikrozen
-
-
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | struikrozen  |
-| onderdeel van NEN3610-objecttype |Groen  |
-
-
-**Definitie**
-
-| Naam  | struikrozen |
+| Naam  | Planten |
 |---|---|
 | Definitie |*niet ingevuld*  |    |
 |Verplicht  | Nee  |
 |Toelichting| | 
 
-##### bodembedekkers
 
-
+##### Struikrozen
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | bodembedekkers  |
-| onderdeel van NEN3610-objecttype |Groen  |
+|SOR-begrip   | Struikrozen  |
+| onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
 
-| Naam  | bodembedekkers |
+| Naam  | Struikrozen |
+|---|---|
+| Definitie |*niet ingevuld*  |    |
+|Verplicht  | Nee  |
+|Toelichting| | 
+
+##### Bodembedekkers
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Bodembedekkers  |
+| onderdeel van NEN3610-objecttype |Begroeiing  |
+
+
+**Definitie**
+
+| Naam  | Bodembedekkers |
 |---|---|
 | Definitie |*niet ingevuld*  |    |
 |Verplicht  | Nee  |
 |Toelichting| |
 
 
-#### haag
-
+#### Haag
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | haag |
-| onderdeel van NEN3610-objecttype |Groen |
+|SOR-begrip   | Haag |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | haag  |
+| Naam  | Haag  |
 |---|---|
 | Definitie |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
 |Herkomst definitie  | IMGeo   |
@@ -460,85 +433,81 @@ ontwerpprincipe:
 |Toelichting|  |
 
 
-#### bomenrij
-
+#### Bomenrij
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | bomenrij |
-| onderdeel van NEN3610-objecttype |Groen |
+|SOR-begrip   | Bomenrij |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | bomenrij |
+| Naam  | Bomenrij |
 |---|---|
 | Definitie |opgaande begroeiing van bomen zonder struiken  |
 |Herkomst definitie  |   |
 |Verplicht  | ja  |
 |Toelichting|  |
 
-#### houtsingel
-
+#### Houtsingel
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | houtsingel |
-| onderdeel van NEN3610-objecttype |Groen |
+|SOR-begrip   | Houtsingel |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | houtsingel |
+| Naam  | Houtsingel |
 |---|---|
 | Definitie |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
 |Herkomst definitie  |   |
 |Verplicht  | ja  |
 |Toelichting|  |
 
-#### moeras
-
+#### Moeras
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | moeras |
-| onderdeel van NEN3610-objecttype |Groen |
+|SOR-begrip   | Moeras |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | moeras |
+| Naam  | Moeras |
 |---|---|
 | Definitie |Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing.  |
 |Herkomst definitie  | bron: BGT |
 |Verplicht  | ja  |
 |Toelichting|  |
 
-#### heide
-
+#### Heide
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | heide |
-| onderdeel van NEN3610-objecttype |Groen |
+|SOR-begrip   | Heide |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | heide |
+| Naam  | Heide |
 |---|---|
 | Definitie |Terreindeel overwegend begroeid met heide en heideachtige vegetaties.  |
 |Herkomst definitie  |BGT|
 |Verplicht  | ja  |
 |Toelichting|  |
 
-#### rietland
+#### Rietland
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | rietland |
-| onderdeel van NEN3610-objecttype |Groen |
+|SOR-begrip   | Rietland |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | rietland |
+| Naam  | Rietland |
 |---|---|
 | Definitie |Terreindeel overwegend begroeid met rietvegetatie.  |
 |Herkomst definitie  | BGT  |
@@ -547,19 +516,18 @@ ontwerpprincipe:
 
 
 
-#### bouwland 
-
+#### Bouwland 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | bouwland  |
-| onderdeel van NEN3610-objecttype |Groen |
+|SOR-begrip   | Bouwland  |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | bouwland  |
+| Naam  | Bouwland  |
 |---|---|
-| Definitie |TTerreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
+| Definitie |Terreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
 |Herkomst definitie  | BGT  |
 |Verplicht  | ja  |
 |Toelichting|  |
@@ -571,7 +539,7 @@ ontwerpprincipe:
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | fruit- bomenteelt |
-| onderdeel van NEN3610-objecttype |Groen |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -588,7 +556,7 @@ ontwerpprincipe:
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   |    laagstam boomgaarden  |
-| onderdeel van NEN3610-objecttype |Groen |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -605,7 +573,7 @@ ontwerpprincipe:
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   |    hoogstam boomgaarden |
-| onderdeel van NEN3610-objecttype |Groen |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -622,7 +590,7 @@ ontwerpprincipe:
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | wijngaarden   |
-| onderdeel van NEN3610-objecttype |Groen |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -639,7 +607,7 @@ ontwerpprincipe:
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   |    klein fruit |
-| onderdeel van NEN3610-objecttype |Groen |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -656,7 +624,7 @@ ontwerpprincipe:
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | boomkwekerij  |
-| onderdeel van NEN3610-objecttype |Groen |
+| onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -719,7 +687,7 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 || 	bodembedekkers|
 
 
-### CONSTRUCTIE; GEBOUW
+### Constructie; Gebouw
 
 #### Gebouw
 
@@ -1032,19 +1000,19 @@ De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.
 
 
 
-### CONSTRUCTIE; VERHARDING
+### Constructie; Verharding
 #### Verharding
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | verharding  |
-| onderdeel van NEN3610-objecttype |verharding |
+|SOR-begrip   | Verharding  |
+| onderdeel van NEN3610-objecttype |Verharding |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | verharding |
+| Naam  | Verharding |
 |---|---|
 | Definitie |Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal. |
 |Herkomst definitie  | concept NEN3610-2020  |
@@ -1118,19 +1086,19 @@ ontwerpprincipe:
 |   Kunstgras|Kunstgras is een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|IMBOR2020|
 
 
-### CONSTRUCTIE; KUNSTWERK
-#### overbrugging
+### Constructie; Kunstwerk
+#### Overbrugging
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | overbrugging |
+|SOR-begrip   | Overbrugging |
 | onderdeel van NEN3610-objecttype | Kunstwerk  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | overbrugging  |
+| Naam  | Overbrugging  |
 |---|---|
 | Definitie | Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
 |Herkomst definitie  |  |
@@ -1171,18 +1139,18 @@ ontwerpprincipe:
 | flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   ||
 | overkluizing |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat.   ||
 
-#### ondertunneling
+#### Ondertunneling
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | ondertunneling |
+|SOR-begrip   | Ondertunneling |
 | onderdeel van NEN3610-objecttype | Kunstwerk  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | ondertunneling  |
+| Naam  | Ondertunneling  |
 |---|---|
 | Definitie |  |
 |Herkomst definitie  |  |
@@ -1216,18 +1184,18 @@ ontwerpprincipe:
 | tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   ||
 | duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   ||
 
-#### gemaal
+#### Gemaal
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | gemaal |
+|SOR-begrip   | Gemaal |
 | onderdeel van NEN3610-objecttype | Kunstwerk  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | ondertunneling  |
+| Naam  | Gemaal  |
 |---|---|
 | Definitie | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.  |
 |Herkomst definitie  |  |
@@ -1270,10 +1238,10 @@ ontwerpprincipe:
 |stormvloedkering|||
 
 
-#### kunstwerkdeel
+#### Kunstwerkdeel
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | kunstwerkdeel |
+|SOR-begrip   | Kunstwerkdeel |
 | onderdeel van NEN3610-objecttype |Kunstwerk  |
 
 ontwerpprincipe: 
@@ -1322,13 +1290,13 @@ ontwerpprincipe:
 | kolk |||
 
 
-### CONSTRUCTIE; OVERIGE
+### Constructie; Overige
 
-#### muur
+#### Muur
   
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | muur |
+|SOR-begrip   | Muur |
 | onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
@@ -1336,7 +1304,7 @@ ontwerpprincipe:
 
 **Definitie**
 
-| Naam  | muur |
+| Naam  | Muur |
 |---|---|
 | Definitie |Relatief smal, rechtopstaand bouwwerk.|
 |Herkomst definitie  |Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
@@ -1354,11 +1322,11 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-#### hek
+#### Hek
   
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | hek |
+|SOR-begrip   | Hek |
 | onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
@@ -1366,7 +1334,7 @@ ontwerpprincipe:
 
 **Definitie**
 
-| Naam  | hek |
+| Naam  | Hek |
 |---|---|
 | Definitie | Een hekwerk of schutting om een gebied af te scheiden of de toegang te beheren.|
 |Herkomst definitie  |nieuw|
@@ -1383,11 +1351,11 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-#### raster
+#### Raster
   
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | raster |
+|SOR-begrip   | Raster |
 | onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
@@ -1395,7 +1363,7 @@ ontwerpprincipe:
 
 **Definitie**
 
-| Naam  | raster |
+| Naam  | Raster |
 |---|---|
 | Definitie |Kunstmatige terreinafscheiding, in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen gaas of één of meerdere draden.|
 |Herkomst definitie  |Gegevenscatalogus IMGeo 2.1.1 *deels aangepast*|
@@ -1412,11 +1380,11 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-#### scherm
+#### Scherm
   
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | scherm |
+|SOR-begrip   | Scherm |
 | onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
@@ -1424,7 +1392,7 @@ ontwerpprincipe:
 
 **Definitie**
 
-| Naam  | scherm |
+| Naam  | Scherm |
 |---|---|
 | Definitie |Een lineaire constructie, typisch bedoeld om te reduceren. |
 |Herkomst definitie  |nieuw|
