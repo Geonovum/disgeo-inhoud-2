@@ -139,15 +139,15 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-|Waarde type kering| Beschrijving   |Herkomst|
+|Waarde type weg| Beschrijving   |Herkomst|
 |---|---|---|
-|grond	|voorziening bedoeld om grond te keren|	nieuw|
-|water	|voorziening bedoeld om water te keren|	nieuw|
+
 
 
 #### Spoorweg
 
 #### Vaarweg
+*is vaarweg wel een apart netwerk? moet varen niet idem als bij wegen als een soort modaliteit aan het waterelementen netwerk worden gekoppeld?*
 
 #### Waterelement
 
@@ -524,7 +524,7 @@ ontwerpprincipe:
 
 #### carpoolplaats
 | carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling.|
-
+*alleen opnemen als dit door BRT.next wordt aangegeven*
 #### laadplein
 | Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben.|
 
@@ -533,7 +533,7 @@ ontwerpprincipe:
 
 #### verzorgingsplaats
 | verzorgingsplaats | Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |
-
+*alleen opnemen als dit door BRT.next wordt aangegeven*
 #### perron
 | perron | Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.|
 
@@ -551,14 +551,14 @@ ontwerpprincipe:
 
 #### emplacement
 | emplacement	 | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen.|
-
+*alleen opnemen als dit door BRT.next wordt aangegeven*
 #### OV-baan
 | OV-baan | Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet 
 uitsluitend door markering.|
 
 #### parkeerplaats
 | parkeerplaats |Parkeergelegenheid voor meerdere voertuigen in de openlucht.|
-
+*alleen opnemen als dit door BRT.next wordt aangegeven*
 #### benzinestation
 | benzinestation | Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.
 |
@@ -778,7 +778,6 @@ ontwerpprincipe:
 ##### sluiscomplex
 ##### stuwcomplex
 ##### coupurecomplex
-##### perron
 ##### scheepvaartbord 
 ##### pomp 
 ##### dijkpaal 
@@ -793,8 +792,6 @@ ontwerpprincipe:
 ##### meerpaal 
 ##### hoogtemerk 
 
-
-##### Oever/slootkant
 
 
 
