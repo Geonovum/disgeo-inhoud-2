@@ -22,6 +22,7 @@ ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 | Definitie |Bovenste deel van het natuurlijke aardoppervlak.|
 |Herkomst definitie  |concept NEN3610 2020|
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, mogelijk het fysieke voorkomen van wegen en terreinen. |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -61,6 +62,7 @@ ontwerpprincipe:
 | Definitie | Een verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat. |
 |Herkomst definitie  | AQUO lex    |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *watervlakte* en *zee* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -111,6 +113,7 @@ ontwerpprincipe:
 | Definitie | Een langgerekte verlaging in het terrein van natuurlijke of kunstmatige oorsprong die permanent of periodiek stromend water bevat.  |
 |Herkomst definitie  | AQUO lex    |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *waterloop* en *greppel/droge sloot* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -122,6 +125,7 @@ ontwerpprincipe:
 |Afbakening   |   |Ja   |
 |Status   |   |Ja   |
 |type waterloop|aanduiding soort waterloop|Nee|
+|*watervoerend| aanduiding of de waterloop wel of geen water bevat | ja*|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -160,6 +164,7 @@ ontwerpprincipe:
 | Definitie | Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt.|
 |Herkomst definitie  | IMGeo 2.1.1   |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *waterloop; type bron*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -176,8 +181,8 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|bron|hoort bij|watervlakte|
-|bron|hoort bij|waterloop|
+|hoort bij|watervlakte|ja|
+|hoort bij|waterloop|ja|
 
 **Domeinwaarden**
 
@@ -201,6 +206,7 @@ ontwerpprincipe:
 | Definitie | Geheel of gedeeltelijk droogvallende gronden, buitendijks gelegen.  |
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)   |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *ondersteunend waterdeel; type slik* en *begroeide terreindelen; type kwelder* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -227,13 +233,13 @@ ontwerpprincipe:
 |---|---|
 |||
 
-x
+.
 
 |Waarde type getijdengebied| Beschrijving   |Herkomst|
 |---|---|---|
 |slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. |IMGeo 2.1.1|
 |schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is. |AQUO lex|
-|kwelder|*synoniem van schor? en komt ook terug als functioneel object?*||
+|*kwelder|synoniem van schor? en komt ook terug als functioneel object?*||
 
 
 ### Begroeiing
@@ -736,7 +742,7 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 | Bedrijf ||
 |||
 | ... |*aanvullingen BRT en Bgt??* |
-
+.
 | Waarde Status | Beschrijving   |
 |---|---|
 |Gepland||
@@ -1017,6 +1023,7 @@ ontwerpprincipe:
 | Definitie |Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal. |
 |Herkomst definitie  | concept NEN3610-2020  |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysieke voorkomen van *wegdelen*, *ondersteunende wegdelen* en *onbegroeide terreindelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -1103,6 +1110,7 @@ ontwerpprincipe:
 | Definitie | Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
 |Herkomst definitie  |  |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen; hoort bij type overbrugging* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1114,15 +1122,14 @@ ontwerpprincipe:
 |Afbakening   |  |  |
 |Status   |   |Ja   |
 |type overbrugging|aanduiding soort overbrugging|Nee|
-|beweegbaar||Ja|
+|beweegbaar|aanduiding of overbrugging beweegbaar is (open en dicht kan)|Ja|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|kunstwerkdeel|hoort bij|overbrugging|
-|*sluis|bestaat uit|sluisdeur en kolk*|
+
 
 **Domeinwaarden**
 
@@ -1155,6 +1162,7 @@ ontwerpprincipe:
 | Definitie |  |
 |Herkomst definitie  |  |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *tunneldelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En van *kunstwerkdelen van type duiker* indien opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1200,6 +1208,7 @@ ontwerpprincipe:
 | Definitie | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.  |
 |Herkomst definitie  |  |
 |Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie  *kunstwerkdelen type gemaal* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 #### sluis
@@ -1253,6 +1262,7 @@ ontwerpprincipe:
 | Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
 |Herkomst definitie  |  BGT 1.1.1  |
 |Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, type overbruggingsdeel* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1270,7 +1280,7 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-| kunstwerkdeel | hoort bij | kunstwerk |
+| hoort bij | kunstwerk | ja|
 
 **Domeinwaarden**
 
@@ -1309,6 +1319,7 @@ ontwerpprincipe:
 | Definitie |Relatief smal, rechtopstaand bouwwerk.|
 |Herkomst definitie  |Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, type muur* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -1339,6 +1350,7 @@ ontwerpprincipe:
 | Definitie | Een hekwerk of schutting om een gebied af te scheiden of de toegang te beheren.|
 |Herkomst definitie  |nieuw|
 |Verplicht  | *staat ter discussie* |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, type hek* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -1368,6 +1380,7 @@ ontwerpprincipe:
 | Definitie |Kunstmatige terreinafscheiding, in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen gaas of één of meerdere draden.|
 |Herkomst definitie  |Gegevenscatalogus IMGeo 2.1.1 *deels aangepast*|
 |Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, type draadraster, faunaraster* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie.  |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -1397,6 +1410,7 @@ ontwerpprincipe:
 | Definitie |Een lineaire constructie, typisch bedoeld om te reduceren. |
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, type geluidscherm* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
