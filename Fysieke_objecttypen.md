@@ -4,13 +4,13 @@ In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de versc
 
 Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
 
-### BODEM
+### Bodem
 
 #### Bodem
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | bodem |
+|SOR-begrip   | Bodem |
 | onderdeel van NEN3610-objecttype |  Bodem  |
 
 ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
@@ -44,7 +44,7 @@ ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 | 	Open grond|Type gedetailleerd van verhardingsobject, onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|IMBOR2020|
 
 
-### WATER
+### Water
 
 #### Watervlakte
 | klasse  | naam  |
@@ -84,7 +84,6 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
 
 .
 
@@ -129,13 +128,11 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|bron|hoort bij|waterloop|
 
 **Domeinwaarden**
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
 
 .
 
@@ -151,14 +148,14 @@ ontwerpprincipe:
 #### Bron
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | bron  |
+|SOR-begrip   | Bron  |
 | onderdeel van NEN3610-objecttype |Water  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | bron  |
+| Naam  | Bron  |
 |---|---|
 | Definitie | Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt.|
 |Herkomst definitie  | IMGeo 2.1.1   |
@@ -202,7 +199,7 @@ ontwerpprincipe:
 | Naam  | Getijdengebied  |
 |---|---|
 | Definitie | Geheel of gedeeltelijk droogvallende gronden, buitendijks gelegen.  |
-|Herkomst definitie  | BRT    |
+|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)   |
 |Verplicht  | Ja  |
 |Toelichting|  |
 
@@ -230,7 +227,7 @@ ontwerpprincipe:
 |---|---|
 |||
 
-.
+x
 
 |Waarde type getijdengebied| Beschrijving   |Herkomst|
 |---|---|---|
@@ -239,7 +236,7 @@ ontwerpprincipe:
 |kwelder|*synoniem van schor? en komt ook terug als functioneel object?*||
 
 
-### BEGROEIING
+### Begroeiing
 
  
 #### Loofbos
@@ -714,7 +711,7 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 || 	bodembedekkers|
 
 
-### CONSTRUCTIE; GEBOUW
+### Constructie; Gebouw
 
 #### Gebouw
 
@@ -1027,19 +1024,19 @@ De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.
 
 
 
-### CONSTRUCTIE; VERHARDING
+### Constructie; Verharding
 #### Verharding
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | verharding  |
-| onderdeel van NEN3610-objecttype |verharding |
+|SOR-begrip   | Verharding  |
+| onderdeel van NEN3610-objecttype |Verharding |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | verharding |
+| Naam  | Verharding |
 |---|---|
 | Definitie |Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal. |
 |Herkomst definitie  | concept NEN3610-2020  |
@@ -1113,19 +1110,19 @@ ontwerpprincipe:
 |   Kunstgras|Kunstgras is een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|IMBOR2020|
 
 
-### CONSTRUCTIE; KUNSTWERK
-#### overbrugging
+### Constructie; Kunstwerk
+#### Overbrugging
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | overbrugging |
+|SOR-begrip   | Overbrugging |
 | onderdeel van NEN3610-objecttype | Kunstwerk  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | overbrugging  |
+| Naam  | Overbrugging  |
 |---|---|
 | Definitie | Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
 |Herkomst definitie  |  |
@@ -1166,18 +1163,18 @@ ontwerpprincipe:
 | flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   ||
 | overkluizing |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat.   ||
 
-#### ondertunneling
+#### Ondertunneling
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | ondertunneling |
+|SOR-begrip   | Ondertunneling |
 | onderdeel van NEN3610-objecttype | Kunstwerk  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | ondertunneling  |
+| Naam  | Ondertunneling  |
 |---|---|
 | Definitie |  |
 |Herkomst definitie  |  |
@@ -1211,18 +1208,18 @@ ontwerpprincipe:
 | tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   ||
 | duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   ||
 
-#### gemaal
+#### Gemaal
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | gemaal |
+|SOR-begrip   | Gemaal |
 | onderdeel van NEN3610-objecttype | Kunstwerk  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | ondertunneling  |
+| Naam  | Gemaal  |
 |---|---|
 | Definitie | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.  |
 |Herkomst definitie  |  |
@@ -1265,10 +1262,10 @@ ontwerpprincipe:
 |stormvloedkering|||
 
 
-#### kunstwerkdeel
+#### Kunstwerkdeel
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | kunstwerkdeel |
+|SOR-begrip   | Kunstwerkdeel |
 | onderdeel van NEN3610-objecttype |Kunstwerk  |
 
 ontwerpprincipe: 
@@ -1317,13 +1314,13 @@ ontwerpprincipe:
 | kolk |||
 
 
-### CONSTRUCTIE; OVERIGE
+### Constructie; Overige
 
-#### muur
+#### Muur
   
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | muur |
+|SOR-begrip   | Muur |
 | onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
@@ -1331,7 +1328,7 @@ ontwerpprincipe:
 
 **Definitie**
 
-| Naam  | muur |
+| Naam  | Muur |
 |---|---|
 | Definitie |Relatief smal, rechtopstaand bouwwerk.|
 |Herkomst definitie  |Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
@@ -1349,11 +1346,11 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-#### hek
+#### Hek
   
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | hek |
+|SOR-begrip   | Hek |
 | onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
@@ -1361,7 +1358,7 @@ ontwerpprincipe:
 
 **Definitie**
 
-| Naam  | hek |
+| Naam  | Hek |
 |---|---|
 | Definitie | Een hekwerk of schutting om een gebied af te scheiden of de toegang te beheren.|
 |Herkomst definitie  |nieuw|
@@ -1378,11 +1375,11 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-#### raster
+#### Raster
   
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | raster |
+|SOR-begrip   | Raster |
 | onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
@@ -1390,7 +1387,7 @@ ontwerpprincipe:
 
 **Definitie**
 
-| Naam  | raster |
+| Naam  | Raster |
 |---|---|
 | Definitie |Kunstmatige terreinafscheiding, in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen gaas of één of meerdere draden.|
 |Herkomst definitie  |Gegevenscatalogus IMGeo 2.1.1 *deels aangepast*|
@@ -1407,11 +1404,11 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-#### scherm
+#### Scherm
   
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | scherm |
+|SOR-begrip   | Scherm |
 | onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
@@ -1419,7 +1416,7 @@ ontwerpprincipe:
 
 **Definitie**
 
-| Naam  | scherm |
+| Naam  | Scherm |
 |---|---|
 | Definitie |Een lineaire constructie, typisch bedoeld om te reduceren. |
 |Herkomst definitie  |nieuw|
