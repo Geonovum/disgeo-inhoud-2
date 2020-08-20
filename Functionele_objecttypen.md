@@ -204,8 +204,7 @@ ontwerpprincipe:
 
 | Naam  | Oever,slootkant  |
 |---|---|
-| Definitie | *De strook land die in direct contact staat met water, inclusief het gebied tussen
-de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
+| Definitie | *De strook land die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
 |Herkomst definitie  | BGT 1.1.1.     |
 |Verplicht  | Ja  |
 |Toelichting|  |
