@@ -11,4 +11,4 @@ Het SOR-model beschrijft objectentypen uit NEN3610 of zijn een verbijzondering d
 
 Dit is het semantische model van NEN3610: 
 
-![semantisch model lNEN3610](media/Semantisch_model_NEN3610_v5.png)
+![semantisch model NEN3610](media/Semantisch_model_NEN3610_v5.png)
