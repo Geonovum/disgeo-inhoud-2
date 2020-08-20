@@ -594,6 +594,40 @@ uitsluitend door markering.|
 ||*Niet BGT*| 	 	recreatie: bungalowpark|
 ||*Niet BGT*| 	 	recreatie: volkstuin|  
 
+#### Strand
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Strand |
+| onderdeel van NEN3610-objecttype | Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Strand |
+|---|---|
+| Definitie | Onbegroeide zandige kustvlakte op de overgang van zee met land. Staat onder invloed van het zeewater en de wind. |
+|Herkomst definitie  | IMGeo 2.1.1 |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+#### Duin
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Duin |
+| onderdeel van NEN3610-objecttype | Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Duin |
+|---|---|
+| Definitie | Verhoging of heuvel van zand of fijne losse aarde en verpulverd gesteente opgeworpen door wind of door stromend water. |
+|Herkomst definitie  | BGT 1.1.1 |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
 
 ### Functionele zonering BLAUW
 
