@@ -184,6 +184,8 @@ ontwerpprincipe:
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+**Domeinwaarden**
+
 |Waarde type kering| Beschrijving   |Herkomst|
 |---|---|---|
 |grond	|voorziening bedoeld om grond te keren|	nieuw|
@@ -405,7 +407,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |||
 ||*lijst nog afstemmen op laatste versie van WOZ*|
 .
- Waarde Aard| Beschrijving   |
+| Waarde Aard| Beschrijving   |
 |---|---|
 |basisconstructie ||
 |aanbouw/opbouw ||
@@ -413,7 +415,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |||
 |*meer*||
 .
- Waarde Kwaliteit| Beschrijving   |
+| Waarde Kwaliteit| Beschrijving   |
 |---|---|
 |*NTB*  | |
 .
@@ -428,27 +430,6 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 
 
 ### Functionele zonering GRIJS
-
-#### GRIJS bestaand
-
-|Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|Functioneel Gebied (grijs)|	Functie:	 ||
-|| 	verkeerseiland	|Vluchtheuvel|
-||| 	 	Verkeersdruppel|
-|| 	berm	 ||
-|| 	parkeervlak	|Carpoolplaats|
-||*Niet BGT*| 	 	Halteplaats
-||*Niet BGT*|	 	verkeersaansluiting
-||*Niet BGT*| 	 	verkeersknooppunt|
-||*Niet BGT*| 	 	Verkeerskruispunt|
-||*Niet BGT*| 	 	Verkeerszone|
-||*Niet BGT*| 	 	Voetgangersgebied|
-||*Niet BGT*| 	 	Woonerf|
-||*Niet BGT*| 	 	infrastructuur verkeer en vervoer|
-||*Niet BGT*| 	 	Bushalte|
-||*Niet BGT*| 	 	Benzinestation|
-||*Niet BGT*| 	 	Verzorgingsplaats|  
 
 #### Verkeerseiland
 | klasse  | naam  |
@@ -483,6 +464,7 @@ ontwerpprincipe:
 |Herkomst definitie  | BGT 1.1.1. |
 |Verplicht  | Ja  |
 |Toelichting|  |
+*definitie afstemmen tussen werkgroep GRIJS en GROEN*
 
 #### Voetgangersgebied
 | klasse  | naam  |
@@ -520,62 +502,63 @@ ontwerpprincipe:
 
 
 #### parkeervlak
-| parkeervlak |Wegdeel bestemd voor het parkeren van motorvoertuigen|
+| parkeervlak |Wegdeel bestemd voor het parkeren van motorvoertuigen| verplicht|
 
 #### carpoolplaats
-| carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling.|
+| carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling.|verplicht|
 *alleen opnemen als dit door BRT.next wordt aangegeven*
+
 #### laadplein
 | Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben.|
 
 #### transferium
-| Transferium | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto.|
-
+| Transferium | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto.|verplicht|
+*alleen opnemen als dit door BRT.next wordt aangegeven*
 #### verzorgingsplaats
-| verzorgingsplaats | Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |
+| verzorgingsplaats | Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |verplicht|
 *alleen opnemen als dit door BRT.next wordt aangegeven*
 #### perron
-| perron | Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.|
+| perron | Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.|verplicht|
 
 #### baan voor vliegverkeer
-| baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer. |
+| baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer. |verplicht|
 
 #### vliegveld, luchthaven
-| vliegveld, luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accomodatie voor ontvangst en vertrek van passagiers en verzending van goederen.|
-
+| vliegveld, luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accomodatie voor ontvangst en vertrek van passagiers en verzending van goederen.|verplicht|
+*alleen opnemen als dit door BRT.next wordt aangegeven*
 #### overweg
-| overweg | Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. |
+| overweg | Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. |verplicht|
 
 #### spoorbaan
-| spoorbaan | Gebaand gedeelte voor het verkeer over rails. |
+| spoorbaan | Gebaand gedeelte voor het verkeer over rails. |verplicht|
 
 #### emplacement
-| emplacement	 | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen.|
+| emplacement	 | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen.|verplicht|
 *alleen opnemen als dit door BRT.next wordt aangegeven*
 #### OV-baan
 | OV-baan | Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet 
-uitsluitend door markering.|
+uitsluitend door markering.|verplicht|
 
 #### parkeerplaats
-| parkeerplaats |Parkeergelegenheid voor meerdere voertuigen in de openlucht.|
+| parkeerplaats |Parkeergelegenheid voor meerdere voertuigen in de openlucht.|verplicht|
 *alleen opnemen als dit door BRT.next wordt aangegeven*
 #### benzinestation
 | benzinestation | Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.
-|
+|optioneel|
 #### snellaadstation
-| Snellaadstation | Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd.|
+| Snellaadstation | Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd.|optioneel|
 
 #### halteplaats
-| Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer.|
+| Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer.| optioneel|
 
 #### zone
-| Zone | Verkeerskundige afbakening van een gebied.|
+| Zone | Verkeerskundige afbakening van een gebied.|optioneel|
 
 #### verkeersdrempel
-| Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| 
+| Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| verplicht|
 
 #### molgoot
-| molgoot | Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |
+| molgoot | Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |optioneel|
 
 
 ### Functionele zonering GROEN
@@ -679,6 +662,8 @@ ontwerpprincipe:
 |type reducering|||
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Domeinwaarden**
 
 |Waarde type reducering| Beschrijving   |Herkomst|
 |---|---|---|
