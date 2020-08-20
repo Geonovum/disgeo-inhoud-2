@@ -1,77 +1,248 @@
 ## Functionele objecttypen
 
+### Transportvoorziening
 
-### Netwerk
+#### Weg
+
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | netwerk  |
-| onderdeel van NEN3610-objecttype | transportvoorziening  |
+| SOR-begrip   | Weg|
+| onderdeel van NEN3610-objecttype | Functioneel object |
 
-Voor de functionele typering van netwerken is aangesloten bij de beschikbare typeringen in de BGT|IMGeo voor wegen en spoor. Verdere afstemming is nodig met NWB, IMBOR/IMWV, Prorail en de watersector. Voor wegverbindingen zijn de voorstellen voor IMGeo 2.2 overgenomen. Voor spoorverbindingen is de typering vereenvoudigd. Het uitgangspunt dat objecttypen scherp zijn afgebakend, maakt dat de typering sneltram is vervallen en dat havenkraan vervangen is door (laad-/los)kraan.
+ontwerpprincipe: 
 
-#### Wegennetwerk
+**Definitie**
+
+| Naam  | Weg |
+|---|---|
+| Definitie | Transport voorziening voor wegverkeer. |
+|Herkomst definitie  | concept NEN3610 2020|
+|Verplicht  | ja  |
+|Toelichting| *volgt later*  |
+
+##### Verbinding
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Verbinding|
+| onderdeel van NEN3610-objecttype |Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Verbinding  |
+|---|---|
+| Definitie | De verbinding beschrijft een relatie tussen knopen, een weg van kruispunt tot kruispunt. |
+|Herkomst definitie  | conceptueel model netwerken     |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| verbinding | hoort bij 2 | knopen |
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
 
 
-|Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|Wegverbindingen|	Functie:	 ||
-|| 	OV-baan	 ||
-|| 	overweg	 ||
-|| 	spoorbaan	 ||
-|| 	baan voor vliegverkeer	 ||
-|| 	rijbaan autosnelweg	|Verbindingsweg|
-||| 	 	calamiteitendoorsteek|
-|||		Verkeersdrempel|
-|| 	rijbaan autoweg	|Verbindingsweg|
-||| 	 	calamiteitendoorsteek|
-|||		Verkeersdrempel|
-|| 	rijbaan regionale weg	|Verbindingsweg|
-|||		Verkeersdrempel|
-||	rijbaan lokale weg	|Verkeersdrempel|
-||	fietspad	|Verkeersdrempel|
-||	voetpad	||
-||	voetpad op trap	||
-||	ruiterpad	||
-||	inrit	||
-|||| 	 	 
+##### Knoop
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Knoop|
+| onderdeel van NEN3610-objecttype |Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Knoop  |
+|---|---|
+| Definitie | Een knoop is een beslispunt waarop de weggebruiker een keuze moet maken. |
+| Herkomst definitie  | conceptueel model netwerken     |
+| Verplicht  | Ja  |
+| Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| knoop | hoort bij 1 of meer | verbindingen |
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
 
 
-#### Spoorwegennetwerk
+##### Hyperkant
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Hyperkant |
+| onderdeel van NEN3610-objecttype |Functioneel object  |
 
-Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|Spoorverbindingen	|Functie:	 ||
-|| 	trein	 ||
-|| 	tram	 ||
-||*Niet BGT*| 	 	(laad/los-)kraan|
-|||| 	 	
+ontwerpprincipe: 
 
-#### Waternetwerk
+**Definitie**
 
-Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|	 
-|Waterwegverbindingen	|Functie:	 ||
-|| 	vaaweg	 ||
-|| 	hydrologie???	 ||
-|||| 	 	 
-||Knooppunten	\Type:	 |
-|| 	kruispunt fysieke wegen	 ||
-|| 	overweg	 ||
-|| 	wijziging attribuutwaarde	 ||
-|| 	tussenpunt	 ||
-||||
+| Naam  | Hyperkant  |
+|---|---|
+| Definitie | Een hyperkant is een relatie tussen twee objecten die een functionele samenhang hebben. |
+| Herkomst definitie  | conceptueel model netwerken     |
+| Verplicht  | Ja  |
+| Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| hyperkant| verbindt 2 of meer | *objecten* |
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip weg|Ja |
+|Geometrie-type|lijn|Ja|
+|Afbakening   |  | |
+|type weg|||
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+|Waarde type kering| Beschrijving   |Herkomst|
+|---|---|---|
+|grond	|voorziening bedoeld om grond te keren|	nieuw|
+|water	|voorziening bedoeld om water te keren|	nieuw|
+
+
+#### Spoorweg
+
+#### Vaarweg
+
+#### Waterelement
+
+
+
+
+### Infrastructuur waterstaatswerken
+#### Kering
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Kering|
+| onderdeel van NEN3610-objecttype | Functioneel object |
+
+ontwerpprincipe: 
+
+
+**Definitie**
+
+| Naam  | Kering |
+|---|---|
+| Definitie | Voorziening met kerende functie. |
+|Herkomst definitie  |nieuw|
+|Verplicht  | ja  |
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
+|Geometrie-type|lijn|nee|
+|Afbakening   |  | |
+|type kering|||
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+|Waarde type kering| Beschrijving   |Herkomst|
+|---|---|---|
+|grond	|voorziening bedoeld om grond te keren|	nieuw|
+|water	|voorziening bedoeld om water te keren|	nieuw|
+
+
+#### Oever,slootkant
+| klasse  | naam  |
+|---|---|
+|SOR-begrip   | Oever,slootkant |
+| onderdeel van NEN3610-objecttype |Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Oever,slootkant  |
+|---|---|
+| Definitie | *De strook land die in direct contact staat met water, inclusief het gebied tussen
+de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
+|Herkomst definitie  | BGT 1.1.1.     |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+#### Complex
+
+### Watergebruik
+#### Havencomplex
 
 
 ### Functionele zonering
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | functionele zonering |
-| onderdeel van NEN3610-objecttype |functioneel object  |
+|SOR-begrip   | Functionele zonering |
+| onderdeel van NEN3610-objecttype |Functioneel object  |
 
 
 
 De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en blauwe gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein. Hierbij is aangesloten op de typering zoals voor BGT|IMGeo wordt gebruikt, inclusief de voorstellen voor IMGeo 2.2. Als gevolg van het uitgangspunt dat fysiek en functie worden gescheiden zijn een aantal functies verschoven van voorheen een typering bij een fysiek objecttype naar een eigenstandig functioneel objecttype.
 
+### Functionele zonering ROOD
 
 #### Verblijfsobject
 
@@ -279,7 +450,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 ||*Niet BGT*| 	 	Benzinestation|
 ||*Niet BGT*| 	 	Verzorgingsplaats|  
 
-#### verkeerseiland
+#### Verkeerseiland
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Verkeerseiland |
@@ -296,7 +467,7 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting|  |
 
-#### berm
+#### Berm
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Berm |
@@ -313,7 +484,7 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting|  |
 
-#### voetgangersgebied
+#### Voetgangersgebied
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Voetgangersgebied |
@@ -330,7 +501,7 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting|  |
 
-#### woonerf
+#### Woonerf
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Woonerf |
@@ -442,88 +613,6 @@ uitsluitend door markering.|
 
 
 
-#### watergebruik; havencomplex
-
-#### infrastructuur waterstaatswerken; oppervlaktewaterlichaam
-
-#### infrastructuur waterstaatswerken; kwelder
-
-#### infrastructuur waterstaatswerken; waterbergingsgebied
-
-#### infrastructuur waterstaatswerken; complex
-
-#### infrastructuur waterstaatswerken; oever,slootkant
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Oever,slootkant |
-| onderdeel van NEN3610-objecttype |Functioneel object  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Oever,slootkant  |
-|---|---|
-| Definitie | *De strook land die in direct contact staat met water, inclusief het gebied tussen
-de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
-|Herkomst definitie  | BGT 1.1.1.     |
-|Verplicht  | Ja  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
-
-
-
-
-#### infrastructuur waterstaatswerken; kering
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | kering|
-| onderdeel van NEN3610-objecttype | Functioneel object |
-
-ontwerpprincipe: 
-
-
-**Definitie**
-
-| Naam  | kering |
-|---|---|
-| Definitie | Voorziening met kerende functie. |
-|Herkomst definitie  |nieuw|
-|Verplicht  | ja  |
-|Toelichting| *volgt later*  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
-|Geometrie-type|lijn|nee|
-|Afbakening   |  | |
-|type kering|||
-|Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-|Waarde type kering| Beschrijving   |Herkomst|
-|---|---|---|
-|grond	|voorziening bedoeld om grond te keren|	nieuw|
-|water	|voorziening bedoeld om water te keren|	nieuw|
 
 
 ### Functionele zonering OVERIG
