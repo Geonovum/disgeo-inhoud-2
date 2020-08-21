@@ -344,3 +344,8 @@ Het is van belang is om het begrip ligplaats te onderscheiden van de in de prakt
 ontwerpprincipe: *Gebruik van stand- en ligplaatsen vooral in het overheidsdomein (gemeenten, inschrijving, nutsvoorzieningen, vindbaarheid)*
 
 ontwerpprincipe: *Standplaatsen en ligplaatsen vormen een geometrische weergave van een gemeentelijk besluit*
+
+
+### Continentaal plat
+
+*De definitie en begrenzing van het continentaal plat moet hier worden beschreven*
