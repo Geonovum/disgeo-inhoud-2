@@ -1,44 +1,49 @@
 ## Fysieke objecttypen
 
-In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de verschillende fysieke objecttypen in de samenhangende objectenregistratie. Deze aanzet is primair gebaseerd op de ook nu reeds in de bestaande basisregistraties gehanteerde typeringen. Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen zijn op deze typeringen soms beperkte aanpassingen doorgevoerd. Ook zijn enkele eerste wijzigingen voorgesteld die het gevolg zijn van het in hoofdstuk 2 genoemde uitgangspunt over heldere definiëring. Tenslotte is daar waar mogelijk reeds bekeken in hoeverre aanpalende sectorale typeringen aanleiding kunnen geven tot een aangescherpte typering. 
+In dit hoofdstuk is een eerste aanzet opgenomen tot nadere Typering van de verschillende fysieke objecttypen in de samenhangende objectenregistratie. Deze aanzet is primair gebaseerd op de ook nu reeds in de bestaande basisregistraties gehanteerde Typeringen. Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen zijn op deze Typeringen soms beperkte aanpassingen doorgevoerd. Ook zijn enkele eerste wijzigingen voorgesteld die het gevolg zijn van het in hoofdstuk 2 genoemde uitgangspunt over heldere definiëring. Tenslotte is daar waar mogelijk reeds bekeken in hoeverre aanpalende sectorale Typeringen aanleiding kunnen geven tot een aangescherpte Typering. 
 
-Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
+Deze Typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve Typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van Typeringen, waarbij gedetailleerde Typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdTypering (in de samenhangende objectenregistratie).
 
 ### Bodem
 
 #### Bodem
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Bodem |
-| onderdeel van NEN3610-objecttype |  Bodem  |
+| SOR-begrip   | Bodem |
+| Onderdeel van NEN3610-objecttype |  Bodem  |
 
 ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 
 **Definitie**
 
-| Naam  | bodem |
+| Naam  | Bodem |
 |---|---|
 | Definitie |Bovenste deel van het natuurlijke aardoppervlak.|
-|Herkomst definitie  |concept NEN3610 2020|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, mogelijk het fysieke voorkomen van wegen en terreinen. |
-|Toelichting| *volgt later*  |
+| Herkomst definitie  |concept NEN3610 2020|
+| Verplicht  | Ja  |
+| Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, mogelijk het fysieke voorkomen van wegen en terreinen. |
+| Toelichting| *volgt later* Het gaat hierbij over het Type  waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met ander Type hoeft geen apart vlak te worden gevormd. |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip bodem|Ja |
-|Geometrie-type|vlak|Ja|
-|Afbakening   |  bodem niet verharding of begroeiing. Het gaat hierbij over het type  waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met ander type hoeft geen apart vlak te worden gevormd.|Ja   |
+|Geometrie| |Ja (vlak)|
 |Status   |   |Ja   |
-|type bodem|aanduiding soort bodem|Ja|
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Type bodem|aanduiding soort bodem|Ja|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
 
 **Domeinwaarden**
 
-|Waarde type bodem| Beschrijving   |Herkomst|
+|Waarde Type bodem| Beschrijving   |Herkomst|
 |---|---|---|
 |   Zand|Type gedetailleerd van verhardingsobject, onverhard  waarvan het oppervlak (deklaag) bestaat uit zand.|IMBOR2020|
 | 	Zwarte grond|Type gedetailleerd van verhardingsobject, waarvan het oppervlak bestaat uit zwarte grond.|IMBOR2020|
@@ -48,10 +53,10 @@ ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 ### Water
 
 #### Watervlakte
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Watervlakte  |
-| onderdeel van NEN3610-objecttype |Water  |
+| SOR-begrip   | Watervlakte  |
+| Onderdeel van NEN3610-objecttype |Water  |
 
 ontwerpprincipe: 
 
@@ -70,17 +75,16 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip watervlakte |Ja |
-|Geometrie-type|vlak|Ja|
-|Afbakening   |   |Ja   |
+|Geometrie| |Ja (vlak)|
 |Status   |   |Ja   |
-|type watervlakte|aanduiding soort watervlakte|Nee|
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Type watervlakte|aanduiding soort watervlakte|Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|bron|hoort bij|watervlakte|
+||||
 
 **Domeinwaarden**
 
@@ -89,7 +93,7 @@ ontwerpprincipe:
 
 .
 
-|Waarde type watervlakte| Beschrijving   |Herkomst|
+|Waarde Type watervlakte| Beschrijving   |Herkomst|
 |---|---|---|
 |zee|Uitgestrekt oppervlak zout water. |IMGeo 2.1.1|
 |meer|*geen onderscheidende definitie gevonden*||
@@ -99,10 +103,10 @@ ontwerpprincipe:
 
 
 #### Waterloop
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Waterloop  |
-| onderdeel van NEN3610-objecttype |Water  |
+| SOR-begrip   | Waterloop  |
+| Onderdeel van NEN3610-objecttype |Water  |
 
 ontwerpprincipe: 
 
@@ -121,10 +125,9 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip waterloop |Ja |
-|Geometrie-type|vlak|Ja|
-|Afbakening   |   |Ja   |
+|Geometrie||Ja (vlak)|
 |Status   |   |Ja   |
-|type waterloop|aanduiding soort waterloop|Nee|
+|Type waterloop|aanduiding soort waterloop|Nee|
 |*watervoerend| aanduiding of de waterloop wel of geen water bevat | ja*|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -140,7 +143,7 @@ ontwerpprincipe:
 
 .
 
-|Waarde type waterloop| Beschrijving   |Herkomst|
+|Waarde Type waterloop| Beschrijving   |Herkomst|
 |---|---|---|
 |rivier|Het water, dat ten atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier.|IMGeo 2.1.1|
 |sloot|Een waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil.|IMGeo 2.1.1|
@@ -150,10 +153,10 @@ ontwerpprincipe:
 
 
 #### Bron
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Bron  |
-| onderdeel van NEN3610-objecttype |Water  |
+| SOR-begrip   | Bron  |
+| Onderdeel van NEN3610-objecttype |Water  |
 
 ontwerpprincipe: 
 
@@ -164,7 +167,7 @@ ontwerpprincipe:
 | Definitie | Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt.|
 |Herkomst definitie  | IMGeo 2.1.1   |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *waterloop; type bron*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *waterloop; Type bron*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -172,10 +175,9 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip bron |Ja |
-|Geometrie-type|vlak|Ja|
-|Afbakening   |   |Ja   |
+|Geometrie||Ja (vlak)|
 |Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -192,10 +194,10 @@ ontwerpprincipe:
 
 
 #### Getijdengebied
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Getijdengebied  |
-| onderdeel van NEN3610-objecttype |Water  |
+| SOR-begrip   | Getijdengebied  |
+| Onderdeel van NEN3610-objecttype |Water  |
 
 ontwerpprincipe: 
 
@@ -206,7 +208,7 @@ ontwerpprincipe:
 | Definitie | Geheel of gedeeltelijk droogvallende gronden, buitendijks gelegen.  |
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)   |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *ondersteunend waterdeel; type slik* en *begroeide terreindelen; type kwelder* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *ondersteunend waterdeel; Type slik* en *begroeide terreindelen; Type kwelder* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -214,11 +216,10 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip getijdengebied |Ja |
-|Geometrie-type|vlak|Ja|
-|Afbakening   |  |Ja   |
+|Geometrie|vlak|Ja|
 |Status   |   |Ja   |
-|type getijdengebied|aanduiding soort getijdengebied|Nee|
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Type getijdengebied|aanduiding soort getijdengebied|Nee|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 **Relaties met andere objecttypen** 
@@ -235,7 +236,7 @@ ontwerpprincipe:
 
 .
 
-|Waarde type getijdengebied| Beschrijving   |Herkomst|
+|Waarde Type getijdengebied| Beschrijving   |Herkomst|
 |---|---|---|
 |slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. |IMGeo 2.1.1|
 |schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is. |AQUO lex|
@@ -245,10 +246,10 @@ ontwerpprincipe:
 ### Begroeiing
 
 #### Loofbos
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Loofbos  |
-| onderdeel van NEN3610-objecttype | Begroeiing |
+| Onderdeel van NEN3610-objecttype | Begroeiing |
 
 **Definitie**
 
@@ -260,10 +261,10 @@ ontwerpprincipe:
 | Toelichting| |
 
 #####    Griend en hakhout  
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   |    Griend en hakhout    |
-| onderdeel van NEN3610-objecttype |Begroeiing  |
+| Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
@@ -277,10 +278,10 @@ ontwerpprincipe:
 
  
 ####    Gemengd bos
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   |    Gemengd bos  |
-| onderdeel van NEN3610-objecttype | Begroeiing  |
+| Onderdeel van NEN3610-objecttype | Begroeiing  |
 
 
 **Definitie**
@@ -293,10 +294,10 @@ ontwerpprincipe:
 |Toelichting| | 
 
 #### Naaldbos
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Naaldbos  |
-| onderdeel van NEN3610-objecttype |Begroeiing  |
+| Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
@@ -311,10 +312,10 @@ ontwerpprincipe:
 
 
 ####    Gras- en kruidachtigen
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   |    Gras- en kruidachtigen  |
-| onderdeel van NEN3610-objecttype |Begroeiing  |
+| Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
@@ -328,10 +329,10 @@ ontwerpprincipe:
 
 
 ####  Struiken
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Struiken  |
-| onderdeel van NEN3610-objecttype |Begroeiing  |
+| Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
@@ -344,10 +345,10 @@ ontwerpprincipe:
 
 
 ##### Heesters 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Heesters   |
-| onderdeel van NEN3610-objecttype |Begroeiing  |
+| Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
@@ -360,10 +361,10 @@ ontwerpprincipe:
 
 
 ##### Bosplantsoen 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Bosplantsoen   |
-| onderdeel van NEN3610-objecttype |Begroeiing  |
+| Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
@@ -376,10 +377,10 @@ ontwerpprincipe:
 |Toelichting| | 
 
 ##### Planten
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Planten  |
-| onderdeel van NEN3610-objecttype |Begroeiing  |
+| Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
@@ -392,10 +393,10 @@ ontwerpprincipe:
 
 
 ##### Struikrozen
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Struikrozen  |
-| onderdeel van NEN3610-objecttype |Begroeiing  |
+| Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
@@ -407,10 +408,10 @@ ontwerpprincipe:
 |Toelichting| | 
 
 ##### Bodembedekkers
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Bodembedekkers  |
-| onderdeel van NEN3610-objecttype |Begroeiing  |
+| Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
 **Definitie**
@@ -423,10 +424,10 @@ ontwerpprincipe:
 
 
 #### Haag
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Haag |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -440,10 +441,10 @@ ontwerpprincipe:
 
 
 #### Bomenrij
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Bomenrij |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -456,10 +457,10 @@ ontwerpprincipe:
 |Toelichting|  |
 
 #### Houtsingel
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Houtsingel |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -472,10 +473,10 @@ ontwerpprincipe:
 |Toelichting|  |
 
 #### Moeras
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Moeras |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -488,10 +489,10 @@ ontwerpprincipe:
 |Toelichting|  |
 
 #### Heide
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Heide |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -505,10 +506,10 @@ ontwerpprincipe:
 
 #### Rietland
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Rietland |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -523,10 +524,10 @@ ontwerpprincipe:
 
 
 #### Bouwland 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Bouwland  |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -542,10 +543,10 @@ ontwerpprincipe:
 
 ####    fruit- bomenteelt
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | fruit- bomenteelt |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -559,10 +560,10 @@ ontwerpprincipe:
 
 #####    laagstam boomgaarden 
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   |    laagstam boomgaarden  |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -576,10 +577,10 @@ ontwerpprincipe:
 
 #####    hoogstam boomgaarden
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   |    hoogstam boomgaarden |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -593,10 +594,10 @@ ontwerpprincipe:
 
 ##### wijngaarden  
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | wijngaarden   |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -610,10 +611,10 @@ ontwerpprincipe:
 
 #####    klein fruit
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   |    klein fruit |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -627,10 +628,10 @@ ontwerpprincipe:
 
 ##### boomkwekerij 
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | boomkwekerij  |
-| onderdeel van NEN3610-objecttype |Begroeiing |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
@@ -646,7 +647,7 @@ ontwerpprincipe:
 
 #### OUD Groenobject
 
-Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige BGT|IMGeo 2.1.1. Verwacht wordt dat een uitbreiding van typeringen bij groenvoorziening voor hagen en boomspiegels noodzakelijk is. Hiervoor is nadere afstemming met IMBOR 2020 nodig. Dit leidt tot de volgende typeringen voor het objecttype ‘groenobject’:
+Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige BGT|IMGeo 2.1.1. Verwacht wordt dat een uitbreiding van Typeringen bij groenvoorziening voor hagen en boomspiegels noodzakelijk is. Hiervoor is nadere afstemming met IMBOR 2020 nodig. Dit leidt tot de volgende Typeringen voor het objecttype ‘groenobject’:
 
 |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |---------------------------|--------------------------------|
@@ -697,10 +698,10 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 
 #### Gebouw
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Gebouw  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
+| Onderdeel van NEN3610-objecttype |Gebouw  |
 
 **Definitie**
 
@@ -720,13 +721,13 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 |Geometrie |De geometrische representatie van de randen van een gebouw *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
 |Typering |Het doel waarvoor een gebouw gebruikt wordt  |Ja|
 |Aard|De fysieke verschijningsvorm van een gebouw
-*nader te bepalen of  deze typering ook een antwoord geeft op de vraag in welke hoogteklasse een gebouw is gelegen, welke soortnaam het betreft en van welk fysiek voorkomen sprake is*   |Ja|
+*nader te bepalen of  deze Typering ook een antwoord geeft op de vraag in welke hoogteKlasse een gebouw is gelegen, welke soortNaam het betreft en van welk fysiek voorkomen sprake is*   |Ja|
 |Oorspronkelijk bouwjaar | DDe aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |Toegangsdeur| NTB ||
 |Aantal bouwlagen | NTB||
 |Status   |De fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -759,10 +760,10 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 #### Bouwlaag
 
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Bouwlaag  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
+| Onderdeel van NEN3610-objecttype |Gebouw  |
 
 **Definitie**
 
@@ -783,7 +784,7 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 |Bowlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
 |Oppervlakte| NTB||
 |Status   |De fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -809,10 +810,10 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 #### Ruimte
 
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Ruimte  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
+| Onderdeel van NEN3610-objecttype |Gebouw  |
 
 **Definitie**
 
@@ -834,7 +835,7 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 |Bouwlaagnummer |De bouwlaag waarop de ruimte zich bevindt|Ja|
 |Oppervlakte| NTB||
 |Status   |De fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -867,10 +868,10 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 
 
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Installatie  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
+| Onderdeel van NEN3610-objecttype |Gebouw  |
 
 **Definitie**
 
@@ -891,7 +892,7 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 |Aard|Het doort installatie|Ja|
 |Bijbehorend object |Het object waarbij de betreffende installatie behoort|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende installatie zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -925,10 +926,10 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 #### Toegangsdeur
 
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Toegangsdeur  |
-| onderdeel van NEN3610-objecttype |Gebouw  |
+| Onderdeel van NEN3610-objecttype |Gebouw  |
 
 **Definitie**
 
@@ -950,7 +951,7 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 |Tyoe|het soort toegangsdeur|Ja|
 |Bijbehorend object |Het object waarin de betreffende toegangsdeur zich bevindt|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende Toegangsdeur zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -985,12 +986,12 @@ Voor het objecttype ‘groenobject’ is de typering overgenomen uit de huidige 
 
 
 ### *Bouwwerkconstructie*
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | constructie  |
-| onderdeel van NEN3610-objecttype | constructie  |
+| Onderdeel van NEN3610-objecttype | constructie  |
 
-De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
+De Typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
 
 *voorheen werd dit **overige bouwwerken** genoemd* 
 
@@ -1009,10 +1010,10 @@ De typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.
 ### Constructie; Verharding
 #### Verharding
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Verharding  |
-| onderdeel van NEN3610-objecttype |Verharding |
+| SOR-begrip   | Verharding  |
+| Onderdeel van NEN3610-objecttype |Verharding |
 
 ontwerpprincipe: 
 
@@ -1024,19 +1025,18 @@ ontwerpprincipe:
 |Herkomst definitie  | concept NEN3610-2020  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysieke voorkomen van *wegdelen*, *ondersteunende wegdelen* en *onbegroeide terreindelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| *volgt later*  |
+|Toelichting| *volgt later*  Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het Type verharding waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met andere verharding hoeft geen apart vlak te worden gevormd.|
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip verharding |Ja |
-|Geometrie-type|vlak|Ja|
-|Afbakening   |  Een verhardingsvlak bestaat uit één type verharding. Het gaat hierbij over het type verharding waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met andere verharding hoeft geen apart vlak te worden gevormd.|Ja   |
+|Geometrie||Ja (vlak)|
 |Status   |   |Ja   |
-|type verharding|aanduiding soort verharding|Ja|
-|type verharding plus|aanduiding soort verharding|Nee|
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Type verharding|aanduiding soort verharding|Ja|
+|Type verharding plus|aanduiding soort verharding|Nee|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -1048,12 +1048,10 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|Aangewezen||
-| Ingetrokken |
 
 .
 
-|Waarde type verharding| Beschrijving   |Herkomst|
+|Waarde Type verharding| Beschrijving   |Herkomst|
 |---|---|---|
 |asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|IMBOR2020|
 | betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |IMBOR2020|
@@ -1064,7 +1062,7 @@ ontwerpprincipe:
 
 .
 
-|Waarde type verharding plus| Beschrijving   |Herkomst|
+|Waarde Type verharding plus| Beschrijving   |Herkomst|
 |---|---|---|
 |**asfaltverharding**||| 
 |   Zoab en open deklagen|*geen definitie opgenomen in IMBOR*|IMBOR2020|
@@ -1096,10 +1094,10 @@ ontwerpprincipe:
 ### Constructie; Kunstwerk
 #### Overbrugging
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Overbrugging |
-| onderdeel van NEN3610-objecttype | Kunstwerk  |
+| SOR-begrip   | Overbrugging |
+| Onderdeel van NEN3610-objecttype | Kunstwerk  |
 
 ontwerpprincipe: 
 
@@ -1110,7 +1108,7 @@ ontwerpprincipe:
 | Definitie | Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
 |Herkomst definitie  |  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen; hoort bij type overbrugging* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen; hoort bij Type overbrugging* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1118,12 +1116,11 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip overbrugging |Ja |
-|Geometrie-type|**????**|Ja|
-|Afbakening   |  |  |
+|Geometrie||Ja|
 |Status   |   |Ja   |
-|type overbrugging|aanduiding soort overbrugging|Nee|
-|beweegbaar|aanduiding of overbrugging beweegbaar is (open en dicht kan)|Ja|
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Type overbrugging|aanduiding soort overbrugging|Nee|
+|*Beweegbaar|aanduiding of overbrugging beweegbaar is (open en dicht kan)|Ja*|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -1135,9 +1132,8 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
 .
-|Waarde type overbrugging| Beschrijving   |Herkomst|
+|Waarde Type overbrugging| Beschrijving   |Herkomst|
 |---|---|---|
 | brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoelt voor verkeer.||
 | aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid.   ||
@@ -1148,10 +1144,10 @@ ontwerpprincipe:
 
 #### Ondertunneling
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Ondertunneling |
-| onderdeel van NEN3610-objecttype | Kunstwerk  |
+| SOR-begrip   | Ondertunneling |
+| Onderdeel van NEN3610-objecttype | Kunstwerk  |
 
 ontwerpprincipe: 
 
@@ -1162,7 +1158,7 @@ ontwerpprincipe:
 | Definitie |  |
 |Herkomst definitie  |  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *tunneldelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En van *kunstwerkdelen van type duiker* indien opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *tunneldelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En van *kunstwerkdelen van Type duiker* indien opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1170,11 +1166,10 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip ondertunneling|Ja |
-|Geometrie-type|**????**|Ja|
-|Afbakening   |  |  |
+|Geometrie||Ja|
 |Status   |   |Ja   |
-|type ondertunneling|aanduiding soort ondertunneling|Nee|
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Type ondertunneling|aanduiding soort ondertunneling|Nee|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -1187,17 +1182,17 @@ ontwerpprincipe:
 |---|---|
 |||
 .
-|Waarde type ondertunneling| Beschrijving   |Herkomst|
+|Waarde Type ondertunneling| Beschrijving   |Herkomst|
 |---|---|---|
 | tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   ||
 | duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   ||
 
 #### Gemaal
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Gemaal |
-| onderdeel van NEN3610-objecttype | Kunstwerk  |
+| SOR-begrip   | Gemaal |
+| Onderdeel van NEN3610-objecttype | Kunstwerk  |
 
 ontwerpprincipe: 
 
@@ -1208,7 +1203,7 @@ ontwerpprincipe:
 | Definitie | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.  |
 |Herkomst definitie  |  |
 |Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie  *kunstwerkdelen type gemaal* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie  *kunstwerkdelen Type gemaal* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 #### sluis
@@ -1244,43 +1239,42 @@ ontwerpprincipe:
 #### dijk
 |dijk|*is toch een functie en geen kunstwerk?*||
 #### stormvloedkering
-|stormvloedkering|||
+|stormvloedkering|*is toch een functie en geen kunstwerk?*||
 
 
-#### Kunstwerkdeel
-| klasse  | naam  |
+#### Overbruggingsdeel
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Kunstwerkdeel |
-| onderdeel van NEN3610-objecttype |Kunstwerk  |
+| SOR-begrip   | Overbruggingsdeel |
+| Onderdeel van NEN3610-objecttype |Kunstwerk  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | Kunstwerkdeel  |
+| Naam  |Overbruggingsdeel  |
 |---|---|
 | Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
 |Herkomst definitie  |  BGT 1.1.1  |
 |Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, type overbruggingsdeel* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kunstwerkdeel |Ja |
-|Geometrie-type|**????**|Ja|
-|Afbakening   |  |  |
+|Identificatie   |De unieke aanduiding van het SOR-begrip overbruggingsdeel |Ja |
+|Geometrie||Ja|
 |Status   |   |Ja   |
-|type kunstwerkdeel|aanduiding soort kunstwerkdeel|nee|
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Type overbruggingsdeel|aanduiding soort overbruggingsdeel|nee|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-| hoort bij | kunstwerk | ja|
+| hoort bij | kunstwerk, type overbrugging | ja|
 
 **Domeinwaarden**
 
@@ -1288,26 +1282,68 @@ ontwerpprincipe:
 |---|---|
 |||
 .
-|Waarde type kunstwerkdeel| Beschrijving   |Herkomst|
+|Waarde Type kunstwerkdeel| Beschrijving   |Herkomst|
 |---|---|---|
 | dek |Direct door het verkeer belaste deel van de bovenbouw van de brug.   ||
 | landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.   ||
 | pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   ||
 | sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   ||
 | pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   ||
+
+
+#### Sluisdeel
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Sluisdeel |
+| Onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Sluisdeel |
+|---|---|
+| Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
+|Herkomst definitie  |  BGT 1.1.1  |
+|Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *?* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip sluisdeel |Ja |
+|Geometrie||Ja|
+|Status   |   |Ja   |
+|Type Sluisdeel|aanduiding soort sluisdeel|nee|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| hoort bij | kunstwerk, type sluis | ja|
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+.
+|Waarde Type kunstwerkdeel| Beschrijving   |Herkomst|
 |---|---|---|
 | sluisdeur |||
 | kolk |||
-
 
 ### Constructie; Overige
 
 #### Muur
   
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Muur |
-| onderdeel van NEN3610-objecttype | Constructie |
+| Onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
 
@@ -1319,7 +1355,7 @@ ontwerpprincipe:
 | Definitie |Relatief smal, rechtopstaand bouwwerk.|
 |Herkomst definitie  |Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, type muur* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type muur* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -1327,18 +1363,18 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip muur|Ja |
-|Geometrie-type|lijn|Ja|
-|Geometrie-type|vlak|Nee|
+|Geometrie|lijn|Ja|
+|Geometrie|vlak|Nee|
 |Afbakening   |  | |
 |Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 #### Hek
   
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Hek |
-| onderdeel van NEN3610-objecttype | Constructie |
+| Onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
 
@@ -1350,7 +1386,7 @@ ontwerpprincipe:
 | Definitie | Een hekwerk of schutting om een gebied af te scheiden of de toegang te beheren.|
 |Herkomst definitie  |nieuw|
 |Verplicht  | *staat ter discussie* |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, type hek* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type hek* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -1358,17 +1394,17 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip hek|Ja |
-|Geometrie-type|lijn|Ja|
+|Geometrie|lijn|Ja|
 |Afbakening   |  | |
 |Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 #### Raster
   
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Raster |
-| onderdeel van NEN3610-objecttype | Constructie |
+| Onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
 
@@ -1380,7 +1416,7 @@ ontwerpprincipe:
 | Definitie |Kunstmatige terreinafscheiding, in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen gaas of één of meerdere draden.|
 |Herkomst definitie  |Gegevenscatalogus IMGeo 2.1.1 *deels aangepast*|
 |Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, type draadraster, faunaraster* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type draadraster, faunaraster* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie.  |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -1388,17 +1424,17 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip raster|Ja |
-|Geometrie-type|lijn|Ja|
+|Geometrie|lijn|Ja|
 |Afbakening   |  | |
 |Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 #### Scherm
   
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Scherm |
-| onderdeel van NEN3610-objecttype | Constructie |
+| Onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
 
@@ -1410,7 +1446,7 @@ ontwerpprincipe:
 | Definitie |Een lineaire constructie, typisch bedoeld om te reduceren. |
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, type geluidscherm* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type geluidscherm* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -1418,10 +1454,10 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip scherm|Ja |
-|Geometrie-type|lijn|Ja|
+|Geometrie|lijn|Ja|
 |Afbakening   |  | |
 |Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
