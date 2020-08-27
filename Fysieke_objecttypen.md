@@ -112,7 +112,7 @@ ontwerpprincipe:
 .
 
 |Waarde Type watervlakte| Beschrijving   |
-|---|---|---|
+|---|---|
 |zee|Uitgestrekt oppervlak zout water. |
 |meer|*geen onderscheidende definitie gevonden*|
 |plas|*geen onderscheidende definitie gevonden*|
