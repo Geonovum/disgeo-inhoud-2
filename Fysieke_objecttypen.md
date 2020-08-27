@@ -42,12 +42,20 @@ ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 ||||
 
 **Domeinwaarden**
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+.
 
-|Waarde Type bodem| Beschrijving   |Herkomst|
+|Waarde Type bodem| Beschrijving   |
 |---|---|---|
-|   Zand|Type gedetailleerd van verhardingsobject, onverhard  waarvan het oppervlak (deklaag) bestaat uit zand.|IMBOR2020|
-| 	Zwarte grond|Type gedetailleerd van verhardingsobject, waarvan het oppervlak bestaat uit zwarte grond.|IMBOR2020|
-| 	Open grond|Type gedetailleerd van verhardingsobject, onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|IMBOR2020|
+|   Zand|Type gedetailleerd van verhardingsobject, onverhard  waarvan het oppervlak (deklaag) bestaat uit zand.|
+| 	Zwarte grond|Type gedetailleerd van verhardingsobject, waarvan het oppervlak bestaat uit zwarte grond.|
+| 	Open grond|Type gedetailleerd van verhardingsobject, onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|
 
 
 ### Water
@@ -90,16 +98,20 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 .
 
-|Waarde Type watervlakte| Beschrijving   |Herkomst|
+|Waarde Type watervlakte| Beschrijving   |
 |---|---|---|
-|zee|Uitgestrekt oppervlak zout water. |IMGeo 2.1.1|
-|meer|*geen onderscheidende definitie gevonden*||
-|plas|*geen onderscheidende definitie gevonden*||
-|ven|*geen onderscheidende definitie gevonden*||
-|vijver|*geen onderscheidende definitie gevonden*||
+|zee|Uitgestrekt oppervlak zout water. |
+|meer|*geen onderscheidende definitie gevonden*|
+|plas|*geen onderscheidende definitie gevonden*|
+|ven|*geen onderscheidende definitie gevonden*|
+|vijver|*geen onderscheidende definitie gevonden*|
 
 
 #### Waterloop
@@ -140,16 +152,21 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 .
 
-|Waarde Type waterloop| Beschrijving   |Herkomst|
+|Waarde Type waterloop| Beschrijving   |
 |---|---|---|
-|rivier|Het water, dat ten atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier.|IMGeo 2.1.1|
-|sloot|Een waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil.|IMGeo 2.1.1|
-|kanaal|Een gegraven grote waterloop die dient voor scheepvaart en/of watertransport.|IMGeo 2.1.1|
-|beek|Een natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier.|IMGeo 2.1.1|
-|gracht|Een gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden.|IMGeo 2.1.1|
+|rivier|Het water, dat ten atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier.|
+|sloot|Een waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil.|
+|kanaal|Een gegraven grote waterloop die dient voor scheepvaart en/of watertransport.|
+|beek|Een natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier.|
+|gracht|Een gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden.|
 
 
 #### Bron
@@ -191,7 +208,11 @@ ontwerpprincipe:
 |Waarde Status| Beschrijving   |
 |---|---|
 |||
-
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 #### Getijdengebied
 | Klasse  | Naam  |
@@ -232,14 +253,18 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 .
 
-|Waarde Type getijdengebied| Beschrijving   |Herkomst|
+|Waarde Type getijdengebied| Beschrijving   |
 |---|---|---|
-|slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. |IMGeo 2.1.1|
-|schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is. |AQUO lex|
+|slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. |
+|schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is. |
 |*kwelder|synoniem van schor? en komt ook terug als functioneel object?*||
 
 
@@ -1036,46 +1061,51 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 .
 
-|Waarde Type verharding| Beschrijving   |Herkomst|
+|Waarde Type verharding| Beschrijving   |
 |---|---|---|
-|asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|IMBOR2020|
-| betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |IMBOR2020|
-|elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|IMBOR2020|
-|halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|IMBOR2020|
-|kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient.|IMBOR2020| 
+|asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|
+| betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |
+|elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|
+|halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|
+|kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient.|
 
 .
 
-|Waarde Type verharding plus| Beschrijving   |Herkomst|
+|Waarde Type verharding plus| Beschrijving   |
 |---|---|---|
-|**asfaltverharding**||| 
-|   Zoab en open deklagen|*geen definitie opgenomen in IMBOR*|IMBOR2020|
-|   Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
-|   Dichte deklagen|*geen definitie opgenomen in IMBOR*|IMBOR2020|
-|**betonverharding**|||
-|   Ongewapend verdeuveld beton|Ongewapend verdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘verdeuveld’ genoemd.|IMBOR2020|
-| 	Gewapend beton|*geen definitie opgenomen in IMBOR*|IMBOR2020|
-| 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
-| 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|IMBOR2020|
-|**elementenverharding**|||
-|   Natuursteen|Verharding bestaande uit elementen van natuursteen.|IMBOR2020|
-| 	Straatbaksteen|Straatbaksteen is de formele benaming uit NEN-EN1344. In de CROW Systematiek Wegbeheer wordt dit ‘gebakken klinkers’ genoemd.|IMBOR2020|
-| 	Glas|Verharding bestaande uit glaselementen.|IMBOR2020|
-| 	Betonstraatstenen|Verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.|IMBOR2020|
-| 	Tegels|Verharding bestaande uit tegels, een platte vaak vierkante betonnen steen.|IMBOR2020|
-| 	Hout|Verharding bestaande uit houten elementen.|IMBOR2020|
-| 	Betonelement|Geprepareerde elementen van beton (bijvoorbeeld stelconplaten).|IMBOR2020|
-| 	Metaal|Verharding bestaande uit metalen elementen.|IMBOR2020|
-| 	Sierbestrating|Bestrating uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.|IMBOR2020|
-|**Halfverharding**|||
-|   Samenhangend|Verharding waarvan het oppervlak bestaat uit samenhangend materiaal.|IMBOR2020|
-| 	Los|Verhardingsvlak gevuld met losgestort materiaal|IMBOR2020|
-|**Kunststofverharding**|||
-|	Kunststof vloer|*geen definitie opgenomen in IMBOR*|IMBOR2020|
-|   Kunstgras|Een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|IMBOR2020|
+|**asfaltverharding**||
+|   Zoab en open deklagen|*geen definitie opgenomen in IMBOR*|
+|   Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|
+|   Dichte deklagen|*geen definitie opgenomen in IMBOR*|
+|**betonverharding**||
+|   Ongewapend verdeuveld beton|Ongewapend verdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘verdeuveld’ genoemd.|
+| 	Gewapend beton|*geen definitie opgenomen in IMBOR*|
+| 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|
+| 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|
+|**elementenverharding**||
+|   Natuursteen|Verharding bestaande uit elementen van natuursteen.|
+| 	Straatbaksteen|Straatbaksteen is de formele benaming uit NEN-EN1344. In de CROW Systematiek Wegbeheer wordt dit ‘gebakken klinkers’ genoemd.|
+| 	Glas|Verharding bestaande uit glaselementen.|
+| 	Betonstraatstenen|Verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.|
+| 	Tegels|Verharding bestaande uit tegels, een platte vaak vierkante betonnen steen.|
+| 	Hout|Verharding bestaande uit houten elementen.|
+| 	Betonelement|Geprepareerde elementen van beton (bijvoorbeeld stelconplaten).|
+| 	Metaal|Verharding bestaande uit metalen elementen.|
+| 	Sierbestrating|Bestrating uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.|
+|**Halfverharding**||
+|   Samenhangend|Verharding waarvan het oppervlak bestaat uit samenhangend materiaal.|
+| 	Los|Verhardingsvlak gevuld met losgestort materiaal|
+|**Kunststofverharding**||
+|	Kunststof vloer|*geen definitie opgenomen in IMBOR*|
+|   Kunstgras|Een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|
 
 
 ### Constructie; Kunstwerk
@@ -1119,17 +1149,22 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 .
 
-|Waarde Type overbrugging| Beschrijving   |Herkomst|
+|Waarde Type overbrugging| Beschrijving   |
 |---|---|---|
-| brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoelt voor verkeer.||
-| aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid.   ||
-| viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoelt voor verkeer.   ||
-| ecoduct |Overbruggingsconstructie over een weg of spoorweg,  bedoelt voor het passeren van dieren.   ||
-| flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   ||
-| overkluizing |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat.   ||
+| brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoelt voor verkeer.|
+| aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid.   |
+| viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoelt voor verkeer.   |
+| ecoduct |Overbruggingsconstructie over een weg of spoorweg,  bedoelt voor het passeren van dieren.   |
+| flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   |
+| overkluizing |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat.   |
 
 #### Ondertunneling
 
@@ -1169,14 +1204,18 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 .
 
-|Waarde Type ondertunneling| Beschrijving   |Herkomst|
+|Waarde Type ondertunneling| Beschrijving   |
 |---|---|---|
-| tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   ||
-| duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   ||
+| tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   |
+| duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   |
 
 #### Gemaal
 
@@ -1271,17 +1310,21 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 .
 
-|Waarde Type kunstwerkdeel| Beschrijving   |Herkomst|
+|Waarde Type kunstwerkdeel| Beschrijving   |
 |---|---|---|
-| dek |Direct door het verkeer belaste deel van de bovenbouw van de brug.   ||
-| landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.   ||
-| pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   ||
-| sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   ||
-| pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   ||
+| dek |Direct door het verkeer belaste deel van de bovenbouw van de brug.   |
+| landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.   |
+| pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   |
+| sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   |
+| pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   |
 
 
 #### Sluisdeel
@@ -1322,14 +1365,18 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 .
 
-|Waarde Type kunstwerkdeel| Beschrijving   |Herkomst|
-|---|---|---|
-| sluisdeur |||
-| kolk |||
+|Waarde Type kunstwerkdeel| Beschrijving   |
+|---|---|
+| sluisdeur ||
+| kolk ||
 
 ### Constructie; Overige
 
@@ -1373,7 +1420,11 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 #### Hek
   
@@ -1415,7 +1466,11 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 #### Raster
   
@@ -1457,7 +1512,11 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 #### Scherm
   
@@ -1499,7 +1558,11 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 
 
