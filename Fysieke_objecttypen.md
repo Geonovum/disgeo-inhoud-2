@@ -108,6 +108,7 @@ ontwerpprincipe:
 |verwijderd||
 |niet gerealiseerd||
 |ten onrechte||
+
 .
 
 |Waarde Type watervlakte| Beschrijving   |
@@ -166,7 +167,7 @@ ontwerpprincipe:
 .
 
 |Waarde Type waterloop| Beschrijving   |
-|---|---|---|
+|---|---|
 |rivier|Het water, dat ten atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier.|
 |sloot|Een waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil.|
 |kanaal|Een gegraven grote waterloop die dient voor scheepvaart en/of watertransport.|
@@ -212,7 +213,6 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|||
 |gepland||
 |bestaand||
 |verwijderd||
@@ -267,7 +267,7 @@ ontwerpprincipe:
 .
 
 |Waarde Type getijdengebied| Beschrijving   |
-|---|---|---|
+|---|---|
 |slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. |
 |schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is. |
 |*kwelder|synoniem van schor? en komt ook terug als functioneel object?*||
@@ -1075,7 +1075,7 @@ ontwerpprincipe:
 .
 
 |Waarde Type verharding| Beschrijving   |
-|---|---|---|
+|---|---|
 |asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|
 | betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |
 |elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|
@@ -1163,7 +1163,7 @@ ontwerpprincipe:
 .
 
 |Waarde Type overbrugging| Beschrijving   |
-|---|---|---|
+|---|---|
 | brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoelt voor verkeer.|
 | aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid.   |
 | viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoelt voor verkeer.   |
@@ -1218,7 +1218,7 @@ ontwerpprincipe:
 .
 
 |Waarde Type ondertunneling| Beschrijving   |
-|---|---|---|
+|---|---|
 | tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   |
 | duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   |
 
@@ -1324,7 +1324,7 @@ ontwerpprincipe:
 .
 
 |Waarde Type kunstwerkdeel| Beschrijving   |
-|---|---|---|
+|---|---|
 | dek |Direct door het verkeer belaste deel van de bovenbouw van de brug.   |
 | landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.   |
 | pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   |
