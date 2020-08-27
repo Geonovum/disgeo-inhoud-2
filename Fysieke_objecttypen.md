@@ -45,6 +45,7 @@ ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 ||||
 
 **Domeinwaarden**
+
 |Waarde Status| Beschrijving   |
 |---|---|
 |gepland||
@@ -52,10 +53,11 @@ ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 |verwijderd||
 |niet gerealiseerd||
 |ten onrechte||
+
 .
 
 |Waarde Type bodem| Beschrijving   |
-|---|---|---|
+|---|---|
 |   Zand|Type gedetailleerd van verhardingsobject, onverhard  waarvan het oppervlak (deklaag) bestaat uit zand.|
 | 	Zwarte grond|Type gedetailleerd van verhardingsobject, waarvan het oppervlak bestaat uit zwarte grond.|
 | 	Open grond|Type gedetailleerd van verhardingsobject, onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|
