@@ -4,10 +4,10 @@
 
 #### Weg
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Weg|
-| onderdeel van NEN3610-objecttype | Functioneel object |
+| Onderdeel van NEN3610-objecttype | Functioneel object |
 
 ontwerpprincipe: 
 
@@ -21,10 +21,10 @@ ontwerpprincipe:
 |Toelichting| *volgt later*  |
 
 ##### Verbinding
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Verbinding|
-| onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 ontwerpprincipe: 
 
@@ -57,10 +57,10 @@ ontwerpprincipe:
 
 
 ##### Knoop
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Knoop|
-| onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 ontwerpprincipe: 
 
@@ -93,10 +93,10 @@ ontwerpprincipe:
 
 
 ##### Hyperkant
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Hyperkant |
-| onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 ontwerpprincipe: 
 
@@ -133,8 +133,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip weg|Ja |
-|Geometrie-type|lijn|Ja|
-|Afbakening   |  | |
+|Geometrie|lijn|Ja|
 |type weg|||
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -154,90 +153,14 @@ ontwerpprincipe:
 
 
 
-### Infrastructuur waterstaatswerken
-#### Kering
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Kering|
-| onderdeel van NEN3610-objecttype | Functioneel object |
 
-ontwerpprincipe: 
-
-
-**Definitie**
-
-| Naam  | Kering |
-|---|---|
-| Definitie | Voorziening met kerende functie. |
-|Herkomst definitie  |nieuw|
-|Verplicht  | ja  |
-|Toelichting| *volgt later*  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
-|Geometrie-type|lijn|nee|
-|Afbakening   |  | |
-|type kering|||
-|Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Domeinwaarden**
-
-|Waarde type kering| Beschrijving   |Herkomst|
-|---|---|---|
-|grond	|voorziening bedoeld om grond te keren|	nieuw|
-|water	|voorziening bedoeld om water te keren|	nieuw|
-
-
-#### Oever,slootkant
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | Oever,slootkant |
-| onderdeel van NEN3610-objecttype |Functioneel object  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Oever,slootkant  |
-|---|---|
-| Definitie | *De strook land die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
-|Herkomst definitie  | BGT 1.1.1.     |
-|Verplicht  | Ja  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
-
-#### Complex
-
-### Watergebruik
-#### Havencomplex
 
 
 ### Functionele zonering
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Functionele zonering |
-| onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 
 
@@ -248,10 +171,10 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 #### Verblijfsobject
 
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Verblijfsobject  |
-| onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 **Definitie**
 
@@ -349,10 +272,10 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 
 #### Gebouwzone
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Gebouwzone  |
-| onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 **Definitie**
 
@@ -431,10 +354,10 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 ### Functionele zonering GRIJS
 
 #### Verkeerseiland
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Verkeerseiland |
-| onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 ontwerpprincipe: 
 
@@ -448,10 +371,10 @@ ontwerpprincipe:
 |Toelichting|  |
 
 #### Berm
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Berm |
-| onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 ontwerpprincipe: 
 
@@ -466,10 +389,10 @@ ontwerpprincipe:
 *definitie afstemmen tussen werkgroep GRIJS en GROEN*
 
 #### Voetgangersgebied
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Voetgangersgebied |
-| onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 ontwerpprincipe: 
 
@@ -483,10 +406,10 @@ ontwerpprincipe:
 |Toelichting|  |
 
 #### Woonerf
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Woonerf |
-| onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 ontwerpprincipe: 
 
@@ -577,10 +500,10 @@ uitsluitend door markering.|verplicht|
 ||*Niet BGT*| 	 	recreatie: volkstuin|  
 
 #### Strand
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Strand |
-| onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 ontwerpprincipe: 
 
@@ -594,10 +517,10 @@ ontwerpprincipe:
 |Toelichting|  |
 
 #### Duin
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Duin |
-| onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 ontwerpprincipe: 
 
@@ -628,27 +551,155 @@ ontwerpprincipe:
 ||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
 
 
-
-
-
-### Functionele zonering OVERIG
-#### reducering
-
-| klasse  | naam  |
+#### Kering
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | reducering|
-| onderdeel van NEN3610-objecttype | **functioneel object** |
+| SOR-begrip   | Kering|
+| Onderdeel van NEN3610-objecttype | Functioneel object |
 
 ontwerpprincipe: 
 
+**Definitie**
+
+| Naam  | Kering |
+|---|---|
+| Definitie | Voorziening met kerende functie. |
+|Herkomst definitie  |nieuw|
+|Verplicht  | ja  |
+|Gevolgen afbakening||
+|Toelichting| *volgt later*  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
+|Geometrie||nee (lijn)|
+|type kering|||
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Domeinwaarden**
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+.
+
+|Waarde type kering| Beschrijving   |Herkomst|
+|---|---|---|
+|grond	|voorziening bedoeld om grond te keren|	nieuw|
+|water	|voorziening bedoeld om water te keren|	nieuw|
+
+
+#### Oever,slootkant
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Oever,slootkant |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | reducering |
+| Naam  | Oever,slootkant  |
+|---|---|
+| Definitie | *De strook land die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
+|Herkomst definitie  | BGT 1.1.1.     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening||
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip oever,slootkant|Ja |
+|Geometrie||nee (lijn)|
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+#### Complex
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Complex |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Complex  |
+|---|---|
+| Definitie |   |
+|Herkomst definitie  |     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening||
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip complex|Ja |
+|Geometrie||nee (vlak)|
+|Type complex|||
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+. 
+
+|Waarde Type complex| Beschrijving   |
+|---|---|
+|||
+|havencomplex||
+|gemaalcomplex||
+|sluiscomplex||
+|stuwcomplex||
+|coupurecomplex||
+
+### Functionele zonering OVERIG
+#### Reducering
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | reducering|
+| Onderdeel van NEN3610-objecttype | Functioneel object |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Reducering |
 |---|---|
 | Definitie |voorziening om bepaalde effecten van omgevingsfactoren te verminderen|
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
+|Gevolgen afbakening||
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -656,36 +707,39 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip reducering|Ja |
-|Geometrie-type|lijn|nee|
-|Afbakening   |  | |
+|Geometrie||nee (lijn)|
 |type reducering|||
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Domeinwaarden**
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
 
-|Waarde type reducering| Beschrijving   |Herkomst|
+. 
+|Waarde Type reducering| Beschrijving   |Herkomst|
 |---|---|---|
 |geluid|	voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|	nieuw|
 |fijnstof|	voorziening bedoeld om verspreiding van fijnstof te verminderen	|nieuw|
 
 
-#### valbescherming
-| klasse  | naam  |
+#### Valbescherming
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | valbescherming|
-| onderdeel van NEN3610-objecttype | **functioneel object** |
+| SOR-begrip   | Valbescherming|
+| Onderdeel van NEN3610-objecttype | Functioneel object |
 
 ontwerpprincipe: 
 
-
 **Definitie**
 
-| Naam  | valbescherming |
+| Naam  | Valbescherming |
 |---|---|
-| Definitie |voorziening om vallen te voorkomen|
+| Definitie |Voorziening om vallen te voorkomen|
 |Herkomst definitie  |nieuw|
 |Verplicht  | nee  |
+|Gevolgen afbakening||
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -693,28 +747,40 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip valbescherming|Ja |
-|Geometrie-type|lijn|nee|
-|Afbakening   |  | |
+|Geometrie||nee (lijn)|
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+**Relaties met andere objecttypen** 
 
-#### afscheiding 
-| klasse  | naam  |
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
 |---|---|
-|SOR-begrip   | afscheiding |
-| onderdeel van NEN3610-objecttype | **functioneel object** |
+|||
+
+
+#### Afscheiding 
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Afscheiding |
+| Onderdeel van NEN3610-objecttype | Functioneel object |
 
 ontwerpprincipe: 
 
 
 **Definitie**
 
-| Naam  | afscheiding |
+| Naam  | Afscheiding |
 |---|---|
 | Definitie |Voorziening om terrein af te scheiden.|
 |Herkomst definitie  |nieuw|
 |Verplicht  | nee  |
+|Gevolgen afbakening||
 |Toelichting| *volgt later*  |
 
 **Eigenschappen**
@@ -722,11 +788,21 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip afscheiding|Ja |
-|Geometrie-type|lijn|nee|
-|Afbakening   |  | |
+|Geometrie||nee (lijn)|
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
 
 
 
@@ -757,11 +833,6 @@ ontwerpprincipe:
 ##### visserijgebied beroeps en recreatief?
 ##### waterkering
 ##### waterbergingsgebied
-##### havencomplex
-##### gemaalcomplex
-##### sluiscomplex
-##### stuwcomplex
-##### coupurecomplex
 ##### scheepvaartbord 
 ##### pomp 
 ##### dijkpaal 
