@@ -258,7 +258,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |
 | Herkomst definitie  | BGT  |
 | Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *oofbos* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen loofbos van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 | Toelichting| |
 
 #####    Griend en hakhout  
@@ -275,6 +275,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt ingekort.   |   
 |Herkomst definitie  | IMGEO 2.0  |
 |Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *griend en hakhout* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
  
@@ -292,6 +293,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |   
 |Herkomst definitie  | BGT  |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *gemengd bos* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
 #### Naaldbos
@@ -308,6 +310,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
 |Herkomst definitie  | BGT  |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *naaldbos* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
 
@@ -326,6 +329,7 @@ ontwerpprincipe:
 | Definitie |(Grond met) een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie.     
 |Herkomst definitie  | CROW |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *gras- en kruidachtigen* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
 
@@ -342,6 +346,7 @@ ontwerpprincipe:
 |---|---|
 | Definitie |Terreindeel bedekt met lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en eventueel aanwezigheid van enkele verspreid staande stammen.   |    |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struiken* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
 
@@ -358,6 +363,7 @@ ontwerpprincipe:
 |---|---|
 | Definitie |Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een  gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.  |  
 |Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *heesters* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
 
@@ -375,6 +381,7 @@ ontwerpprincipe:
 | Definitie |Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of  gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.   |    
 |Herkomst definitie  | CROW |
 |Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bosplantsoen* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
 ##### Planten
@@ -390,6 +397,7 @@ ontwerpprincipe:
 |---|---|
 | Definitie |*niet ingevuld*  |    |
 |Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *planten* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
 
@@ -406,6 +414,7 @@ ontwerpprincipe:
 |---|---|
 | Definitie |*niet ingevuld*  |    |
 |Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struikrozen* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
 ##### Bodembedekkers
@@ -421,6 +430,7 @@ ontwerpprincipe:
 |---|---|
 | Definitie |*niet ingevuld*  |    |
 |Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bodembedekkers* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| |
 
 
@@ -438,6 +448,7 @@ ontwerpprincipe:
 | Definitie |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
 |Herkomst definitie  | IMGeo   |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *Haag* bij *vegetatie object* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -455,6 +466,7 @@ ontwerpprincipe:
 | Definitie |opgaande begroeiing van bomen zonder struiken  |
 |Herkomst definitie  |   |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | nieuw object  |
 |Toelichting|  |
 
 #### Houtsingel
@@ -471,6 +483,7 @@ ontwerpprincipe:
 | Definitie |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
 |Herkomst definitie  |   |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | nieuw object  |
 |Toelichting|  |
 
 #### Moeras
@@ -487,6 +500,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing.  |
 |Herkomst definitie  | bron: BGT |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *moeras* bij *begroeid terreindeel * zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 #### Heide
