@@ -15,6 +15,9 @@ Deze Typering is in deze fase van het traject vooral bedoeld om een eerste indru
 
 ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 
+> NOOT
+> nog bediscussieren in de werkgroep Inhoud
+
 **Definitie**
 
 | Naam  | Bodem |
