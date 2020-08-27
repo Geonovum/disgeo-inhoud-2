@@ -15,6 +15,11 @@ Deze Typering is in deze fase van het traject vooral bedoeld om een eerste indru
 
 ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
 
+<p class='note’>
+     *nog bediscussieren in de werkgroep Inhoud*
+</p>
+
+
 **Definitie**
 
 | Naam  | Bodem |
