@@ -580,7 +580,6 @@ ontwerpprincipe:
 |Herkomst definitie  | BT / CROW  |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *fruitteelt* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-
 |Toelichting|  |
 
 #####    laagstam boomgaarden 
@@ -675,54 +674,6 @@ ontwerpprincipe:
 
 
 
-#### OUD Groenobject
-
-Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige BGT|IMGeo 2.1.1. Verwacht wordt dat een uitbreiding van Typeringen bij groenvoorziening voor hagen en boomspiegels noodzakelijk is. Hiervoor is nadere afstemming met IMBOR 2020 nodig. Dit leidt tot de volgende Typeringen voor het objecttype ‘groenobject’:
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Fysiek voorkomen:| |	 
-|Boomteelt	 ||
-|Bouwland	|Braakliggend|
-|| 	Tuinachtige grond|
-|| 	Tuinbouwgrond|
-|| 	Bollenteelt|
-|| 	Vollegrondsteelt|
-|| 	Akkerbouw|
-|Duin	|Gesloten duinvegetatie|
-|| 	Open duinvegetatie|
-|Fruitteelt	|Laagstam boomgaarden|
-|| 	Klein fruit|
-|| 	Hoogstam boomgaarden|
-|| 	Wijngaarden|
-|Grasland agrarisch	|Weide|
-||Grasland overig	|Helmgras|
-|| 	Schraalgrasland|
-|| 	Ruig gras|
-|| 	Natuurlijke grasvegetatie|
-|Gemengd bos||
-|Graft	 ||
-|Heide	|Droge heide|
-|| 	Natte heide|
-|Houtwal	 ||
-|Kwelder	 ||
-|Loofbos	|Griend en hakhout|
-|Moeras	|Moerasvegetatie|
-|Naaldbos	 ||
-|Rietland	|Rietvegetatie|
-|| 	Plasberm|
-|Slik	 ||
-|Steilwand	 ||
-|Struiken	 ||
-|Zandvlakte	|Zandverstuiving|
-|| 	Strand en strandwal|
-|groenvoorziening	|bosplantsoen|
-|| 	gras- en kruidachtigen|
-|| 	planten|
-|| 	struikrozen|
-|| 	heesters|
-|| 	bodembedekkers|
-
 
 ### Constructie; Gebouw
 
@@ -750,9 +701,8 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 |Identificatie   |De unieke aanduiding van een Gebouw  |Ja |
 |Geometrie |De geometrische representatie van de randen van een gebouw *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
 |Typering |Het doel waarvoor een gebouw gebruikt wordt  |Ja|
-|Aard|De fysieke verschijningsvorm van een gebouw
-*nader te bepalen of  deze Typering ook een antwoord geeft op de vraag in welke hoogteKlasse een gebouw is gelegen, welke soortNaam het betreft en van welk fysiek voorkomen sprake is*   |Ja|
-|Oorspronkelijk bouwjaar | DDe aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
+|Aard|De fysieke verschijningsvorm van een gebouw *nader te bepalen of  deze Typering ook een antwoord geeft op de vraag in welke hoogteKlasse een gebouw is gelegen, welke soortNaam het betreft en van welk fysiek voorkomen sprake is*   |Ja|
+|Oorspronkelijk bouwjaar | De aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |Toegangsdeur| NTB ||
 |Aantal bouwlagen | NTB||
@@ -769,11 +719,12 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 
 | Waarde Typering| Beschrijving   |
 |---|---|
-|Woning| |
+| Woning| |
 | Bedrijf ||
-|||
 | ... |*aanvullingen BRT en Bgt??* |
+
 .
+
 | Waarde Status | Beschrijving   |
 |---|---|
 |Gepland||
@@ -820,7 +771,7 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|Bouwlaag|Ligt in|Gebouw|
+|Ligt in|Gebouw| Ja|
 
 **Domeinwaarden**
 
@@ -860,7 +811,7 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Ruimte  |Ja |
-|Geometrie |De geometrische representatie van de randen van een Ruimte *nader te preciseren op basis van generieke uitspraken over de vastlegging |van geometrie*  |Ja|
+|Geometrie |De geometrische representatie van de randen van een Ruimte *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
 |Typering|Het doel waarvoor een ruimte gebruikt wordt|Ja|
 |Bouwlaagnummer |De bouwlaag waarop de ruimte zich bevindt|Ja|
 |Oppervlakte| NTB||
@@ -871,7 +822,7 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|Ruimte|Ligt op|Bouwlaag|
+|Ligt op|Bouwlaag| Ja|
 
 **Domeinwaarden**
 
@@ -879,8 +830,9 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 |---|---|
 |Woonkamer| |
 |Keuken ||
-|||
 | ... |*lijst vanuit BIM checken* |
+
+.
 
 | Waarde Status | Beschrijving   |
 |---|---|
@@ -928,8 +880,8 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|Installatie|Hoort bij|Verblijfsobject|
-|Installatie|Hoort bij|Gebouw|
+|Hoort bij|Verblijfsobject|Ja|
+|Hoort bij|Gebouw|Ja|
 
 **Domeinwaarden**
 
@@ -940,6 +892,8 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 |dakkapel ||
 |lift||
 | ... |*lijst vanuit elders checken* |
+
+.
 
 | Waarde Status | Beschrijving   |
 |---|---|
@@ -987,8 +941,8 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|Toegangsdeur|Hoort bij|Verblijfsobject|
-|Toegangsdeur|Hoort bij|Gebouw|
+|Hoort bij|Verblijfsobject| Ja|
+|Hoort bij|Gebouw| Ja|
 
 **Domeinwaarden**
 
@@ -998,11 +952,15 @@ Voor het objecttype ‘groenobject’ is de Typering overgenomen uit de huidige 
 |directe toegang vanaf openbare weg| |
 |toegang vanaf gemeenschappelijke verkeersruimte ||
 
+.
+
 | Waarde Type| Beschrijving   |
 |---|---|
 |Personen| |
 |Auto| |
 |Vracht||
+
+.
 
 | Waarde Status | Beschrijving   |
 |---|---|
@@ -1149,7 +1107,7 @@ ontwerpprincipe:
 |Geometrie||Ja|
 |Status   |   |Ja   |
 |Type overbrugging|aanduiding soort overbrugging|Nee|
-|*Beweegbaar|aanduiding of overbrugging beweegbaar is (open en dicht kan)|Ja*|
+|*Beweegbaar*|*aanduiding of overbrugging beweegbaar is (open en dicht kan)*|*Ja*|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1162,7 +1120,9 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
+
 .
+
 |Waarde Type overbrugging| Beschrijving   |Herkomst|
 |---|---|---|
 | brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoelt voor verkeer.||
@@ -1311,7 +1271,9 @@ ontwerpprincipe:
 |Waarde Status| Beschrijving   |
 |---|---|
 |||
+
 .
+
 |Waarde Type kunstwerkdeel| Beschrijving   |Herkomst|
 |---|---|---|
 | dek |Direct door het verkeer belaste deel van de bovenbouw van de brug.   ||
@@ -1360,7 +1322,9 @@ ontwerpprincipe:
 |Waarde Status| Beschrijving   |
 |---|---|
 |||
+
 .
+
 |Waarde Type kunstwerkdeel| Beschrijving   |Herkomst|
 |---|---|---|
 | sluisdeur |||
@@ -1393,11 +1357,22 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip muur|Ja |
-|Geometrie|lijn|Ja|
-|Geometrie|vlak|Nee|
+|Geometrie|lijn|Ja (lijn) Nee (vlak)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
 
 #### Hek
   
@@ -1424,10 +1399,22 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip hek|Ja |
-|Geometrie|lijn|Ja|
+|Geometrie||Ja (lijn)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
 
 #### Raster
   
@@ -1454,10 +1441,22 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip raster|Ja |
-|Geometrie|lijn|Ja|
+|Geometrie||Ja (lijn)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
 
 #### Scherm
   
@@ -1484,12 +1483,22 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip scherm|Ja |
-|Geometrie|lijn|Ja|
+|Geometrie||Ja (lijn)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+**Relaties met andere objecttypen** 
 
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
 
 
 
