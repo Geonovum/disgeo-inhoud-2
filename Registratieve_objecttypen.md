@@ -338,7 +338,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een benoemde plaats  |Ja |
 |Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde ruimte is benoemd. |Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende Nummeraanduiding zich bevindt    |Ja   |
+|Status   |De fase van de levenscyclus waarin de betreffende Benoemde plaats zich bevindt    |Ja   |
 |Type benoemde plaats| De aard van het object|Ja|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
@@ -355,7 +355,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |---|---|
 |Aangewezen| Benoemde plaats is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | Benoemde plaats is formeel ingetrokken door het bevoegd gezag  |
-
+'
 | Waarde Type benoemde plaats| Beschrijving   |
 |---|---|
 |Permanente mobiele ruimte||
