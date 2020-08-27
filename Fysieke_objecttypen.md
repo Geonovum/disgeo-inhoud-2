@@ -75,7 +75,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip watervlakte |Ja |
-|Geometrie| |Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een watervlakte. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (vlak)|
 |Status   |   |Ja   |
 |Type watervlakte|aanduiding soort watervlakte|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -125,7 +125,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip waterloop |Ja |
-|Geometrie||Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een waterloop. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (vlak)|
 |Status   |   |Ja   |
 |Type waterloop|aanduiding soort waterloop|Nee|
 |*watervoerend| aanduiding of de waterloop wel of geen water bevat | ja*|
@@ -175,7 +175,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip bron |Ja |
-|Geometrie||Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een bron.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (vlak)|
 |Status   |   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -216,7 +216,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip getijdengebied |Ja |
-|Geometrie||Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een getijdengebied. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (vlak)|
 |Status   |   |Ja   |
 |Type getijdengebied|aanduiding soort getijdengebied|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1020,7 +1020,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip verharding |Ja |
-|Geometrie||Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een verhardingsvlak. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (vlak)|
 |Status   |   |Ja   |
 |Type verharding|aanduiding soort verharding|Ja|
 |Type verharding plus|aanduiding soort verharding|Nee|
@@ -1103,7 +1103,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip overbrugging |Ja |
-|Geometrie||Ja|
+|Geometrie|De geometrische representatie van de randen van een overbrugging.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
 |Status   |   |Ja   |
 |Type overbrugging|aanduiding soort overbrugging|Nee|
 |*Beweegbaar*|*aanduiding of overbrugging beweegbaar is (open en dicht kan)*|*Ja*|
@@ -1155,7 +1155,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip ondertunneling|Ja |
-|Geometrie||Ja|
+|Geometrie|De geometrische representatie van de randen van een ondertunneling.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
 |Status   |   |Ja   |
 |Type ondertunneling|aanduiding soort ondertunneling|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1256,7 +1256,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip overbruggingsdeel |Ja |
-|Geometrie||Ja|
+|Geometrie|De geometrische representatie van de randen van een overbruggingsdeel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
 |Status   |   |Ja   |
 |Type overbruggingsdeel|aanduiding soort overbruggingsdeel|nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1307,7 +1307,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip sluisdeel |Ja |
-|Geometrie||Ja|
+|Geometrie|De geometrische representatie van de randen van een sluisdeel.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
 |Status   |   |Ja   |
 |Type Sluisdeel|aanduiding soort sluisdeel|nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1358,7 +1358,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip muur|Ja |
-|Geometrie||Ja (lijn) Nee (vlak)|
+|Geometrie|De geometrische representatie van een muur. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn) Nee (vlak)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1400,7 +1400,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip hek|Ja |
-|Geometrie||Ja (lijn)|
+|Geometrie|De geometrische representatie van een hek. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1442,7 +1442,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip raster|Ja |
-|Geometrie||Ja (lijn)|
+|Geometrie|De geometrische representatie van een raster. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1484,7 +1484,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip scherm|Ja |
-|Geometrie||Ja (lijn)|
+|Geometrie|De geometrische representatie van een scherm.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
