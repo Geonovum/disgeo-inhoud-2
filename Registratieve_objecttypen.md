@@ -1,11 +1,15 @@
 ## Registratieve objecttypen
 
 
-### Bestuurlijke objecttypen
+### Bestuurlijke gebieden
+
+<div class='note'>
+    paragraaf vergaand gereed, oplevering verwacht rond 10 september 2020
+</div>
 
 #### Provincie
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | provincie  |
 | Onderdeel van NEN3610-objecttype |registratief object  |
@@ -22,7 +26,7 @@
 
 #### Waterschap
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | waterschap |
 | Onderdeel van NEN3610-objecttype |registratief object  |
@@ -37,7 +41,7 @@
 
 #### Gemeente
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Gemeente  |
 | Onderdeel van NEN3610-objecttype |registratief object  |
@@ -52,13 +56,13 @@
 
 
 ### Woonplaats
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | woonplaats  |
 | Onderdeel van NEN3610-objecttype |registratief object  |
 
 
-ontwerpprincipe: *een woonplaats valt volledig binnen een burgerlijke gemeente*
+ontwerpprincipe: *een woonplaats valt volledig binnen een gemeente*
 
 ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
 
@@ -96,14 +100,15 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|Aangewezen|Woonplaats is formeel aangewezen door het bevoegd gezag |
+| Aangewezen |Woonplaats is formeel aangewezen door het bevoegd gezag |
 | Ingetrokken | Woonplaats is formeel ingetrokken door het bevoegd gezag  |
+| Ten onrechte | Woonplaats is ten onrechte opgevoerd in de registratie |
 
 ### Wijk
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | wijk  |
+| SOR-begrip   | wijk  |
 | Onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
@@ -133,9 +138,9 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|ligt in   |Gerelateerde woonplaats | Ja |
+|ligt in   |Gerelateerde gemeente | Ja |
 
-ontwerpprincipe: *een wijk valt volledig binnen een  woonplaats*
+ontwerpprincipe: *een wijk valt volledig binnen een gemeente*
 
 ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
 
@@ -145,16 +150,16 @@ ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land
 
 | Waarde Status | Beschrijving   |
 |---|---|
-|Aangewezen|Wijk is benoemd door het bevoegd gezag |
+| Aangewezen | Wijk is benoemd door het bevoegd gezag |
 | Ingetrokken | Wijk is ingetrokken door het bevoegd gezag  |
-
+| Ten onrechte | Wijk is ten onrechte opgevoerd in de registratie |
 
 
 ### Buurt
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | buurt  |
+| SOR-begrip   | buurt  |
 | onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
@@ -195,14 +200,14 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 
 | Waarde Status| Beschrijving   |
 |---|---|
-|Aangewezen|Buurt is benoemd door het bevoegd gezag |
+| Aangewezen | Buurt is benoemd door het bevoegd gezag |
 | Ingetrokken | Buurt is ingetrokken door het bevoegd gezag  |
-
+| Ten onrechte | Buurt is ten onrechte opgevoerd in de registratie |
 
 
 ### Openbare ruimte
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Openbare ruimte  |
 | Onderdeel van NEN3610-objecttype |registratief object  |
@@ -225,10 +230,10 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 |Identificatie   |De unieke aanduiding van een Openbare ruimte  |Ja |
 |Type   |De aard van de als zodanig benoemde openbare ruimte   |Ja   |
 |Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja|
-|alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of iNee|
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  |Ja   |
+|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Nee|
+|Geometrie   |De geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  | Nee  |
 |Status   |De fase van de levenscyclus waarin de betreffende openbare ruimte zich bevindt    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -241,13 +246,15 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 
 | Waarde Status | Beschrijving   |
 |---|---|
-|Aangewezen|openbare ruimte  is formeel uitgegeven door het bevoegd gezag |
-| Ingetrokken | openbare ruimte  is formeel ingetrokken door het bevoegd gezag  |
+| Aangewezen | Openbare ruimte is formeel uitgegeven door het bevoegd gezag |
+| Ingetrokken | Openbare ruimte is formeel ingetrokken door het bevoegd gezag  |
+| Ten onrechte | Openbare ruimte is ten onrechte opgevoerd in de registratie |
 
+.
 
 | Waarde Type | Beschrijving   |
 |---|---|
-|Weg|Transportvoorzienning voor wegverkeer |
+| Weg|Transportvoorzienning voor wegverkeer |
 | Waterlement |Transportvoorzienning voor water|
 
 ontwerpprincipe: *Bij het objecttype spoorweg wordt een (vrijwillige) eigenschap “Naam spoorweg” opgenomen*
@@ -265,17 +272,17 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 
 ### Nummeraanduiding
 
-| klasse  | naam  |
+| Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Nummeraanduiding  |
+| SOR-begrip   | Nummeraanduiding  |
 | Onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
 
 | Naam  | Nummeraanduiding  |
 |---|---|
-| Definitie | Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats  |
-|Herkomst definitie  | Artikel 1 wet Basisregistratie adressen en gebouwen |
+| Definitie | Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject of een benoemde plaats.  |
+|Herkomst definitie  | Gebaseerd op Artikel 1 wet Basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen  |
 |Toelichting| *volgt later* |
@@ -285,9 +292,9 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Nummeraanduiding  |Ja |
-|Huisnummer |Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende ummering   |Ja|
-|Huisletter |Een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken   |Ja|
-|Huisnummer  toevoeging|Een door of namens het gemeentebestuur ten aanzien van *een adresseerbaar object* toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter   |Ja|
+|Huisnummer |Een door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende nummering   |Ja|
+|Huisletter | Een door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken  |Ja|
+|Huisnummer  toevoeging| Een door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter |Ja|
 |Postcode | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer|Ja|
 |Type object | De aard van het object waaraan een nummeraanduiding is toegekend| Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende Nummeraanduiding zich bevindt    |Ja   |
@@ -298,26 +305,28 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |ligt aan| gerelateerde openbare ruimte |Ja|
-|ligt in   |Gerelateerde gemeente | Ja |
+|ligt in   |Gerelateerde woonplaats | Ja |
 
 **Domeinwaarden**
 
 
 | Waarde Status | Beschrijving   |
 |---|---|
-|Aangewezen|Nummeraanduiding is formeel uitgegeven door het bevoegd gezag |
+| Aangewezen | Nummeraanduiding is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | Nummeraanduiding is formeel ingetrokken door het bevoegd gezag  |
+| Ten onrechte | Nummeraanduiding is ten onrechte opgevoerd in de registratie |
 
+.
 
 | Waarde Type | Beschrijving   |
 |---|---|
-|Verblijfsobject|Nummeraanduiding is bedoeld voor een verblijfsobject |
-| Standplaats |Nummeraanduiding is bedoeld voor een standplaats |
-| Ligplaats |Nummeraanduiding is bedoeld voor een ligplaats |
+| Verblijfsobject |Nummeraanduiding is bedoeld voor een verblijfsobject |
+| Benoemde plaats |Nummeraanduiding is bedoeld voor een benoemde plaats |
+
 
 ### Benoemde plaats
 
-| klasse  | naam  |
+| Klasse  | naam  |
 |---|---|
 | SOR-begrip   | Benoemde plaats  |
 | Onderdeel van NEN3610-objecttype |Registratief object  |
@@ -327,7 +336,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 | Naam  | Benoemde plaats |
 |---|---|
 | Definitie | Door het bevoegde gemeentelijk orgaan als zodanig aangewezen delen van een terrein en/of water waarvan het belang is daaraan een adres toe te kennen en dat bedoeld is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden ruimte, het permanent afmeren van een drijvend object of het permanent aanwezig zijn van specifieke technische voorzieningen.  |
-|Herkomst definitie  | Variatie op de wet BAG |
+|Herkomst definitie  | Gebaseerd op artikel 1 wet Basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Stand- en ligplaatsen worden momenteel door gemeenten afgebakend in het kader van de BAG. Dit meer generieke object biedt ook mogelijkheden voor andere objecten (zoals onbemande tankstations).  |
 |Toelichting| *volgt later* |
@@ -339,7 +348,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Identificatie   |De unieke aanduiding van een benoemde plaats  |Ja |
 |Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde ruimte is benoemd. |Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende Benoemde plaats zich bevindt    |Ja   |
-|Type benoemde plaats| De aard van het object|Ja|
+|Type benoemde plaats| De aard van het object op de benoemde plaats|Ja|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -355,12 +364,13 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |---|---|
 |Aangewezen| Benoemde plaats is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | Benoemde plaats is formeel ingetrokken door het bevoegd gezag  |
+| Ten onrechte | Benoemde plaats is ten onrechte opgevoerd in de registratie |
 
 '
 
 | Waarde Type benoemde plaats| Beschrijving   |
 |---|---|
-|Permanente mobiele ruimte||
+|Mobiele ruimte||
 |Drijvend object||
 |Tankstation||
 
@@ -368,3 +378,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 ### (Continentaal plat)
 
 *De definitie en begrenzing van het continentaal plat moet hier worden beschreven*
+
+<div class='note'>
+    Wat is de aanleiding voor opname van dit objecttype?
+</div>
