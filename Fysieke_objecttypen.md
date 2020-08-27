@@ -216,7 +216,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip getijdengebied |Ja |
-|Geometrie|vlak|Ja|
+|Geometrie||Ja (vlak)|
 |Status   |   |Ja   |
 |Type getijdengebied|aanduiding soort getijdengebied|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -258,6 +258,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |
 | Herkomst definitie  | BGT  |
 | Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *oofbos* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 | Toelichting| |
 
 #####    Griend en hakhout  
