@@ -492,7 +492,7 @@ Bij fysieke objecttypen worden drie hoofdfasen onderscheiden waarbinnen meerdere
 
 |Hoofdfase	|Niet-vergunningplichtig	|Vergunningplichtig|
 |---|---|---|
-|Planfase	|Gepland	\Gepland|
+|Planfase	|Gepland	|Gepland|
 |||	Bouwvergunning verleend|
 |||Sloopvergunning verleend|
 |Aanwezigheidsfase	|Bestaand |In aanbouw|
