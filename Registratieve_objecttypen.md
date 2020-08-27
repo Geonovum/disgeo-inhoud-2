@@ -315,35 +315,52 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 | Standplaats |Nummeraanduiding is bedoeld voor een standplaats |
 | Ligplaats |Nummeraanduiding is bedoeld voor een ligplaats |
 
-
-### Stand- en Ligplaats
-| klasse  | naam  |
-|---|---|
-|SOR-begrip   | ligplaats  |
-| onderdeel van NEN3610-objecttype |functioneel object  |
-
-Definitie ligplaats (Herkomst: Catalogus BAG 2018): 
-Door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object 
-https://imbag.github.io/praktijkhandleiding/objecttypen/ligplaats
+### Benoemde plaats
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | standplaats  |
-| onderdeel van NEN3610-objecttype |functioneel object  |
+| SOR-begrip   | Benoemde plaats  |
+| Onderdeel van NEN3610-objecttype |Registratief object  |
 
-Definitie standplaats (Herkomst: Catalogus BAG 2018):
-Door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte
-https://imbag.github.io/praktijkhandleiding/objecttypen/standplaats 
+**Definitie**
 
-Er is vrijwel geen verschil tussen een ligplaats en een standplaats; beiden beogen hetzelfde te bereiken, nl. een locatie met adres. Het enige verschil is dat er bij een ligplaats sprake is van een drijvend object en bij een standplaats sprake is van een verplaatsbaar object.
+| Naam  | Benoemde plaats |
+|---|---|
+| Definitie | Door het bevoegde gemeentelijk orgaan als zodanig aangewezen delen van een terrein en/of water waarvan het belang is daaraan een adres toe te kennen en dat bedoeld is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden ruimte, het permanent afmeren van een drijvend object of het permanent aanwezig zijn van specifieke technische voorzieningen.  |
+|Herkomst definitie  | Variatie op de wet BAG |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Stand- en ligplaatsen worden momenteel door gemeenten afgebakend in het kader van de BAG. Dit meer generieke object biedt ook mogelijkheden voor andere objecten (zoals onbemande tankstations).  |
+|Toelichting| *volgt later* |
 
-Het is van belang is om het begrip ligplaats te onderscheiden van de in de praktijk veelvuldig voorkomende aanmeerplaatsen of afmeerplaatsen. Dergelijke plaatsen zijn bedoeld voor het tijdelijk aan- en afmeren van onder meer pleziervaartuigen en beroepsvaartuigen langs kades en in havens.
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een benoemde plaats  |Ja |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde ruimte is benoemd. |Ja|
+|Status   |De fase van de levenscyclus waarin de betreffende Nummeraanduiding zich bevindt    |Ja   |
+|Type benoemde plaats| De aard van het object|Ja|
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
 
 
+**Domeinwaarden**
 
-ontwerpprincipe: *Gebruik van stand- en ligplaatsen vooral in het overheidsdomein (gemeenten, inschrijving, nutsvoorzieningen, vindbaarheid)*
 
-ontwerpprincipe: *Standplaatsen en ligplaatsen vormen een geometrische weergave van een gemeentelijk besluit*
+| Waarde Status | Beschrijving   |
+|---|---|
+|Aangewezen| Benoemde plaats is formeel uitgegeven door het bevoegd gezag |
+| Ingetrokken | Benoemde plaats is formeel ingetrokken door het bevoegd gezag  |
+
+| Waarde Type benoemde plaats| Beschrijving   |
+|---|---|
+|Permanente mobiele ruimte||
+|Drijvend object||
+|Tankstation||
 
 
 ### Continentaal plat
