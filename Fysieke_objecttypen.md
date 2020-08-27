@@ -932,7 +932,7 @@ ontwerpprincipe:
 |Identificatie   |De unieke aanduiding van een Toegangsdeur  |Ja |
 |Geometrie |De geometrische representatie van een Toegangsdeur *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
 |Aard|De plaats waarvan de toegangsdeur toegang geeft|Ja|
-|Tyoe|het soort toegangsdeur|Ja|
+|Type|het soort toegangsdeur|Ja|
 |Bijbehorend object |Het object waarin de betreffende toegangsdeur zich bevindt|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende Toegangsdeur zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
@@ -1171,7 +1171,9 @@ ontwerpprincipe:
 |Waarde Status| Beschrijving   |
 |---|---|
 |||
+
 .
+
 |Waarde Type ondertunneling| Beschrijving   |Herkomst|
 |---|---|---|
 | tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   ||
@@ -1357,7 +1359,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip muur|Ja |
-|Geometrie|lijn|Ja (lijn) Nee (vlak)|
+|Geometrie||Ja (lijn) Nee (vlak)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
