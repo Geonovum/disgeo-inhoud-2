@@ -114,7 +114,7 @@ Ontwerpprincipe : *Objecten in de exclaves van het Koninkrijk België op het Ned
 
 ### Ondergrondse delen
 
-ontwerpprincipe: *In de huidige scope van de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten en die voor een  mens toegankelijk zijn.*
+ontwerpprincipe: *In de huidige scope van de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten en die voor een mens toegankelijk zijn.*
 
 Waar komen we ondergrondse delen tegen?
 - Gebouw
@@ -127,7 +127,7 @@ Waar komen we ondergrondse delen tegen?
 Wat beschouwen we niet als ondergrondse delen voor de SOR:
 - Put(deksel) niet ondergronds
 - Ondergrondse objecten die al in een andere registratie zijn opgenomen, zoals kabels en leidingen, niet gesprongen explosieven, archeologische vindplaatsen, ed.
-- Oude funderingen, wrakken, etcera, die achter zijn gebleven in de grond, zijn geen onderdeel van SOR, hebben namelijk geen link met bovengronds objecttype uit de SOR en zijn ook niet bedoeld als i=onderdeel van infarstructurele voorzieningen.
+- Oude funderingen, wrakken, et cetera, die achter zijn gebleven in de grond, zijn geen onderdeel van SOR, hebben namelijk geen link met bovengronds objecttype uit de SOR en zijn ook niet bedoeld als onderdeel van infarstructurele voorzieningen.
 - Wegfundering is wel ondergronds maar is niet toegankelijk. Hiervan worden sectoraal gegevens vastgelegd. 
 
 
