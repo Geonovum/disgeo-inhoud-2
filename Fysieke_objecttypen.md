@@ -1085,7 +1085,7 @@ ontwerpprincipe:
 .
 
 |Waarde Type verharding plus| Beschrijving   |
-|---|---|---|
+|---|---|
 |**asfaltverharding**||
 |   Zoab en open deklagen|*geen definitie opgenomen in IMBOR*|
 |   Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|
