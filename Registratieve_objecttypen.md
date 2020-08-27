@@ -365,6 +365,6 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Tankstation||
 
 
-### Continentaal plat
+### (Continentaal plat)
 
 *De definitie en begrenzing van het continentaal plat moet hier worden beschreven*
