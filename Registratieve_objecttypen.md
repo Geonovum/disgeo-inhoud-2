@@ -355,7 +355,9 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |---|---|
 |Aangewezen| Benoemde plaats is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | Benoemde plaats is formeel ingetrokken door het bevoegd gezag  |
+
 '
+
 | Waarde Type benoemde plaats| Beschrijving   |
 |---|---|
 |Permanente mobiele ruimte||
