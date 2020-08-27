@@ -1043,10 +1043,9 @@ ontwerpprincipe:
 |---|---|---|
 |asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|IMBOR2020|
 | betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |IMBOR2020|
-|elementenverharding|de bestrating is in tegenstelling tot een gesloten verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|IMBOR2020|
-|halfverharding|een halfverharding bestaat uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|IMBOR2020|
-|kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient, zoals kunstgras of kunststof toplagen.|IMBOR2020|
-|onverhard|een object zonder specifieke verharding, bestaande uit natuurlijke materialen.|IMBOR2020|  
+|elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|IMBOR2020|
+|halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|IMBOR2020|
+|kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient.|IMBOR2020| 
 
 .
 
@@ -1062,21 +1061,21 @@ ontwerpprincipe:
 | 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|IMBOR2020|
 | 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|IMBOR2020|
 |**elementenverharding**|||
-|   Natuursteen|Type gedetailleerd van verhardingsobject, elementenverharding, verharding bestaande uit elementen van natuursteen.|IMBOR2020|
-| 	Straatbaksteen|Type gedetailleerd van verhardingsobject, elementenverharding, straatbaksteen is de formele benaming uit NEN-EN1344. In de CROW Systematiek Wegbeheer wordt dit ‘gebakken klinkers’ genoemd.|IMBOR2020|
-| 	Glas|Type gedetailleerd van verhardingsobject, elementenverharding bestaande uit glaselementen.|IMBOR2020|
-| 	Betonstraatstenen|Type gedetailleerd van verhardingsobject, elementenverharding, verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.|IMBOR2020|
-| 	Tegels|Type gedetailleerd van verhardingsobject, elementenverharding, bestrating van tegels, een platte vaak vierkante betonnen steen.|IMBOR2020|
-| 	Hout|Type gedetailleerd van verhardingsobject, elementenverharding, verharding bestaande uit houten elementen.|IMBOR2020|
+|   Natuursteen|Verharding bestaande uit elementen van natuursteen.|IMBOR2020|
+| 	Straatbaksteen|Straatbaksteen is de formele benaming uit NEN-EN1344. In de CROW Systematiek Wegbeheer wordt dit ‘gebakken klinkers’ genoemd.|IMBOR2020|
+| 	Glas|Verharding bestaande uit glaselementen.|IMBOR2020|
+| 	Betonstraatstenen|Verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.|IMBOR2020|
+| 	Tegels|Verharding bestaande uit tegels, een platte vaak vierkante betonnen steen.|IMBOR2020|
+| 	Hout|Verharding bestaande uit houten elementen.|IMBOR2020|
 | 	Betonelement|Geprepareerde elementen van beton (bijvoorbeeld stelconplaten).|IMBOR2020|
-| 	Metaal|Type gedetailleerd van verhardingsobject, elementenverharding, verharding bestaande uit metalen elementen.|IMBOR2020|
-| 	Sierbestrating|Type gedetailleerd van verhardingsobject, elementenverharding, bestrating uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.|IMBOR2020|
+| 	Metaal|Verharding bestaande uit metalen elementen.|IMBOR2020|
+| 	Sierbestrating|Bestrating uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.|IMBOR2020|
 |**Halfverharding**|||
-|   Samenhangend|Type gedetailleerd van verhardingsobject, halfverharding, waarvan het oppervlak bestaat uit samenhangend materiaal.|IMBOR2020|
-| 	Los|Type gedetailleerd van verhardingsobject, halfverharding: vlak gevuld met losgestort materiaal|IMBOR2020|
+|   Samenhangend|Verharding waarvan het oppervlak bestaat uit samenhangend materiaal.|IMBOR2020|
+| 	Los|Verhardingsvlak gevuld met losgestort materiaal|IMBOR2020|
 |**Kunststofverharding**|||
 |	Kunststof vloer|*geen definitie opgenomen in IMBOR*|IMBOR2020|
-|   Kunstgras|Kunstgras is een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|IMBOR2020|
+|   Kunstgras|Een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|IMBOR2020|
 
 
 ### Constructie; Kunstwerk
