@@ -8,7 +8,7 @@
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | provincie  |
-| onderdeel van NEN3610-objecttype |registratief object  |
+| Onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
 
@@ -25,7 +25,7 @@
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | waterschap |
-| onderdeel van NEN3610-objecttype |registratief object  |
+| Onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
 
@@ -35,12 +35,12 @@
 
 **Domeinwaarden**
 
-#### Burgerlijke gemeente
+#### Gemeente
 
 | klasse  | naam  |
 |---|---|
-|SOR-begrip   | burgerlijke gemeente  |
-| onderdeel van NEN3610-objecttype |registratief object  |
+|SOR-begrip   | Gemeente  |
+| Onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
 
@@ -55,7 +55,7 @@
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | woonplaats  |
-| onderdeel van NEN3610-objecttype |registratief object  |
+| Onderdeel van NEN3610-objecttype |registratief object  |
 
 
 ontwerpprincipe: *een woonplaats valt volledig binnen een burgerlijke gemeente*
@@ -104,7 +104,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | wijk  |
-| onderdeel van NEN3610-objecttype |registratief object  |
+| Onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
 
@@ -205,7 +205,7 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | Openbare ruimte  |
-| onderdeel van NEN3610-objecttype |registratief object  |
+| Onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
 
@@ -268,7 +268,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | Nummeraanduiding  |
-| onderdeel van NEN3610-objecttype |registratief object  |
+| Onderdeel van NEN3610-objecttype |registratief object  |
 
 **Definitie**
 
