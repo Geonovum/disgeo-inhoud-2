@@ -345,6 +345,7 @@ ontwerpprincipe:
 | Naam  | Struiken |
 |---|---|
 | Definitie |Terreindeel bedekt met lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en eventueel aanwezigheid van enkele verspreid staande stammen.   |    |
+|Herkomst definitie  |   |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struiken* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
@@ -361,7 +362,8 @@ ontwerpprincipe:
 
 | Naam  | Heesters  |
 |---|---|
-| Definitie |Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een  gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.  |  
+| Definitie |Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een  gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.  | 
+|Herkomst definitie  |   |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *heesters* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
@@ -396,6 +398,7 @@ ontwerpprincipe:
 | Naam  | Planten |
 |---|---|
 | Definitie |*niet ingevuld*  |    |
+|Herkomst definitie  |   |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *planten* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
@@ -413,6 +416,7 @@ ontwerpprincipe:
 | Naam  | Struikrozen |
 |---|---|
 | Definitie |*niet ingevuld*  |    |
+|Herkomst definitie  |   |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struikrozen* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
@@ -429,6 +433,7 @@ ontwerpprincipe:
 | Naam  | Bodembedekkers |
 |---|---|
 | Definitie |*niet ingevuld*  |    |
+|Herkomst definitie  |   |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bodembedekkers* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| |
@@ -448,7 +453,7 @@ ontwerpprincipe:
 | Definitie |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
 |Herkomst definitie  | IMGeo   |
 |Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *Haag* bij *vegetatie object* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *haag* bij *vegetatie object* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -483,7 +488,7 @@ ontwerpprincipe:
 | Definitie |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
 |Herkomst definitie  |   |
 |Verplicht  | ja  |
-|Gevolgen afbakening  | nieuw object  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *houtsingel* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 #### Moeras
@@ -500,7 +505,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing.  |
 |Herkomst definitie  | bron: BGT |
 |Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *moeras* bij *begroeid terreindeel * zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *moeras* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 #### Heide
@@ -516,6 +521,7 @@ ontwerpprincipe:
 |---|---|
 | Definitie |Terreindeel overwegend begroeid met heide en heideachtige vegetaties.  |
 |Herkomst definitie  |BGT|
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *heide* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Verplicht  | ja  |
 |Toelichting|  |
 
@@ -534,6 +540,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel overwegend begroeid met rietvegetatie.  |
 |Herkomst definitie  | BGT  |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *rietland* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -552,6 +559,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
 |Herkomst definitie  | BGT  |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -571,6 +579,8 @@ ontwerpprincipe:
 | Definitie |Terreindeel begroeid met fruitbomen in de vorm van hoogstam en laagstamboomgaard, druiven of kleinfruit. en Grond in gebruik voor het kweken van jonge siergewassen, bomen enz. ten behoeve van een later gebruik elders.   |
 |Herkomst definitie  | BT / CROW  |
 |Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *fruitteelt* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+
 |Toelichting|  |
 
 #####    laagstam boomgaarden 
@@ -588,6 +598,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel begroeid met laagstamfruitbomen.   |
 |Herkomst definitie  | IMGEO 2.0  |
 |Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *laagstam boomgaarden* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 #####    hoogstam boomgaarden
@@ -605,6 +616,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel begroeid met hoogstamfruitbomen.   |
 |Herkomst definitie  | IMGEO 2.0   |
 |Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *hoogstam boomgaarden* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 ##### wijngaarden  
@@ -622,6 +634,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel begroeid met druivenstokken voor wijnbouw.  |
 |Herkomst definitie  |IMGEO 2.0    |
 |Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *wijngaarden* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 #####    klein fruit
@@ -639,6 +652,7 @@ ontwerpprincipe:
 | Definitie |Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen.   |
 |Herkomst definitie  | IMGEO 2.0   |
 |Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *klein fruit* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 ##### boomkwekerij 
@@ -656,6 +670,7 @@ ontwerpprincipe:
 | Definitie |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is.  |
 |Herkomst definitie  |   |
 |Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *boomteelt* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
