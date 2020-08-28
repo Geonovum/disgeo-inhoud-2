@@ -1672,58 +1672,6 @@ ontwerpprincipe:
 
 
 
-#### Geleider
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Geleider  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Geleider  |
-|---|---|
-| Definitie | Een constructie bedoeld voor de fysieke (be)geleiding van voer-, vaartuigen. |
-|Herkomst definitie  |     |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populatie *waterinrichtingselementen* en *weginrichtingselementen* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip geleider |Ja |
-|Geometrie|De geometrische representatie van de ligging van de geleider. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (lijn, vlak)|
-|Status   |   |Ja   |
-|Type geleider|aanduiding soort geleider|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
-
-.
-
-|Waarde Type geleider| Beschrijving   |
-|---|---|
-|remmingswerk|Constructie langs de opstelruimte en wachtruimte bedoeld voor het afmeren van schepen. |
-|geleidewerk|Fuikvormige constructie aansluitend aan het hoofd van een kunstwerk voor het geven van mechanische en visuele geleiding tijdens het invaren van dat kunstwerk.|
-|geleideconstructie|Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die uit de koers zijn geraakt.|
-|verblindingswering|Constructie bedoeld om verblinding van weggebruikers door tegenlicht te voorkomen.|
 
 
 #### Deksel
