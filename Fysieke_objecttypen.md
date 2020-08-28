@@ -832,13 +832,11 @@ waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunni
 |Waarde status	|Beschrijving|
 |---|---|
 |Gepland|	Een bouwlaag dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Bouwvergunning verleend|	Een bouwlaag die nog niet is gebouwd maar waarvoor wel een
-vergunning tot bouw is verleend|
+|Bouwvergunning verleend|	Een bouwlaag die nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
 |Sloopvergunning verleend|	Een bouwlaag waarvoor een vergunning tot sloop is verleend|
 |In aanbouw|	Een bouwlaag waarvan de feitelijke bouw is aangevangen| 
 |Bestaand|	Een bouwlaag die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|In verbouw|	Een bouwlaag waarvoor een vergunning tot verbouw is verleend en
-waarbij de verbouwing nog niet is voltooid|
+|In verbouw|	Een bouwlaag waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
 |Gesloopt|	Een bouwlaag waarvan de feitelijke sloop is afgerond|
 |Niet gerealiseerd|	Een bouwlaag waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
 |Ten onrechte|	Bouwlaag is ten onrechte opgevoerd in de registratie|
@@ -902,13 +900,11 @@ waarbij de verbouwing nog niet is voltooid|
 |Waarde status	|Beschrijving|
 |---|---|
 |Gepland|	Een ruimte dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Bouwvergunning verleend|	Een ruimte die nog niet is gebouwd maar waarvoor wel een
-vergunning tot bouw is verleend|
+|Bouwvergunning verleend|	Een ruimte die nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
 |Sloopvergunning verleend|	Een ruimte waarvoor een vergunning tot sloop is verleend|
 |In aanbouw|	Een ruimte waarvan de feitelijke bouw is aangevangen| 
 |Bestaand|	Een ruimte die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|In verbouw|	Een ruimte waarvoor een vergunning tot verbouw is verleend en
-waarbij de verbouwing nog niet is voltooid|
+|In verbouw|	Een ruimte waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
 |Gesloopt|	Een ruimte waarvan de feitelijke sloop is afgerond|
 |Niet gerealiseerd|	Een ruimte waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
 |Ten onrechte|	Ruimte is ten onrechte opgevoerd in de registratie|
@@ -976,13 +972,11 @@ waarbij de verbouwing nog niet is voltooid|
 |Waarde status	|Beschrijving|
 |---|---|
 |Gepland|	Een installatie dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Bouwvergunning verleend|	Een installatie die nog niet is gebouwd maar waarvoor wel een
-vergunning tot bouw is verleend|
+|Bouwvergunning verleend|	Een installatie die nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
 |Sloopvergunning verleend|	Een installatie waarvoor een vergunning tot sloop is verleend|
 |In aanbouw|	Een installatie waarvan de feitelijke bouw is aangevangen| 
 |Bestaand|	Een installatie die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|In verbouw|	Een installatie waarvoor een vergunning tot verbouw is verleend en
-waarbij de verbouwing nog niet is voltooid|
+|In verbouw|	Een installatie waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
 |Gesloopt|	Een installatie waarvan de feitelijke sloop is afgerond|
 |Niet gerealiseerd|	Een installatie waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
 |Ten onrechte|	Installatie is ten onrechte opgevoerd in de registratie|
@@ -1046,7 +1040,7 @@ waarbij de verbouwing nog niet is voltooid|
 |Waarde status	|Beschrijving|
 |---|---|
 |Gepland|	Een toegangsdeur die zich in de ontwerpfase bevindt|
-|Bestaand|	Een installatie die is gebruik is genomen of als gebruiksgereed kan worden  eschouwd|
+|Bestaand|	Een installatie die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
 |Verwijderd|	Een toegangsdeur die feitelijk is verwijderd|
 |Niet gerealiseerd|	Een geplande toegangsdeur die niet als zodanig is gerealiseerd|
 |Ten onrechte|	Toegangsdeur is ten onrechte opgevoerd in de registratie|
