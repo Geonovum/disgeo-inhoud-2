@@ -1679,57 +1679,6 @@ ontwerpprincipe:
 |container|Nagelvast met de grond verbonden inzamelmiddel voor afvalstoffen, doorgaans van metaal of kunststof waarin afvalstoffen worden verzameld, bewaard en waaruit deze afvalstoffen vervolgens worden overgeladen in een inzamelvoertuig.|
 
 
-#### Depot
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Depot  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Depot  |
-|---|---|
-| Definitie | Object met een permanent karakter dat dient om gassen, energie, vaste- en vloeistoffen in te bergen of te verzamelen. |
-|Herkomst definitie  |   |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier een subset van de bestaande populatie *overig bouwwerk* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip depot |Ja |
-|Geometrie|De geometrische representatie van de locatie van depot. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
-|Status   |   |Ja   |
-|Type bak|Aanduiding soort depot|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
-
-.
-
-|Waarde Type Depot| Beschrijving   |
-|---|---|
-|opslagtank|Bovengrondse opslagfaciliteit voor gassen, energie en vloeistoffen. |
-|voedersilo|Opslagfaciliteit voor vaste stoffen (bijvoorbeeld veevoer), bestaande uit een verticale container met een opening aan de onderkant.|
-
 
 #### Geleider
 | Klasse  | Naam  |
