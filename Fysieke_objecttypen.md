@@ -868,10 +868,10 @@ waarbij de verbouwing nog niet is voltooid|
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Ruimte  |Ja |
-|Geometrie |De geometrische representatie van de randen van een Ruimte *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Geometrie |De geometrische representatie van de randen van een Ruimte   |Ja (2,5D)|
 |Typering|Het doel waarvoor een ruimte gebruikt wordt|Ja|
 |Bouwlaagnummer |De bouwlaag waarop de ruimte zich bevindt|Ja|
-|Oppervlakte| NTB||
+|Oppervlakte| De gebruiksoppervlakte van de ruimte| Nee |
 |Status   |De fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -883,25 +883,36 @@ waarbij de verbouwing nog niet is voltooid|
 
 **Domeinwaarden**
 
+<div class='note'>
+    De definitieve lijst met TYPE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in BIM modellen voor de bouw worden gehanteerd. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+</div>
+
+
+
 | Waarde Typering| Beschrijving   |
 |---|---|
 |Woonkamer| |
 |Keuken ||
-| ... |*lijst vanuit BIM checken* |
 
-.
+<div class='note'>
+    In het kader van de review wordt u gevraagd om aan te geven of onderstaande statussen naar uw mening allemaal noodzakelijk zijn of dat volstaan kan worden met een beperkter aantal statussen (bijvoorbeeld gepland, bestaand, gesloopt en ten onrechte)
+</div>
 
-| Waarde Status | Beschrijving   |
+
+|Waarde status	|Beschrijving|
 |---|---|
-|Gepland||
-|Bouwvergunning verleend||
-|Sloopvergunning verleend||
-|In aanbouw||
-|Bestaand||
-|In verbouw||
-|Gesloopt||
-|Niet gerealiseerd||
-|Ten onrechte||
+|Gepland|	Een ruimte dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
+|Bouwvergunning verleend|	Een ruimte die nog niet is gebouwd maar waarvoor wel een
+vergunning tot bouw is verleend|
+|Sloopvergunning verleend|	Een ruimte waarvoor een vergunning tot sloop is verleend|
+|In aanbouw|	Een ruimte waarvan de feitelijke bouw is aangevangen| 
+|Bestaand|	Een ruimte die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|In verbouw|	Een ruimte waarvoor een vergunning tot verbouw is verleend en
+waarbij de verbouwing nog niet is voltooid|
+|Gesloopt|	Een ruimte waarvan de feitelijke sloop is afgerond|
+|Niet gerealiseerd|	Een ruimte waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
+|Ten onrechte|	Ruimte is ten onrechte opgevoerd in de registratie|
+
 
 #### Installatie
 
@@ -918,7 +929,7 @@ waarbij de verbouwing nog niet is voltooid|
 |---|---|
 | Definitie | Geheel van een relevantie installatie of andere voorziening in of aan en ten dienste van het Gebouw|
 |Herkomst definitie  |Gebaseerd op de GebouwInstallatie uit NEN 2580/ Bouwbesluit/ INSPIRE, IFC-elementen uit de concepten rondom Bouwwerkinformatiemodellen (BIM) en enkele aspecten van  fysieke deelobjecten uit de WOZ|
-|Verplicht  | Nee  *nader te bepalen* |
+|Verplicht  | Deels (nog nader te bepalen welke onderdelen) |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype. *Nog nader bepaald zal worden hoe we een en ander afstemmen op het BGT objecttype gebouwdeel en op het feit dat installaties ook bij andere objecten dan gebouwen kunnen behoren*|
 |Toelichting| *volgt later* |
 
@@ -927,8 +938,8 @@ waarbij de verbouwing nog niet is voltooid|
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Installatie  |Ja |
-|Geometrie |De geometrische representatie van de randen van een Installatie *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
-|Aard|Het doort installatie|Ja|
+|Geometrie |De geometrische representatie van de randen van een Installatie   |Ja (1,5D of 2,5D)|
+|Aard|Het soort installatie|Ja |
 |Bijbehorend object |Het object waarbij de betreffende installatie behoort|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende installatie zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
@@ -942,27 +953,40 @@ waarbij de verbouwing nog niet is voltooid|
 
 **Domeinwaarden**
 
+<div class='note'>
+    De definitieve lijst met AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze elders worden gehanteerd. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+
+    In het kader van de review wordt u gevraagd om aan te geven welke “installaties” naar uw mening van belang zijn om in een basisregistratie op te nemen
+</div>
+
+
 | Waarde Aard| Beschrijving   |
 |---|---|
 |zonnepanelen < 5 kWp| |
 |zonnepanelen > 5 kWp| |
 |dakkapel ||
 |lift||
-| ... |*lijst vanuit elders checken* |
 
-.
 
-| Waarde Status | Beschrijving   |
+<div class='note'>
+    In het kader van de review wordt u gevraagd om aan te geven of onderstaande statussen naar uw mening allemaal noodzakelijk zijn of dat volstaan kan worden met een beperkter aantal statussen (bijvoorbeeld gepland, bestaand, gesloopt en ten onrechte)
+</div>
+
+
+|Waarde status	|Beschrijving|
 |---|---|
-|Gepland||
-|Bouwvergunning verleend||
-|Sloopvergunning verleend||
-|In aanbouw||
-|Bestaand||
-|In verbouw||
-|Gesloopt||
-|Niet gerealiseerd||
-|Ten onrechte||
+|Gepland|	Een installatie dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
+|Bouwvergunning verleend|	Een installatie die nog niet is gebouwd maar waarvoor wel een
+vergunning tot bouw is verleend|
+|Sloopvergunning verleend|	Een installatie waarvoor een vergunning tot sloop is verleend|
+|In aanbouw|	Een installatie waarvan de feitelijke bouw is aangevangen| 
+|Bestaand|	Een installatie die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|In verbouw|	Een installatie waarvoor een vergunning tot verbouw is verleend en
+waarbij de verbouwing nog niet is voltooid|
+|Gesloopt|	Een installatie waarvan de feitelijke sloop is afgerond|
+|Niet gerealiseerd|	Een installatie waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
+|Ten onrechte|	Installatie is ten onrechte opgevoerd in de registratie|
+
 
 #### Toegangsdeur
 
@@ -978,7 +1002,7 @@ waarbij de verbouwing nog niet is voltooid|
 |---|---|
 | Definitie | Deur of andere voorziening die vanaf de openbare weg, een erf of een gedeelde verkeersruimte toegang geeft tot een object|
 |Herkomst definitie  |Begrip sluit aan bij het begrip Deur (IfcDoor) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
-|Verplicht  | Nee  *nader te bepalen* |
+|Verplicht  | Deels (nog nader te bepalen welke onderdelen) |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype.  *Bekeken zal nog moeten worden in hoeverre we dit objecttype ook willen relateren aan objecten als kunstwerken en andere constructies.*|
 |Toelichting| *volgt later* |
 
@@ -987,9 +1011,9 @@ waarbij de verbouwing nog niet is voltooid|
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Toegangsdeur  |Ja |
-|Geometrie |De geometrische representatie van een Toegangsdeur *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
-|Aard|De plaats waarvan de toegangsdeur toegang geeft|Ja|
-|Type|het soort toegangsdeur|Ja|
+|Geometrie |De geometrische representatie van een Toegangsdeur   |Ja (1,5D)|
+|Toegangssoort|De plaats waarvan de toegangsdeur toegang geeft|Ja|
+|Gebruiksaard|De aard van gebruik van de  toegangsdeur|Ja|
 |Bijbehorend object |Het object waarin de betreffende toegangsdeur zich bevindt|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende Toegangsdeur zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
@@ -1003,29 +1027,30 @@ waarbij de verbouwing nog niet is voltooid|
 
 **Domeinwaarden**
 
-| Waarde Aard| Beschrijving   |
+| Waarde Toegangssoort| Beschrijving   |
 |---|---|
-|directe toegang vanaf eigen terrein| |
-|directe toegang vanaf openbare weg| |
-|toegang vanaf gemeenschappelijke verkeersruimte ||
+|directe toegang vanaf eigen terrein|de toegangsdeur bevindt zich op een erf, in een tuin of een andere specifiek terrein dat behoort bij het gebouw |
+|directe toegang vanaf openbare weg|de toegangsdeur bevindt zich direct aan een voor iedereen toegankelijke weg |
+|toegang vanaf gemeenschappelijke verkeersruimte |de toegangsdeur bevindt zich aan een inpandige ruimte die bedoeld is voor verplaatsingen door een gebouw door de verschillende gebruikers van dit gebouw  |
 
 .
 
-| Waarde Type| Beschrijving   |
+| Waarde Gebruiksaard| Beschrijving   |
 |---|---|
-|Personen| |
-|Auto| |
-|Vracht||
+|Personen|de toegangsdeur is primair bedoeld voor toegang tot een object door personen |
+|Auto|de toegangsdeur is primair bedoeld voor toegang tot een object door voertuigen |
+|Vracht|de toegangsdeur is primair bedoeld voor toegang tot een object door vracht zonder gebruik van een voertuig|
 
 .
 
-| Waarde Status | Beschrijving   |
+|Waarde status	|Beschrijving|
 |---|---|
-|Gepland||
-|Bestaand||
-|Verwijderd|
-|Niet gerealiseerd||
-|Ten onrechte||
+|Gepland|	Een toegangsdeur die zich in de ontwerpfase bevindt|
+|Bestaand|	Een installatie die is gebruik is genomen of als gebruiksgereed kan worden  eschouwd|
+|Verwijderd|	Een toegangsdeur die feitelijk is verwijderd|
+|Niet gerealiseerd|	Een geplande toegangsdeur die niet als zodanig is gerealiseerd|
+|Ten onrechte|	Toegangsdeur is ten onrechte opgevoerd in de registratie|
+
 
 #### Gebouwonderdeel
 | Klasse  | Naam  |
