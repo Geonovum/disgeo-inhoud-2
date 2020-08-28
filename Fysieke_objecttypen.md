@@ -962,6 +962,9 @@ waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunni
 |zonnepanelen > 5 kWp| |
 |dakkapel ||
 |lift||
+|luifel||
+|bordes||
+|toegangstrap||
 
 
 <div class='note'>
@@ -1044,58 +1047,6 @@ waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunni
 |Verwijderd|	Een toegangsdeur die feitelijk is verwijderd|
 |Niet gerealiseerd|	Een geplande toegangsdeur die niet als zodanig is gerealiseerd|
 |Ten onrechte|	Toegangsdeur is ten onrechte opgevoerd in de registratie|
-
-
-#### Gebouwonderdeel
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Gebouwonderdeel  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Gebouwonderdeel  |
-|---|---|
-| Definitie | Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt. |
-|Herkomst definitie  | IMGeo 2.1.1    |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *bordes* en *luifel* en *toegangstrap* zoals deze is opgenomen in de basisregistratie grootschalige topografie gegevenscatalogus 2.2.1.  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip gebouwdonderdeel |Ja |
-|Geometrie|De geometrische representatie van de randen van het gebouwdeel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (vlak)|
-|Status   |   |Ja   |
-|Type gebouwonderdeel|aanduiding soort gebouwonderdeel|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
-
-.
-
-|Waarde Type watervlakte| Beschrijving   |
-|---|---|
-
-
 
 
 
@@ -2123,3 +2074,198 @@ ontwerpprincipe:
 |herdenkingsmonument|In het terrein aangelegd object ter herdenking van personen of evenementen.|
 
 
+#### Sensor
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Sensor  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Sensor  |
+|---|---|
+| Definitie | Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit. |
+|Herkomst definitie  | IMGeo 2.1.1    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *sensor* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip sensor |Ja |
+|Geometrie|De geometrische representatie van de sensor. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Status   |   |Ja   |
+|Type sensor|aanduiding soort sensor|Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type sensor| Beschrijving   |
+|---|---|
+|hoogtedetectieapparaat|*Een mechanisch of elektronisch waarschuwingssysteem, dat in werking treedt bij overschrijding van de aangegeven maximale doorrijhoogte*|
+|GMS sensor|*Gladheidsmeldsysteem (GMS) waarmee de kans op gladheid wordt voorspeld aan de hand van meting en interpretatie van de parameters die een rol spelen bij het ontstaan van gladheid.*|
+
+
+#### Paal
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Paal  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Paal  |
+|---|---|
+| Definitie | Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat. |
+|Herkomst definitie  | IMGeo 2.1.1    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Paal* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip paal |Ja |
+|Geometrie|De geometrische representatie van een paal. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Status   |   |Ja   |
+|Type paal|aanduiding soort paal|Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type paal| Beschrijving   |
+|---|---|
+|informatiebord|*Een bord met daarop specifieke actuele informatie, zoals plattegronden of vertrektijden.*|
+|plaatsnaambord|*Een bord waarop een naam van een (woon)plaats of locatie is vermeld*|
+|straatnaambord|*Bord waarop de door de gemeente vastgestelde naam van de straat is vermeld. Bord kan zich op een paal of aan de gevel bevinden*|
+|verkeersbord|*Bord waarop een verkeersteken is aangebracht en waarvan de uitvoering wettelijk is voorgeschreven volgens het ‘Reglement verkeersregels en verkeerstekens 1990 (RVV 1990)’.*|
+|scheepvaartbord|*Bord waarop een scheepvaartteken is aangebracht en waarvan de uitvoering als richtlijn is voorgeschreven volgens ‘Richtlijnen Scheepvaarttekens (RST 2008)’.*|
+|verklikker transportleiding|*Bovengrondse voorziening om een ondergrondse transportleiding te markeren.*|
+|reclamebord|*Vrijstaand bord/zuil waarop rondom of aan één of meer zijden affiches kun worden (of zijn) geplakt.*|
+|wegwijzer|*Constructie voorzien van een meer panelen met informatie ten behoeve van de bewegwijzering.*|
+|dynamische snelheidsindicator|*Een snelheidsinformatiebord dat in “real time” de snelheid van de weggebruikers aanduidt.*|
+|zonnepaneel|*Een zonnepaneel is een paneel dat zonne-energie omzet in elektriciteit.*|
+|lichtmast|*Mast bestemd voor het dragen van een of meer verlichtingsarmaturen.*|
+|telpaal|*Paal waaraan de verkeerstelle is bevestigd.*|
+|portaal|*Geheel van twee of meer ondersteuningsconstructies die door een ligger zijn verbonden, bedoelt voor het aanbrengen van verkeersaanduidingen.*|
+|verkeersregelinstallatiepaal|*Paal met daaraan bevestigd de verkeersregelinstallatie.*|
+|verkeersbordpaal|*Paal waaraan een of meerdere verkeersborden zijn bevestigd.*|
+|haltepaal|*Paal met daarop de dienstregeling ten behoeve van het openbaar vervoer.*|
+|vlaggenmast|*Paal bedoeld om vlaggen aan te hangen.*|
+|afsluitpaal|*Al dan niet verwijderbare paal in de grond om de weg of een gedeelte hiervan af te sluiten.*|
+|praatpaal|*Stalen of kunststof paal langs verkeerswegen welke bedoeld is telefonisch contact te leggen met een centrale meldkamer (ANWB).*|
+|hectometerpaal|*Paaltje of bordje geplaatst langs de weg, waarop een hectometerwaarde (weg) of kilometrering (vaarweg) is vermeld eventueel gevolgd door een letter.*|
+|dijkpaal|*Een markant punt op de waterkering of op het strand dat dient als referentiepunt voor afstandsaanduidingen.*|
+|drukknoppaal|*Paal met een lengte van ongeveer 1 m, met een drukknop waarmee de verkeersdeelnemer zich meldt bij een verkeersregelinstallatie.*|
+|grensmarkering|*Paal ter afbakening van een grens.*|
+|camera|*Installatie voor de registratie van beelden van situaties, waarvan directe observatie moeilijk of niet permanent mogelijk is.*|
+|debietmeter|*Een instrument dat de (afvoer)capaciteit van de volumestroom meet.*|
+|weerstation|*Een weerstation is een verzameling instrumenten die het weer kunnen meten.*|
+|flitser|*Een flitser bevat een mechanisme om een snelheidsmeting uit te voeren om snelheidsovertredingen in het verkeer te kunnen vaststellen.*|
+|waterstandmeter|*Een meter die de waterstand, over het algemeen ten opzichte van NAP, meet.*|
+|windmeter|*Apparatuur waarmee de snelheid en de richting van de wind kan worden gemeten.*|
+|lichtcel|*Lichtcel waarmee het verlichtingsniveau naar een lager verlichtingsniveau omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat.*|
+|radar detector|*Met een radardetector wordt het verkeer gedetecteerd, bijvoorbeeld voor het beïnvloeden van verkeerslichten.*|
+|bolder|*Een inrichting aan de wal, waar een schip, door middel van een tros of landvast, aan vastgelegd kan worden.*|
+|reclamezuil|*Vrijstaand bord/zuil waarop rondom of aan één of meer zijden affiches kunnen worden (of zijn) geplakt.*|
+|betonning|*Een systeem van boeien en bakens, waarmee in open zee of in een vaarwater ondiepten of de aanwezigheid van gevaarlijke objecten worden aangegeven.*|
+|meerpaal|*Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd.*|
+
+
+#### Kast
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Kast  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Kast  |
+|---|---|
+| Definitie | Object met een permanent karakter dat dient om iets in te bergen en te beschermen. |
+|Herkomst definitie  | IMGeo 2.1.1    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Kast* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip kast |Ja |
+|Geometrie|De geometrische representatie van een kast. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Status   |   |Ja   |
+|Type kast|aanduiding soort kast|Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type hek| Beschrijving   |
+|---|---|
+|lage trafo|*Bouwwerk waarin transformator(en) zijn geplaatst voor elektriciteitsvoorziening.*|
+|CAI-kast|*Kast ten behoeve van de regeling van radio- en televisiesignalen*|
+|elektrakast|*Kast ten behoeve van het transport van elektriciteit.*|
+|gaskast|*Kast ten behoeve van het transport van gas.*|
+|telecom kast|*Kast ten behoeve van de regeling van telecommunicatie.*|
+|rioolkast|*Kast ten behoeve van de regeling van het transport van rioolwater.*|
+|openbare verlichtingkast|*Kast ten behoeve van de regeling van de openbare verlichting.*|
+|verkeersregelinstallatiekast|*Kast ten behoeve van de regeling van het verkeer.*|
+|telkast|*Kast ten behoeve van het meten van permanente verkeertellingen.*|
+|GMS kast|*Kast ten behoeve van het meten van weers- en wegdekomstandigheden.*|
