@@ -13,13 +13,10 @@ Deze Typering is in deze fase van het traject vooral bedoeld om een eerste indru
 | SOR-begrip   | Bodem |
 | Onderdeel van NEN3610-objecttype |  Bodem  |
 
-ontwerpprincipe: *nog bediscussieren in de werkgroep Inhoud*
-
-> NOOT
-> 
+ontwerpprincipe: 
 
 <div class='note'>
-    nog bediscussieren in de werkgroep Inhoud
+    begrip Bodem nog bediscussieren in de werkgroep Inhoud
 </div>
 
 
