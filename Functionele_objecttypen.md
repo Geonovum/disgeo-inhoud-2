@@ -313,7 +313,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 
 | Naam  | Gebouwzone |
 |---|---|
-| Definitie | DHet grootst mogelijke gedeelte van een gebouw dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
+| Definitie | Het grootst mogelijke gedeelte van een gebouw dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
 |Herkomst definitie|Begrip gebaseerd op de functionele deelobjecten uit de WOZ en aansluitend bij het begrip Zonering (IfcZone) uit de concepten rondom Bouwwerkinformatiemodellen (BIM), waarbij Ruimten worden gezoneerd tot bijvoorbeeld verblijfsobject of gebouwzone |
 |Verplicht  | Ja |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype |
@@ -324,14 +324,14 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Gebouwzone  |Ja |
-|Geometrie |De geometrische representatie van een Gebouwzone *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
-|Geometrie oppervlakte| NTB||
+|Geometrie |De geometrische representatie van een Gebouwzone   |Ja (2,5D)|
+|Geometrie oppervlakte| De geometrische representatie van de oppervlakte van een gebouwzone die betrokken wordt in de berekening van de gebruiksoppervlakte|Nee (2D)|
 |Bouwlaag|De bouwlaag waarop de gebouwzone is gelegen|Ja|
 |Bouwjaar|Het bouwjaar waarin een gebouwzone is ontstaan|Ja|
 |Type|Een categorisering van het feitelijke gebruik dat van de betreffende gebouwzone wordt gemaakt|Ja|
 |Aard|Een aanduiding van de fysieke constructie waarin de gebouwzone zich bevindt|Ja|
 |Gebruiksopppervlakte|De gebruiksoppervlakte van een gebouwzone|Ja|
-|Kwaliteitsindicatie||
+|Kwaliteitsindicatie|Een aanduiding van de kwalitatieve staat waarin de gebouwzone zich bevindt|NTB|
 |Status   |De fase van de levenscyclus waarin de betreffende Gebouwzone zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -343,6 +343,11 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |gebouwzone|Ligt op |Bouwlaag|
 
 **Domeinwaarden**
+
+<div class='note'>
+    De definitieve lijst voor TYPE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+</div>
+
 
 | Waarde Type| Beschrijving   |
 |---|---|
@@ -358,29 +363,37 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |bijeenkomstruimte | | 
 |verkeersruimte | | 
 |technische ruimte | | 
-|||
-||*lijst nog afstemmen op laatste versie van WOZ*|
-.
+
+<div class='note'>
+    In het kader van de review wordt u gevraagd om aan te geven of er naar uw mening meerdere type gebouwonderdelen relevant zijn om als AARD gebouwzone te onderscheiden
+</div>
+
 | Waarde Aard| Beschrijving   |
 |---|---|
-|basisconstructie ||
-|aanbouw/opbouw ||
-|serre ||
-|||
-|*meer*||
-.
+|basisconstructie |Een gebouwzone maakt onderdeel uit van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
+|aanbouw/opbouw |Een gebouwzone betreft een later aanbouw (niet zijnde een serre) of opbouw ten opzichte van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
+|serre |Een gebouwzone betreft een serre die al dan geen onderdeel uitmaakt van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
+
+<div class='note'>
+    De definitieve lijst voor TYPE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+</div>
+
 | Waarde Kwaliteit| Beschrijving   |
 |---|---|
-|*NTB*  | |
+|  | |
+
 .
-| Waarde Status | Beschrijving   |
+
+|Waarde status	|Beschrijving|
 |---|---|
-|Gepland||
-|Gevormd||
-|Buiten gebruik||
-|Beëindigd||
-|Niet gerealiseerd||
-|Ten onrechte||
+|Gepland|	Een gebouwzone dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
+|Gevormd|	Een gebouwzone dat deel gaat uitmaken van een nog niet gerealiseerd gebouw waarvoor een vergunning tot bouw is verleend of dat wordt gerealiseerd in een reeds bestaand gebouw|
+|In gebruik|	Een gebouwzone die in gebruik is genomen of als gebruiksgereed kan worden beschouwd |
+|Buiten gebruik|	Een gebouwzone dat onderdeel uitmaakt van een gebouw dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het gebouw zal worden hersteld en weer in gebruik zal worden genomen|
+|Beëindigd|	Een gebouwzone dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een geplande gebouwzone dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Gebouwzone is ten onrechte opgevoerd in de registratie|
+
 
 
 ### Functionele zonering GRIJS
