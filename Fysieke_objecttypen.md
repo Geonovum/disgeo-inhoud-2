@@ -962,9 +962,9 @@ waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunni
 |zonnepanelen > 5 kWp| |
 |dakkapel ||
 |lift||
-|luifel||
-|bordes||
-|toegangstrap||
+|luifel|Afdak aangebracht aan de gevel van een pand, eventueel rustend op kolommen.|
+|bordes|Een verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers.|
+|toegangstrap|Niet afsluitbare trap (of trappenhuis) die toegang biedt aan een gebouw.|
 
 
 <div class='note'>
