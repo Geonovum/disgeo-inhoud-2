@@ -1053,11 +1053,6 @@ ontwerpprincipe:
 
 |Waarde Type watervlakte| Beschrijving   |
 |---|---|
-|zee|Uitgestrekt oppervlak zout water. |
-|meer|*geen onderscheidende definitie gevonden*|
-|plas|*geen onderscheidende definitie gevonden*|
-|ven|*geen onderscheidende definitie gevonden*|
-|vijver|*geen onderscheidende definitie gevonden*|
 
 
 
@@ -1788,3 +1783,353 @@ ontwerpprincipe:
 |geleidewerk|Fuikvormige constructie aansluitend aan het hoofd van een kunstwerk voor het geven van mechanische en visuele geleiding tijdens het invaren van dat kunstwerk.|
 |geleideconstructie|Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die uit de koers zijn geraakt.|
 |verblindingswering|Constructie bedoeld om verblinding van weggebruikers door tegenlicht te voorkomen.|
+
+
+#### Deksel
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Deksel  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Deksel  |
+|---|---|
+| Definitie | Het afsluitende deel van een gegraven, koker of lijnvormige constructie waarin zich (vloei)stoffen kunnen bevinden. |
+|Herkomst definitie  |     |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier een samenvoeging van de bestaande populatie *put* en van een subset van de bestaande populatie *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip deksel |Ja |
+|Geometrie|De geometrische representatie van de ligging van het deksel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt, lijn, vlak)|
+|Status   |   |Ja   |
+|Type installatie|aanduiding soort deksel |Ja|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type installatie| Beschrijving   |
+|---|---|
+|benzine-/olieput|Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen, onderhoud of inspectie. |
+|brandkraan/-put|Op de drinkwaterleiding aangesloten kraan, of put voor het plaatsen van een brandkraan.|
+|drainageput|Put welke toegang geeft naar een poreuze of geperforeerde buisleiding, aangebracht onder de grond om de afwatering van de grond te verbeteren.|
+|gasput|Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport.|
+|inspectie-/rioolput|Put die toegang geeft tot een (riool)leiding. |
+|kolk|Op het riool aangesloten voorziening voor de opvang van hemel- en afvalwater afkomstig van erop aangesloten oppervlakken.|
+|waterleidingput|Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport.|
+|lijnafwatering|Voorziening voor het afvoeren van overtollig hemel- en afvalwater afkomstig van erop aangesloten oppervlakken.|
+|rooster|Evenwijdig of kruiselings lopende staafconstructie voor het tegenhouden van vuil uit hemel- en afvalwater.|
+
+
+
+#### Depot
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Depot  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Depot  |
+|---|---|
+| Definitie | Object met een permanent karakter dat dient om gassen, energie, vaste- en vloeistoffen in te bergen of te verzamelen. |
+|Herkomst definitie  |   |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier een subset van de bestaande populatie *overig bouwwerk* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip depot |Ja |
+|Geometrie|De geometrische representatie van de locatie van depot. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Status   |   |Ja   |
+|Type bak|Aanduiding soort depot|Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type Depot| Beschrijving   |
+|---|---|
+|opslagtank|Bovengrondse opslagfaciliteit voor gassen, energie en vloeistoffen. |
+|voedersilo|Opslagfaciliteit voor vaste stoffen (bijvoorbeeld veevoer), bestaande uit een verticale container met een opening aan de onderkant.|
+
+
+#### Geleider
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Geleider  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Geleider  |
+|---|---|
+| Definitie | Een constructie bedoeld voor de fysieke (be)geleiding van voer-, vaartuigen. |
+|Herkomst definitie  |     |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *waterinrichtingselementen* en *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip geleider |Ja |
+|Geometrie|De geometrische representatie van de ligging van de geleider. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (lijn, vlak)|
+|Status   |   |Ja   |
+|Type geleider|aanduiding soort geleider|Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type geleider| Beschrijving   |
+|---|---|
+|remmingswerk|Constructie langs de opstelruimte en wachtruimte bedoeld voor het afmeren van schepen. |
+|geleidewerk|Fuikvormige constructie aansluitend aan het hoofd van een kunstwerk voor het geven van mechanische en visuele geleiding tijdens het invaren van dat kunstwerk.|
+|geleideconstructie|Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die uit de koers zijn geraakt.|
+|verblindingswering|Constructie bedoeld om verblinding van weggebruikers door tegenlicht te voorkomen.|
+
+
+#### Installatie
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Installatie  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Installatie  |
+|---|---|
+| Definitie | Een technisch, samenhangend systeem, al dan niet binnen een bestaande inrichting, dat een bepaald doel dient. |
+|Herkomst definitie  |     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *kunstwerkdelen* en *installatie* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip installatie |Ja |
+|Geometrie|De geometrische representatie van de ligging van de installatie of van de randen van de installatie. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt, lijn, vlak)|
+|Status   |   |Ja   |
+|Type installatie|aanduiding soort installatie |Ja|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type installatie| Beschrijving   |
+|---|---|
+|gemaal|Technische deel van de inrichting om de waterstand in een polder, waterschap of (deel van) een kanaal te regelen, niet-zijnde het gebouw. |
+|sluis|De deuren van de waterkering die tot doel heeft het waterniveau, aan één van de zijdes van de waterkering, te handhaven of onder controle te kunnen houden.|
+|stuw|Een vaste of beweegbare technische constructie in het water om het waterpeil te kunnen beheren. Het primaire doel van deze dwars op de waterloop aangelegde waterkering is het water (voor de stuw) op een bepaalde hoogte te houden.|
+|pomp|Technische inrichting om vloeistoffen en/of gassen te verplaatsen.|
+
+
+#### Mast
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Mast  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Mast  |
+|---|---|
+| Definitie | Een hoge draagconstructie voor de opwekking en transport van energie en elektromagnetische straling. |
+|Herkomst definitie  |     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *gebouwen*, *kunstwerkdelen* en *mast* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip mast |Ja |
+|Geometrie|De geometrische representatie van de ligging van de mast of van de randen van de mast. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt, lijn, vlak)|
+|Status   |   |Ja   |
+|Type installatie|aanduiding soort mast |Ja|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type installatie| Beschrijving   |
+|---|---|
+|windturbine|Moderne hoge windmolen waarin winddruk wordt omgezet in mechanische energie. |
+|hoogspanningsmast|Metalen mast of stellage ter ondersteuning van geleidedraden voor het transport van elektriciteit met een hoog voltage.|
+|laagspanningsmast|Houten of metalen mast waaraan kabels voor het transport van elektrische energie met een spannning lager dan 500 V zijn bevestigd.|
+|bovenleidingmast|Mast die een onderdeel vormt van de bovenleidingdraagconstructie voor het openbaar vervoer (trein, tram, bus).|
+|straalzender|Een hoge constructie die wordt gebruikt voor het uitzenden van radio, televisie en telecommunicatie signalen. |
+|zendmast|Een hoge constructie die wordt gebruikt voor het bevestigen van antennes voor telecommunicatie.|
+|radarmast| Een hoge constructie die wordt gebruikt voor het bevestigen van radarantennes.|
+|sirene| Een hoge constructie die wordt gebruikt voor het bevestigen van sirenes.|
+
+
+#### Straatmeubilair
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Straatmeubilair  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Straatmeubilair  |
+|---|---|
+| Definitie | Een ruimtelijk object ter inrichting van de openbare ruimte. |
+|Herkomst definitie  |  imgeo.geostandaarden.nl   |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier een subset van de bestaande populaties *bak*, *paal* en *straatmeubilair* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip straatmeubilair |Ja |
+|Geometrie|De geometrische representatie van de locatie van het straatmeubilair. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Status   |   |Ja   |
+|Type installatie|aanduiding soort straatmeubilair |Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type installatie| Beschrijving   |
+|---|---|
+|afvalbak|Bak of korf in de openbare ruimte met een permanent karakter; bedoeld voor het verzamelen van (meestal los) afval. |
+|bloembak|Bak in de openbare ruimte met een permanent karakter, waarin planten of struiken zijn geplant.|
+|zand-/zoutbak|Een bak met strooisel ten behoeve van gladheidsbestrijding.|
+|poller|Een inzinkbare paal die door een elektrische of hydraulische aandrijving uit een wegdek omhoog wordt gestuurd en die dient om het autoverkeer te reguleren.|
+|abri|Overdekte wachtplaats voor passagiers van het openbaar vervoer. |
+|brievenbus|Uitpandige kast waar post in kan worden gedeponeerd ter bezorging.|
+|fietsenrek|Een duurzaam verankerd rek in de openbare ruimte voor het stallen van (brom)fietsen.|
+|kunstobject|Een object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt.|
+|openbaar toilet|Voor mensen bedoeld toilet niet zijnde een pand, langs de openbare weg.|
+|slagboom|Boom of balk om de weg of een gedeelte hiervan af te sluiten. |
+|speelvoorziening|Aard en nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als speelmateriaal voor kinderen.|
+|telefooncel|Niet-inpandige ruimte in openbaar gebied louter bestemd voor telefoneren.|
+|bank|Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen).|
+|picknicktafel|Een tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken. |
+|fontein|Een fontein is een natuurlijke of kunstmatige installatie die water spuit.|
+|lichtpunt|Een lichtpunt is een voorziening die licht uitzendt niet verbonden met een mast die het maaiveld raakt.|
+|parkeerbeugel|Een omklapbare beugel voor het afschermen van een parkeerplaats.|
+|betaalautomaat|Een apparaat dat betaalkaarten en/of contant geld accepteert om betalingen uit te voeren.|
+|fietsenkluis|Een kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging.|
+|herdenkingsmonument|In het terrein aangelegd object ter herdenking van personen of evenementen.|
+
+
