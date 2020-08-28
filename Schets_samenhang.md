@@ -6,8 +6,8 @@ In het informatiemodel voor de samenhangende objectenregistratie wordt zoveel mo
 In deze fase van conceptuele modellering is het van belang dat de focus is gericht op het scherp benoemen van begrippen die we in het kader van de registratie willen hanteren. Van de begrippen die betrekking hebben op objecten zal een aantal daarvan in een volgende fase ook daadwerkelijk in het informatiemodel worden opgenomen als een objecttype. Van een groot aantal andere begrippen zal waarschijnlijk worden vastgesteld dat in de modellering beter gekozen kan worden voor een verzamel-objecttype waarvan de verschillende begrippen in de vorm van een typering van dit verzamel-objecttype terugkeren. In deze fase is het daarom ten aanzien van objecten wenselijk vooralsnog te spreken van SOR-begrippen en nog niet van SOR-objecttypen. In de volgende hoofdstukken wordt daarom gesproken van SOR-begrippen.
 Het is voor de overzichtelijkheid echter ook niet wenselijk om in deze fase te volstaan met het uitsluitend opnemen van een lange lijst met relevante SOR-begrippen. Enige ordening daarin bevordert het overzicht en stelt anderen in staat om de samenhang tussen de verschillende begrippen beter te beoordelen. Om die reden is ervoor gekozen om in de volgende hoofdstukken de SOR-begrippen op één van de volgende twee wijzen te beschrijven:
 
-•	In de vorm van een omschrijving die sterk aansluit op de omschrijving die in het vervolg voor objecttypen zal worden opgesteld. Dit betekent onder meer dat bij deze SOR-begrippen is aangegeven welke eigenschappen van belang zijn en welke waarden deze eigenschappen kunnen aannamen. Deze wijze van beschrijving is vooral gekozen voor SOR-begrippen waarvan in de bestaande basisregistraties reeds verschillende eigenschappen zijn opgenomen.
-•	In de vorm van een typering van een meer generiek begrip dat is omschreven op een wijze als objecttypen zullen worden beschreven. In dat geval fungeert het “verzamel-objecttype” in deze fase met name als een kapstok om verschillende SOR-begrippen enigszins te ordenen. De SOR-begrippen zelf staan dan genoemd als de verschillende waarden die de eigenschap typering van het “verzamel-objecttype” kan aannemen.
+-   In de vorm van een omschrijving die sterk aansluit op de omschrijving die in het vervolg voor objecttypen zal worden opgesteld. Dit betekent onder meer dat bij deze SOR-begrippen is aangegeven welke eigenschappen van belang zijn en welke waarden deze eigenschappen kunnen aannamen. Deze wijze van beschrijving is vooral gekozen voor SOR-begrippen waarvan in de bestaande basisregistraties reeds verschillende eigenschappen zijn opgenomen.
+-   In de vorm van een typering van een meer generiek begrip dat is omschreven op een wijze als objecttypen zullen worden beschreven. In dat geval fungeert het “verzamel-objecttype” in deze fase met name als een kapstok om verschillende SOR-begrippen enigszins te ordenen. De SOR-begrippen zelf staan dan genoemd als de verschillende waarden die de eigenschap typering van het “verzamel-objecttype” kan aannemen.
 Benadrukt wordt dat deze wijze van beschrijven niet betekent dat de nu opgenomen ordening van SOR-begrippen ook daadwerkelijk leidt tot de opgenomen verdeling in objecttypen en typeringen van verzamel-objecttypen. Deze keuze zal in de volgende fase van modellering worden gemaakt op basis van andere criteria (zoals de mate waarin de eigenschappen van verschillende SOR-begrippen ook daadwerkelijk overeen komen en de uiteindelijke keuzen ten aanzien van welke eigenschappen in de registratie zullen worden bijgehouden).
 
 ### Nieuwe versie van NEN 3610 als kader
@@ -21,9 +21,10 @@ In de volgende hoofdstukken is daarom telkens aangegeven hoe SOR-begrippen zich 
 
 De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptueel model als volgt (voorlopig) gedefinieerd:
 
-
+| Begrip  | Definitie  |
+|---|---|
 |Geo-object| Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde.|
-|** Reëel object **|	Geo-object waarvan het fenomeen in de werkelijkheid tastbaar, zichtbaar en begrensd aanwezig is.|
+|**Reëel object**|	Geo-object waarvan het fenomeen in de werkelijkheid tastbaar, zichtbaar en begrensd aanwezig is.|
 |Bodem|	Bovenste deel van het natuurlijke aardoppervlak.|
 |Water	Oppervlak permanent bedekt met water of waarvan wordt geaccepteerd dat deze met water bedekt kan worden.|
 |Begroeiing|	Planten die op natuurlijke wijze zijn ontstaan of door mensen zijn aangeplant.|
@@ -32,7 +33,7 @@ De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptu
 |Kunstwerk|	Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen.|
 |Verharding|	Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakte oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal.|
 |Leiding|	Een geheel van geleiders of ruimte welke voorzien zijn van één ommanteling en bestemd is voor transport van materie, data of energie.|
-|** Virtueel object **|	Geo-object waarvan geen tastbaar, zichtbaar en begrensd fenomeen in de werkelijkheid aanwezig is, maar die slechts in abstracte en/of geregistreerde vorm bestaat.|
+|**Virtueel object**|	Geo-object waarvan geen tastbaar, zichtbaar en begrensd fenomeen in de werkelijkheid aanwezig is, maar die slechts in abstracte en/of geregistreerde vorm bestaat.|
 |Functioneel object|	Object met een specifieke functie.|
 |Transport voorziening|	Natuurlijke of aangelegde transportlijnen of verbindingen met knooppunten waarlangs stromen zich verplaatsen.|
 |Weg|	Transport voorziening voor wegverkeer.|
