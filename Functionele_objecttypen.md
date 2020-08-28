@@ -298,7 +298,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |Buiten gebruik	|Een verblijfsobject dat onderdeel uitmaakt van een gebouw dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het gebouw zal worden hersteld en weer in gebruik zal worden genomen|
 |Beëindigd|	Een verblijfsobject dat als zodanig opgehouden heeft te bestaan|
 |Niet gerealiseerd|	Een gepland verblijfsobject dat niet als zodanig is gerealiseerd|
-|Ten onrechte\	Verblijfsobject is ten onrechte opgevoerd in de registratie|
+|Ten onrechte|	Verblijfsobject is ten onrechte opgevoerd in de registratie|
 
 
 
@@ -375,7 +375,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |serre |Een gebouwzone betreft een serre die al dan geen onderdeel uitmaakt van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
 
 <div class='note'>
-    De definitieve lijst voor TYPE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+    De definitieve lijst voor KWALITEIT zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 </div>
 
 | Waarde Kwaliteit| Beschrijving   |
