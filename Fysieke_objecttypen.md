@@ -1695,7 +1695,7 @@ ontwerpprincipe:
 |Identificatie   |De unieke aanduiding van het SOR-begrip deksel |Ja |
 |Geometrie|De geometrische representatie van de ligging van het deksel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt, lijn, vlak)|
 |Status   |   |Ja   |
-|Type installatie|aanduiding soort deksel |Ja|
+|Type deksel|aanduiding soort deksel |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1716,7 +1716,7 @@ ontwerpprincipe:
 
 .
 
-|Waarde Type installatie| Beschrijving   |
+|Waarde Type deksel| Beschrijving   |
 |---|---|
 |benzine-/olieput|Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen, onderhoud of inspectie. |
 |brandkraan/-put|Op de drinkwaterleiding aangesloten kraan, of put voor het plaatsen van een brandkraan.|
@@ -1884,9 +1884,6 @@ ontwerpprincipe:
 
 |Waarde Type installatie| Beschrijving   |
 |---|---|
-|gemaal|Technische deel van de inrichting om de waterstand in een polder, waterschap of (deel van) een kanaal te regelen, niet-zijnde het gebouw. |
-|sluis|De deuren van de waterkering die tot doel heeft het waterniveau, aan één van de zijdes van de waterkering, te handhaven of onder controle te kunnen houden.|
-|stuw|Een vaste of beweegbare technische constructie in het water om het waterpeil te kunnen beheren. Het primaire doel van deze dwars op de waterloop aangelegde waterkering is het water (voor de stuw) op een bepaalde hoogte te houden.|
 |pomp|Technische inrichting om vloeistoffen en/of gassen te verplaatsen.|
 
 
