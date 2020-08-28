@@ -1005,6 +1005,61 @@ ontwerpprincipe:
 |Niet gerealiseerd||
 |Ten onrechte||
 
+#### Gebouwonderdeel
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Gebouwonderdeel  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Gebouwonderdeel  |
+|---|---|
+| Definitie | Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt. |
+|Herkomst definitie  | IMGeo 2.1.1    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *bordes* en *luifel* en *toegangstrap* zoals deze is opgenomen in de basisregistratie grootschalige topografie gegevenscatalogus 2.2.1.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip gebouwdonderdeel |Ja |
+|Geometrie|De geometrische representatie van de randen van het gebouwdeel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (vlak)|
+|Status   |   |Ja   |
+|Type gebouwonderdeel|aanduiding soort gebouwonderdeel|Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type watervlakte| Beschrijving   |
+|---|---|
+|zee|Uitgestrekt oppervlak zout water. |
+|meer|*geen onderscheidende definitie gevonden*|
+|plas|*geen onderscheidende definitie gevonden*|
+|ven|*geen onderscheidende definitie gevonden*|
+|vijver|*geen onderscheidende definitie gevonden*|
+
+
 
 
 
