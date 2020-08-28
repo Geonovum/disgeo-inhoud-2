@@ -739,7 +739,6 @@ ontwerpprincipe:
 |Aard|De fysieke verschijningsvorm van een gebouw  |Ja|
 |Oorspronkelijk bouwjaar | De aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-|Aantal bouwlagen | NTB||
 |Status   |De fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -774,16 +773,13 @@ ontwerpprincipe:
 |Waarde status	|Beschrijving|
 |---|---|
 |Gepland|	Een gebouw dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Bouwvergunning verleend|	Een gebouw dat nog niet is gebouwd maar waarvoor wel een
-vergunning tot bouw is verleend|
+|Bouwvergunning verleend|	Een gebouw dat nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
 |Sloopvergunning verleend|	Een gebouw waarvoor een vergunning tot sloop is verleend|
 |In aanbouw|	Een gebouw waarvan de feitelijke bouw is aangevangen door minimaal de aanleg van de fundering (waartoe niet het bouwrijp maken van een terrein wordt gerekend).|
 |Bestaand|	Een gebouw dat is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|In verbouw|	Een gebouw waarvoor een vergunning tot verbouw is verleend en
-waarbij de verbouwing nog niet is voltooid|
+|In verbouw|	Een gebouw waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
 |Gesloopt|	Een gebouw waarvan de feitelijke sloop is afgerond|
-|Niet gerealiseerd|	Een gebouw waarvoor een bouwvergunning was verleend, maar
-waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
+|Niet gerealiseerd|	Een gebouw waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
 |Ten onrechte|	Gebouw is ten onrechte opgevoerd in de registratie|
 
 
@@ -812,7 +808,7 @@ waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunni
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Bouwlaag  |Ja |
 |Geometrie |De geometrische representatie van de randen van een Bouwlaag  |Ja (2,5D)|
-|Bowlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
+|Bouwlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
 |Status   |De fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
