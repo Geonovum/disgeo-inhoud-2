@@ -734,12 +734,11 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Gebouw  |Ja |
-|Geometrie |De geometrische representatie van de randen van een gebouw *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Geometrie |De geometrische representatie van de randen van een gebouw   |Ja (3D)|
 |Typering |Het doel waarvoor een gebouw gebruikt wordt  |Ja|
-|Aard|De fysieke verschijningsvorm van een gebouw *nader te bepalen of  deze Typering ook een antwoord geeft op de vraag in welke hoogteKlasse een gebouw is gelegen, welke soortNaam het betreft en van welk fysiek voorkomen sprake is*   |Ja|
+|Aard|De fysieke verschijningsvorm van een gebouw  |Ja|
 |Oorspronkelijk bouwjaar | De aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-|Toegangsdeur| NTB ||
 |Aantal bouwlagen | NTB||
 |Status   |De fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
@@ -752,25 +751,41 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
+<div class='note'>
+    De definitieve lijst met TYPE en AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de bij de WOZ in ontwikkeling zijnde lijst met domeinwaarden voor WOZ-deelobjecten. Ook moet nog een nadere uitlijning op typeringen vanuit de BRT plaatsvinden. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+</div>
+
+
 | Waarde Typering| Beschrijving   |
 |---|---|
 | Woning| |
 | Bedrijf ||
-| ... |*aanvullingen BRT en Bgt??* |
 
 .
 
-| Waarde Status | Beschrijving   |
+|Waarde Aard|	Beschrijving|
 |---|---|
-|Gepland||
-|Bouwvergunning verleend||
-|Sloopvergunning verleend||
-|In aanbouw||
-|Bestaand||
-|In verbouw||
-|Gesloopt||
-|Niet gerealiseerd||
-|Ten onrechte||
+|Vrijstaand gebouw||	
+|Aangrenzende gelijksoortige gebouwen||	
+|Onderdeel heterogeen gebouwblok||
+
+.
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een gebouw dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
+|Bouwvergunning verleend|	Een gebouw dat nog niet is gebouwd maar waarvoor wel een
+vergunning tot bouw is verleend|
+|Sloopvergunning verleend|	Een gebouw waarvoor een vergunning tot sloop is verleend|
+|In aanbouw|	Een gebouw waarvan de feitelijke bouw is aangevangen door minimaal de aanleg van de fundering (waartoe niet het bouwrijp maken van een terrein wordt gerekend).|
+|Bestaand|	Een gebouw dat is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|In verbouw|	Een gebouw waarvoor een vergunning tot verbouw is verleend en
+waarbij de verbouwing nog niet is voltooid|
+|Gesloopt|	Een gebouw waarvan de feitelijke sloop is afgerond|
+|Niet gerealiseerd|	Een gebouw waarvoor een bouwvergunning was verleend, maar
+waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
+|Ten onrechte|	Gebouw is ten onrechte opgevoerd in de registratie|
+
 
 
 #### Bouwlaag
@@ -796,9 +811,8 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Bouwlaag  |Ja |
-|Geometrie |De geometrische representatie van de randen van een Bouwlaag *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Geometrie |De geometrische representatie van de randen van een Bouwlaag  |Ja (2,5D)|
 |Bowlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
-|Oppervlakte| NTB||
 |Status   |De fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -810,18 +824,26 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
+<div class='note'>
+    In het kader van de review wordt u gevraagd om aan te geven of onderstaande statussen naar uw mening allemaal noodzakelijk zijn of dat volstaan kan worden met een beperkter aantal statussen (bijvoorbeeld gepland, bestaand, gesloopt en ten onrechte)
+</div>
 
-| Waarde Status | Beschrijving   |
+
+|Waarde status	|Beschrijving|
 |---|---|
-|Gepland||
-|Bouwvergunning verleend||
-|Sloopvergunning verleend||
-|In aanbouw||
-|Bestaand||
-|In verbouw||
-|Gesloopt||
-|Niet gerealiseerd||
-|Ten onrechte||
+|Gepland|	Een bouwlaag dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
+|Bouwvergunning verleend|	Een bouwlaag die nog niet is gebouwd maar waarvoor wel een
+vergunning tot bouw is verleend|
+|Sloopvergunning verleend|	Een bouwlaag waarvoor een vergunning tot sloop is verleend|
+|In aanbouw|	Een bouwlaag waarvan de feitelijke bouw is aangevangen| 
+|Bestaand|	Een bouwlaag die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|In verbouw|	Een bouwlaag waarvoor een vergunning tot verbouw is verleend en
+waarbij de verbouwing nog niet is voltooid|
+|Gesloopt|	Een bouwlaag waarvan de feitelijke sloop is afgerond|
+|Niet gerealiseerd|	Een bouwlaag waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
+|Ten onrechte|	Bouwlaag is ten onrechte opgevoerd in de registratie|
+
+
 
 #### Ruimte
 
