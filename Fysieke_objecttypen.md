@@ -1591,7 +1591,7 @@ ontwerpprincipe:
 
 | Naam  | Bak  |
 |---|---|
-| Definitie | Object met een permanent karakter dat dient om iets in te bergen of te verzamelen.. |
+| Definitie | Object met een permanent karakter dat dient om iets in te bergen of te verzamelen. |
 |Herkomst definitie  | definities.geostandaarden.nl   |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een subset van de bestaande populatie *bak* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1604,7 +1604,7 @@ ontwerpprincipe:
 |Identificatie   |De unieke aanduiding van het SOR-begrip bak |Ja |
 |Geometrie|De geometrische representatie van de locatie van bak. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
 |Status   |   |Ja   |
-|Type bak|aanduiding soort bak|Nee|
+|Type bak|Aanduiding soort bak|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1627,7 +1627,112 @@ ontwerpprincipe:
 
 |Waarde Type Bak| Beschrijving   |
 |---|---|
-|bassin|bekken met een ondoorlaatbare bodem waarin water opgelagen kan worden. |
-|afval apart plaats|Bovengrondse deel van een inzamelplek voor diverse afvalstoffen als glas en restafval |
-|container|Nagelvast met de grond verbonden inzamelmiddel voor afvalstoffen, doorgaans van metaal of kunststof, en waaruit deze afvalstoffen vervolgens worden overgeladen in een inzamelvoertuig.|
+|bassin|Bekken met een ondoorlaatbare bodem waarin water opgelagen kan worden. |
+|afval apart plaats|Boven- of ondergrondse opslagplaats voor het gescheiden inzamelen van afval, met stortkoker(s) op het straatniveau.|
+|container|Nagelvast met de grond verbonden inzamelmiddel voor afvalstoffen, doorgaans van metaal of kunststof waarin afvalstoffen worden verzameld, bewaard en waaruit deze afvalstoffen vervolgens worden overgeladen in een inzamelvoertuig.|
 
+
+#### Depot
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Depot  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Depot  |
+|---|---|
+| Definitie | Object met een permanent karakter dat dient om gassen, energie, vaste- en vloeistoffen in te bergen of te verzamelen. |
+|Herkomst definitie  |   |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier een subset van de bestaande populatie *overig bouwwerk* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip depot |Ja |
+|Geometrie|De geometrische representatie van de locatie van depot. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Status   |   |Ja   |
+|Type bak|Aanduiding soort depot|Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type Depot| Beschrijving   |
+|---|---|
+|opslagtank|Bovengrondse opslagfaciliteit voor gassen, energie en vloeistoffen. |
+|voedersilo|Opslagfaciliteit voor vaste stoffen (bijvoorbeeld veevoer), bestaande uit een verticale container met een opening aan de onderkant.|
+
+
+#### Geleider
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Geleider  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Geleider  |
+|---|---|
+| Definitie | Een constructie bedoeld voor de fysieke (be)geleiding van voer-, vaartuigen. |
+|Herkomst definitie  |     |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populatie *waterinrichtingselementen* en *weginrichtingselementen* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip geleider |Ja |
+|Geometrie|De geometrische representatie van de ligging van de geleider. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (lijn, vlak)|
+|Status   |   |Ja   |
+|Type geleider|aanduiding soort geleider|Nee|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
+.
+
+|Waarde Type geleider| Beschrijving   |
+|---|---|
+|remmingswerk|Constructie langs de opstelruimte en wachtruimte bedoeld voor het afmeren van schepen. |
+|geleidewerk|Fuikvormige constructie aansluitend aan het hoofd van een kunstwerk voor het geven van mechanische en visuele geleiding tijdens het invaren van dat kunstwerk.|
+|geleideconstructie|Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die uit de koers zijn geraakt.|
+|verblindingswering|Constructie bedoeld om verblinding van weggebruikers door tegenlicht te voorkomen.|
