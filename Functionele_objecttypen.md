@@ -18,7 +18,21 @@ ontwerpprincipe:
 | Definitie | Transport voorziening voor wegverkeer. |
 |Herkomst definitie  | concept NEN3610 2020|
 |Verplicht  | ja  |
+|Gevolgen afbakening||
 |Toelichting| *volgt later*  |
+
+**Domeinwaarden**
+
+| Waarde Type weg| Beschrijving   |
+|---|---|
+|rijbaan autosnelweg||
+|rijbaan autoweg||
+|rijbaan regionale weg||
+|rijbaan lokale weg||
+|fietspad||
+|voetpad||
+|ruiterpad||
+
 
 ##### Verbinding
 | Klasse  | Naam  |
@@ -191,7 +205,7 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Verblijfsobject  |Ja |
-|Geometrie |De geometrische representatie van een Verblijfsobject *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*  |Ja|
+|Geometrie |De geometrische representatie van een Verblijfsobject  |Ja (2,5D)|
 |Gebruiksdoel|Een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld|Ja|
 |Feitelijk gebruik|Een categorisering van het feitelijke gebruik dat van het betreffende verblijfsobject wordt gemaakt|Ja|
 |Gebruiksoppervlakte|De gebruiksoppervlakte van een verblijfsobject |
@@ -207,12 +221,28 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 
 **Domeinwaarden**
 
-| Waarde Gebruiksdoel| Beschrijving   |
+|Waarde gebruiksdoel|	Beschrijving|
 |---|---|
-|bijeenkomstfunctie ||
-|| |
-|*nader te bepalen op grond wijzigingen Omgevingswet* ||
-.
+|woonfunctie|	Gebruiksfunctie voor het wonen|
+|Bijeenkomstfunctie|	Gebruiksfunctie voor het samenkomen van personen voor kunst, cultuur, godsdienst, communicatie, kinderopvang, het verstrekken van consumpties voor het gebruik ter plaatse of het aanschouwen van sport|
+|Celfunctie|	Gebruiksfunctie voor dwangverblijf van personen|
+|Gezondheidszorgfunctie|	Gebruiksfunctie voor medisch onderzoek, verpleging, verzorging of behandeling|
+|Industriefunctie|	Gebruiksfunctie voor het bedrijfsmatig bewerken of opslaan van materialen en goederen, of voor agrarische doeleinden|
+|Kantoorfunctie|	Gebruiksfunctie voor administratie|
+|Logiesfunctie|	Gebruiksfunctie voor het bieden van recreatief verblijf of tijdelijk onderdak aan personen|
+|Onderwijsfunctie|	Gebruiksfunctie voor het geven van onderwijs|
+|Sportfunctie|	Gebruiksfunctie voor het beoefenen van sport|
+|Winkelfunctie|	Gebruiksfunctie voor het verhandelen van materialen, goederen of diensten|
+|Overige gebruiksfunctie|	Andere gebruiksfunctie voor activiteiten waarbij het verblijven van personen een ondergeschikte rol speelt|
+
+<div class='note'>
+    De definitieve lijst met gebruiksfuncties zal op een later moment nog worden afgestemd op de begrippen in bijlage I van het besluit bouwwerken leefomgeving (Omgevingswet)
+</div>
+
+<div class='note'>
+    De definitieve lijst voor FEITELIJK GEBRUIK zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+</div>
+
 | Waarde Feitelijk Gebruik| Beschrijving   |
 |---|---|
 | vrijstaande woning ||
@@ -257,17 +287,19 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 | transport  ||
 | sport en recreatie ||
 | eredienst ||
-|||
-||*lijst nog afstemmen op laatste versie van WOZ*|
+
 .
-| Waarde Status | Beschrijving   |
+
+|Waarde status	|Beschrijving|
 |---|---|
-|Gepland||
-|Gevormd||
-|Buiten gebruik||
-|Beëindigd||
-|Niet gerealiseerd||
-|Ten onrechte||
+|Gepland|	Een verblijfsobject dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
+|Gevormd|	Een verblijfsobject dat deel gaat uitmaken van een nog niet gerealiseerd gebouw waarvoor een vergunning tot bouw is verleend of dat wordt gerealiseerd in een reeds bestaand gebouw|
+|In gebruik|	Een verblijfsobject dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd |
+|Buiten gebruik	|Een verblijfsobject dat onderdeel uitmaakt van een gebouw dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het gebouw zal worden hersteld en weer in gebruik zal worden genomen|
+|Beëindigd|	Een verblijfsobject dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland verblijfsobject dat niet als zodanig is gerealiseerd|
+|Ten onrechte\	Verblijfsobject is ten onrechte opgevoerd in de registratie|
+
 
 
 #### Gebouwzone
