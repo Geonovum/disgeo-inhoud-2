@@ -414,8 +414,6 @@ ontwerpprincipe:
 | SOR-begrip   | Verkeerseiland |
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
 
-ontwerpprincipe: 
-
 **Definitie**
 
 | Naam  | Verkeerseiland  |
@@ -425,13 +423,41 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting|  |
 
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een verkeerseiland  |Ja |
+|Geometrie |De geometrische representatie van een verkeerseiland  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende verkeerseiland zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een verkeerseiland dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een verkeerseiland dat is gerealiseerd|
+|Beëindigd|	Een verkeerseiland dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland verkeerseiland dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Verkeerseiland is ten onrechte opgevoerd in de registratie|
+
+
 #### Berm
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Berm |
 | Onderdeel van NEN3610-objecttype | Functioneel object  |
 
-ontwerpprincipe: 
+<div class='note'>
+    definitie afstemmen tussen werkgroep GRIJS en GROEN
+</div>
+
 
 **Definitie**
 
@@ -441,15 +467,39 @@ ontwerpprincipe:
 |Herkomst definitie  | BGT 1.1.1. |
 |Verplicht  | Ja  |
 |Toelichting|  |
-*definitie afstemmen tussen werkgroep GRIJS en GROEN*
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een berm  |Ja |
+|Geometrie |De geometrische representatie van een berm  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende berm zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een berm dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een berm dat is gerealiseerd|
+|Beëindigd|	Een berm dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland berm dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Berm is ten onrechte opgevoerd in de registratie|
+
+
 
 #### Voetgangersgebied
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Voetgangersgebied |
 | Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -460,13 +510,37 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting|  |
 
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een voetgangersgebied  |Ja |
+|Geometrie |De geometrische representatie van een voetgangersgebied  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende voetgangersgebied zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een voetgangersgebied dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een voetgangersgebied dat is gerealiseerd|
+|Beëindigd|	Een voetgangersgebied dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland voetgangersgebied dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Voetgangersgebied is ten onrechte opgevoerd in de registratie|
+
+
 #### Woonerf
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Woonerf |
 | Onderdeel van NEN3610-objecttype | Functioneel object  |
 
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -477,23 +551,213 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting|  |
 
+**Eigenschappen**
 
-#### parkeervlak
-| parkeervlak |Wegdeel bestemd voor het parkeren van motorvoertuigen| verplicht|
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een woonerf  |Ja |
+|Geometrie |De geometrische representatie van een woonerf  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende woonerf zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-#### carpoolplaats
-| carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling.|verplicht|
-*alleen opnemen als dit door BRT.next wordt aangegeven*
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een woonerf dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een woonerf dat is gerealiseerd|
+|Beëindigd|	Een woonerf dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland woonerf dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Woonerf is ten onrechte opgevoerd in de registratie|
+
+
+
+#### Parkeervlak
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Parkeervlak |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+
+**Definitie**
+
+| Naam  | Parkeervlak |
+|---|---|
+| Definitie | Wegdeel bestemd voor het parkeren van motorvoertuigen |
+|Herkomst definitie  |  |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een parkeervlak  |Ja |
+|Geometrie |De geometrische representatie van een parkeervlak  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende parkeervlak zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een parkeervlak dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een parkeervlak dat is gerealiseerd|
+|Beëindigd|	Een parkeervlak dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland parkeervlak dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Parkeervlak is ten onrechte opgevoerd in de registratie|
+
+
+#### Carpoolplaats
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Carpoolplaats |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+<div class='note'>
+    alleen opnemen als dit door BRT.next wordt aangegeven
+</div>
+
+**Definitie**
+
+| Naam  | Carpoolplaats |
+|---|---|
+| Definitie | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling. |
+|Herkomst definitie  | |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een carpoolplaats  |Ja |
+|Geometrie |De geometrische representatie van een carpoolplaats  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende carpoolplaats zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een carpoolplaats dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een carpoolplaats dat is gerealiseerd|
+|Beëindigd|	Een carpoolplaats dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland carpoolplaats dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Carpoolplaats is ten onrechte opgevoerd in de registratie|
+
 
 #### laadplein
 | Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben.|
 
-#### transferium
-| Transferium | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto.|verplicht|
-*alleen opnemen als dit door BRT.next wordt aangegeven*
-#### verzorgingsplaats
-| verzorgingsplaats | Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |verplicht|
-*alleen opnemen als dit door BRT.next wordt aangegeven*
+#### Transferium
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Transferium |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+<div class='note'>
+    alleen opnemen als dit door BRT.next wordt aangegeven
+</div>
+
+**Definitie**
+
+| Naam  | Transferium |
+|---|---|
+| Definitie | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto. |
+|Herkomst definitie  | |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een transferium  |Ja |
+|Geometrie |De geometrische representatie van een transferium  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende transferium zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een transferium dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een transferium dat is gerealiseerd|
+|Beëindigd|	Een transferium dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland transferium dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Transferium is ten onrechte opgevoerd in de registratie|
+
+
+
+#### Verzorgingsplaats
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Verzorgingsplaats |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+<div class='note'>
+    alleen opnemen als dit door BRT.next wordt aangegeven
+</div>
+
+**Definitie**
+
+| Naam  | Verzorgingsplaats |
+|---|---|
+| Definitie |  Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |
+|Herkomst definitie  | |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een verzorgingsplaats  |Ja |
+|Geometrie |De geometrische representatie van een verzorgingsplaats  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende verzorgingsplaats zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een verzorgingsplaats dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een verzorgingsplaats dat is gerealiseerd|
+|Beëindigd|	Een verzorgingsplaats dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland verzorgingsplaats dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Verzorgingsplaats is ten onrechte opgevoerd in de registratie|
+
+
 #### perron
 | perron | Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.|verplicht|
 
