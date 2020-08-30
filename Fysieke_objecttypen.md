@@ -1054,29 +1054,6 @@ ontwerpprincipe:
 |Ten onrechte|	Toegangsdeur is ten onrechte opgevoerd in de registratie|
 
 
-
-### *Bouwwerkconstructie*
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | constructie  |
-| Onderdeel van NEN3610-objecttype | constructie  |
-
-De Typering behorende bij Constructie is overgenomen uit de huidige BGT|IMGeo 2.1.1 en aangevuld met de objecttyperingen zoals in het voorstel voor IMGeo 2.2 zijn opgenomen.
-
-*voorheen werd dit **overige bouwwerken** genoemd* 
-
-|classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|---------------------------|--------------------------------|
-|Type:| |	
-|bezinkbak	 ||
-|lage trafo	 ||
-|Bassin	 ||
-|*Niet BGT*	|sleufsilo|
-|*Niet BGT*	|infiltratiereservoir|
-
-
-
-
 ### Constructie; Verharding
 #### Verharding
 
