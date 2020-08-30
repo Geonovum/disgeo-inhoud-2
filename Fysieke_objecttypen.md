@@ -1,8 +1,13 @@
 ## Fysieke objecttypen
 
-In dit hoofdstuk is een eerste aanzet opgenomen tot nadere Typering van de verschillende fysieke objecttypen in de samenhangende objectenregistratie. Deze aanzet is primair gebaseerd op de ook nu reeds in de bestaande basisregistraties gehanteerde Typeringen. Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen zijn op deze Typeringen soms beperkte aanpassingen doorgevoerd. Ook zijn enkele eerste wijzigingen voorgesteld die het gevolg zijn van het in hoofdstuk 2 genoemde uitgangspunt over heldere definiëring. Tenslotte is daar waar mogelijk reeds bekeken in hoeverre aanpalende sectorale Typeringen aanleiding kunnen geven tot een aangescherpte Typering. 
+In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de verschillende fysieke objecttypen in de samenhangende objectenregistratie. Deze aanzet is primair gebaseerd op de ook nu reeds in de bestaande basisregistraties gehanteerde typeringen. Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen zijn op deze typeringen soms beperkte aanpassingen doorgevoerd. Ook zijn enkele eerste wijzigingen voorgesteld die het gevolg zijn van het in hoofdstuk 2 genoemde uitgangspunt over heldere definiëring. Tenslotte is daar waar mogelijk reeds bekeken in hoeverre aanpalende sectorale typeringen aanleiding kunnen geven tot een aangescherpte typering. 
 
-Deze Typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve Typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van Typeringen, waarbij gedetailleerde Typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdTypering (in de samenhangende objectenregistratie).
+Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
+
+<div class='note'>
+    De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
+</div>
+
 
 ### Bodem
 
@@ -275,7 +280,11 @@ ontwerpprincipe:
 |---|---|
 |slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. |
 |schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is. |
-|*kwelder|synoniem van schor? en komt ook terug als functioneel object?*||
+
+<div class='note'>
+    Schor of Kwelder?
+</div>
+
 
 
 ### Begroeiing
@@ -1426,6 +1435,10 @@ ontwerpprincipe:
 | sluisdeur ||
 | kolk ||
 
+#### bezinkbak
+|bezinkbak|||
+
+
 ### Constructie; Overige
 
 #### Muur
@@ -2198,7 +2211,7 @@ ontwerpprincipe:
 
 .
 
-|Waarde Type hek| Beschrijving   |
+|Waarde Type kast| Beschrijving   |
 |---|---|
 |lage trafo|*Bouwwerk waarin transformator(en) zijn geplaatst voor elektriciteitsvoorziening.*|
 |CAI-kast|*Kast ten behoeve van de regeling van radio- en televisiesignalen*|
@@ -2210,3 +2223,13 @@ ontwerpprincipe:
 |verkeersregelinstallatiekast|*Kast ten behoeve van de regeling van het verkeer.*|
 |telkast|*Kast ten behoeve van het meten van permanente verkeertellingen.*|
 |GMS kast|*Kast ten behoeve van het meten van weers- en wegdekomstandigheden.*|
+
+
+#### niet opnemen in SOR
+
+<div class='note'>
+    Voorstel om de volgende in BGT|IMGeo 2.2 opgenomen typeringen niet meer op te nemen in de SOR: 
+    drinkbak; detectielus; hoogtemerk; wegmarkering
+</div>
+
+
