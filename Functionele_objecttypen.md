@@ -583,12 +583,14 @@ ontwerpprincipe:
 
 ### Functionele zonering GROEN
 
-#### GROEN bestaand
+<div class='note'>
+    De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
+</div>
+
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
 |Functioneel Gebied (groen)|	Functie:	 ||
-||	oever/slootkant	 ||
 ||*Niet BGT*| 	 	Landbouw|
 ||*Niet BGT*| 	 	recreatie: speeltuin|
 ||*Niet BGT*| 	 	recreatie: park|
@@ -635,33 +637,18 @@ ontwerpprincipe:
 ### Functionele zonering BLAUW
 
 <div class='note'>
-    |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|Functioneel Gebied (blauw)|	Functie:	 ||
-||kering	 ||
-|| 	haven	 ||
-||*Niet BGT*| 	 	opstelpunt open water|
-||*Niet BGT*| 	 	Sluiscomplex|
-||*Niet BGT*| 	 	Zuiveringscomplex|
-||*Niet BGT*| 	 	Waterwingebied|
-||*Niet BGT*|	 	    waterbergingsgebied|
-||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
+    De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
 </div>
-
-
-#### BLAUW bestaand  
+ 
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
 |-----------|---------------------------|--------------------------------|
 |Functioneel Gebied (blauw)|	Functie:	 ||
-||kering	 ||
-|| 	haven	 ||
-||*Niet BGT*| 	 	opstelpunt open water|
-||*Niet BGT*| 	 	Sluiscomplex|
+||*Niet BGT*| 	 	Opstelpunt open water|
 ||*Niet BGT*| 	 	Zuiveringscomplex|
 ||*Niet BGT*| 	 	Waterwingebied|
-||*Niet BGT*|	 	    waterbergingsgebied|
-||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
+||*Niet BGT*|	 	Waterbergingsgebied|
+||*Niet BGT*|	 	Infrastructuur waterstaatswerken|  
 
 
 #### Kering
