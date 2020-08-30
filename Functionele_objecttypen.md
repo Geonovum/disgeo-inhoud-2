@@ -527,6 +527,52 @@ uitsluitend door markering.|verplicht|
 #### molgoot
 | molgoot | Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |optioneel|
 
+#### Wildrooster
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Wildrooster |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+<div class='note'>
+    Wildrooster of Rooster. Rooster is algemener. Rooster kan dan ook een fysiek verhardingstype zijn.
+</div>
+
+
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Wildrooster  |
+|---|---|
+| Definitie |   |
+|Herkomst definitie  |     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening||
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip wildrooster|Ja |
+|Geometrie||nee (vlak)|
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+
 
 ### Functionele zonering GROEN
 
@@ -733,6 +779,12 @@ ontwerpprincipe:
 |---|---|
 | SOR-begrip   | Vuilvang |
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+<div class='note'>
+    Is vuilvang een functie of een kunstwerk? (IMBOR zegt kunstwerk)
+</div>
+
+
 
 ontwerpprincipe: 
 
