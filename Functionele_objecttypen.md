@@ -727,6 +727,49 @@ ontwerpprincipe:
 |stuwcomplex||
 |coupurecomplex||
 
+
+#### Vuilvang
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Vuilvang |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Vuilvang  |
+|---|---|
+| Definitie |   |
+|Herkomst definitie  |     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening||
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip vuilvang|Ja |
+|Geometrie||nee (vlak)|
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+
+
+
 ### Functionele zonering OVERIG
 #### Reducering
 
@@ -852,72 +895,11 @@ ontwerpprincipe:
 
 
 
-
-
-
-
-
-
-
-### Functionele zonering *nog toedelen*
-
-##### jachthaven
-##### vaarweg beroeps
-##### vaarweg recreatief
-##### infiltratiegebied
-##### waterwingebied
-##### zuiveringsinstallatie
-##### zuiveringscomplex
-##### zwemwaterlokatie
-##### recreatie: water, lucht, land
-##### opstelpunt open water
-##### waterbeheergebied kwantiteit
-##### waterbeheergebied kwaliteit
-##### waterbeheergebied beheer waterstaatwerken
-##### waterbeschermingsgebied (geen wateronttrekking, geen gebouwen, niet spuiten etc)
-##### visserijgebied beroeps en recreatief?
-##### waterkering
-##### waterbergingsgebied
-##### scheepvaartbord 
-##### pomp 
-##### dijkpaal 
-##### debietmeter 
-##### weerstation 
-##### waterstandmeter 
-##### bolder 
-##### remmingswerk 
-##### betonning 
-##### geleidewerk 
-##### vuilvang 
-##### meerpaal 
-##### hoogtemerk 
-
-
-
-
-#### OVERIG
-
-|Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|Functioneel Gebied |	Type:	 ||	 
-|| 	*Niet BGT*	|Stiltegebied|
-|| 	*Niet BGT*	|Zonnepanelenveld|
-|| 	*Niet BGT*	|Bedrijvigheid|
-||	*Niet BGT*	|natuur en landschap|
-|| 	*Niet BGT*	|Bewoning|
-|| 	*Niet BGT*	|maatschappelijke en/of publieksvoorziening|
-|| 	*Niet BGT*	|Recreatie|
-|| 	*Niet BGT*	|Begraafplaats|
-|| 	*Niet BGT*	|functioneel beheer|
-|| 	*Niet BGT*	|functioneel beheer: hondenuitlaatplaats|  
-  
-  
-
-
 ### Functionele objecttypen uit BRT
 
-De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen zal in het vervolgtraject nader worden onderzocht.
-
+<div class='note'>
+    De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen uit de BRT zal in het vervolgtraject nader worden onderzocht.
+</div>
 
 
 
