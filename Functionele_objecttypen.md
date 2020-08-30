@@ -395,6 +395,13 @@ De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en
 |Ten onrechte|	Gebouwzone is ten onrechte opgevoerd in de registratie|
 
 
+### Functionele objecttypen uit BRT
+
+<div class='note'>
+    De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen uit de BRT zal in het vervolgtraject nader worden onderzocht.
+</div>
+
+
 
 ### Functionele zonering GRIJS
 
@@ -945,13 +952,6 @@ ontwerpprincipe:
 |||
 
 
-
-
-### Functionele objecttypen uit BRT
-
-<div class='note'>
-    De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen uit de BRT zal in het vervolgtraject nader worden onderzocht.
-</div>
 
 
 
