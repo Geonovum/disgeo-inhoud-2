@@ -1,5 +1,15 @@
 ## Functionele objecttypen
 
+In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de verschillende functionele objecttypen in de samenhangende objectenregistratie. Deze aanzet is primair gebaseerd op de ook nu reeds in de bestaande basisregistraties opgenomen functionele objecttypen en uitgebreid met netwerken voor wegen, water en spoorwegen. 
+
+Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen in de nu bestaande basisregistraties zijn op deze typeringen soms beperkte aanpassingen doorgevoerd. Ook zijn enkele eerste wijzigingen voorgesteld die het gevolg zijn van het in hoofdstuk 2 genoemde uitgangspunt over heldere definiëring. Tenslotte is daar waar mogelijk reeds bekeken in hoeverre aanpalende sectorale typeringen aanleiding kunnen geven tot een aangescherpte typering.
+
+Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
+
+De uitbreiding met objecttypen voor netwerkinformatie is gebaseerd op het Conceptueel model netwerken, juli 2020. 
+
+
+
 ### Transportvoorziening
 
 #### Weg
@@ -142,25 +152,15 @@ ontwerpprincipe:
 |||
 
 
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip weg|Ja |
-|Geometrie|lijn|Ja|
-|type weg|||
-|Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-|Waarde type weg| Beschrijving   |Herkomst|
-|---|---|---|
-
-
 
 #### Spoorweg
 
 #### Vaarweg
-*is vaarweg wel een apart netwerk? moet varen niet idem als bij wegen als een soort modaliteit aan het waterelementen netwerk worden gekoppeld?*
+
+<div class='note'>
+    Is vaarweg wel een apart netwerk? moet varen niet idem als bij wegen als een soort modaliteit aan het waterelementen netwerk worden gekoppeld?
+</div>
+
 
 #### Waterelement
 
@@ -177,8 +177,11 @@ ontwerpprincipe:
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 
+<div class='note'>
+    De functionele zoneringen zijn voor het overzicht opgedeeld in rode, grijze, groene, blauwe en overige gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein.
+</div>
 
-De functionele zoneringen zijn voor het overzicht opgedeeld in grijze, groene en blauwe gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein. Hierbij is aangesloten op de typering zoals voor BGT|IMGeo wordt gebruikt, inclusief de voorstellen voor IMGeo 2.2. Als gevolg van het uitgangspunt dat fysiek en functie worden gescheiden zijn een aantal functies verschoven van voorheen een typering bij een fysiek objecttype naar een eigenstandig functioneel objecttype.
+ 
 
 ### Functionele zonering ROOD
 
