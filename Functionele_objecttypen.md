@@ -758,15 +758,133 @@ ontwerpprincipe:
 |Ten onrechte|	Verzorgingsplaats is ten onrechte opgevoerd in de registratie|
 
 
-#### perron
-| perron | Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.|verplicht|
+#### Perron
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Perron |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
-#### baan voor vliegverkeer
-| baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer. |verplicht|
+**Definitie**
 
-#### vliegveld, luchthaven
-| vliegveld, luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accomodatie voor ontvangst en vertrek van passagiers en verzending van goederen.|verplicht|
-*alleen opnemen als dit door BRT.next wordt aangegeven*
+| Naam  | Perron |
+|---|---|
+| Definitie |  Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. |
+|Herkomst definitie  | |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een perron  |Ja |
+|Geometrie |De geometrische representatie van een perron  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende perron zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een perron dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een perron dat is gerealiseerd|
+|Beëindigd|	Een perron dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland perron dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Perron is ten onrechte opgevoerd in de registratie|
+
+
+#### Baan voor vliegverkeer
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Baan voor vliegverkeer |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Baan voor vliegverkeer |
+|---|---|
+| Definitie | Wegdeel uitsluitend bedoeld voor vliegverkeer.  |
+|Herkomst definitie  | |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een baan voor vliegverkeer  |Ja |
+|Geometrie |De geometrische representatie van een baan voor vliegverkeer  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende baan voor vliegverkeer zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een baan voor vliegverkeer dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een baan voor vliegverkeer dat is gerealiseerd|
+|Beëindigd|	Een baan voor vliegverkeer dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland baan voor vliegverkeer dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Baan voor vliegverkeer is ten onrechte opgevoerd in de registratie|
+
+
+#### Luchthaven
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Luchthaven |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+<div class='note'>
+    alleen opnemen als dit door BRT.next wordt aangegeven
+</div>
+
+**Definitie**
+
+| Naam  | Luchthaven |
+|---|---|
+| Definitie | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accomodatie voor ontvangst en vertrek van passagiers en verzending van goederen.  |
+|Herkomst definitie  | |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een luchthaven  |Ja |
+|Geometrie |De geometrische representatie van een luchthaven  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende luchthaven zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een luchthaven dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een luchthaven dat is gerealiseerd|
+|Beëindigd|	Een luchthaven dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland luchthaven dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Luchthaven is ten onrechte opgevoerd in de registratie|
+
+
 #### overweg
 | overweg | Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. |verplicht|
 
