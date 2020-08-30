@@ -634,6 +634,21 @@ ontwerpprincipe:
 
 ### Functionele zonering BLAUW
 
+<div class='note'>
+    |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|-----------|---------------------------|--------------------------------|
+|Functioneel Gebied (blauw)|	Functie:	 ||
+||kering	 ||
+|| 	haven	 ||
+||*Niet BGT*| 	 	opstelpunt open water|
+||*Niet BGT*| 	 	Sluiscomplex|
+||*Niet BGT*| 	 	Zuiveringscomplex|
+||*Niet BGT*| 	 	Waterwingebied|
+||*Niet BGT*|	 	    waterbergingsgebied|
+||*Niet BGT*|	 	    infrastructuur waterstaatswerken|  
+</div>
+
+
 #### BLAUW bestaand  
 
 |Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
