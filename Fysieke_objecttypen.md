@@ -21,7 +21,7 @@ Deze typering is in deze fase van het traject vooral bedoeld om een eerste indru
 ontwerpprincipe: 
 
 <div class='note'>
-    begrip Bodem nog bediscussieren in de werkgroep Inhoud
+    begrip Bodem nog nader uitwerken
 </div>
 
 
@@ -1946,7 +1946,7 @@ ontwerpprincipe:
 
 .
 
-|Waarde Type installatie| Beschrijving   |
+|Waarde Type mast| Beschrijving   |
 |---|---|
 |windturbine|Moderne hoge windmolen waarin winddruk wordt omgezet in mechanische energie. |
 |hoogspanningsmast|Metalen mast of stellage ter ondersteuning van geleidedraden voor het transport van elektriciteit met een hoog voltage.|
@@ -2004,7 +2004,7 @@ ontwerpprincipe:
 
 .
 
-|Waarde Type installatie| Beschrijving   |
+|Waarde Type straatmeubilair| Beschrijving   |
 |---|---|
 |afvalbak|Bak of korf in de openbare ruimte met een permanent karakter; bedoeld voor het verzamelen van (meestal los) afval. |
 |bloembak|Bak in de openbare ruimte met een permanent karakter, waarin planten of struiken zijn geplant.|
@@ -2228,7 +2228,7 @@ ontwerpprincipe:
 #### niet opnemen in SOR
 
 <div class='note'>
-    Voorstel om de volgende in BGT|IMGeo 2.2 opgenomen typeringen niet meer op te nemen in de SOR: 
+    Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te nemen in de SOR: 
     drinkbak; detectielus; hoogtemerk; wegmarkering
 </div>
 
