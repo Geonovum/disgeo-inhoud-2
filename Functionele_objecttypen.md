@@ -31,6 +31,19 @@ ontwerpprincipe:
 |Gevolgen afbakening||
 |Toelichting| *volgt later*  |
 
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|||
+|Identificatie   |De unieke aanduiding van een weg  |Ja |
+|Geometrie |De geometrische representatie van een weg  |Ja (2,5D)|
+|Type weg| ||
+|Naam|||
+|Status   |De fase van de levenscyclus waarin het betreffende verblijfsobject zich bevindt   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+
 **Domeinwaarden**
 
 | Waarde Type weg| Beschrijving   |
@@ -39,8 +52,11 @@ ontwerpprincipe:
 |rijbaan autoweg||
 |rijbaan regionale weg||
 |rijbaan lokale weg||
+|verbindingsweg||
+|calamiteitendoorsteek||
 |fietspad||
 |voetpad||
+|voetpad op trap||
 |ruiterpad||
 
 
@@ -243,7 +259,7 @@ ontwerpprincipe:
 </div>
 
 <div class='note'>
-    De definitieve lijst voor FEITELIJK GEBRUIK zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+    De definitieve lijst voor FEITELIJK GEBRUIK zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen. Ook wordt deze lijst nog afgestemd met begrippen in de BRT.
 </div>
 
 | Waarde Feitelijk Gebruik| Beschrijving   |
@@ -396,13 +412,6 @@ ontwerpprincipe:
 |Beëindigd|	Een gebouwzone dat als zodanig opgehouden heeft te bestaan|
 |Niet gerealiseerd|	Een geplande gebouwzone dat niet als zodanig is gerealiseerd|
 |Ten onrechte|	Gebouwzone is ten onrechte opgevoerd in de registratie|
-
-
-### Functionele objecttypen uit BRT
-
-<div class='note'>
-    De typering behorende bij de aan gebouwen gerelateerde functionele objecttypen uit de BRT zal in het vervolgtraject nader worden onderzocht.
-</div>
 
 
 
