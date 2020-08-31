@@ -1065,6 +1065,7 @@ ontwerpprincipe:
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Domeinwaarden**
+
 |Waarde Status| Beschrijving   |
 |---|---|
 |||
@@ -1252,6 +1253,7 @@ ontwerpprincipe:
 |||
 
 . 
+
 |Waarde Type reducering| Beschrijving   |Herkomst|
 |---|---|---|
 |geluid|	voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|	nieuw|
