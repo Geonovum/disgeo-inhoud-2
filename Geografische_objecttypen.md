@@ -1,8 +1,6 @@
 ## Geografische objecttypen
 
 
-
-
 ### Bebouwde kom
 | klasse  | naam  |
 |---|---|
@@ -55,3 +53,5 @@
 |Aangewezen|Bebouwde kom is in gebruik |
 | Ingetrokken | Bebouwde kom wordt niet langer als zodanig onderscheiden|
 
+
+### Geografische objecttypen uit de BRT
