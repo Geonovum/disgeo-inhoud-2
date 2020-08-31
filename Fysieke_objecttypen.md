@@ -763,6 +763,11 @@ ontwerpprincipe:
     De definitieve lijst met TYPE en AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de bij de WOZ in ontwikkeling zijnde lijst met domeinwaarden voor WOZ-deelobjecten. Ook moet nog een nadere uitlijning op typeringen vanuit de BRT plaatsvinden. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 </div>
 
+<div class='note'>
+    BGT|IMGeo Overig Bouwwerk: Overkapping, open loods, bunker en schuur 
+</div>
+
+
 
 | Waarde Typering| Beschrijving   |
 |---|---|
