@@ -12,6 +12,10 @@ De uitbreiding met objecttypen voor netwerkinformatie is gebaseerd op het Concep
 
 ### Transportvoorziening
 
+<div class='note'>
+    Transportvoorziening in de SOR moet nog verder uitgewerkt worden o.b.v. het conceptuele model netwerken.
+</div>
+
 #### Weg
 
 | Klasse  | Naam  |
@@ -180,7 +184,7 @@ ontwerpprincipe:
 
 #### Waterelement
 
-
+#### Inrit
 
 
 
