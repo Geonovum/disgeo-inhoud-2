@@ -518,6 +518,43 @@ ontwerpprincipe:
 |Gevolgen afbakening  | nieuw object  |
 |Toelichting|  |
 
+#### Boom
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Boom |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+
+**Definitie**
+
+| Naam  | Boom |
+|---|---|
+| Definitie | Een markante boom die geen onderdeel uitmaakt van een ander boom- of
+struikbeplanting. |
+|Herkomst definitie  | IMGeo 2.1.1  |
+|Verplicht  | ja  |
+|Gevolgen afbakening  | nieuw object  |
+|Toelichting|  |
+
+#### Boomspiegel
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Boomspiegel|
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+
+**Definitie**
+
+| Naam  | Boomspiegel |
+|---|---|
+| Definitie | Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor
+lucht en water. |
+|Herkomst definitie  | IMGeo 2.1.1  |
+|Verplicht  | nee  |
+|Gevolgen afbakening  | nieuw object  |
+|Toelichting|  |
+
+
 #### Houtsingel
 | Klasse  | Naam  |
 |---|---|
@@ -2206,6 +2243,49 @@ ontwerpprincipe:
 |telkast|*Kast ten behoeve van het meten van permanente verkeertellingen.*|
 |GMS kast|*Kast ten behoeve van het meten van weers- en wegdekomstandigheden.*|
 
+
+#### Onbepaald terreindeel
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Onbepaald terreindeel  |
+| Onderdeel van NEN3610-objecttype |Bodem  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Onbepaald terreindeel  |
+|---|---|
+| Definitie | Fysiek begrensd en zichtbaar terreindeel dat bij een gebouw hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van begroeiing, verharding en/of water. |
+|Herkomst definitie  | Gebaseerd op definitie van erf in BGT    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip onbepaald terreindeel |Ja |
+|Geometrie|De geometrische representatie van een onbepaald terreindeel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (vlak)|
+|Status   |   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
 
 
 
