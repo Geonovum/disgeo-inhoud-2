@@ -239,8 +239,8 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|verblijfsobject|Hoort bij 1 of meer|Gebouw|
-|verblijfsobject|Heeft een |Nummeraanduiding|
+|Hoort bij 1 of meer|Gebouw| Ja |
+|Heeft een |Nummeraanduiding| Ja |
 
 **Domeinwaarden**
 
