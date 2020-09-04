@@ -779,8 +779,8 @@ lucht en water. |
     Dit is een eerste voorbeeld uitwerking van de meta-gegevens (ter bespreking). Daarbij moet van een aantal voorgestelde metagegevens nog worden besproken in hoeverre deze per object moeten worden vastgelegd
 </div>
 
-<aside class='example'>
-  |Aspect |	Deelaspect|	Omschrijving|
+
+|Aspect |	Deelaspect|	Omschrijving|
 |---|---|---|
 |Bronverwijzing	|Verwijzing naar bron	|De verwijzing naar een formeel document (bij vergunningplichtige objecten) of een andere bron (bij niet-vergunningplichtige objecten of feitelijke constatering) op basis waarvan het gebouw is opgevoerd|
 |Gegevenseigenaar|	Vastleggen bronhouder|	De bronhouder van het gebouw|
@@ -795,7 +795,6 @@ Onderzocht: onderzoek heeft niet geleid tot wizjiging
 VRAAG: zou dit niet op attribuutniveau moeten?|
 	||Aantekenveld|	Mogelijkheid voor beheerders om aanvullende (onderzoeks)informatie vast te leggen|
 
-</aside>
 
 
 
