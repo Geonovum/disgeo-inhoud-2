@@ -1051,7 +1051,7 @@ lucht en water. |
 
 | Waarde Aard| Beschrijving   |
 |---|---|
-|dakkapel ||
+|dakkapel |Een uitbouw van het schuine dakvlak|
 |luifel|Afdak aangebracht aan de gevel van een pand, eventueel rustend op kolommen.|
 |bordes|Een verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers.|
 |toegangstrap|Niet afsluitbare trap (of trappenhuis) die toegang biedt aan een gebouw.|
@@ -1076,6 +1076,10 @@ lucht en water. |
 
 
 #### Toegangsdeur
+
+<div class='note'>
+    Verwachten we dat toegangsdeuren ook voorkomen bij andere objecten en dat we deze dus bij de meer algemene objecttypen moeten plaatsen?
+</div>
 
 
 | Klasse  | Naam  |
@@ -1137,6 +1141,57 @@ lucht en water. |
 |Verwijderd|	Een toegangsdeur die feitelijk is verwijderd|
 |Niet gerealiseerd|	Een geplande toegangsdeur die niet als zodanig is gerealiseerd|
 |Ten onrechte|	Toegangsdeur is ten onrechte opgevoerd in de registratie|
+
+#### Open bouwwerk
+
+
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Open bouwwerk |
+| Onderdeel van NEN3610-objecttype |constructie  |
+
+**Definitie**
+
+| Naam  | Open bouwwerk |
+|---|---|
+| Definitie | Een afzonderlijk staande overdekking rustend op een constructie met kolommen met één of meerder open gevels bedoeld voor het beschutten of stallen van objecten of voertuigen |
+|Herkomst definitie  |Gebaseerd op definities “open loods” en “overkapping” uit de gegevenscatalogus BGT|
+|Verplicht  | Ja |
+|Gevolgen afbakening  |Het betreft hier grotendeels de bestaande populatie open loodsen en overkappingen zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
+|Toelichting| *volgt later* |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een open bouwwerk  |Ja |
+|Geometrie |De geometrische representatie van de randen van een open bouwwerk   |Ja (3D)|
+|typering| Het soort open bouwwerk|
+|Status   |De fase van de levenscyclus waarin het betreffende open bouwwerk zich bevindt   |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+
+**Domeinwaarden**
+
+|Waarde typering| Beschrijving|
+|---|---|
+|overkapping|Een afzonderlijk staande overdekking rustend op kolommen|
+|open loods|Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden|
+
+.
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een open bouwwerk dat zich in de ontwerpfase bevindt|
+|Bestaand|	Een open bouwwerk dat is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|Verwijderd|	Een open bouwwerk dat feitelijk is verwijderd|
+|Niet gerealiseerd|	Een gepland open bouwwerk dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Een open bouwwerk dat ten onrechte is opgevoerd in de registratie|
 
 
 ### Constructie; Verharding
@@ -2013,7 +2068,7 @@ ontwerpprincipe:
 
 |Waarde Type mast| Beschrijving   |
 |---|---|
-|windturbine|Moderne hoge windmolen waarin winddruk wordt omgezet in mechanische energie. |
+|windturbinemast|Een hoge constructie die wordt gebruikt voor het bevestigen van een windturbine. |
 |hoogspanningsmast|Metalen mast of stellage ter ondersteuning van geleidedraden voor het transport van elektriciteit met een hoog voltage.|
 |laagspanningsmast|Houten of metalen mast waaraan kabels voor het transport van elektrische energie met een spannning lager dan 500 V zijn bevestigd.|
 |bovenleidingmast|Mast die een onderdeel vormt van de bovenleidingdraagconstructie voor het openbaar vervoer (trein, tram, bus).|
@@ -2288,6 +2343,50 @@ ontwerpprincipe:
 |verkeersregelinstallatiekast|*Kast ten behoeve van de regeling van het verkeer.*|
 |telkast|*Kast ten behoeve van het meten van permanente verkeertellingen.*|
 |GMS kast|*Kast ten behoeve van het meten van weers- en wegdekomstandigheden.*|
+
+#### Bunker
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Bunker  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Bunker  |
+|---|---|
+| Definitie | Een van oorsprong militair verdedigingswerk dat een zekere mate van bescherming bood tegen beschietingen en bombardementen. |
+|Herkomst definitie  | IMGeo 2.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *bunker* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een bunker |Ja |
+|Geometrie|De geometrische representatie van een bunker. |Ja (vlak)|
+|Status   |   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|gepland||
+|bestaand||
+|verwijderd||
+|niet gerealiseerd||
+|ten onrechte||
+
 
 
 ### Onbepaald terreindeel
