@@ -410,6 +410,12 @@ Per attribuut worden de volgende metagegevens vastgelegd:
 
 #### Plaatsbepalingspunten
 
+<div class='note'>
+    Het is wenselijk dat de onderstaande teksten iets verder worden toegespitst op een zelfstandig beschrijving die aansluit op de wijze waarop andere zaken zijn beschreven. Ook moet dit nog vertaald worden in een concreet voorstel rondom plaatsbepalingspunten. In de werkgroep inhoud moeten we hier mogelijk nog een proces voor afspreken.
+</div>
+
+
+
 Ook in de SOR zullen plaatsbepalingspunten een rol gaan spelen als bron. Plaatsbepalingspunten  (PBP’s) zoals die nu in de BGT als bronverwijzing bedoeld zijn, zijn immers ook een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie).  Daarvoor is het wel nodig dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar die bron expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens.
 Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig: 
 - Voor gebruikers is dan expliciet bekend welk(e) PBP(’s) bij welk object hoort.
@@ -435,14 +441,14 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 ### Historie
 
 #### Uitgangspunten voor historiemodel 
-In deze paragraaf beschrijven we het globaal semantisch historiemodel. Het is gebaseerd op de volgende uitgangspunten:
+Het globaal semantisch historiemodel voor de samenhangende objectenregistratie is gebaseerd op de volgende uitgangspunten:
 -	zo eenvoudig mogelijk. Dus geen registratie en bijhouding van data die niet strikt noodzakelijk zijn voor het beoogde tijdreizen, voor doelmatig beheer door de bronhouder en voor consistentiecontrole op elk willekeurig moment in de tijd. Zo eenvoudig mogelijk betekent ook zo gestandaardiseerd mogelijk. Het model moet geschikt zijn voor alle verschillende objecttypen die binnen de SOR een plek kunnen krijgen en bij voorkeur ook voor andere (basis)registraties. Maximaal aansluiten op bestaande standaarden en ervaringen hoort hier dus ook bij;
 -	een eenduidig model. Dat wil zeggen voor alle attributen binnen de Samenhangende objectenregistratie hetzelfde model en dus geen onderscheid tussen geometrie en administratieve gegevens;
 -	Stevige basis gelegen in een internationaal perspectief in combinatie met geldende Nederlandse standaarden. Dus zoveel mogelijk conform internationaal breed omarmde uitgangspunten en best practices, die ook teruggevonden worden in bestaande Nederlandse standaarden. Vanuit deze basis is het historiemodel gebaseerd op twee tijdlijnen (tijdlijn geldigheid en tijdlijn registratie);
 -	tijdreizen in het verleden en in de toekomst. Voor het vastleggen van tijdlijnen in de toekomst wordt dezelfde systematiek gebruikt als voor tijdlijnen in het verleden. Natuurlijk is deze werkwijze alleen mogelijk wanneer tijdlijnen in de toekomst relatief eenvoudig bijgesteld kunnen worden. Natuurlijk kent alleen de tijdlijn geldigheid data in de toekomst. De tijdlijn registratie is gebaseerd op het moment van registreren en deze wordt in beginsel bepaald door de computerklok;
 -	maximale ondersteuning door techniek. De bronhouder moet weinig inspanningen hoeven te doen om de tijdlijnen vast te leggen. Dat hangt deels samen met bepaalde definities (beginGeldigheid van geometrie gemeten in een luchtfoto zal gelijk zijn aan de datum waarop de foto gemaakt is, zonder verplichting tot nader onderzoek, wanneer de werkelijke beginGeldigheid niet blijkt uit andere processen). Ook de te bieden functionaliteit om te bewaken of toekomstmutaties niet ten onrechte in de registratie de actualiteit worden door het voortschrijden van de tijd, is daarbij een belangrijke randvoorwaarde.
 
-#### Perspectief historiemodel  
+#### Beschrijving historiemodel  
 Het globaal semantisch historiemodel laat zich het best beschrijven vanuit het perspectief van de gebruiker/afnemer. Het model geeft daarmee aan op welke wijze de gebruiker met de gegevens in de SOR een tijdreis kan maken
 
 ##### Tijdlijn geldigheid en tijdlijn registratie
@@ -474,8 +480,25 @@ Informatie
 
 Net als in het informatiemodel per attribuut kan worden vastgelegd of en zo ja welke historie geregistreerd wordt, wordt in het informatiemodel ook gedefinieerd of voor een bepaald objecttype de levensduur (ingangsdatumObject en einddatumObject) wordt vastgelegd. Ook hier hanteren we het uitgangspunt dat in beginsel voor alle objecttypen deze ingangsdatumObject en einddatumObject relevant zijn.
 
-#### Levensfasen en status van een object
-Om het tijdreizen voor alle gebruikers begrijpelijk en ook flexibel te maken, hebben we tevens een aanpak opgenomen voor het omgaan met levensfasen (statussen) van objecten. Dit heeft te maken met het feit dat bij het tijdreizen in de registratie niet alle gebruikers dezelfde wensen hebben. Bij bijvoorbeeld het raadplegen van de "actuele" situatie in het kader van calamiteiten is alleen relevant wat er ook daadwerkelijk aan objecten aanwezig is (inclusief objecten "in aanbouw" of "aanleg in uitvoering"). Maar bij vergunningverlening zal men ook willen zien voor welke objecten inmiddels een vergunning is verleend of anderszins in planning zijn.
+#### Concretisering aan de hand van enkele voorbeelden
+
+*Nieuwbouwwoning*
+Op 1 juli 2020 wordt een bouwvergunning verleend voor een nieuwbouwwoning. Deze wordt direct geregistreerd met alle relevante kenmerken (type woning, gebruiksdoel, gebruiksoppervlakte, bouwjaar, (voorlopige) geometrie).
+Verwacht wordt dat de woning per 1 juli 2021 in gebruik genomen zal worden.
+Alle kenmerken van deze woning worden geregistreerd met beginGeldigheid 1-7-2020 en tijdstipRegistratie (de computer timestamp op 3-7-2020, wanneer de gegevens worden ingevoerd). De status "vergunning verleend" krijgt naast de beginGeldigheid 1-7-2020 direct een eindGeldigheid 1-7-2021. Met beginGeldigheid 1-7-2021 wordt namelijk de status "in gebruik" geregistreerd.
+
+Op 1 april 2021 constateert de afdeling VTH dat er (eindelijk) begonnen is met de bouw. Dit wordt direct opgenomen in de registratie. Dat betekent dat de status "vergunning verleend" als eindGeldigheid 1-4-2021 krijgt en er een status "in aanbouw" wordt toegevoegd met beginGeldigheid 1-4-2021. Omdat er sprake moet zijn van een consistente tijdlijn zou deze status dan eindGeldigheid 1-7-2021 moeten krijgen om aan te sluiten op de beginGeldigheid van de status "in gebruik". Omdat het onwaarschijnlijk is dat de bouw binnen drie maanden gereed is, krijgt de status "in aanbouw" als einddatum 1-12-2021 en wordt ook beginGeldigheid voor de status "in gebruik" gecorrigeerd naar deze datum.
+Op 23-11-2021 geeft het systeem een melding of het klopt dat binnen een week deze woning in gebruik genomen gaat worden. De afdeling VTH constateert dat de woning nog niet gereed is en dat het nog zeker twee maanden gaat duren voordat de woning in gebruik genomen kan worden. De eindGeldigheid voor "in aanbouw" en beginGeldigheid voor "in gebruik" wordt verschoven naar 1-2-2022. Hiermee is voor de afdeling WOZ/Belastingen gelijk helder dat sprake is van een woning in aanbouw op 1 januari.
+
+Op 27-1-2022 ontvangt de gemeente een melding dat de woning gereed is. Voor de laatste maal wordt eindGeldigheid voor "in aanbouw" en beginGeldigheid voor "in gebruik" gecorrigeerd.
+
+Op 15-2-2022 worden er luchtfoto's gevlogen die in maart worden uitgewerkt. De gemeente ontleent hieraan de definitieve geometrie van de woning. Deze wordt geregistreerd met beginGeldigheid 27-1-2022, omdat dit ook de datum is waarop de woning de status "in gebruik" heeft gekregen. (De vanuit dezelfde foto ingewonnen geometrie van de singel voor deze woning krijgt als beginGeldigheid 15-2-2022, de datum van de foto.)
+
+#### Levensfasen 
+
+##### Beschrijving levensfasen
+
+ Om het tijdreizen voor alle gebruikers begrijpelijk en ook flexibel te maken, wordt in de samenhangende objectenregistratie ook gewerkt met levensfasen (statussen) van objecten. Dit heeft te maken met het feit dat bij het tijdreizen in de registratie niet alle gebruikers dezelfde wensen hebben. Bij bijvoorbeeld het raadplegen van de "actuele" situatie in het kader van calamiteiten is alleen relevant wat er ook daadwerkelijk aan objecten aanwezig is (inclusief objecten "in aanbouw" of "aanleg in uitvoering"). Maar bij vergunningverlening zal men ook willen zien voor welke objecten inmiddels een vergunning is verleend of anderszins in planning zijn.
 
 
 Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo’n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In de samenhangende objectenregistratie komen vier soorten objecttypen voor: fysieke objecttypen, functionele objecttypen, registratieve objecttypen en geografische objecttypen. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen.
@@ -508,6 +531,31 @@ Bij fysieke objecttypen worden drie hoofdfasen onderscheiden waarbinnen meerdere
 ||Niet gerealiseerd	|Niet gerealiseerd|
 ||Ten onrechte	|Ten onrechte|
 
+De bij de levensfasen voor niet-vergunningplichtige objecttypen behorende toelichtingen zijn:
+
+|Waarde status|	Beschrijving|
+|---|---|
+|Gepland|	Een object dat zich in de ontwerpfase bevindt|
+|Bestaand	|Een object dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|Verwijderd|	Een object dat feitelijk is verwijderd|
+|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Een object dat ten onrechte is opgevoerd in de registratie| 
+
+De bij de levensfasen voor vergunningplichtige objecttypen behorende toelichtingen zijn:
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een object dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw of aanleg is verleend|
+|Bouwvergunning verleend|	Een object dat nog niet is gebouwd of aangelegd maar waarvoor wel een vergunning tot bouw of aanleg is verleend|
+|Sloopvergunning verleend|	Een object waarvoor een vergunning tot sloop of verwijdering is verleend|
+|In aanbouw|	Een object waarvan de feitelijke bouw of aanleg is aangevangen|
+|Bestaand|	Een object dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|In verbouw|	Een object waarvoor een vergunning tot verbouw of wijziging is verleend en waarbij de verbouwing of wijziging nog niet is voltooid|
+|Gesloopt|	Een object waarvan de feitelijke sloop of verwijdering is afgerond|
+|Niet gerealiseerd|	Een object waarvoor een bouw- of aanlegvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of aanleg of waarvan de vergunning is ingetrokken|
+|Ten onrechte|	Object is ten onrechte opgevoerd in de registratie|
+
+
 
 Bij functionele objecttypen zijn de levensfasen van een object meer verbonden aan het gebruik ervan. Ook hier worden in het algemeen de drie genoemde hoofdfasen onderscheiden, waarbij de te onderscheiden levensfasen afhankelijk zijn van het specifieke objecttype. In het algemeen zullen de komende levensfasen voorkomen:
 
@@ -536,21 +584,14 @@ Het slechts kunnen registreren van één levensfase (samenhangend met de kenmerk
 Dit kan worden geïllustreerd aan de hand van het voorbeeld van een school die momenteel als school in gebruik is, maar die na het lopende schooljaar verbouwd zal worden tot een woning. Wanneer in de loop van het schooljaar de bouwvergunning wordt verleend voor deze verbouwing, dan wordt volgens het huidige historiemodel van de BAG direct de registratie aangepast. Raadplegen van de actualiteit levert dan op dat sprake is van een woning, terwijl de situatie "in gebruik" nog betrekking heeft op een school met leerlingen.
 Toepassing van deze aanpak zou kunnen betekenen dat we de beoogde verbouwing niet registreren met beginGeldigheid het moment van verstrekken van de vergunning, maar met het verwachte moment van verbouwing (bijvoorbeeld aanstaande september). Bij die werkwijze kunnen we echter nog niet vastleggen dat op dit moment al sprake is van een verleende vergunning, terwijl je dat wel zou doen, wanneer sprake zou zijn van een nieuwbouwwoning.
 
+<div class='note'>
+    Hieronder is een eerste voorstel oplossing van dit vraagstuk opgenomen. In de review wordt iedereen uitgenodigd beargumenteerd aan te geven in hoeverre het genoemde voorstel al dan niet een goede oplossing is. Ook wordt iedereen van harte uitgenodigd om alternatieve oplossingen aan te dragen.
+</div>
+
+
 Daarom moet het in dit soort situaties (voor een "in gebruik" zijnde gebouw is een vergunning verleend voor verbouw, voor een "in gebruik" zijnde weg bestaat het plan voor uitbreiding) door het informatiemodel voor de SOR gefaciliteerd worden dat een tweede object (bijvoorbeeld gebouw of verblijfsobject of wegvak) wordt geregistreerd. Deze werkwijze komt overeen met de huidige werkwijze voor plantopografie binnen IMGeo. Dit nieuw object wordt wel gerelateerd aan het bestaande object waarop het plan betrekking heeft (en vice versa). De registratie van dit tweede object geschiedt verder alsof sprake is van een nieuwbouwsituatie. Echter zodra dit object gericht op een verbouwing ook daadwerkelijk de fase bestaand/geldig bereikt, wordt het nieuw opgevoerde object "beëindigd" en wordt de feitelijk situatie weer opgenomen in de tijdlijn geldigheid van het oorspronkelijke object dat vanaf dat moment daadwerkelijk "in verbouw" is.
 
-#### Concretisering aan de hand van enkele voorbeelden
 
-*Nieuwbouwwoning*
-Op 1 juli 2020 wordt een bouwvergunning verleend voor een nieuwbouwwoning. Deze wordt direct geregistreerd met alle relevante kenmerken (type woning, gebruiksdoel, gebruiksoppervlakte, bouwjaar, (voorlopige) geometrie).
-Verwacht wordt dat de woning per 1 juli 2021 in gebruik genomen zal worden.
-Alle kenmerken van deze woning worden geregistreerd met beginGeldigheid 1-7-2020 en tijdstipRegistratie (de computer timestamp op 3-7-2020, wanneer de gegevens worden ingevoerd). De status "vergunning verleend" krijgt naast de beginGeldigheid 1-7-2020 direct een eindGeldigheid 1-7-2021. Met beginGeldigheid 1-7-2021 wordt namelijk de status "in gebruik" geregistreerd.
-
-Op 1 april 2021 constateert de afdeling VTH dat er (eindelijk) begonnen is met de bouw. Dit wordt direct opgenomen in de registratie. Dat betekent dat de status "vergunning verleend" als eindGeldigheid 1-4-2021 krijgt en er een status "in aanbouw" wordt toegevoegd met beginGeldigheid 1-4-2021. Omdat er sprake moet zijn van een consistente tijdlijn zou deze status dan eindGeldigheid 1-7-2021 moeten krijgen om aan te sluiten op de beginGeldigheid van de status "in gebruik". Omdat het onwaarschijnlijk is dat de bouw binnen drie maanden gereed is, krijgt de status "in aanbouw" als einddatum 1-12-2021 en wordt ook beginGeldigheid voor de status "in gebruik" gecorrigeerd naar deze datum.
-Op 23-11-2021 geeft het systeem een melding of het klopt dat binnen een week deze woning in gebruik genomen gaat worden. De afdeling VTH constateert dat de woning nog niet gereed is en dat het nog zeker twee maanden gaat duren voordat de woning in gebruik genomen kan worden. De eindGeldigheid voor "in aanbouw" en beginGeldigheid voor "in gebruik" wordt verschoven naar 1-2-2022. Hiermee is voor de afdeling WOZ/Belastingen gelijk helder dat sprake is van een woning in aanbouw op 1 januari.
-
-Op 27-1-2022 ontvangt de gemeente een melding dat de woning gereed is. Voor de laatste maal wordt eindGeldigheid voor "in aanbouw" en beginGeldigheid voor "in gebruik" gecorrigeerd.
-
-Op 15-2-2022 worden er luchtfoto's gevlogen die in maart worden uitgewerkt. De gemeente ontleent hieraan de definitieve geometrie van de woning. Deze wordt geregistreerd met beginGeldigheid 27-1-2022, omdat dit ook de datum is waarop de woning de status "in gebruik" heeft gekregen. (De vanuit dezelfde foto ingewonnen geometrie van de singel voor deze woning krijgt als beginGeldigheid 15-2-2022, de datum van de foto.)
 
 
 
