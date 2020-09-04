@@ -306,6 +306,12 @@ We kiezen voor optie 2.4 en afhankelijk van de situatie daarbinnen voor stap a o
 
 ### Meta-informatie en bronverwijzing
 
+<div class='note'>
+    Het is wenselijk dat de onderstaande teksten iets verder worden toegespitst op een zelfstandig beschrijving die aansluit op de wijze waarop andere zaken zijn beschreven. Daarbij kan het plaatje waarschijnlijk vervallen (is meer intern gericht). Meta-informatie over objecttypen en attribuuttypen moeten (uiteindelijk) een plaats krijgen in de beschrijvingen in hoofdstuk 5 -7. De inhoud hoeft nu nog niet gevuld te worden (zoals inhoudelijke kwaliteitseisen). Meta-informatie per object of attribuut is de nadere invulling van het blokje “overige metagegevens" bij de in hoofdstuk 5-7 beschreven objecttypen en attribuuttypen. In paragraaf 5.4.1 is een voorbeeld opgenomen. We bespreken in de werkgroep inhoud hoe we hier tegenaan kijken.
+</div>
+
+
+
 ![Ordening metadata](media/ordening_metadata.png)
 
 Deze paragraaf beschrijft de uniformering van metagegevens in de SOR. 
