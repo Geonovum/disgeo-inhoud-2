@@ -789,10 +789,10 @@ lucht en water. |
 	||Controlewijze|	Van wat?|
 	||Moment laatste controle|	Van wat?|
 	||Uitvoerder controle|	Van wat?|
-|Status	|Onderzoeksstatus|	InOnderzoek als gevolg van terugmelding
-InBewerking als gevolg van controle-activiteiten bronhouder
-Onderzocht: onderzoek heeft niet geleid tot wizjiging
-VRAAG: zou dit niet op attribuutniveau moeten?|
+|Status	|Onderzoeksstatus|	InOnderzoek als gevolg van terugmelding|
+|||InBewerking als gevolg van controle-activiteiten bronhouder|
+|||Onderzocht: onderzoek heeft niet geleid tot wizjiging|
+|||VRAAG: zou dit niet op attribuutniveau moeten?|
 	||Aantekenveld|	Mogelijkheid voor beheerders om aanvullende (onderzoeks)informatie vast te leggen|
 
 
