@@ -1926,27 +1926,28 @@ ontwerpprincipe:
 
 | Naam  | Installatie  |
 |---|---|
-| Definitie | Een technisch, samenhangend systeem, al dan niet binnen een bestaande inrichting, dat een bepaald doel dient. |
-|Herkomst definitie  |     |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *kunstwerkdelen* en *installatie* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
+| Definitie | Een technisch samenhangend systeem dat een bepaald doel dient |
+|Herkomst definitie  | IMGeo   |
+|Verplicht  | Nader te bepalen  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populaties  *installatie* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip installatie |Ja |
-|Geometrie|De geometrische representatie van de ligging van de installatie of van de randen van de installatie. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt, lijn, vlak)|
+|Identificatie   |De unieke aanduiding van een installatie |Ja |
+|Geometrie|De geometrische representatie van de ligging van de installatie of van de randen van de installatie.  |Ja (punt, lijn, vlak)|
 |Status   |   |Ja   |
-|Type installatie|aanduiding soort installatie |Ja|
+|Type installatie| De aanduiding van het soort installatie. |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-||||
+|hoort bij|gebouw|ja|
+|hoort bij|verblijfsobject|ja|
 
 **Domeinwaarden**
 
@@ -1963,7 +1964,9 @@ ontwerpprincipe:
 |Waarde Type installatie| Beschrijving   |
 |---|---|
 |pomp|Technische inrichting om vloeistoffen en/of gassen te verplaatsen.|
-
+|zonnepanelen| Een installatie om zonne-energie om te zetten in energie |
+|lift| Een installatie gericht op het vertikaal vervoeren van personen en goederen|
+|windturbine|Turbine waarin winddruk omgezet wordt in mechanische energie|
 
 #### Mast
 | Klasse  | Naam  |
