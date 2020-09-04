@@ -1003,34 +1003,34 @@ lucht en water. |
 |Ten onrechte|	Ruimte is ten onrechte opgevoerd in de registratie|
 
 
-#### Installatie
+#### Gebouwcomponent
 
 
 
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Installatie  |
+|SOR-begrip   | Gebouwcomponent |
 | Onderdeel van NEN3610-objecttype |Gebouw  |
 
 **Definitie**
 
-| Naam  | Installatie  |
+| Naam  | Gebouwcomponent  |
 |---|---|
-| Definitie | Geheel van een relevantie installatie of andere voorziening in of aan en ten dienste van het Gebouw|
-|Herkomst definitie  |Gebaseerd op de GebouwInstallatie uit NEN 2580/ Bouwbesluit/ INSPIRE, IFC-elementen uit de concepten rondom Bouwwerkinformatiemodellen (BIM) en enkele aspecten van  fysieke deelobjecten uit de WOZ|
+| Definitie | Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt |
+|Herkomst definitie  |IMGeo 2.2|
 |Verplicht  | Deels (nog nader te bepalen welke onderdelen) |
-|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype. *Nog nader bepaald zal worden hoe we een en ander afstemmen op het BGT objecttype gebouwdeel en op het feit dat installaties ook bij andere objecten dan gebouwen kunnen behoren*|
+|Gevolgen afbakening  |Het betreft hier grotendeels de bestaande populatie van *gebouwinstallatie* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
 |Toelichting| *volgt later* |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Installatie  |Ja |
-|Geometrie |De geometrische representatie van de randen van een Installatie   |Ja (1,5D of 2,5D)|
-|Aard|Het soort installatie|Ja |
-|Bijbehorend object |Het object waarbij de betreffende installatie behoort|Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende installatie zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een gebouwcomponent  |Ja |
+|Geometrie |De geometrische representatie van de randen van een gebouwcomponent   |Ja (1,5D of 2,5D)|
+|Aard|Het soort gebouwcomponent|Ja |
+|Bijbehorend object |Het object waarbij de betreffende gebouwcomponent behoort|Ja|
+|Status   |De fase van de levenscyclus waarin de betreffende igebouwcomponent zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1045,16 +1045,13 @@ lucht en water. |
 <div class='note'>
     De definitieve lijst met AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze elders worden gehanteerd. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 
-    In het kader van de review wordt u gevraagd om aan te geven welke “installaties” naar uw mening van belang zijn om in een basisregistratie op te nemen
+    In het kader van de review wordt u gevraagd om aan te geven welke “gebouwcomponenten” naar uw mening van belang zijn om in een basisregistratie op te nemen.
 </div>
 
 
 | Waarde Aard| Beschrijving   |
 |---|---|
-|zonnepanelen < 5 kWp| |
-|zonnepanelen > 5 kWp| |
 |dakkapel ||
-|lift||
 |luifel|Afdak aangebracht aan de gevel van een pand, eventueel rustend op kolommen.|
 |bordes|Een verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers.|
 |toegangstrap|Niet afsluitbare trap (of trappenhuis) die toegang biedt aan een gebouw.|
@@ -1067,15 +1064,15 @@ lucht en water. |
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een installatie dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Bouwvergunning verleend|	Een installatie die nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
-|Sloopvergunning verleend|	Een installatie waarvoor een vergunning tot sloop is verleend|
-|In aanbouw|	Een installatie waarvan de feitelijke bouw is aangevangen| 
-|Bestaand|	Een installatie die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|In verbouw|	Een installatie waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
-|Gesloopt|	Een installatie waarvan de feitelijke sloop is afgerond|
-|Niet gerealiseerd|	Een installatie waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
-|Ten onrechte|	Installatie is ten onrechte opgevoerd in de registratie|
+|Gepland|	Een gebouwcomponent dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
+|Bouwvergunning verleend|	Een gebouwcomponent die nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
+|Sloopvergunning verleend|	Een gebouwcomponent waarvoor een vergunning tot sloop is verleend|
+|In aanbouw|	Een gebouwcomponent waarvan de feitelijke bouw is aangevangen| 
+|Bestaand|	Een gebouwcomponent die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|In verbouw|	Een gebouwcomponent waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
+|Gesloopt|	Een gebouwcomponent waarvan de feitelijke sloop is afgerond|
+|Niet gerealiseerd|	Een gebouwcomponent waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
+|Ten onrechte|	gebouwcomponent is ten onrechte opgevoerd in de registratie|
 
 
 #### Toegangsdeur
@@ -1136,7 +1133,7 @@ lucht en water. |
 |Waarde status	|Beschrijving|
 |---|---|
 |Gepland|	Een toegangsdeur die zich in de ontwerpfase bevindt|
-|Bestaand|	Een installatie die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|Bestaand|	Een toegangsdeur die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
 |Verwijderd|	Een toegangsdeur die feitelijk is verwijderd|
 |Niet gerealiseerd|	Een geplande toegangsdeur die niet als zodanig is gerealiseerd|
 |Ten onrechte|	Toegangsdeur is ten onrechte opgevoerd in de registratie|
