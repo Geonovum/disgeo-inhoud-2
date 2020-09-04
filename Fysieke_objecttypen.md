@@ -825,10 +825,10 @@ VRAAG: zou dit niet op attribuutniveau moeten?|
 	||Controlewijze|	Een beschrijving van de wijze waarop het gegeven is gecontroleerd (mogelijke waarden nog te bepalen)|
 	||Moment laatste controle|	Het moment waarop het gegeven voor het laatst is gecontroleerd|
 	||Uitvoerder controle	|De functie die het gegeven voor het laatste heeft gecontroleerd|
-|Status	|Onderzoeksstatus|	InOnderzoek als gevolg van terugmelding
-InBewerking als gevolg van controle-activiteiten bronhouder
-Onderzocht: onderzoek heeft niet geleid tot wijziging
-VRAAG: zou dit niet op attribuutniveau moeten?|
+|Status	|Onderzoeksstatus|	InOnderzoek als gevolg van terugmelding|
+|||InBewerking als gevolg van controle-activiteiten bronhouder|
+|||Onderzocht: onderzoek heeft niet geleid tot wijziging|
+|||VRAAG: zou dit niet op attribuutniveau moeten?|
 	||Aantekenveld	|Mogelijkheid voor beheerders om aanvullende (onderzoeks)informatie vast te leggen|
 
 
