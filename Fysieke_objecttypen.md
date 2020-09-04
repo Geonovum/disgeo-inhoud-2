@@ -775,6 +775,17 @@ lucht en water. |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
 |Toelichting| *volgt later* |
 
+<div class='note'>
+    Dit is een eerste voorbeeld uitwerking van de meta-gegevens (ter bespreking). Daarbij moet van een aantal voorgestelde metagegevens nog worden besproken in hoeverre deze per object moeten worden vastgelegd
+</div>
+
+<aside class='example'>
+  tabel 1
+</aside>
+
+
+
+
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
