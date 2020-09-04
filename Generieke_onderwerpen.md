@@ -569,6 +569,31 @@ Bij functionele objecttypen zijn de levensfasen van een object meer verbonden aa
 ||Niet gerealiseerd	|Niet gerealiseerd|
 ||	Ten onrechte	|Ten onrechte|
 
+De hierbij behorende toelichtingen voor de levensfasen van transportvoorzieningen zijn:
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland	|Een object dat zich in de ontwerpfase bevindt|
+|Gesloten	|Een object dat is gerealiseerd maar nog niet in gebruik is genomen|
+|In gebruik|	Een object dat in gebruik is genomen |
+|Ontoegankelijk|	Een object dat in gebruik is genomen maar tijdelijk niet gebruikt kan worden|
+|Opgeheven|	Een object dat buiten gebruik is gesteld|
+|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
+|Ten onrechte	|Een object dat ten onrechte is opgevoerd in de registratie|
+
+De bij functionele indelingen behorende toelichtingen voor de levensfasen zijn:
+
+|Waarde status|	Beschrijving|
+|---|---|
+|Gepland	|Een object dat zich in de ontwerpfase bevindt|
+|Gevormd	|Een object dat is gevormd|
+|In gebruik	|Een object dat in gebruik is genomen |
+|Buiten gebruik|	Een object dat buiten gebruik is gesteld|
+|Beëindigd|	Een object dat is opgeheven|
+|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Een object dat ten onrechte is opgevoerd in de registratie|
+
+
 
 De levensfase van een object wordt in de registratie vastgelegd als de eigenschap “status” van het object.
 De verbetering (inmeten) van geometrie van een object wordt ten opzichte van bestaande basisregistraties niet langer opgevat als een statusverandering maar als een kwaliteitsverandering. Deze laatste wordt geregistreerd door de opname van meta-informatie.
