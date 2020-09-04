@@ -780,7 +780,21 @@ lucht en water. |
 </div>
 
 <aside class='example'>
-  tabel 1
+  |Aspect |	Deelaspect|	Omschrijving|
+|---|---|---|
+|Bronverwijzing	|Verwijzing naar bron	|De verwijzing naar een formeel document (bij vergunningplichtige objecten) of een andere bron (bij niet-vergunningplichtige objecten of feitelijke constatering) op basis waarvan het gebouw is opgevoerd|
+|Gegevenseigenaar|	Vastleggen bronhouder|	De bronhouder van het gebouw|
+||	Vastleggen openbaarheid gebruik|	Omdat dit default JA is zou overwogen kunnen worden om juist beperkingen te registreren|
+|Kwaliteit|	Inwinningswijze|	Een beschrijving van de wijze waarop het gebouw is ingewonnen (WAT zou hier moeten staan?)|
+	||Controlewijze|	Van wat?|
+	||Moment laatste controle|	Van wat?|
+	||Uitvoerder controle|	Van wat?|
+|Status	|Onderzoeksstatus|	InOnderzoek als gevolg van terugmelding
+InBewerking als gevolg van controle-activiteiten bronhouder
+Onderzocht: onderzoek heeft niet geleid tot wizjiging
+VRAAG: zou dit niet op attribuutniveau moeten?|
+	||Aantekenveld|	Mogelijkheid voor beheerders om aanvullende (onderzoeks)informatie vast te leggen|
+
 </aside>
 
 
