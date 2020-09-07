@@ -13,6 +13,7 @@ In dit hoofdstuk is een samenhangende beschrijving opgenomen van zowel de eerder
 #### Standaardisatie
 
 Ontwerpprincipe:
+
 **In de SOR zijn uitsluitend gestandaardiseerde objecttypen en eigenschappen opgenomen.**
 
 De inhoud van de objectenregistratie is volledig beschreven in de vorm van een standaard. In de registratie komen dus geen objecttypen voor die niet voldoen aan deze standaard. Ook worden in de objectenregistratie uitsluitend gestandaardiseerde eigenschappen van deze objecttypen opgenomen.
@@ -22,6 +23,7 @@ Onderdeel van deze standaardisatie is dat van de verschillende objecttypen en ei
 #### Definiëring
 
 ontwerpprincipe:
+
 **Definities van zowel objecttypen als eigenschappen van objecttypen zijn scherp afgebakend, niet multi-interpretabel en sluiten waar mogelijk aan op bestaande definities.**
 
 Het is van groot belang dat de basis van een informatiemodel voor een samenhangende objectenregistratie wordt gevormd door een aantal onderling goed afgestemde en heldere definities. In de bestaande basisregistraties is daarvan momenteel niet altijd sprake. Hierdoor wordt de onderlinge koppelbaarheid van gegevens beperkt en laat de uniformiteit van de opgenomen gegevens (door interpretatieverschillen of in de definities opgenomen vrijheidsgraden) nogal eens te wensen over. Bij de verdere uitwerking van de inhoud van een samenhangende objectenregistratie worden bestaande definities daarom zodanig uitgebreid en geharmoniseerd dat: 
@@ -32,13 +34,14 @@ Het is van groot belang dat de basis van een informatiemodel voor een samenhange
 
 
 <div class='note'>
-    Regels voor opzet en definities
+    
+    **Regels voor opzet en definities**
 
 We toetsen de opzet en definities aan een aantal regels om te bepalen hoe goed de opzet/een definitie is. Hoe meer aan deze regels wordt voldaan, hoe groter de kans dat de definities bruikbaar zijn om mede daarmee een  een samenhangend informatiemodel creëren. 
 
 Het lukt niet altijd een definitie aan alle regels te laten voldoen. Dat heeft veelal te maken met de leesbaarheid van de definitie. Een definitie kan te abstract worden of grammaticaal te ingewikkeld worden voor een lezer om te begrijpen wat er bedoeld wordt. Daarom zijn de regels voor definities slechts indicatief bedoeld. Het zijn hulpmiddelen om te komen tot een goede definitie, maar er kan bewust van worden afgeweken. Probeer dat wel zo min mogelijk te doen. 
 
-Regels ten aanzien van opzet
+**Regels ten aanzien van opzet**
 
 We werken met concepten. Dit zijn objecttypen, eigenschappen en relaties. Bij inhoudelijke inrichting volgen we het mechanisme van de internationale standaarden. (bouw standaarden met standaarden. Bv DublinCore, SKOS, W3C) 
 
@@ -50,7 +53,7 @@ De objecttypen hebben onderlinge relaties. Die relaties worden expliciet benoemd
 
 Er is strikt onderscheid tussen fysieke objecten en functionele, registratieve, geografische objecttypen. Fysieke objecten zijn in de werkelijkheid zichtbare en tastbare objecten. De andere typen zijn virtuele, thematische objecten. Bijvoorbeeld, een gemeentegrens bestaat alleen op de kaart of in een registratie. Het bord dat in de werkelijkheid de grens markeert is een fysiek object. 
 
-Regels ten aanzien van definities
+**Regels ten aanzien van definities**
 
 Een definitie: 
 
@@ -85,7 +88,7 @@ Een definitie:
 
 Ontwerpprincipe:
 
-Objecttypen en eigenschappen van objecttypen worden zodanig in de SOR opgenomen dat uitbreiding en inkrimping van het aantal objecttypen en eigenschappen en het aanpassen van de kwalificatie van objecttypen en eigenschappen als verplicht of vrijwillig binnen het informatiemodel eenvoudig mogelijk is.
+**Objecttypen en eigenschappen van objecttypen worden zodanig in de SOR opgenomen dat uitbreiding en inkrimping van het aantal objecttypen en eigenschappen en het aanpassen van de kwalificatie van objecttypen en eigenschappen als verplicht of vrijwillig binnen het informatiemodel eenvoudig mogelijk is.**
 
 Het moet mogelijk zijn om de inhoud van de samenhangende objectenregistratie relatief eenvoudig aan te kunnen passen. Dit begint met een informatiemodel dat dergelijke aanpassingen kan faciliteren. Dat betekent dat bijvoorbeeld het onderscheid tussen verplichte en vrijwillige objecten in de registratie niet diepgaand in het uitgewerkte informatiemodel moet worden verankerd. Of aanpassing ook daadwerkelijk zal plaatsvinden is uiteraard afhankelijk van de afspraken die er worden gemaakt over de wijze waarop besluitvorming over wijzigingen plaatsvindt en hoe er wordt omgegaan met de gevolgen daarvan voor bronhouders en gebruikers. Bij het doorvoeren van dit soort wijzigingen moeten er altijd heldere transitieafspraken worden gemaakt.
 
@@ -99,7 +102,7 @@ Het moet mogelijk zijn om de inhoud van de samenhangende objectenregistratie rel
 
 Ontwerpprincipe:
 
-Objecttypen en eigenschappen van objecttypen moeten in de SOR worden opgenomen als deze in het kader van de SOR als wettelijk verplicht zijn aangemerkt en mogen in de registratie worden opgenomen als deze als vrijwillig zijn aangemerkt in het kader van de SOR.
+**Objecttypen en eigenschappen van objecttypen moeten in de SOR worden opgenomen als deze in het kader van de SOR als wettelijk verplicht zijn aangemerkt en mogen in de registratie worden opgenomen als deze als vrijwillig zijn aangemerkt in het kader van de SOR.**
 
 ![onderscheid verplicht en vrijwillig](media/verplicht_vrijwillig.png)
 
@@ -119,7 +122,7 @@ Dit betekent dus dat gebruikers van het verplichte gedeelte van de samenhangende
 
 Ontwerpprincipe:
 
-In de SOR wordt een expliciet onderscheid gemaakt tussen fysieke en functionele objecttypen.
+**In de SOR wordt een expliciet onderscheid gemaakt tussen fysieke en functionele objecttypen.**
 
 Bij de uitwerking van de SOR wordt een scheiding aangebracht tussen fysieke objecttypen en functionele objecttypen. De aanleiding is dat definities van functionele objecttypen sterk samenhangen met specifieke gebruikstoepassingen of afsprakenkaders. Fysieke objecttypen worden altijd gedefinieerd door hetgeen in het terrein zichtbaar is. Door in de SOR een strikte scheiding aan te brengen tussen fysieke objecttypen en functionele objecttypen, kunnen duidelijkere regels worden opgesteld over onder meer samenhang en overlap van verschillende objecttypen. Daar waar dat de in de huidige registraties vaak niet mogelijk is, wordt het in de SOR bijvoorbeeld mogelijk dat er meerdere functionele indelingen op één fysieke locatie voorkomen. Hiermee vergroten we de flexibiliteit en de gebruiksmogelijkheden van de SOR enorm. Functionele en fysieke objecttypen worden hierbij altijd als aparte objecttypen gedefinieerd, als de begrenzing ervan kan verschillen.
 
@@ -127,7 +130,7 @@ Bij de uitwerking van de SOR wordt een scheiding aangebracht tussen fysieke obje
 
 Ontwerpprincipe: 
 
-Het objectenmodel van de SOR wordt opgebouwd vanuit de kleinste semantische eenheden die het minimum detailniveau aangeven waarvan is vastgesteld dat deze van waarde zijn voor meerdere gebruikers van de registratie.
+**Het objectenmodel van de SOR wordt opgebouwd vanuit de kleinste semantische eenheden die het minimum detailniveau aangeven waarvan is vastgesteld dat deze van waarde zijn voor meerdere gebruikers van de registratie.**
 
 Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste semantische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit minimum detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. Op het moment dat bepaalde gebruikers binnen deze kleinste semantische eenheid voor eigen gebruik nog een nadere detaillering wil aanbrengen, dan zal de gebruiker dat als onderdeel van de eigen sectorale registratie zelf nader moeten vormgeven. Hierbij kan bijvoorbeeld worden gedacht aan het nader detailleren van een groenobject in verschillende beplantingsvakken als onderdeel van het werkproces voor het beheren van de openbare ruimte.
 
@@ -139,7 +142,7 @@ Vragen die daarbij eveneens zullen moeten worden beantwoord is in hoeverre geagg
 
 Ontwerpprincipe:
 
-Objecten worden in de SOR opgenomen op het moment dat deze volgens de voor het betreffende objecttype gedefinieerde criteria ontstaan en blijven daarna altijd in de registratie aanwezig, waarbij voor elk objecttype is vastgelegd welke levensfasen in de vastlegging van een object worden onderscheiden.
+**Objecten worden in de SOR opgenomen op het moment dat deze volgens de voor het betreffende objecttype gedefinieerde criteria ontstaan en blijven daarna altijd in de registratie aanwezig, waarbij voor elk objecttype is vastgelegd welke levensfasen in de vastlegging van een object worden onderscheiden.**
 
 Met dit uitgangspunt wordt beoogd dat de volledige levensloop van een object geregistreerd wordt. Deze levensloop begint op het gedefinieerde ontstaansmoment, dat per objecttype kan verschillen. Zo is voor bepaalde objecttypen een planstatus relevant, terwijl dit voor andere objecttypen minder relevant lijkt. De objecten blijven daarna altijd in de registratie aanwezig. Door middel van een vastlegging van de levensfase van een object kan worden bepaald of een object ook nog als zodanig bestaat. Objecten worden daarbij niet afgevoerd, maar historisch gemaakt. Belangrijk is dus dat gedurende de gehele levensloop sprake is van hetzelfde unieke object (met dezelfde identificatiecode).
 
@@ -153,7 +156,7 @@ In de samenhangende objectenregistratie betekent dit ook dat er eensluidende uit
 
 Ontwerpprincipe: 	
 
-Elk object in de SOR wordt voorzien van een unieke identificatiecode die gedurende de gehele levensloop van een object ongewijzigd blijft .
+**Elk object in de SOR wordt voorzien van een unieke identificatiecode die gedurende de gehele levensloop van een object ongewijzigd blijft .**
 
 Elk object in de registratie wordt voorzien van een unieke identificatiecode. Deze identificatiecode maakt het mogelijk om andere gegevens te koppelen aan het betreffende object. Hiervoor is het van belang dat de identificatiecode van een object gedurende de gehele levensloop van een object hetzelfde blijft. Een object blijft op deze wijze voor de gebruiker van de gegevens over het object herkenbaar. Mocht het desalniettemin noodzakelijk zijn wijzigingen aan te brengen in identificatiecodes van objecten, dan zal minimaal moeten worden geborgd dat de oude identificatiecodes gedurende een geruime tijd behouden blijven, om gebruikers de overgang naar de nieuwe identificatiecodes zorgvuldig te laten uitvoeren.
 
@@ -161,7 +164,7 @@ Elk object in de registratie wordt voorzien van een unieke identificatiecode. De
 
 Ontwerpprincipe:
 
-Van elk object in de SOR is helder wat de typering is van het betreffende object.
+**Van elk object in de SOR is helder wat de typering is van het betreffende object.**
 
 Elk object in de registratie zal altijd moeten worden gekarakteriseerd als een bepaald type object. In het informatiemodel zal daarom moeten worden geborgd dat deze typering is vast te stellen. Dat kan in de verdere uitwerking op twee manieren worden vormgegeven. De eerste manier is via de objecttypenaam. Uit de definitie van het betreffende objecttype volgt dan expliciet wat voor soort object het betreft. Een voorbeeld hiervan zou een objecttype “abri” zijn. Wat voor soort object het betreft kan ook worden vastgelegd door het registreren van een typering als eigenschap van het objecttype. In hetzelfde voorbeeld zou “abri” dan een van de typeringen kunnen zijn die kan worden toegekend aan een objecttype “straatmeubilair”. Op welke wijze typeringen worden opgenomen is afhankelijk van de keuzen die worden gemaakt rondom bepaalde groepen van objecten.
 
@@ -169,7 +172,7 @@ Elk object in de registratie zal altijd moeten worden gekarakteriseerd als een b
 
 Ontwerpprincipe:
 
-Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie conform hetgeen daarover voor het betreffende objecttype is bepaald, waarbij de vastlegging hiervan zodanig wordt vormgegeven dat de driedimensionale (3D) beschrijving van een object kan worden opgenomen.
+**Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie conform hetgeen daarover voor het betreffende objecttype is bepaald, waarbij de vastlegging hiervan zodanig wordt vormgegeven dat de driedimensionale (3D) beschrijving van een object kan worden opgenomen.**
 
 Opname van geometrie van alle objecten in de registratie is van essentieel belang voor het goed kunnen functioneren van een geo-basisregistratie. Met geometrie wordt daarbij expliciet bedoeld een geo-gerefereerde vastlegging van de begrenzing van een object.  Met geo-gerefereerde vastlegging wordt bedoeld dat de geometrie is beschreven in de vorm van coördinaten die onderdeel uitmaken van een referentie coördinatenstelsel (zoals het RD stelsel of ETRS89). De registratie wordt daarbij direct voorbereid op 3D vastlegging van objecten.
 
@@ -180,7 +183,9 @@ Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geome
 
 #### Metagegevens
 
-Van elk object in de SOR wordt meta-informatie opgenomen conform hetgeen daarover voor het betreffende objecttype is bepaald.
+ontwerpprincipe:
+
+**Van elk object in de SOR wordt meta-informatie opgenomen conform hetgeen daarover voor het betreffende objecttype is bepaald.**
 
 Bij meta-informatie gaat het onder meer over informatie over de kwaliteit, ontstaansmoment en versie van het object. Voor het vastleggen van meta-informatie zullen nog nadere afspraken moeten worden ontwikkeld, waarbij het uitgangspunt is dat zoveel mogelijk wordt aangesloten op hiervoor bestaande standaarden. Deze zullen worden toegespitst op de verschillende soorten objecttypen. In de huidige basisregistraties wordt aan dit aspect op verschillende wijzen invulling gegeven. In de BAG wordt gewerkt met verwijzingen naar brondocumenten, in de BGT wordt hieraan op dit moment invulling gegeven met de opname van plaatsbepalingspunten en in de WOZ wordt hiervoor specifieke kwaliteitsinformatie aan de registratie toegevoegd.
 
@@ -190,7 +195,7 @@ Bij meta-informatie gaat het onder meer over informatie over de kwaliteit, ontst
 
 Ontwerpprincipe:
 
-In de SOR kunnen van bepaalde objecttypen aanvullende eigenschappen worden vastgelegd, als deze van belang zijn voor meerdere gebruikers vanuit verschillende gebruikersdomeinen.
+**In de SOR kunnen van bepaalde objecttypen aanvullende eigenschappen worden vastgelegd, als deze van belang zijn voor meerdere gebruikers vanuit verschillende gebruikersdomeinen.**
 
 De samenhangende objectenregistratie heeft primair het karakter van een basisregistratie. Dat betekent dat in de registratie van objecttypen alleen eigenschappen worden vastgelegd die in verschillende overheidsdomeinen worden gebruikt. Hierbij kunnen er tussen verschillende objecttypen grote verschillen bestaan tussen het aantal eigenschappen dat dit betreft. Bij het objecttype ‘pand’ worden bijvoorbeeld aanzienlijk meer eigenschappen vastgelegd dan bij een objecttype ‘tunneldeel’.
 
