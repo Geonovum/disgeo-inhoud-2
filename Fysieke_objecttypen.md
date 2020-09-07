@@ -1796,17 +1796,17 @@ ontwerpprincipe:
 
 
 
-#### Deksel
+#### Putdeksel
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Deksel  |
+| SOR-begrip   | Putdeksel  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | Deksel  |
+| Naam  | Putdeksel  |
 |---|---|
 | Definitie | Het afsluitende deel van een gegraven, koker of lijnvormige constructie waarin zich (vloei)stoffen kunnen bevinden. |
 |Herkomst definitie  |     |
@@ -1818,8 +1818,8 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van deksel |Ja |
-|Geometrie|De geometrische representatie van de ligging van het deksel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt, lijn, vlak)|
+|Identificatie   |De unieke aanduiding van putdeksel |Ja |
+|Geometrie|De geometrische representatie van de ligging van de putdeksel.  |Ja (punt, lijn, vlak)|
 |Status   |   |Ja   |
 |Type deksel|aanduiding soort deksel |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
