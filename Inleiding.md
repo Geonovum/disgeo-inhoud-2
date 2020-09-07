@@ -22,11 +22,62 @@ De scope van de samenhangende objectenregistratie is in eerste instantie beperkt
 
 Deze afbakening van de scope is een afgeleide van de wens om tot een helder en beheersbaar transitietraject te komen. Het ook opnemen van ondergrondse objecten in de SOR, zoals leidingnetwerken of de verschillende objecttypen die thans worden opgenomen in de Basisregistratie Ondergrond (BRO), zou op dit moment leiden tot een aanzienlijk hogere complexiteit. Dit neemt niet weg dat opname van ondergrondse objecten in de toekomst niet wordt uitgesloten. Het model van de registratie is zodanig opgezet dat op termijn ook ondergrondse objecten in de registratie kunnen worden opgenomen. Deze opname zou in de loop van de tijd ook gefaseerd kunnen plaatsvinden.
 
+
+
+Ondergrondse delen
+
+ontwerpprincipe: *In de huidige scope van de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten en die voor een mens toegankelijk zijn.*
+
+Waar komen we ondergrondse delen tegen?
+- Gebouw
+- Netwerk; Spoor (trein, metro, tram), weg, water
+- Tunneldeel
+- Kunstwerk (met ondergrondse ruimten)
+- Kunstwerk; duiker
+- Bak; Afval apart plaats
+
+Wat beschouwen we niet als ondergrondse delen voor de SOR:
+- Put(deksel) niet ondergronds
+- Ondergrondse objecten die al in een andere registratie zijn opgenomen, zoals kabels en leidingen, niet gesprongen explosieven, archeologische vindplaatsen, ed.
+- Oude funderingen, wrakken, et cetera, die achter zijn gebleven in de grond, zijn geen onderdeel van SOR, hebben namelijk geen link met bovengronds objecttype uit de SOR en zijn ook niet bedoeld als onderdeel van infarstructurele voorzieningen.
+- Wegfundering is wel ondergronds maar is niet toegankelijk. Hiervan worden sectoraal gegevens vastgelegd. 
+
+
+Aandachtspunten:
+- In de SOR komen ondergrondse delen vooral voor bij gebouwen en bij kunstwerken.
+- Parkeergarages en metrostations zijn ondergrondse gebouwen.
+- Metrobuizen zijn een soort tunnels.
+- Afval apart plaats (=ondergrondse afval container) is een object dat bovengronds toegankelijk is
+
+
+
 **3.	In de SOR worden uitsluitend objecten opgenomen die gelegen zijn op het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren.**
 
 Dit uitgangspunt is met name van belang voor het bepalen wat onder grondgebiedsdekkend moet worden verstaan bij de verdere uitwerking van de registratie. Op dit moment wordt daarbij de lijn gevolgd, zoals deze ook wordt gevolgd in het kader van de BAG en de BGT. Deze beperken zich tot het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren. Een uitzondering hierop betreft de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog). Ook objecten in deze exclaves worden in de samenhangende objectenregistratie opgenomen.
 
 Een nog nader te onderzoeken vraagpunt is in hoeverre het wenselijk dan wel noodzakelijk is om de territoriale wateren daarbij uit te breiden tot het continentaal plat. Een andere nog nader te onderzoeken vraagpunt is hoe omgegaan moet worden met de het grondgebied van de bijzondere Nederlandse gemeenten (BES-eilanden) en met het grondgebied van de andere Antillen die tot het Koninkrijk der Nederlanden behoren.
+
+
+
+
+
+Grondgebied NL
+
+In de samenhangende objectenregistratie worden die objecten opgenomen die zich bevinden binnen het grondgebied van Nederland. In de volgende ontwerpprincipes is dit nader aangeduid:
+
+Ontwerpprincipe : *De samenhangende objectenregistratie registreert in navolging van de BAG en de BGT de objecten die gelegen zijn op het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren*
+
+Ontwerpprincipe :  *De samenhangende objectenregistratie wordt uitgebreid met het continentaal plat, zodat objecten in dat gebied ook kunnen worden geregistreerd, zoals windmolens*
+
+De begrenzingen van het continentaal  plat worden meegenomen bij de registratieve objecttypen.
+
+
+Ontwerpprincipe : *De samenhangende objectenregistratie kan op termijn mogelijk worden uitgebreid met overzeese gebiedsdelen van het koninkrijk.* 
+Het informatiemodel moet daar op zijn voorbereid.
+
+
+Ontwerpprincipe : *Objecten in de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog) worden in de samenhangende objectenregistratie opgenomen. De bijhouding daarvan is niet verplicht maar vrijwillig.*
+
 
 **4.	Bestaande objecttypen en de daarbij behorende eigenschappen vanuit de BAG en de BGT, enkele bestaande eigenschappen van objecttypen die raken aan bebouwing vanuit de WOZ en objecttypen en de daarbij behorende eigenschappen vanuit de BRT die (in de toekomst) nodig blijven voor het maken van een vernieuwd BRT kaartproduct, worden (eventueel in andere vorm) overgenomen in de SOR, tenzij er expliciete redenen aanwezig zijn om dat niet te doen.**
 
@@ -35,7 +86,8 @@ De bestaande objecttypen uit de BAG en BGT keren in principe terug in de objecte
 Ook de verschillende aan deze objecttypen verbonden eigenschappen worden in principe opgenomen in de SOR. Dat geldt ook voor een aantal eigenschappen van objecttypen die behoren tot het informatiemodel van de WOZ. Deze eigenschappen kunnen door wijzigingen in het gebouwgedeelte van het informatiemodel van de SOR naar verwachting aan objecttypen in de SOR worden gerelateerd. Voor alle eigenschappen geldt dat hetgeen in de bestaande registraties als eigenschap is opgenomen, in de SOR als een objecttype (met een andere benaming) kan worden opgenomen. Eigenschappen worden dan inhoudelijk dus wel overgenomen, maar keren in de SOR terug in een andere vorm (zoals een objecttype) en is dus als zodanig geen eigenschap meer.
 
 
-### Waarop is de specificatie gebaseerd? 
+
+
 
 
 
