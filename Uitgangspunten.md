@@ -13,8 +13,7 @@ In dit hoofdstuk is een samenhangende beschrijving opgenomen van zowel de eerder
 #### Standaardisatie
 
 Ontwerpprincipe:
-
-In de SOR zijn uitsluitend gestandaardiseerde objecttypen en eigenschappen opgenomen.
+**In de SOR zijn uitsluitend gestandaardiseerde objecttypen en eigenschappen opgenomen.**
 
 De inhoud van de objectenregistratie is volledig beschreven in de vorm van een standaard. In de registratie komen dus geen objecttypen voor die niet voldoen aan deze standaard. Ook worden in de objectenregistratie uitsluitend gestandaardiseerde eigenschappen van deze objecttypen opgenomen.
 
@@ -23,8 +22,7 @@ Onderdeel van deze standaardisatie is dat van de verschillende objecttypen en ei
 #### Definiëring
 
 ontwerpprincipe:
-
-Definities van zowel objecttypen als eigenschappen van objecttypen zijn scherp afgebakend, niet multi-interpretabel en sluiten waar mogelijk aan op bestaande definities.
+**Definities van zowel objecttypen als eigenschappen van objecttypen zijn scherp afgebakend, niet multi-interpretabel en sluiten waar mogelijk aan op bestaande definities.**
 
 Het is van groot belang dat de basis van een informatiemodel voor een samenhangende objectenregistratie wordt gevormd door een aantal onderling goed afgestemde en heldere definities. In de bestaande basisregistraties is daarvan momenteel niet altijd sprake. Hierdoor wordt de onderlinge koppelbaarheid van gegevens beperkt en laat de uniformiteit van de opgenomen gegevens (door interpretatieverschillen of in de definities opgenomen vrijheidsgraden) nogal eens te wensen over. Bij de verdere uitwerking van de inhoud van een samenhangende objectenregistratie worden bestaande definities daarom zodanig uitgebreid en geharmoniseerd dat: 
 - een scherp afgebakende en duidelijke definitie van objecttypen en eigenschappen ontstaat;
