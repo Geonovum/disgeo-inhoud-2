@@ -421,91 +421,7 @@ ontwerpprincipe:
 
 ### Functionele zonering GRIJS
 
-#### Verkeerseiland
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Verkeerseiland |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
-
-**Definitie**
-
-| Naam  | Verkeerseiland  |
-|---|---|
-| Definitie | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.  |
-|Herkomst definitie  | IMBOR2020-1 |
-|Verplicht  | Ja  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een verkeerseiland  |Ja |
-|Geometrie |De geometrische representatie van een verkeerseiland  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende verkeerseiland zich bevindt   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een verkeerseiland dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een verkeerseiland dat is gerealiseerd|
-|Beëindigd|	Een verkeerseiland dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland verkeerseiland dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Verkeerseiland is ten onrechte opgevoerd in de registratie|
-
-
-#### Berm
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Berm |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-<div class='note'>
-    definitie afstemmen tussen werkgroep GRIJS en GROEN
-</div>
-
-
-**Definitie**
-
-| Naam  | Berm |
-|---|---|
-| Definitie | Een strook grond langs een weg of spoorweg. |
-|Herkomst definitie  | BGT 1.1.1. |
-|Verplicht  | Ja  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een berm  |Ja |
-|Geometrie |De geometrische representatie van een berm  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende berm zich bevindt   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een berm dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een berm dat is gerealiseerd|
-|Beëindigd|	Een berm dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland berm dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Berm is ten onrechte opgevoerd in de registratie|
-
+#### VERKEER
 
 
 #### Voetgangersgebied
@@ -677,8 +593,7 @@ ontwerpprincipe:
 |Ten onrechte|	Carpoolplaats is ten onrechte opgevoerd in de registratie|
 
 
-#### laadplein
-| Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben.|
+
 
 #### Transferium
 | Klasse  | Naam  |
@@ -771,6 +686,29 @@ ontwerpprincipe:
 |Ten onrechte|	Verzorgingsplaats is ten onrechte opgevoerd in de registratie|
 
 
+
+
+#### OV-baan
+| OV-baan | Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet 
+uitsluitend door markering.|verplicht|
+
+#### parkeerplaats
+| parkeerplaats |Parkeergelegenheid voor meerdere voertuigen in de openlucht.|verplicht|
+*alleen opnemen als dit door BRT.next wordt aangegeven*
+#### benzinestation
+| benzinestation | Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.
+|optioneel|
+#### snellaadstation
+| Snellaadstation | Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd.|optioneel|
+
+
+#### zone
+| Zone | Verkeerskundige afbakening van een gebied.|optioneel|
+
+
+
+#### SPOOR
+
 #### Perron
 | Klasse  | Naam  |
 |---|---|
@@ -811,6 +749,163 @@ ontwerpprincipe:
 |Niet gerealiseerd|	Een gepland perron dat niet als zodanig is gerealiseerd|
 |Ten onrechte|	Perron is ten onrechte opgevoerd in de registratie|
 
+
+
+
+#### overweg
+| overweg | Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. |verplicht|
+
+#### spoorbaan
+| spoorbaan | Gebaand gedeelte voor het verkeer over rails. |verplicht|
+
+#### emplacement
+| emplacement	 | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen.|verplicht|
+*alleen opnemen als dit door BRT.next wordt aangegeven*
+
+
+#### WEGINRICHTING
+
+#### Verkeerseiland
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Verkeerseiland |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+**Definitie**
+
+| Naam  | Verkeerseiland  |
+|---|---|
+| Definitie | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.  |
+|Herkomst definitie  | IMBOR2020-1 |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een verkeerseiland  |Ja |
+|Geometrie |De geometrische representatie van een verkeerseiland  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende verkeerseiland zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een verkeerseiland dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een verkeerseiland dat is gerealiseerd|
+|Beëindigd|	Een verkeerseiland dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland verkeerseiland dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Verkeerseiland is ten onrechte opgevoerd in de registratie|
+
+
+#### Berm
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Berm |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+<div class='note'>
+    definitie afstemmen tussen werkgroep GRIJS en GROEN
+</div>
+
+
+**Definitie**
+
+| Naam  | Berm |
+|---|---|
+| Definitie | Een strook grond langs een weg of spoorweg. |
+|Herkomst definitie  | BGT 1.1.1. |
+|Verplicht  | Ja  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een berm  |Ja |
+|Geometrie |De geometrische representatie van een berm  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende berm zich bevindt   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een berm dat zich in de ontwerpfase bevindt |
+|Gevormd|	Een berm dat is gerealiseerd|
+|Beëindigd|	Een berm dat als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een gepland berm dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Berm is ten onrechte opgevoerd in de registratie|
+
+#### halteplaats
+| Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer.| optioneel|
+
+#### laadplein
+| Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben.|
+
+#### verkeersdrempel
+| Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| verplicht|
+
+#### molgoot
+| molgoot | Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |optioneel|
+
+#### Wildrooster
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Wildrooster |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+<div class='note'>
+    Wildrooster of Rooster. Rooster is algemener. Rooster kan dan ook een fysiek verhardingstype zijn.
+</div>
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Wildrooster  |
+|---|---|
+| Definitie |   |
+|Herkomst definitie  |     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening||
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip wildrooster|Ja |
+|Geometrie||nee (vlak)|
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|||
+
+#### LUCHTVAART
 
 #### Baan voor vliegverkeer
 | Klasse  | Naam  |
@@ -898,84 +993,7 @@ ontwerpprincipe:
 |Ten onrechte|	Luchthaven is ten onrechte opgevoerd in de registratie|
 
 
-#### overweg
-| overweg | Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. |verplicht|
 
-#### spoorbaan
-| spoorbaan | Gebaand gedeelte voor het verkeer over rails. |verplicht|
-
-#### emplacement
-| emplacement	 | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen.|verplicht|
-*alleen opnemen als dit door BRT.next wordt aangegeven*
-#### OV-baan
-| OV-baan | Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet 
-uitsluitend door markering.|verplicht|
-
-#### parkeerplaats
-| parkeerplaats |Parkeergelegenheid voor meerdere voertuigen in de openlucht.|verplicht|
-*alleen opnemen als dit door BRT.next wordt aangegeven*
-#### benzinestation
-| benzinestation | Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.
-|optioneel|
-#### snellaadstation
-| Snellaadstation | Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd.|optioneel|
-
-#### halteplaats
-| Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer.| optioneel|
-
-#### zone
-| Zone | Verkeerskundige afbakening van een gebied.|optioneel|
-
-#### verkeersdrempel
-| Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| verplicht|
-
-#### molgoot
-| molgoot | Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |optioneel|
-
-#### Wildrooster
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Wildrooster |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
-
-<div class='note'>
-    Wildrooster of Rooster. Rooster is algemener. Rooster kan dan ook een fysiek verhardingstype zijn.
-</div>
-
-
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Wildrooster  |
-|---|---|
-| Definitie |   |
-|Herkomst definitie  |     |
-|Verplicht  | Ja  |
-|Gevolgen afbakening||
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip wildrooster|Ja |
-|Geometrie||nee (vlak)|
-|Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
 
 
