@@ -1578,7 +1578,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip muur|Ja |
+|Identificatie   |De unieke aanduiding van muur|Ja |
 |Geometrie|De geometrische representatie van een muur. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn) Nee (vlak)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
@@ -1624,7 +1624,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip hek|Ja |
+|Identificatie   |De unieke aanduiding van hek|Ja |
 |Geometrie|De geometrische representatie van een hek. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
@@ -1670,7 +1670,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip raster|Ja |
+|Identificatie   |De unieke aanduiding van raster|Ja |
 |Geometrie|De geometrische representatie van een raster. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
@@ -1716,7 +1716,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip scherm|Ja |
+|Identificatie   |De unieke aanduiding van scherm|Ja |
 |Geometrie|De geometrische representatie van een scherm.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn)|
 |Afbakening   |  | |
 |Status   |   |Ja   |
@@ -1762,7 +1762,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip bak |Ja |
+|Identificatie   |De unieke aanduiding van bak |Ja |
 |Geometrie|De geometrische representatie van de locatie van bak. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
 |Status   |   |Ja   |
 |Type bak|Aanduiding soort bak|Nee|
@@ -1818,7 +1818,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip deksel |Ja |
+|Identificatie   |De unieke aanduiding van deksel |Ja |
 |Geometrie|De geometrische representatie van de ligging van het deksel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt, lijn, vlak)|
 |Status   |   |Ja   |
 |Type deksel|aanduiding soort deksel |Ja|
@@ -1878,7 +1878,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip depot |Ja |
+|Identificatie   |De unieke aanduiding van depot |Ja |
 |Geometrie|De geometrische representatie van de locatie van depot. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
 |Status   |   |Ja   |
 |Type bak|Aanduiding soort depot|Nee|
@@ -1930,7 +1930,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip geleider |Ja |
+|Identificatie   |De unieke aanduiding van geleider |Ja |
 |Geometrie|De geometrische representatie van de ligging van de geleider. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (lijn, vlak)|
 |Status   |   |Ja   |
 |Type geleider|aanduiding soort geleider|Nee|
@@ -2038,7 +2038,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip mast |Ja |
+|Identificatie   |De unieke aanduiding van mast |Ja |
 |Geometrie|De geometrische representatie van de ligging van de mast of van de randen van de mast. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt, lijn, vlak)|
 |Status   |   |Ja   |
 |Type installatie|aanduiding soort mast |Ja|
@@ -2096,7 +2096,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip straatmeubilair |Ja |
+|Identificatie   |De unieke aanduiding van straatmeubilair |Ja |
 |Geometrie|De geometrische representatie van de locatie van het straatmeubilair. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
 |Status   |   |Ja   |
 |Type installatie|aanduiding soort straatmeubilair |Nee|
@@ -2166,7 +2166,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip sensor |Ja |
+|Identificatie   |De unieke aanduiding van sensor |Ja |
 |Geometrie|De geometrische representatie van de sensor. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
 |Status   |   |Ja   |
 |Type sensor|aanduiding soort sensor|Nee|
@@ -2218,7 +2218,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip paal |Ja |
+|Identificatie   |De unieke aanduiding van paal |Ja |
 |Geometrie|De geometrische representatie van een paal. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
 |Status   |   |Ja   |
 |Type paal|aanduiding soort paal|Nee|
@@ -2303,7 +2303,7 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kast |Ja |
+|Identificatie   |De unieke aanduiding van kast |Ja |
 |Geometrie|De geometrische representatie van een kast. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
 |Status   |   |Ja   |
 |Type kast|aanduiding soort kast|Nee|
@@ -2407,8 +2407,8 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip onbepaald terreindeel |Ja |
-|Geometrie|De geometrische representatie van een onbepaald terreindeel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (vlak)|
+|Identificatie   |De unieke aanduiding van onbepaald terreindeel |Ja |
+|Geometrie|De geometrische representatie van de randen van een onbepaald terreindeel.  |Ja (vlak)|
 |Status   |   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
