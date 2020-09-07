@@ -155,7 +155,7 @@ ontwerpprincipe: de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht i
 |volume||
 
 
-### Topologie
+#### Topologie
 
 Opdelende objecttypen en referentielaag (100%)
 
@@ -186,7 +186,7 @@ ontwerpprincipe: *In geval van nadere benoemde registratieve objecttypen is er s
 - Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
 
 
-
+### Netwerken
 
 
 
