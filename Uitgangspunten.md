@@ -2,7 +2,7 @@
 
 ### Inleiding
 
-In de beleidsvisie (schetsontwerp) zijn een groot aantal uitgangspunten opgenomen voor de verdere uitwerking van een samenhangende objectenregistratie. Alle uitgangspunten uit de beleidsvisie blijven onverminderd van toepassing. Een deel van deze uitgangspunten is min of meer direct toepasbaar bij de verdere uitwerking van de inhoud van de samenhangende objectenregistratie. Een ander gedeelte is in het kader van de ontwikkeling van een conceptueel denkkader (hoofdlijnenrapport) verder uitgewerkt. 
+In de beleidsvisie (schetsontwerp) zijn een groot aantal uitgangspunten opgenomen voor de verdere uitwerking van een samenhangende objectenregistratie. Alle uitgangspunten uit de beleidsvisie blijven onverminderd van toepassing. Een deel van deze uitgangspunten is min of meer direct toepasbaar bij de verdere uitwerking van de inhoud van de samenhangende objectenregistratie. Een ander gedeelte is in het kader van de ontwikkeling van een conceptueel denkkader (hoofdlijnenrapport - https://docs.geostandaarden.nl/disgeo/hiso/ )verder uitgewerkt. 
 
 In dit hoofdstuk is een samenhangende beschrijving opgenomen van zowel de eerdere uitgangspunten als van de verdere concretisering van enkele daarvan. Een aantal van deze uitgangspunten worden in het conceptueel model verder uitgewerkt. De uitgangspunten zijn niet alleen gehanteerd bij de verdere uitwerking van dit conceptueel model, maar worden ook in de volgende fase van het uitwerken van een informatiemodel toegepast. De uitgangspunten hebben in principe geen betrekking op andere registraties dan de objectenregistratie. Het gesprek daarover vindt plaats aan andere tafels. Alle uitgangspunten hebben betrekking op de uiteindelijke situatie.
 
