@@ -32,6 +32,55 @@ Het is van groot belang dat de basis van een informatiemodel voor een samenhange
 - er niet langer gebruik wordt gemaakt van verzamelclassificaties;
 - een optimale aansluiting op overkoepelende modellen en sectorale modellen wordt gerealiseerd, zoals NEN 3610 (Basismodel Geo-informatie) en NEN 2660 (Ordeningsregels voor gegevens in de bouw - Termen, definities en algemene regels)
 
+
+
+
+
+
+Regels voor opzet en definities
+
+We toetsen de opzet en definities aan een aantal regels om te bepalen hoe goed de opzet/een definitie is. Hoe meer aan deze regels wordt voldaan, hoe groter de kans dat de definities bruikbaar zijn om mede daarmee een  een samenhangend informatiemodel creëren. 
+
+Het lukt niet altijd een definitie aan alle regels te laten voldoen. Dat heeft veelal te maken met de leesbaarheid van de definitie. Een definitie kan te abstract worden of grammaticaal te ingewikkeld worden voor een lezer om te begrijpen wat er bedoeld wordt. Daarom zijn de regels voor definities slechts indicatief bedoeld. Het zijn hulpmiddelen om te komen tot een goede definitie, maar er kan bewust van worden afgeweken. Probeer dat wel zo min mogelijk te doen. 
+
+Regels ten aanzien van opzet
+
+We werken met concepten. Dit zijn objecttypen, eigenschappen en relaties. Bij inhoudelijke inrichting volgen we het mechanisme van de internationale standaarden. (bouw standaarden met standaarden. Bv DublinCore, SKOS, W3C) 
+
+De objecttypen hebben onderlinge relaties. Die relaties worden expliciet benoemd. De meest relevante/voorkomende relatietypen m.b.t. de SOR zijn: 
+
+- Taxonomie: De specialisatie of nadere typering van algemenere objecttypen. Bijvoorbeeld een eik is een type boom, wordt ook wel subtypering genoemd. 
+
+- Compositie: Objecten bestaan uit onderdelen, welke op hun beurt ook objecten zijn. Bijvoorbeeld, een tak is een onderdeel van een boom. 
+
+Er is strikt onderscheid tussen fysieke objecten en functionele, registratieve, geografische objecttypen. Fysieke objecten zijn in de werkelijkheid zichtbare en tastbare objecten. De andere typen zijn virtuele, thematische objecten. Bijvoorbeeld, een gemeentegrens bestaat alleen op de kaart of in een registratie. Het bord dat in de werkelijkheid de grens markeert is een fysiek object. 
+
+Regels ten aanzien van definities
+
+Een definitie: 
+
+-	beschrijft één begrip
+
+-	overlapt inhoudelijk niet andere definities (met uitzondering wanneer het ene objecttype een subtype is van het andere) 
+
+-	voegt een onderscheidend kenmerk toe t.o.v. het algemenere supertype, wat bepalend is voor de nadere (sub-)typering. (Een beweegbare brug (subtype) is een brug (supertype) die open kan worden gezet (het onderscheidende kenmerk)) 
+
+-	is gebaseerd op de betekenis van een objecttype en niet op zijn afbakening of geometrische weergave. (een oever wordt niet bepaald door zijn breedte of talud of topologische weergave in een kaart, maar door zijn functie bijv. m.b.t. waterbeheersing) 
+
+-	is gebaseerd op de betekenis van een object en niet op opname eisen (er kan besloten worden om een object o.b.v. zijn omvang wel of niet in te winnen, maar dat is geen onderdeel van de definitie) 
+
+-	is specifiek en bevat derhalve geen indicatieve termen als “vaak”, “veelal, “in principe”, “zoals” etc. 
+
+-	bij fysieke objecten beschrijft het totstandkomingsproces, de samenstelling en bij gemaakte objecten het (gebruiks-)doel 
+
+-	van fysieke objecttypen bevat geen delen die te maken heeft met functionele, registratieve, geografische aspecten 
+
+-	van fysieke objecten bevat geen voorbeelden (van voorkomens, materialen, samenstelling etc.) 
+
+-	van functionele, registratieve, geografische objecttypen bevat geen delen die te maken hebben met aspecten van fysieke objecten
+
+
+
 ### Flexibiliteit
 
 Ontwerpprincipe:
@@ -147,87 +196,5 @@ De samenhangende objectenregistratie heeft primair het karakter van een basisreg
 
 
 
-### Grondgebied NL
-
-In de samenhangende objectenregistratie worden die objecten opgenomen die zich bevinden binnen het grondgebied van Nederland. In de volgende ontwerpprincipes is dit nader aangeduid:
-
-Ontwerpprincipe : *De samenhangende objectenregistratie registreert in navolging van de BAG en de BGT de objecten die gelegen zijn op het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren*
-
-Ontwerpprincipe :  *De samenhangende objectenregistratie wordt uitgebreid met het continentaal plat, zodat objecten in dat gebied ook kunnen worden geregistreerd, zoals windmolens*
-
-De begrenzingen van het continentaal  plat worden meegenomen bij de registratieve objecttypen.
 
 
-Ontwerpprincipe : *De samenhangende objectenregistratie kan op termijn mogelijk worden uitgebreid met overzeese gebiedsdelen van het koninkrijk.* 
-Het informatiemodel moet daar op zijn voorbereid.
-
-
-Ontwerpprincipe : *Objecten in de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog) worden in de samenhangende objectenregistratie opgenomen. De bijhouding daarvan is niet verplicht maar vrijwillig.*
-
-
-### Ondergrondse delen
-
-ontwerpprincipe: *In de huidige scope van de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten en die voor een mens toegankelijk zijn.*
-
-Waar komen we ondergrondse delen tegen?
-- Gebouw
-- Netwerk; Spoor (trein, metro, tram), weg, water
-- Tunneldeel
-- Kunstwerk (met ondergrondse ruimten)
-- Kunstwerk; duiker
-- Bak; Afval apart plaats
-
-Wat beschouwen we niet als ondergrondse delen voor de SOR:
-- Put(deksel) niet ondergronds
-- Ondergrondse objecten die al in een andere registratie zijn opgenomen, zoals kabels en leidingen, niet gesprongen explosieven, archeologische vindplaatsen, ed.
-- Oude funderingen, wrakken, et cetera, die achter zijn gebleven in de grond, zijn geen onderdeel van SOR, hebben namelijk geen link met bovengronds objecttype uit de SOR en zijn ook niet bedoeld als onderdeel van infarstructurele voorzieningen.
-- Wegfundering is wel ondergronds maar is niet toegankelijk. Hiervan worden sectoraal gegevens vastgelegd. 
-
-
-Aandachtspunten:
-- In de SOR komen ondergrondse delen vooral voor bij gebouwen en bij kunstwerken.
-- Parkeergarages en metrostations zijn ondergrondse gebouwen.
-- Metrobuizen zijn een soort tunnels.
-- Afval apart plaats (=ondergrondse afval container) is een object dat bovengronds toegankelijk is
-
-### Regels voor opzet en definities
-
-We toetsen de opzet en definities aan een aantal regels om te bepalen hoe goed de opzet/een definitie is. Hoe meer aan deze regels wordt voldaan, hoe groter de kans dat de definities bruikbaar zijn om mede daarmee een  een samenhangend informatiemodel creëren. 
-
-Het lukt niet altijd een definitie aan alle regels te laten voldoen. Dat heeft veelal te maken met de leesbaarheid van de definitie. Een definitie kan te abstract worden of grammaticaal te ingewikkeld worden voor een lezer om te begrijpen wat er bedoeld wordt. Daarom zijn de regels voor definities slechts indicatief bedoeld. Het zijn hulpmiddelen om te komen tot een goede definitie, maar er kan bewust van worden afgeweken. Probeer dat wel zo min mogelijk te doen. 
-
-#### Regels ten aanzien van opzet
-
-We werken met concepten. Dit zijn objecttypen, eigenschappen en relaties. Bij inhoudelijke inrichting volgen we het mechanisme van de internationale standaarden. (bouw standaarden met standaarden. Bv DublinCore, SKOS, W3C) 
-
-De objecttypen hebben onderlinge relaties. Die relaties worden expliciet benoemd. De meest relevante/voorkomende relatietypen m.b.t. de SOR zijn: 
-
-- Taxonomie: De specialisatie of nadere typering van algemenere objecttypen. Bijvoorbeeld een eik is een type boom, wordt ook wel subtypering genoemd. 
-
-- Compositie: Objecten bestaan uit onderdelen, welke op hun beurt ook objecten zijn. Bijvoorbeeld, een tak is een onderdeel van een boom. 
-
-Er is strikt onderscheid tussen fysieke objecten en functionele, registratieve, geografische objecttypen. Fysieke objecten zijn in de werkelijkheid zichtbare en tastbare objecten. De andere typen zijn virtuele, thematische objecten. Bijvoorbeeld, een gemeentegrens bestaat alleen op de kaart of in een registratie. Het bord dat in de werkelijkheid de grens markeert is een fysiek object. 
-
-#### Regels ten aanzien van definities
-
-Een definitie: 
-
--	beschrijft één begrip
-
--	overlapt inhoudelijk niet andere definities (met uitzondering wanneer het ene objecttype een subtype is van het andere) 
-
--	voegt een onderscheidend kenmerk toe t.o.v. het algemenere supertype, wat bepalend is voor de nadere (sub-)typering. (Een beweegbare brug (subtype) is een brug (supertype) die open kan worden gezet (het onderscheidende kenmerk)) 
-
--	is gebaseerd op de betekenis van een objecttype en niet op zijn afbakening of geometrische weergave. (een oever wordt niet bepaald door zijn breedte of talud of topologische weergave in een kaart, maar door zijn functie bijv. m.b.t. waterbeheersing) 
-
--	is gebaseerd op de betekenis van een object en niet op opname eisen (er kan besloten worden om een object o.b.v. zijn omvang wel of niet in te winnen, maar dat is geen onderdeel van de definitie) 
-
--	is specifiek en bevat derhalve geen indicatieve termen als “vaak”, “veelal, “in principe”, “zoals” etc. 
-
--	bij fysieke objecten beschrijft het totstandkomingsproces, de samenstelling en bij gemaakte objecten het (gebruiks-)doel 
-
--	van fysieke objecttypen bevat geen delen die te maken heeft met functionele, registratieve, geografische aspecten 
-
--	van fysieke objecten bevat geen voorbeelden (van voorkomens, materialen, samenstelling etc.) 
-
--	van functionele, registratieve, geografische objecttypen bevat geen delen die te maken hebben met aspecten van fysieke objecten
