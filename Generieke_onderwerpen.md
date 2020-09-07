@@ -153,6 +153,9 @@ ontwerpprincipe: de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht i
 |lijn ||
 |vlak ||
 |volume||
+|1.5D| punt met Z-coördinaat|
+|2.5D| vlak met Z-coördinaat|
+|3D| volume met Z-coördinaat|
 
 
 #### Topologie
