@@ -2358,9 +2358,9 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een bunker |Ja |
+|Identificatie   |De unieke aanduiding van een bunker. |Ja |
 |Geometrie|De geometrische representatie van een bunker. |Ja (vlak)|
-|Status   |   |Ja   |
+|Status   | De fase van de levenscyclus waarin de betreffende bunker zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -2373,11 +2373,11 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+|Gepland|	Een bunker die zich in de ontwerpfase bevindt.|
+|Bestaand|	Een bunker die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Een bunker die feitelijk is verwijderd.|
+|Niet gerealiseerd|	Een geplande bunker die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een bunker die ten onrechte is opgevoerd in de registratie.|
 
 
 
