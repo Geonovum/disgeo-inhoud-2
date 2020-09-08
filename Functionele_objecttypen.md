@@ -445,8 +445,8 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een voetgangersgebied.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een voetgangersgebied.  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende voetgangersgebied zich bevindt.   |Ja (vlak)  |
+|Geometrie |De geometrische representatie van de randen van een voetgangersgebied.  |Ja (vlak)|
+|Status   |De fase van de levenscyclus waarin het betreffende voetgangersgebied zich bevindt.   |Ja  |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -487,7 +487,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een woonerf.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een woonerf.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een woonerf.  |Ja (vlak) |
 |Status   |De fase van de levenscyclus waarin het betreffende woonerf zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -568,7 +568,7 @@ ontwerpprincipe:
 | Definitie | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling. |
 |Herkomst definitie  | IMGeo 2.2|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *x* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *carpoolplaats* zoals deze is opgenomen in de basisregistratie grootschalige topografie gecombineerd met de bestaande populatie *carpoolplaats* zoals deze is opgenomen in de basisregistratie topografie. |
 |Toelichting|  |
 
 
@@ -613,6 +613,7 @@ ontwerpprincipe:
 | Definitie | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto. |
 |Herkomst definitie  | IMBOR 2020 |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *P+R parkeerplaats* zoals deze is opgenomen in de basisregistratie topografie.  |
 |Toelichting|  |
 
 
@@ -620,8 +621,8 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een transferium  |Ja |
-|Geometrie |De geometrische representatie van een transferium  |Ja (vlak) |
+|Identificatie   |De unieke aanduiding van een transferium.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een transferium. |Ja (vlak) |
 |Status   |De fase van de levenscyclus waarin het betreffende transferium zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -634,11 +635,11 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een transferium dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een transferium dat is gerealiseerd|
-|Beëindigd|	Een transferium dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland transferium dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Transferium is ten onrechte opgevoerd in de registratie|
+|Gepland|	Een transferium dat zich in de ontwerpfase bevindt. |
+|Gevormd|	Een transferium dat is gerealiseerd.|
+|Beëindigd|	Een transferium dat als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een gepland transferium dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een transferium dat ten onrechte is opgevoerd in de registratie.|
 
 
 
