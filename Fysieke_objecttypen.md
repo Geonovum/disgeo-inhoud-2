@@ -2359,7 +2359,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een bunker. |Ja |
-|Geometrie|De geometrische representatie van een bunker. |Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een bunker. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende bunker zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
