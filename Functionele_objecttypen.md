@@ -688,26 +688,212 @@ ontwerpprincipe:
 |Niet gerealiseerd|	Een geplande verzorgingsplaats die niet als zodanig is gerealiseerd.|
 |Ten onrechte|	Een verzorgingsplaats die ten onrechte is opgevoerd in de registratie.|
 
-
-
-
 #### OV-baan
-| OV-baan | Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen niet 
-uitsluitend door markering.|verplicht|
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | OV-baan |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
-#### parkeerplaats
-| parkeerplaats |Parkeergelegenheid voor meerdere voertuigen in de openlucht.|verplicht|
-*alleen opnemen als dit door BRT.next wordt aangegeven*
-#### benzinestation
-| benzinestation | Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.
-|optioneel|
-#### snellaadstation
-| Snellaadstation | Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd.|optioneel|
+**Definitie**
 
+| Naam  | OV-baan |
+|---|---|
+| Definitie |  Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen.|
+|Herkomst definitie  | Gebaseerd op de definitie OV-baan in de gegevenscatalogus BGT 1.1.1 |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *OV-baan* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een OV-baan.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een OV-baan.  |Ja (vlak)|
+|Status   |De fase van de levenscyclus waarin het betreffende OV-baan zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een OV-baan die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een OV-baan die is gerealiseerd.|
+|Beëindigd|	Een OV-baan die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande OV-baan die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een OV-baan die ten onrechte is opgevoerd in de registratie.|
+
+#### Parkeerplaats
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Parkeerplaats |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+<div class='note'>
+    alleen opnemen als dit door BRT.next wordt aangegeven / of gewenst is voor het wegennetwerk
+</div>
+
+**Definitie**
+
+| Naam  | Parkeerplaats |
+|---|---|
+| Definitie |  Parkeergelegenheid voor meerdere voertuigen in de openlucht.|
+|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)   |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Parkeerplaats* zoals deze is opgenomen in de basisregistratie topografie.  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Parkeerplaats.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een Parkeerplaats.  |Ja (vlak)|
+|Status   |De fase van de levenscyclus waarin het betreffende Parkeerplaats zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een Parkeerplaats die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een Parkeerplaats die is gerealiseerd.|
+|Beëindigd|	Een Parkeerplaats die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande Parkeerplaats die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een Parkeerplaats die ten onrechte is opgevoerd in de registratie.|
+
+#### Benzinestation
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Benzinestation |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Benzinestation |
+|---|---|
+| Definitie |  Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.|
+|Herkomst definitie  | IMGeo 2.2 |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *benzinestation* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een benzinestation.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een benzinestation.  |Ja (vlak)|
+|Status   |De fase van de levenscyclus waarin het betreffende benzinestation zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een benzinestation dat zich in de ontwerpfase bevindt. |
+|Gevormd|	Een benzinestation dat is gerealiseerd.|
+|Beëindigd|	Een benzinestation dat als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande benzinestation dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een benzinestation dat ten onrechte is opgevoerd in de registratie.|
+
+#### Snellaadstation
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Snellaadstation |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Snellaadstation |
+|---|---|
+| Definitie |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd. |
+|Herkomst definitie  | IMBOR 2020 |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier een nieuw objecttype.  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een snellaadstation.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een snellaadstation.  |Ja (vlak)|
+|Status   |De fase van de levenscyclus waarin het betreffende snellaadstation zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een snellaadstation dat zich in de ontwerpfase bevindt. |
+|Gevormd|	Een snellaadstation dat is gerealiseerd.|
+|Beëindigd|	Een snellaadstation dat als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een gepland snellaadstation dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een snellaadstation dat ten onrechte is opgevoerd in de registratie.|
 
 #### zone
-| Zone | Verkeerskundige afbakening van een gebied.|optioneel|
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Zone |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
+**Definitie**
+
+| Naam  | Zone |
+|---|---|
+| Definitie |  Verkeerskundige afbakening van een gebied. |
+|Herkomst definitie  | IMBOR 2020 |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier een nieuw objecttype. |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een zone.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een zone.  |Ja (vlak)|
+|Status   |De fase van de levenscyclus waarin het betreffende zone zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een zone die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een zone die is gerealiseerd.|
+|Beëindigd|	Een zone die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande zone die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een zone die ten onrechte is opgevoerd in de registratie.|
 
 
 #### SPOOR
