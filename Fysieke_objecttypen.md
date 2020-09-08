@@ -1235,7 +1235,7 @@ ontwerpprincipe:
 |Bestaand|	Verharding die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
 |Verwijderd|	Verharding die feitelijk is verwijderd.|
 |Niet gerealiseerd|	Geplande verharding die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Verharding is ten onrechte opgevoerd in de registratie.|
+|Ten onrechte|	Verharding die ten onrechte is opgevoerd in de registratie.|
 
 .
 
@@ -1572,16 +1572,15 @@ ontwerpprincipe:
 |Herkomst definitie  |Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type muur* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| *volgt later*  |
+|Toelichting|   |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van muur|Ja |
-|Geometrie|De geometrische representatie van een muur. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn) Nee (vlak)|
-|Afbakening   |  | |
-|Status   |   |Ja   |
+| Identificatie   |De unieke aanduiding van muur.|Ja |
+| Geometrie|De geometrische representatie van een muur. |Ja (lijn) Nee (vlak)|
+| Status   |De fase van de levenscyclus waarin het betreffende muur zich bevindt.   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1594,21 +1593,21 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+|Gepland|	Een muur die zich in de ontwerpfase bevindt.|
+|Bestaand| Een muur die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Een muur die feitelijk is verwijderd.|
+|Niet gerealiseerd|	Een geplande muur die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een muur die ten onrechte is opgevoerd in de registratie.|
+
 
 #### Hek
   
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Hek |
+| SOR-begrip   | Hek |
 | Onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
-
 
 **Definitie**
 
@@ -1625,9 +1624,8 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van hek|Ja |
-|Geometrie|De geometrische representatie van een hek. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn)|
-|Afbakening   |  | |
-|Status   |   |Ja   |
+|Geometrie|De geometrische representatie van een hek. |Ja (lijn)|
+|Status   | De fase van de levenscyclus waarin het betreffende hek zich bevindt.   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1640,40 +1638,39 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+|Gepland|	Een hek dat zich in de ontwerpfase bevindt.|
+|Bestaand|	Een hek dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Een hek dat feitelijk is verwijderd.|
+|Niet gerealiseerd|	Een gepland hek dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een hek dat ten onrechte is opgevoerd in de registratie.|
+
 
 #### Raster
   
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Raster |
+| SOR-begrip   | Raster |
 | Onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
-
 
 **Definitie**
 
 | Naam  | Raster |
 |---|---|
 | Definitie |Kunstmatige terreinafscheiding, in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen gaas of één of meerdere draden.|
-|Herkomst definitie  |Gegevenscatalogus IMGeo 2.1.1 *deels aangepast*|
+|Herkomst definitie  |Gebaseerd op de definitie van draadraster in de gegevenscatalogus IMGeo 2.2 |
 |Verplicht  | nee  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type draadraster, faunaraster* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie.  |
-|Toelichting| *volgt later*  |
+|Toelichting|   |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van raster|Ja |
-|Geometrie|De geometrische representatie van een raster. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn)|
-|Afbakening   |  | |
-|Status   |   |Ja   |
+|Geometrie|De geometrische representatie van een raster. |Ja (lijn)|
+|Status   | De fase van de levenscyclus waarin het betreffende raster zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1686,21 +1683,21 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+|Gepland|	Een raster dat zich in de ontwerpfase bevindt.|
+|Bestaand|	Een raster dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Een raster dat feitelijk is verwijderd.|
+|Niet gerealiseerd|	Een gepland raster dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een raster dat ten onrechte is opgevoerd in de registratie.|
+
 
 #### Scherm
   
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Scherm |
+| SOR-begrip   | Scherm |
 | Onderdeel van NEN3610-objecttype | Constructie |
 
 ontwerpprincipe: 
-
 
 **Definitie**
 
@@ -1710,16 +1707,15 @@ ontwerpprincipe:
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type geluidscherm* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| *volgt later*  |
+|Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van scherm|Ja |
-|Geometrie|De geometrische representatie van een scherm.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (lijn)|
-|Afbakening   |  | |
-|Status   |   |Ja   |
+|Identificatie   |De unieke aanduiding van scherm. |Ja |
+|Geometrie|De geometrische representatie van een scherm.  |Ja (lijn)|
+|Status   |De fase van de levenscyclus waarin het betreffende scherm zich bevindt.   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1732,11 +1728,11 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+|Gepland|	Een scherm dat zich in de ontwerpfase bevindt.|
+|Bestaand|	Een scherm dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Een scherm dat feitelijk is verwijderd.|
+|Niet gerealiseerd|	Een gepland scherm dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een scherm dat ten onrechte is opgevoerd in de registratie.|
 
 
 
@@ -2401,7 +2397,7 @@ ontwerpprincipe:
 |Herkomst definitie  | Gebaseerd op definitie van erf in BGT    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
+|Toelichting| In plaats van onbepaald terreindeel kan ter plaatse ook de fysieke topografie worden ingewonnen (vrijwillig). |
 
 **Eigenschappen**
 
@@ -2426,7 +2422,7 @@ ontwerpprincipe:
 |Bestaand|	Onbepaald terreindeel dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
 |Verwijderd|	Onbepaald terreindeel dat feitelijk is verwijderd.|
 |Niet gerealiseerd|	Gepland onbepaald terreindeel dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Onbepaald terreindeel dat ten onrechte opgevoerd in de registratie.|
+|Ten onrechte|	Onbepaald terreindeel dat ten onrechte is opgevoerd in de registratie.|
 
 
 
