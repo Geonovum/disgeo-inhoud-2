@@ -658,8 +658,9 @@ ontwerpprincipe:
 | Naam  | Verzorgingsplaats |
 |---|---|
 | Definitie |  Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |
-|Herkomst definitie  | |
+|Herkomst definitie  | IMGeo 2.2 |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *verzorgingsplaats* zoals deze is opgenomen in de basisregistratie topografie.  |
 |Toelichting|  |
 
 
@@ -667,9 +668,9 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een verzorgingsplaats  |Ja |
-|Geometrie |De geometrische representatie van een verzorgingsplaats  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende verzorgingsplaats zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een verzorgingsplaats.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een verzorgingsplaats.  |Ja (vlak)|
+|Status   |De fase van de levenscyclus waarin het betreffende verzorgingsplaats zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -681,11 +682,11 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een verzorgingsplaats dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een verzorgingsplaats dat is gerealiseerd|
-|Beëindigd|	Een verzorgingsplaats dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland verzorgingsplaats dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Verzorgingsplaats is ten onrechte opgevoerd in de registratie|
+|Gepland|	Een verzorgingsplaats die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een verzorgingsplaats die is gerealiseerd.|
+|Beëindigd|	Een verzorgingsplaats die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande verzorgingsplaats die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een verzorgingsplaats die ten onrechte is opgevoerd in de registratie.|
 
 
 
