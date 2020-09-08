@@ -1208,15 +1208,15 @@ ontwerpprincipe:
 |Herkomst definitie  | concept NEN3610-2020  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysieke voorkomen van *wegdelen*, *ondersteunende wegdelen* en *onbegroeide terreindelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| *volgt later*  Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het Type verharding waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met andere verharding hoeft geen apart vlak te worden gevormd.|
+|Toelichting| Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het Type verharding waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met andere verharding hoeft geen apart vlak te worden gevormd.|
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip verharding |Ja |
-|Geometrie|De geometrische representatie van de randen van een verhardingsvlak. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (vlak)|
-|Status   |   |Ja   |
+|Identificatie   |De unieke aanduiding van verharding |Ja |
+|Geometrie|De geometrische representatie van de randen van een verhardingsvlak. |Ja (vlak, 2.5D)|
+|Status   | De fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt.  |Ja   |
 |Type verharding|aanduiding soort verharding|Ja|
 |Type verharding plus|aanduiding soort verharding|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1231,21 +1231,22 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+|Gepland|	Verharding die zich in de ontwerpfase bevindt|
+|Bestaand|	Verharding die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
+|Verwijderd|	Verharding die feitelijk is verwijderd|
+|Niet gerealiseerd|	Geplande verharding die niet als zodanig is gerealiseerd|
+|Ten onrechte|	Verharding is ten onrechte opgevoerd in de registratie|
+
 
 .
 
 |Waarde Type verharding| Beschrijving   |
 |---|---|
-|asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|
+| asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|
 | betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |
-|elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|
-|halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|
-|kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient.|
+| elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|
+| halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|
+| kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient.|
 
 .
 
