@@ -1217,8 +1217,8 @@ ontwerpprincipe:
 |Identificatie   |De unieke aanduiding van verharding |Ja |
 |Geometrie|De geometrische representatie van de randen van een verhardingsvlak. |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt.  |Ja   |
-|Type verharding|aanduiding soort verharding|Ja|
-|Type verharding plus|aanduiding soort verharding|Nee|
+|Type verharding|Aanduiding soort verharding.|Ja|
+|Type verharding plus|Aanduiding soort verharding.|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1231,37 +1231,36 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|Gepland|	Verharding die zich in de ontwerpfase bevindt|
-|Bestaand|	Verharding die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|Verwijderd|	Verharding die feitelijk is verwijderd|
-|Niet gerealiseerd|	Geplande verharding die niet als zodanig is gerealiseerd|
-|Ten onrechte|	Verharding is ten onrechte opgevoerd in de registratie|
-
+|Gepland|	Verharding die zich in de ontwerpfase bevindt.|
+|Bestaand|	Verharding die is gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Verharding die feitelijk is verwijderd.|
+|Niet gerealiseerd|	Geplande verharding die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Verharding is ten onrechte opgevoerd in de registratie.|
 
 .
 
 |Waarde Type verharding| Beschrijving   |
 |---|---|
-| asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|
-| betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |
-| elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|
-| halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|
-| kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient.|
+| Asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen.|
+| Betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton. |
+| Elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|
+| Halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|
+| Kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient.|
 
 .
 
 |Waarde Type verharding plus| Beschrijving   |
 |---|---|
-|**asfaltverharding**||
+|**aAfaltverharding**||
 |   Zoab en open deklagen|*geen definitie opgenomen in IMBOR*|
 |   Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|
 |   Dichte deklagen|*geen definitie opgenomen in IMBOR*|
-|**betonverharding**||
+|**Betonverharding**||
 |   Ongewapend verdeuveld beton|Ongewapend verdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘verdeuveld’ genoemd.|
 | 	Gewapend beton|*geen definitie opgenomen in IMBOR*|
 | 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|
 | 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|
-|**elementenverharding**||
+|**Elementenverharding**||
 |   Natuursteen|Verharding bestaande uit elementen van natuursteen.|
 | 	Straatbaksteen|Straatbaksteen is de formele benaming uit NEN-EN1344. In de CROW Systematiek Wegbeheer wordt dit ‘gebakken klinkers’ genoemd.|
 | 	Glas|Verharding bestaande uit glaselementen.|
