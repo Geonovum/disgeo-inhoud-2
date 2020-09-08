@@ -437,15 +437,16 @@ ontwerpprincipe:
 | Definitie | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. |
 |Herkomst definitie  | BGT 1.1.1. |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *voetgangersgebied* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een voetgangersgebied  |Ja |
-|Geometrie |De geometrische representatie van een voetgangersgebied  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende voetgangersgebied zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een voetgangersgebied.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een voetgangersgebied.  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende voetgangersgebied zich bevindt.   |Ja (vlak)  |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -457,11 +458,11 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een voetgangersgebied dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een voetgangersgebied dat is gerealiseerd|
-|Beëindigd|	Een voetgangersgebied dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland voetgangersgebied dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Voetgangersgebied is ten onrechte opgevoerd in de registratie|
+|Gepland|	Een voetgangersgebied dat zich in de ontwerpfase bevindt. |
+|Gevormd|	Een voetgangersgebied dat is gerealiseerd.|
+|Beëindigd|	Een voetgangersgebied dat als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een gepland voetgangersgebied dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een voetgangersgebied dat ten onrechte is opgevoerd in de registratie.|
 
 
 #### Woonerf
@@ -478,15 +479,16 @@ ontwerpprincipe:
 | Definitie | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. |
 |Herkomst definitie  | BGT 1.1.1. |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *woonerf* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een woonerf  |Ja |
-|Geometrie |De geometrische representatie van een woonerf  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende woonerf zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een woonerf.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een woonerf.  |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende woonerf zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -498,11 +500,11 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een woonerf dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een woonerf dat is gerealiseerd|
-|Beëindigd|	Een woonerf dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland woonerf dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Woonerf is ten onrechte opgevoerd in de registratie|
+|Gepland|	Een woonerf dat zich in de ontwerpfase bevindt. |
+|Gevormd|	Een woonerf dat is gerealiseerd.|
+|Beëindigd|	Een woonerf dat als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een gepland woonerf dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een woonerf dat ten onrechte is opgevoerd in de registratie.|
 
 
 
@@ -517,9 +519,10 @@ ontwerpprincipe:
 
 | Naam  | Parkeervlak |
 |---|---|
-| Definitie | Wegdeel bestemd voor het parkeren van motorvoertuigen |
-|Herkomst definitie  |  |
+| Definitie | Wegdeel bestemd voor het parkeren van motorvoertuigen. |
+|Herkomst definitie  | BGT 1.1.1 |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *parkeervlak* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -527,9 +530,9 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een parkeervlak  |Ja |
-|Geometrie |De geometrische representatie van een parkeervlak  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende parkeervlak zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een parkeervlak.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een parkeervlak.  |Ja (vlak)|
+|Status   |De fase van de levenscyclus waarin het betreffende parkeervlak zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -541,11 +544,11 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een parkeervlak dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een parkeervlak dat is gerealiseerd|
-|Beëindigd|	Een parkeervlak dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland parkeervlak dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Parkeervlak is ten onrechte opgevoerd in de registratie|
+|Gepland|	Een parkeervlak dat zich in de ontwerpfase bevindt. |
+|Gevormd|	Een parkeervlak dat is gerealiseerd.|
+|Beëindigd|	Een parkeervlak dat als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een gepland parkeervlak dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Parkeervlak is ten onrechte opgevoerd in de registratie.|
 
 
 #### Carpoolplaats
@@ -563,8 +566,9 @@ ontwerpprincipe:
 | Naam  | Carpoolplaats |
 |---|---|
 | Definitie | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling. |
-|Herkomst definitie  | |
+|Herkomst definitie  | IMGeo 2.2|
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *x* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -572,9 +576,9 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een carpoolplaats  |Ja |
-|Geometrie |De geometrische representatie van een carpoolplaats  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende carpoolplaats zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een carpoolplaats.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een carpoolplaats.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende carpoolplaats zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -586,14 +590,11 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een carpoolplaats dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een carpoolplaats dat is gerealiseerd|
-|Beëindigd|	Een carpoolplaats dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland carpoolplaats dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Carpoolplaats is ten onrechte opgevoerd in de registratie|
-
-
-
+|Gepland|	Een carpoolplaats die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een carpoolplaats die is gerealiseerd.|
+|Beëindigd|	Een carpoolplaats die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande carpoolplaats die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een carpoolplaats die ten onrechte is opgevoerd in de registratie.|
 
 #### Transferium
 | Klasse  | Naam  |
@@ -610,7 +611,7 @@ ontwerpprincipe:
 | Naam  | Transferium |
 |---|---|
 | Definitie | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto. |
-|Herkomst definitie  | |
+|Herkomst definitie  | IMBOR 2020 |
 |Verplicht  | Ja  |
 |Toelichting|  |
 
@@ -620,8 +621,8 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een transferium  |Ja |
-|Geometrie |De geometrische representatie van een transferium  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende transferium zich bevindt   |Ja   |
+|Geometrie |De geometrische representatie van een transferium  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende transferium zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
