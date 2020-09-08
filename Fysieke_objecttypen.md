@@ -1232,7 +1232,7 @@ ontwerpprincipe:
 |Waarde Status| Beschrijving   |
 |---|---|
 |Gepland|	Verharding die zich in de ontwerpfase bevindt.|
-|Bestaand|	Verharding die is gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Bestaand|	Verharding die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
 |Verwijderd|	Verharding die feitelijk is verwijderd.|
 |Niet gerealiseerd|	Geplande verharding die niet als zodanig is gerealiseerd.|
 |Ten onrechte|	Verharding is ten onrechte opgevoerd in de registratie.|
@@ -2409,7 +2409,7 @@ ontwerpprincipe:
 |---|---|---|
 |Identificatie   |De unieke aanduiding van onbepaald terreindeel |Ja |
 |Geometrie|De geometrische representatie van de randen van een onbepaald terreindeel.  |Ja (vlak)|
-|Status   |   |Ja   |
+|Status   |De fase van de levenscyclus waarin het betreffende onbepaalde terreindeel zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -2422,11 +2422,11 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+|Gepland|	Onbepaald terreindeel dat zich in de ontwerpfase bevindt.|
+|Bestaand|	Onbepaald terreindeel dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Onbepaald terreindeel dat feitelijk is verwijderd.|
+|Niet gerealiseerd|	Gepland onbepaald terreindeel dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Onbepaald terreindeel dat ten onrechte opgevoerd in de registratie.|
 
 
 
