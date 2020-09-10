@@ -567,7 +567,7 @@ Bij functionele objecttypen zijn de levensfasen van een object meer verbonden aa
 |---|---|---|
 |Planfase	|Gepland	|Gepland|
 |Aanwezigheidsfase	|Gesloten	|Gevormd|
-||In gebruik	In gebruik|
+||In gebruik|	In gebruik|
 ||Ontoegankelijk	|Buiten gebruik|
 |Afwezigheidsfase	|Opgeheven	|Beëindigd|
 ||Niet gerealiseerd	|Niet gerealiseerd|
