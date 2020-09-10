@@ -1243,22 +1243,6 @@ ontwerpprincipe:
 |Verplicht  | Ja  |
 |Toelichting|  |
 
-#### Duin
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Duin |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Duin |
-|---|---|
-| Definitie | Verhoging of heuvel van zand of fijne losse aarde en verpulverd gesteente opgeworpen door wind of door stromend water. |
-|Herkomst definitie  | BGT 1.1.1 |
-|Verplicht  | Ja  |
-|Toelichting|  |
 
 
 ### Functionele zonering BLAUW
