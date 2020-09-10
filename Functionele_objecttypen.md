@@ -931,8 +931,9 @@ ontwerpprincipe:
 | Naam  | Perron |
 |---|---|
 | Definitie |  Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. |
-|Herkomst definitie  | |
+|Herkomst definitie  |BGT 1.1.1 |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *perron* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -940,9 +941,9 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een perron  |Ja |
-|Geometrie |De geometrische representatie van een perron  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende perron zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een perron.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een perron.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende perron zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -954,24 +955,140 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een perron dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een perron dat is gerealiseerd|
-|Beëindigd|	Een perron dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland perron dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Perron is ten onrechte opgevoerd in de registratie|
+|Gepland|	Een perron dat zich in de ontwerpfase bevindt. |
+|Gevormd|	Een perron dat is gerealiseerd.|
+|Beëindigd|	Een perron dat als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een gepland perron dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een perron dat ten onrechte is opgevoerd in de registratie.|
+
+#### Overweg
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Overweg |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Overweg |
+|---|---|
+| Definitie | Een gelijkvloerse kruising van een weg met een spoor type trein of sneltram. |
+|Herkomst definitie  | Gebaseerd op de definitie van overweg in de gegevenscatalogus BGT 1.1.1|
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *overweg* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
 
 
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een overweg.  |Ja |
+|Geometrie |De geometrische representatie van randen van een overweg.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende overweg zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een overweg die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een overweg die is gerealiseerd.|
+|Beëindigd|	Een overweg die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande overweg die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een overweg die ten onrechte is opgevoerd in de registratie.|
+
+#### Spoorbaan
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Spoorbaan |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Spoorbaan |
+|---|---|
+| Definitie | Gebaand gedeelte voor het verkeer over rails. |
+|Herkomst definitie  | BGT 1.1.1 |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *spoorbaan* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
 
 
-#### overweg
-| overweg | Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram. |verplicht|
+**Eigenschappen**
 
-#### spoorbaan
-| spoorbaan | Gebaand gedeelte voor het verkeer over rails. |verplicht|
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een spoorbaan.  |Ja |
+|Geometrie |De geometrische representatie van randen van een spoorbaan.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende spoorbaan zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-#### emplacement
-| emplacement	 | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen.|verplicht|
-*alleen opnemen als dit door BRT.next wordt aangegeven*
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een spoorbaan die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een spoorbaan die is gerealiseerd.|
+|Beëindigd|	Een spoorbaan die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande spoorbaan die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een spoorbaan die ten onrechte is opgevoerd in de registratie.|
+
+#### Emplacement
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Emplacement |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+<div class='note'>
+    alleen opnemen als dit door BRT.next wordt aangegeven 
+</div>
+
+**Definitie**
+
+| Naam  | Emplacement |
+|---|---|
+| Definitie | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen. |
+|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *emplacement* zoals deze is opgenomen in de basisregistratie topografie.  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een emplacement.  |Ja |
+|Geometrie |De geometrische representatie van randen van een emplacement.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende emplacement zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een emplacement die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een emplacement die is gerealiseerd.|
+|Beëindigd|	Een emplacement die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande emplacement die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een emplacement die ten onrechte is opgevoerd in de registratie.|
+
+
 
 
 #### WEGINRICHTING
@@ -1055,14 +1172,55 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een berm dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een berm dat is gerealiseerd|
-|Beëindigd|	Een berm dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland berm dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Berm is ten onrechte opgevoerd in de registratie|
+|Gepland|	Een berm die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een berm die is gerealiseerd.|
+|Beëindigd|	Een berm die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande berm die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een berm die ten onrechte is opgevoerd in de registratie.|
 
-#### halteplaats
-| Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer.| optioneel|
+#### Halteplaats
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Halteplaats |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Halteplaats |
+|---|---|
+| Definitie | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer. |
+|Herkomst definitie  | IMBOR 2020 |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *bushalte* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een halteplaats.  |Ja |
+|Geometrie |De geometrische representatie van randen van een halteplaats.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende halteplaats zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een halteplaats die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een halteplaats die is gerealiseerd.|
+|Beëindigd|	Een halteplaats die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande halteplaats die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een halteplaats die ten onrechte is opgevoerd in de registratie.|
+
+
+
 
 #### laadplein
 | Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben.|
