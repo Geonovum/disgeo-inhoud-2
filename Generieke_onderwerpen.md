@@ -195,6 +195,16 @@ ontwerpprincipe: *In geval van nadere benoemde registratieve objecttypen is er s
 
 ### Netwerken
 
+In de samenhangende objectenregistratie worden vier transportnetwerken onderscheiden: wegen, spoor, water en scheepvaart. Netwerken zijn een verdere uitwerking van de virtuele objecten transportvoorzieningen in het basismodel NEN3610.
+
+De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerk los van elkaar te beschrijven.
+
+Ontwerpprincipe: *Een netwerk ligt op het fysieke object waar het bij hoort*
+
+
+
+
+Voor meer detail wordt verwezen naar het conceptueel model netwerken. LINK??
 
 
 
