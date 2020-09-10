@@ -876,7 +876,7 @@ ontwerpprincipe:
 |Niet gerealiseerd|	Een gepland snellaadstation dat niet als zodanig is gerealiseerd.|
 |Ten onrechte|	Een snellaadstation dat ten onrechte is opgevoerd in de registratie.|
 
-#### zone
+#### Zone
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Zone |
@@ -1151,6 +1151,7 @@ ontwerpprincipe:
 | Definitie | Een strook grond langs een weg of spoorweg. |
 |Herkomst definitie  | BGT 1.1.1. |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *berm* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -1219,17 +1220,132 @@ ontwerpprincipe:
 |Niet gerealiseerd|	Een geplande halteplaats die niet als zodanig is gerealiseerd.|
 |Ten onrechte|	Een halteplaats die ten onrechte is opgevoerd in de registratie.|
 
+#### Laadplein
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Laadplein |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Laadplein |
+|---|---|
+| Definitie | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben. |
+|Herkomst definitie  | IMBOR 2020 |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier een nieuw objecttype. |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een laadplein.  |Ja |
+|Geometrie |De geometrische representatie van randen van een laadplein.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende laadplein zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een laadplein die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een laadplein die is gerealiseerd.|
+|Beëindigd|	Een laadplein die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande laadplein die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een laadplein die ten onrechte is opgevoerd in de registratie.|
+
+#### Verkeersdrempel
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Verkeersdrempel |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Verkeersdrempel |
+|---|---|
+| Definitie | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| verplicht |
+|Herkomst definitie  | IMGeo 2.2 |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *verkeersdrempel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een verkeersdrempel.  |Ja |
+|Geometrie |De geometrische representatie van randen van een verkeersdrempel.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende verkeersdrempel zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een verkeersdrempel die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een verkeersdrempel die is gerealiseerd.|
+|Beëindigd|	Een verkeersdrempel die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande verkeersdrempel die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een verkeersdrempel die ten onrechte is opgevoerd in de registratie.|
+
+#### Molgoot
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Molgoot |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Molgoot |
+|---|---|
+| Definitie | Smalle goot in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |
+|Herkomst definitie  | IMGeo 2.2 |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *molgoot* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een molgoot.  |Ja |
+|Geometrie |De geometrische representatie van randen van een molgoot.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende molgoot zich bevindt.   |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een molgoot die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een molgoot die is gerealiseerd.|
+|Beëindigd|	Een molgoot die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande molgoot die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een molgoot die ten onrechte is opgevoerd in de registratie.|
 
 
 
-#### laadplein
-| Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben.|
 
-#### verkeersdrempel
-| Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| verplicht|
-
-#### molgoot
-| molgoot | Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |optioneel|
 
 #### Wildrooster
 | Klasse  | Naam  |
@@ -1247,10 +1363,10 @@ ontwerpprincipe:
 
 | Naam  | Wildrooster  |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  |     |
-|Verplicht  | Ja  |
-|Gevolgen afbakening||
+| Definitie | Horizontaal raamwerk dat dient om wild de doorgang te beletten.   |
+|Herkomst definitie  |  IMGeo 2.2   |
+|Verplicht  | Nee  |
+|Gevolgen afbakening|Het betreft hier de bestaande populatie *wildrooster* zoals deze is opgenomen in de basisregistratie grootschalige topografie.|
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1258,7 +1374,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip wildrooster|Ja |
-|Geometrie||nee (vlak)|
+|Geometrie|De geometrische representatie van randen van een wildrooster.|ja (vlak)|
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -1270,9 +1386,14 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
+|Waarde status	|Beschrijving|
 |---|---|
-|||
+|Gepland|	Een wildrooster dat zich in de ontwerpfase bevindt. |
+|Gevormd|	Een wildrooster dat is gerealiseerd.|
+|Beëindigd|	Een wildrooster dat als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande wildrooster dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een wildrooster dat ten onrechte is opgevoerd in de registratie.|
+
 
 #### LUCHTVAART
 
