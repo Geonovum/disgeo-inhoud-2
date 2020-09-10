@@ -1171,6 +1171,9 @@ lucht en water. |
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 
+<div class='note'>
+    Parkeergarage is dit correct om te typeren als open bouwwerk? Zie definitie BRT en hoe zit het met parkeerkelders? Parkeerplaats (openlucht) is nu een functie.
+</div>
 
 **Domeinwaarden**
 
@@ -1178,6 +1181,7 @@ lucht en water. |
 |---|---|
 |overkapping|Een afzonderlijk staande overdekking rustend op kolommen|
 |open loods|Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden|
+|parkeergarage|Al dan niet open bebouwing, geheel of gedeeltelijk (het dak of een van de onderliggende etages) in gebruik als openbare voorziening voor het parkeren van motorvoertuigen.|
 
 .
 
