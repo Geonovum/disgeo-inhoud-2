@@ -10,61 +10,66 @@ De uitbreiding met objecttypen voor netwerkinformatie is gebaseerd op het Concep
 
 
 
-### Transportvoorziening
+### Transportvoorziening; weg
 
 <div class='note'>
     Transportvoorziening in de SOR moet nog verder uitgewerkt worden o.b.v. het conceptuele model netwerken.
 </div>
 
-#### Weg
-
+#### Knoop
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Weg|
-| Onderdeel van NEN3610-objecttype | Functioneel object |
+| SOR-begrip   | Knoop|
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | Weg |
+| Naam  | Knoop  |
 |---|---|
-| Definitie | Transport voorziening voor wegverkeer. |
-|Herkomst definitie  | concept NEN3610 2020|
-|Verplicht  | ja  |
-|Gevolgen afbakening||
-|Toelichting| *volgt later*  |
+| Definitie | Een knoop is een beslispunt waarop de weggebruiker een keuze moet maken. |
+| Herkomst definitie  | conceptueel model netwerken     |
+| Verplicht  | Ja  |
+| Gevolgen afbakening||
+| Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|||
-|Identificatie   |De unieke aanduiding van een weg  |Ja |
-|Geometrie |De geometrische representatie van een weg  |Ja (2,5D)|
-|Type weg| ||
-|Naam|||
-|Status   |De fase van de levenscyclus waarin het betreffende verblijfsobject zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een knoop  |Ja |
+|Geometrie |De geometrische representatie van een knoop |Ja (punt), Nee (lijn,vlak)|
+|Naam|Naam van de knoop zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is)|
+|Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| hoort bij 1 of meer | verbindingen |Ja|
 
 **Domeinwaarden**
 
-| Waarde Type weg| Beschrijving   |
+<div class='note'>
+    In het kader van de review wordt u gevraagd om aan te geven welke levensfasen relevant zijn om als STATUS van een knoop te onderscheiden. 
+</div>
+
+|Waarde status	|Beschrijving|
 |---|---|
-|rijbaan autosnelweg||
-|rijbaan autoweg||
-|rijbaan regionale weg||
-|rijbaan lokale weg||
-|verbindingsweg||
-|calamiteitendoorsteek||
-|fietspad||
-|voetpad||
-|voetpad op trap||
-|ruiterpad||
+|Gepland	|Een object dat zich in de ontwerpfase bevindt|
+|Gesloten	|Een object dat is gerealiseerd maar nog niet in gebruik is genomen|
+|In gebruik|	Een object dat in gebruik is genomen |
+|Ontoegankelijk|	Een object dat in gebruik is genomen maar tijdelijk niet gebruikt kan worden|
+|Opgeheven|	Een object dat buiten gebruik is gesteld|
+|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
+|Ten onrechte	|Een object dat ten onrechte is opgevoerd in de registratie|
 
 
-##### Wegverbinding
+
+
+#### Wegverbinding
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Wegverbinding|
@@ -91,7 +96,7 @@ ontwerpprincipe:
 |Type wegverbinding||
 |Type weg||
 |Hoofdverkeersgebruik||
-|Naam||
+|Naam|Naam van de weg zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is)|
 |Status   |De fase van de levenscyclus waarin de betreffende wegverbinding zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -110,16 +115,19 @@ ontwerpprincipe:
 |Strook|	Beschrijft level detail 2 van een weg|
 |Veerverbinding|	Verbijzondering van type wegverbinding|
 
-.
+<div class='note'>
+    Wat te doen met wegtypen: verbindingsweg, calamiteitendoorsteek en voetpad op trap
+</div>
 
 |Waarde type weg	|Beschrijving|
 |---|---|
-|Autosnelweg	||
-|Autoweg||	
-|Regionale weg	||
-|Lokale weg	||
-|Fietspad||	
-|Voetpad||	
+|Autosnelweg	|Een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen, daartoe aangeduid met het betreffende verkeersbord.|
+|Autoweg|Een weg uitsluitend bestemd voor snelverkeer, daartoe aangeduid met het betreffende verkeersbord.|	
+|Regionale weg	|Een weg die een verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of stad.|
+|Lokale weg	|Een weg van lokaal belang.|
+|Fietspad|Een weg met name bestemd voor fietsers en, indien toegestaan, bromfietsers en dat afgescheiden is van de andere wegdelen niet uitsluitend door markering.|	
+|Voetpad|Een wegdeel waar voetgangers gebruik van moeten maken.|
+|Ruiterpad|Een pad primair aangelegd voor het gebruik door ruiters.|	
 
 .
 
@@ -134,7 +142,9 @@ ontwerpprincipe:
 |Taxi||
 |Personenauto’s|| 
 
-.
+<div class='note'>
+    In het kader van de review wordt u gevraagd om aan te geven welke levensfasen relevant zijn om als STATUS wegverbinding te onderscheiden. 
+</div>
 
 |Waarde status	|Beschrijving|
 |---|---|
@@ -148,46 +158,12 @@ ontwerpprincipe:
 
 
 
-##### Knoop
+
+
+#### Hyperwegverbinding
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Knoop|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Knoop  |
-|---|---|
-| Definitie | Een knoop is een beslispunt waarop de weggebruiker een keuze moet maken. |
-| Herkomst definitie  | conceptueel model netwerken     |
-| Verplicht  | Ja  |
-| Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| knoop | hoort bij 1 of meer | verbindingen |
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
-
-
-##### Hyperkant
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Hyperkant |
+| SOR-begrip   | Hyperwegverbinding |
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 ontwerpprincipe: 
@@ -196,7 +172,7 @@ ontwerpprincipe:
 
 | Naam  | Hyperkant  |
 |---|---|
-| Definitie | Een hyperkant is een relatie tussen twee objecten die een functionele samenhang hebben. |
+| Definitie | Een hyperwegverbinding is een relatie tussen twee wegobjecten die een functionele samenhang hebben. |
 | Herkomst definitie  | conceptueel model netwerken     |
 | Verplicht  | Ja  |
 | Toelichting|  |
@@ -211,7 +187,7 @@ ontwerpprincipe:
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-| hyperkant| verbindt 2 of meer | *objecten* |
+| verbindt 2 of meer | *objecten* |Ja|
 
 **Domeinwaarden**
 
@@ -220,17 +196,15 @@ ontwerpprincipe:
 |||
 
 
+### Transportvoorziening; Spoorweg
 
-#### Spoorweg
-
-#### Vaarweg
+### Transportvoorziening; Vaarweg
 
 <div class='note'>
     Is vaarweg wel een apart netwerk? moet varen niet idem als bij wegen als een soort modaliteit aan het waterelementen netwerk worden gekoppeld?
 </div>
 
-
-#### Waterelement
+### Transportvoorziening; Waterelement
 
 #### Inrit
 
