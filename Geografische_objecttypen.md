@@ -22,7 +22,8 @@
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een bebouwde kom  |Ja |
-|naam   |De plaatselijke naam van de bebouwde kom zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat   |Ja   |
+|Naam   |De plaatselijke naam van de bebouwde kom zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
+|Alternatieve naam   | Een alternatieve benaming van een bebouwde kom zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als bebouwde kom is aangewezen  |Ja   |
 |Type |Het hoofdkarakter van het gebied dat de bebouwde kom vormt |Ja |
 |Status   |De fase van de levenscyclus waarin de betreffende bebouwde kom zich bevindt    |Ja   |
