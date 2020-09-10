@@ -93,20 +93,15 @@
 
 | Waarde  | Beschrijving Type  |
 |---|---|
-|Woonkern  | Bebouwingskern met hoofdzakelijk een woonfunctie    |
-|Industriekern  |Bebouwingskern met hoofdzakelijk een bedrijfsmatige functie voorzien van openbare wegen   |
-|Recreatiekern  |Bebouwingskern met hoofdzakelijk een (verblijfs)recreatieve functie |
-|Gehucht  |Kleine bebouwingskern of concentratie van aaneengesloten bebouwing, niet zijnde lintbebouwing   |
-|Buurtschap  |Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang  |
-|deelkern  |Historische bebouwingskern, ruimtelijk te onderscheiden van de omliggende bebouwing, gelegen binnen een andere bebouwde kom     |
+|open duinvegetatie||
+|gesloten duinvegetatie||
 
 .
 
 
 | Waarde  | Beschrijving Status  |
 |---|---|
-|Aangewezen|Bebouwde kom is in gebruik |
-| Ingetrokken | Bebouwde kom wordt niet langer als zodanig onderscheiden|
+|||
 
 
 ### Geografische objecttypen uit de BRT
