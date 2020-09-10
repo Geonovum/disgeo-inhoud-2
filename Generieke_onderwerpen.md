@@ -139,11 +139,15 @@ Dit zou bijvoorbeeld via een afsprakenstelsel geregeld kunnen worden
 #### Coördinatenstelsel
 
 ####  3D
-ontwerpprincipe: de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht is en 3D vrijwillig. 
+ontwerpprincipe: **de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht is en 3D vrijwillig.** Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie conform hetgeen daarover voor het betreffende objecttype is bepaald, waarbij de vastlegging hiervan zodanig wordt vormgegeven dat de driedimensionale (3D) beschrijving van een object kan worden opgenomen.
 
 *hier uitschrijven welke levels of details worden onderscheiden in de SOR voor 3D*
 
 *let op: ook de z-hoogte is van belang naast volume, zoals bij bv fly-overs, etc, etc.*
+
+<div class='note'>
+    In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraag om een herziening van huidige topologie regels en het begrip maaiveld. Wij zijn opzoek naar mensen die een zinvolle bijdrage kunnen leveren op dit onderwerp.
+</div>
 
 #### Geometrie-type
 
