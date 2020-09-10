@@ -64,40 +64,88 @@ ontwerpprincipe:
 |ruiterpad||
 
 
-##### Verbinding
+##### Wegverbinding
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Verbinding|
+| SOR-begrip   | Wegverbinding|
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | Verbinding  |
+| Naam  | Wegverbinding  |
 |---|---|
-| Definitie | De verbinding beschrijft een relatie tussen knopen, een weg van kruispunt tot kruispunt. |
+| Definitie | Een wegverbinding beschrijft de verkeerskundige inrichting van een weg tussen twee knopen. |
 |Herkomst definitie  | conceptueel model netwerken     |
 |Verplicht  | Ja  |
+|Gevolgen afbakening||
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|||
+|Identificatie   |De unieke aanduiding van een wegverbinding  |Ja |
+|Geometrie |De geometrische representatie van een wegverbinding  |Ja (lijn), Nee (vlak)|
+|Type wegverbinding||
+|Type weg||
+|Hoofdverkeersgebruik||
+|Naam||
+|Status   |De fase van de levenscyclus waarin de betreffende wegverbinding zich bevindt   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-| verbinding | hoort bij 2 | knopen |
+| hoort bij 2 | knoop |ja|
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
+|Waarde type wegverbinding|	Beschrijving|
 |---|---|
-|||
+|Weg	|Beschrijft level detail 0 van een weg|
+|Baan	|Beschrijft level detail 1 van een weg|
+|Strook|	Beschrijft level detail 2 van een weg|
+|Veerverbinding|	Verbijzondering van type wegverbinding|
+
+.
+
+|Waarde type weg	|Beschrijving|
+|---|---|
+|Autosnelweg	||
+|Autoweg||	
+|Regionale weg	||
+|Lokale weg	||
+|Fietspad||	
+|Voetpad||	
+
+.
+
+|Waarde type hoofdverkeersgebruik|Beschrijving|
+|---|---|
+|Brommers||
+|Fietsers||
+|Voetgangers||
+|Landbouwverkeer||
+|Vrachtverkeer||
+|Bussen||
+|Taxi||
+|Personenauto’s|| 
+
+.
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland	|Een object dat zich in de ontwerpfase bevindt|
+|Gesloten	|Een object dat is gerealiseerd maar nog niet in gebruik is genomen|
+|In gebruik|	Een object dat in gebruik is genomen |
+|Ontoegankelijk|	Een object dat in gebruik is genomen maar tijdelijk niet gebruikt kan worden|
+|Opgeheven|	Een object dat buiten gebruik is gesteld|
+|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
+|Ten onrechte	|Een object dat ten onrechte is opgevoerd in de registratie|
+
 
 
 ##### Knoop
