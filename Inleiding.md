@@ -50,33 +50,14 @@ Aandachtspunten:
 - Afval apart plaats (=ondergrondse afval container) is een object dat bovengronds toegankelijk is
 
 
+**3. In de SOR worden uitsluitend objecten opgenomen die gelegen zijn binnen het grondgebied van Nederland.**
 
-**3.	In de SOR worden uitsluitend objecten opgenomen die gelegen zijn op het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren.**
+De genoemde scope is met name van belang voor het bepalen van hetgeen voor bepaalde soorten objecten als grondgebiedsdekkend moet worden beschouwd. Hierbij kan er een onderscheid bestaan voor verschillende soorten objecten. 
 
-Dit uitgangspunt is met name van belang voor het bepalen wat onder grondgebiedsdekkend moet worden verstaan bij de verdere uitwerking van de registratie. Op dit moment wordt daarbij de lijn gevolgd, zoals deze ook wordt gevolgd in het kader van de BAG en de BGT. Deze beperken zich tot het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren. Een uitzondering hierop betreft de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog). Ook objecten in deze exclaves worden in de samenhangende objectenregistratie opgenomen.
+Op dit moment wordt daarbij primair de lijn gevolgd, zoals deze ook wordt gevolgd in het kader van de BAG en de BGT. Deze beperken zich tot het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren. Een uitzondering hierop betreft de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog). Ook objecten in deze exclaves worden in de samenhangende objectenregistratie opgenomen. De scope van de samenhangende objectenregistratie wordt voor sommige soorten objecten uitgebreid met het continentaal plat. Hierdoor ontstaat de mogelijkheid om zich daar bevindende objecten (zoals windturbines) op te nemen in de registratie.
 
-Een nog nader te onderzoeken vraagpunt is in hoeverre het wenselijk dan wel noodzakelijk is om de territoriale wateren daarbij uit te breiden tot het continentaal plat. Een andere nog nader te onderzoeken vraagpunt is hoe omgegaan moet worden met de het grondgebied van de bijzondere Nederlandse gemeenten (BES-eilanden) en met het grondgebied van de andere Antillen die tot het Koninkrijk der Nederlanden behoren.
+Op een later moment zal het ministerie van BZK nog een afzonderlijk besluit nemen over de vraag in hoeverre de samenhangende objectenregistratie zich ook zal uitstrekken tot het grondgebied van de bijzondere Nederlandse gemeenten (BES-eilanden) en de andere overzeese koninkrijksdelen. Het informatiemodel zal zodanig moeten worden opgezet dat deze uitbreiding mogelijk is.
 
-
-
-
-
-Grondgebied NL
-
-In de samenhangende objectenregistratie worden die objecten opgenomen die zich bevinden binnen het grondgebied van Nederland. In de volgende ontwerpprincipes is dit nader aangeduid:
-
-Ontwerpprincipe : *De samenhangende objectenregistratie registreert in navolging van de BAG en de BGT de objecten die gelegen zijn op het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren*
-
-Ontwerpprincipe :  *De samenhangende objectenregistratie wordt uitgebreid met het continentaal plat, zodat objecten in dat gebied ook kunnen worden geregistreerd, zoals windmolens*
-
-De begrenzingen van het continentaal  plat worden meegenomen bij de registratieve objecttypen.
-
-
-Ontwerpprincipe : *De samenhangende objectenregistratie kan op termijn mogelijk worden uitgebreid met overzeese gebiedsdelen van het koninkrijk.* 
-Het informatiemodel moet daar op zijn voorbereid.
-
-
-Ontwerpprincipe : *Objecten in de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog) worden in de samenhangende objectenregistratie opgenomen. De bijhouding daarvan is niet verplicht maar vrijwillig.*
 
 
 **4.	Bestaande objecttypen en de daarbij behorende eigenschappen vanuit de BAG en de BGT, enkele bestaande eigenschappen van objecttypen die raken aan bebouwing vanuit de WOZ en objecttypen en de daarbij behorende eigenschappen vanuit de BRT die (in de toekomst) nodig blijven voor het maken van een vernieuwd BRT kaartproduct, worden (eventueel in andere vorm) overgenomen in de SOR, tenzij er expliciete redenen aanwezig zijn om dat niet te doen.**
