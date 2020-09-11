@@ -33,8 +33,7 @@ Het is van groot belang dat de basis van een informatiemodel voor een samenhange
 - een optimale aansluiting op overkoepelende modellen en sectorale modellen wordt gerealiseerd, zoals NEN 3610 (Basismodel Geo-informatie) en NEN 2660 (Ordeningsregels voor gegevens in de bouw - Termen, definities en algemene regels)
 
 
-<div class='note'>
-    
+<aside class='example'>
     **Regels voor opzet en definities**
 
 We toetsen de opzet en definities aan een aantal regels om te bepalen hoe goed de opzet/een definitie is. Hoe meer aan deze regels wordt voldaan, hoe groter de kans dat de definities bruikbaar zijn om mede daarmee een  een samenhangend informatiemodel creëren. 
@@ -77,8 +76,11 @@ Een definitie:
 
 -	van functionele, registratieve, geografische objecttypen bevat geen delen die te maken hebben met aspecten van fysieke objecten
 
+</aside>
 
-</div>
+
+
+
 
 
 
