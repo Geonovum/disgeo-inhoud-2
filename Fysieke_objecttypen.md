@@ -438,6 +438,23 @@ ontwerpprincipe:
 | 	Open grond| Onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|
 
 
+### Tuunwallen
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Tuunwallen |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+
+**Definitie**
+
+| Naam  | Tuunwallen  |
+|---|---|
+| Definitie | Op elkaar gestapelde grasplaggen als scheiding tussen twee percelen.   |
+|Herkomst definitie  |    |
+|Verplicht  | ja  |
+|Gevolgen afbakening  |   |
+|Toelichting|  |
+
 
 
 #### Haag
