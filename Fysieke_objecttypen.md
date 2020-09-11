@@ -9,65 +9,8 @@ Deze typering is in deze fase van het traject vooral bedoeld om een eerste indru
 </div>
 
 
-### Bodem
-
-#### Bodem
-
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Bodem |
-| Onderdeel van NEN3610-objecttype |  Bodem  |
-
-ontwerpprincipe: 
-
-<div class='note'>
-    begrip Bodem nog nader uitwerken
-</div>
 
 
-**Definitie**
-
-| Naam  | Bodem |
-|---|---|
-| Definitie |Bovenste deel van het natuurlijke aardoppervlak.|
-| Herkomst definitie  |concept NEN3610 2020|
-| Verplicht  | Ja  |
-| Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, mogelijk het fysieke voorkomen van wegen en terreinen. |
-| Toelichting| *volgt later* Het gaat hierbij over het Type  waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met ander Type hoeft geen apart vlak te worden gevormd. |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip bodem|Ja |
-|Geometrie| |Ja (vlak)|
-|Status   |   |Ja   |
-|Type bodem|aanduiding soort bodem|Ja|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
-
-**Domeinwaarden**
-
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
-
-.
-
-|Waarde Type bodem| Beschrijving   |
-|---|---|
-|   Zand|Type gedetailleerd van verhardingsobject, onverhard  waarvan het oppervlak (deklaag) bestaat uit zand.|
-| 	Zwarte grond|Type gedetailleerd van verhardingsobject, waarvan het oppervlak bestaat uit zwarte grond.|
-| 	Open grond|Type gedetailleerd van verhardingsobject, onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|
 
 
 ### Water
@@ -252,7 +195,7 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip getijdengebied |Ja |
-|Geometrie|De geometrische representatie van de randen van een getijdengebied. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een getijdengebied. |Ja (vlak)|
 |Status   |   |Ja   |
 |Type getijdengebied|aanduiding soort getijdengebied|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -289,73 +232,56 @@ ontwerpprincipe:
 
 ### Begroeiing
 
-#### Loofbos
+#### Bos
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Loofbos  |
+| SOR-begrip   | Bos  |
 | Onderdeel van NEN3610-objecttype | Begroeiing |
 
 **Definitie**
 
-| Naam  | Loofbos |
+| Naam  | Bos |
 |---|---|
-| Definitie |Terreindeel begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |
-| Herkomst definitie  | BGT  |
+| Definitie |Terrein begroeid met een dusdanige aantal bomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |
+| Herkomst definitie  | Gebaseerd op de definities van bos in de BGT 1.1.1 |
 | Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen loofbos van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *loofbos, naaldbos en gemengdbos* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 | Toelichting| |
 
-#####    Griend en hakhout  
-| Klasse  | Naam  |
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | De unieke aanduiding van bos. |Ja |
+|Geometrie| De geometrische representatie van de randen van een bos. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende bos zich bevindt.  |Ja   |
+|Type bos| Aanduiding soort bos.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
 |---|---|
-| SOR-begrip   |    Griend en hakhout    |
-| Onderdeel van NEN3610-objecttype |Begroeiing  |
+|Gepland|	Een bos dat zich in de ontwerpfase bevindt.|
+|Bestaand|	Een bos dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Een bos dat feitelijk is verwijderd.|
+|Niet gerealiseerd|	Een geplande bos dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een bos dat ten onrechte is opgevoerd in de registratie.|
 
+.
 
-**Definitie**
-
-| Naam  |   Griend en hakhout   |
+|Waarde Type bos| Beschrijving   |
 |---|---|
-| Definitie |Terreindeel met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt ingekort.   |   
-|Herkomst definitie  | IMGEO 2.0  |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *griend en hakhout* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| | 
-
- 
-####    Gemengd bos
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   |    Gemengd bos  |
-| Onderdeel van NEN3610-objecttype | Begroeiing  |
-
-
-**Definitie**
-
-| Naam  |    Gemengd bos |
-|---|---|
-| Definitie |Terreindeel begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |   
-|Herkomst definitie  | BGT  |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *gemengd bos* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| | 
-
-#### Naaldbos
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Naaldbos  |
-| Onderdeel van NEN3610-objecttype |Begroeiing  |
-
-
-**Definitie**
-
-| Naam  | Naaldbos |
-|---|---|
-| Definitie |Terreindeel begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
-|Herkomst definitie  | BGT  |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *naaldbos* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| | 
+| loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
+| naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
+| gemengd bos | Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |  
+| Griend en hakhout |Terrein met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt ingekort.   |  
 
 
 
@@ -370,17 +296,43 @@ ontwerpprincipe:
 
 | Naam  |    Gras- en kruidachtigen |
 |---|---|
-| Definitie |(Grond met) een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie.     
-|Herkomst definitie  | CROW |
+| Definitie |(Grond met) een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie. |    
+|Herkomst definitie  | IMBOR 2020 |
 |Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *gras- en kruidachtigen* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *gras- en kruidachtigen*,*grasland agrarisch* en *grasland overig* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | De unieke aanduiding van gras- en kruidachtigen |Ja |
+|Geometrie| De geometrische representatie van de randen van veld met een gras- en kruidachtigens. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende veld met gras- en kruidachtigen zich bevindt.  |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|Gepland|	Een veld met gras- en kruidachtigen dat zich in de ontwerpfase bevindt.|
+|Bestaand|	Een veld met gras- en kruidachtigen dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Een veld met gras- en kruidachtigen dat feitelijk is verwijderd.|
+|Niet gerealiseerd|	Een geplande veld met gras- en kruidachtigen dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een veld met gras- en kruidachtigen dat ten onrechte is opgevoerd in de registratie.|
+
 
 
 ####  Struiken
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Struiken  |
+| SOR-begrip   | Struiken  |
 | Onderdeel van NEN3610-objecttype |Begroeiing  |
 
 
@@ -389,98 +341,103 @@ ontwerpprincipe:
 | Naam  | Struiken |
 |---|---|
 | Definitie |Terreindeel bedekt met lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en eventueel aanwezigheid van enkele verspreid staande stammen.   |    |
-|Herkomst definitie  |   |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struiken* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Herkomst definitie  |  BGT 1.1.1 |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struiken*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
 
+**Eigenschappen**
 
-##### Heesters 
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | De unieke aanduiding van struiken. |Ja |
+|Geometrie| De geometrische representatie van de randen van struiken. |Ja (vlak, 2.5D)|
+|Status   | De fase van de levenscyclus waarin de betreffende struiken zich bevinden.  |Ja   |
+|Type struiken| Aanduiding soort struiken.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|Gepland|	Struiken die zich in de ontwerpfase bevindt.|
+|Bestaand|	Struiken die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Struiken die feitelijk is verwijderd.|
+|Niet gerealiseerd|	Geplande struiken die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Struiken die ten onrechte is opgevoerd in de registratie.|
+
+.
+
+|Waarde Type struiken| Beschrijving   |
+|---|---|
+| heesters |Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een  gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.  | 
+| bosplantsoen |Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of  gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.   |
+|planten||
+|Struikrozen||
+|bodembedekkers||
+
+
+
+
+#### Kale grond
+
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Heesters   |
-| Onderdeel van NEN3610-objecttype |Begroeiing  |
+| SOR-begrip   | Kale grond |
+| Onderdeel van NEN3610-objecttype |  Kale grond  |
 
 
 **Definitie**
 
-| Naam  | Heesters  |
+| Naam  | Kale grond |
 |---|---|
-| Definitie |Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een  gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.  | 
-|Herkomst definitie  |   |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *heesters* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| | 
+| Definitie |Bovenste deel van het natuurlijke aardoppervlak.|
+| Herkomst definitie  | Gebaseerd op definitie van bodem in concept NEN3610 2020|
+| Verplicht  | Ja  |
+| Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen  type *onverhard* van wegen en terreinen in de basisregistratie grootschalige topografie. |
+| Toelichting| Het gaat hierbij over het type  waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met ander Type hoeft geen apart vlak te worden gevormd. |
 
+**Eigenschappen**
 
-##### Bosplantsoen 
-| Klasse  | Naam  |
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip kale grond|Ja |
+|Geometrie| De geometrische representatie van de randen van kale grond.|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende stuk kale grond zich bevindt.  |Ja   |
+|Type kale grond| De aanduiding soort kale grond|Ja|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
 |---|---|
-|SOR-begrip   | Bosplantsoen   |
-| Onderdeel van NEN3610-objecttype |Begroeiing  |
+|Gepland|	Kale grond die zich in de ontwerpfase bevindt.|
+|Bestaand|	Kale grond die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Kale grond die feitelijk is verwijderd.|
+|Niet gerealiseerd|	Geplande kale grond die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Kale grond die ten onrechte is opgevoerd in de registratie.|
 
+.
 
-**Definitie**
-
-| Naam  | Bosplantsoen  |
+|Waarde Type kale grond| Beschrijving   |
 |---|---|
-| Definitie |Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of  gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.   |    
-|Herkomst definitie  | CROW |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bosplantsoen* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| | 
-
-##### Planten
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Planten  |
-| Onderdeel van NEN3610-objecttype |Begroeiing  |
+|   Zand| Onverhard waarvan het oppervlak (deklaag) bestaat uit zand.|
+| 	Zwarte grond| Onverhard waarvan het oppervlak bestaat uit zwarte grond.|
+| 	Open grond| Onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|
 
 
-**Definitie**
-
-| Naam  | Planten |
-|---|---|
-| Definitie |*niet ingevuld*  |    |
-|Herkomst definitie  |   |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *planten* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| | 
-
-
-##### Struikrozen
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Struikrozen  |
-| Onderdeel van NEN3610-objecttype |Begroeiing  |
-
-
-**Definitie**
-
-| Naam  | Struikrozen |
-|---|---|
-| Definitie |*niet ingevuld*  |    |
-|Herkomst definitie  |   |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struikrozen* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| | 
-
-##### Bodembedekkers
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Bodembedekkers  |
-| Onderdeel van NEN3610-objecttype |Begroeiing  |
-
-
-**Definitie**
-
-| Naam  | Bodembedekkers |
-|---|---|
-| Definitie |*niet ingevuld*  |    |
-|Herkomst definitie  |   |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bodembedekkers* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| |
 
 
 #### Haag
