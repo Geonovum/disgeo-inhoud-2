@@ -437,6 +437,50 @@ ontwerpprincipe:
 | 	Zwarte grond| Onverhard waarvan het oppervlak bestaat uit zwarte grond.|
 | 	Open grond| Onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|
 
+#### Bouwland 
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Bouwland  |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+
+**Definitie**
+
+| Naam  | Bouwland  |
+|---|---|
+| Definitie |Terrein in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
+|Herkomst definitie  | BGT 1.1.1 |
+|Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | De unieke aanduiding van bouwland. |Ja |
+|Geometrie| De geometrische representatie van de randen van een bouwland. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende bouwland zich bevindt.  |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+|Waarde Status| Beschrijving   |
+|---|---|
+|Gepland|	Bouwland dat zich in de ontwerpfase bevindt.|
+|Bestaand|	Bouwland dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	Bouwland dat feitelijk is verwijderd.|
+|Niet gerealiseerd|	Gepland bouwland dat niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Bouwland dat ten onrechte is opgevoerd in de registratie.|
+
+
+
 
 ### Tuunwallen
 | Klasse  | Naam  |
@@ -600,22 +644,7 @@ lucht en water. |
 
 
 
-#### Bouwland 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Bouwland  |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
 
-
-**Definitie**
-
-| Naam  | Bouwland  |
-|---|---|
-| Definitie |Terreindeel in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
-|Herkomst definitie  | BGT  |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
 
 
 
