@@ -206,7 +206,7 @@ ontwerpprincipe:
 
 ### Transportvoorziening; Waterelement
 
-### Inrit
+
 
 
 
@@ -445,6 +445,7 @@ ontwerpprincipe:
 
 #### VERKEER
 
+#### Inrit
 
 #### Voetgangersgebied
 | Klasse  | Naam  |
@@ -1489,29 +1490,12 @@ ontwerpprincipe:
 
 ### Functionele zonering GROEN
 
-<div class='note'>
-    De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
-</div>
-
-
-|Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|Functioneel Gebied (groen)|	Functie:	 ||
-||*Niet BGT*| 	 	Landbouw|
-||*Niet BGT*| 	 	recreatie: speeltuin|
-||*Niet BGT*| 	 	recreatie: park|
-||*Niet BGT*| 	 	recreatie: sportterrein|
-||*Niet BGT*| 	 	recreatie: camping|
-||*Niet BGT*| 	 	recreatie: bungalowpark|
-||*Niet BGT*| 	 	recreatie: volkstuin|  
 
 #### Strand
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Strand |
 | Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -1521,6 +1505,28 @@ ontwerpprincipe:
 |Herkomst definitie  | IMGeo 2.1.1 |
 |Verplicht  | Ja  |
 |Toelichting|  |
+
+#### Zandverstuiving
+
+#### Begraafplaats
+.
+#### Speeltuin
+|Naam| 	speeltuin|
+
+#### Park
+|Naam| 	park|
+
+#### Sportterrein
+|Naam| 	sportterrein|
+
+#### Camping
+|Naam| 	camping|
+
+#### Bungalowpark
+|Naam| 	bungalowpark|
+
+#### Volkstuin
+|Naam| 	volkstuin|  
 
 
 
