@@ -28,7 +28,7 @@ ontwerpprincipe:
 
 | Naam  | Knoop  |
 |---|---|
-| Definitie | Een knoop is een beslispunt waarop de weggebruiker een keuze moet maken. |
+| Definitie | Een knoop is een begin-, eind- of keuzepunt voor de weggebruiker. |
 | Herkomst definitie  | conceptueel model netwerken     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening||
@@ -39,8 +39,8 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een knoop  |Ja |
-|Geometrie |De geometrische representatie van een knoop |Ja (punt), Nee (lijn,vlak)|
-|Naam|Naam van de knoop zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is)|
+|Geometrie |De geometrische representatie van een knoop |Ja (punt), Nee (vlak)|
+|Naam|Naam van de knoop zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is) (LR)|
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -96,7 +96,7 @@ ontwerpprincipe:
 |Type wegverbinding||
 |Type weg||
 |Hoofdverkeersgebruik||
-|Naam|Naam van de weg zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is)|
+|Naam|Naam van de weg zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is)(LR)|
 |Status   |De fase van de levenscyclus waarin de betreffende wegverbinding zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -105,6 +105,7 @@ ontwerpprincipe:
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 | hoort bij 2 | knoop |ja|
+| heeft een | openbare ruimte | ja (als er een openbare ruimte benoemd is)(LR) |
 
 **Domeinwaarden**
 
