@@ -54,7 +54,6 @@ Het is belangrijk dat de verschillende sectorale informatiemodellen zoveel mogel
 
 Hierbij is als grondgedachte gehanteerd dat gestreefd moet worden naar een “uitklapmodel”. Hiermee wordt bedoeld dat in de samenhangende objectenregistratie begrippen op een zodanig abstractieniveau worden opgenomen dat zij weliswaar voldoende concreet zijn om in de uitvoeringspraktijk herkenbaar te zijn, maar dat zij niet zo concreet zijn dat er sprake is van een mate van detail die passender is voor de opname in een sectorale registratie. De in de samenhangende objectenregistratie opgenomen begrippen moeten daarbij kunnen fungeren als een verzamelklasse van begrippen die in een sectoraal model zijn opgenomen. Bij begrippen kan het daarbij zowel gaan om objecttypen als om typeringen van objecttypen.
 
-
 <aside class='example'>
  In de samenhangende objectenregistratie wordt opgenomen dat het “type verharding” van een verhardingsobject de waarde “betonverharding” kan aannemen. In het informatiemodel voor het beheren van de openbare ruimte (IMBOR) is opgenomen dat deze typering van betonverharding nader kan worden verfijnd in onder meer “Ongewapend verdeuveld beton “ en “Gewapend beton”. Deze typeringen sluiten als een “uitklapmodel” op elkaar aan. Als in een lokale wegbeheer-registratie een verharding is opgenomen van het type “Gewapend beton”, zal deze verharding in de samenhangende objectenregistratie worden aangetroffen als een verharding van een type “betonverharding”.
 </aside>
