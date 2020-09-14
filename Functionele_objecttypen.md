@@ -558,18 +558,18 @@ ontwerpprincipe:
 
 #### Wegzone
 
-#### Verkeerseiland
+#### Wegzone
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Verkeerseiland |
+| SOR-begrip   | Wegzone |
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
 
 **Definitie**
 
-| Naam  | Verkeerseiland  |
+| Naam  | Wegzone  |
 |---|---|
-| Definitie | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.  |
-|Herkomst definitie  | IMBOR2020-1 |
+| Definitie |   |
+|Herkomst definitie  |  |
 |Verplicht  | Ja  |
 |Toelichting|  |
 
@@ -577,9 +577,9 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een verkeerseiland  |Ja |
-|Geometrie |De geometrische representatie van een verkeerseiland  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende verkeerseiland zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een wegzone.  |Ja |
+|Geometrie |De geometrische representatie van een wegzone.  |Ja (vlak) |
+|Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt .  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -589,290 +589,42 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een verkeerseiland dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een verkeerseiland dat is gerealiseerd|
-|Beëindigd|	Een verkeerseiland dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland verkeerseiland dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Verkeerseiland is ten onrechte opgevoerd in de registratie|
 
-
-#### Berm
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Berm |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
+|Gepland|	Een wegzone die zich in de ontwerpfase bevindt |
+|Gevormd|	Een wegzone die is gerealiseerd|
+|Beëindigd|	Een wegzone die als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een geplande wegzone die niet als zodanig is gerealiseerd|
+|Ten onrechte|	Een wegzone die ten onrechte is opgevoerd in de registratie|
 
 <div class='note'>
-    definitie afstemmen tussen werkgroep GRIJS en GROEN
+    Niet alle type wegzones verplicht maken
 </div>
 
-
-**Definitie**
-
-| Naam  | Berm |
+|Waarde type	|Beschrijving|
 |---|---|
-| Definitie | Een strook grond langs een weg of spoorweg. |
-|Herkomst definitie  | BGT 1.1.1. |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *berm* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een berm  |Ja |
-|Geometrie |De geometrische representatie van een berm  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende berm zich bevindt   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een berm die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een berm die is gerealiseerd.|
-|Beëindigd|	Een berm die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande berm die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een berm die ten onrechte is opgevoerd in de registratie.|
-
-#### Halteplaats
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Halteplaats |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Halteplaats |
-|---|---|
-| Definitie | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer. |
-|Herkomst definitie  | IMBOR 2020 |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *bushalte* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een halteplaats.  |Ja |
-|Geometrie |De geometrische representatie van randen van een halteplaats.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende halteplaats zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een halteplaats die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een halteplaats die is gerealiseerd.|
-|Beëindigd|	Een halteplaats die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande halteplaats die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een halteplaats die ten onrechte is opgevoerd in de registratie.|
-
-#### Laadplein
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Laadplein |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Laadplein |
-|---|---|
-| Definitie | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben. |
-|Herkomst definitie  | IMBOR 2020 |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier een nieuw objecttype. |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een laadplein.  |Ja |
-|Geometrie |De geometrische representatie van randen van een laadplein.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende laadplein zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een laadplein die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een laadplein die is gerealiseerd.|
-|Beëindigd|	Een laadplein die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande laadplein die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een laadplein die ten onrechte is opgevoerd in de registratie.|
-
-#### Verkeersdrempel
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Verkeersdrempel |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Verkeersdrempel |
-|---|---|
-| Definitie | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| verplicht |
-|Herkomst definitie  | IMGeo 2.2 |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *verkeersdrempel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een verkeersdrempel.  |Ja |
-|Geometrie |De geometrische representatie van randen van een verkeersdrempel.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende verkeersdrempel zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een verkeersdrempel die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een verkeersdrempel die is gerealiseerd.|
-|Beëindigd|	Een verkeersdrempel die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande verkeersdrempel die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een verkeersdrempel die ten onrechte is opgevoerd in de registratie.|
-
-#### Molgoot
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Molgoot |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Molgoot |
-|---|---|
-| Definitie | Smalle goot in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |
-|Herkomst definitie  | IMGeo 2.2 |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *molgoot* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een molgoot.  |Ja |
-|Geometrie |De geometrische representatie van randen van een molgoot.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende molgoot zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een molgoot die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een molgoot die is gerealiseerd.|
-|Beëindigd|	Een molgoot die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande molgoot die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een molgoot die ten onrechte is opgevoerd in de registratie.|
-
-
-
-
-
-#### Wildrooster
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Wildrooster |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.  |
+| Berm | Een strook grond langs een weg of spoorweg. |
+| Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer. |
+| Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben. |
+| Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| 
+| Molgoot | Smalle goot in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |
+| Wildrooster | Horizontaal raamwerk dat dient om wild de doorgang te beletten.   |
 
 <div class='note'>
     Wildrooster of Rooster. Rooster is algemener. Rooster kan dan ook een fysiek verhardingstype zijn.
 </div>
 
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Wildrooster  |
-|---|---|
-| Definitie | Horizontaal raamwerk dat dient om wild de doorgang te beletten.   |
-|Herkomst definitie  |  IMGeo 2.2   |
-|Verplicht  | Nee  |
-|Gevolgen afbakening|Het betreft hier de bestaande populatie *wildrooster* zoals deze is opgenomen in de basisregistratie grootschalige topografie.|
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip wildrooster|Ja |
-|Geometrie|De geometrische representatie van randen van een wildrooster.|ja (vlak)|
-|Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een wildrooster dat zich in de ontwerpfase bevindt. |
-|Gevormd|	Een wildrooster dat is gerealiseerd.|
-|Beëindigd|	Een wildrooster dat als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande wildrooster dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een wildrooster dat ten onrechte is opgevoerd in de registratie.|
-
-
-#### LUCHTVAART
-
-#### Baan voor vliegverkeer
+#### Luchtvaartzone
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Baan voor vliegverkeer |
+| SOR-begrip   | Luchtvaartzone |
 | Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 **Definitie**
 
-| Naam  | Baan voor vliegverkeer |
+| Naam  | Luchtvaartzone |
 |---|---|
-| Definitie | Wegdeel uitsluitend bedoeld voor vliegverkeer.  |
+| Definitie |   |
 |Herkomst definitie  | |
 |Verplicht  | Ja  |
 |Toelichting|  |
@@ -882,9 +634,9 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een baan voor vliegverkeer  |Ja |
-|Geometrie |De geometrische representatie van een baan voor vliegverkeer  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende baan voor vliegverkeer zich bevindt   |Ja   |
+|Identificatie   |De unieke aanduiding van een luchtvaartzone.  |Ja |
+|Geometrie |De geometrische representatie van een luchtvaartzone. |Ja |
+|Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -896,56 +648,24 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een baan voor vliegverkeer dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een baan voor vliegverkeer dat is gerealiseerd|
-|Beëindigd|	Een baan voor vliegverkeer dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland baan voor vliegverkeer dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Baan voor vliegverkeer is ten onrechte opgevoerd in de registratie|
+|Gepland|	Een luchtvaartzone die zich in de ontwerpfase bevindt |
+|Gevormd|	Een luchtvaartzone die is gerealiseerd|
+|Beëindigd|	Een luchtvaartzone die als zodanig opgehouden heeft te bestaan|
+|Niet gerealiseerd|	Een geplande luchtvaartzone die niet als zodanig is gerealiseerd|
+|Ten onrechte|	Een luchtvaartzone die ten onrechte is opgevoerd in de registratie|
 
+.
 
-#### Luchthaven
-| Klasse  | Naam  |
+|Waarde type	|Beschrijving|
 |---|---|
-| SOR-begrip   | Luchthaven |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
+| Baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer.  |
+| Luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accomodatie voor ontvangst en vertrek van passagiers en verzending van goederen.  |
 
 <div class='note'>
-    alleen opnemen als dit door BRT.next wordt aangegeven
+    Luchthaven alleen opnemen als dit door BRT.next wordt aangegeven
 </div>
 
-**Definitie**
 
-| Naam  | Luchthaven |
-|---|---|
-| Definitie | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accomodatie voor ontvangst en vertrek van passagiers en verzending van goederen.  |
-|Herkomst definitie  | |
-|Verplicht  | Ja  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een luchthaven  |Ja |
-|Geometrie |De geometrische representatie van een luchthaven  |Ja |
-|Status   |De fase van de levenscyclus waarin het betreffende luchthaven zich bevindt   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een luchthaven dat zich in de ontwerpfase bevindt |
-|Gevormd|	Een luchthaven dat is gerealiseerd|
-|Beëindigd|	Een luchthaven dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland luchthaven dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Luchthaven is ten onrechte opgevoerd in de registratie|
 
 
 
