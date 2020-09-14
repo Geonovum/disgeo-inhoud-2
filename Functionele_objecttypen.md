@@ -460,7 +460,7 @@ ontwerpprincipe:
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een verkeerskundig functionele zone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone.  |Ja (vlak)|
-|Type| Een catagorisering van de verschillende verkeerskundig functionele zones.| Ja|
+|Type| Een categorisering van de verschillende verkeerskundig functionele zones.| Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt.   |Ja  |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -523,7 +523,7 @@ ontwerpprincipe:
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een spoorzone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een spoorzone.  |Ja (vlak) |
-|Type| Een catagorisering van verschillende type spoorzones. |Ja|
+|Type| Een categorisering van verschillende type spoorzones. |Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -577,7 +577,7 @@ ontwerpprincipe:
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een wegzone.  |Ja |
 |Geometrie |De geometrische representatie van een wegzone.  |Ja (vlak) |
-|Type | Een catagorisering van verschillende wegzones. | Ja|
+|Type | Een categorisering van verschillende wegzones. | Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -637,7 +637,7 @@ ontwerpprincipe:
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een luchtvaartzone.  |Ja |
 |Geometrie |De geometrische representatie van een luchtvaartzone. |Ja (vlak)|
-|Type| Een catagorisering van type luchtvaartzone. | Ja|
+|Type| Een categorisering van type luchtvaartzone. | Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
