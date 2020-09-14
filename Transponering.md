@@ -2,14 +2,14 @@
 
 ### BGT
 
-|Object	BGT| classificatie (verplicht)|	Plus classificatie (optioneel)	|| SOR begrip|
-|---|---|---|---|---|		
+|Object	BGT| classificatie (verplicht)|	Plus classificatie (optioneel)	| SOR begrip|
+|---|---|---|---|		
 |Transport|			
-|Wegdeel|	Functie:|	||	vervalt |
-||	OV-baan	|||	wordt opgenomen als functioneel gebied (verplicht)|
-||	overweg	|||	wordt opgenomen als functioneel gebied (verplicht)|
-||	spoorbaan	|||	wordt opgenomen als functioneel gebied (verplicht)|
-||	baan voor vliegverkeer	|||	wordt opgenomen als functioneel gebied (verplicht)|
+|Wegdeel|	Functie:|	|	vervalt |
+||	OV-baan	||wordt opgenomen als functioneel gebied (verplicht)|
+||	overweg	||	wordt opgenomen als functioneel gebied (verplicht)|
+||	spoorbaan	||	wordt opgenomen als functioneel gebied (verplicht)|
+||	baan voor vliegverkeer	||	wordt opgenomen als functioneel gebied (verplicht)|
 
 
 ### BAG
