@@ -451,7 +451,7 @@ ontwerpprincipe:
 | Definitie |  |
 |Herkomst definitie  | |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende typeringen zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende typeringen zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -460,7 +460,7 @@ ontwerpprincipe:
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een verkeerskundig functionele zone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone.  |Ja (vlak)|
-|Type| |
+|Type| Een catagorisering van de verschillende verkeerskundig functionele zones.| Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt.   |Ja  |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -481,7 +481,6 @@ ontwerpprincipe:
 | Inrit||
 | Woonerf | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. |
 | Parkeervlak | Wegdeel bestemd voor het parkeren van motorvoertuigen. |
-|Herkomst definitie  | BGT 1.1.1 |
 | Carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling. |
 | Transferium | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto. |
 | Verzorgingsplaats |  Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |
@@ -514,7 +513,7 @@ ontwerpprincipe:
 | Definitie |   |
 |Herkomst definitie  ||
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type spoorzone zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type spoorzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -524,7 +523,7 @@ ontwerpprincipe:
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een spoorzone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een spoorzone.  |Ja (vlak) |
-|Type||
+|Type| Een catagorisering van verschillende type spoorzones. |Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -557,8 +556,6 @@ ontwerpprincipe:
 </div>
 
 #### Wegzone
-
-#### Wegzone
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Wegzone |
@@ -571,6 +568,7 @@ ontwerpprincipe:
 | Definitie |   |
 |Herkomst definitie  |  |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type wegzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -579,7 +577,8 @@ ontwerpprincipe:
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een wegzone.  |Ja |
 |Geometrie |De geometrische representatie van een wegzone.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt .  |Ja   |
+|Type | Een catagorisering van verschillende wegzones. | Ja|
+|Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -589,7 +588,8 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-
+|Waarde status	|Beschrijving|
+|---|---|
 |Gepland|	Een wegzone die zich in de ontwerpfase bevindt |
 |Gevormd|	Een wegzone die is gerealiseerd|
 |Beëindigd|	Een wegzone die als zodanig opgehouden heeft te bestaan|
@@ -627,6 +627,7 @@ ontwerpprincipe:
 | Definitie |   |
 |Herkomst definitie  | |
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type luchtvaartzones zoals deze zijn opgenomen in de basisregistratie (grootschalige) topografie.  |
 |Toelichting|  |
 
 
@@ -635,7 +636,8 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een luchtvaartzone.  |Ja |
-|Geometrie |De geometrische representatie van een luchtvaartzone. |Ja |
+|Geometrie |De geometrische representatie van een luchtvaartzone. |Ja (vlak)|
+|Type| Een catagorisering van type luchtvaartzone. | Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
