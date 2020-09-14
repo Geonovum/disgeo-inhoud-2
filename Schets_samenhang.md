@@ -48,6 +48,19 @@ De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptu
 |Geografisch gebied|	Gebied dat bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent.|
 |Juridisch werkingsgebied| Gebied waar een juridisch instrument beleid of regelgeving toepast.|
 
+### Aansluiting sectormodellen
+
+Het is belangrijk dat de verschillende sectorale informatiemodellen zoveel mogelijk aangesloten kunnen worden op het informatiemodel van de samenhangende objectenregistratie. Bij het opstellen van het conceptueel informatiemodel is daarom zoveel mogelijk beoordeeld in hoeverre een dergelijke aansluiting te realiseren is. Soms betekent dat een aanpassing van begrippen zoals deze in de huidige basisregistraties voorkomen, soms zal dit betekenen dat op termijn aanpassingen in de sectormodellen doorgevoerd moeten worden.
+Hierbij is als grondgedachte gehanteerd dat gestreefd moet worden naar een “uitklapmodel”. Hiermee wordt bedoeld dat in de samenhangende objectenregistratie begrippen op een zodanig abstractieniveau worden opgenomen dat zij weliswaar voldoende concreet zijn om in de uitvoeringspraktijk herkenbaar te zijn, maar dat zij niet zo concreet zijn dat er sprake is van een mate van detail die passender is voor de opname in een sectorale registratie. De in de samenhangende objectenregistratie opgenomen begrippen moeten daarbij kunnen fungeren als een verzamelklasse van begrippen die in een sectoraal model zijn opgenomen. Bij begrippen kan het daarbij zowel gaan om objecttypen als om typeringen van objecttypen.
+
+<aside class='example'>
+ In de samenhangende objectenregistratie wordt opgenomen dat het “type verharding” van een verhardingsobject de waarde “betonverharding” kan aannemen. In het informatiemodel voor het beheren van de openbare ruimte (IMBOR) is opgenomen dat deze typering van betonverharding nader kan worden verfijnd in onder meer “Ongewapend verdeuveld beton “ en “Gewapend beton”. Deze typeringen sluiten als een “uitklapmodel” op elkaar aan. Als in een lokale wegbeheer-registratie een verharding is opgenomen van het type “Gewapend beton”, zal deze verharding in de samenhangende objectenregistratie worden aangetroffen als een verharding van een type “betonverharding”.
+</aside>
+
+
+Deze benadering betekent ook dat ervoor is gekozen om in de eerste opzet van het conceptueel model een aantal gedetailleerde objecttypen of typeringen van objecttypen niet langer als zodanig op te nemen. Deze begrippen zijn dan samengevoegd tot een minder gedetailleerd begrip dat weliswaar nog steeds de essentie aangeeft van het betreffende object, maar dat een mindere mate van detaillering geeft dan in de huidige registratie. Het gaat hierbij overigens veelal om begrippen die in de huidige uitvoeringspraktijk niet of slechts zeer beperkt worden toegepast. Indien het gewenst is wel gedetailleerde informatie over deze objecten te verkrijgen, zal deze moeten worden afgenomen vanuit een sectorale registratie (indien aanwezig).
+
+
 
 ### Overzicht van de SOR-begrippen
 
