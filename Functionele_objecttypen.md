@@ -49,6 +49,7 @@ ontwerpprincipe:
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 | hoort bij 1 of meer | verbindingen |Ja|
+| heeft een| openbare ruimte | Ja (als er een openbare ruimte benoemd is) (LR) |
 
 **Domeinwaarden**
 
@@ -462,6 +463,7 @@ ontwerpprincipe:
 |Identificatie   |De unieke aanduiding van een verkeerskundig functionele zone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone.  |Ja (vlak)|
 |Type| Een categorisering van de verschillende verkeerskundig functionele zones.| Ja|
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt.   |Ja  |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -525,6 +527,7 @@ ontwerpprincipe:
 |Identificatie   |De unieke aanduiding van een spoorzone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een spoorzone.  |Ja (vlak) |
 |Type| Een categorisering van verschillende type spoorzones. |Ja|
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -639,6 +642,7 @@ ontwerpprincipe:
 |Identificatie   |De unieke aanduiding van een luchtvaartzone.  |Ja |
 |Geometrie |De geometrische representatie van een luchtvaartzone. |Ja (vlak)|
 |Type| Een categorisering van type luchtvaartzone. | Ja|
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -714,7 +718,7 @@ ontwerpprincipe:
 
 #### Volkstuin
 |Naam| 	volkstuin|  
-
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 
 
 ### Functionele zonering BLAUW
@@ -759,6 +763,7 @@ ontwerpprincipe:
 |Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
 |Geometrie||nee (lijn)|
 |type kering|||
+|Naam|Een breed geaccepteerde benaming van een kering zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -840,6 +845,7 @@ ontwerpprincipe:
 |Identificatie   |De unieke aanduiding van het SOR-begrip complex|Ja |
 |Geometrie||nee (vlak)|
 |Type complex|||
+|Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
