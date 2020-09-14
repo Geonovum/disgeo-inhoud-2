@@ -385,17 +385,17 @@ ontwerpprincipe:
 
 
 
-#### Kale grond
+#### Onbegroeide grond
 
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Kale grond |
-| Onderdeel van NEN3610-objecttype |  Kale grond  |
+| SOR-begrip   | Onbegroeide grond |
+| Onderdeel van NEN3610-objecttype |  Bodem  |
 
 
 **Definitie**
 
-| Naam  | Kale grond |
+| Naam  | Onbegroeide grond |
 |---|---|
 | Definitie |Bovenste deel van het natuurlijke aardoppervlak.|
 | Herkomst definitie  | Gebaseerd op definitie van bodem in concept NEN3610 2020|
@@ -407,10 +407,10 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kale grond|Ja |
-|Geometrie| De geometrische representatie van de randen van kale grond.|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het betreffende stuk kale grond zich bevindt.  |Ja   |
-|Type kale grond| De aanduiding soort kale grond|Ja|
+|Identificatie   |De unieke aanduiding van het SOR-begrip onbegroeide grond|Ja |
+|Geometrie| De geometrische representatie van de randen van onbegroeide grond.|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt.  |Ja   |
+|Type kale grond| De aanduiding soort onbegroeide grond|Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -423,15 +423,15 @@ ontwerpprincipe:
 
 |Waarde Status| Beschrijving   |
 |---|---|
-|Gepland|	Kale grond die zich in de ontwerpfase bevindt.|
-|Bestaand|	Kale grond die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Kale grond die feitelijk is verwijderd.|
-|Niet gerealiseerd|	Geplande kale grond die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Kale grond die ten onrechte is opgevoerd in de registratie.|
+|Gepland|	onbegroeide grond die zich in de ontwerpfase bevindt.|
+|Bestaand|	onbegroeide grond die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
+|Verwijderd|	onbegroeide grond die feitelijk is verwijderd.|
+|Niet gerealiseerd|	Geplande onbegroeide grond die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	onbegroeide grond die ten onrechte is opgevoerd in de registratie.|
 
 .
 
-|Waarde Type kale grond| Beschrijving   |
+|Waarde Type | Beschrijving   |
 |---|---|
 |   Zand| Onverhard waarvan het oppervlak (deklaag) bestaat uit zand.|
 | 	Zwarte grond| Onverhard waarvan het oppervlak bestaat uit zwarte grond.|
