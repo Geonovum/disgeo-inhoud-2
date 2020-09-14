@@ -1312,6 +1312,7 @@ ontwerpprincipe:
 |Geometrie|De geometrische representatie van de randen van een overbrugging.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
 |Status   |   |Ja   |
 |Type overbrugging|aanduiding soort overbrugging|Nee|
+|Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |*Beweegbaar*|*aanduiding of overbrugging beweegbaar is (open en dicht kan)*|*Ja*|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -1369,6 +1370,7 @@ ontwerpprincipe:
 |Geometrie|De geometrische representatie van de randen van een ondertunneling.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
 |Status   |   |Ja   |
 |Type ondertunneling|aanduiding soort ondertunneling|Nee|
+|Naam| Een breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
