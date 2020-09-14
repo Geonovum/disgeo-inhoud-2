@@ -213,16 +213,10 @@ ontwerpprincipe:
 
 
 ### Functionele zonering
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Functionele zonering |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
-
 
 <div class='note'>
     De functionele zoneringen zijn voor het overzicht opgedeeld in rode, grijze, groene, blauwe en overige gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein.
 </div>
-
  
 
 ### Functionele zonering ROOD
@@ -443,33 +437,31 @@ ontwerpprincipe:
 
 ### Functionele zonering GRIJS
 
-#### VERKEER
+#### Verkeerskundig functionele zone
 
-#### Inrit
-
-#### Voetgangersgebied
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Voetgangersgebied |
+| SOR-begrip   | Verkeerskundig functionele zone |
 | Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 **Definitie**
 
-| Naam  | Voetgangersgebied |
+| Naam  | Verkeerskundig functionele zone |
 |---|---|
-| Definitie | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. |
-|Herkomst definitie  | BGT 1.1.1. |
+| Definitie |  |
+|Herkomst definitie  | |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *voetgangersgebied* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende typeringen zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een voetgangersgebied.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een voetgangersgebied.  |Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende voetgangersgebied zich bevindt.   |Ja  |
+|Identificatie   |De unieke aanduiding van een verkeerskundig functionele zone.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone.  |Ja (vlak)|
+|Type| |
+|Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt.   |Ja  |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -479,73 +471,50 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde status	|Beschrijving|
+<div class='note'>
+    Carpoolplaats, Transferium, Verzorgingsplaats, Parkeerplaats alleen opnemen als dit door BRT.next wordt aangegeven
+</div>
+
+|Waarde type|	Beschrijving|
 |---|---|
-|Gepland|	Een voetgangersgebied dat zich in de ontwerpfase bevindt. |
-|Gevormd|	Een voetgangersgebied dat is gerealiseerd.|
-|Beëindigd|	Een voetgangersgebied dat als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een gepland voetgangersgebied dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een voetgangersgebied dat ten onrechte is opgevoerd in de registratie.|
-
-
-#### Woonerf
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Woonerf |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-
-**Definitie**
-
-| Naam  | Woonerf |
-|---|---|
-| Definitie | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. |
-|Herkomst definitie  | BGT 1.1.1. |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *woonerf* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een woonerf.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een woonerf.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende woonerf zich bevindt.  |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een woonerf dat zich in de ontwerpfase bevindt. |
-|Gevormd|	Een woonerf dat is gerealiseerd.|
-|Beëindigd|	Een woonerf dat als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een gepland woonerf dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een woonerf dat ten onrechte is opgevoerd in de registratie.|
-
-
-
-#### Parkeervlak
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Parkeervlak |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-
-**Definitie**
-
-| Naam  | Parkeervlak |
-|---|---|
-| Definitie | Wegdeel bestemd voor het parkeren van motorvoertuigen. |
+| Voetgangersgebied | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. |
+| Inrit||
+| Woonerf | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. |
+| Parkeervlak | Wegdeel bestemd voor het parkeren van motorvoertuigen. |
 |Herkomst definitie  | BGT 1.1.1 |
+| Carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling. |
+| Transferium | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto. |
+| Verzorgingsplaats |  Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |
+| OV-baan |  Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen.|
+| Parkeerplaats |  Parkeergelegenheid voor meerdere voertuigen in de openlucht.|
+| Benzinestation |  Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.|
+| Snellaadstation |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd. |
+| Zone |  Verkeerskundige afbakening van een gebied. |
+
+.
+
+|Waarde status	|Beschrijving|
+|---|---|
+|Gepland|	Een verkeerskundig functionele zone die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een verkeerskundig functionele zone die is gerealiseerd.|
+|Beëindigd|	Een verkeerskundig functionele zone die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande verkeerskundig functionele zone die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een verkeerskundig functionele zone die ten onrechte is opgevoerd in de registratie.|
+
+#### Spoorzone
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Spoorzone |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Spoorzone |
+|---|---|
+| Definitie |   |
+|Herkomst definitie  ||
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *parkeervlak* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type spoorzone zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 
@@ -553,9 +522,10 @@ ontwerpprincipe:
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een parkeervlak.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een parkeervlak.  |Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende parkeervlak zich bevindt.   |Ja   |
+|Identificatie   |De unieke aanduiding van een spoorzone.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een spoorzone.  |Ja (vlak) |
+|Type||
+|Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -567,532 +537,26 @@ ontwerpprincipe:
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland|	Een parkeervlak dat zich in de ontwerpfase bevindt. |
-|Gevormd|	Een parkeervlak dat is gerealiseerd.|
-|Beëindigd|	Een parkeervlak dat als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een gepland parkeervlak dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Parkeervlak is ten onrechte opgevoerd in de registratie.|
+|Gepland|	Een spoorzone die zich in de ontwerpfase bevindt. |
+|Gevormd|	Een spoorzone die is gerealiseerd.|
+|Beëindigd|	Een spoorzone die als zodanig opgehouden heeft te bestaan.|
+|Niet gerealiseerd|	Een geplande spoorzone die niet als zodanig is gerealiseerd.|
+|Ten onrechte|	Een spoorzone die ten onrechte is opgevoerd in de registratie.|
 
+.
 
-#### Carpoolplaats
-| Klasse  | Naam  |
+| Waarde status	|Beschrijving|
 |---|---|
-| SOR-begrip   | Carpoolplaats |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
+| Perron |  Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. |
+| Overweg | Een gelijkvloerse kruising van een weg met een spoor type trein of sneltram. |
+| Spoorbaan | Gebaand gedeelte voor het verkeer over rails. |
+| Emplacement | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen. |
 
 <div class='note'>
-    alleen opnemen als dit door BRT.next wordt aangegeven
+    Emplacement alleen opnemen als dit door BRT.next wordt aangegeven 
 </div>
 
-**Definitie**
-
-| Naam  | Carpoolplaats |
-|---|---|
-| Definitie | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling. |
-|Herkomst definitie  | IMGeo 2.2|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *carpoolplaats* zoals deze is opgenomen in de basisregistratie grootschalige topografie gecombineerd met de bestaande populatie *carpoolplaats* zoals deze is opgenomen in de basisregistratie topografie. |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een carpoolplaats.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een carpoolplaats.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende carpoolplaats zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een carpoolplaats die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een carpoolplaats die is gerealiseerd.|
-|Beëindigd|	Een carpoolplaats die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande carpoolplaats die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een carpoolplaats die ten onrechte is opgevoerd in de registratie.|
-
-#### Transferium
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Transferium |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-<div class='note'>
-    alleen opnemen als dit door BRT.next wordt aangegeven
-</div>
-
-**Definitie**
-
-| Naam  | Transferium |
-|---|---|
-| Definitie | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto. |
-|Herkomst definitie  | IMBOR 2020 |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *P+R parkeerplaats* zoals deze is opgenomen in de basisregistratie topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een transferium.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een transferium. |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende transferium zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een transferium dat zich in de ontwerpfase bevindt. |
-|Gevormd|	Een transferium dat is gerealiseerd.|
-|Beëindigd|	Een transferium dat als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een gepland transferium dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een transferium dat ten onrechte is opgevoerd in de registratie.|
-
-
-
-#### Verzorgingsplaats
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Verzorgingsplaats |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-<div class='note'>
-    alleen opnemen als dit door BRT.next wordt aangegeven
-</div>
-
-**Definitie**
-
-| Naam  | Verzorgingsplaats |
-|---|---|
-| Definitie |  Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen. |
-|Herkomst definitie  | IMGeo 2.2 |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *verzorgingsplaats* zoals deze is opgenomen in de basisregistratie topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een verzorgingsplaats.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een verzorgingsplaats.  |Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende verzorgingsplaats zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een verzorgingsplaats die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een verzorgingsplaats die is gerealiseerd.|
-|Beëindigd|	Een verzorgingsplaats die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande verzorgingsplaats die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een verzorgingsplaats die ten onrechte is opgevoerd in de registratie.|
-
-#### OV-baan
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | OV-baan |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | OV-baan |
-|---|---|
-| Definitie |  Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen.|
-|Herkomst definitie  | Gebaseerd op de definitie OV-baan in de gegevenscatalogus BGT 1.1.1 |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *OV-baan* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een OV-baan.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een OV-baan.  |Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende OV-baan zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een OV-baan die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een OV-baan die is gerealiseerd.|
-|Beëindigd|	Een OV-baan die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande OV-baan die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een OV-baan die ten onrechte is opgevoerd in de registratie.|
-
-#### Parkeerplaats
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Parkeerplaats |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-<div class='note'>
-    alleen opnemen als dit door BRT.next wordt aangegeven / of gewenst is voor het wegennetwerk
-</div>
-
-**Definitie**
-
-| Naam  | Parkeerplaats |
-|---|---|
-| Definitie |  Parkeergelegenheid voor meerdere voertuigen in de openlucht.|
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)   |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Parkeerplaats* zoals deze is opgenomen in de basisregistratie topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een Parkeerplaats.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een Parkeerplaats.  |Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende Parkeerplaats zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een Parkeerplaats die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een Parkeerplaats die is gerealiseerd.|
-|Beëindigd|	Een Parkeerplaats die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande Parkeerplaats die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een Parkeerplaats die ten onrechte is opgevoerd in de registratie.|
-
-#### Benzinestation
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Benzinestation |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Benzinestation |
-|---|---|
-| Definitie |  Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.|
-|Herkomst definitie  | IMGeo 2.2 |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *benzinestation* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een benzinestation.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een benzinestation.  |Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende benzinestation zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een benzinestation dat zich in de ontwerpfase bevindt. |
-|Gevormd|	Een benzinestation dat is gerealiseerd.|
-|Beëindigd|	Een benzinestation dat als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande benzinestation dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een benzinestation dat ten onrechte is opgevoerd in de registratie.|
-
-#### Snellaadstation
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Snellaadstation |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Snellaadstation |
-|---|---|
-| Definitie |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd. |
-|Herkomst definitie  | IMBOR 2020 |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier een nieuw objecttype.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een snellaadstation.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een snellaadstation.  |Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende snellaadstation zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een snellaadstation dat zich in de ontwerpfase bevindt. |
-|Gevormd|	Een snellaadstation dat is gerealiseerd.|
-|Beëindigd|	Een snellaadstation dat als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een gepland snellaadstation dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een snellaadstation dat ten onrechte is opgevoerd in de registratie.|
-
-#### Zone
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Zone |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Zone |
-|---|---|
-| Definitie |  Verkeerskundige afbakening van een gebied. |
-|Herkomst definitie  | IMBOR 2020 |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier een nieuw objecttype. |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een zone.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een zone.  |Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende zone zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een zone die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een zone die is gerealiseerd.|
-|Beëindigd|	Een zone die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande zone die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een zone die ten onrechte is opgevoerd in de registratie.|
-
-
-#### SPOOR
-
-#### Perron
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Perron |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Perron |
-|---|---|
-| Definitie |  Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. |
-|Herkomst definitie  |BGT 1.1.1 |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *perron* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een perron.  |Ja |
-|Geometrie |De geometrische representatie van de randen van een perron.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende perron zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een perron dat zich in de ontwerpfase bevindt. |
-|Gevormd|	Een perron dat is gerealiseerd.|
-|Beëindigd|	Een perron dat als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een gepland perron dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een perron dat ten onrechte is opgevoerd in de registratie.|
-
-#### Overweg
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Overweg |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Overweg |
-|---|---|
-| Definitie | Een gelijkvloerse kruising van een weg met een spoor type trein of sneltram. |
-|Herkomst definitie  | Gebaseerd op de definitie van overweg in de gegevenscatalogus BGT 1.1.1|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *overweg* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een overweg.  |Ja |
-|Geometrie |De geometrische representatie van randen van een overweg.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende overweg zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een overweg die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een overweg die is gerealiseerd.|
-|Beëindigd|	Een overweg die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande overweg die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een overweg die ten onrechte is opgevoerd in de registratie.|
-
-#### Spoorbaan
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Spoorbaan |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Spoorbaan |
-|---|---|
-| Definitie | Gebaand gedeelte voor het verkeer over rails. |
-|Herkomst definitie  | BGT 1.1.1 |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *spoorbaan* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een spoorbaan.  |Ja |
-|Geometrie |De geometrische representatie van randen van een spoorbaan.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende spoorbaan zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een spoorbaan die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een spoorbaan die is gerealiseerd.|
-|Beëindigd|	Een spoorbaan die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande spoorbaan die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een spoorbaan die ten onrechte is opgevoerd in de registratie.|
-
-#### Emplacement
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Emplacement |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-<div class='note'>
-    alleen opnemen als dit door BRT.next wordt aangegeven 
-</div>
-
-**Definitie**
-
-| Naam  | Emplacement |
-|---|---|
-| Definitie | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen. |
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *emplacement* zoals deze is opgenomen in de basisregistratie topografie.  |
-|Toelichting|  |
-
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een emplacement.  |Ja |
-|Geometrie |De geometrische representatie van randen van een emplacement.  |Ja (vlak) |
-|Status   |De fase van de levenscyclus waarin het betreffende emplacement zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-
-**Domeinwaarden**
-
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een emplacement die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een emplacement die is gerealiseerd.|
-|Beëindigd|	Een emplacement die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande emplacement die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een emplacement die ten onrechte is opgevoerd in de registratie.|
-
-
-
-
-#### WEGINRICHTING
+#### Wegzone
 
 #### Verkeerseiland
 | Klasse  | Naam  |
