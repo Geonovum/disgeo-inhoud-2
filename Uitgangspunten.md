@@ -95,15 +95,23 @@ Ontwerpprincipe:
 Het moet mogelijk zijn om de inhoud van de samenhangende objectenregistratie relatief eenvoudig aan te kunnen passen. Dit begint met een informatiemodel dat dergelijke aanpassingen kan faciliteren. Dat betekent dat bijvoorbeeld het onderscheid tussen verplichte en vrijwillige objecten in de registratie niet diepgaand in het uitgewerkte informatiemodel moet worden verankerd. Of aanpassing ook daadwerkelijk zal plaatsvinden is uiteraard afhankelijk van de afspraken die er worden gemaakt over de wijze waarop besluitvorming over wijzigingen plaatsvindt en hoe er wordt omgegaan met de gevolgen daarvan voor bronhouders en gebruikers. Bij het doorvoeren van dit soort wijzigingen moeten er altijd heldere transitieafspraken worden gemaakt.
 
 
-### Scope van de samenhangende objectenregistratie 
+### Uitgangspunten reikwijdte 
 
-**1. 	In de SOR worden uitsluitend objecttypen en eigenschappen van objecttypen opgenomen die van belang zijn voor gebruik in verschillende overheidsdomeinen.**
+#### Sector overstijgend
+
+Ontwerpprincipe:
+
+**In de SOR worden uitsluitend objecttypen en eigenschappen van objecttypen opgenomen die van belang zijn voor gebruik in verschillende overheidsdomeinen.**
 
 Met dit uitgangspunt wordt invulling gegeven aan de ook nu al bestaande eisen die worden gesteld aan basisregistraties. De objectenregistratie fungeert daarbij als een onderdeel van het fundament voor een gegevenslandschap waarin aanvullend op dit fundament in sectorale en lokale registraties aanvullende objecttypen en eigenschappen worden geregistreerd. De samenhangende objectenregistratie fungeert daarmee dus als een verbindende schakel tussen de verschillende specifieke eigenschappen die van deze objecttypen zijn geregistreerd in de verschillende sectorale registraties. Daarnaast bevordert de samenhangende objectenregistratie indirect ook de samenhang met in die sectorale registraties opgenomen specifieke objecttypen en eigenschappen daarvan. Deze brugfunctie van de samenhangende objectenregistratie is daarmee essentieel voor het integraal kunnen gebruiken van gegevens.
 
 Dit uitgangspunt betekent praktisch onder meer dat specifieke zoneringen en werkingsgebieden (zoals deze bijvoorbeeld voortvloeien vanuit de Omgevingswet) niet worden opgenomen in de SOR, maar “achterblijven” in sectorale registraties.
 
-**2.	In de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten.**
+#### Primair bovengronds
+
+Ontwerpprincipe:
+
+**In de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten.**
 
 De scope van de samenhangende objectenregistratie is in eerste instantie beperkt tot de bovengrond en de ondergrondse delen van objecttypen die ook in het terrein zichtbaar zijn. Denk aan aaneengesloten parkeergarages in de BAG. Daarnaast worden enkele objecttypen uit de BGT die daarin op een ander niveau zijn gepositioneerd ook in de scope van de samenhangende objectenregistratie betrokken. Het gaat daarbij met name om tunneldelen en duikers. Het tweede gedeelte van de formulering richt zich daarop.
 
@@ -136,23 +144,17 @@ Aandachtspunten:
 - Metrobuizen zijn een soort tunnels.
 - Afval apart plaats (=ondergrondse afval container) is een object dat bovengronds toegankelijk is
 
+#### Grondgebied Nederland
 
-**3. In de SOR worden uitsluitend objecten opgenomen die gelegen zijn binnen het grondgebied van Nederland.**
+Ontwerpprincipe:
+
+**In de SOR worden uitsluitend objecten opgenomen die gelegen zijn binnen het grondgebied van Nederland.**
 
 De genoemde scope is met name van belang voor het bepalen van hetgeen voor bepaalde soorten objecten als grondgebiedsdekkend moet worden beschouwd. Hierbij kan er een onderscheid bestaan voor verschillende soorten objecten. 
 
 Op dit moment wordt daarbij primair de lijn gevolgd, zoals deze ook wordt gevolgd in het kader van de BAG en de BGT. Deze beperken zich tot het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren. Een uitzondering hierop betreft de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog). Ook objecten in deze exclaves worden in de samenhangende objectenregistratie opgenomen. De scope van de samenhangende objectenregistratie wordt voor sommige soorten objecten uitgebreid met het continentaal plat. Hierdoor ontstaat de mogelijkheid om zich daar bevindende objecten (zoals windturbines) op te nemen in de registratie.
 
 Op een later moment zal het ministerie van BZK nog een afzonderlijk besluit nemen over de vraag in hoeverre de samenhangende objectenregistratie zich ook zal uitstrekken tot het grondgebied van de bijzondere Nederlandse gemeenten (BES-eilanden) en de andere overzeese koninkrijksdelen. Het informatiemodel zal zodanig moeten worden opgezet dat deze uitbreiding mogelijk is.
-
-
-
-**4.	Bestaande objecttypen en de daarbij behorende eigenschappen vanuit de BAG en de BGT, enkele bestaande eigenschappen van objecttypen die raken aan bebouwing vanuit de WOZ en objecttypen en de daarbij behorende eigenschappen vanuit de BRT die (in de toekomst) nodig blijven voor het maken van een vernieuwd BRT kaartproduct, worden (eventueel in andere vorm) overgenomen in de SOR, tenzij er expliciete redenen aanwezig zijn om dat niet te doen.**
-
-De bestaande objecttypen uit de BAG en BGT keren in principe terug in de objectenregistratie, tenzij er voor bepaalde objecttypen expliciet andere keuzen worden gemaakt. Dat laatste lijkt bijvoorbeeld het geval te zijn voor enkele objecttypen in de BGT, die als gevolg van een striktere scheiding tussen fysieke en functionele objecten een ander karakter zullen krijgen dan wel in de huidige vorm zullen verdwijnen. Ten aanzien van de objecttypen uit de BRT zal nog nader bepaald moeten worden welke objecttypen dat betreft. Een aantal van de in de BRT gehanteerde objecttypen komen namelijk in hoge mate overeen met of sluiten in hoge mate aan op objecttypen zoals deze ook zijn opgenomen in de BAG en de BGT. In de BRT zijn echter ook objecttypen opgenomen die mogelijk een onderdeel zouden moeten gaan uitmaken van de SOR. 
-
-Ook de verschillende aan deze objecttypen verbonden eigenschappen worden in principe opgenomen in de SOR. Dat geldt ook voor een aantal eigenschappen van objecttypen die behoren tot het informatiemodel van de WOZ. Deze eigenschappen kunnen door wijzigingen in het gebouwgedeelte van het informatiemodel van de SOR naar verwachting aan objecttypen in de SOR worden gerelateerd. Voor alle eigenschappen geldt dat hetgeen in de bestaande registraties als eigenschap is opgenomen, in de SOR als een objecttype (met een andere benaming) kan worden opgenomen. Eigenschappen worden dan inhoudelijk dus wel overgenomen, maar keren in de SOR terug in een andere vorm (zoals een objecttype) en is dus als zodanig geen eigenschap meer.
-
 
 
 
