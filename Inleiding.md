@@ -8,78 +8,42 @@ Op dit moment zijn veel van deze breder gebruikte gegevens over objecten verspre
 Elk van deze registraties kent op dit moment een eigen informatiemodel. Tussen verschillende van deze informatiemodellen heeft in de loop van de jaren afstemming plaatsgevonden. Toch is er nog steeds sprake van een gebrekkige aansluiting tussen deze verschillende informatiemodellen. Met de samenhangende objectenregistratie (SOR) wordt beoogd om meer samenhang aan te brengen tussen de verschillende objecttypen en de eigenschappen die daarover worden bijgehouden. Hiermee kunnen bijhoudingsprocessen worden vereenvoudigd, de informatievoorziening flexibeler worden opgezet en de wensen van gebruikers om meer samenhangende informatie worden ingewilligd.
 
 
-### Scope van de samenhangende objectenregistratie 
+### Ontwikkeling van de objectenregistratie
+Vanaf 2017 is er gewerkt aan de beeldvorming over de inhoud en werking van een samenhangende objectenregistratie. Daarbij zijn vanuit een interbestuurlijke kerngroep objectenregistratie eerste denkbeelden ontwikkeld over onder meer de context waarin een dergelijke registratie functioneert en de doelstellingen die met een dergelijke registratie zouden moeten worden bereikt. Ook is nagedacht over de wijze waarop de ontwikkeling van een samenhangende objectenregistratie zou moeten plaatsvinden uitgaande van de bestaande situatie en de behoefte een dergelijk traject beheersbaar te houden. Verder zijn er een aantal globale uitgangspunten geformuleerd voor het gegevensmodel van een samenhangende objectenregistratie, het voorziene inwinnings- en productieproces en de (architectuur van de) ontsluiting van gegevens. Tenslotte zijn ook eerste beelden ontwikkeld over de organisatie en governance en over de financiering. De resultaten van dit traject zijn vastgelegd in een beleidsvisie (schetsontwerp) voor een samenhangende objectenregistratie. Deze is eind november 2019 door het BAG BAO en de Regieraad BGT vastgesteld.
+Sindsdien wordt er gewerkt aan een verdere invulling van een drietal onderwerpen, die samenvallen met drie van de vijf lagen uit het NORA-vijflaagsmodel (figuur 1):
+•	Een uitwerking van de governance, organisatie en financiering van een samenhangende objectenregistratie, bestaande uit onder meer een beschrijving van taken en verantwoordelijkheden, de inrichting van de besluitvormingsstructuur, financieringsafspraken en een eerste opzet van ketenprocessen (organisatorische laag / laag 2 uit het NORA-vijflaagsmodel). Hiervan zijn op dit moment nog geen documenten beschikbaar.
+•	Een uitwerking van de inhoud van een samenhangende objectenregistratie, bestaande uit onder meer inhoudelijke uitgangspunten, de invulling van een aantal generieke onderwerpen die van belang zijn voor de informatiemodellering en een conceptuele beschrijving van de SOR-begrippen (soorten objecten), de eigenschappen die daarvan worden vastgelegd en de waarden die deze eigenschappen kunnen aannemen (informatielaag / laag 3 uit het NORA-vijflaagsmodel). Dit document heeft hierop betrekking.
+•	Een uitwerking van de architectuurbeschrijving van de ICT-voorzieningen voor een samenhangende objectenregistratie, bestaande uit een afbakening van de systeembegrenzing, ICT-inrichtingsprincipes en een uitwerking van de functionele onderdelen van de ICT-voorzieningen en hun onderlinge samenhang (applicatielaag / laag 4 uit het NORA-vijflaagsmodel). Hiervan is een consultatieversie beschikbaar.
+ 
+Figuur 1 : NORA-vijflaagsmodel
 
-**1. 	In de SOR worden uitsluitend objecttypen en eigenschappen van objecttypen opgenomen die van belang zijn voor gebruik in verschillende overheidsdomeinen.**
-
-Met dit uitgangspunt wordt invulling gegeven aan de ook nu al bestaande eisen die worden gesteld aan basisregistraties. De objectenregistratie fungeert daarbij als een onderdeel van het fundament voor een gegevenslandschap waarin aanvullend op dit fundament in sectorale en lokale registraties aanvullende objecttypen en eigenschappen worden geregistreerd. De samenhangende objectenregistratie fungeert daarmee dus als een verbindende schakel tussen de verschillende specifieke eigenschappen die van deze objecttypen zijn geregistreerd in de verschillende sectorale registraties. Daarnaast bevordert de samenhangende objectenregistratie indirect ook de samenhang met in die sectorale registraties opgenomen specifieke objecttypen en eigenschappen daarvan. Deze brugfunctie van de samenhangende objectenregistratie is daarmee essentieel voor het integraal kunnen gebruiken van gegevens.
-
-Dit uitgangspunt betekent praktisch onder meer dat specifieke zoneringen en werkingsgebieden (zoals deze bijvoorbeeld voortvloeien vanuit de Omgevingswet) niet worden opgenomen in de SOR, maar “achterblijven” in sectorale registraties.
-
-**2.	In de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten.**
-
-De scope van de samenhangende objectenregistratie is in eerste instantie beperkt tot de bovengrond en de ondergrondse delen van objecttypen die ook in het terrein zichtbaar zijn. Denk aan aaneengesloten parkeergarages in de BAG. Daarnaast worden enkele objecttypen uit de BGT die daarin op een ander niveau zijn gepositioneerd ook in de scope van de samenhangende objectenregistratie betrokken. Het gaat daarbij met name om tunneldelen en duikers. Het tweede gedeelte van de formulering richt zich daarop.
-
-Deze afbakening van de scope is een afgeleide van de wens om tot een helder en beheersbaar transitietraject te komen. Het ook opnemen van ondergrondse objecten in de SOR, zoals leidingnetwerken of de verschillende objecttypen die thans worden opgenomen in de Basisregistratie Ondergrond (BRO), zou op dit moment leiden tot een aanzienlijk hogere complexiteit. Dit neemt niet weg dat opname van ondergrondse objecten in de toekomst niet wordt uitgesloten. Het model van de registratie is zodanig opgezet dat op termijn ook ondergrondse objecten in de registratie kunnen worden opgenomen. Deze opname zou in de loop van de tijd ook gefaseerd kunnen plaatsvinden.
-
-
-
-Ondergrondse delen
-
-ontwerpprincipe: *In de huidige scope van de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten en die voor een mens toegankelijk zijn.*
-
-Waar komen we ondergrondse delen tegen?
-- Gebouw
-- Netwerk; Spoor (trein, metro, tram), weg, water
-- Tunneldeel
-- Kunstwerk (met ondergrondse ruimten)
-- Kunstwerk; duiker
-- Bak; Afval apart plaats
-
-Wat beschouwen we niet als ondergrondse delen voor de SOR:
-- Put(deksel) niet ondergronds
-- Ondergrondse objecten die al in een andere registratie zijn opgenomen, zoals kabels en leidingen, niet gesprongen explosieven, archeologische vindplaatsen, ed.
-- Oude funderingen, wrakken, et cetera, die achter zijn gebleven in de grond, zijn geen onderdeel van SOR, hebben namelijk geen link met bovengronds objecttype uit de SOR en zijn ook niet bedoeld als onderdeel van infarstructurele voorzieningen.
-- Wegfundering is wel ondergronds maar is niet toegankelijk. Hiervan worden sectoraal gegevens vastgelegd. 
-
-
-Aandachtspunten:
-- In de SOR komen ondergrondse delen vooral voor bij gebouwen en bij kunstwerken.
-- Parkeergarages en metrostations zijn ondergrondse gebouwen.
-- Metrobuizen zijn een soort tunnels.
-- Afval apart plaats (=ondergrondse afval container) is een object dat bovengronds toegankelijk is
-
-
-**3. In de SOR worden uitsluitend objecten opgenomen die gelegen zijn binnen het grondgebied van Nederland.**
-
-De genoemde scope is met name van belang voor het bepalen van hetgeen voor bepaalde soorten objecten als grondgebiedsdekkend moet worden beschouwd. Hierbij kan er een onderscheid bestaan voor verschillende soorten objecten. 
-
-Op dit moment wordt daarbij primair de lijn gevolgd, zoals deze ook wordt gevolgd in het kader van de BAG en de BGT. Deze beperken zich tot het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren. Een uitzondering hierop betreft de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog). Ook objecten in deze exclaves worden in de samenhangende objectenregistratie opgenomen. De scope van de samenhangende objectenregistratie wordt voor sommige soorten objecten uitgebreid met het continentaal plat. Hierdoor ontstaat de mogelijkheid om zich daar bevindende objecten (zoals windturbines) op te nemen in de registratie.
-
-Op een later moment zal het ministerie van BZK nog een afzonderlijk besluit nemen over de vraag in hoeverre de samenhangende objectenregistratie zich ook zal uitstrekken tot het grondgebied van de bijzondere Nederlandse gemeenten (BES-eilanden) en de andere overzeese koninkrijksdelen. Het informatiemodel zal zodanig moeten worden opgezet dat deze uitbreiding mogelijk is.
-
-
-
-**4.	Bestaande objecttypen en de daarbij behorende eigenschappen vanuit de BAG en de BGT, enkele bestaande eigenschappen van objecttypen die raken aan bebouwing vanuit de WOZ en objecttypen en de daarbij behorende eigenschappen vanuit de BRT die (in de toekomst) nodig blijven voor het maken van een vernieuwd BRT kaartproduct, worden (eventueel in andere vorm) overgenomen in de SOR, tenzij er expliciete redenen aanwezig zijn om dat niet te doen.**
-
-De bestaande objecttypen uit de BAG en BGT keren in principe terug in de objectenregistratie, tenzij er voor bepaalde objecttypen expliciet andere keuzen worden gemaakt. Dat laatste lijkt bijvoorbeeld het geval te zijn voor enkele objecttypen in de BGT, die als gevolg van een striktere scheiding tussen fysieke en functionele objecten een ander karakter zullen krijgen dan wel in de huidige vorm zullen verdwijnen. Ten aanzien van de objecttypen uit de BRT zal nog nader bepaald moeten worden welke objecttypen dat betreft. Een aantal van de in de BRT gehanteerde objecttypen komen namelijk in hoge mate overeen met of sluiten in hoge mate aan op objecttypen zoals deze ook zijn opgenomen in de BAG en de BGT. In de BRT zijn echter ook objecttypen opgenomen die mogelijk een onderdeel zouden moeten gaan uitmaken van de SOR. 
-
-Ook de verschillende aan deze objecttypen verbonden eigenschappen worden in principe opgenomen in de SOR. Dat geldt ook voor een aantal eigenschappen van objecttypen die behoren tot het informatiemodel van de WOZ. Deze eigenschappen kunnen door wijzigingen in het gebouwgedeelte van het informatiemodel van de SOR naar verwachting aan objecttypen in de SOR worden gerelateerd. Voor alle eigenschappen geldt dat hetgeen in de bestaande registraties als eigenschap is opgenomen, in de SOR als een objecttype (met een andere benaming) kan worden opgenomen. Eigenschappen worden dan inhoudelijk dus wel overgenomen, maar keren in de SOR terug in een andere vorm (zoals een objecttype) en is dus als zodanig geen eigenschap meer.
-
-
-
-
-
-
+### Conceptueel informatiemodel
+Ten aanzien van de inhoud van een samenhangende objectenregistratie zijn er aanvullend op de ontwikkeling van de eerste denkbeelden over zo’n registratie door enkele interbestuurlijke werkgroepen verkenningen uitgevoerd naar de onderwerpen bouwwerken, wegen, water en natuur & landschap. Deze verkenningen vormden tezamen met eerder in verschillende trajecten geuite verbeter¬suggesties en nadere gedachtenvorming over de objectenregistratie de basis voor een eerste uitwerking van de inhoud van een samenhangende objectenregistratie. De resultaten van deze eerste uitwerking zijn vastgelegd in het hoofdlijnenrapport inhoud samenhangende objectenregistratie. De op het hoofdlijnenrapport binnengekomen reacties in een reviewronde waren overwegend positief. Zij gaven geen aanleiding om de gepubliceerde versie van het hoofdlijnenrapport aan te passen. De gemaakte opmerkingen zijn (daar waar relevant) meegenomen in de nu voorliggende verdere uitwerking van de inhoud van de registratie.
+Het hoofdlijnenrapport is daarbij verder uitgebouwd tot een eerste versie van een conceptueel informatiemodel van de samenhangende objectenregistratie. Het opstellen hiervan is begeleid door een interbestuurlijke werkgroep inhoud. Aanvankelijk was het de bedoeling om de verdere uitwerking vorm te geven door het organiseren van brede werkbijeenkomsten. Vanwege de crisis als gevolg van COVID-19 moest er uiteindelijk worden gekozen voor een werkwijze, waarbij vanuit de werkgroep inhoud enkele subwerkgroepen en gelegenheidsverbanden zijn gecreëerd die los van elkaar verschillende onderdelen van het conceptueel informatiemodel hebben voorbereid. Vanuit de werkgroep inhoud is op basis hiervan vervolgens een eerste samenhangende beschrijving van een conceptueel informatiemodel samengesteld. Dit document betreft deze eerste samenhangende beschrijving.
+Het conceptueel informatiemodel heeft globaal betrekking op de reikwijdte van de bestaande basisregistraties BAG, BGT en BRT en onderdelen van de WOZ-administratie, NWB en enkele specifieke onderdelen van de BRK. Bestaande objecttypen en de daarbij behorende eigenschappen vanuit de BAG en de BGT, enkele bestaande eigenschappen van objecttypen die raken aan bebouwing vanuit de WOZ en objecttypen en de daarbij behorende eigenschappen vanuit de BRT die (in de toekomst) nodig blijven voor het maken van een vernieuwd BRT kaartproduct, vormden daarbij het startpunt voor het conceptueel model. Hierbij zijn objecttypen en eigenschappen overgenomen in het model, tenzij er expliciete redenen aanwezig waren om dat niet te doen. Deze redenen waren onder meer:
+•	een andere ordening van begrippen  en eigenschappen of het in de huidige vorm verdwijnen ervan als gevolg van een striktere scheiding tussen fysieke en functionele objecten;
+•	het samenvoegen van objecttypen en eigenschappen in vernieuwde begrippen omdat deze een hoge mate van overlap vertoonden of er een aanscherping van begrippen heeft plaatsgevonden;
+•	het niet langer opnemen van een aantal gedetailleerde typeringen die in de praktijk nauwelijks gebruikt worden en waarbij vraagtekens konden worden gesteld bij de wenselijkheid om deze in een basisregistratie op te nemen;
+•	het aanpassen van de waardenlijsten van een aantal eigenschappen om deze beter aan te laten sluiten op waarden zoals deze in sectorregistraties worden gehanteerd.
 
 ### Hoe moet deze specificatie worden gezien?
+Ten aanzien van dit document worden vooraf de volgende aandachtspunten meegegeven:
+•	De nu voorliggende eerste versie van een conceptueel informatiemodel betreft nadrukkelijk een document dat is opgesteld door inhoudelijke experts en informatiemodel experts vanuit verschillende organisaties. De opgenomen beschrijvingen betreffen op dit moment nog uitsluitend de mening van deze experts. Over de invulling van het conceptueel informatiemodel heeft nog geen enkele besluitvorming plaatsgevonden. Dat betekent dat de nu opgenomen ordening, beschreven generieke onderwerpen en de eerste beschrijving van begrippen (soorten objecten) , de eigenschappen die daarvan worden vastgelegd en de waarden die deze eigenschappen kunnen aannemen, als gevolg van besluitvorming nog (ingrijpende) wijzigingen kunnen ondergaan. Dit geldt in het bijzonder voor de nu opgenomen eerste indicatie van de mate waarin bepaalde gegevens verplicht in de registratie zullen worden vastgelegd. Dit zal leiden tot aanpassingen, aanscherpingen en nadere uitwerkingen van verschillende in dit document opgenomen begrippen en uitwerkingen. De nu opgenomen definities, waardenlijsten en aansluitingstabellen moeten dan ook niet worden gelezen als definitief of vastgesteld.
+•	In dit document is de stand van zaken beschreven van hetgeen het traject in de periode tot en met eind september 2020 heeft opgeleverd. Het is daarmee de stolling van de begin oktober 2020 ontwikkelde denkbeelden en daarmee de basis voor de verdere concretisering en aanvulling die gedurende de rest van 2020 (onder meer naar aanleiding van een eerste openbare review) zal plaatsvinden. Na publicatie van deze versie van het conceptueel model zal, parallel aan de eerste openbare reviewronde van het conceptueel model, door experts worden doorgewerkt aan de verdere aanscherping en uitwerking van verschillende onderdelen. Deze zullen tezamen met de opmerkingen vanuit de eerste openbare reviewronde worden verwerkt tot een complete versie van een conceptueel informatiemodel.
+•	In dit document is de inhoud beschreven van de samenhangende objectenregistratie zoals deze op de langere termijn zou moeten ontstaan. In dit document worden nog geen uitspraken gedaan over de wijze waarop een eventuele transitie van de bestaande registraties naar een samenhangende objectenregistratie kan worden vormgegeven. Ook is in het beschreven conceptueel informatiemodel geen rekening gehouden met de wenselijkheid van het tijdelijk opnemen van bestaande objecttypen, eigenschappen of waarden om de transitie naar een samenhangende objectenregistratie op een soepele wijze te laten verlopen. Deze beschrijvingen zullen na positieve besluitvorming over de realisatie van een samenhangende objectenregistratie verder vorm worden gegeven.
+•	De samenhangende objectenregistratie is slechts één van de registraties die onderdeel uitmaakt van een gegevenslandschap met daarin verschillende andere registraties, waaronder een groot aantal domeinspecifieke of sectorale geo-registraties. Hierbij is de grondgedachte dat in de samenhangende objectenregistratie objecttypen en eigenschappen daarvan worden vastgelegd die van belang zijn voor gebruik in verschillende overheidsdomeinen. De samenhangende objectenregistratie bevat daarbij aanhaakpunten (in de vorm van identificatiecodes) waaraan andere registraties kunnen koppelen. De samenhangende objectenregistratie fungeert daarmee als een verbindende schakel tussen de verschillende specifieke eigenschappen die van deze objecttypen zijn geregistreerd in de verschillende sectorale registraties. Hiermee bevordert de samenhangende objectenregistratie indirect ook de samenhang met in die sectorale registraties opgenomen specifieke objecttypen en eigenschappen daarvan.
 
-
-
+Daarnaast wordt er hier nogmaals op gewezen dat bij het opstellen van het conceptueel informatiemodel is gewerkt vanuit het in de eerder genoemde beleidsvisie opgenomen uitgangspunt dat het ontwerp van een samenhangende objectenregistratie wordt vormgegeven vanuit een nadrukkelijke scheiding tussen de vastlegging van gegevens en de functionaliteit voor het bewerken, opvragen en presenteren daarvan. Hiermee wordt aangesloten op moderne inzichten over de organisatie van de gegevenshuishouding, zoals deze onder meer worden gehanteerd in het kader van Common Ground. Concreet betekent dit dat het conceptueel informatiemodel conform de hierbij behorende architectuur van een gegevenslandschap uitsluitend een beschrijving geeft van het onderdeel gegevensbronnen (gebaseerd op eenduidige informatiemodellen). 
+Dat in deze gegevensbronnen ten opzichte van de bestaande situatie de nodige herordening van objecttypen en eigenschappen plaatsvindt, hoeft als gevolg van deze scheiding niet te betekenen dat dit voor degenen die de registratie beheren tot complexere bijhoudingsprocessen leidt. Door een herschikking van functionaliteit in de gebruikte software zullen veel van de voorgestelde wijzigingen voor de degenen die de registratie bijhouden slechts beperkt zichtbaar zijn. Datzelfde geldt ook voor de gebruikers. Gebruikers kunnen worden voorzien van zowel informatieproducten die aansluiten op de huidige producten als nieuwe informatieproducten waarmee optimaal wordt geprofiteerd van inhoudelijke vernieuwingen. Dat voor het samenstellen van deze informatieproducten gebruik wordt gemaakt van een andere combinatie van onderliggende gegevens, zal hierbij voor hen in principe niet zichtbaar zijn. 
 
 ### Leeswijzer
+In hoofdstuk 2 wordt een opsomming gegeven van de verschillende uitgangspunten die zijn gehanteerd bij de uitwerking van het conceptueel informatiemodel. 
+Vervolgens wordt in hoofdstuk 3 een beschrijving gegeven van een aantal algemene onderwerpen die van toepassing zijn op de gehele inhoud van de samenhangende objectenregistratie. Het gaat onder meer om een algemene uitwerking van de wijze van identificeren, de omgang met geometrie, de opname van meta-gegevens en het gehanteerde historiemodel.
+In hoofdstuk 4 wordt kort ingegaan op zowel de samenhang van de samenhangende objectenregistratie als de samenhang hiervan met andere modellen (zoals NEN 3610).
+De verschillende SOR-begrippen, eigenschappen en waarden worden in hoofdstuk 5 (fysieke objecttypen), hoofdstuk 6 (functionele objecttypen), hoofdstuk 7 (registratieve objecttypen) en hoofdstuk 8 (geografische objecttypen) verder uitgewerkt. 
+Om hetgeen in deze beschrijving is opgenomen beter te kunnen relateren aan hetgeen in de bestaande basisregistraties is opgenomen, bevat hoofdstuk 9 de transponering van de objecttypen uit de bestaande basisregistraties naar de samenhangende objectenregistratie. Ook is hier opgenomen welke objecttypen nieuw zijn ten opzichte van de bestaande situatie en welke objecttypen niet langer zullen worden opgenomen.
+In de bijlagen is de betekenis van verschillende afkortingen en een overzicht van onderliggende werkdocumenten opgenomen.
 
-*nog invullen*
 
 
 
