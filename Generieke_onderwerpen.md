@@ -212,10 +212,22 @@ Ontwerpprincipe:
 
 **Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
 
+Eigenschappen van verbindingen worden vastgelegd met de methode van lineair referencing als er geen dringende reden is om de structuur van het netwerk te verstoren door verder op te knippen. Dit is dus een methode waarbij administratief wordt aangegeven bij een verbinding waar een verandering geldt.
+
+<aside class='example'>
+
+![LRM](media/lineair referencing methode.png)
+
+Van 1200 meter tot 4500 meter vanaf het beginpunt van de verbinding geldt een toegestane snelheid van 70 km/h.
+</aside>
+
+
+
 #### Onderlinge relaties
 Ontwerpprincipe: 
 
 **Relaties tussen netwerken en functionele zones via hyperverbinding.**
+
 Ontwerpprincipe: 
 
 **Relaties tussen netwerken of  bij verschillende LoD van een netwerk worden vastgelegd met een hyperverbinding.**
