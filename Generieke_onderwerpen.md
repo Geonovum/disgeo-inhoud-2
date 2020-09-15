@@ -219,7 +219,8 @@ Eigenschappen van verbindingen worden vastgelegd met de methode van lineair refe
 
 ![LRM](media/lineairreferencingmethode.png)
 
-Van 1200 meter tot 4500 meter vanaf het beginpunt van de verbinding geldt een toegestane snelheid van 70 km/h.
+
+VOORBEELD Van 1200 meter tot 4500 meter vanaf het beginpunt van de verbinding geldt een toegestane snelheid van 70 km/h.
 </aside>
 
 
