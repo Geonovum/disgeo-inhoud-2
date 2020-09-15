@@ -1309,10 +1309,11 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip overbrugging |Ja |
-|Geometrie|De geometrische representatie van de randen van een overbrugging.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
+|Geometrie|De geometrische representatie van de randen van een overbrugging.  |Ja (vlak, 2.5D)|
 |Status   |   |Ja   |
 |Type overbrugging|aanduiding soort overbrugging|Nee|
 |Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+| Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
 |*Beweegbaar*|*aanduiding of overbrugging beweegbaar is (open en dicht kan)*|*Ja*|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -1343,6 +1344,16 @@ ontwerpprincipe:
 | flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   |
 | overkluizing |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat.   |
 
+.
+
+|Waarde Beperking| Beschrijving   |
+|---|---|
+| doorrijhoogte | De hoogte die beschikbaar is tussen de rijbaan en de constructies welke boven de weg aanwezig zijn, als deze lager is dan 4,20 meter. |
+| doorrijbreedte| |
+| toegestane massa||
+| toegestane lengte||
+
+
 #### Ondertunneling
 
 | Klasse  | Naam  |
@@ -1367,10 +1378,11 @@ ontwerpprincipe:
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip ondertunneling|Ja |
-|Geometrie|De geometrische representatie van de randen van een ondertunneling.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
+|Geometrie|De geometrische representatie van de randen van een ondertunneling.  |Ja (vlak, 2.5D)|
 |Status   |   |Ja   |
 |Type ondertunneling|aanduiding soort ondertunneling|Nee|
 |Naam| Een breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+| Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1394,6 +1406,16 @@ ontwerpprincipe:
 |---|---|
 | tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.   |
 | duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt.   |
+
+.
+
+|Waarde Beperking| Beschrijving   |
+|---|---|
+| doorrijhoogte | De hoogte die beschikbaar is tussen de rijbaan en de constructies welke boven de weg aanwezig zijn, als deze lager is dan 4,20 meter. |
+| doorrijbreedte| |
+| toegestane massa||
+| toegestane lengte||
+
 
 #### Gemaal
 
