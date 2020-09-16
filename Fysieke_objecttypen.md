@@ -51,13 +51,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 .
 
@@ -109,13 +112,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 .
 
@@ -164,13 +170,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 #### Getijdengebied
 | Klasse  | Naam  |
@@ -209,13 +218,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 .
 
@@ -266,13 +278,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Een bos dat zich in de ontwerpfase bevindt.|
-|Bestaand|	Een bos dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Een bos dat feitelijk is verwijderd.|
-|Niet gerealiseerd|	Een geplande bos dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een bos dat ten onrechte is opgevoerd in de registratie.|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
 
 .
 
@@ -319,13 +334,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Een veld met gras- en kruidachtigen dat zich in de ontwerpfase bevindt.|
-|Bestaand|	Een veld met gras- en kruidachtigen dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Een veld met gras- en kruidachtigen dat feitelijk is verwijderd.|
-|Niet gerealiseerd|	Een geplande veld met gras- en kruidachtigen dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een veld met gras- en kruidachtigen dat ten onrechte is opgevoerd in de registratie.|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
 
 
 
@@ -364,15 +382,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Struiken die zich in de ontwerpfase bevindt.|
-|Bestaand|	Struiken die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Struiken die feitelijk is verwijderd.|
-|Niet gerealiseerd|	Geplande struiken die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Struiken die ten onrechte is opgevoerd in de registratie.|
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
+
+*type struiken*
 
 |Waarde Type struiken| Beschrijving   |
 |---|---|
@@ -421,15 +442,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	onbegroeide grond die zich in de ontwerpfase bevindt.|
-|Bestaand|	onbegroeide grond die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	onbegroeide grond die feitelijk is verwijderd.|
-|Niet gerealiseerd|	Geplande onbegroeide grond die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	onbegroeide grond die ten onrechte is opgevoerd in de registratie.|
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type*
 
 |Waarde Type | Beschrijving   |
 |---|---|
@@ -471,13 +495,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Bouwland dat zich in de ontwerpfase bevindt.|
-|Bestaand|	Bouwland dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Bouwland dat feitelijk is verwijderd.|
-|Niet gerealiseerd|	Gepland bouwland dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Bouwland dat ten onrechte is opgevoerd in de registratie.|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 
@@ -848,14 +875,14 @@ lucht en water. |
     De definitieve lijst met TYPE en AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de bij de WOZ in ontwikkeling zijnde lijst met domeinwaarden voor WOZ-deelobjecten. Ook moet nog een nadere uitlijning op typeringen vanuit de BRT plaatsvinden. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 </div>
 
+*type*
 
-
-| Waarde Typering| Beschrijving   |
+| Waarde Type| Beschrijving   |
 |---|---|
 | Woning| |
 | Bedrijf ||
 
-.
+*aard*
 
 |Waarde Aard|	Beschrijving|
 |---|---|
@@ -863,19 +890,20 @@ lucht en water. |
 |Aangrenzende gelijksoortige gebouwen||	
 |Onderdeel heterogeen gebouwblok||
 
-.
+*status*
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een gebouw dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Bouwvergunning verleend|	Een gebouw dat nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
-|Sloopvergunning verleend|	Een gebouw waarvoor een vergunning tot sloop is verleend|
-|In aanbouw|	Een gebouw waarvan de feitelijke bouw is aangevangen door minimaal de aanleg van de fundering (waartoe niet het bouwrijp maken van een terrein wordt gerekend).|
-|Bestaand|	Een gebouw dat is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|In verbouw|	Een gebouw waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
-|Gesloopt|	Een gebouw waarvan de feitelijke sloop is afgerond|
-|Niet gerealiseerd|	Een gebouw waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
-|Ten onrechte|	Gebouw is ten onrechte opgevoerd in de registratie|
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Bouwvergunning verleend|	
+|Sloopvergunning verleend|	
+|In aanbouw|
+|In verbouw|	
+|Gesloopt|	
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 
@@ -919,19 +947,20 @@ lucht en water. |
     In het kader van de review wordt u gevraagd om aan te geven of onderstaande statussen naar uw mening allemaal noodzakelijk zijn of dat volstaan kan worden met een beperkter aantal statussen (bijvoorbeeld gepland, bestaand, gesloopt en ten onrechte)
 </div>
 
+*status*
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een bouwlaag dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Bouwvergunning verleend|	Een bouwlaag die nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
-|Sloopvergunning verleend|	Een bouwlaag waarvoor een vergunning tot sloop is verleend|
-|In aanbouw|	Een bouwlaag waarvan de feitelijke bouw is aangevangen| 
-|Bestaand|	Een bouwlaag die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|In verbouw|	Een bouwlaag waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
-|Gesloopt|	Een bouwlaag waarvan de feitelijke sloop is afgerond|
-|Niet gerealiseerd|	Een bouwlaag waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
-|Ten onrechte|	Bouwlaag is ten onrechte opgevoerd in de registratie|
-
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bouwvergunning verleend|	
+|Sloopvergunning verleend|	
+|In aanbouw|	
+|Bestaand|	
+|In verbouw|	
+|Gesloopt|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
 
 
 #### Ruimte
@@ -987,18 +1016,22 @@ lucht en water. |
     In het kader van de review wordt u gevraagd om aan te geven of onderstaande statussen naar uw mening allemaal noodzakelijk zijn of dat volstaan kan worden met een beperkter aantal statussen (bijvoorbeeld gepland, bestaand, gesloopt en ten onrechte)
 </div>
 
+*status*
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een ruimte dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Bouwvergunning verleend|	Een ruimte die nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
-|Sloopvergunning verleend|	Een ruimte waarvoor een vergunning tot sloop is verleend|
-|In aanbouw|	Een ruimte waarvan de feitelijke bouw is aangevangen| 
-|Bestaand|	Een ruimte die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|In verbouw|	Een ruimte waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
-|Gesloopt|	Een ruimte waarvan de feitelijke sloop is afgerond|
-|Niet gerealiseerd|	Een ruimte waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
-|Ten onrechte|	Ruimte is ten onrechte opgevoerd in de registratie|
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+|Bouwvergunning verleend|	
+|Sloopvergunning verleend|	
+|In aanbouw|	
+|In verbouw|	
+|Gesloopt|
+
 
 
 #### Gebouwcomponent
@@ -1059,18 +1092,22 @@ lucht en water. |
     In het kader van de review wordt u gevraagd om aan te geven of onderstaande statussen naar uw mening allemaal noodzakelijk zijn of dat volstaan kan worden met een beperkter aantal statussen (bijvoorbeeld gepland, bestaand, gesloopt en ten onrechte)
 </div>
 
+*status*
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een gebouwcomponent dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Bouwvergunning verleend|	Een gebouwcomponent die nog niet is gebouwd maar waarvoor wel een vergunning tot bouw is verleend|
-|Sloopvergunning verleend|	Een gebouwcomponent waarvoor een vergunning tot sloop is verleend|
-|In aanbouw|	Een gebouwcomponent waarvan de feitelijke bouw is aangevangen| 
-|Bestaand|	Een gebouwcomponent die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|In verbouw|	Een gebouwcomponent waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid|
-|Gesloopt|	Een gebouwcomponent waarvan de feitelijke sloop is afgerond|
-|Niet gerealiseerd|	Een gebouwcomponent waarvoor een bouwvergunning was verleend, maar waarvan is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken|
-|Ten onrechte|	gebouwcomponent is ten onrechte opgevoerd in de registratie|
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+|Bouwvergunning verleend|	
+|Sloopvergunning verleend|	
+|In aanbouw|	
+|In verbouw|	
+|Gesloopt|	
+
 
 
 #### Toegangsdeur
@@ -1116,13 +1153,15 @@ lucht en water. |
 
 **Domeinwaarden**
 
+*toegangssoort*
+
 | Waarde Toegangssoort| Beschrijving   |
 |---|---|
 |directe toegang vanaf eigen terrein|de toegangsdeur bevindt zich op een erf, in een tuin of een andere specifiek terrein dat behoort bij het gebouw |
 |directe toegang vanaf openbare weg|de toegangsdeur bevindt zich direct aan een voor iedereen toegankelijke weg |
 |toegang vanaf gemeenschappelijke verkeersruimte |de toegangsdeur bevindt zich aan een inpandige ruimte die bedoeld is voor verplaatsingen door een gebouw door de verschillende gebruikers van dit gebouw  |
 
-.
+*gebruiksaard*
 
 | Waarde Gebruiksaard| Beschrijving   |
 |---|---|
@@ -1130,15 +1169,17 @@ lucht en water. |
 |Auto|de toegangsdeur is primair bedoeld voor toegang tot een object door voertuigen |
 |Vracht|de toegangsdeur is primair bedoeld voor toegang tot een object door vracht zonder gebruik van een voertuig|
 
-.
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een toegangsdeur die zich in de ontwerpfase bevindt|
-|Bestaand|	Een toegangsdeur die is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|Verwijderd|	Een toegangsdeur die feitelijk is verwijderd|
-|Niet gerealiseerd|	Een geplande toegangsdeur die niet als zodanig is gerealiseerd|
-|Ten onrechte|	Toegangsdeur is ten onrechte opgevoerd in de registratie|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 #### Open bouwwerk
 
@@ -1179,21 +1220,25 @@ lucht en water. |
 
 **Domeinwaarden**
 
+*typering*
+
 |Waarde typering| Beschrijving|
 |---|---|
 |overkapping|Een afzonderlijk staande overdekking rustend op kolommen|
 |open loods|Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden|
 |parkeergarage|Al dan niet open bebouwing, geheel of gedeeltelijk (het dak of een van de onderliggende etages) in gebruik als openbare voorziening voor het parkeren van motorvoertuigen.|
 
-.
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een open bouwwerk dat zich in de ontwerpfase bevindt|
-|Bestaand|	Een open bouwwerk dat is gebruik is genomen of als gebruiksgereed kan worden beschouwd|
-|Verwijderd|	Een open bouwwerk dat feitelijk is verwijderd|
-|Niet gerealiseerd|	Een gepland open bouwwerk dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Een open bouwwerk dat ten onrechte is opgevoerd in de registratie|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 ### Constructie; Verharding
@@ -1235,15 +1280,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Verharding die zich in de ontwerpfase bevindt.|
-|Bestaand|	Verharding die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Verharding die feitelijk is verwijderd.|
-|Niet gerealiseerd|	Geplande verharding die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Verharding die ten onrechte is opgevoerd in de registratie.|
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type verharding*
 
 |Waarde Type verharding| Beschrijving   |
 |---|---|
@@ -1325,15 +1373,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type overbrugging* *
 
 |Waarde Type overbrugging| Beschrijving   |
 |---|---|
@@ -1392,15 +1443,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type ondertunneling*
 
 |Waarde Type ondertunneling| Beschrijving   |
 |---|---|
@@ -1508,15 +1562,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*Type kunstwerkdeel*
 
 |Waarde Type kunstwerkdeel| Beschrijving   |
 |---|---|
@@ -1563,15 +1620,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type kunstwerkdeel*
 
 |Waarde Type kunstwerkdeel| Beschrijving   |
 |---|---|
@@ -1621,13 +1681,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Een muur die zich in de ontwerpfase bevindt.|
-|Bestaand| Een muur die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Een muur die feitelijk is verwijderd.|
-|Niet gerealiseerd|	Een geplande muur die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een muur die ten onrechte is opgevoerd in de registratie.|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 #### Hek
@@ -1666,13 +1729,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Een hek dat zich in de ontwerpfase bevindt.|
-|Bestaand|	Een hek dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Een hek dat feitelijk is verwijderd.|
-|Niet gerealiseerd|	Een gepland hek dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een hek dat ten onrechte is opgevoerd in de registratie.|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 #### Raster
@@ -1711,13 +1777,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Een raster dat zich in de ontwerpfase bevindt.|
-|Bestaand|	Een raster dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Een raster dat feitelijk is verwijderd.|
-|Niet gerealiseerd|	Een gepland raster dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een raster dat ten onrechte is opgevoerd in de registratie.|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 #### Scherm
@@ -1756,13 +1825,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Een scherm dat zich in de ontwerpfase bevindt.|
-|Bestaand|	Een scherm dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Een scherm dat feitelijk is verwijderd.|
-|Niet gerealiseerd|	Een gepland scherm dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een scherm dat ten onrechte is opgevoerd in de registratie.|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 
@@ -1802,13 +1874,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 .
 
@@ -1858,13 +1933,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 .
 
@@ -1918,13 +1996,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 .
 
@@ -1970,13 +2051,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 .
 
@@ -2025,13 +2109,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 .
 
@@ -2078,15 +2165,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type mast*
 
 |Waarde Type mast| Beschrijving   |
 |---|---|
@@ -2136,15 +2226,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type straatmeubilair*
 
 |Waarde Type straatmeubilair| Beschrijving   |
 |---|---|
@@ -2206,15 +2299,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type sensor*
 
 |Waarde Type sensor| Beschrijving   |
 |---|---|
@@ -2258,15 +2354,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type paal*
 
 |Waarde Type paal| Beschrijving   |
 |---|---|
@@ -2343,15 +2442,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|gepland||
-|bestaand||
-|verwijderd||
-|niet gerealiseerd||
-|ten onrechte||
+*status*
 
-.
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type kast*
 
 |Waarde Type kast| Beschrijving   |
 |---|---|
@@ -2401,13 +2503,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Een bunker die zich in de ontwerpfase bevindt.|
-|Bestaand|	Een bunker die in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Een bunker die feitelijk is verwijderd.|
-|Niet gerealiseerd|	Een geplande bunker die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een bunker die ten onrechte is opgevoerd in de registratie.|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 
@@ -2446,13 +2551,16 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|Gepland|	Onbepaald terreindeel dat zich in de ontwerpfase bevindt.|
-|Bestaand|	Onbepaald terreindeel dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd.|
-|Verwijderd|	Onbepaald terreindeel dat feitelijk is verwijderd.|
-|Niet gerealiseerd|	Gepland onbepaald terreindeel dat niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Onbepaald terreindeel dat ten onrechte is opgevoerd in de registratie.|
+|*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 
