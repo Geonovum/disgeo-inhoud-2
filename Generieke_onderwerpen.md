@@ -207,12 +207,16 @@ Ontwerpprincipe:
 
 **Een netwerk ligt op het fysieke object waar het bij hoort.**
 
+Een wegennetwerk zal altijd over wegen gaan, en een vaarwegennetwerk zal altijd op een rivier of ander water liggen. Netwerken zijn virtuele objecten die een specifieke relatie hebben met reële objecten. Een netwerk in de registratie kan niet bestaan zonder het fysieke object (de weg, het water, het spoor) waar het bij hoort. Deze relatie wordt geborgd door de eis dat het netwerk (verbinding/knoop) geometrisch op het fysieke object (verharding, water) ligt. 
+
+
+
 #### Eigenschappen
 Ontwerpprincipe: 
 
 **Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
 
-Eigenschappen kunnen meerdere malen van waarde wisselen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor het verkeerslicht wordt teruggebracht naar 50 km/h. Als er geen dringende reden is om de structuur van het netwerk te verstoren door verbindingen verder op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing . Dit is dus een methode waarbij administratief wordt aangegeven bij een verbinding waar een verandering geldt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap geometrie aangegeven door de afkorting LR.
+Eigenschappen kunnen meerdere malen van waarde wisselen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor het verkeerslicht wordt teruggebracht naar 50 km/h. Als er geen dringende reden is om de structuur van het netwerk te verstoren door verbindingen verder op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing . Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap geometrie aangegeven door de afkorting LR.
 
 <aside class='example'>
 
