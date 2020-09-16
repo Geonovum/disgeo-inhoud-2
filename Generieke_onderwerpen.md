@@ -138,12 +138,12 @@ Dit zou bijvoorbeeld via een afsprakenstelsel geregeld kunnen worden
 
 #### Coördinatenstelsel
 
+ Voor 3D geometrie is het noodzakelijk om met een cartesisch coördinatenstelsel te werken (d.w.z. waarin de 3D assen onderling loodrecht op elkaar staan). 
+
 ####  3D
 ontwerpprincipe: **de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht is en 3D vrijwillig.** Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie conform hetgeen daarover voor het betreffende objecttype is bepaald, waarbij de vastlegging hiervan zodanig wordt vormgegeven dat de driedimensionale (3D) beschrijving van een object kan worden opgenomen.
 
-*hier uitschrijven welke levels of details worden onderscheiden in de SOR voor 3D*
-
-*let op: ook de z-hoogte is van belang naast volume, zoals bij bv fly-overs, etc, etc.*
+De SOR maakt het op vrijwillige basis mogelijk om ook 3D aspecten van objecten vast te leggen. Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Het gaat hierbij dus om de coordinate dimension (ISO19107) en niet om de dimensie van de geometric primitive (ISO19107) die wordt gebruikt om de geometrie te representeren. Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
 
 <div class='note'>
     In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraag om een herziening van huidige topologie regels en het begrip maaiveld. Wij zijn opzoek naar mensen die een zinvolle bijdrage kunnen leveren op dit onderwerp.
@@ -151,15 +151,7 @@ ontwerpprincipe: **de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht
 
 #### Geometrie-type
 
-| Waarde Type | Beschrijving   |
-|---|---|
-|punt | |
-|lijn ||
-|vlak ||
-|volume||
-|1.5D| punt met Z-coördinaat|
-|2.5D| vlak met Z-coördinaat|
-|3D| volume met Z-coördinaat|
+Er wordt hietrbij verwezen naar de Simple Features, zoals vastgelegd in ISO19125 en OGC 06-103r4 OpenGIS® Implementation Standard for Geographic information - Simple feature access - Part 1: Common architecture
 
 
 #### Topologie
@@ -457,11 +449,11 @@ Afhankelijk van de achtergrond van het opvoeren of beëindigen van een object in
 
 Naast de genoemde metagegevens die gericht zijn op zowel gebruikers als bronhouders, hebben bronhouders aangegeven behoefte te hebben aan een aantekenveld op objectniveau. Dit aantekenveld is met name van belang om als bronhouder onderling aandachtspunten te kunnen uitwisselen. Dat kan zijn verschillende medewerkers van formeel dezelfde bronhouder (verschillende afdelingen van een gemeente die betrokken zijn bij het beheer van de SOR), maar ook formeel verschillende bronhouders, bijvoorbeeld bij grenslijnen tussen objecten in beheer bij ProRail en bij de gemeente.
 
-#### Registreren metagegeven per attribuut
+#### Registreren metagegevens per attribuut
 Per attribuut worden de volgende metagegevens vastgelegd:
 
--	Bronverwijzing: Bij alle attributen wordt vastgelegd de wijziging op grond waarvan het betreffende attribuut (wijziging van een attribuut) in de registratie is opgenomen aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.).
-
+-	Bronverwijzing: Bij alle attributen wordt vastgelegd de wijziging op grond waarvan het betreffende attribuut (wijziging van een attribuut) in de registratie is opgenomen aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.). 
+-   Bronverwijzing: bij 3D-geometrie wordt vastgelegd hoe deze tot stand is gekomen, bijvoorbeeld door post-processing, door 3D inwinning of andres.
 Afhankelijk van de achtergrond van het opvoeren of wijzigen van een attribuut in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld een luchtfoto of een BIM.
 Bij het attribuut geometrie kan ook sprake zijn van een bronverwijzing naar een plaatsbepalingspunt (zie paragraaf 3.5.5).
 

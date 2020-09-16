@@ -6,7 +6,7 @@
 |---|---|
 |DiSGeo     |   Doorontwikkeling in Samenhang van de Geo-basisregistraties  |
 |SOR        |   Samenhangende ObjectenRegistratie                           |
-|   |   |
+|LOD  |     Level of Detail  | 
 |   |   |
 |   |   |
 |   |   |

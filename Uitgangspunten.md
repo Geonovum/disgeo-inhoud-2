@@ -113,7 +113,7 @@ Ontwerpprincipe:
 
 **In de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten.**
 
-De scope van de samenhangende objectenregistratie is in eerste instantie beperkt tot de bovengrond en de ondergrondse delen van objecttypen die ook in het terrein zichtbaar zijn. Denk aan aaneengesloten parkeergarages in de BAG. Daarnaast worden enkele objecttypen uit de BGT die daarin op een ander niveau zijn gepositioneerd ook in de scope van de samenhangende objectenregistratie betrokken. Het gaat daarbij met name om tunneldelen en duikers. Het tweede gedeelte van de formulering richt zich daarop.
+De scope van de samenhangende objectenregistratie is in eerste instantie beperkt tot de bovengrond en de ondergrondse delen van objecttypen die ook in het terrein zichtbaar zijn. Denk aan aaneengesloten parkeergarages in de BAG, maar ook aan wortelstelsels van bomen. Daarnaast worden enkele objecttypen uit de BGT die daarin op een ander niveau zijn gepositioneerd ook in de scope van de samenhangende objectenregistratie betrokken. Het gaat daarbij met name om tunneldelen en duikers. Het tweede gedeelte van de formulering richt zich daarop.
 
 Deze afbakening van de scope is een afgeleide van de wens om tot een helder en beheersbaar transitietraject te komen. Het ook opnemen van ondergrondse objecten in de SOR, zoals leidingnetwerken of de verschillende objecttypen die thans worden opgenomen in de Basisregistratie Ondergrond (BRO), zou op dit moment leiden tot een aanzienlijk hogere complexiteit. Dit neemt niet weg dat opname van ondergrondse objecten in de toekomst niet wordt uitgesloten. Het model van de registratie is zodanig opgezet dat op termijn ook ondergrondse objecten in de registratie kunnen worden opgenomen. Deze opname zou in de loop van de tijd ook gefaseerd kunnen plaatsvinden.
 
@@ -176,7 +176,9 @@ De grondgedachte van de samenhangende objectenregistratie is dat deze bestaat ui
 - verplichte en gestandaardiseerde objecttypen en eigenschappen (het formele basisregistratie gedeelte)
 - vrijwillige maar wel gestandaardiseerde objecttypen en eigenschappen
 
-Hierbij is het belangrijk dat opname van vrijwillige objecten en gegevens door een bronhouder ook betekent dat deze gegevens blijvend worden bijgehouden. Voor alle opgenomen objecten en gegevens (zowel in het verplichte als het vrijwillige gedeelte) gelden dus blijvend de bijhoudingsregels die behoren bij het betreffende objecttype en eigenschappen. Bij de verdere uitwerking van de organisatie van de samenhangende objectenregistratie zullen afspraken moeten worden gemaakt over de omgang met in de registratie opgenomen objecten en gegevens die blijvend niet aan de bijhoudingsregels voldoen.
+Vrijwillige eigenschappen kunnen ook aan 3D zijn gerelateerd.
+
+Hierbij is het belangrijk dat opname van vrijwillige objecten en eigenschappen door een bronhouder ook betekent dat deze gegevens blijvend worden bijgehouden. Voor alle opgenomen objecten en eigenschappen (zowel in het verplichte als het vrijwillige gedeelte) gelden dus blijvend de bijhoudingsregels die behoren bij het betreffende objecttype en eigenschappen. Bij de verdere uitwerking van de organisatie van de samenhangende objectenregistratie zullen afspraken moeten worden gemaakt over de omgang met in de registratie opgenomen objecten en eigenschappen die blijvend niet aan de bijhoudingsregels voldoen.
 
 Voor het basisregistratie gedeelte gelden de 12 eisen die aan basisregistraties worden gesteld (https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/gegevens/naar-een-gegevenslandschap/themas/twaalf-eisen-stelsel-van-basisregistraties/) en waarvan voor de verdere uitwerking van de inhoud van de samenhangende objectenregistratie met name de eisen 6 (er is duidelijkheid over inhoud en bereik van de registratie) en 11 (de positie van de basisregistratie binnen het stelsel van basisregistraties is duidelijk en de relaties met de basisregistraties zijn beschreven) van belang zijn.
 
@@ -240,10 +242,12 @@ Ontwerpprincipe:
 
 Opname van geometrie van alle objecten in de registratie is van essentieel belang voor het goed kunnen functioneren van een geo-basisregistratie. Met geometrie wordt daarbij expliciet bedoeld een geo-gerefereerde vastlegging van de begrenzing van een object.  Met geo-gerefereerde vastlegging wordt bedoeld dat de geometrie is beschreven in de vorm van coördinaten die onderdeel uitmaken van een referentie coördinatenstelsel (zoals het RD stelsel of ETRS89). De registratie wordt daarbij direct voorbereid op 3D vastlegging van objecten.
 
-Hierbij kan de wijze van vastlegging verschillen voor de diverse objecttypen. Sommige objecttypen zullen worden vastgelegd in de vorm van 3D volumes. Andere objecttypen als vlakken met een bepaalde hoogteligging. Voor bepaalde objecten met een minimale omvang kan ook geometrische vastlegging in de vorm van een enkel coördinatendrietal (x, y en z) worden vastgelegd (puntobject). 
+Hierbij kan de wijze van vastlegging verschillen voor de diverse objecttypen. Sommige objecttypen zullen worden vastgelegd in de vorm van 3D volumes. Andere objecttypen als vlakken met een bepaalde hoogteligging. Voor bepaalde objecten met een minimale omvang kan ook geometrische vastlegging in de vorm van een enkel coördinatendrietal (x, y en z) worden vastgelegd (puntobject). Ook wordt er rekening mee gehpouden dat er bij een object meerdere 3D geometrische representaties kunnen voorkomen, bijv. meerdere Levels of detail (LOD’s) van een object.
 
 Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie zullen in de regel nadere eisen worden gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende fysieke objecten). Ook worden bij dit soort objecten soms ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast zal er in de verdere uitwerking ook nog aandacht moeten worden besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan hectometerpaaltjes, verdiepingsnummers en bouwlagen.
 
+De SOR is primair een geometrische dataset en kaartbeelden kunnen daar als product van worden afgeleid. Hierbij is door voor geometrie aansluiting op Simple Features (ISO19125) voorgeschreven. 
+De SOR hanteert altijd expliciete geometrieën  en geen impliciete, dus bijv. geen geparametriseerde geometriebeschrijvingen zoals in CAD/BIM vaker voorkomen. Met expliciete geometrie kun je beter rekenen, wat voor analyses fijn is, maar ook voor kwaliteitscontroles (bijv. topologische controles) of voor het ‘optrekken’ van 2D naar 3D geometrie.
 
 #### Metagegevens
 
@@ -253,6 +257,7 @@ ontwerpprincipe:
 
 Bij meta-informatie gaat het onder meer over informatie over de kwaliteit, ontstaansmoment en versie van het object. Voor het vastleggen van meta-informatie zullen nog nadere afspraken moeten worden ontwikkeld, waarbij het uitgangspunt is dat zoveel mogelijk wordt aangesloten op hiervoor bestaande standaarden. Deze zullen worden toegespitst op de verschillende soorten objecttypen. In de huidige basisregistraties wordt aan dit aspect op verschillende wijzen invulling gegeven. In de BAG wordt gewerkt met verwijzingen naar brondocumenten, in de BGT wordt hieraan op dit moment invulling gegeven met de opname van plaatsbepalingspunten en in de WOZ wordt hiervoor specifieke kwaliteitsinformatie aan de registratie toegevoegd.
 
+Metagegevens kunnen ook informatie over totstandkoming van 3D geometrie bevatten, bijv. extrusie vs. 3D inmeting, en LOD(-beschrijving) van geometrie (noodzakelijk om te weten of een dak plat is in een dataset omdat het dak in werkelijkheid plat is, of omdat het een LOD1 representatie is).
 
 
 #### Aanvullende eigenschappen
