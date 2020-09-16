@@ -201,7 +201,7 @@ Ontwerpprincipe:
 
 Een wegennetwerk zal altijd over wegen gaan, en een vaarwegennetwerk zal altijd op een rivier of ander water liggen. Netwerken zijn virtuele objecten die een specifieke relatie hebben met reële objecten. Een netwerk in de registratie kan niet bestaan zonder het fysieke object (de weg, het water, het spoor) waar het bij hoort. Deze relatie wordt geborgd door de eis dat het netwerk (verbinding/knoop) geometrisch op het fysieke object (verharding, water) ligt. 
 
-
+![NOF](media/netwerkopfysiekobject.png)
 
 #### Eigenschappen
 Ontwerpprincipe: 
