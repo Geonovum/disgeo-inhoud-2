@@ -243,11 +243,8 @@ Ontwerpprincipe:
 
 
 
-### Mate van detail (schaal niveau)
+### Mate van detail 
 
-*Vermijd schaalloos*
-
- De term ‘schaalloos’ niet gebruiken; Inwinning is nooit schaalloos, en vindt plaats op het hoogste detailniveau van een object en moet zodanig zijn dat het passend is bij het beoogde gebruik. 
 
 *Van hoog naar laag detailniveau*
 Aandachtspunt hierbij is dat het vervolgens mogelijk moet zijn om het geschikt te maken voor beoogd gebruik op lagere detailniveaus met een consistente geïntegreerde lijn door alle detailniveaus (voorheen schaalniveaus) heen. 
@@ -260,6 +257,8 @@ Het gaat bij inwinning om de precisie waarmee een geometrie van een object wordt
 
 *Brede blik hanteren*
 Het DisGeo-concept en daarmee de Samenhangende Objectenregistratie (SOR) kijkt breder dan de BRT.  In de oplossing moeten we ruimte bieden voor toekomstige ontwikkelingen die we nu niet kunnen voorzien hoe lastig dat ook is.  Bijvoorbeeld de huidige corona-analyses wisten we ook niet van tevoren.  Wellicht lopen we in de informatiemodellering ook tegen strijdige belangen aan. Hier moeten we mee om kunnen gaan en mogelijk varianten toe staan
+
+Er wordt voor gekozen om de term 'schaalloos' niet te gebruiken; Inwinning is nooit schaalloos, en vindt plaats op het hoogste detailniveau van een object en moet zodanig zijn dat het passend is bij het beoogde gebruik. 
 
 **Begrippen**
 - ‘Cartografisch object’ 
