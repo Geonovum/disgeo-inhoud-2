@@ -45,8 +45,7 @@
 |Buurtschap  |Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang  |
 |deelkern  |Historische bebouwingskern, ruimtelijk te onderscheiden van de omliggende bebouwing, gelegen binnen een andere bebouwde kom     |
 
-.
-
+*status*
 
 | Waarde  | Beschrijving Status  |
 |---|---|
@@ -96,8 +95,7 @@
 |open duinvegetatie||
 |gesloten duinvegetatie||
 
-.
-
+*status*
 
 | Waarde  | Beschrijving Status  |
 |---|---|

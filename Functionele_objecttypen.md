@@ -57,15 +57,18 @@ ontwerpprincipe:
     In het kader van de review wordt u gevraagd om aan te geven welke levensfasen relevant zijn om als STATUS van een knoop te onderscheiden. 
 </div>
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland	|Een object dat zich in de ontwerpfase bevindt|
-|Gesloten	|Een object dat is gerealiseerd maar nog niet in gebruik is genomen|
-|In gebruik|	Een object dat in gebruik is genomen |
-|Ontoegankelijk|	Een object dat in gebruik is genomen maar tijdelijk niet gebruikt kan worden|
-|Opgeheven|	Een object dat buiten gebruik is gesteld|
-|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
-|Ten onrechte	|Een object dat ten onrechte is opgevoerd in de registratie|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 
 
@@ -121,6 +124,8 @@ ontwerpprincipe:
     Wat te doen met wegtypen: verbindingsweg, calamiteitendoorsteek en voetpad op trap
 </div>
 
+*type weg*
+
 |Waarde type weg	|Beschrijving|
 |---|---|
 |Autosnelweg	|Een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen, daartoe aangeduid met het betreffende verkeersbord.|
@@ -131,7 +136,7 @@ ontwerpprincipe:
 |Voetpad|Een wegdeel waar voetgangers gebruik van moeten maken.|
 |Ruiterpad|Een pad primair aangelegd voor het gebruik door ruiters.|	
 
-.
+*type hoofdverkeersgebruik*
 
 |Waarde type hoofdverkeersgebruik|Beschrijving|
 |---|---|
@@ -148,17 +153,18 @@ ontwerpprincipe:
     In het kader van de review wordt u gevraagd om aan te geven welke levensfasen relevant zijn om als STATUS wegverbinding te onderscheiden. 
 </div>
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland	|Een object dat zich in de ontwerpfase bevindt|
-|Gesloten	|Een object dat is gerealiseerd maar nog niet in gebruik is genomen|
-|In gebruik|	Een object dat in gebruik is genomen |
-|Ontoegankelijk|	Een object dat in gebruik is genomen maar tijdelijk niet gebruikt kan worden|
-|Opgeheven|	Een object dat buiten gebruik is gesteld|
-|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
-|Ten onrechte	|Een object dat ten onrechte is opgevoerd in de registratie|
+*status*
 
-
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 
 
@@ -193,9 +199,18 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 
 ### Transportvoorziening; Spoorweg
@@ -284,6 +299,9 @@ ontwerpprincipe:
     De definitieve lijst voor FEITELIJK GEBRUIK zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen. Ook wordt deze lijst nog afgestemd met begrippen in de BRT.
 </div>
 
+
+*feitelijk gebruik*
+
 | Waarde Feitelijk Gebruik| Beschrijving   |
 |---|---|
 | vrijstaande woning ||
@@ -329,19 +347,19 @@ ontwerpprincipe:
 | sport en recreatie ||
 | eredienst ||
 
-.
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een verblijfsobject dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Gevormd|	Een verblijfsobject dat deel gaat uitmaken van een nog niet gerealiseerd gebouw waarvoor een vergunning tot bouw is verleend of dat wordt gerealiseerd in een reeds bestaand gebouw|
-|In gebruik|	Een verblijfsobject dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd |
-|Buiten gebruik	|Een verblijfsobject dat onderdeel uitmaakt van een gebouw dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het gebouw zal worden hersteld en weer in gebruik zal worden genomen|
-|Beëindigd|	Een verblijfsobject dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een gepland verblijfsobject dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Verblijfsobject is ten onrechte opgevoerd in de registratie|
+*status*
 
-
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik	|	
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 #### Gebouwzone
 
@@ -419,21 +437,25 @@ ontwerpprincipe:
     De definitieve lijst voor KWALITEITSINDICATIE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 </div>
 
+*kwaliteitsindicatie* 
+
 | Waarde Kwaliteitsindicatie| Beschrijving   |
 |---|---|
 |  | |
 
-.
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een gebouwzone dat zich in de ontwerpfase bevindt en waarvoor nog geen vergunning tot bouw is verleend|
-|Gevormd|	Een gebouwzone dat deel gaat uitmaken van een nog niet gerealiseerd gebouw waarvoor een vergunning tot bouw is verleend of dat wordt gerealiseerd in een reeds bestaand gebouw|
-|In gebruik|	Een gebouwzone die in gebruik is genomen of als gebruiksgereed kan worden beschouwd |
-|Buiten gebruik|	Een gebouwzone dat onderdeel uitmaakt van een gebouw dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het gebouw zal worden hersteld en weer in gebruik zal worden genomen|
-|Beëindigd|	Een gebouwzone dat als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een geplande gebouwzone dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Gebouwzone is ten onrechte opgevoerd in de registratie|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik	|	
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 
 
@@ -478,6 +500,8 @@ ontwerpprincipe:
     Carpoolplaats, Transferium, Verzorgingsplaats, Parkeerplaats alleen opnemen als dit door BRT.next wordt aangegeven
 </div>
 
+*type* 
+
 |Waarde type|	Beschrijving|
 |---|---|
 | Voetgangersgebied | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. |
@@ -493,15 +517,17 @@ ontwerpprincipe:
 | Snellaadstation |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd. |
 | Zone |  Verkeerskundige afbakening van een gebied. |
 
-.
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een verkeerskundig functionele zone die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een verkeerskundig functionele zone die is gerealiseerd.|
-|Beëindigd|	Een verkeerskundig functionele zone die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande verkeerskundig functionele zone die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een verkeerskundig functionele zone die ten onrechte is opgevoerd in de registratie.|
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 #### Spoorzone
 | Klasse  | Naam  |
@@ -538,17 +564,21 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een spoorzone die zich in de ontwerpfase bevindt. |
-|Gevormd|	Een spoorzone die is gerealiseerd.|
-|Beëindigd|	Een spoorzone die als zodanig opgehouden heeft te bestaan.|
-|Niet gerealiseerd|	Een geplande spoorzone die niet als zodanig is gerealiseerd.|
-|Ten onrechte|	Een spoorzone die ten onrechte is opgevoerd in de registratie.|
 
-.
+*status*
 
-| Waarde status	|Beschrijving|
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+*type*
+
+| Waarde type	|Beschrijving|
 |---|---|
 | Perron |  Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. |
 | Overweg | Een gelijkvloerse kruising van een weg met een spoor type trein of sneltram. |
@@ -592,13 +622,17 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een wegzone die zich in de ontwerpfase bevindt |
-|Gevormd|	Een wegzone die is gerealiseerd|
-|Beëindigd|	Een wegzone die als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een geplande wegzone die niet als zodanig is gerealiseerd|
-|Ten onrechte|	Een wegzone die ten onrechte is opgevoerd in de registratie|
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 <div class='note'>
     Niet alle type wegzones verplicht maken
@@ -653,15 +687,19 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde status	|Beschrijving|
-|---|---|
-|Gepland|	Een luchtvaartzone die zich in de ontwerpfase bevindt |
-|Gevormd|	Een luchtvaartzone die is gerealiseerd|
-|Beëindigd|	Een luchtvaartzone die als zodanig opgehouden heeft te bestaan|
-|Niet gerealiseerd|	Een geplande luchtvaartzone die niet als zodanig is gerealiseerd|
-|Ten onrechte|	Een luchtvaartzone die ten onrechte is opgevoerd in de registratie|
 
-.
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+*type*
 
 |Waarde type	|Beschrijving|
 |---|---|
@@ -769,11 +807,19 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
-.
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+*kering*
 
 |Waarde type kering| Beschrijving   |Herkomst|
 |---|---|---|
@@ -816,9 +862,17 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 #### Complex
 | Klasse  | Naam  |
@@ -857,11 +911,19 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
-. 
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+*type complex*
 
 |Waarde Type complex| Beschrijving   |
 |---|---|
@@ -914,9 +976,17 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 
 
@@ -952,11 +1022,19 @@ ontwerpprincipe:
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Domeinwaarden**
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
 
-. 
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+*type reducering* 
 
 |Waarde Type reducering| Beschrijving   |Herkomst|
 |---|---|---|
@@ -999,9 +1077,17 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 
 #### Afscheiding 
@@ -1040,9 +1126,17 @@ ontwerpprincipe:
 
 **Domeinwaarden**
 
-|Waarde Status| Beschrijving   |
-|---|---|
-|||
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 
 
