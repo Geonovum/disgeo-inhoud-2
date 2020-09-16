@@ -212,7 +212,7 @@ Ontwerpprincipe:
 
 **Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
 
-Eigenschappen van verbindingen worden vastgelegd met de methode van lineair referencing als er geen dringende reden is om de structuur van het netwerk te verstoren door verder op te knippen. Dit is dus een methode waarbij administratief wordt aangegeven bij een verbinding waar een verandering geldt.
+Eigenschappen kunnen meerdere malen van waarde wisselen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor het verkeerslicht wordt teruggebracht naar 50 km/h. Als er geen dringende reden is om de structuur van het netwerk te verstoren door verbindingen verder op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing . Dit is dus een methode waarbij administratief wordt aangegeven bij een verbinding waar een verandering geldt.
 
 <aside class='example'>
 
