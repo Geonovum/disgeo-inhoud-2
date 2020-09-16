@@ -60,6 +60,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -156,6 +157,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -202,6 +204,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -351,6 +354,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -447,6 +451,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -521,6 +526,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -568,6 +574,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -626,6 +633,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -691,6 +699,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -811,6 +820,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -866,6 +876,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -915,6 +926,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -980,6 +992,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -1026,6 +1039,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -1081,6 +1095,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
@@ -1130,6 +1145,7 @@ ontwerpprincipe:
 *status*
 
 Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland	|
