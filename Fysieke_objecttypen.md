@@ -62,7 +62,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |niet gerealiseerd|
 |Ten onrechte opgevoerd|
 
-.
+*type watervlakte*
 
 |Waarde Type watervlakte| Beschrijving   |
 |---|---|
@@ -123,7 +123,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |niet gerealiseerd|
 |Ten onrechte opgevoerd|
 
-.
+*type waterloop*
 
 |Waarde Type waterloop| Beschrijving   |
 |---|---|
