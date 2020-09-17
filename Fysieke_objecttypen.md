@@ -2156,6 +2156,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |zonnepanelen| Een installatie om zonne-energie om te zetten in energie |
 |lift| Een installatie gericht op het vertikaal vervoeren van personen en goederen|
 |windturbine|Turbine waarin winddruk omgezet wordt in mechanische energie|
+|oplaadpunt| Systeem voor opladen van elektrische auto's |
 
 #### Mast
 | Klasse  | Naam  |
@@ -2490,16 +2491,13 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde Type kast| Beschrijving   |
 |---|---|
-|lage trafo|*Bouwwerk waarin transformator(en) zijn geplaatst voor elektriciteitsvoorziening.*|
-|CAI-kast|*Kast ten behoeve van de regeling van radio- en televisiesignalen*|
-|elektrakast|*Kast ten behoeve van het transport van elektriciteit.*|
-|gaskast|*Kast ten behoeve van het transport van gas.*|
-|telecom kast|*Kast ten behoeve van de regeling van telecommunicatie.*|
-|rioolkast|*Kast ten behoeve van de regeling van het transport van rioolwater.*|
-|openbare verlichtingkast|*Kast ten behoeve van de regeling van de openbare verlichting.*|
-|verkeersregelinstallatiekast|*Kast ten behoeve van de regeling van het verkeer.*|
-|telkast|*Kast ten behoeve van het meten van permanente verkeertellingen.*|
-|GMS kast|*Kast ten behoeve van het meten van weers- en wegdekomstandigheden.*|
+|Elektrakast|Kast ter bescherming van elektrotechnische installatie.|
+|Gaskast|Kast ten behoeve van het transport van gas.|
+|Telecom kast|Kast ten behoeve van de regeling van telecommunicatie, radio- en/of televisiesignalen|
+|Rioolkast|Kast ten behoeve van de regeling van het transport van rioolwater.|
+|Openbare verlichtingkast|Kast ten behoeve van de regeling van de openbare verlichting.|
+|Verkeer| Kast ten behoeven van VRI's, verkeerstellingen en/of het meten van weers- en wegdekomstandigheden|
+|Pakketautomaat| Kast voor het ophalen en afgeven van postpakketten|
 
 #### Bunker
 | Klasse  | Naam  |
