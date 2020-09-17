@@ -1316,6 +1316,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | Elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.|
 | Halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.|
 | Kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient.|
+| Onverhard| Onverhard oppervlakte bestaande uit natuurlijke materialen, voorzien van een fundering.|
 
 .
 
