@@ -1323,12 +1323,12 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Type verharding plus| Beschrijving   |
 |---|---|
 |**aAfaltverharding**||
-|   Zoab en open deklagen|*geen definitie opgenomen in IMBOR*|
+|   Zoab en open deklagen|Zeer Open AsfaltBeton en open toplagen van de verharding.|
 |   Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|
-|   Dichte deklagen|*geen definitie opgenomen in IMBOR*|
+|   Dichte deklagen|Dichte toplaag van de verharding.|
 |**Betonverharding**||
 |   Ongewapend verdeuveld beton|Ongewapend verdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘verdeuveld’ genoemd.|
-| 	Gewapend beton|*geen definitie opgenomen in IMBOR*|
+| 	Gewapend beton|Beton waarin een wapening is aangebracht om trekspanningen op te nemen.|
 | 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|
 | 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|
 |**Elementenverharding**||
