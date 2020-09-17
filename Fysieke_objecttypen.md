@@ -1944,15 +1944,12 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde Type deksel| Beschrijving   |
 |---|---|
-|benzine-/olieput|Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen, onderhoud of inspectie. |
-|brandkraan/-put|Op de drinkwaterleiding aangesloten kraan, of put voor het plaatsen van een brandkraan.|
-|drainageput|Put welke toegang geeft naar een poreuze of geperforeerde buisleiding, aangebracht onder de grond om de afwatering van de grond te verbeteren.|
-|gasput|Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport.|
-|inspectie-/rioolput|Put die toegang geeft tot een (riool)leiding. |
-|kolk|Op het riool aangesloten voorziening voor de opvang van hemel- en afvalwater afkomstig van erop aangesloten oppervlakken.|
-|waterleidingput|Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport.|
-|lijnafwatering|Voorziening voor het afvoeren van overtollig hemel- en afvalwater afkomstig van erop aangesloten oppervlakken.|
-|rooster|Evenwijdig of kruiselings lopende staafconstructie voor het tegenhouden van vuil uit hemel- en afvalwater.|
+|benzine-/olie|Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen, onderhoud of inspectie. |
+|brandkraan|Op de drinkwaterleiding aangesloten kraan, of put voor het plaatsen van een brandkraan.|
+|riolering |Putdeksel die toegang geeft tot voorziening voor het afvoeren van overtollig hemel- en afvalwater afkomstig van erop aangesloten oppervlakken.|
+|gas|Putdeksel die toegang geeft tot een put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport.|
+|waterleiding|Putdeksel die toegang geeft tot een put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport.|
+
 
 
 
