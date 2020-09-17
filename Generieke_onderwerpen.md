@@ -212,7 +212,7 @@ Ontwerpprincipe:
 **Detaillering waar nodig**
 
 
-#### Eigenschappen
+#### Eigenschappen van knopen en verbindingen
 Ontwerpprincipe: 
 
 **Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
