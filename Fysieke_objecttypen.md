@@ -1318,36 +1318,6 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | Kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient.|
 | Onverhard| Onverhard oppervlakte bestaande uit natuurlijke materialen, voorzien van een fundering.|
 
-.
-
-|Waarde Type verharding plus| Beschrijving   |
-|---|---|
-|**aAfaltverharding**||
-|   Zoab en open deklagen|Zeer Open AsfaltBeton en open toplagen van de verharding.|
-|   Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|
-|   Dichte deklagen|Dichte toplaag van de verharding.|
-|**Betonverharding**||
-|   Ongewapend verdeuveld beton|Ongewapend verdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘verdeuveld’ genoemd.|
-| 	Gewapend beton|Beton waarin een wapening is aangebracht om trekspanningen op te nemen.|
-| 	Oppervlakbehandelingen|Verharding bestaand uit op het wegoppervlak aangebrachte laag bindmiddel die wordt afgestrooid met steenslag of fijn grind.|
-| 	Ongewapend nietverdeuveld beton|Ongewapend nietverdeuveld beton is de formele benaming. In de CROW Systematiek Wegbeheer wordt dit ‘onverdeuveld’ genoemd.|
-|**Elementenverharding**||
-|   Natuursteen|Verharding bestaande uit elementen van natuursteen.|
-| 	Straatbaksteen|Straatbaksteen is de formele benaming uit NEN-EN1344. In de CROW Systematiek Wegbeheer wordt dit ‘gebakken klinkers’ genoemd.|
-| 	Glas|Verharding bestaande uit glaselementen.|
-| 	Betonstraatstenen|Verharding gemaakt van betonstraatstenen. Straatsteen die als goedkope vervanging van de gebakken klinkers is ontwikkeld.|
-| 	Tegels|Verharding bestaande uit tegels, een platte vaak vierkante betonnen steen.|
-| 	Hout|Verharding bestaande uit houten elementen.|
-| 	Betonelement|Geprepareerde elementen van beton (bijvoorbeeld stelconplaten).|
-| 	Metaal|Verharding bestaande uit metalen elementen.|
-| 	Sierbestrating|Bestrating uitgevoerd in verschillende bestratingsverbanden en -materialen, of in een sierverband, die vooral wordt toegepast uit esthetische overwegingen.|
-|**Halfverharding**||
-|   Samenhangend|Verharding waarvan het oppervlak bestaat uit samenhangend materiaal.|
-| 	Los|Verhardingsvlak gevuld met losgestort materiaal|
-|**Kunststofverharding**||
-|	Kunststof vloer|*geen definitie opgenomen in IMBOR*|
-|   Kunstgras|Een als gras aanziend of aandoend, kunstmatig product van uiteenlopend, synthetisch materiaal.|
-
 
 ### Constructie; Kunstwerk
 #### Overbrugging
