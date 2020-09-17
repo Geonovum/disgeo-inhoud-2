@@ -2491,11 +2491,11 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde Type kast| Beschrijving   |
 |---|---|
-|Elektrakast|Kast ter bescherming van elektrotechnische installatie.|
-|Gaskast|Kast ten behoeve van het transport van gas.|
-|Telecom kast|Kast ten behoeve van de regeling van telecommunicatie, radio- en/of televisiesignalen|
-|Rioolkast|Kast ten behoeve van de regeling van het transport van rioolwater.|
-|Openbare verlichtingkast|Kast ten behoeve van de regeling van de openbare verlichting.|
+|Elektra|Kast ter bescherming van elektrotechnische installatie.|
+|Gas|Kast ten behoeve van het transport van gas.|
+|Telecom|Kast ten behoeve van de regeling van telecommunicatie, radio- en/of televisiesignalen|
+|Riool|Kast ten behoeve van de regeling van het transport van rioolwater.|
+|Openbare verlichting|Kast ten behoeve van de regeling van de openbare verlichting.|
 |Verkeer| Kast ten behoeven van VRI's, verkeerstellingen en/of het meten van weers- en wegdekomstandigheden|
 |Pakketautomaat| Kast voor het ophalen en afgeven van postpakketten|
 
