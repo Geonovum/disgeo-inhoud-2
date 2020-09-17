@@ -1273,7 +1273,7 @@ ontwerpprincipe:
 | Definitie |Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal. |
 |Herkomst definitie  | concept NEN3610-2020  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysieke voorkomen van *wegdelen*, *ondersteunende wegdelen* en *onbegroeide terreindelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier een selectie van de bestaande populatie fysieke voorkomen van *wegdelen*, *ondersteunende wegdelen* en *onbegroeide terreindelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het Type verharding waarmee het vlak overwegend is bedekt. |
 
 **Eigenschappen**
@@ -1284,7 +1284,6 @@ ontwerpprincipe:
 |Geometrie|De geometrische representatie van de randen van een verhardingsvlak. |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt.  |Ja   |
 |Type verharding|Aanduiding soort verharding.|Ja|
-|Type verharding plus|Aanduiding soort verharding.|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1391,6 +1390,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | doorrijbreedte| |
 | toegestane massa||
 | toegestane lengte||
+| doorvaarhoogte |De hoogte die beschikbaar is tussen water en de constructies welke boven het water aanwezig zijn. |
 
 
 #### Ondertunneling
