@@ -50,6 +50,7 @@ ontwerpprincipe:
 |---|---|---|
 | hoort bij 1 of meer | verbindingen |Ja|
 | heeft een| openbare ruimte | Ja (als er een openbare ruimte benoemd is) (LR) |
+| ligt op | verharding| ja|
 
 **Domeinwaarden**
 
@@ -111,6 +112,7 @@ ontwerpprincipe:
 |---|---|---|
 | hoort bij 2 | knoop |ja|
 | heeft een | openbare ruimte | ja (als er een openbare ruimte benoemd is)(LR) |
+| ligt op | verharding| ja|
 
 **Domeinwaarden**
 
@@ -498,6 +500,8 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
+|hyperverbinding |wegverbinding |ja|
+|hyperverbinding |knoop |ja|
 
 **Domeinwaarden**
 
@@ -509,9 +513,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde type|	Beschrijving|
 |---|---|
-| Voetgangersgebied | Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft. |
 | Inrit||
-| Woonerf | Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. |
 | Parkeervlak | Wegdeel bestemd voor het parkeren van motorvoertuigen. |
 | Carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling. |
 | Transferium | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto. |
@@ -651,14 +653,9 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.  |
 | Berm | Een strook grond langs een weg of spoorweg. |
 | Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer. |
-| Laadplein | Een laadplein bestaat uit meer dan twee laadpunten voor elektrische voertuigen die niet afzonderlijk op het net zijn aangesloten en samen één aansluiting hebben. |
 | Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.| 
-| Molgoot | Smalle goot in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel. |
 | Wildrooster | Horizontaal raamwerk dat dient om wild de doorgang te beletten.   |
 
-<div class='note'>
-    Wildrooster of Rooster. Rooster is algemener. Rooster kan dan ook een fysiek verhardingstype zijn.
-</div>
 
 #### Luchtvaartzone
 | Klasse  | Naam  |
