@@ -193,7 +193,9 @@ De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze
 
 Voor meer detail wordt verwezen naar het conceptueel model netwerken. LINK??
 
-#### Locatie
+#### Elementen van een netwerk: knopen en verbindingen
+
+#### Locatie van een netwerk
 
 Ontwerpprincipe: 
 
@@ -203,12 +205,19 @@ Een wegennetwerk zal altijd over wegen gaan, en een vaarwegennetwerk zal altijd 
 
 ![NOF](media/netwerkopfysiekobject.png)
 
+#### Detaillering van een netwerk
+
+Ontwerpprincipe: 
+
+**Detaillering waar nodig**
+
+
 #### Eigenschappen
 Ontwerpprincipe: 
 
 **Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
 
-Eigenschappen kunnen meerdere malen van waarde wisselen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor het verkeerslicht wordt teruggebracht naar 50 km/h. Als er geen dringende reden is om de structuur van het netwerk te verstoren door verbindingen verder op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing . Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap geometrie aangegeven door de afkorting LR.
+Eigenschappen kunnen meerdere malen van waarde wisselen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor een kruising wordt teruggebracht naar 50 km/h. Als er geen dwingende reden is om de structuur van het netwerk te verstoren door verbindingen verder op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing . Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap geometrie aangegeven door de afkorting LR.
 
 <aside class='example'>
 
@@ -221,22 +230,30 @@ VOORBEELD Van 1200 meter tot 4500 meter vanaf het beginpunt van de verbinding ge
 
 
 
-#### Onderlinge relaties
+#### Relaties bij netwerken
+
+Ontwerpprincipe: 
+
+**Relaties binnen netwerken worden vastgelegd met een hyperverbinding**
+
+
+
+Ontwerpprincipe: 
+
+**Relaties tussen netwerken worden vastgelegd met een hyperverbinding**
+
+
 Ontwerpprincipe: 
 
 **Relaties tussen netwerken en functionele zones via hyperverbinding.**
 
 Een netwerk is een stelsel van verbindingen die verbonden zijn door knopen. Er zijn situaties waarbij er een relatie ligt tussen het netwerk (knoop/verbinding) en functionele zones naast het netwerk. Denk hierbij aan een parkeerplaats (= functionele zone) die vanaf de weg (= verbinding) bereikbaar is. Deze relatie wordt gelegd middels een hyperverbinding.
 
-Ontwerpprincipe: 
 
-**Relaties tussen netwerken of  bij verschillende LoD van een netwerk worden vastgelegd met een hyperverbinding.**
 
-#### Detaillering
 
-Ontwerpprincipe: 
 
-**Detaillering waar nodig**
+
 
 
 
