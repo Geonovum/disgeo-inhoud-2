@@ -232,16 +232,23 @@ VOORBEELD Van 1200 meter tot 4500 meter vanaf het beginpunt van de verbinding ge
 
 #### Relaties bij netwerken
 
+Er zijn situaties waarbij binnen een netwerk, tussen twee netwerken of tussen een netwerk en een functionele zone een functionele relatie ligt. Voor het leggen van deze relaties is het begrip hyperverbinding geïntroduceerd. Een hyperverbinding beschrijft een functionele relatie tussen twee objecten waartussen vrij kan worden bewogen.
+
 Ontwerpprincipe: 
 
 **Relaties binnen netwerken worden vastgelegd met een hyperverbinding**
 
-
+<aside class='example'>
+voorbeeld: relatie tussen voetpad en weg (wegennetwerk)
+</aside>
 
 Ontwerpprincipe: 
 
 **Relaties tussen netwerken worden vastgelegd met een hyperverbinding**
 
+<aside class='example'>
+voorbeeld: relatie tussen wegen en spoor
+</aside>
 
 Ontwerpprincipe: 
 
