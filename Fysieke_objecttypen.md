@@ -1604,11 +1604,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip overige kunstwerken |Ja |
+|Identificatie   |De unieke aanduiding van het SOR-begrip overige kunstwerken. |Ja |
 |Geometrie|De geometrische representatie van de randen van het betreffende kunstwerk.  |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt.  |Ja   |
-|Type overig kunstwerk|aanduiding soort kunstwerk|Ja|
-|Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+|Type overig kunstwerk| De aanduiding van het soort kunstwerk.|Ja|
+|Naam| Een breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1637,7 +1637,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde type overig kunstwerk| Beschrijving   |
 |---|---|
 | gemaal | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.  |
-|bezinkbak| Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening. |
+| bezinkbak| Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening. |
 | strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier.   |
 | steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.   |
 | vispassage |Een waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland.   |
