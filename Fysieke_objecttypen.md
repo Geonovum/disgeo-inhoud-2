@@ -21,7 +21,7 @@ Deze typering is in deze fase van het traject vooral bedoeld om een eerste indru
 | SOR-begrip   | Watervlakte  |
 | Onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -53,7 +53,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -83,7 +83,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Waterloop  |
 | Onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -115,7 +115,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -142,7 +142,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Bron  |
 | Onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -174,7 +174,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -190,7 +190,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Getijdengebied  |
 | Onderdeel van NEN3610-objecttype |Water  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -223,7 +223,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -279,7 +279,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -336,7 +336,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -385,7 +385,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -446,7 +446,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -500,7 +500,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -896,7 +896,7 @@ lucht en water. |
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -954,7 +954,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1024,7 +1024,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1101,7 +1101,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1180,7 +1180,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1240,7 +1240,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1259,7 +1259,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Verharding  |
 | Onderdeel van NEN3610-objecttype |Verharding |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -1291,7 +1291,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1321,8 +1321,6 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Overbrugging |
 | Onderdeel van NEN3610-objecttype | Kunstwerk  |
 
-ontwerpprincipe: 
-
 **Definitie**
 
 | Naam  | Overbrugging  |
@@ -1330,20 +1328,20 @@ ontwerpprincipe:
 | Definitie | Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
 |Herkomst definitie  |  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen; hoort bij Type overbrugging* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen; hoort bij Type overbrugging* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip overbrugging |Ja |
+|Identificatie   |De unieke aanduiding van het SOR-begrip overbrugging. |Ja |
 |Geometrie|De geometrische representatie van de randen van een overbrugging.  |Ja (vlak, 2.5D)|
-|Status   |   |Ja   |
-|Type overbrugging|aanduiding soort overbrugging|Nee|
+|Status   | De fase van de levenscyclus waarin de betreffende overbrugging zich bevindt.   |Ja   |
+|Type overbrugging|De aanduiding van het soort overbrugging. |Ja|
 |Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-| Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
-|*Beweegbaar*|*aanduiding of overbrugging beweegbaar is (open en dicht kan)*|*Ja*|
+| Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden.| Ja|
+| Beweegbaar |De aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1356,7 +1354,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1366,7 +1364,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|
 |Ten onrechte opgevoerd|
 
-*type overbrugging* *
+*type overbrugging* 
 
 |Waarde Type overbrugging| Beschrijving   |
 |---|---|
@@ -1394,7 +1392,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Overbruggingsdeel |
 | Onderdeel van NEN3610-objecttype |Kunstwerk  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -1426,7 +1424,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1455,7 +1453,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Ondertunneling |
 | Onderdeel van NEN3610-objecttype | Kunstwerk  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -1488,7 +1486,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1557,7 +1555,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1587,7 +1585,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Sluisdeel |
 | Onderdeel van NEN3610-objecttype |Kunstwerk  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -1619,7 +1617,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 |Waarde Status| 
 |---|
 |Gepland|	
@@ -1675,7 +1673,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1711,7 +1709,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |SOR-begrip   | Muur |
 | Onderdeel van NEN3610-objecttype | Constructie |
 
-ontwerpprincipe: 
+ 
 
 
 **Definitie**
@@ -1743,7 +1741,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 |Waarde Status| 
 |---|
 |Gepland|	
@@ -1760,7 +1758,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Hek |
 | Onderdeel van NEN3610-objecttype | Constructie |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -1791,7 +1789,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 
 |Waarde Status| 
@@ -1810,7 +1808,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Raster |
 | Onderdeel van NEN3610-objecttype | Constructie |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -1841,7 +1839,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1859,7 +1857,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Scherm |
 | Onderdeel van NEN3610-objecttype | Constructie |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -1890,7 +1888,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1908,7 +1906,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Bak  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -1940,7 +1938,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1968,7 +1966,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Putdeksel  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2000,7 +1998,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2029,7 +2027,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Depot  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2061,7 +2059,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2085,7 +2083,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Geleider  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2117,7 +2115,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2143,7 +2141,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Installatie  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2176,7 +2174,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2202,7 +2200,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Mast  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2234,7 +2232,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2264,7 +2262,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Straatmeubilair  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2296,7 +2294,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2338,7 +2336,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Sensor  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2370,7 +2368,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2394,7 +2392,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Paal  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2426,7 +2424,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2483,7 +2481,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Kast  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2515,7 +2513,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2543,7 +2541,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Bunker  |
 | Onderdeel van NEN3610-objecttype |Constructie  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2574,7 +2572,7 @@ ontwerpprincipe:
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -2592,7 +2590,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Onbepaald terreindeel  |
 | Onderdeel van NEN3610-objecttype |Bodem  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -2623,7 +2621,7 @@ ontwerpprincipe:
 
 |*status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
