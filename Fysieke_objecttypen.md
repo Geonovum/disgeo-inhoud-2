@@ -1386,32 +1386,32 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | doorvaarhoogte |De hoogte die beschikbaar is tussen water en de constructies welke boven het water aanwezig zijn. |
 
 
-#### Overbruggingsdeel
+#### Kunstwerkdeel
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Overbruggingsdeel |
+| SOR-begrip   | Kunstwerkdeel |
 | Onderdeel van NEN3610-objecttype |Kunstwerk  |
 
  
 
 **Definitie**
 
-| Naam  |Overbruggingsdeel  |
+| Naam  |Kunstwerkdeel  |
 |---|---|
 | Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
-|Herkomst definitie  |  BGT 1.1.1  |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
+|Herkomst definitie  |   |
+|Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip overbruggingsdeel |Ja |
-|Geometrie|De geometrische representatie van de randen van een overbruggingsdeel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
-|Status   |   |Ja   |
-|Type overbruggingsdeel|aanduiding soort overbruggingsdeel|nee|
+|Identificatie   |De unieke aanduiding van het SOR-begrip kunstwerkdeel. |Ja |
+|Geometrie|De geometrische representatie van de randen van een kunstwerkdeel. .|Ja|
+|Status   |  De fase van de levenscyclus waarin het betreffende kunstwerkdeel zich bevindt.  |Ja   |
+|Type kunstwerkdeel| De aanduiding van het soort kunstwerkdeel.|ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1419,6 +1419,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 | hoort bij | kunstwerk, type overbrugging | ja|
+| hoort bij | kunstwerk, type sluis | ja|
 
 **Domeinwaarden**
 
@@ -1443,7 +1444,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   |
 | sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   |
 | pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   |
-
+| sluisdeur ||
+| kolk ||
 
 
 #### Ondertunneling
@@ -1471,8 +1473,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip ondertunneling|Ja |
 |Geometrie|De geometrische representatie van de randen van een ondertunneling.  |Ja (vlak, 2.5D)|
-|Status   |   |Ja   |
-|Type ondertunneling|aanduiding soort ondertunneling|Nee|
+|Status   | De fase van de levenscyclus waarin de betreffende ondertunneling zich bevindt.   |Ja   |
+|Type ondertunneling| De aanduiding van het soort ondertunneling.|Ja|
 |Naam| Een breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1540,7 +1542,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van het SOR-begrip kerende kunstwerken |Ja |
 |Geometrie|De geometrische representatie van de randen van het betreffende kunstwerk.  |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt.  |Ja   |
-|Type kerend kunstwerk|aanduiding soort kunstwerk|Ja|
+|Type kerend kunstwerk| De aanduiding van het soort kunstwerk. |Ja|
 |Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -1548,7 +1550,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-| heeft mogelijk | kering| Ja|
+| heeft mogelijk een functie| kering| Ja|
 
 
 **Domeinwaarden**
@@ -1573,65 +1575,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | kademuur |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton.   |
 | damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen. |
 | walbescherming |Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.   |
-|schot||
+| schot||
 | stuw |Een vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen  |
 | sluis |Een kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt.   |
 | coupure |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.|
-|dijk|*is toch een functie en geen kunstwerk?*|
+| dijk|Een dijk is een aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen. |
 
-#### Sluisdeel
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Sluisdeel |
-| Onderdeel van NEN3610-objecttype |Kunstwerk  |
-
- 
-
-**Definitie**
-
-| Naam  | Sluisdeel |
-|---|---|
-| Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
-|Herkomst definitie  |  BGT 1.1.1  |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *?* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip sluisdeel |Ja |
-|Geometrie|De geometrische representatie van de randen van een sluisdeel.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
-|Status   |   |Ja   |
-|Type Sluisdeel|aanduiding soort sluisdeel|nee|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| hoort bij | kunstwerk, type sluis | ja|
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte opgevoerd|
-
-*type kunstwerkdeel*
-
-|Waarde Type kunstwerkdeel| Beschrijving   |
-|---|---|
-| sluisdeur ||
-| kolk ||
 
 
 #### Overige kunstwerken
