@@ -1388,6 +1388,66 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | doorvaarhoogte |De hoogte die beschikbaar is tussen water en de constructies welke boven het water aanwezig zijn. |
 
 
+#### Overbruggingsdeel
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Overbruggingsdeel |
+| Onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  |Overbruggingsdeel  |
+|---|---|
+| Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
+|Herkomst definitie  |  BGT 1.1.1  |
+|Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip overbruggingsdeel |Ja |
+|Geometrie|De geometrische representatie van de randen van een overbruggingsdeel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
+|Status   |   |Ja   |
+|Type overbruggingsdeel|aanduiding soort overbruggingsdeel|nee|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| hoort bij | kunstwerk, type overbrugging | ja|
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*Type kunstwerkdeel*
+
+|Waarde Type kunstwerkdeel| Beschrijving   |
+|---|---|
+| dek |Direct door het verkeer belaste deel van de bovenbouw van de brug.   |
+| landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.   |
+| pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   |
+| sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   |
+| pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   |
+
+
+
 #### Ondertunneling
 
 | Klasse  | Naam  |
@@ -1454,118 +1514,8 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | toegestane massa||
 | toegestane lengte||
 
-#### Overbruggingsdeel
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Overbruggingsdeel |
-| Onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  |Overbruggingsdeel  |
-|---|---|
-| Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
-|Herkomst definitie  |  BGT 1.1.1  |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip overbruggingsdeel |Ja |
-|Geometrie|De geometrische representatie van de randen van een overbruggingsdeel. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
-|Status   |   |Ja   |
-|Type overbruggingsdeel|aanduiding soort overbruggingsdeel|nee|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| hoort bij | kunstwerk, type overbrugging | ja|
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte opgevoerd|
-
-*Type kunstwerkdeel*
-
-|Waarde Type kunstwerkdeel| Beschrijving   |
-|---|---|
-| dek |Direct door het verkeer belaste deel van de bovenbouw van de brug.   |
-| landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.   |
-| pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   |
-| sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   |
-| pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   |
 
 
-#### Sluisdeel
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Sluisdeel |
-| Onderdeel van NEN3610-objecttype |Kunstwerk  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Sluisdeel |
-|---|---|
-| Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
-|Herkomst definitie  |  BGT 1.1.1  |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *?* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip sluisdeel |Ja |
-|Geometrie|De geometrische representatie van de randen van een sluisdeel.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
-|Status   |   |Ja   |
-|Type Sluisdeel|aanduiding soort sluisdeel|nee|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| hoort bij | kunstwerk, type sluis | ja|
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte opgevoerd|
-
-*type kunstwerkdeel*
-
-|Waarde Type kunstwerkdeel| Beschrijving   |
-|---|---|
-| sluisdeur ||
-| kolk ||
 
 
 #### Kerende kunstwerken
@@ -1631,6 +1581,61 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | coupure |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.|
 |dijk|*is toch een functie en geen kunstwerk?*|
 
+#### Sluisdeel
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Sluisdeel |
+| Onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Sluisdeel |
+|---|---|
+| Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
+|Herkomst definitie  |  BGT 1.1.1  |
+|Verplicht  | nee  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *?* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip sluisdeel |Ja |
+|Geometrie|De geometrische representatie van de randen van een sluisdeel.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja|
+|Status   |   |Ja   |
+|Type Sluisdeel|aanduiding soort sluisdeel|nee|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| hoort bij | kunstwerk, type sluis | ja|
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type kunstwerkdeel*
+
+|Waarde Type kunstwerkdeel| Beschrijving   |
+|---|---|
+| sluisdeur ||
+| kolk ||
+
+
 #### Overige kunstwerken
 
 | Klasse  | Naam  |
@@ -1685,8 +1690,8 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Waarde type overig kunstwerk| Beschrijving   |
 |---|---|
 | gemaal | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.  |
-|bezinkbak||
-| strekdam |Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier.   ||
+|bezinkbak| Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening. |
+| strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier.   |
 | steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.   |
 | vispassage |Een waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland.   |
 | bodemval |Sprong in de bodem van een waterloop.    |
