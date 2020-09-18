@@ -798,16 +798,15 @@ ontwerpprincipe:
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
 |Gevolgen afbakening||
-|Toelichting| *volgt later*  |
+|Toelichting|   |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
-|Geometrie||nee (lijn)|
+|Geometrie||ja (lijn, vlak)|
 |type kering|||
-|Naam|Een breed geaccepteerde benaming van een kering zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -828,10 +827,11 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *kering*
 
-|Waarde type kering| Beschrijving   |Herkomst|
+|Waarde type kering| Beschrijving   |
 |---|---|---|
-|grond	|voorziening bedoeld om grond te keren|	nieuw|
-|water	|voorziening bedoeld om water te keren|	nieuw|
+|grond	|voorziening bedoeld om grond te keren|
+|water	|voorziening bedoeld om water te keren|
+|stormvloed	|voorziening bedoeld om water te keren|
 
 
 #### Oever,slootkant
