@@ -240,11 +240,6 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. |
 |schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is. |
 
-<div class='note'>
-    Schor of Kwelder?
-</div>
-
-
 
 ### Begroeiing
 
@@ -1460,59 +1455,71 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | toegestane lengte||
 
 
-#### Gemaal
+#### Kerende kunstwerken
 
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Gemaal |
+| SOR-begrip   | Kerende kunstwerken |
 | Onderdeel van NEN3610-objecttype | Kunstwerk  |
-
-ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | Gemaal  |
+| Naam  | Kerende kunstwerken  |
 |---|---|
-| Definitie | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.  |
+| Definitie | Kunstwerk met mogelijk een kerende functie. |
 |Herkomst definitie  |  |
-|Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie  *kunstwerkdelen Type gemaal* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
 |Toelichting|  |
 
-#### sluis
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip kerende kunstwerken |Ja |
+|Geometrie|De geometrische representatie van de randen van het betreffende kunstwerk.  |Ja (vlak, 2.5D)|
+|Status   | De fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt.  |Ja   |
+|Type kerend kunstwerk|aanduiding soort kunstwerk|Nee|
+|Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| heeft mogelijk | kering| Ja|
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+*type kerend kunstwerk*
+
+|Waarde type kerend kunstwerk| Beschrijving   |
+|---|---|
+| keermuur |muur die door vorm, gewicht en fundering zonder verankering de grond keert.   |
+| kademuur |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton.   |
+| damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen. |
+| walbescherming |Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.   |
+|schot||
+| stuw |Een vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen  |
 | sluis |Een kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt.   |
-#### strekdam
-| strekdam |Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier.   ||
-#### steiger
-| steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.   ||
-#### stuw
-| stuw |xxEen vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelenx   ||
-#### keermuur
-| keermuur |muur die door vorm, gewicht en fundering zonder verankering de grond keert.   ||
-#### faunavoorziening
-| faunavoorziening |Voorziening bij een infrastructureel werk om de uit dat werk voortvloeiende negatieve gevolgen voor de fauna zoveel mogelijk te voorkomen of te beperken   ||
-#### vispassage
-| vispassage |Een waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland.   ||
-#### bodemval
-| bodemval |Sprong in de bodem van een waterloop.    ||
-#### coupure
-| coupure |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.||
-#### ponton
-| ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft.   ||
-#### voorde
-| voorde |Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop.    ||
-#### kademuur
-| *kademuur* |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton. *staat ter discussie - scheiding fysiek (muur) en functie (kering)*    ||
-#### damwand
-| *damwand* |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen. *staat ter discussie - scheiding fysiek (wand) en functie (kering)*  |
-#### walbescherming
-| *walbescherming* |Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.*staat ter discussie - scheiding fysiek (wand) en functie (kering)*   |
-#### schot
-|schot|||
-#### dijk
-|dijk|*is toch een functie en geen kunstwerk?*||
-#### stormvloedkering
-|stormvloedkering|*is toch een functie en geen kunstwerk?*||
+| coupure |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.|
+|dijk|*is toch een functie en geen kunstwerk?*|
+|stormvloedkering|*is toch een functie en geen kunstwerk?*|
+
+
 
 
 #### Overbruggingsdeel
@@ -1630,6 +1637,46 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 #### bezinkbak
 |bezinkbak|||
+
+#### Gemaal
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Gemaal |
+| Onderdeel van NEN3610-objecttype | Kunstwerk  |
+
+ontwerpprincipe: 
+
+**Definitie**
+
+| Naam  | Gemaal  |
+|---|---|
+| Definitie | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen.  |
+|Herkomst definitie  |  |
+|Verplicht  | Nee  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie  *kunstwerkdelen Type gemaal* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
+|Toelichting|  |
+
+
+
+#### strekdam
+| strekdam |Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier.   ||
+#### steiger
+| steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.   ||
+
+#### vispassage
+| vispassage |Een waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland.   ||
+#### bodemval
+| bodemval |Sprong in de bodem van een waterloop.    ||
+
+
+#### ponton
+| ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft.   ||
+#### voorde
+| voorde |Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop.    ||
+
+
+
 
 
 ### Constructie; Overige
