@@ -10,7 +10,7 @@ De uitbreiding met objecttypen voor netwerkinformatie is gebaseerd op het Concep
 
 
 
-### Transportvoorziening; weg
+### Transportvoorziening; Weg
 
 <div class='note'>
     Transportvoorziening in de SOR moet nog verder uitgewerkt worden o.b.v. het conceptuele model netwerken.
@@ -221,10 +221,6 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 ### Transportvoorziening; Spoorweg
 
 ### Transportvoorziening; Vaarweg
-
-<div class='note'>
-    Is vaarweg wel een apart netwerk? moet varen niet idem als bij wegen als een soort modaliteit aan het waterelementen netwerk worden gekoppeld?
-</div>
 
 ### Transportvoorziening; Waterelement
 
@@ -831,7 +827,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 |grond	|voorziening bedoeld om grond te keren|
 |water	|voorziening bedoeld om water te keren|
-|stormvloed	|voorziening bedoeld om water te keren|
+|stormvloed	|Een stormvloedkering is een voorziening (waterbouwkundige constructie) die bij stormvloed of springtij moet verhinderen dat er grote hoeveelheden water de monding van een rivier instromen en stroomopwaarts tot overstromingen leiden. |
 
 
 #### Oever,slootkant
