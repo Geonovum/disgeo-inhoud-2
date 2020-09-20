@@ -56,7 +56,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|
 |Aangewezen	|Het Rijk is formeel aangewezen door het bevoegd gezag|
 |Ingetrokken	|Het Rijk is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte	|Het Rijk is ten onrechte opgevoerd in de registratie|
+|Ten onrechte opgevoerd	|Het Rijk is ten onrechte opgevoerd in de registratie|
 
 #### Nederlandse territoriale zee
 
@@ -82,7 +82,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van de Nederlandse territoriale zee |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Rijk is benoemd. |Ja (vlak)|
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse territoriale zee is benoemd. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt.  |Ja   |
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -103,7 +103,105 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|
 |Aangewezen	|De Nederlandse territoriale zee is formeel aangewezen door het bevoegd gezag|
 |Ingetrokken	|De Nederlandse territoriale zee is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte	|De Nederlandse territoriale zee is ten onrechte opgevoerd in de registratie|
+|Ten onrechte opgevoerd	|De Nederlandse territoriale zee is ten onrechte opgevoerd in de registratie|
+
+
+#### Nederlands aansluitende zone
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Nederlandse aansluitende zone |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
+
+**Definitie**
+
+| Naam  | Nederlandse aansluitende zone |
+|---|---|
+| Definitie | De Nederlandse aansluitende zone is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
+|Herkomst definitie  | Wet grenzen Nederlandse aansluitende zone.  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de aansluitende zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van de Nederlandse aansluitende zone |Ja |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse aansluitende zone is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt.  |Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Nederlandse aansluitende zone is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Nederlandse aansluitende zone is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Nederlandse aansluitende zone is ten onrechte opgevoerd in de registratie|
+
+
+
+#### Nederlandse exclusieve economische zone
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Nederlandse exclusieve economische zone |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
+
+**Definitie**
+
+| Naam  | Nederlandse exclusieve economische zone |
+|---|---|
+| Definitie | De Nederlandse exclusieve economische zone is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
+|Herkomst definitie  | Wet grenzen Nederlandse exclusieve economische zone.  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de Nederlandse exclusieve economische zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van de Nederlandse exclusieve economische zone |Ja |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse exclusieve economische zone is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt.  |Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Nederlandse exclusieve economische zone is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Nederlandse exclusieve economische zone is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Nederlandse exclusieve economische zone is ten onrechte opgevoerd in de registratie|
+
+
 
 
 
