@@ -7,6 +7,59 @@
     paragraaf vergaand gereed, oplevering verwacht rond 10 september 2020
 </div>
 
+#### Rijk
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Rijk |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
+
+**Definitie**
+
+| Naam  | Rijk |
+|---|---|
+| Definitie | Het grondgebied van het Koninkrijk der Nederlanden*|
+|Herkomst definitie  | BRK  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster.  |
+|Toelichting| |
+. 
+*Dit betreft in eerste instantie het Europese deel. Over het niet-Europese deel zal nog nadere besluitvorming plaatsvinden.
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het Rijk |Ja |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Rijk is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het Rijk zich bevindt.  |Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|Het Rijk is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|Het Rijk is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte	|Het Rijk is ten onrechte opgevoerd in de registratie|
+
+
+
+
+
 #### Provincie
 
 | Klasse  | Naam  |
