@@ -157,9 +157,6 @@ Op dit moment wordt daarbij primair de lijn gevolgd, zoals deze ook wordt gevolg
 Op een later moment zal het ministerie van BZK nog een afzonderlijk besluit nemen over de vraag in hoeverre de samenhangende objectenregistratie zich ook zal uitstrekken tot het grondgebied van de bijzondere Nederlandse gemeenten (BES-eilanden) en de andere overzeese koninkrijksdelen. Het informatiemodel zal zodanig moeten worden opgezet dat deze uitbreiding mogelijk is.
 
 
-
-
-
 ### Uitgangspunten structuur
 
 #### Onderscheid verplicht en vrijwillig
