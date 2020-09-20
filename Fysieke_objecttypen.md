@@ -1,8 +1,6 @@
 ## Fysieke objecttypen
 
-In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de verschillende fysieke objecttypen in de samenhangende objectenregistratie. Deze aanzet is primair gebaseerd op de ook nu reeds in de bestaande basisregistraties gehanteerde typeringen. Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen zijn op deze typeringen soms beperkte aanpassingen doorgevoerd. Ook zijn enkele eerste wijzigingen voorgesteld die het gevolg zijn van het in hoofdstuk 2 genoemde uitgangspunt over heldere definiëring. Tenslotte is daar waar mogelijk reeds bekeken in hoeverre aanpalende sectorale typeringen aanleiding kunnen geven tot een aangescherpte typering. 
 
-Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
 
 <div class='note'>
     De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
@@ -296,9 +294,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
 | naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
 | gemengd bos | Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |  
-| Griend en hakhout |Terrein met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt ingekort.   |  
+| (Griend en hakhout) |Terrein met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt ingekort. ( * vrijwillig subtype van loofbos* )  |  
 
-
+<div class='note'>
+    BRT-object "Populieren" wordt in loofbos opgenomen. 
+</div>
 
 ####    Gras- en kruidachtigen
 | Klasse  | Naam  |
@@ -372,7 +372,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   | De unieke aanduiding van struiken. |Ja |
 |Geometrie| De geometrische representatie van de randen van struiken. |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin de betreffende struiken zich bevinden.  |Ja   |
-|Type struiken| Aanduiding soort struiken.|Ja|
+|Type struiken| Aanduiding soort struiken.|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -405,7 +405,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Struikrozen||
 |bodembedekkers||
 
-
+<div class='note'>
+    Afstemming met IMBOR nodig. 
+</div>
 
 
 #### Onbegroeide grond
@@ -510,26 +512,54 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|
 |Ten onrechte opgevoerd|
 
+<div class='note'>
+    BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in bouwland. 
+</div>
 
 
-#### Tuunwallen
+
+
+
+
+
+#### Bomenrij
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Tuunwallen |
+|SOR-begrip   | Bomenrij |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | Tuunwallen  |
+| Naam  | Bomenrij |
 |---|---|
-| Definitie | Op elkaar gestapelde grasplaggen als scheiding tussen twee percelen.   |
-|Herkomst definitie  |    |
+| Definitie |opgaande begroeiing van bomen zonder struiken  |
+|Herkomst definitie  |   |
 |Verplicht  | ja  |
-|Gevolgen afbakening  |   |
+|Gevolgen afbakening  | nieuw object  |
 |Toelichting|  |
 
 
+
+
+
+
+#### Houtsingel
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Houtsingel |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+
+**Definitie**
+
+| Naam  | Houtsingel |
+|---|---|
+| Definitie |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
+|Herkomst definitie  |   |
+|Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *houtsingel* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
 
 #### Haag
 | Klasse  | Naam  |
@@ -549,22 +579,23 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Toelichting|  |
 
 
-#### Bomenrij
+#### Tuunwallen
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Bomenrij |
+|SOR-begrip   | Tuunwallen |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | Bomenrij |
+| Naam  | Tuunwallen  |
 |---|---|
-| Definitie |opgaande begroeiing van bomen zonder struiken  |
-|Herkomst definitie  |   |
+| Definitie | Op elkaar gestapelde grasplaggen als scheiding tussen twee percelen.   |
+|Herkomst definitie  |    |
 |Verplicht  | ja  |
-|Gevolgen afbakening  | nieuw object  |
+|Gevolgen afbakening  |   |
 |Toelichting|  |
+
 
 #### Boom
 | Klasse  | Naam  |
@@ -603,22 +634,7 @@ lucht en water. |
 |Toelichting|  |
 
 
-#### Houtsingel
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Houtsingel |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
 
-
-**Definitie**
-
-| Naam  | Houtsingel |
-|---|---|
-| Definitie |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
-|Herkomst definitie  |   |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *houtsingel* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
 
 #### Moeras
 | Klasse  | Naam  |
@@ -696,95 +712,49 @@ lucht en water. |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *fruitteelt* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
-#####    laagstam boomgaarden 
+**Eigenschappen**
 
-| Klasse  | Naam  |
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | De unieke aanduiding van fruit- bomenteelt. |Ja |
+|Geometrie| De geometrische representatie van de randen van fruit- bomenteelt. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de betreffende fruit- bomenteelt zich bevindt.  |Ja   |
+|Type fruit- bomenteelt| De aanduiding van het soort fruit- bomenteelt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
+
+.
+
+|Waarde Type fruit- bomenteelt| Beschrijving   |
 |---|---|
-|SOR-begrip   |    laagstam boomgaarden  |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+| laagstam boomgaarden |Terreindeel begroeid met laagstamfruitbomen.   |
+| hoogstam boomgaarden |Terreindeel begroeid met hoogstamfruitbomen.   |
+| wijngaarden|Terreindeel begroeid met druivenstokken voor wijnbouw.  |
+| klein fruit |Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen.   |
+| boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is.  |
 
-
-**Definitie**
-
-| Naam  |    laagstam boomgaarden  |
-|---|---|
-| Definitie |Terreindeel begroeid met laagstamfruitbomen.   |
-|Herkomst definitie  | IMGEO 2.0  |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *laagstam boomgaarden* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-#####    hoogstam boomgaarden
-
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   |    hoogstam boomgaarden |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  |    hoogstam boomgaarden |
-|---|---|
-| Definitie |Terreindeel begroeid met hoogstamfruitbomen.   |
-|Herkomst definitie  | IMGEO 2.0   |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *hoogstam boomgaarden* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-##### wijngaarden  
-
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | wijngaarden   |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | wijngaarden   |
-|---|---|
-| Definitie |Terreindeel begroeid met druivenstokken voor wijnbouw.  |
-|Herkomst definitie  |IMGEO 2.0    |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *wijngaarden* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-#####    klein fruit
-
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   |    klein fruit |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  |    klein fruit |
-|---|---|
-| Definitie |Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen.   |
-|Herkomst definitie  | IMGEO 2.0   |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *klein fruit* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-##### boomkwekerij 
-
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | boomkwekerij  |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | boomkwekerij  |
-|---|---|
-| Definitie |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is.  |
-|Herkomst definitie  |   |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *boomteelt* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
+<div class='note'>
+    De huidige BGT-objecten "Fruitteelt" met subtypen (laagstam boomgaarden, hoogstam boomgaarden, wijngaarden en klein fruit) en "Boomteelt" alsmede de BRT objecttypen "Boomkwekerij", Fruitkwekerij" en "Boomgaard" lopen qua definities door elkaar. WG Groen heeft geen specifieke toepassingen van dit objectype kunnen vinden en stelt daarom voor om één supertype "Fruit- en boomkwekerij" te definiëren met daaronder 5 subtypen die vrijwillig gevuld worden. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.  
+</div>
 
 
 
