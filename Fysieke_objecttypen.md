@@ -597,41 +597,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Toelichting|  |
 
 
-#### Boom
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Boom |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Boom |
-|---|---|
-| Definitie | Een markante boom die geen onderdeel uitmaakt van een ander boom- of
-struikbeplanting. |
-|Herkomst definitie  | IMGeo 2.1.1  |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | nieuw object  |
-|Toelichting|  |
-
-#### Boomspiegel
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Boomspiegel|
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Boomspiegel |
-|---|---|
-| Definitie | Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor
-lucht en water. |
-|Herkomst definitie  | IMGeo 2.1.1  |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | nieuw object  |
-|Toelichting|  |
 
 
 
@@ -756,6 +721,40 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
     De huidige BGT-objecten "Fruitteelt" met subtypen (laagstam boomgaarden, hoogstam boomgaarden, wijngaarden en klein fruit) en "Boomteelt" alsmede de BRT objecttypen "Boomkwekerij", Fruitkwekerij" en "Boomgaard" lopen qua definities door elkaar. WG Groen heeft geen specifieke toepassingen van dit objectype kunnen vinden en stelt daarom voor om één supertype "Fruit- en boomkwekerij" te definiëren met daaronder 5 subtypen die vrijwillig gevuld worden. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.  
 </div>
 
+#### Boom
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Boom |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+
+**Definitie**
+
+| Naam  | Boom |
+|---|---|
+| Definitie | Een markante boom die geen onderdeel uitmaakt van een ander boom- of struikbeplanting. |
+|Herkomst definitie  | IMGeo 2.1.1  |
+|Verplicht  | ja  |
+|Gevolgen afbakening  | nieuw object  |
+|Toelichting|  |
+
+#### Boomspiegel
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Boomspiegel|
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+
+**Definitie**
+
+| Naam  | Boomspiegel |
+|---|---|
+| Definitie | Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor
+lucht en water. |
+|Herkomst definitie  | IMGeo 2.1.1  |
+|Verplicht  | nee  |
+|Gevolgen afbakening  | nieuw object  |
+|Toelichting|  |
 
 
 
