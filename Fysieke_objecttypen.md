@@ -401,9 +401,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|
 | heesters |Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een  gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.  | 
 | bosplantsoen |Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of  gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.   |
-|planten||
-|Struikrozen||
-|bodembedekkers||
+| planten|Beheerde niet nader gespecificeerde beplanting van groenvak in de openbare ruimte.|
+| struikrozen|Beheerde beplanting van groenvak in de openbare ruimte, zijnde in struikvorm groeiende rozen.|
+| bodembedekkers|Beheerde beplanting van groenvak in de openbare ruimte, zijnde bodembedekkers.|
 
 <div class='note'>
     Afstemming met IMBOR nodig. 
@@ -432,10 +432,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip onbegroeide grond|Ja |
+|Identificatie   |De unieke aanduiding van het SOR-begrip onbegroeide grond.|Ja |
 |Geometrie| De geometrische representatie van de randen van onbegroeide grond.|Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt.  |Ja   |
-|Type kale grond| De aanduiding soort onbegroeide grond|Ja|
+|Type onbegroeide grond| De aanduiding van het soort onbegroeide grond.|Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -659,17 +659,17 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-####    fruit- bomenteelt
+####    Fruit- bomenteelt
 
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | fruit- bomenteelt |
+|SOR-begrip   | Fruit- bomenteelt |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | fruit- bomenteelt |
+| Naam  | Fruit- bomenteelt |
 |---|---|
 | Definitie |Terreindeel begroeid met fruitbomen in de vorm van hoogstam en laagstamboomgaard, druiven of kleinfruit. en Grond in gebruik voor het kweken van jonge siergewassen, bomen enz. ten behoeve van een later gebruik elders.   |
 |Herkomst definitie  | BT / CROW  |
