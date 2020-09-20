@@ -195,73 +195,43 @@ Voor meer detail wordt verwezen naar het conceptueel model netwerken. LINK??
 
 #### Elementen van een netwerk: knopen en verbindingen
 
-#### Locatie van een netwerk
+Een netwerk bestaat uit knopen en verbindingen. Een verbinding geeft de relatie aan tussen twee knopen. Een knoop is een keuzepunt. Bijvoorbeeld voor een weggebruiker. Een verbinding verbindt twee direct aanliggende keuzepunten. 
 
-Ontwerpprincipe: 
+Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding beschreven kan worden. Administratieve eigenschappen zoals een straatnaam worden vooral gebruikt voor locatiebepaling. Voor routering zijn eigenschappen die een voorwaarde beschrijven belangrijk om te bepalen hoe een route over het netwerk loopt. Voor wegen zijn bijvoorbeeld rijrichtingen en maximum snelheden dergelijke eigenschappen.  Voor waternetwerken bijvoorbeeld een weerstandscoefficient van de bak waar het water door stroomt.
 
-**Een netwerk ligt op het fysieke object waar het bij hoort.**
+#### Een netwerk is gerelateerd aan de fysieke infrastructuur
 
-Een wegennetwerk zal altijd over wegen gaan, en een vaarwegennetwerk zal altijd op een rivier of ander water liggen. Netwerken zijn virtuele objecten die een specifieke relatie hebben met reële objecten. Een netwerk in de registratie kan niet bestaan zonder het fysieke object (de weg, het water, het spoor) waar het bij hoort. Deze relatie wordt geborgd door de eis dat het netwerk (verbinding/knoop) geometrisch op het fysieke object (verharding, water) ligt. 
+Een transportnetwerk beschrijft de functionele inrichting van de fysieke infrastructuur en is daarmee onlosmakelijk mee verbonden. Bij nieuwe aanleg van infrastructuur is het functioneel ontwerp (het netwerk) de basis voor de aanleg van fysieke infrastructuur. 
 
-![NOF](media/netwerkopfysiekobject.png)
+Een netwerk heeft vanuit zichzelf geen geometrie, voor de beschrijving en positionering van transportnetwerken wordt een geometrie toegevoegd en/of wordt verwezen naar de geometrie van de fysieke infrastructuur.
 
-#### Detaillering van een netwerk
+Indien een geometrie wordt toegevoegd aan een knoop of verbinding dan ligt deze op het gerelateerde fysieke object.
 
-Ontwerpprincipe: 
+Waternetwerken zijn een uitzondering hierop. In een waternetwerk is het water niet de infrastructuur maar de voorziening waar het water in zit of doorheen stroomt. De geometrie van de bodem van een rivier wordt niet opgenomen in de SOR. Daarom worden voor waternetwerken een geometrie toegevoegd die niet verwijst naar de fysieke infrastructuur maar wel overeenkomt met het wateroppervlak.
 
-**Detaillering waar nodig**
+#### Detaillering waar nodig
+Een netwerk is te beschrijven in verschillende niveau’s van detail. Of detaillering nodig iss hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detail niveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals die gebruikt wordt voor kaarten.
 
+Het detailniveau van een netwerk wordt bepaald door wat nodig is om het netwerk te kunnen beschrijven.
+Een wegennetwerk kent functioneel gezien drie niveau’s: een weg, een rijbaan en rijstrook niveau. Een eigenschap bepaalt de niveau van detail. Een straatnaam geldt voor de weg en daarmee ook voor de rijbanen en rijstroken die bij die weg behoren. Een busstrook wordt gedefinieerd op strook niveau en een busbaan op baan niveau. 
 
-#### Eigenschappen van knopen en verbindingen
-Ontwerpprincipe: 
+### Eigenschappen van knopen en verbindingen
+Ontwerpprincipe:
+Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.
+Eigenschappen kunnen meerdere malen van waarde veranderen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor een kruising wordt teruggebracht naar 50 km/h. Als er geen dwingende reden is om de structuur van het netwerk te verstoren door een verbinding op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing.  Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap van het kenmerk aangegeven door de afkorting LR.
+Indien een eigenschap meerdere waarden kan bevatten zonder dat er sprake is van een afhankelijkheid van een locatie, dan wordt dit bij het eigenschap aangegeven door de afkorting MV (meervoudig). Bijvoorbeeld als er meerdere soorten modaliteiten zijn toegestaan op een verbinding of knoop.
 
-**Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
+### Relaties bij netwerken
+Een netwerk kent  verschillende type relaties:
+Relaties die binnen het netwerk gelegd worden en relaties die met objecten gelegd worden die geen onderdeel zijn van het netwerk, maar wel van belang zijn voor het netwerk.
 
-Eigenschappen kunnen meerdere malen van waarde wisselen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor een kruising wordt teruggebracht naar 50 km/h. Als er geen dwingende reden is om de structuur van het netwerk te verstoren door verbindingen verder op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing . Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap geometrie aangegeven door de afkorting LR.
+Relaties die binnen het netwerk gelegd worden zijn onderdeel van het netwerk. Bijvoorbeeld een rijbaan die bestaat uit een aantal rijstroken of een vistrap die hoort bij de rivier (of ventweg en de bijbehorende hoofdrijbaan).
 
-<aside class='example'>
+Er zijn objecten die van belang zijn voor het netwerk maar die niet worden opgenomen als onderdeel van het netwerk. Parkeervakken langs een verbindingen worden wel gerelateerd aan het netwerk omdat dan bekend is bij welke verbinding een parkeervak hoort, maar maken er geen onderdeel uit. Dat wil zeggen dat er geen knoop wordt geïntroduceerd op een parkeervak alsof het een doodlopende weg is.
 
+Binnen netwerk wordt onderscheidt gemaakt naar verbindingen tussen knopen en verbindingen waarover een voertuig/weggebruiker/water/trein zich kan verplaatsen en tussen (netwerk) objecten die een logische samenhang kennen. Deze laatste categorie wordt een hyperverbinding genoemd.
 
-![LRM](media/lineairreferencingmethode.png)
-
-
-VOORBEELD Van 1200 meter tot 4500 meter vanaf het beginpunt van de verbinding geldt een toegestane snelheid van 70 km/h.
-</aside>
-
-
-
-#### Relaties bij netwerken
-
-Er zijn situaties waarbij binnen een netwerk, tussen twee netwerken of tussen een netwerk en een functionele zone een functionele relatie ligt. Voor het leggen van deze relaties is het begrip hyperverbinding geïntroduceerd. Een hyperverbinding beschrijft een functionele relatie tussen twee objecten waartussen vrij kan worden bewogen.
-
-Ontwerpprincipe: 
-
-**Relaties binnen netwerken worden vastgelegd met een hyperverbinding**
-
-<aside class='example'>
-voorbeeld: relatie tussen voetpad en weg (wegennetwerk)
-</aside>
-
-Ontwerpprincipe: 
-
-**Relaties tussen netwerken worden vastgelegd met een hyperverbinding**
-
-<aside class='example'>
-voorbeeld: relatie tussen wegen en spoor
-</aside>
-
-Ontwerpprincipe: 
-
-**Relaties tussen netwerken en functionele zones via hyperverbinding.**
-
-Een netwerk is een stelsel van verbindingen die verbonden zijn door knopen. Er zijn situaties waarbij er een relatie ligt tussen het netwerk (knoop/verbinding) en functionele zones naast het netwerk. Denk hierbij aan een parkeerplaats (= functionele zone) die vanaf de weg (= verbinding) bereikbaar is. Deze relatie wordt gelegd middels een hyperverbinding.
-
-
-
-
-
-
-
+Een voorbeeld van een hyperverbinding is de relatie tussen een vistrap en de rivier waar de vistrap bij hoort. Ook objecten die van belang zijn voor he netwerk worden gedefinieerd met een hyperverbinding.
 
 
 
