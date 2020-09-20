@@ -104,7 +104,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte opgevoerd	|De Nederlandse territoriale zee is ten onrechte opgevoerd in de registratie|
 
 
-#### Nederlands aansluitende zone
+#### Nederlandse aansluitende zone
 
 | Klasse  | Naam  |
 |---|---|
