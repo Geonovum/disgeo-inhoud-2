@@ -3,9 +3,7 @@
 
 ### Bestuurlijke gebieden
 
-<div class='note'>
-    paragraaf vergaand gereed, oplevering verwacht rond 10 september 2020
-</div>
+
 
 #### Rijk
 
@@ -119,8 +117,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Nederlandse aansluitende zone |
 |---|---|
-| Definitie | De Nederlandse aansluitende zone is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
-|Herkomst definitie  | Wet grenzen Nederlandse aansluitende zone.  |
+| Definitie | De Nederlandse aansluitende zone is het gebied buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan 24 zeemijlen vanaf de laagwaterlijn.|
+|Herkomst definitie  | Rijkswet instelling aansluitende zone.  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de aansluitende zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
 |Toelichting| |
@@ -154,52 +152,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte opgevoerd	|De Nederlandse aansluitende zone is ten onrechte opgevoerd in de registratie|
 
 
-#### Nederlandse continentaal plat
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Nederlandse continentaal plat |
-| Onderdeel van NEN3610-objecttype |Registratief object |
-
- 
-
-**Definitie**
-
-| Naam  | Nederlandse continentaal plat |
-|---|---|
-| Definitie | De Nederlandse continentaal plat is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
-|Herkomst definitie  | Wet grenzen Nederlandse continentaal plat.  |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de Nederlandse continentaal plat zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van de Nederlandse continentaal plat |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse continentaal plat is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Nederlandse continentaal plat zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Aangewezen	|De Nederlandse continentaal plat is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Nederlandse continentaal plat is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Nederlandse continentaal plat is ten onrechte opgevoerd in de registratie|
-
 
 
 
@@ -218,8 +170,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Nederlandse exclusieve economische zone |
 |---|---|
-| Definitie | De Nederlandse exclusieve economische zone is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
-|Herkomst definitie  | Wet grenzen Nederlandse exclusieve economische zone.  |
+| Definitie | De Nederlandse exclusieve economische zone is het gebied buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan tweehonderd zeemijlen vanaf de laagwaterlijn.|
+|Herkomst definitie  | Rijkswet instelling exclusieve economische zone.  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de Nederlandse exclusieve economische zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
 |Toelichting| |
@@ -253,13 +205,60 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte opgevoerd	|De Nederlandse exclusieve economische zone is ten onrechte opgevoerd in de registratie|
 
 
+#### Nederlandse continentaal plat
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Nederlandse continentaal plat |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
+
+**Definitie**
+
+| Naam  | Nederlandse continentaal plat |
+|---|---|
+| Definitie | Het Nederlandse continentaal plat is het onder de Noordzee gelegen deel van de zeebodem en de ondergrond daarvan, waarop het Koninkrijk soevereine rechten heeft, en gelegen is buiten en grenzend aan de territoriale zee.|
+|Herkomst definitie  | Mijnwet continentaal plat.  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier het Nederlandse continentaal plat zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het Nederlandse continentaal plat |Ja |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse continentaal plat is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het Nederlandse continentaal plat zich bevindt.  |Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Nederlandse continentaal plat is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Nederlandse continentaal plat is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Nederlandse continentaal plat is ten onrechte opgevoerd in de registratie|
 
 
 
+<div class='note'>
+    dit betreft eigenlijk hetzelfde gebied als de Nederlandse Exclusieve Economische Zone. Wat is de toegevoegde waarde om het Nederlands continentaal plat los op te nemen?
+</div>
 
 
 
-#### Provincie
 
 #### Provincie
 | Klasse  | Naam  |
@@ -273,10 +272,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Provincie |
 |---|---|
-| Definitie | De Provincie is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
-|Herkomst definitie  | Wet grenzen Provincie.  |
+| Definitie | Een provincie is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet.|
+|Herkomst definitie  | Grondwet en Provinciewet  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de Provincie zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Gevolgen afbakening  | Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster.  |
 |Toelichting| |
 
 **Eigenschappen**
@@ -284,9 +283,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van de Provincie |Ja |
+|Provinciecode|	De codering van een provincie zoals deze door het CBS wordt gebruikt.|Ja   |
+|Provincienaam|	De naam van een provincie zoals formeel benoemd door het bevoegd gezag.|Ja   |
 |Geometrie| De geometrische representatie van de randen van het gebied dat als Provincie is benoemd. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de Provincie zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -324,20 +324,21 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Waterschap |
 |---|---|
-| Definitie | De Waterschap is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
-|Herkomst definitie  | Wet grenzen Waterschap.  |
+| Definitie | Een waterschap is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet.|
+|Herkomst definitie  | Grondwet en Waterschapswet.  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de Waterschap zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging en bestaat er een losse dataset waterschappen. Door de opname van wijken in de objectenregistratie ontstaat een formele vastlegging van waterschappen.  |
 |Toelichting| |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van de Waterschap |Ja |
+|Identificatie   |De unieke aanduiding van het Waterschap |Ja |
+|Waterschapscode|	De codering van een waterschap zoals deze door het CBS wordt gebruikt.|Ja   |
+|Waterschapsnaam|	De naam van een waterschap zoals formeel benoemd door het bevoegd gezag.|Ja   |
 |Geometrie| De geometrische representatie van de randen van het gebied dat als Waterschap is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Waterschap zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+|Status   | De fase van de levenscyclus waarin het Waterschap zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -372,19 +373,22 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Gemeente |
 |---|---|
-| Definitie | De Gemeente is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
-|Herkomst definitie  | Wet grenzen Gemeente.  |
+| Definitie | Een gemeente is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet.|
+|Herkomst definitie  | Grondwet en Gemeentewet.  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de Gemeente zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Gevolgen afbakening  | Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster. |
 |Toelichting| |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van de Gemeente |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Gemeente is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Gemeente zich bevindt.  |Ja   |
+|Identificatie   |De unieke aanduiding van de gemeente |Ja |
+|Gemeentecode|	De codering van een gemeente zoals deze door het CBS wordt gebruikt.|Ja |
+|Formele naam|	De naam van een gemeente zoals formeel benoemd door het bevoegd gezag.|Ja |
+|Alternatieve naam|	Een alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als gemeente is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de gemeente zich bevindt.  |Ja   |
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -392,7 +396,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-| | | |
+|ligt in |gerelateerde provincie |ja |
 
 **Domeinwaarden**
 
@@ -730,11 +734,3 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Drijvend object||
 |Tankstation||
 
-
-### (Continentaal plat)
-
-*De definitie en begrenzing van het continentaal plat moet hier worden beschreven*
-
-<div class='note'>
-    Wat is de aanleiding voor opname van dit objecttype?
-</div>
