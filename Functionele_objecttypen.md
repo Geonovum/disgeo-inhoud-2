@@ -1,20 +1,6 @@
 ## Functionele objecttypen
 
-In dit hoofdstuk is een eerste aanzet opgenomen tot nadere typering van de verschillende functionele objecttypen in de samenhangende objectenregistratie. Deze aanzet is primair gebaseerd op de ook nu reeds in de bestaande basisregistraties opgenomen functionele objecttypen en uitgebreid met netwerken voor wegen, water en spoorwegen. 
-
-Vanwege een strikte scheiding tussen fysieke objecttypen en functionele objecttypen in de nu bestaande basisregistraties zijn op deze typeringen soms beperkte aanpassingen doorgevoerd. Ook zijn enkele eerste wijzigingen voorgesteld die het gevolg zijn van het in hoofdstuk 2 genoemde uitgangspunt over heldere definiëring. Tenslotte is daar waar mogelijk reeds bekeken in hoeverre aanpalende sectorale typeringen aanleiding kunnen geven tot een aangescherpte typering.
-
-Deze typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Samen met experts vanuit de verschillende domeinen en gebruikers zal in het vervolg nog nader onderzoek noodzakelijk zijn om tot definitieve typeringen met bijbehorende definities te komen. Ook zal daarbij nog moeten worden bepaald in hoeverre het nu opgenomen onderscheid tussen de verplichte classificatie en de vrijwillige classificatie aanpassing behoeft. Hierbij is het uiteindelijk de bedoeling om te komen tot een “uitklapmodel” van typeringen, waarbij gedetailleerde typeringen (in de samenhangende objectenregistratie, maar bij voorkeur ook in sectorale registraties) altijd een nadere uitwerking vormen van één bepaalde hoofdtypering (in de samenhangende objectenregistratie).
-
-De uitbreiding met objecttypen voor netwerkinformatie is gebaseerd op het Conceptueel model netwerken, juli 2020. 
-
-
-
 ### Transportvoorziening; Weg
-
-<div class='note'>
-    Transportvoorziening in de SOR moet nog verder uitgewerkt worden o.b.v. het conceptuele model netwerken.
-</div>
 
 #### Knoop
 | Klasse  | Naam  |
@@ -169,54 +155,6 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Beëindigd|	
 |Niet gerealiseerd|	
 |Ten onrechte	|
-
-
-
-#### Hyperwegverbinding
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Hyperwegverbinding |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
-
-ontwerpprincipe: 
-
-**Definitie**
-
-| Naam  | Hyperkant  |
-|---|---|
-| Definitie | Een hyperwegverbinding is een relatie tussen twee wegobjecten die een functionele samenhang hebben. |
-| Herkomst definitie  | conceptueel model netwerken     |
-| Verplicht  | Ja  |
-| Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|||
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| verbindt 2 of meer | *objecten* |Ja|
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|In gebruik|	
-|Buiten gebruik|	
-|Beëindigd|	
-|Niet gerealiseerd|	
-|Ten onrechte	|
-
 
 ### Transportvoorziening; Spoorweg
 
@@ -739,26 +677,68 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 #### Zandverstuiving
 
+
+
 #### Begraafplaats
-.
-#### Speeltuin
-|Naam| 	speeltuin|
 
-#### Park
-|Naam| 	park|
+#### Recreatie
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Recreatie|
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
 
-#### Sportterrein
-|Naam| 	sportterrein|
+**Definitie**
 
-#### Camping
-|Naam| 	camping|
+| Naam  | Recreatie  |
+|---|---|
+| Definitie |  |
+| Herkomst definitie  |      |
+| Verplicht  | Ja  |
+| Gevolgen afbakening||
+| Toelichting|  |
 
-#### Bungalowpark
-|Naam| 	bungalowpark|
+**Eigenschappen**
 
-#### Volkstuin
-|Naam| 	volkstuin|  
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van recreatie  |Ja |
+|Geometrie |De geometrische representatie van recreatie |Ja (vlak)|
 |Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt.   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+.
+
+|Waarde type | Beschrijving|
+|---|---|
+| 	speeltuin||
+| 	park||
+| 	sportterrein||
+| 	camping||
+| 	bungalowpark||
+| 	volkstuin| | 
 
 
 ### Functionele zonering BLAUW
