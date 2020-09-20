@@ -154,6 +154,57 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte opgevoerd	|De Nederlandse aansluitende zone is ten onrechte opgevoerd in de registratie|
 
 
+#### Nederlandse continentaal plat
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Nederlandse continentaal plat |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
+
+**Definitie**
+
+| Naam  | Nederlandse continentaal plat |
+|---|---|
+| Definitie | De Nederlandse continentaal plat is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
+|Herkomst definitie  | Wet grenzen Nederlandse continentaal plat.  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de Nederlandse continentaal plat zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van de Nederlandse continentaal plat |Ja |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse continentaal plat is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Nederlandse continentaal plat zich bevindt.  |Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Nederlandse continentaal plat is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Nederlandse continentaal plat is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Nederlandse continentaal plat is ten onrechte opgevoerd in de registratie|
+
+
+
+
+
+
 
 #### Nederlandse exclusieve economische zone
 | Klasse  | Naam  |
@@ -210,50 +261,154 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Provincie
 
+#### Provincie
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | provincie  |
-| Onderdeel van NEN3610-objecttype |registratief object  |
+| SOR-begrip   | Provincie |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
 
 **Definitie**
 
+| Naam  | Provincie |
+|---|---|
+| Definitie | De Provincie is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
+|Herkomst definitie  | Wet grenzen Provincie.  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de Provincie zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Toelichting| |
+
 **Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van de Provincie |Ja |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Provincie is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Provincie zich bevindt.  |Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
 **Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Provincie is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Provincie is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Provincie is ten onrechte opgevoerd in de registratie|
+
+
+
 
 
 
 #### Waterschap
-
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | waterschap |
-| Onderdeel van NEN3610-objecttype |registratief object  |
+| SOR-begrip   | Waterschap |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
 
 **Definitie**
 
+| Naam  | Waterschap |
+|---|---|
+| Definitie | De Waterschap is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
+|Herkomst definitie  | Wet grenzen Waterschap.  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de Waterschap zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Toelichting| |
+
 **Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van de Waterschap |Ja |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Waterschap is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Waterschap zich bevindt.  |Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
 **Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Waterschap is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Waterschap is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Waterschap is ten onrechte opgevoerd in de registratie|
+
+
 
 #### Gemeente
-
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Gemeente  |
-| Onderdeel van NEN3610-objecttype |registratief object  |
+| SOR-begrip   | Gemeente |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
 
 **Definitie**
 
+| Naam  | Gemeente |
+|---|---|
+| Definitie | De Gemeente is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
+|Herkomst definitie  | Wet grenzen Gemeente.  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de Gemeente zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Toelichting| |
+
 **Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van de Gemeente |Ja |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Gemeente is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Gemeente zich bevindt.  |Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
 **Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Gemeente is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Gemeente is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Gemeente is ten onrechte opgevoerd in de registratie|
+
+
+
+
 
 
 ### Woonplaats
