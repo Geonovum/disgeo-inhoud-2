@@ -156,22 +156,17 @@ Er wordt hietrbij verwezen naar de Simple Features, zoals vastgelegd in ISO19125
 
 #### Topologie
 
-Opdelende objecttypen en referentielaag (100%)
+ontwerpprincipe: 
 
-**NEN3610**
-De Samenhangend objectenregistratie conformeert zich aan NEN3610. 
-NEN3610 
-- Richt zich op taxonomie
-- Richt zich NIET op topologieregels
-- Heeft het dus ook niet over ‘opdelend’ of ‘inrichtend’ of over een referentielaag als het maaiveld
+**Het semantisch model van de SOR conformeert zich aan NEN3610**
 
-**Topologie**
+ontwerpprincipe: 
 
-ontwerpprincipe: *Het semantisch model van de SOR conformeert zich aan NEN3610*
+**Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels**
 
-ontwerpprincipe: *Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels*
+ontwerpprincipe: 
 
-ontwerpprincipe: *Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.*
+**Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.**
 
 Deze Referentielaag wordt 
 - In geval van fysieke objecttypen volledig gedekt door objecten uit de objecttypen BODEM en WATER.
@@ -179,9 +174,13 @@ Deze Referentielaag wordt
    - 	Objecten van andere fysieke objecttypen worden ten opzichte hiervan gepositioneerd, zoals bijvoorbeeld Gebouwen en Verharding.   Ook de 3D-verschijningsvormen van objecten kunnen ten opzichte hiervan worden gepositioneerd
    -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
+
 ![topologie](media/topologie.png)
 
-ontwerpprincipe: *In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken*
+ontwerpprincipe: 
+
+**In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken**
+
 - Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
 
 
