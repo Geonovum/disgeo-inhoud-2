@@ -2537,7 +2537,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **Domeinwaarden**
 
-|
 *status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
