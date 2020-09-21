@@ -804,37 +804,35 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 *kering*
 
 |Waarde type kering| Beschrijving   |
-|---|---|---|
+|---|---|
 |grond	|voorziening bedoeld om grond te keren|
 |water	|voorziening bedoeld om water te keren|
 |stormvloed	|Een stormvloedkering is een voorziening (waterbouwkundige constructie) die bij stormvloed of springtij moet verhinderen dat er grote hoeveelheden water de monding van een rivier instromen en stroomopwaarts tot overstromingen leiden. |
 
 
-#### Oever,slootkant
+#### Oever
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Oever,slootkant |
+| SOR-begrip   | Oever |
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
-
-ontwerpprincipe: 
 
 **Definitie**
 
-| Naam  | Oever,slootkant  |
+| Naam  | Oever  |
 |---|---|
-| Definitie | *De strook land die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn. (bron: Inspire)*  |
-|Herkomst definitie  | BGT 1.1.1.     |
+| Definitie | De strook land die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn.   |
+|Herkomst definitie  | BGT 1.2     |
 |Verplicht  | Ja  |
-|Gevolgen afbakening||
-|Toelichting|  |
+|Gevolgen afbakening|Het betreft hier de bestaande populatie *oever, slootkant* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
+|Toelichting| Slootkant is een oever. |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip oever,slootkant|Ja |
-|Geometrie||nee (lijn)|
-|Status   |   |Ja   |
+|Identificatie   |De unieke aanduiding van het SOR-begrip oever|Ja |
+|Geometrie|De geometrische representatie van de randen van de oever.|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de betreffende oever zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
