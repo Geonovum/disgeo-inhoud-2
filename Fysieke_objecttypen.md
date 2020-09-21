@@ -576,7 +576,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Herkomst definitie  | IMGeo   |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *haag* bij *vegetatie object* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
+|Toelichting| Heg is synoniem van haag. |
 
 
 #### Tuunwallen
