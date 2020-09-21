@@ -56,6 +56,161 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ingetrokken	|Het Rijk is formeel ingetrokken door het bevoegd gezag|
 |Ten onrechte opgevoerd	|Het Rijk is ten onrechte opgevoerd in de registratie|
 
+
+
+
+
+#### Provincie
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Provincie |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
+
+**Definitie**
+
+| Naam  | Provincie |
+|---|---|
+| Definitie | Een provincie is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet.|
+|Herkomst definitie  | Grondwet en Provinciewet  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster.  |
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van de Provincie |Ja |
+|Provinciecode|	De codering van een provincie zoals deze door het CBS wordt gebruikt.|Ja   |
+|Provincienaam|	De naam van een provincie zoals formeel benoemd door het bevoegd gezag.|Ja   |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Provincie is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Provincie zich bevindt.  |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Provincie is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Provincie is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Provincie is ten onrechte opgevoerd in de registratie|
+
+
+
+
+
+
+#### Waterschap
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Waterschap |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
+
+**Definitie**
+
+| Naam  | Waterschap |
+|---|---|
+| Definitie | Een waterschap is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet.|
+|Herkomst definitie  | Grondwet en Waterschapswet.  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging en bestaat er een losse dataset waterschappen. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen.  |
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het Waterschap |Ja |
+|Waterschapscode|	De codering van een waterschap zoals deze door het CBS wordt gebruikt.|Ja   |
+|Waterschapsnaam|	De naam van een waterschap zoals formeel benoemd door het bevoegd gezag.|Ja   |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Waterschap is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het Waterschap zich bevindt.  |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Waterschap is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Waterschap is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Waterschap is ten onrechte opgevoerd in de registratie|
+
+
+
+#### Gemeente
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Gemeente |
+| Onderdeel van NEN3610-objecttype |Registratief object |
+
+ 
+
+**Definitie**
+
+| Naam  | Gemeente |
+|---|---|
+| Definitie | Een gemeente is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet.|
+|Herkomst definitie  | Grondwet en Gemeentewet.  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster. |
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van de gemeente |Ja |
+|Gemeentecode|	De codering van een gemeente zoals deze door het CBS wordt gebruikt.|Ja |
+|Formele naam|	De naam van een gemeente zoals formeel benoemd door het bevoegd gezag.|Ja |
+|Alternatieve naam|	Een alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als gemeente is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de gemeente zich bevindt.  |Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|ligt in |gerelateerde provincie |ja |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Aangewezen	|De Gemeente is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|De Gemeente is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|De Gemeente is ten onrechte opgevoerd in de registratie|
+
+
 #### Nederlandse territoriale zee
 
 | Klasse  | Naam  |
@@ -256,159 +411,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 <div class='note'>
     dit betreft eigenlijk hetzelfde gebied als de Nederlandse Exclusieve Economische Zone. Wat is de toegevoegde waarde om het Nederlands continentaal plat los op te nemen?
 </div>
-
-
-
-
-#### Provincie
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Provincie |
-| Onderdeel van NEN3610-objecttype |Registratief object |
-
- 
-
-**Definitie**
-
-| Naam  | Provincie |
-|---|---|
-| Definitie | Een provincie is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet.|
-|Herkomst definitie  | Grondwet en Provinciewet  |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster.  |
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van de Provincie |Ja |
-|Provinciecode|	De codering van een provincie zoals deze door het CBS wordt gebruikt.|Ja   |
-|Provincienaam|	De naam van een provincie zoals formeel benoemd door het bevoegd gezag.|Ja   |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Provincie is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Provincie zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Aangewezen	|De Provincie is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Provincie is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Provincie is ten onrechte opgevoerd in de registratie|
-
-
-
-
-
-
-#### Waterschap
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Waterschap |
-| Onderdeel van NEN3610-objecttype |Registratief object |
-
- 
-
-**Definitie**
-
-| Naam  | Waterschap |
-|---|---|
-| Definitie | Een waterschap is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet.|
-|Herkomst definitie  | Grondwet en Waterschapswet.  |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging en bestaat er een losse dataset waterschappen. Door de opname van wijken in de objectenregistratie ontstaat een formele vastlegging van waterschappen.  |
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het Waterschap |Ja |
-|Waterschapscode|	De codering van een waterschap zoals deze door het CBS wordt gebruikt.|Ja   |
-|Waterschapsnaam|	De naam van een waterschap zoals formeel benoemd door het bevoegd gezag.|Ja   |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Waterschap is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het Waterschap zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Aangewezen	|De Waterschap is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Waterschap is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Waterschap is ten onrechte opgevoerd in de registratie|
-
-
-
-#### Gemeente
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Gemeente |
-| Onderdeel van NEN3610-objecttype |Registratief object |
-
- 
-
-**Definitie**
-
-| Naam  | Gemeente |
-|---|---|
-| Definitie | Een gemeente is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet.|
-|Herkomst definitie  | Grondwet en Gemeentewet.  |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster. |
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van de gemeente |Ja |
-|Gemeentecode|	De codering van een gemeente zoals deze door het CBS wordt gebruikt.|Ja |
-|Formele naam|	De naam van een gemeente zoals formeel benoemd door het bevoegd gezag.|Ja |
-|Alternatieve naam|	Een alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als gemeente is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de gemeente zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|ligt in |gerelateerde provincie |ja |
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Aangewezen	|De Gemeente is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Gemeente is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Gemeente is ten onrechte opgevoerd in de registratie|
 
 
 
