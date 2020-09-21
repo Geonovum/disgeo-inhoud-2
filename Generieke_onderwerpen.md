@@ -141,12 +141,16 @@ Dit zou bijvoorbeeld via een afsprakenstelsel geregeld kunnen worden
  Voor 3D geometrie is het noodzakelijk om met een cartesisch coördinatenstelsel te werken (d.w.z. waarin de 3D assen onderling loodrecht op elkaar staan). 
 
 ####  3D
-ontwerpprincipe: **de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht is en 3D vrijwillig.** Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie conform hetgeen daarover voor het betreffende objecttype is bepaald, waarbij de vastlegging hiervan zodanig wordt vormgegeven dat de driedimensionale (3D) beschrijving van een object kan worden opgenomen.
+ontwerpprincipe: 
+
+**de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht is en 3D vrijwillig.** 
+
+Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie conform hetgeen daarover voor het betreffende objecttype is bepaald, waarbij de vastlegging hiervan zodanig wordt vormgegeven dat de driedimensionale (3D) beschrijving van een object kan worden opgenomen.
 
 De SOR maakt het op vrijwillige basis mogelijk om ook 3D aspecten van objecten vast te leggen. Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Het gaat hierbij dus om de coordinate dimension (ISO19107) en niet om de dimensie van de geometric primitive (ISO19107) die wordt gebruikt om de geometrie te representeren. Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
 
 <div class='note'>
-    In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraag om een herziening van huidige topologie regels en het begrip maaiveld. Wij zijn opzoek naar mensen die een zinvolle bijdrage kunnen leveren op dit onderwerp.
+    In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraag om een herziening van huidige topologie regels en het begrip maaiveld. 
 </div>
 
 #### Geometrie-type
