@@ -65,7 +65,7 @@
 | Naam  | Duin  |
 |---|---|
 | Definitie | Verhoging of heuvel van zand of fijne losse aarde en verpulverd gesteente opgeworpen door wind of door stromend water. |
-|Herkomst definitie  | BGT 1.1.1 |
+|Herkomst definitie  | BGT 1.2 |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *duin* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|   |
@@ -74,12 +74,12 @@
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een duin  |Ja |
+|Identificatie   |De unieke aanduiding van een duin.  |Ja |
 |Naam   |De plaatselijke naam van het duingebied zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
 |Alternatieve naam   | Een alternatieve benaming van een duingebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
-|Geometrie   |De geometrische representatie van de randen van het gebied dat duin bekend is  |Ja (vlak)  |
-|Type |Het hoofdkarakter van het duingebied |Nee |
-|Status   |De fase van de levenscyclus waarin het betreffende duingebied zich bevindt    |Ja   |
+|Geometrie   |De geometrische representatie van de randen van het gebied dat duin bekend is.  |Ja (vlak)  |
+|Type |Het hoofdkarakter van het duingebied. |Nee |
+|Status   |De fase van de levenscyclus waarin het betreffende duingebied zich bevindt.    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 **Relaties met andere objecten**
@@ -100,6 +100,52 @@
 | Waarde  | Beschrijving Status  |
 |---|---|
 |||
+
+### Reliëf object
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Reliëf  |
+| onderdeel van NEN3610-objecttype |geografisch object  |
+
+**Definitie**
+
+| Naam  | Reliëf  |
+|---|---|
+| Definitie |  |
+|Herkomst definitie  |  |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *reliëf* zoals deze is opgenomen in de basisregistratie  topografie.  |
+|Toelichting|   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een reliëf.  |Ja |
+|Geometrie   |De geometrische representatie van de randen van het gebied dat reliëf bekend is.  |Ja (punt,vlak)  |
+|Type |Het hoofdkarakter van het reliëf. |Nee |
+|Status   |De fase van de levenscyclus waarin het betreffende reliëf zich bevindt.    |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
+**Relaties met andere objecten**
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+||||
+
+**Domeinwaarden**
+
+| Waarde  | Beschrijving Type  |
+|---|---|
+
+
+*status*
+
+| Waarde  | Beschrijving Status  |
+|---|---|
+|||
+
+
 
 
 ### Geografische objecttypen uit de BRT
