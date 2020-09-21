@@ -8,7 +8,7 @@
 | SOR-begrip   | Knoop|
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -67,7 +67,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Wegverbinding|
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -162,20 +162,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 ### Transportvoorziening; Waterelement
 
-
-
-
-
-
-
-### Functionele zonering
-
-<div class='note'>
-    De functionele zoneringen zijn voor het overzicht opgedeeld in rode, grijze, groene, blauwe en overige gebieden met een objecttypering. Deze indeling is functioneel ingestoken en heeft geen relatie met het fysieke voorkomen in het terrein.
-</div>
- 
-
-### Functionele zonering ROOD
+### Functionele zonering bebouwing
 
 #### Verblijfsobject
 
@@ -400,7 +387,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Functionele zonering GRIJS
+### Functionele zonering verharding
 
 #### Verkeerskundig functionele zone
 
@@ -657,7 +644,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Functionele zonering GROEN
+### Functionele zonering begroeiing
 
 
 #### Strand
@@ -741,7 +728,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | 	volkstuin| | 
 
 
-### Functionele zonering BLAUW
+### Functionele zonering water
 
 <div class='note'>
     De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
@@ -764,7 +751,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Kering|
 | Onderdeel van NEN3610-objecttype | Functioneel object |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -862,8 +849,6 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Complex |
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
 
-ontwerpprincipe: 
-
 **Definitie**
 
 | Naam  | Complex  |
@@ -930,7 +915,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-ontwerpprincipe: 
+
 
 **Definitie**
 
@@ -975,15 +960,13 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Functionele zonering OVERIG
+### Functionele zonering overig
 #### Reducering
 
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | reducering|
 | Onderdeel van NEN3610-objecttype | Functioneel object |
-
-ontwerpprincipe: 
 
 **Definitie**
 
@@ -1033,7 +1016,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Valbescherming|
 | Onderdeel van NEN3610-objecttype | Functioneel object |
 
-ontwerpprincipe: 
+ 
 
 **Definitie**
 
@@ -1082,7 +1065,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Afscheiding |
 | Onderdeel van NEN3610-objecttype | Functioneel object |
 
-ontwerpprincipe: 
+ 
 
 
 **Definitie**
