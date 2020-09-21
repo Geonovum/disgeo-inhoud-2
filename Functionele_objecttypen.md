@@ -162,7 +162,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 ### Transportvoorziening; Waterelement
 
-### Functionele zonering bebouwing
+### Functionele zonering; Bebouwing
 
 #### Verblijfsobject
 
@@ -387,7 +387,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Functionele zonering verharding
+### Functionele zonering; Verharding
 
 #### Verkeerskundig functionele zone
 
@@ -644,7 +644,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Functionele zonering begroeiing
+### Functionele zonering; Begroeiing
 
 
 #### Strand
@@ -728,7 +728,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | 	volkstuin| | 
 
 
-### Functionele zonering water
+### Functionele zonering; Water
 
 <div class='note'>
     De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
@@ -960,7 +960,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Functionele zonering overig
+### Functionele zonering; Overig
 #### Reducering
 
 | Klasse  | Naam  |
