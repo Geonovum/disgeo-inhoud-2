@@ -66,10 +66,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Type watervlakte| Beschrijving   |
 |---|---|
 |zee|Uitgestrekt oppervlak zout water. |
-|meer|*geen onderscheidende definitie gevonden*|
-|plas|*geen onderscheidende definitie gevonden*|
-|ven|*geen onderscheidende definitie gevonden*|
-|vijver|*geen onderscheidende definitie gevonden*|
+|meer|Watervlakte (meestal zoet) die op natuurlijke wijze dan wel door menselijk ingrijpen (ingraving of afsluiting) is ontstaan. |
+|plas|Waterpartij, ontstaan door de winning van delfstoffen in dagbouw, die in contact staat met de vrije grondwaterspiegel. |
+|ven|Een natuurlijk ontstaan meer op heidegrond.|
+|vijver|Gegraven waterpartij, aangelegd in stedelijke omgeving of in een parklandschap.|
 
 
 
@@ -1413,8 +1413,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.   |
 | sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.   |
 | pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   |
-| sluisdeur ||
-| kolk ||
+| sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden|
+| kolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht.|
 
 
 #### Ondertunneling
@@ -1544,7 +1544,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | kademuur |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton.   |
 | damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen. |
 | walbescherming |Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.   |
-| schot||
+| schot|Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen.|
 | stuw |Een vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen  |
 | sluis |Een kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt.   |
 | coupure |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.|
