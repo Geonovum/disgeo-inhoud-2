@@ -32,6 +32,7 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 - molgoot
 - woonerf
 - voetgangersgebied
+- boomspiegel
 
 
 
