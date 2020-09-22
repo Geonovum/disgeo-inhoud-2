@@ -49,9 +49,53 @@
 
 | Waarde  | Beschrijving Status  |
 |---|---|
-|Aangewezen|Bebouwde kom is in gebruik |
+| Aangewezen| Bebouwde kom is in gebruik |
 | Ingetrokken | Bebouwde kom wordt niet langer als zodanig onderscheiden|
 
+### Strand
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Strand |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
+
+**Definitie**
+
+| Naam  | Strand |
+|---|---|
+| Definitie | Onbegroeide zandige kustvlakte op de overgang van zee met land. Staat onder invloed van het zeewater en de wind. |
+|Herkomst definitie  | IMGeo 2.2|
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *strand en strandwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | De unieke aanduiding van strand. |Ja |
+|Geometrie| De geometrische representatie van de randen van een strand. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende strand zich bevindt.  |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
 
 
 ### Duin
@@ -86,37 +130,76 @@
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-||||
+
 
 **Domeinwaarden**
 
-| Waarde  | Beschrijving Type  |
-|---|---|
-|open duinvegetatie||
-|gesloten duinvegetatie||
-
 *status*
 
-| Waarde  | Beschrijving Status  |
-|---|---|
-|||
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-#### Strand
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
+
+*Type*
+
+| Waarde  | Beschrijving Type  |
+|---|---|
+|open duinvegetatie|Duin met een overwegend grasachtige vegetatie.|
+|gesloten duinvegetatie|Duin met een overwegend opgaande vegetatie van struiken en of bomen.|
+
+
+### Zandverstuiving
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Strand |
+| SOR-begrip   | Zandverstuiving |
 | Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 **Definitie**
 
-| Naam  | Strand |
+| Naam  | Zandverstuiving |
 |---|---|
-| Definitie | Onbegroeide zandige kustvlakte op de overgang van zee met land. Staat onder invloed van het zeewater en de wind. |
-|Herkomst definitie  | IMGeo 2.1.1 |
+| Definitie | Een gebied met zandige bodem waarvan delen van het gebied zonder vegetatie zijn, door invloed van wind. |
+|Herkomst definitie  | IMGeo 2.2|
 |Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *zandverstuiving* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
-#### Zandverstuiving
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | De unieke aanduiding van zandverstuiving. |Ja |
+|Geometrie| De geometrische representatie van de randen van een zandverstuiving. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de betreffende zandverstuiving zich bevindt.  |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
+
+
 
 
 ### Reliëf object
