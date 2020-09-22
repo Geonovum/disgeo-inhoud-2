@@ -647,22 +647,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 ### Functionele zonering; Begroeiing
 
 
-#### Strand
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Strand |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
-**Definitie**
-
-| Naam  | Strand |
-|---|---|
-| Definitie | Onbegroeide zandige kustvlakte op de overgang van zee met land. Staat onder invloed van het zeewater en de wind. |
-|Herkomst definitie  | IMGeo 2.1.1 |
-|Verplicht  | Ja  |
-|Toelichting|  |
-
-#### Zandverstuiving
 
 
 
