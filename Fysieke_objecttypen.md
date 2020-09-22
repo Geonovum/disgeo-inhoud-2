@@ -466,7 +466,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | 	Zwarte grond| Onverhard waarvan het oppervlak bestaat uit zwarte grond.|
 | 	Open grond| Onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|
 
-#### Bouwland 
+
+
+#### Bouwland
 | Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Bouwland  |
@@ -477,7 +479,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Bouwland  |
 |---|---|
-| Definitie |Terrein in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
+| Bouwland |Terrein in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
 |Herkomst definitie  | BGT 1.1.1 |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -515,149 +517,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 <div class='note'>
     BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in bouwland. 
 </div>
-
-
-
-
-
-
-
-#### Bomenrij
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Bomenrij |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Bomenrij |
-|---|---|
-| Definitie |opgaande begroeiing van bomen zonder struiken  |
-|Herkomst definitie  |   |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | nieuw object  |
-|Toelichting|  |
-
-
-
-
-
-
-#### Houtsingel
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Houtsingel |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Houtsingel |
-|---|---|
-| Definitie |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
-|Herkomst definitie  |   |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *houtsingel* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-#### Haag
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Haag |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Haag  |
-|---|---|
-| Definitie |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
-|Herkomst definitie  | IMGeo   |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *haag* bij *vegetatie object* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| Heg is synoniem van haag. |
-
-
-#### Tuunwallen
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Tuunwallen |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Tuunwallen  |
-|---|---|
-| Definitie | Op elkaar gestapelde grasplaggen als scheiding tussen twee percelen.   |
-|Herkomst definitie  |    |
-|Verplicht  | ja  |
-|Gevolgen afbakening  |   |
-|Toelichting|  |
-
-
-
-
-
-
-#### Moeras
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Moeras |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Moeras |
-|---|---|
-| Definitie |Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing.  |
-|Herkomst definitie  | bron: BGT |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *moeras* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-#### Heide
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Heide |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Heide |
-|---|---|
-| Definitie |Terreindeel overwegend begroeid met heide en heideachtige vegetaties.  |
-|Herkomst definitie  |BGT|
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *heide* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Verplicht  | ja  |
-|Toelichting|  |
-
-#### Rietland
-
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Rietland |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Rietland |
-|---|---|
-| Definitie |Terreindeel overwegend begroeid met rietvegetatie.  |
-|Herkomst definitie  | BGT  |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *rietland* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-
-
-
-
-
 
 ####    Fruit- bomenteelt
 
@@ -721,6 +580,124 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
     De huidige BGT-objecten "Fruitteelt" met subtypen (laagstam boomgaarden, hoogstam boomgaarden, wijngaarden en klein fruit) en "Boomteelt" alsmede de BRT objecttypen "Boomkwekerij", Fruitkwekerij" en "Boomgaard" lopen qua definities door elkaar. WG Groen heeft geen specifieke toepassingen van dit objectype kunnen vinden en stelt daarom voor om één supertype "Fruit- en boomkwekerij" te definiëren met daaronder 5 subtypen die vrijwillig gevuld worden. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.  
 </div>
 
+
+
+#### Natuurlijk groen 
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Natuurlijk groen  |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+
+**Definitie**
+
+| Naam  | Natuurlijk groen  |
+|---|---|
+| Definitie | |
+|Herkomst definitie  | |
+|Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | De unieke aanduiding van natuurlijk groen. |Ja |
+|Geometrie| De geometrische representatie van de randen van natuurlijk groen. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende natuurlijke groen zich bevindt.  |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
+
+.
+
+|Waarde type natuurlijk groen| Beschrijving|
+|---|---|
+| Moeras |Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing.  |
+| Heide |Terreindeel overwegend begroeid met heide en heideachtige vegetaties.  |
+| Rietland |Terreindeel overwegend begroeid met rietvegetatie.  |
+
+
+
+
+
+#### Landschapselement
+
+| Klasse  | Naam  |
+|---|---|
+|SOR-begrip   | Landschapselement |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+
+**Definitie**
+
+| Naam  | Landschapselement |
+|---|---|
+| Definitie |  |
+|Herkomst definitie  |   |
+|Verplicht  | ja  |
+|Gevolgen afbakening  | het betreft hier grotendeels de bestaande populatie *haag* en *houtsingel* zoals deze is opgenomen in de basisregistratie grootschalige topografie. Aangevuld met nieuwe elementen bomenrij en tuunwal.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | De unieke aanduiding van een landschapselement. |Ja |
+|Geometrie| De geometrische representatie van de randen van een landschapselement. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de betreffende landschapselement zich bevindt.  |Ja   |
+|Type landschapselement| De aanduiding van het soort landschapselement.|Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| | | |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
+
+.
+
+|Waarde Type landschapselement| Beschrijving   |
+|---|---|
+| bomenrij|opgaande begroeiing van bomen zonder struiken  |
+| houtsingel |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
+| haag |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
+| tuunwal| Op elkaar gestapelde grasplaggen als scheiding tussen twee percelen.   |
+
+
 #### Boom
 | Klasse  | Naam  |
 |---|---|
@@ -738,23 +715,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Gevolgen afbakening  | nieuw object  |
 |Toelichting|  |
 
-#### Boomspiegel
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Boomspiegel|
-| Onderdeel van NEN3610-objecttype |Begroeiing |
-
-
-**Definitie**
-
-| Naam  | Boomspiegel |
-|---|---|
-| Definitie | Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor
-lucht en water. |
-|Herkomst definitie  | IMGeo 2.1.1  |
-|Verplicht  | nee  |
-|Gevolgen afbakening  | nieuw object  |
-|Toelichting|  |
 
 
 
