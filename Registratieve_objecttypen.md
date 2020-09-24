@@ -360,62 +360,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte opgevoerd	|De Nederlandse exclusieve economische zone is ten onrechte opgevoerd in de registratie|
 
 
-#### Nederlandse continentaal plat
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Nederlandse continentaal plat |
-| Onderdeel van NEN3610-objecttype |Registratief object |
-
- 
-
-**Definitie**
-
-| Naam  | Nederlandse continentaal plat |
-|---|---|
-| Definitie | Het Nederlandse continentaal plat is het onder de Noordzee gelegen deel van de zeebodem en de ondergrond daarvan, waarop het Koninkrijk soevereine rechten heeft, en gelegen is buiten en grenzend aan de territoriale zee.|
-|Herkomst definitie  | Mijnwet continentaal plat.  |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier het Nederlandse continentaal plat zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het Nederlandse continentaal plat |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse continentaal plat is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het Nederlandse continentaal plat zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Aangewezen	|De Nederlandse continentaal plat is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Nederlandse continentaal plat is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Nederlandse continentaal plat is ten onrechte opgevoerd in de registratie|
-
-
-
-<div class='note'>
-    dit betreft eigenlijk hetzelfde gebied als de Nederlandse Exclusieve Economische Zone. Wat is de toegevoegde waarde om het Nederlands continentaal plat los op te nemen?
-</div>
-
-
-
-
-
 
 ### Woonplaats
 | Klasse  | Naam  |
