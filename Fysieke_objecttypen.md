@@ -1049,11 +1049,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Toegangsdeur
 
-<div class='note'>
-    Verwachten we dat toegangsdeuren ook voorkomen bij andere objecten en dat we deze dus bij de meer algemene objecttypen moeten plaatsen?
-</div>
-
-
 | Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Toegangsdeur  |
@@ -1063,22 +1058,22 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Toegangsdeur |
 |---|---|
-| Definitie | Deur of andere voorziening die vanaf de openbare weg, een erf of een gedeelde verkeersruimte toegang geeft tot een object|
-|Herkomst definitie  |Begrip sluit aan bij het begrip Deur (IfcDoor) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
+| Definitie | Deur of andere voorziening die vanaf de openbare weg, een erf of een gedeelde verkeersruimte toegang geeft tot een object.|
+|Herkomst definitie  |Begrip sluit aan bij het begrip Deur (IfcDoor) uit de concepten rondom Bouwwerkinformatiemodellen (BIM).|
 |Verplicht  | Deels (nog nader te bepalen welke onderdelen) |
-|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype.  *Bekeken zal nog moeten worden in hoeverre we dit objecttype ook willen relateren aan objecten als kunstwerken en andere constructies.*|
+|Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype. |
 |Toelichting| *volgt later* |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Toegangsdeur  |Ja |
+|Identificatie   |De unieke aanduiding van een toegangsdeur  |Ja |
 |Geometrie |De geometrische representatie van een Toegangsdeur   |Ja (1,5D)|
 |Toegangssoort|De plaats waarvan de toegangsdeur toegang geeft|Ja|
 |Gebruiksaard|De aard van gebruik van de  toegangsdeur|Ja|
 |Bijbehorend object |Het object waarin de betreffende toegangsdeur zich bevindt|Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende Toegangsdeur zich bevindt   |Ja   |
+|Status   |De fase van de levenscyclus waarin de betreffende toegangsdeur zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
