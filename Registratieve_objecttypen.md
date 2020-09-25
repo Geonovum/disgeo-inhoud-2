@@ -127,18 +127,18 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Definitie | Een waterschap is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet.|
 |Herkomst definitie  | Grondwet en Waterschapswet.  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging en bestaat er een losse dataset waterschappen. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen.  |
-|Toelichting| |
+|Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen.  |
+|Toelichting|In een latere fase moet nog worden bepaald welke gebiedsbegrenzing wordt vastgelegd (de administratieve gebiedsbegrenzing of het regelementsgebied). |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het Waterschap |Ja |
+|Identificatie   |De unieke aanduiding van het waterschap |Ja |
 |Waterschapscode|	De codering van een waterschap zoals deze door het CBS wordt gebruikt.|Ja   |
 |Waterschapsnaam|	De naam van een waterschap zoals formeel benoemd door het bevoegd gezag.|Ja   |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Waterschap is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het Waterschap zich bevindt.  |Ja   |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als waterschap is benoemd. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het waterschap zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -155,9 +155,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde Status| 
 |---|
-|Aangewezen	|De Waterschap is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Waterschap is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Waterschap is ten onrechte opgevoerd in de registratie|
+|Aangewezen	|Het waterschap is formeel aangewezen door het bevoegd gezag|
+|Ingetrokken	|Het waterschap is formeel ingetrokken door het bevoegd gezag|
+|Ten onrechte opgevoerd	|Het waterschap is ten onrechte opgevoerd in de registratie|
 
 
 
