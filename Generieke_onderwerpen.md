@@ -252,14 +252,14 @@ In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoem
 
 **BEGRIPPEN**
 
-**kartografisch object** 
+**cartografisch object** 
 Een object wat voor een visualisatie wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie van die visualisatie hoe lang die visualisatie ook beschikbaar is
 
 **generaliseren**
 Dit betreft het zinvol vereenvoudigen, verplaatsen  of ‘opblazen’ van de geometrie van objecten.
 
 **aggregeren**
-Dit betreft het samenvoegen van objecten tot een nieuw object (zowel op dataniveau als kartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn. 
+Dit betreft het samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn. 
 
 
 #### Generaliseren
@@ -267,7 +267,7 @@ Dit betreft het samenvoegen van objecten tot een nieuw object (zowel op datanive
 Uit consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen , hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
 Daarmee 
 1.	Is er geen informatiebehoefte aan gegeneraliseerde data-objecttypen
-2.	Zijn kartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties
+2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties
 3.	Is er ook geen behoefte aan unieke universele persistente identificatie van gegeneraliseerde objecten
 
 Ontwerpprincipe: 
@@ -282,11 +282,11 @@ Ontwerpprincipe:
 
 Ontwerpprincipe: 
 
-**kartografische objecttypen worden als onderdeel van de producten van DisGeo ogenomen**
+**cartografische objecttypen worden als onderdeel van de producten van DisGeo ogenomen**
 
-Kartografische objecten zijn voor gebruiikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
+cartografische objecten zijn voor gebruiikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
 
-Voor kartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een laag naar een hoog detailniveau teruggaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau
+Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een laag naar een hoog detailniveau teruggaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau
 
 Ontwerpprincipe: 
 
@@ -299,7 +299,7 @@ Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generealisatie e
 
 #### Terugmeldingen op gegeneraliseerde objecten
 
-Er kunnen wel terugmeldingen  zijn op de gegeneraliseerde kartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
+Er kunnen wel terugmeldingen  zijn op de gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
 - Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders vasn de onderliggende data
 - of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken dataobjecten uit de SOR
 
