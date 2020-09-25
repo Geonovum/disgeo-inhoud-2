@@ -34,5 +34,19 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 - voetgangersgebied
 - boomspiegel
 
+<div class='note'>
+    De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
+</div>
+ 
+
+|Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
+|-----------|---------------------------|--------------------------------|
+|Functioneel Gebied (blauw)|	Functie:	 ||
+||*Niet BGT*| 	 	Opstelpunt open water|
+||*Niet BGT*| 	 	Zuiveringscomplex|
+||*Niet BGT*| 	 	Waterwingebied|
+||*Niet BGT*|	 	Waterbergingsgebied|
+||*Niet BGT*|	 	Infrastructuur waterstaatswerken| 
+
 
 
