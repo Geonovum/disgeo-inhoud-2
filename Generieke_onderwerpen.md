@@ -195,8 +195,6 @@ In de samenhangende objectenregistratie worden vier transportnetwerken ondersche
 
 De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerk los van elkaar te beschrijven.
 
-Voor meer detail wordt verwezen naar het conceptueel model netwerken. LINK??
-
 #### Elementen van een netwerk: knopen en verbindingen
 
 Een netwerk bestaat uit knopen en verbindingen. Een verbinding geeft de relatie aan tussen twee knopen. Een knoop is een keuzepunt. Bijvoorbeeld voor een weggebruiker. Een verbinding verbindt twee direct aanliggende keuzepunten. 
