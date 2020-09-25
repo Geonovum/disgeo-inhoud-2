@@ -1,8 +1,10 @@
 ## Functionele objecttypen
 
-### Transportvoorziening; Weg
+### Transportvoorzieningen
 
-#### Knoop
+#### Weg
+
+**KNOOP**
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Knoop|
@@ -61,7 +63,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-#### Wegverbinding
+**WEGVERBINDING**
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Wegverbinding|
@@ -156,13 +158,13 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
-### Transportvoorziening; Spoorweg
+#### Spoorweg
 
-### Transportvoorziening; Vaarweg
+#### Vaarweg
 
-### Transportvoorziening; Waterelement
+#### Waterelement
 
-### Functionele zonering; Bebouwing
+### Functionele gebouwobjecten
 
 #### Verblijfsobject
 
@@ -387,7 +389,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Functionele zonering; Verharding
+### Functionele zoneringen
 
 #### Verkeerskundig functionele zone
 
@@ -644,7 +646,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Functionele zonering; Begroeiing
+
 
 
 
@@ -713,73 +715,11 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 | 	volkstuin| | 
 
 
-### Functionele zonering; Water
 
-<div class='note'>
-    De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
-</div>
- 
-
-|Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|Functioneel Gebied (blauw)|	Functie:	 ||
-||*Niet BGT*| 	 	Opstelpunt open water|
-||*Niet BGT*| 	 	Zuiveringscomplex|
-||*Niet BGT*| 	 	Waterwingebied|
-||*Niet BGT*|	 	Waterbergingsgebied|
-||*Niet BGT*|	 	Infrastructuur waterstaatswerken|  
-
-
-#### Kering
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Kering|
-| Onderdeel van NEN3610-objecttype | Functioneel object |
 
  
 
-**Definitie**
 
-| Naam  | Kering |
-|---|---|
-| Definitie | Voorziening met kerende functie. |
-|Herkomst definitie  |nieuw|
-|Verplicht  | ja  |
-|Gevolgen afbakening||
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
-|Geometrie||ja (lijn, vlak)|
-|type kering|||
-|Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Domeinwaarden**
-
-
-*status*
-
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
-
-*kering*
-
-|Waarde type kering| Beschrijving   |
-|---|---|
-|grond	|voorziening bedoeld om grond te keren|
-|water	|voorziening bedoeld om water te keren|
-|stormvloed	|Een stormvloedkering is een voorziening (waterbouwkundige constructie) die bij stormvloed of springtij moet verhinderen dat er grote hoeveelheden water de monding van een rivier instromen en stroomopwaarts tot overstromingen leiden. |
 
 
 #### Oever
@@ -888,44 +828,37 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |coupurecomplex||
 
 
-#### Vuilvang
+
+
+### Overige functionele zoneringen
+
+#### Kering
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Vuilvang |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| SOR-begrip   | Kering|
+| Onderdeel van NEN3610-objecttype | Functioneel object |
 
-<div class='note'>
-    Is vuilvang een functie of een kunstwerk? (IMBOR zegt kunstwerk)
-</div>
-
-
-
-
+ 
 
 **Definitie**
 
-| Naam  | Vuilvang  |
+| Naam  | Kering |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  |     |
-|Verplicht  | Ja  |
+| Definitie | Voorziening met kerende functie. |
+|Herkomst definitie  |nieuw|
+|Verplicht  | ja  |
 |Gevolgen afbakening||
-|Toelichting|  |
+|Toelichting|   |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip vuilvang|Ja |
-|Geometrie||nee (vlak)|
+|Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
+|Geometrie||ja (lijn, vlak)|
+|type kering|||
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
 
 **Domeinwaarden**
 
@@ -942,10 +875,17 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
+*kering*
+
+|Waarde type kering| Beschrijving   |
+|---|---|
+|grond	|voorziening bedoeld om grond te keren|
+|water	|voorziening bedoeld om water te keren|
+|stormvloed	|Een stormvloedkering is een voorziening (waterbouwkundige constructie) die bij stormvloed of springtij moet verhinderen dat er grote hoeveelheden water de monding van een rivier instromen en stroomopwaarts tot overstromingen leiden. |
 
 
 
-### Functionele zonering; Overig
+
 #### Reducering
 
 | Klasse  | Naam  |
@@ -1069,6 +1009,61 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip afscheiding|Ja |
 |Geometrie||nee (lijn)|
+|Status   |   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|||
+
+**Domeinwaarden**
+
+
+*status*
+
+Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|Beëindigd	|
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+
+#### Vuilvang
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Vuilvang |
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+<div class='note'>
+    Is vuilvang een functie of een kunstwerk? (IMBOR zegt kunstwerk)
+</div>
+
+
+
+
+
+**Definitie**
+
+| Naam  | Vuilvang  |
+|---|---|
+| Definitie |   |
+|Herkomst definitie  |     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening||
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip vuilvang|Ja |
+|Geometrie||nee (vlak)|
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
