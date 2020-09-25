@@ -5,12 +5,11 @@
 #### Weg
 
 **KNOOP**
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Knoop|
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
-
- 
 
 **Definitie**
 
@@ -60,16 +59,12 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
-
-
-
 **WEGVERBINDING**
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Wegverbinding|
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
-
- 
 
 **Definitie**
 
