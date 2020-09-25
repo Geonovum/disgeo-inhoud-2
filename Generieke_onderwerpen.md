@@ -29,8 +29,9 @@ Ontwerpprincipe:
 Voor alle objecten in de SOR wordt dezelfde opbouw en toekenning van een objectidentificatie toegepast.
 De opbouw van de identificatiecode wordt op dit moment onderzocht in het externe project Regie Op Bouwgegevens (Unique Object Identifier, UOI). In fase 1 van dit project is een 0.8-versie van de UOI beschreven. Deze bestaat uit [OPZOEKEN 0.8-versie UOI]. In de start van fase 2 zal een UOI-versie 1.0 opgesteld worden die als basis kan dienen voor de identificatie van de objecten in de samenhangende objectenregistratie. Daarnaast wordt onderzocht, en beproefd in een aantal use cases of de waarde van de UOI ook buiten het domein van de samenhangende objectenregistratie bruikbaar is.
 
+#### Identiteit
 
-#### Uniciteit
+**UNICITEIT**
 
 Ontwerpprincipe: 
 
@@ -39,6 +40,80 @@ Ontwerpprincipe:
 We willen zeker weten dat we in tijd en ruimte het over hetzelfde object in de SOR hebben. De objectidentificatie moet daarom uniek zijn.
 Ontwerpprincipe: een identificatie wordt mondiaal uniek gemaakt door er de landcode aan toe te voegen
 Dit is conform de identificatie in NEN3610.
+
+
+**HANTEERBAARHEID**
+
+Ontwerpprincipe: 
+
+**een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar**
+
+De objectidentificatie van de SOR is bedoeld om in het kader van interoperabiliteit te gebruiken bij het volledig geautomatiseerd relaties bevragen tussen verschillende datasets.
+
+**IMPLEMENTATIE-VRIJ**
+
+Ontwerpprincipe: 
+
+**Een objectidentificatie van de SOR kent een functionele versie**
+
+De SOR kent een functionele objectidentificatie. De functionele objectidentificatie is systeem (implementatie) onafhankelijk. 
+
+Ontwerpprincipe: 
+
+**een functionele objectidentificatie kan een of meer technische identificaties hebben**
+
+De technische objectidentificatie is de toepassing van de functionele identificatie in een technische omgeving. In de technische uitwerking kunnen aan de functionele identificatie een of meer technische identificaties worden gerelateerd die eenduidig met die ene functionele identificatie verbonden zijn, bijvoorbeeld GML,API of URI. Objecten geïmplementeerd in verschillende technische omgevingen moeten middels hun functionele identificatie aan elkaar te relateren zijn. Bijvoorbeeld: een object dat zowel in XML als in JSON als in LD is geïmplementeerd moet herkenbaar zijn als voorkomens van eenzelfde object.
+
+**SAMENHANG**
+
+Ontwerpprincipe: 
+
+**samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de objectidentificatie in de SOR (externe ID)**
+
+Sectorregistraties kennen vaak hun eigen identificatie. Er zal gefaciliteerd moeten worden dat bij de objecten in de sectorregistraties de objectidentificaties van de SOR-objecten worden vastgelegd. De informatie die in de sector opgeslagen is daarmee te ontsluiten op basis van de SOR-objectidentificatie
+
+Ontwerpprincipe: 
+
+**samenhang faciliteren van huidige basisregistratie-identificaties en de objectidentificatie van de SOR**
+
+De objecten in de huidige basisregistraties hebben een verplichte unieke identificatie, die in veel aanpalende sectorregistraties wordt gebruikt. Gedurende een nader te bepalen (transitie-)periode zal de samenhang moeten worden bijgehouden tussen de identificatie van de SOR en die van de objecten waaruit SOR-objecten zijn ontstaan.
+
+#### Tijd
+
+**PERSISTENT IN DE TIJD**
+
+Ontwerpprincipe: 
+
+**Een objectidentificatie mag niet veranderen in de levensloop van het object zodat tijdreizen maximaal wordt gefaciliteerd**
+
+De objectidentificatie van een object in de SOR moet persistent zijn over de levensloop van dat object, zodat altijd duidelijk is welk object het betreft, ook als het object inmiddels is gesloopt.
+
+**FILIATIE (AFKOMST/OVERGANG)** 
+
+Ontwerpprincipe: 
+
+**Het moet mogelijk zijn om de afkomst van een object na te gaan door de relatie vast te leggen met het object / de objecten waaruit een object is ontstaan**
+
+Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn ontstaan door samenvoeging of splitsing van andere objecten. Op een bepaald moment in de tijd bestond het specifieke object wellicht nog niet, maar wel een voorouder van dit object.
+
+Ontwerpprincipe: 
+
+**Het moet mogelijk zijn om de overgang van een object na te gaan door de relatie vast te leggen met het object / de objecten waarin een object is overgegaan**
+
+Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn overgegaan in andere objecten door samenvoeging of splitsing. Op een bepaald moment in de tijd bestaat het specifieke object wellicht niet meer, maar wel mogelijk een afstammeling van dit object.
+
+
+**LEVENSLOOP** 
+Ontwerpprincipe: 
+
+**De levensloop van een object, met een unieke objectidentificatie, begint in de samenhangende objectenregistratie**
+
+In het eerder genoemde externe project Regie Op Bouwgegevens (UOI) zal onderzocht worden of er eerder behoefte is aan identificatiecodes, dan dat deze in de SOR ontstaan.
+
+ontwerpprincipe: 
+
+**de levensloop van een object, met een unieke objectidentificatie, eindigt in de samenhangende objectenregistratie**
+
 
 #### Uitgifte
 
@@ -59,76 +134,6 @@ Ontwerpprincipe:
 **uitgifte van identificaties vindt niet eerder dan de SOR plaats**
 
 Indien een object in een sectorregistratie mocht ontstaan, dan heeft dat object daar een unieke sectorregistratie-identificatie. Er is dan nog geen sprake van meervoudig gebruik buiten de sector. Als het object vervolgend wordt aangeboden aan de SOR, wordt dan pas en niet eerder een objectidentificatie (voor het object in de SOR) uitgegeven. Om de interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
-
-#### Hanteerbaarheid
-
-Ontwerpprincipe: 
-
-**een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar**
-
-De objectidentificatie van de SOR is bedoeld om in het kader van interoperabiliteit te gebruiken bij het volledig geautomatiseerd relaties bevragen tussen verschillende datasets.
-
-#### Implementatie-vrij
-
-Ontwerpprincipe: 
-
-**Een objectidentificatie van de SOR kent een functionele versie**
-
-De SOR kent een functionele objectidentificatie. De functionele objectidentificatie is systeem (implementatie) onafhankelijk. 
-
-Ontwerpprincipe: 
-
-**een functionele objectidentificatie kan een of meer technische identificaties hebben**
-
-De technische objectidentificatie is de toepassing van de functionele identificatie in een technische omgeving. In de technische uitwerking kunnen aan de functionele identificatie een of meer technische identificaties worden gerelateerd die eenduidig met die ene functionele identificatie verbonden zijn, bijvoorbeeld GML,API of URI. Objecten geïmplementeerd in verschillende technische omgevingen moeten middels hun functionele identificatie aan elkaar te relateren zijn. Bijvoorbeeld: een object dat zowel in XML als in JSON als in LD is geïmplementeerd moet herkenbaar zijn als voorkomens van eenzelfde object.
-
-#### Persistent in de tijd
-
-Ontwerpprincipe: 
-
-**Een objectidentificatie mag niet veranderen in de levensloop van het object zodat tijdreizen maximaal wordt gefaciliteerd**
-
-De objectidentificatie van een object in de SOR moet persistent zijn over de levensloop van dat object, zodat altijd duidelijk is welk object het betreft, ook als het object inmiddels is gesloopt.
-
-#### Filiatie (afkomst/overgang)
-
-Ontwerpprincipe: 
-
-**Het moet mogelijk zijn om de afkomst van een object na te gaan door de relatie vast te leggen met het object / de objecten waaruit een object is ontstaan**
-
-Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn ontstaan door samenvoeging of splitsing van andere objecten. Op een bepaald moment in de tijd bestond het specifieke object wellicht nog niet, maar wel een voorouder van dit object.
-
-Ontwerpprincipe: 
-
-**Het moet mogelijk zijn om de overgang van een object na te gaan door de relatie vast te leggen met het object / de objecten waarin een object is overgegaan**
-
-Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn overgegaan in andere objecten door samenvoeging of splitsing. Op een bepaald moment in de tijd bestaat het specifieke object wellicht niet meer, maar wel mogelijk een afstammeling van dit object.
-
-#### Samenhang
-
-Ontwerpprincipe: 
-
-**samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de objectidentificatie in de SOR (externe ID)**
-
-Sectorregistraties kennen vaak hun eigen identificatie. Er zal gefaciliteerd moeten worden dat bij de objecten in de sectorregistraties de objectidentificaties van de SOR-objecten worden vastgelegd. De informatie die in de sector opgeslagen is daarmee te ontsluiten op basis van de SOR-objectidentificatie
-
-Ontwerpprincipe: 
-
-**samenhang faciliteren van huidige basisregistratie-identificaties en de objectidentificatie van de SOR**
-
-De objecten in de huidige basisregistraties hebben een verplichte unieke identificatie, die in veel aanpalende sectorregistraties wordt gebruikt. Gedurende een nader te bepalen (transitie-)periode zal de samenhang moeten worden bijgehouden tussen de identificatie van de SOR en die van de objecten waaruit SOR-objecten zijn ontstaan.
-
-#### Levensloop
-Ontwerpprincipe: 
-
-**De levensloop van een object, met een unieke objectidentificatie, begint in de samenhangende objectenregistratie**
-
-In het eerder genoemde externe project Regie Op Bouwgegevens (UOI) zal onderzocht worden of er eerder behoefte is aan identificatiecodes, dan dat deze in de SOR ontstaan.
-
-ontwerpprincipe: 
-
-**de levensloop van een object, met een unieke objectidentificatie, eindigt in de samenhangende objectenregistratie**
-
 
 ### Geometrie
 
