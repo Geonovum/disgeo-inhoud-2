@@ -718,7 +718,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Constructie; Gebouw
+### Bebouwing
 
 #### Gebouw
 
@@ -1175,8 +1175,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte opgevoerd|
 
 
-### Constructie; Verharding
-#### Verharding
+### Verharding
 
 | Klasse  | Naam  |
 |---|---|
@@ -1237,7 +1236,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Onverhard| Onverhard oppervlakte bestaande uit natuurlijke materialen, voorzien van een fundering.|
 
 
-### Constructie; Kunstwerk
+### Kunstwerken
 #### Overbrugging
 
 | Klasse  | Naam  |
@@ -1573,7 +1572,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Constructie; Overige
+### Overige constructies
 
 #### Muur
   
@@ -1615,6 +1614,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 *status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland|	
