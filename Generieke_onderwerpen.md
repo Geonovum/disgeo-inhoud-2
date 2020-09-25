@@ -262,7 +262,7 @@ Dit betreft het zinvol vereenvoudigen, verplaatsen  of ‘opblazen’ van de geo
 Dit betreft het samenvoegen van objecten tot een nieuw object (zowel op dataniveau als kartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn. 
 
 
-#### generaliseren
+#### Generaliseren
 
 Uit consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen , hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
 Daarmee 
@@ -299,7 +299,7 @@ Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generealisatie e
 
 #### Terugmeldingen op gegeneraliseerde objecten
 
-Er kunnen wel terugmeldingen  zijn op de gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
+Er kunnen wel terugmeldingen  zijn op de gegeneraliseerde kartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
 - Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders vasn de onderliggende data
 - of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken dataobjecten uit de SOR
 
