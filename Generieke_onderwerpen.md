@@ -143,11 +143,41 @@ Hierbij kan de wijze van vastlegging verschillen voor de diverse objecttypen. So
 
 Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie worden nadere eisen  gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende fysieke objecten). Ook worden bij dit soort objecten deels ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast wordt er in de verdere uitwerking ook nog aandacht besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan hectometerpaaltjes, verdiepingsnummers en bouwlagen.
 
-#### Coördinatenstelsel
+#### Coördinaatreferentiesysteem 
+
+Voor het definiëren van de coördinaatreferentiesystemen kunnen de EPSG-codes (European Petroleum Survey Group) worden gebruikt.
+
+Voor de handliggende coördinaatreferentiesystemen zijn:
+
+- RD stelsel (2D): EPSG:28992
+
+- RD-NAP (3D): EPSG:7415
+
+- ETRS89 (2D): EPSG:4258 (lengte, breedte in graden)
+
+- ETRS89 (3D): EPSG:4937 (lengte, breedte in graden, hoogte in meters tov ellipsoide)
+
+- ETRS89 + EVRF2007 (3D): EPSG:7423 (lengte, breedte in graden, hoogte in meters tov NAP)
 
 Ontwerpprincipe: 
 
 **Voor 3D geometrie is het noodzakelijk om met een cartesisch coördinatenstelsel te werken (d.w.z. waarin de 3D assen onderling loodrecht op elkaar staan).**
+
+
+#### Coördinaten
+
+Coordinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD,NAP en ETRS89 komt dat overeen met de volgende nauwkeurigheden:
+
+RD in meters 3 decimalen (1 mm);
+NAP-hoogte in meters 3 decimalen (1 mm);
+ETRS89-breedte in graden 8 decimalen (1,1 mm);
+ETRS89-lengte in graden 8 decimalen (0,7 mm);
+ETRS89-hoogte in meters 3 decimalen (1 mm).
+
+Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8 decimalen. Afronding is volgens de volgende regel:
+0.0015 -> 0.002;
+0.0014 -> 0.001.
+
 
 ####  3D
 
