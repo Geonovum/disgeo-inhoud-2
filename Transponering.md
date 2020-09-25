@@ -15,6 +15,7 @@
 ### BAG
 
 ### BRT
+populieren zoals nu in de BRT worden in de SOR niet apart onderscheiden, maar vallen bijvoorbeeld onder loofbos
 
 ### Nieuw in de SOR
 - pakketautomaat
@@ -36,6 +37,7 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 - kruinlijn
 - op talud
 - schuur
+- griend en hakhout
 
 <div class='note'>
     De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
