@@ -688,7 +688,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte opgevoerd|	
 
-.
+*landschapselement*
 
 |Waarde Type landschapselement| Beschrijving   |
 |---|---|
@@ -1615,6 +1615,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 *status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
 |Waarde Status| 
 |---|
 |Gepland|	
