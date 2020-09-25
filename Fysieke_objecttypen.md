@@ -705,12 +705,40 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Boom |
 |---|---|
-| Definitie | Een markante boom die geen onderdeel uitmaakt van een ander boom- of struikbeplanting. |
-|Herkomst definitie  | IMGeo 2.1.1  |
+| Definitie | Een markante boom die geen onderdeel uitmaakt van bos of struiken. |
+|Herkomst definitie  | IMGeo 2.2 |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | nieuw object  |
 |Toelichting|  |
 
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip boom. |Ja |
+|Geometrie| De geometrische representatie van een boom.  |Ja (punt)|
+|Status   | De fase van de levenscyclus waarin de betreffende boom zich bevindt.   |Ja   |
+|Soortnaam| De soortnaam o.b.v. ‘Naamlijst van houtige gewassen en vaste planten’,  internationaal erkend als standaard.  | Ja|
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte opgevoerd|
 
 
 
