@@ -33,6 +33,8 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 - woonerf
 - voetgangersgebied
 - boomspiegel
+- kruinlijn
+- op talud
 
 <div class='note'>
     De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
