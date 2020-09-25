@@ -688,7 +688,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte opgevoerd|	
 
-.
+*landschapselement*
 
 |Waarde Type landschapselement| Beschrijving   |
 |---|---|

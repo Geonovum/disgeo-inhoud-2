@@ -88,6 +88,11 @@ var respecConfig =
       company:    "VNG",
       companyURL: "https://www.vng.nl"
     }, 
+	{
+      name:       "Dick Krijtenburg",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    }, 
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
   shortName: "hiso",  	              // Wordt gebruikt in de document URL
