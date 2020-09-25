@@ -8,62 +8,126 @@ Aan elk object wordt een uniek objectnummer (objectidentificatie) toegekend. Zol
 #### Opbouw objectidentificatie
 Bij de opbouw van de objectidentificatie worden de volgende ontwerpprincipes gehanteerd.
 
-Ontwerpprincipe: De huidige wijze van objectidentificatie van NEN3610 wordt gehanteerd want de SOR conformeert zich aan de NEN3610-norm
+Ontwerpprincipe: 
+
+**De huidige wijze van objectidentificatie van NEN3610 wordt gehanteerd want de SOR conformeert zich aan de NEN3610-norm**
 
 In NEN3610 wordt over het ID het volgende gesteld. Binnen de ‘digitale ruimte’ moeten objecten uniek identificeerbaar zijn. De objectidentificatie  is de pointer naar het informatie-object. Als men het over het informatie-object met een bepaalde identificatie heeft (of er naar verwijst) dan wil men zeker weten dat daadwerkelijk dat ene object wordt bedoeld en niet dat men er meerdere ‘terugkrijgt’. Belangrijk is ook om duidelijk te hebben wat de ‘digitale ruimte’ is. Er wordt mee bedoeld de ruimte waarin digitale objecten gezamenlijk voor kunnen komen. Dus in principe de ruimte waarin je informatie met elkaar uitwisselt of deelt.
-Ontwerpprincipe: De identificatie voor alle objecten is betekenisloos 
+
+
+Ontwerpprincipe: 
+
+**De identificatie voor alle objecten is betekenisloos**
+
 Van belang is dat de objectidentificatie niet betekenisvol geïnterpreteerd mag worden. 
-Ontwerpprincipe: De opbouw voor alle objecten is gelijk
+
+
+Ontwerpprincipe: 
+
+**De opbouw voor alle objecten is gelijk**
+
 Voor alle objecten in de SOR wordt dezelfde opbouw en toekenning van een objectidentificatie toegepast.
 De opbouw van de identificatiecode wordt op dit moment onderzocht in het externe project Regie Op Bouwgegevens (Unique Object Identifier, UOI). In fase 1 van dit project is een 0.8-versie van de UOI beschreven. Deze bestaat uit [OPZOEKEN 0.8-versie UOI]. In de start van fase 2 zal een UOI-versie 1.0 opgesteld worden die als basis kan dienen voor de identificatie van de objecten in de samenhangende objectenregistratie. Daarnaast wordt onderzocht, en beproefd in een aantal use cases of de waarde van de UOI ook buiten het domein van de samenhangende objectenregistratie bruikbaar is.
 
 
 #### Uniciteit
-Ontwerpprincipe: een objectidentificatie binnen Nederland is volledig uniek
+
+Ontwerpprincipe: 
+
+**een objectidentificatie binnen Nederland is volledig uniek**
+
 We willen zeker weten dat we in tijd en ruimte het over hetzelfde object in de SOR hebben. De objectidentificatie moet daarom uniek zijn.
 Ontwerpprincipe: een identificatie wordt mondiaal uniek gemaakt door er de landcode aan toe te voegen
 Dit is conform de identificatie in NEN3610.
 
 #### Uitgifte
-Ontwerpprincipe: uitgifte van individuele objectidentificaties in de SOR moet dubbele objectidentificaties voorkomen 
+
+Ontwerpprincipe: 
+
+**uitgifte van individuele objectidentificaties in de SOR moet dubbele objectidentificaties voorkomen**
 
 Er moet een methodiek worden ontwikkeld om uit te sluiten dat dubbele objectidentificaties worden uitgegeven. Tevens moet er direct op getoetst worden bij de voorbereiding van een uitgifte van een identificatie of deze al bestaat om latere schade te voorkomen.
 
-Ontwerpprincipe: een objectidentificatie wordt toegekend aan een object in de SOR zodra er voor het eerst in de SOR iets over dit object wordt geregistreerd
+Ontwerpprincipe: 
+
+**een objectidentificatie wordt toegekend aan een object in de SOR zodra er voor het eerst in de SOR iets over dit object wordt geregistreerd**
+
 Vanwege de eis van persistentie moet de uitgifte van de objectidentificatie direct worden gedaan bij welke registratie van een gegeven en welk moment in de tijdslijn van een object dan ook.
-Ontwerpprincipe: uitgifte van identificaties vindt niet eerder dan de SOR plaats
+
+Ontwerpprincipe: 
+
+**uitgifte van identificaties vindt niet eerder dan de SOR plaats**
+
 Indien een object in een sectorregistratie mocht ontstaan, dan heeft dat object daar een unieke sectorregistratie-identificatie. Er is dan nog geen sprake van meervoudig gebruik buiten de sector. Als het object vervolgend wordt aangeboden aan de SOR, wordt dan pas en niet eerder een objectidentificatie (voor het object in de SOR) uitgegeven. Om de interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
 
 #### Hanteerbaarheid
-Ontwerpprincipe: een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar
+
+Ontwerpprincipe: 
+
+**een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar**
+
 De objectidentificatie van de SOR is bedoeld om in het kader van interoperabiliteit te gebruiken bij het volledig geautomatiseerd relaties bevragen tussen verschillende datasets.
 
 #### Implementatie-vrij
-Ontwerpprincipe: Een objectidentificatie van de SOR kent een functionele versie
+
+Ontwerpprincipe: 
+
+**Een objectidentificatie van de SOR kent een functionele versie**
+
 De SOR kent een functionele objectidentificatie. De functionele objectidentificatie is systeem (implementatie) onafhankelijk. 
-Ontwerpprincipe: een functionele objectidentificatie kan een of meer technische identificaties hebben
+
+Ontwerpprincipe: 
+
+**een functionele objectidentificatie kan een of meer technische identificaties hebben**
+
 De technische objectidentificatie is de toepassing van de functionele identificatie in een technische omgeving. In de technische uitwerking kunnen aan de functionele identificatie een of meer technische identificaties worden gerelateerd die eenduidig met die ene functionele identificatie verbonden zijn, bijvoorbeeld GML,API of URI. Objecten geïmplementeerd in verschillende technische omgevingen moeten middels hun functionele identificatie aan elkaar te relateren zijn. Bijvoorbeeld: een object dat zowel in XML als in JSON als in LD is geïmplementeerd moet herkenbaar zijn als voorkomens van eenzelfde object.
 
 #### Persistent in de tijd
-Ontwerpprincipe: Een objectidentificatie mag niet veranderen in de levensloop van het object zodat tijdreizen maximaal wordt gefaciliteerd
+
+Ontwerpprincipe: 
+
+**Een objectidentificatie mag niet veranderen in de levensloop van het object zodat tijdreizen maximaal wordt gefaciliteerd**
+
 De objectidentificatie van een object in de SOR moet persistent zijn over de levensloop van dat object, zodat altijd duidelijk is welk object het betreft, ook als het object inmiddels is gesloopt.
 
 #### Filiatie (afkomst/overgang)
-Ontwerpprincipe: Het moet mogelijk zijn om de afkomst van een object na te gaan door de relatie vast te leggen met het object / de objecten waaruit een object is ontstaan
+
+Ontwerpprincipe: 
+
+**Het moet mogelijk zijn om de afkomst van een object na te gaan door de relatie vast te leggen met het object / de objecten waaruit een object is ontstaan**
+
 Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn ontstaan door samenvoeging of splitsing van andere objecten. Op een bepaald moment in de tijd bestond het specifieke object wellicht nog niet, maar wel een voorouder van dit object.
-Ontwerpprincipe: Het moet mogelijk zijn om de overgang van een object na te gaan door de relatie vast te leggen met het object / de objecten waarin een object is overgegaan
+
+Ontwerpprincipe: 
+
+**Het moet mogelijk zijn om de overgang van een object na te gaan door de relatie vast te leggen met het object / de objecten waarin een object is overgegaan**
+
 Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn overgegaan in andere objecten door samenvoeging of splitsing. Op een bepaald moment in de tijd bestaat het specifieke object wellicht niet meer, maar wel mogelijk een afstammeling van dit object.
 
 #### Samenhang
-Ontwerpprincipe: samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de objectidentificatie in de SOR (externe ID)
+
+Ontwerpprincipe: 
+
+**samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de objectidentificatie in de SOR (externe ID)**
+
 Sectorregistraties kennen vaak hun eigen identificatie. Er zal gefaciliteerd moeten worden dat bij de objecten in de sectorregistraties de objectidentificaties van de SOR-objecten worden vastgelegd. De informatie die in de sector opgeslagen is daarmee te ontsluiten op basis van de SOR-objectidentificatie
-Ontwerpprincipe: samenhang faciliteren van huidige basisregistratie-identificaties en de objectidentificatie van de SOR
+
+Ontwerpprincipe: 
+
+**samenhang faciliteren van huidige basisregistratie-identificaties en de objectidentificatie van de SOR**
+
 De objecten in de huidige basisregistraties hebben een verplichte unieke identificatie, die in veel aanpalende sectorregistraties wordt gebruikt. Gedurende een nader te bepalen (transitie-)periode zal de samenhang moeten worden bijgehouden tussen de identificatie van de SOR en die van de objecten waaruit SOR-objecten zijn ontstaan.
 
 #### Levensloop
-Ontwerpprincipe: De levensloop van een object, met een unieke objectidentificatie, begint in de samenhangende objectenregistratie
+Ontwerpprincipe: 
+
+**De levensloop van een object, met een unieke objectidentificatie, begint in de samenhangende objectenregistratie**
+
 In het eerder genoemde externe project Regie Op Bouwgegevens (UOI) zal onderzocht worden of er eerder behoefte is aan identificatiecodes, dan dat deze in de SOR ontstaan.
-ontwerpprincipe: de levensloop van een object, met een unieke objectidentificatie, eindigt in de samenhangende objectenregistratie
+
+ontwerpprincipe: 
+
+**de levensloop van een object, met een unieke objectidentificatie, eindigt in de samenhangende objectenregistratie**
 
 
 ### Geometrie
@@ -151,12 +215,17 @@ Het detailniveau van een netwerk wordt bepaald door wat nodig is om het netwerk 
 Een wegennetwerk kent functioneel gezien drie niveau’s: een weg, een rijbaan en rijstrook niveau. Een eigenschap bepaalt de niveau van detail. Een straatnaam geldt voor de weg en daarmee ook voor de rijbanen en rijstroken die bij die weg behoren. Een busstrook wordt gedefinieerd op strook niveau en een busbaan op baan niveau. 
 
 #### Eigenschappen van knopen en verbindingen
+
 Ontwerpprincipe:
-Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.
+
+**Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
+
 Eigenschappen kunnen meerdere malen van waarde veranderen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor een kruising wordt teruggebracht naar 50 km/h. Als er geen dwingende reden is om de structuur van het netwerk te verstoren door een verbinding op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing.  Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap van het kenmerk aangegeven door de afkorting LR.
 Indien een eigenschap meerdere waarden kan bevatten zonder dat er sprake is van een afhankelijkheid van een locatie, dan wordt dit bij het eigenschap aangegeven door de afkorting MV (meervoudig). Bijvoorbeeld als er meerdere soorten modaliteiten zijn toegestaan op een verbinding of knoop.
 
 #### Relaties bij netwerken
+
+
 Een netwerk kent  verschillende type relaties:
 Relaties die binnen het netwerk gelegd worden en relaties die met objecten gelegd worden die geen onderdeel zijn van het netwerk, maar wel van belang zijn voor het netwerk.
 
@@ -204,16 +273,25 @@ Nadere verdieping: https://www.researchgate.net/publication/259639775_A_typology
 
 **Ontwerpprincipes**
 
-Ontwerpprincipe: *objecttypen ENKEL EN ALLEEN op het voor de SOR meest gedetailleerde noodzakelijke niveau vast leggen (de kleinste semantische eenheden)*
+Ontwerpprincipe: 
 
-Ontwerpprincipe: *geaggregeerde dataobjecttypen NIET opnemen in de SOR*
+**objecttypen ENKEL EN ALLEEN op het voor de SOR meest gedetailleerde noodzakelijke niveau vast leggen (de kleinste semantische eenheden)**
 
-Ontwerpprincipe: *cartografische objecttypen als onderdeel van de producten van DisGeo opnemen*
+Ontwerpprincipe: 
 
-Ontwerpprincipe: *de kwaliteit van de objecten en de bijbehorende gegevens zó  borgen 
-dat geautomatiseerde generalisatie probleemloos kan verlopen*
+**geaggregeerde dataobjecttypen NIET opnemen in de SOR**
 
-Ontwerpprincipe: *sectormodellen moeten gebruik maken van de dataobjecten uit de SOR*
+Ontwerpprincipe: 
+
+**cartografische objecttypen als onderdeel van de producten van DisGeo opnemen**
+
+Ontwerpprincipe: 
+
+**de kwaliteit van de objecten en de bijbehorende gegevens zó borgen dat geautomatiseerde generalisatie probleemloos kan verlopen**
+
+Ontwerpprincipe:  
+
+**sectormodellen moeten gebruik maken van de dataobjecten uit de SOR**
 
 In het kader van BRT / Top10 NL is een onderzoeksvraag in het huidige generalisatie proces gestreld: is het wenselijk om geaggregeerde dataobjecten met universele unieke persistente identificaties te hebben?  De uitkomst hiervan was dat dit niet het geval bleek te zijn en is daarom niet geïmplementeerd (niet door de kaartschalen heen en niet door de tijd heen).
 Uit Gebruikers-consultaties bleek dat klanten maken geen gebruik van afgeleide kaartschalen voor data-analyses, hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
@@ -334,7 +412,12 @@ Voor de meta-informatie over "inOnderzoek" is het ook nuttig om apart te kunnen 
 
 #### Specificeren meta-informatie in informatiemodel
 De specificaties van het informatiemodel voor de SOR zullen uiteindelijk een deel van de in de inleiding beschreven meta-informatie geven. De informatiemodellering voor de SOR wordt gedaan conform het MIM (Metamodel voor informatiemodellering). Dit metamodel borgt dat diverse genoemde aspecten van de meta-informatie aandacht krijgen in het informatiemodel. Andere aspecten van de meta-informatie zullen bij het opstellen van de specificaties van het informatiemodel wel aparte aandacht moeten krijgen.
-Om recht te doen aan het voor de SOR gedefinieerde ontwerpprincipe "De metagegevens per objecttype en per attribuuttype vormen een integraal onderdeel van de SOR. zodat deze net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken" is het belangrijk dat de specificaties van dit informatiemodel optimaal ontsloten zijn en direct gerelateerd zijn aan de registratie zelf.
+ 
+ontwerpprincipe 
+
+**De metagegevens per objecttype en per attribuuttype vormen een integraal onderdeel van de SOR**
+
+Om recht te doen aan dit ontwerpprincipe zodat deze metagegevens net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken" is het belangrijk dat de specificaties van dit informatiemodel optimaal ontsloten zijn en direct gerelateerd zijn aan de registratie zelf.
 
 **Per objecttype** wordt in het informatiemodel de volgende meta-informatie vastgelegd:
 
