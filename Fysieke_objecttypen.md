@@ -294,11 +294,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
 | naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen. | 
 | gemengd bos | Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |  
-| (Griend en hakhout) |Terrein met opgaande begroeiing van loofbomen, in een dicht groeiverband, en die periodiek wordt ingekort. ( * vrijwillig subtype van loofbos* )  |  
-
-<div class='note'>
-    BRT-object "Populieren" wordt in loofbos opgenomen. 
-</div>
+ 
 
 ####    Gras- en kruidachtigen
 | Klasse  | Naam  |
