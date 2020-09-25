@@ -243,117 +243,69 @@ Een voorbeeld van een hyperverbinding is de relatie tussen een vistrap en de riv
 
 ### Mate van detail 
 
+Als uitgangspunt in het hoofdlijnenrapport is gesteld dat het objectenmodel van de SOR wordt opgebouwd vanuit de kleinste semantische eenheden die het minimum detailniveau aangeven waarvan is vastgesteld dat deze van waarde zijn voor meerdere gebruikers van de registratie.
 
-*Van hoog naar laag detailniveau*
-Aandachtspunt hierbij is dat het vervolgens mogelijk moet zijn om het geschikt te maken voor beoogd gebruik op lagere detailniveaus met een consistente geïntegreerde lijn door alle detailniveaus (voorheen schaalniveaus) heen. 
+Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste semantische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit minimum detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. 
 
-*Van laag naar hoog detailniveau*
-We streven niet na dat we objecten op een laag detailniveau kunnen terugleiden tot objecten op het hoogste detailniveau. Er is ook geen zinvol gebruik voor gevonden en daarmee geen doel.
+In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd. 
 
-*Precisie*
-Het gaat bij inwinning om de precisie waarmee een geometrie van een object wordt vastgelegd. Per objecttype moet de norm van deze precisie worden bepaald. Het hoogste detailniveau kan voor sommige objecten, en dit komt vooral voor bij gebieden, op een ander detailniveau zijn dan de meeste andere objecten.
 
-*Brede blik hanteren*
-Het DisGeo-concept en daarmee de Samenhangende Objectenregistratie (SOR) kijkt breder dan de BRT.  In de oplossing moeten we ruimte bieden voor toekomstige ontwikkelingen die we nu niet kunnen voorzien hoe lastig dat ook is.  Bijvoorbeeld de huidige corona-analyses wisten we ook niet van tevoren.  Wellicht lopen we in de informatiemodellering ook tegen strijdige belangen aan. Hier moeten we mee om kunnen gaan en mogelijk varianten toe staan
+**BEGRIPPEN**
 
-Er wordt voor gekozen om de term 'schaalloos' niet te gebruiken; Inwinning is nooit schaalloos, en vindt plaats op het hoogste detailniveau van een object en moet zodanig zijn dat het passend is bij het beoogde gebruik. 
-
-**Begrippen**
-- ‘Cartografisch object’ 
+**kartografisch object** 
 Een object wat voor een visualisatie wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie van die visualisatie hoe lang die visualisatie ook beschikbaar is
 
-Onder generaliseren wordt verstaan:
-- Het zinvol vereenvoudigen 
-- verplaatsen 
-- ‘opblazen’ van de geometrie van objecten.
-Onder aggregeren wordt verstaan: 
-- Het samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan dus daarmee ook een aspect van generaliseren zijn. 
+**generaliseren**
+Dit betreft het zinvol vereenvoudigen, verplaatsen  of ‘opblazen’ van de geometrie van objecten.
 
-Nadere verdieping: https://www.researchgate.net/publication/259639775_A_typology_of_operators_for_maintaining_legible_map_designs_at_multiple_scales
+**aggregeren**
+Dit betreft het samenvoegen van objecten tot een nieuw object (zowel op dataniveau als kartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn. 
 
-**Ontwerpprincipes**
 
-Ontwerpprincipe: 
+#### generaliseren
 
-**objecttypen ENKEL EN ALLEEN op het voor de SOR meest gedetailleerde noodzakelijke niveau vast leggen (de kleinste semantische eenheden)**
-
-Ontwerpprincipe: 
-
-**geaggregeerde dataobjecttypen NIET opnemen in de SOR**
-
-Ontwerpprincipe: 
-
-**cartografische objecttypen als onderdeel van de producten van DisGeo opnemen**
-
-Ontwerpprincipe: 
-
-**de kwaliteit van de objecten en de bijbehorende gegevens zó borgen dat geautomatiseerde generalisatie probleemloos kan verlopen**
-
-Ontwerpprincipe:  
-
-**sectormodellen moeten gebruik maken van de dataobjecten uit de SOR**
-
-In het kader van BRT / Top10 NL is een onderzoeksvraag in het huidige generalisatie proces gestreld: is het wenselijk om geaggregeerde dataobjecten met universele unieke persistente identificaties te hebben?  De uitkomst hiervan was dat dit niet het geval bleek te zijn en is daarom niet geïmplementeerd (niet door de kaartschalen heen en niet door de tijd heen).
-Uit Gebruikers-consultaties bleek dat klanten maken geen gebruik van afgeleide kaartschalen voor data-analyses, hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
+Uit consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen , hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
 Daarmee 
-1.	Is er geen informatiebehoefte aan geaggregeerde data-objecttypen
-2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties
-3.	Is er ook geen behoefte aan unieke universele persistente identificatie van geaggregeerde objecten
+1.	Is er geen informatiebehoefte aan gegeneraliseerde data-objecttypen
+2.	Zijn kartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties
+3.	Is er ook geen behoefte aan unieke universele persistente identificatie van gegeneraliseerde objecten
 
-**Onderbouwing**
-*Generaliseren*
-Het zinvol vereenvoudigen (en andere operatoren) van de geometrie van objecten 
-Alternatieven:
-1.	Een object in de Samenhangende ObjectenRegistratie heeft alleen geometrieën op basisniveau (punt, lijn, vlak en/of volume)
-1.	Een object moet daarnaast in de SOR ook geometrieën hebben op een aantal benoemde schaalniveaus 
-1.	Een object mag daarnaast in de SOR ook geometrieën hebben op een aantal benoemde schaalniveaus  
+Ontwerpprincipe: 
+
+**objecttypen worden enkel en alleen op het voor de SOR meest gedetailleerde noodzakelijke niveau vastgelegd (de kleinste semantische eenheden)**
+
+Dit detailniveau kan per objecttype verschillen.
+
+Ontwerpprincipe: 
+
+**gegeneraliseerde dataobjecttypen worden niet opgenomen in de SOR**
+
+Ontwerpprincipe: 
+
+**kartografische objecttypen worden als onderdeel van de producten van DisGeo ogenomen**
+
+Kartografische objecten zijn voor gebruiikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
+
+Voor kartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een laag naar een hoog detailniveau teruggaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau
+
+Ontwerpprincipe: 
+
+**De kwaliteit van de objecten en de bijbehorende gegevens worden in die mate geborgd dat geautomatiseerde generalisatie probleemloos kan verlopen**
+
+Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generealisatie extra handwerk nodig is om het gewenste resultaat te bereiken. 
 
 
-Een combinatie van 1 en 3 heeft de voorkeur.
-1.	Dit is voor de data het enige relevante alternatief. 
-1.	We kiezen voor een positieve insteek en daarmee NIET voor dit alternatief. Als we dit toelaten om daarmee een verkeerd gebruik te voorkomen heeft dit en negatieve lading en dat is ongewenst.
-1.	Dit is alleen gewenst alleen bij cartografische producten, niet bij de data.
-
-
-**Aggregeren**
-Het samenvoegen van objecten tot een nieuw object
-Alternatieven:
-
-1.	De Samenhangende ObjectenRegistratie heeft alléén DATAobjecten op basisniveau 
-1.	In de SOR mogen daarnaast ook geaggregeerde CARTOGRAFISCHE objecten 
-    1.	Wel of niet voorkomen met een eigen identificatie 
-    1.	niet voorkomen met eigen levensloop
-    1.	niet voorkomen met een aantoonbare relatie naar de basisobjecten waaruit ze zijn ontstaan
-    1.	Wel voorkomen met geometrieën op een aantal benoemde schaalniveaus boven 1:1.000
-
-Een combinatie van a en d heeft de voorkeur.
-
-We kiezen voor optie 1 en 2, want: 1 moet en 2 mag 
-1.	Dit is voor de data het enige relevante alternatief. 
-1.	Voor cartografische objecten geldt 
-   1.	Er mag een eigen tijdelijke identificatie aan worden toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard.
-   1.	Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde
-   1.	Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een laag naar een hoog detailniveau teruggaan.
-   1.	Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau
  
 
-**Terugmeldingen op gegeneraliseerde objecten**
+#### Terugmeldingen op gegeneraliseerde objecten
 
-Alternatieven:
-1.	Er kunnen geen terugmeldingen meer zijn op de gegeneraliseerde cartografische objecten, want:
-    1.	Ze hebben geen persistente eigen identificatie
-1.	Er kunnen wel terugmeldingen meer zijn op de gegeneraliseerde cartografische objecten, maar:
-    1.	Deze werken niet door op onderliggende dataobjecten
-    1.	Deze werken door op ALLE dataobjecten waar ze uit zijn ontstaan 
-let op: Wil je dat als bv een terugmelding wordt gedaan op een cartografisch object op 1:1.000.000 dit dan doorwerkt op álle dataobjecten die daar in liggen op het laagste schaalniveau en daar individueel behandeld moeten worden.? 
-   1.	Deze werken door op ‘het belangrijkste dataobject’ waar ze uit zijn ontstaan
-   1.	Deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
-        1. Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders vasn de onderliggende data
-        1.	Of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken dataobjecten uit de SOR
+Er kunnen wel terugmeldingen  zijn op de gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
+- Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders vasn de onderliggende data
+- of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken dataobjecten uit de SOR
 
-We kiezen voor optie 2.4 en afhankelijk van de situatie daarbinnen voor stap a of b, want een eindgebruiker zie de producten en moet op basis daarvan ene terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, want dat is mogelijk helemaal niet aan de orde en dan zouden objecten op het hoogste detailniveau onnodig belast worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap. 
+Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een eindgebruiker ziet de producten en moet op basis daarvan een terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, want dat is mogelijk helemaal niet aan de orde en dan zouden objecten op het hoogste detailniveau onnodig belast worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap. 
 
-**Kwaliteit**
+#### Kwaliteit
 
 -	Dataobjecten moeten op het basisniveau landelijk uniform en homogeen en aaneensluitend zijn 
 -	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hiervoor één consistent systeem voor zijn en ook de implementatie moet consistent zijn
@@ -518,29 +470,28 @@ Het globaal semantisch historiemodel voor de samenhangende objectenregistratie i
 -	tijdreizen in het verleden en in de toekomst. Voor het vastleggen van tijdlijnen in de toekomst wordt dezelfde systematiek gebruikt als voor tijdlijnen in het verleden. Natuurlijk is deze werkwijze alleen mogelijk wanneer tijdlijnen in de toekomst relatief eenvoudig bijgesteld kunnen worden. Natuurlijk kent alleen de tijdlijn geldigheid data in de toekomst. De tijdlijn registratie is gebaseerd op het moment van registreren en deze wordt in beginsel bepaald door de computerklok;
 -	maximale ondersteuning door techniek. De bronhouder moet weinig inspanningen hoeven te doen om de tijdlijnen vast te leggen. Dat hangt deels samen met bepaalde definities (beginGeldigheid van geometrie gemeten in een luchtfoto zal gelijk zijn aan de datum waarop de foto gemaakt is, zonder verplichting tot nader onderzoek, wanneer de werkelijke beginGeldigheid niet blijkt uit andere processen). Ook de te bieden functionaliteit om te bewaken of toekomstmutaties niet ten onrechte in de registratie de actualiteit worden door het voortschrijden van de tijd, is daarbij een belangrijke randvoorwaarde.
 
-#### Beschrijving historiemodel  
 Het globaal semantisch historiemodel laat zich het best beschrijven vanuit het perspectief van de gebruiker/afnemer. Het model geeft daarmee aan op welke wijze de gebruiker met de gegevens in de SOR een tijdreis kan maken
 
-##### Tijdlijn geldigheid en tijdlijn registratie
+#### Tijdlijn geldigheid en tijdlijn registratie
 Het historiemodel is gebaseerd op twee tijdlijnen, namelijk de tijdlijn geldigheid en de tijdlijn registratie. Daarmee adviseren de experts om de in Nederlandse standaarden veel gebruikte benamingen voor de twee tijdlijnen (materiële en formele historie) niet te gebruiken, omdat tijdens het onderzoek dat aan dit advies ten grondslag ligt, is gebleken dat de begrippen materiële en formele historie in verschillende standaarden en verschillende praktijktoepassingen anders gedefinieerd en toegepast worden.
 Hoewel de benaming van de gebruikte tijdlijnen daarmee afwijkt van de bestaande standaarden en praktijktoepassingen zullen de voor deze tijdlijnen gebruikte attributen wel door iedereen worden herkend. Dit zijn voor de tijdlijn geldigheid beginGeldigheid en eindGeldigheid (aangevuld met ingangsdatumObject en einddatumObject voor de bestaansperiode (levensduur) van het object).
 Voor de tijdlijn registratie is dit het attribuut tijdstipRegistratie. tijdstipRegistratie betreft de tijdstempel die door de computerklok wordt geplaats op het moment dat het desbetreffende gegeven (attribuut) beschikbaar wordt gesteld voor de gebruiker.
 
 De tijdlijn registratie geldt hierbij als aanvulling op de tijdlijn geldigheid. Met andere woorden er zijn geen attributen waarvoor wel de tijdlijn registratie wordt bijgehouden, maar niet de tijdlijn geldigheid.
 
-##### BeginGeldigheid voor ingewonnen geometrie uit bijvoorbeeld luchtfoto's
+#### BeginGeldigheid voor ingewonnen geometrie uit bijvoorbeeld luchtfoto's
 Deze keuze betekent een wijziging voor de basisregistraties met hoofdzakelijk geometrie (BGT en BRT), maar deze keuze is noodzakelijk om een eenduidig historiemodel te kunnen hanteren binnen de gehele samenhangende objectenregistratie. Maar door de wijze waarop de tijdlijn geldigheid wordt toegepast zal deze omschakeling niet veel consequenties hebben. Bijvoorbeeld geometrie die volledig wordt ontleend aan een opname (bijvoorbeeld luchtfoto) zal als beginGeldigheid (tijdlijn geldigheid) de datum van de luchtfoto krijgen, omdat de feitelijke ingangsdatum niet nauwkeuriger kan worden ingeschat. Wanneer de uit dezelfde foto gemeten geometrie echter betrekking heeft op de contouren van een gebouw, dan zal de beginGeldigheid van de geometrie gelijk zijn aan de beginGeldigheid van de overige attributen van dat gebouw "bij ingebruikname". 
 
-##### Toekomstmutaties
+#### Toekomstmutaties
 BeginGeldigheid en ook eindGeldigheid kunnen in de toekomst liggen. Hierop gelden geen formele beperkingen. Natuurlijk is van de aard van de gebeurtenis afhankelijk of inderdaad een toekomstmutatie voorzien kan worden en met welke nauwkeurigheid deze voorzien kan worden. Wanneer iemand een bouwvergunning krijgt, kan voorzien worden dat dit object in de toekomst ook geregistreerd zal worden. De datum vanaf wanneer daadwerkelijk sprake zal zijn van een "bestaand object" kan echter niet exact voorzien worden. Een inschatting van deze datum zal de basis vormen voor de tijdlijn geldigheid in de toekomst. Een besluit om met ingang van een bepaalde datum een straatnaam te wijzigen kan wel met een exacte in de toekomst gelegen datum worden geregistreerd. Wij gaan ervan uit dat er adequate voorzieningen worden gerealiseerd die bronhouders ondersteunen om te voorkomen dat voorziene wijzigingen in de toekomst ineens als de bestaande realiteit worden gezien, uitsluitend door verloop van de tijd.
 Deze voorziening kan bijvoorbeeld bestaan uit een overzicht van de wijzigingen die in de loop van de komende week/maand de "actuele" situatie gaan worden, omdat de geregistreerde beginGeldigheid ligt in die periode van een week/maand. De bronhouder kan dan of de geregistreerde beginGeldigheid naar verder in de toekomst schuiven op basis van een nadere inschatting van het moment van realiseren of kan constateren dat inderdaad in die periode sprake is van een zodanige wijziging in de "werkelijkheid" dat de geregistreerde "toekomstmutatie" inderdaad in die periode de "werkelijkheid" wordt.
 
 Bij de registratie zijn toekomstmutaties mogelijk, maar dit is niet "de regel". Veel mutaties in de SOR worden aangebracht op basis van "constateringen" en deze worden dan dus vastgelegd met een beginGeldigheid in het verleden, bijvoorbeeld de datum van de luchtfoto waaraan de constatering wordt ontleend.
 
-##### Levensduur; IngangsdatumObject en einddatumObject
+#### Levensduur; IngangsdatumObject en einddatumObject
 Hoewel het vastleggen van de levensduur van een object (ingangsdatumObject en einddatumObject) redundant is, omdat deze levensduur altijd afgeleid kan worden uit de tijdlijn geldigheid, wordt in het historiemodel er vanuit gegaan dat de levensduur afzonderlijk wordt geregistreerd. De ingangsdatumObject zal gelijk zijn aan de oudste beginGeldigheid voor een status "bestaand/geldig" van het betreffende object. Een gebruiker kan deze ingangsdatumObject eventueel zelf afleiden uit de tijdlijn geldigheid, maar er wordt voor gekozen om, parallel aan de registratie van geboortedatum en overlijdensdatum bij personen, de ingangsdatumObject en einddatumObject wel afzonderlijk in de registratie (of in ieder geval in de informatieproducten) op te nemen.
 
-##### Toepassing per attribuut/objecttype
+#### Toepassing per attribuut/objecttype
 Het hierboven geschetste model wprdt verplicht  voor alle onderdelen van de SOR. Afnemers kunnen daarbij per attribuut informatie krijgen over beide tijdlijnen. Dit is volgens het historiemodel in samenhang met het voor de SOR op te stellen informatiemodel in beginsel beperkt tot die attributen waarvoor in het informatiemodel wordt vastgelegd dat zij voorzien worden van een tijdlijn geldigheid of van een tijdlijn geldigheid plus tijdlijn registratie. Het aanduiden van het relevant zijn van deze tijdlijnen kan in het informatiemodel, wanneer dat conform het Metamodel voor informatiemodellen (MIM 1.1) wordt opgesteld (Binnen het MIM 1.1 worden nog wel de begrippen materiële en formele historie gebruikt).
 
 Er zou bijvoorbeeld afgezien kunnen worden van het vastleggen van deze tijdlijnen, wanneer geen enkele gebruiker nu of in de toekomst behoefte heeft aan deze tijdlijnen voor het desbetreffende attribuut. Een voorbeeld hiervan zou kunnen zijn de toegang tot een verblijfsobject. Dit kenmerk van een verblijfsobject is vooral van belang om hulpdiensten te ondersteunen bij het zo snel mogelijk binnenkomen van een verblijfsobject. Dit is uitsluitend relevant in de actuele situatie. Het in de SOR opnemen van een tijdlijn voor het attribuut toegang is daarom mogelijk niet relevant is, omdat geen enkele afnemer geïnteresseerd is in het feit dat in het verleden de toegang tot dit verblijfsobject elders was. Aan de andere kant kan ook de principiële keuze gemaakt worden dat gegevens in een basisregistratie "niet weggegooid worden". Dat uitgangspunt zou betekenen dat voor alle attributen in de SOR zowel de tijdlijn geldigheid als de tijdlijn registratie verplicht zouden zijn.
@@ -566,9 +517,9 @@ Op 15-2-2022 worden er luchtfoto's gevlogen die in maart worden uitgewerkt. De g
 
 #### Levensfasen 
 
-##### Beschrijving levensfasen
+**Beschrijving levensfasen**
 
- Om het tijdreizen voor alle gebruikers begrijpelijk en ook flexibel te maken, wordt in de samenhangende objectenregistratie ook gewerkt met levensfasen (statussen) van objecten. Dit heeft te maken met het feit dat bij het tijdreizen in de registratie niet alle gebruikers dezelfde wensen hebben. Bij bijvoorbeeld het raadplegen van de "actuele" situatie in het kader van calamiteiten is alleen relevant wat er ook daadwerkelijk aan objecten aanwezig is (inclusief objecten "in aanbouw" of "aanleg in uitvoering"). Maar bij vergunningverlening zal men ook willen zien voor welke objecten inmiddels een vergunning is verleend of anderszins in planning zijn.
+Om het tijdreizen voor alle gebruikers begrijpelijk en ook flexibel te maken, wordt in de samenhangende objectenregistratie ook gewerkt met levensfasen (statussen) van objecten. Dit heeft te maken met het feit dat bij het tijdreizen in de registratie niet alle gebruikers dezelfde wensen hebben. Bij bijvoorbeeld het raadplegen van de "actuele" situatie in het kader van calamiteiten is alleen relevant wat er ook daadwerkelijk aan objecten aanwezig is (inclusief objecten "in aanbouw" of "aanleg in uitvoering"). Maar bij vergunningverlening zal men ook willen zien voor welke objecten inmiddels een vergunning is verleend of anderszins in planning zijn.
 
 
 Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo’n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In de samenhangende objectenregistratie komen vier soorten objecttypen voor: fysieke objecttypen, functionele objecttypen, registratieve objecttypen en geografische objecttypen. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen.
@@ -669,7 +620,7 @@ De levensfase van een object wordt in de registratie vastgelegd als de eigenscha
 De verbetering (inmeten) van geometrie van een object wordt ten opzichte van bestaande basisregistraties niet langer opgevat als een statusverandering maar als een kwaliteitsverandering. Deze laatste wordt geregistreerd door de opname van meta-informatie.
 
 
-##### Twee levensfasen op hetzelfde moment
+**Twee levensfasen op hetzelfde moment**
 In de regel zal een object op enig moment in de tijd zich bevinden in één levensfase. Wanneer met de bouw van een woning wordt gestart, gaat het object over van de levensfase (status) "vergunning verleend" naar de fase "in aanbouw". Dat sluit allemaal aan bij het werken met een eenduidige tijdlijn geldigheid.
 
 In deze tijdlijn geldigheid kunnen ook toekomstmutaties worden geregistreerd. Bij het registreren van een bouwvergunning kan ook gelijk worden geregistreerd op welk moment in de toekomst deze woning bijvoorbeeld de fase "in gebruik" zal bereiken (dat komt overeen met de werkwijze dat nu in de BAG op het moment van registratie van de vergunning ook het bouwjaar wordt geregistreerd).
