@@ -76,8 +76,8 @@ Deze benadering betekent ook dat ervoor is gekozen om in de eerste opzet van het
 
 De verschillende SOR-begrippen kunnen schematisch in een onderlinge samenhang worden vertoond. Dat leidt tot de volgende verdere uitwerking van het eerder opgestelde inhoudelijk denkraam:
 
-<div class='note'>
-    hier moet op een later moment nog een verzamelplaat worden toegevoegd
-</div>
+
+![denkraamSOR](media/denkraam_sor.png)
+
 
 In de volgende hoofdstukken wordt achtereenvolgens ingegaan op de reële objecttypen, de functionele objecttypen, de registratieve objecttypen en de geografische objecttypen. 
