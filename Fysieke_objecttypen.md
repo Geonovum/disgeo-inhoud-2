@@ -8,9 +8,6 @@
 
 
 
-
-
-
 ### Water
 
 #### Watervlakte
@@ -761,28 +758,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
 |Toelichting| *volgt later* |
 
-<div class='note'>
-    Dit is een eerste voorbeeld uitwerking van de meta-gegevens (ter bespreking). Daarbij moet van een aantal voorgestelde metagegevens nog worden besproken in hoeverre deze per object moeten worden vastgelegd
-</div>
-
-
-|Aspect |	Deelaspect|	Omschrijving|
-|---|---|---|
-|Bronverwijzing	|Verwijzing naar bron	|De verwijzing naar een formeel document (bij vergunningplichtige objecten) of een andere bron (bij niet-vergunningplichtige objecten of feitelijke constatering) op basis waarvan het gebouw is opgevoerd|
-|Gegevenseigenaar|	Vastleggen bronhouder|	De bronhouder van het gebouw|
-||	Vastleggen openbaarheid gebruik|	Omdat dit default JA is zou overwogen kunnen worden om juist beperkingen te registreren|
-|Kwaliteit|	Inwinningswijze|	Een beschrijving van de wijze waarop het gebouw is ingewonnen (WAT zou hier moeten staan?)|
-	||Controlewijze|	Van wat?|
-	||Moment laatste controle|	Van wat?|
-	||Uitvoerder controle|	Van wat?|
-|Status	|Onderzoeksstatus|	InOnderzoek als gevolg van terugmelding|
-|||InBewerking als gevolg van controle-activiteiten bronhouder|
-|||Onderzocht: onderzoek heeft niet geleid tot wizjiging|
-|||VRAAG: zou dit niet op attribuutniveau moeten?|
-	||Aantekenveld|	Mogelijkheid voor beheerders om aanvullende (onderzoeks)informatie vast te leggen|
-
-
-
 
 
 **Eigenschappen**
@@ -797,26 +772,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |Status   |De fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-<div class='note'>
-    Dit is een eerste voorbeeld uitwerking van de meta-gegevens (ter bespreking). Daarbij moet nog worden besproken in hoeverre deze vastlegging de beoogde invulling van meta-gegevens is
-</div>
-
-|Aspect|	Deelaspect|	Omschrijving|
-|---|---|---|
-|Bronverwijzing|	Verwijzing naar bron|	De verwijzing naar een formeel document (bij vergunningplichtige objecten) of een andere bron (bij niet-vergunningplichtige objecten of feitelijke constatering) op basis waarvan het attribuut is opgevoerd|
-|Gegevenseigenaar|	Vastleggen attribuutbeheerder	|De aanduiding van een attribuutbeheerder als deze afwijkt van de bronhouder|
-	||Vastleggen openbaarheid gebruik|	Omdat dit default JA is zou overwogen kunnen worden om juist beperkingen te registreren|
-|Kwaliteit	|Inwinningswijze|	Een beschrijving van de wijze waarop het gegeven is ingewonnen (mogelijke waarden nog te bepalen)|
-	||Controlewijze|	Een beschrijving van de wijze waarop het gegeven is gecontroleerd (mogelijke waarden nog te bepalen)|
-	||Moment laatste controle|	Het moment waarop het gegeven voor het laatst is gecontroleerd|
-	||Uitvoerder controle	|De functie die het gegeven voor het laatste heeft gecontroleerd|
-|Status	|Onderzoeksstatus|	InOnderzoek als gevolg van terugmelding|
-|||InBewerking als gevolg van controle-activiteiten bronhouder|
-|||Onderzocht: onderzoek heeft niet geleid tot wijziging|
-|||VRAAG: zou dit niet op attribuutniveau moeten?|
-	||Aantekenveld	|Mogelijkheid voor beheerders om aanvullende (onderzoeks)informatie vast te leggen|
-
 
 
 
