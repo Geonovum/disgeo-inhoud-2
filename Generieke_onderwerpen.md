@@ -230,7 +230,7 @@ Ontwerpprincipe:
 
 #### Relatieve hoogte
 
-In een situatie waarin alle objecten een 3D-geometrie hebben zou relatieve hoogte van obejcten niet meer noodzakelijk zijn. In de SOR zullen echter 2D-geometrieen verplicht zin en 3D-geometrieen vrijwillig
+In een situatie waarin alle objecten een 3D-geometrie hebben zou relatieve hoogte van objecten niet meer noodzakelijk zijn. In de SOR zullen echter 2D-geometrieen verplicht zin en 3D-geometrieen vrijwillig
 
 Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afsprake nodig op welke wijze deze verticale informatie in de gegevensverzamelning wordt vastgelegd.
 
