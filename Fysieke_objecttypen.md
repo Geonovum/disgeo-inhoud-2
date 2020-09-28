@@ -90,7 +90,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de randen van een waterloop. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (vlak)|
 |Status   |   |Ja   |
 |Type waterloop|aanduiding soort waterloop|Nee|
-|*watervoerend| aanduiding of de waterloop wel of geen water bevat | ja*|
+|*watervoerend* | *aanduiding of de waterloop wel of geen water bevat* | *ja*|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
