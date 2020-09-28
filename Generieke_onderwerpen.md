@@ -504,19 +504,24 @@ Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronh
     Het is wenselijk dat de onderstaande teksten iets verder worden toegespitst op een zelfstandig beschrijving die aansluit op de wijze waarop andere zaken zijn beschreven. Ook moet dit nog vertaald worden in een concreet voorstel rondom plaatsbepalingspunten. In de werkgroep inhoud moeten we hier mogelijk nog een proces voor afspreken.
 </div>
 
+Een plaatsbepalingspunt is een punt dat is ingemeten en in coördinaten bekend is en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing van fysieke objecten. 
+Plaatsbepalingspunten (PBP's) worden gebruikt als bron en zijn ook een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie).  
+Plaatsbepalingspunten komen alleen voor bij fysieke objecttypen en dan alleen met de status 'bestaand'. Objecttypen met bijvoorbeeld de status 'gepland' hebben geen plaatsbepalingspunten.
 
+Een eis daar bij is dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar de gerelateerde PBP's expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens.
 
-Ook in de SOR zullen plaatsbepalingspunten een rol gaan spelen als bron. Plaatsbepalingspunten  (PBP’s) zoals die nu in de BGT als bronverwijzing bedoeld zijn, zijn immers ook een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie).  Daarvoor is het wel nodig dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar die bron expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens.
 Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig: 
-- Voor gebruikers is dan expliciet bekend welk(e) PBP(’s) bij welk object hoort.
+- Voor gebruikers is dan expliciet bekend welk(e) PBP(’s) bij welk object hoort/horen.
 - PBP’s die niet meer tot de actuele objecten behoren kunnen worden bepaald en in downloads zonder historie worden geschrapt.
 - Conform gegevenscatalogus BGT 1.2: Alleen voor objecten die goed idealiseerbaar zijn in het terrein worden voor de coördinaten die zijn ingemeten middels inwinningsmethoden fotogrammetrisch, terrestrisch, laserscanning of panoramabeelden, plaatsbepalingspunten opgenomen. De goed idealiseerbare objecten zijn de objecten met een positionele nauwkeurigheid van tenminste 30 centimeter.
-- De ligging van elk BGT-object is gedefinieerd door geometrie. Deze geometrie is expliciet gekoppeld aan een BGT-object in de vorm van een attribuut ‘geometrie’. Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten van de goed idealiseerbare objecten, die deel uitmaken van de verzameling van de meetkundige afbakening.
-- Op maaiveldniveau vormen de verbindingen tussen de coördinaten altijd een grens tussen twee aangrenzende objecten in de BGT. Uitzonderingen op deze regel zijn de punten die de geometrie van een spoor en in specifieke gevallen van een lijnvormige scheiding definiëren. De specifieke gevallen treden alleen dan op als een lijnvormige scheiding in zijn geheel binnen een vlakobject ligt en met maximaal een punt raakt aan de begrenzing van dat vlakobject.
+- De ligging van elk BGT-object is gedefinieerd door geometrie. Deze geometrie is expliciet gekoppeld aan een object in de vorm van een attribuut ‘geometrie’. Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten van de goed idealiseerbare objecten, die deel uitmaken van de verzameling van de meetkundige afbakening.
+- Bij de objecten die op de refernetielaag deel uitmaken van de groepen "Bodem"en "Water" vormen de verbindingen tussen de coördinaten altijd een grens tussen twee aangrenzende objecten. 
 
 **Eisen aan plaatsbepalingspunten**
 
-- Plaatsbepalingspunten (PBP’s) zijn die punten die in coördinaten bekend zijn en die gebruikt zijn bij en onderdeel uitmaken van de begrenzing van BGT-objecten. Elk plaatsbepalingspunt heeft een unieke identificatie . In de SOR moet (anders dan op dit moment in de BGT) in voorkomende gevallen een administratieve koppeling plaats vinden van de geometrie van een object naar de desbetreffende PBP's op basis van het ID.
+- Elk plaatsbepalingspunt heeft een unieke identificatie. 
+- De ligging van elk plaatsbeplaingspunt is in coördinaten bekend.
+- In de SOR moet (anders dan op dit moment in de BGT) oor de fysieke objecttypen een administratieve koppeling plaatsvinden van de geometrie van een object naar de desbetreffende PBP's op basis van de identificatie.
 - Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de inwinnende instantie die het heeft bepaald en de inwinningsmethode bekend. 
 
 #### Aandachtspunten voor vastleggen meta-informatie in de SOR
