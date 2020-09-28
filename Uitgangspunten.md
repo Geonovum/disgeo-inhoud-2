@@ -59,38 +59,11 @@ Dit uitgangspunt betekent praktisch onder meer dat specifieke zoneringen en werk
 
 Ontwerpprincipe:
 
-**In de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten.**
+**In de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen of voor het verbinden van twee bovengrondse waterobjecten en die voor mensen toegankelijk zijn.**
 
-De scope van de samenhangende objectenregistratie is in eerste instantie beperkt tot de bovengrond en de ondergrondse delen van objecttypen die ook in het terrein zichtbaar zijn. Denk aan aaneengesloten parkeergarages in de BAG, maar ook aan wortelstelsels van bomen. Daarnaast worden enkele objecttypen uit de BGT die daarin op een ander niveau zijn gepositioneerd ook in de scope van de samenhangende objectenregistratie betrokken. Het gaat daarbij met name om tunneldelen en duikers. Het tweede gedeelte van de formulering richt zich daarop.
+De scope van de samenhangende objectenregistratie is in eerste instantie beperkt tot de bovengrond en de ondergrondse delen van objecttypen die ook in het terrein zichtbaar zijn. Bij dit laatste kan worden gedacht aan de ondergrondse delen van gebouwen en kunstwerken, parkeergarages en metrostations. Maar er kan ook worden gedacht aan bakken (zoals de bak waarin het ondergrondse gedeelte van een afvalcontainer zich bevindt). Daarnaast worden enkele objecttypen uit de BGT die daarin op een ander niveau zijn gepositioneerd ook in de scope van de samenhangende objectenregistratie betrokken. Het gaat daarbij met name om tunneldelen (voor spoor- en wegverbindingen) en duikers. Het tweede gedeelte van de formulering richt zich daarop.
 
-Deze afbakening van de scope is een afgeleide van de wens om tot een helder en beheersbaar transitietraject te komen. Het ook opnemen van ondergrondse objecten in de SOR, zoals leidingnetwerken of de verschillende objecttypen die thans worden opgenomen in de Basisregistratie Ondergrond (BRO), zou op dit moment leiden tot een aanzienlijk hogere complexiteit. Dit neemt niet weg dat opname van ondergrondse objecten in de toekomst niet wordt uitgesloten. Het model van de registratie is zodanig opgezet dat op termijn ook ondergrondse objecten in de registratie kunnen worden opgenomen. Deze opname zou in de loop van de tijd ook gefaseerd kunnen plaatsvinden.
-
-
-
-Ondergrondse delen
-
-ontwerpprincipe: *In de huidige scope van de SOR worden uitsluitend objecttypen opgenomen die primair bovengronds zijn gelegen en ondergrondse objecttypen die geschikt zijn voor het vervoer van personen als onderdeel van infrastructurele voorzieningen en voor het verbinden van twee bovengrondse waterobjecten en die voor een mens toegankelijk zijn.*
-
-Waar komen we ondergrondse delen tegen?
-- Gebouw
-- Netwerk; Spoor (trein, metro, tram), weg, water
-- Tunneldeel
-- Kunstwerk (met ondergrondse ruimten)
-- Kunstwerk; duiker
-- Bak; Afval apart plaats
-
-Wat beschouwen we niet als ondergrondse delen voor de SOR:
-- Put(deksel) niet ondergronds
-- Ondergrondse objecten die al in een andere registratie zijn opgenomen, zoals kabels en leidingen, niet gesprongen explosieven, archeologische vindplaatsen, ed.
-- Oude funderingen, wrakken, et cetera, die achter zijn gebleven in de grond, zijn geen onderdeel van SOR, hebben namelijk geen link met bovengronds objecttype uit de SOR en zijn ook niet bedoeld als onderdeel van infarstructurele voorzieningen.
-- Wegfundering is wel ondergronds maar is niet toegankelijk. Hiervan worden sectoraal gegevens vastgelegd. 
-
-
-Aandachtspunten:
-- In de SOR komen ondergrondse delen vooral voor bij gebouwen en bij kunstwerken.
-- Parkeergarages en metrostations zijn ondergrondse gebouwen.
-- Metrobuizen zijn een soort tunnels.
-- Afval apart plaats (=ondergrondse afval container) is een object dat bovengronds toegankelijk is
+Deze afbakening van de scope is een afgeleide van de wens om tot een helder en beheersbaar transitietraject te komen. Het ook opnemen van ondergrondse objecten in de SOR, zoals leidingnetwerken of de verschillende objecttypen die thans worden opgenomen in de Basisregistratie Ondergrond (BRO), zou op dit moment leiden tot een aanzienlijk hogere complexiteit. Ook specifieke ondergrondse objecten als niet gesprongen explosieven, archeologische vindplaatsen en in de grond achtergebleven oude funderingen en wrakken maken geen onderdeel uit van de SOR. Dit neemt niet weg dat opname van ondergrondse objecten in de toekomst niet wordt uitgesloten. Het model van de registratie is zodanig opgezet dat op termijn ook ondergrondse objecten in de registratie kunnen worden opgenomen. Deze opname zou in de loop van de tijd ook gefaseerd kunnen plaatsvinden.
 
 #### Grondgebied Nederland
 
