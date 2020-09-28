@@ -584,6 +584,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Moeras |Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing.  |
 | Heide |Terreindeel overwegend begroeid met heide en heideachtige vegetaties.  |
 | Rietland |Terreindeel overwegend begroeid met rietvegetatie.  |
+| Duin| Verhoging of heuvel van zand of fijne losse aarde en verpulverd gesteente opgeworpen door wind of door stromend water.|
 
 
 
