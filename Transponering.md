@@ -14,6 +14,17 @@
 
 ### BAG
 
+|BAG object | SOR object|
+|---|---|
+|woonplaats	|registratief object; woonplaats|
+|openbare ruimte|	registratief object; openbare ruimte|
+|nummeraanduiding|	registratief object; nummeraanduiding|
+|pand	|fysiek object; gebouw|
+|ligplaats|	registratief object; benoemde plaats|
+|standplaats|	registratief object; benoemde plaats|
+|verblijfsobject|	functioneel object; verblijfsobject|
+
+
 ### BRT
 populieren zoals nu in de BRT worden in de SOR niet apart onderscheiden, maar vallen bijvoorbeeld onder loofbos
 
