@@ -52,30 +52,32 @@
 | Aangewezen| Bebouwde kom is in gebruik |
 | Ingetrokken | Bebouwde kom wordt niet langer als zodanig onderscheiden|
 
-### Strand
-| Klasse  | Naam  |
+### Streek
+| klasse  | naam  |
 |---|---|
-| SOR-begrip   | Strand |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
+| SOR-begrip   | Streek  |
+| Onderdeel van NEN3610-objecttype |Geografisch object  |
 
 **Definitie**
 
-| Naam  | Strand |
+| Naam  | Streek  |
 |---|---|
-| Definitie | Onbegroeide zandige kustvlakte op de overgang van zee met land. Staat onder invloed van het zeewater en de wind. |
-|Herkomst definitie  | IMGeo 2.2|
+| Definitie |Landstreek, gebied dat cultureel of landschappelijk een eenheid vormt (streek). / Het open land buiten steden en dorpen (veld). |
+|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *strand en strandwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Streek* zoals deze is opgenomen in de basisregistratie topografie.  |
+|Toelichting|   |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van strand. |Ja |
-|Geometrie| De geometrische representatie van de randen van een strand. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het betreffende strand zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Identificatie   |De unieke aanduiding van een streek.  |Ja |
+|Naam   |De plaatselijke naam van het streek zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
+|Alternatieve naam   | Een alternatieve benaming van een streek zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
+|Geometrie   |De geometrische representatie van de randen van een streek.  |Ja (vlak)  |
+|Status   |De fase van de levenscyclus waarin de betreffende streek zich bevindt.    |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 
 
@@ -93,55 +95,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte opgevoerd|	
-
-
-
-
-
-### Zandverstuiving
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Zandverstuiving |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
-
-**Definitie**
-
-| Naam  | Zandverstuiving |
-|---|---|
-| Definitie | Een gebied met zandige bodem waarvan delen van het gebied zonder vegetatie zijn, door invloed van wind. |
-|Herkomst definitie  | IMGeo 2.2|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *zandverstuiving* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   | De unieke aanduiding van zandverstuiving. |Ja |
-|Geometrie| De geometrische representatie van de randen van een zandverstuiving. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de betreffende zandverstuiving zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|	
-|Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
-
-
-
 
 
 
@@ -238,49 +191,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte opgevoerd|	
 
 
-### Eiland
-| klasse  | naam  |
-|---|---|
-| SOR-begrip   | Eiland  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
-
-**Definitie**
-
-| Naam  | Eiland  |
-|---|---|
-| Definitie | Land, omgeven door water.|
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *eiland* zoals deze is opgenomen in de basisregistratie topografie.  |
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een eiland.  |Ja |
-|Naam   |De plaatselijke naam van het eiland zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
-|Alternatieve naam   | Een alternatieve benaming van een eiland zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
-|Geometrie   |De geometrische representatie van de randen van het eiland.  |Ja (vlak)  |
-|Status   |De fase van de levenscyclus waarin het betreffende eiland zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
-
-
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|	
-|Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+	
 
 
 
@@ -328,6 +239,94 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte opgevoerd|	
 
+### Watergebied
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Watergebied  |
+| Onderdeel van NEN3610-objecttype |Geografisch object  |
+
+**Definitie**
+
+| Naam  | Watergebied  |
+|---|---|
+| Definitie |Een complex van meren en plassen. DEFINITIE AANPASSEN |
+|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *watergebied* zoals deze is opgenomen in de basisregistratie topografie.  |
+|Toelichting|   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een watergebied.  |Ja |
+|Naam   |De plaatselijke naam van het watergebied zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
+|Alternatieve naam   | Een alternatieve benaming van een watergebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
+|Geometrie   |De geometrische representatie van de randen van het watergebied.  |Ja (vlak)  |
+|Status   |De fase van de levenscyclus waarin het betreffende watergebied zich bevindt.    |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
+
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|	
+
+
+### Eiland
+| klasse  | naam  |
+|---|---|
+| SOR-begrip   | Eiland  |
+| Onderdeel van NEN3610-objecttype |Geografisch object  |
+
+**Definitie**
+
+| Naam  | Eiland  |
+|---|---|
+| Definitie | Land, omgeven door water.|
+|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *eiland* zoals deze is opgenomen in de basisregistratie topografie.  |
+|Toelichting|   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een eiland.  |Ja |
+|Naam   |De plaatselijke naam van het eiland zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
+|Alternatieve naam   | Een alternatieve benaming van een eiland zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
+|Geometrie   |De geometrische representatie van de randen van het eiland.  |Ja (vlak)  |
+|Status   |De fase van de levenscyclus waarin het betreffende eiland zich bevindt.    |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
+
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte opgevoerd|
 
 ### Berg
 | klasse  | naam  |
@@ -419,32 +418,34 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte opgevoerd|	
 
 
-### Streek
-| klasse  | naam  |
+
+
+
+
+### Strand
+| Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Streek  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
+| SOR-begrip   | Strand |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 **Definitie**
 
-| Naam  | Streek  |
+| Naam  | Strand |
 |---|---|
-| Definitie |Landstreek, gebied dat cultureel of landschappelijk een eenheid vormt (streek). / Het open land buiten steden en dorpen (veld). |
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+| Definitie | Onbegroeide zandige kustvlakte op de overgang van zee met land. Staat onder invloed van het zeewater en de wind. |
+|Herkomst definitie  | IMGeo 2.2|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Streek* zoals deze is opgenomen in de basisregistratie topografie.  |
-|Toelichting|   |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *strand en strandwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een streek.  |Ja |
-|Naam   |De plaatselijke naam van het streek zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
-|Alternatieve naam   | Een alternatieve benaming van een streek zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
-|Geometrie   |De geometrische representatie van de randen van een streek.  |Ja (vlak)  |
-|Status   |De fase van de levenscyclus waarin de betreffende streek zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+|Identificatie   | De unieke aanduiding van strand. |Ja |
+|Geometrie| De geometrische representatie van de randen van een strand. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende strand zich bevindt.  |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -466,32 +467,31 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Watergebied
-| klasse  | naam  |
+
+### Zandverstuiving
+| Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | Watergebied  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
+| SOR-begrip   | Zandverstuiving |
+| Onderdeel van NEN3610-objecttype | Functioneel object  |
 
 **Definitie**
 
-| Naam  | Watergebied  |
+| Naam  | Zandverstuiving |
 |---|---|
-| Definitie |Een complex van meren en plassen. DEFINITIE AANPASSEN |
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+| Definitie | Een gebied met zandige bodem waarvan delen van het gebied zonder vegetatie zijn, door invloed van wind. |
+|Herkomst definitie  | IMGeo 2.2|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *watergebied* zoals deze is opgenomen in de basisregistratie topografie.  |
-|Toelichting|   |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *zandverstuiving* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een watergebied.  |Ja |
-|Naam   |De plaatselijke naam van het watergebied zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
-|Alternatieve naam   | Een alternatieve benaming van een watergebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
-|Geometrie   |De geometrische representatie van de randen van het watergebied.  |Ja (vlak)  |
-|Status   |De fase van de levenscyclus waarin het betreffende watergebied zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+|Identificatie   | De unieke aanduiding van zandverstuiving. |Ja |
+|Geometrie| De geometrische representatie van de randen van een zandverstuiving. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de betreffende zandverstuiving zich bevindt.  |Ja   |
+| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -509,6 +509,16 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte opgevoerd|	
+
+
+
+
+
+
+
+
+
+
 
 ### Reliëf object
 | klasse  | naam  |
