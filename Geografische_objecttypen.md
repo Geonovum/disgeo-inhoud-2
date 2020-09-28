@@ -77,10 +77,7 @@
 |Status   | De fase van de levenscyclus waarin het betreffende strand zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -126,10 +123,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende duingebied zich bevindt.    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
-**Relaties met andere objecten**
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -179,10 +173,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin de betreffende zandverstuiving zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -228,11 +219,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende reliëf zich bevindt.    |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
-**Relaties met andere objecten**
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
