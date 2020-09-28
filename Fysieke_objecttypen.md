@@ -511,17 +511,17 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
     BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in bouwland. 
 </div>
 
-####    Fruit- bomenteelt
+####    Fruit en bomenteelt
 
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Fruit- bomenteelt |
+|SOR-begrip   | Fruit en bomenteelt |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | Fruit- bomenteelt |
+| Naam  | Fruit en bomenteelt |
 |---|---|
 | Definitie |Terreindeel begroeid met fruitbomen in de vorm van hoogstam en laagstamboomgaard, druiven of kleinfruit. en Grond in gebruik voor het kweken van jonge siergewassen, bomen enz. ten behoeve van een later gebruik elders.   |
 |Herkomst definitie  | BT / CROW  |
@@ -533,10 +533,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van fruit- bomenteelt. |Ja |
-|Geometrie| De geometrische representatie van de randen van fruit- bomenteelt. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de betreffende fruit- bomenteelt zich bevindt.  |Ja   |
-|Type fruit- bomenteelt| De aanduiding van het soort fruit- bomenteelt.|Ja|
+|Identificatie   | De unieke aanduiding van fruit en bomenteelt. |Ja |
+|Geometrie| De geometrische representatie van de randen van fruit en bomenteelt. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de betreffende fruit en bomenteelt zich bevindt.  |Ja   |
+|Type fruit en bomenteelt| De aanduiding van het soort fruit- bomenteelt.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
@@ -561,7 +561,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 .
 
-|Waarde Type fruit- bomenteelt| Beschrijving   |
+|Waarde Type fruit en bomenteelt| Beschrijving   |
 |---|---|
 | laagstam boomgaarden |Terreindeel begroeid met laagstamfruitbomen.   |
 | hoogstam boomgaarden |Terreindeel begroeid met hoogstamfruitbomen.   |
@@ -570,7 +570,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is.  |
 
 <div class='note'>
-    De huidige BGT-objecten "Fruitteelt" met subtypen (laagstam boomgaarden, hoogstam boomgaarden, wijngaarden en klein fruit) en "Boomteelt" alsmede de BRT objecttypen "Boomkwekerij", Fruitkwekerij" en "Boomgaard" lopen qua definities door elkaar. WG Groen heeft geen specifieke toepassingen van dit objectype kunnen vinden en stelt daarom voor om één supertype "Fruit- en boomkwekerij" te definiëren met daaronder 5 subtypen die vrijwillig gevuld worden. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.  
+    De huidige BGT-objecten "Fruitteelt" met subtypen (laagstam boomgaarden, hoogstam boomgaarden, wijngaarden en klein fruit) en "Boomteelt" alsmede de BRT objecttypen "Boomkwekerij", Fruitkwekerij" en "Boomgaard" lopen qua definities door elkaar. WG Groen heeft geen specifieke toepassingen van dit objectype kunnen vinden en stelt daarom voor om één supertype "Fruit en boomteelt" te definiëren met daaronder 5 subtypen die vrijwillig gevuld worden. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.  
 </div>
 
 
