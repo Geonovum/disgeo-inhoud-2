@@ -230,9 +230,9 @@ Ontwerpprincipe:
 
 #### Relatieve hoogte
 
-In een situatie waarin alle objecten een 3D-geometrie hebben zou relatieve hoogte van objecten niet meer noodzakelijk zijn. In de SOR zullen echter 2D-geometrieen verplicht zin en 3D-geometrieen vrijwillig
+In een situatie waarin alle objecten een 3D-geometrie hebben is relatieve hoogte van objecten niet meer noodzakelijk. In de SOR zijn echter 2D-geometrieën verplicht en zijn 3D-geometrieën vrijwillig.
 
-Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afsprake nodig op welke wijze deze verticale informatie in de gegevensverzamelning wordt vastgelegd.
+Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afspraken nodig over op welke wijze deze verticale informatie in de gegevensverzameling wordt vastgelegd.
 
 **Niveauaanduidingen per object**
 Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de refeerentielaag bevindt (niveau 0)  of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
