@@ -483,10 +483,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 **Domeinwaarden**
 
@@ -542,10 +539,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 **Domeinwaarden**
 
@@ -603,10 +597,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 **Domeinwaarden**
 
@@ -676,10 +667,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt.   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -742,11 +730,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin de betreffende oever zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
 
 **Domeinwaarden**
 
@@ -790,11 +774,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
 
 **Domeinwaarden**
 
@@ -957,11 +937,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
 
 **Domeinwaarden**
 
@@ -1007,11 +983,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
 
 **Domeinwaarden**
 
@@ -1062,11 +1034,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Status   |   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|||
 
 **Domeinwaarden**
 
