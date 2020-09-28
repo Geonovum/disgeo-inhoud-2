@@ -38,11 +38,6 @@
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -89,11 +84,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin de Provincie zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -141,11 +132,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin het waterschap zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -240,11 +227,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -288,11 +271,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -341,11 +320,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -657,10 +632,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Type benoemde plaats| De aard van het object op de benoemde plaats|Ja|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
