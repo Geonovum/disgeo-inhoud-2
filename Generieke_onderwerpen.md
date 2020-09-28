@@ -515,7 +515,7 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 - PBP’s die niet meer tot de actuele objecten behoren kunnen worden bepaald en in downloads zonder historie worden geschrapt.
 - Alleen voor objecten die goed idealiseerbaar zijn in het terrein worden voor de coördinaten die zijn ingemeten middels inwinningsmethoden fotogrammetrisch, terrestrisch, laserscanning of panoramabeelden, plaatsbepalingspunten opgenomen. De goed idealiseerbare objecten zijn de objecten met een positionele nauwkeurigheid van tenminste 30 centimeter.
 - De ligging van elk object is gedefinieerd door geometrie. Deze is vastgelegd bij een object in de vorm van een eigenschap ‘geometrie’. Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten van de goed idealiseerbare objecten, die deel uitmaken van de verzameling van de meetkundige afbakening.
-- Bij de objecten die op de refernetielaag deel uitmaken van de groepen "Bodem"en "Water" vormen de verbindingen tussen de coördinaten altijd een grens tussen twee aangrenzende objecten. 
+- Bij de objecten die op de referentielaag deel uitmaken van de groepen "Bodem" en "Water" vormen de verbindingen tussen de coördinaten altijd een grens tussen twee aangrenzende objecten. 
 
 **Eisen aan plaatsbepalingspunten**
 
