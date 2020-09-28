@@ -1,11 +1,8 @@
 ## Fysieke objecttypen
 
-
-
 <div class='note'>
     De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
 </div>
-
 
 
 ### Water
@@ -38,11 +35,6 @@
 |Type watervlakte|aanduiding soort watervlakte|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -101,10 +93,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |*watervoerend| aanduiding of de waterloop wel of geen water bevat | ja*|
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 **Domeinwaarden**
 
@@ -208,10 +197,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -264,11 +249,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type bos| Aanduiding soort bos.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -319,11 +300,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin het betreffende veld met gras- en kruidachtigen zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -368,11 +345,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type struiken| Aanduiding soort struiken.|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -431,11 +404,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type onbegroeide grond| De aanduiding van het soort onbegroeide grond.|Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -487,11 +456,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin het betreffende bouwland zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -539,11 +503,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type fruit en bomenteelt| De aanduiding van het soort fruit- bomenteelt.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -601,11 +561,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin het betreffende natuurlijke groen zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -661,11 +617,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type landschapselement| De aanduiding van het soort landschapselement.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -718,10 +670,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Soortnaam| De soortnaam o.b.v. ‘Naamlijst van houtige gewassen en vaste planten’,  internationaal erkend als standaard.  | Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 **Domeinwaarden**
 
@@ -775,11 +724,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -1121,10 +1066,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende open bouwwerk zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 <div class='note'>
     Parkeergarage is dit correct om te typeren als open bouwwerk? Zie definitie BRT en hoe zit het met parkeerkelders? Parkeerplaats (openlucht) is nu een functie.
@@ -1183,11 +1124,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type verharding|Aanduiding soort verharding.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| | | |
 
 **Domeinwaarden**
 
@@ -1246,10 +1183,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Beweegbaar |De aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -1381,10 +1315,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 **Domeinwaarden**
 
@@ -1513,10 +1444,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Naam| Een breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 
@@ -1582,10 +1510,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Status   |De fase van de levenscyclus waarin het betreffende muur zich bevindt.   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -1631,10 +1556,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin het betreffende hek zich bevindt.   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -1681,10 +1603,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin het betreffende raster zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -1730,10 +1649,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende scherm zich bevindt.   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
 
 
 **Domeinwaarden**
@@ -1780,11 +1696,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type bak|Aanduiding soort bak|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -1840,11 +1752,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type deksel|aanduiding soort deksel |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -1901,11 +1809,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type bak|Aanduiding soort depot|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -1957,11 +1861,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type geleider|aanduiding soort geleider|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -2074,11 +1974,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type installatie|aanduiding soort mast |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -2136,11 +2032,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type installatie|aanduiding soort straatmeubilair |Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -2210,11 +2102,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type sensor|aanduiding soort sensor|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -2266,11 +2154,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type paal|aanduiding soort paal|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -2355,11 +2239,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type kast|aanduiding soort kast|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -2414,11 +2294,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin de betreffende bunker zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
@@ -2463,11 +2339,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende onbepaalde terreindeel zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-**Relaties met andere objecttypen** 
 
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-||||
 
 **Domeinwaarden**
 
