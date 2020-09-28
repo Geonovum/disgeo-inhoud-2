@@ -716,6 +716,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Gebouw  |Ja |
 |Geometrie |De geometrische representatie van de randen van een gebouw   |Ja (3D)|
+|Typering|Het doel waarvoor een gebouw gebruikt wordt. |Ja|
 |Aard|De fysieke verschijningsvorm van een gebouw  |Ja|
 |Oorspronkelijk bouwjaar | De aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
@@ -723,6 +724,17 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Domeinwaarden**
+
+<div class='note'>
+    De definitieve lijst met TYPE en AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de bij de WOZ in ontwikkeling zijnde lijst met domeinwaarden voor WOZ-deelobjecten. Ook moet nog een nadere uitlijning op typeringen vanuit de BRT plaatsvinden. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+</div>
+
+
+|Waarde Typering|	Beschrijving|
+|---|---|
+|Woning	||
+|Bedrijf||	
+
 
 *aard*
 
@@ -833,6 +845,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie |De geometrische representatie van de randen van een Ruimte   |Ja (2,5D)|
 |Bouwlaagnummer |De bouwlaag waarop de ruimte zich bevindt|Ja|
 |Oppervlakte| De gebruiksoppervlakte van de ruimte| Nee |
+|Typering|Het doel waarvoor een ruimte gebruikt wordt| Ja|
 |Status   |De fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -843,6 +856,19 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ligt op|Bouwlaag| Ja|
 
 **Domeinwaarden**
+
+<div class='note'>
+De definitieve lijst met TYPE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in BIM modellen voor de bouw worden gehanteerd. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+</div>
+
+
+|Waarde Typering|	Beschrijving|
+|---|---|
+|Woonkamer	||
+|Keuken||	
+
+
+
 
 
 <div class='note'>
