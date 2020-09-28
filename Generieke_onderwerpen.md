@@ -1,12 +1,12 @@
 ## Generieke onderwerpen
 
 ### Identificatie van objecten
-Deze paragraaf beschrijft de algemene ontwerpprincipes en uitgangspunten die betrekking hebben op identificatie van objecten.
+Deze paragraaf beschrijft de algemene Ontwerpprincipes en uitgangspunten die betrekking hebben op identificatie van objecten.
 
 Aan elk object wordt een uniek objectnummer (objectidentificatie) toegekend. Zolang het object bestaat, mag deze identificatie niet veranderen. De objectidentificatie moet uniek, betekenisloos, permanent en overal geldig zijn. 
 
 #### Opbouw objectidentificatie
-Bij de opbouw van de objectidentificatie worden de volgende ontwerpprincipes gehanteerd.
+Bij de opbouw van de objectidentificatie worden de volgende Ontwerpprincipes gehanteerd.
 
 Ontwerpprincipe: 
 
@@ -110,7 +110,7 @@ Ontwerpprincipe:
 
 In het eerder genoemde externe project Regie Op Bouwgegevens (UOI) zal onderzocht worden of er eerder behoefte is aan identificatiecodes, dan dat deze in de SOR ontstaan.
 
-ontwerpprincipe: 
+Ontwerpprincipe: 
 
 **de levensloop van een object, met een unieke objectidentificatie, eindigt in de samenhangende objectenregistratie**
 
@@ -137,16 +137,56 @@ Indien een object in een sectorregistratie mocht ontstaan, dan heeft dat object 
 
 ### Geometrie
 
-#### Coördinatenstelsel
+Opname van geometrie van alle objecten in de registratie is van essentieel belang voor het goed kunnen functioneren van een geo-basisregistratie. Met geometrie wordt daarbij expliciet bedoeld een geo-gerefereerde vastlegging van de begrenzing van een object. Met geo-gerefereerde vastlegging wordt bedoeld dat de geometrie is beschreven in de vorm van coördinaten die onderdeel uitmaken van een referentie coördinatenstelsel (zoals het RD stelsel of ETRS89). De registratie wordt daarbij direct voorbereid op 3D vastlegging van objecten.
 
- Voor 3D geometrie is het noodzakelijk om met een cartesisch coördinatenstelsel te werken (d.w.z. waarin de 3D assen onderling loodrecht op elkaar staan). 
+Hierbij kan de wijze van vastlegging verschillen voor de diverse objecttypen. Sommige objecttypen zullen worden vastgelegd in de vorm van 3D volumes. Andere objecttypen als vlakken met een bepaalde hoogteligging. Voor bepaalde objecten met een minimale omvang kan ook geometrische vastlegging in de vorm van een enkel coördinatendrietal (x, y en z) worden vastgelegd (puntobject).
+
+Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie worden nadere eisen  gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende fysieke objecten). Ook worden bij dit soort objecten deels ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast wordt er in de verdere uitwerking ook nog aandacht besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan hectometerpaaltjes, verdiepingsnummers en bouwlagen.
+
+#### Coördinaatreferentiesysteem 
+
+Voor het definiëren van de coördinaatreferentiesystemen kunnen de EPSG-codes (European Petroleum Survey Group) worden gebruikt.
+
+Voor de handliggende coördinaatreferentiesystemen zijn:
+
+- RD stelsel (2D): EPSG:28992
+
+- RD-NAP (3D): EPSG:7415
+
+- ETRS89 (2D): EPSG:4258 (lengte, breedte in graden)
+
+- ETRS89 (3D): EPSG:4937 (lengte, breedte in graden, hoogte in meters tov ellipsoide)
+
+- ETRS89 + EVRF2007 (3D): EPSG:7423 (lengte, breedte in graden, hoogte in meters tov NAP)
+
+Ontwerpprincipe: 
+
+**Voor 3D geometrie is het noodzakelijk om met een cartesisch coördinatenstelsel te werken (d.w.z. waarin de 3D assen onderling loodrecht op elkaar staan).**
+
+
+#### Coördinaten
+
+Coordinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD,NAP en ETRS89 komt dat overeen met de volgende nauwkeurigheden:
+
+RD in meters 3 decimalen (1 mm);
+NAP-hoogte in meters 3 decimalen (1 mm);
+ETRS89-breedte in graden 8 decimalen (1,1 mm);
+ETRS89-lengte in graden 8 decimalen (0,7 mm);
+ETRS89-hoogte in meters 3 decimalen (1 mm).
+
+Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8 decimalen. Afronding is volgens de volgende regel:
+0.0015 -> 0.002;
+0.0014 -> 0.001.
+
 
 ####  3D
-ontwerpprincipe: 
 
-**de SOR moet 3D-voorbereid zijn. Dit betekent dat 2D verplicht is en 3D vrijwillig.** 
 
-Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie conform hetgeen daarover voor het betreffende objecttype is bepaald, waarbij de vastlegging hiervan zodanig wordt vormgegeven dat de driedimensionale (3D) beschrijving van een object kan worden opgenomen.
+Ontwerpprincipe: 
+
+**De SOR is 3D-voorbereid. Dit betekent dat 2D verplicht is en 3D vrijwillig.** 
+
+Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie  waarbij de vastlegging hiervan zodanig wordt vormgegeven dat een driedimensionale (3D) beschrijving van een object kan worden opgenomen.
 
 De SOR maakt het op vrijwillige basis mogelijk om ook 3D aspecten van objecten vast te leggen. Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Het gaat hierbij dus om de coordinate dimension (ISO19107) en niet om de dimensie van de geometric primitive (ISO19107) die wordt gebruikt om de geometrie te representeren. Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
 
@@ -161,15 +201,15 @@ Er wordt hietrbij verwezen naar de Simple Features, zoals vastgelegd in ISO19125
 
 #### Topologie
 
-ontwerpprincipe: 
+Ontwerpprincipe: 
 
 **Het semantisch model van de SOR conformeert zich aan NEN3610**
 
-ontwerpprincipe: 
+Ontwerpprincipe: 
 
 **Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels**
 
-ontwerpprincipe: 
+Ontwerpprincipe: 
 
 **Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.**
 
@@ -182,11 +222,34 @@ Deze Referentielaag wordt
 
 ![topologie](media/topologie.png)
 
-ontwerpprincipe: 
+Ontwerpprincipe: 
 
 **In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken**
 
 - Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
+
+#### Relatieve hoogte
+
+In een situatie waarin alle objecten een 3D-geometrie hebben zou relateive hoogte van obejcten niet meer noodzakelijk zijn. In de SOR zullen echter 2D-geometrieen verplicht zin en 3D-geometrieen vrijwillig
+
+Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afsprake nodig op welke wijze deze verticale informatie in de gegevensverzamelning wordt vastgelegd.
+
+**Niveauaanduidingen per object**
+Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de refeerentielaag bevindt (niveau 0)  of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
+
+
+#### Lineair referencing
+
+De Lineair Referencing Methode (LRM) gebruiken we om het lokaliseren van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van het netwerk te verstoren door verder op te knippen. Dus een methode waarbij administratief wordt aangegeven vanwaar een verandering geldt: bv. vanaf 200 meter van af start verbinding geldt een toegestane snelheid van 70 km/h. 
+
+lineair referencing wordt door Inspire geadviseerd:
+
+![requirement inspire](media/inspire_lrm1.png) 
+
+Dit figuur laat de werknig van linear referencing zien :
+
+
+![lineair referencing](media/inspire_lrm2.png)
 
 
 ### Netwerken
@@ -252,7 +315,7 @@ Als uitgangspunt in het hoofdlijnenrapport is gesteld dat het objectenmodel van 
 
 Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste semantische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit minimum detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. 
 
-In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd. 
+In deze paragraaf worden op een generiek niveau Ontwerpprincipes hiervoor benoemd. 
 
 
 **BEGRIPPEN**
@@ -370,11 +433,11 @@ Voor de meta-informatie over "inOnderzoek" is het ook nuttig om apart te kunnen 
 #### Specificeren meta-informatie in informatiemodel
 De specificaties van het informatiemodel voor de SOR zullen uiteindelijk een deel van de in de inleiding beschreven meta-informatie geven. De informatiemodellering voor de SOR wordt gedaan conform het MIM (Metamodel voor informatiemodellering). Dit metamodel borgt dat diverse genoemde aspecten van de meta-informatie aandacht krijgen in het informatiemodel. Andere aspecten van de meta-informatie zullen bij het opstellen van de specificaties van het informatiemodel wel aparte aandacht moeten krijgen.
  
-ontwerpprincipe 
+Ontwerpprincipe 
 
 **De metagegevens per objecttype en per attribuuttype vormen een integraal onderdeel van de SOR**
 
-Om recht te doen aan dit ontwerpprincipe zodat deze metagegevens net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken" is het belangrijk dat de specificaties van dit informatiemodel optimaal ontsloten zijn en direct gerelateerd zijn aan de registratie zelf.
+Om recht te doen aan dit Ontwerpprincipe zodat deze metagegevens net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken" is het belangrijk dat de specificaties van dit informatiemodel optimaal ontsloten zijn en direct gerelateerd zijn aan de registratie zelf.
 
 **Per objecttype** wordt in het informatiemodel de volgende meta-informatie vastgelegd:
 
