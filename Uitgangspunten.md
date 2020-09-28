@@ -167,7 +167,7 @@ Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geome
 De SOR is primair een geometrische gegevensverzameling en kaartbeelden kunnen daar als product van worden afgeleid. Hierbij is voor geometrie aansluiting op Simple Features (ISO19125) voorgeschreven. 
 De SOR hanteert altijd expliciete geometrie en geen impliciete geometrie (zoals geparametriseerde geometriebeschrijvingen die in CAD/BIM voorkomen). Hiermee kunnen namelijk betere analyses en kwaliteitscontroles (zoals topologische controles) worden uitgevoerd en  2D geometrie worden ‘opgetrokken’ naar 3D geometrie
 
-#### Metagegevens
+#### Meta-informatie
 
 ontwerpprincipe:
 
@@ -175,7 +175,7 @@ ontwerpprincipe:
 
 Bij meta-informatie gaat het onder meer over informatie over de kwaliteit, ontstaansmoment en versie van het object. Voor het vastleggen van meta-informatie zullen nog nadere afspraken moeten worden ontwikkeld, waarbij het uitgangspunt is dat zoveel mogelijk wordt aangesloten op hiervoor bestaande standaarden. Deze zullen worden toegespitst op de verschillende soorten objecttypen. In de huidige basisregistraties wordt aan dit aspect op verschillende wijzen invulling gegeven. In de BAG wordt gewerkt met verwijzingen naar brondocumenten, in de BGT wordt hieraan op dit moment invulling gegeven met de opname van plaatsbepalingspunten en in de WOZ wordt hiervoor specifieke kwaliteitsinformatie aan de registratie toegevoegd.
 
-Metagegevens kunnen ook informatie over totstandkoming van 3D geometrie bevatten, bijv. extrusie vs. 3D inmeting, en LOD(-beschrijving) van geometrie (noodzakelijk om te weten of een dak plat is in een dataset omdat het dak in werkelijkheid plat is, of omdat het een LOD1 representatie is).
+Metagegevens kunnen ook informatie over de totstandkoming van 3D geometrie bevatten. Is deze afgeleid van andere gegevens of is deze in 3D ingewonnen?. Ook zal uit een LOD(-beschrijving) van geometrie duidelijk moeten worden in hoeverre bijvoorbeeld een dak plat is omdat deze in werkelijkheid plat is en dus zo in de gegevensverzameling is opgenomen of omdat er sprake is van een LOD1 representatie.
 
 
 #### Aanvullende eigenschappen
