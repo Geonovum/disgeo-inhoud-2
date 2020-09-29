@@ -201,9 +201,6 @@ Er wordt hietrbij verwezen naar de Simple Features, zoals vastgelegd in ISO19125
 
 #### Topologie
 
-Ontwerpprincipe: 
-
-**Het semantisch model van de SOR conformeert zich aan NEN3610**
 
 Ontwerpprincipe: 
 
