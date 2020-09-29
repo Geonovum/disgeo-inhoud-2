@@ -28,6 +28,8 @@
 |Identificatie   |De unieke aanduiding van een knoop  |Ja |
 |Geometrie |De geometrische representatie van een knoop |Ja (punt), Nee (vlak)|
 |Naam|Naam van de knoop zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is) (LR)|
+|Type verkeersgebied|Een deel van de weg met een specifieke functie om van richting te veranderen of de reis te beginnen/eindigen.|Ja|
+|Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de knoop verplaatst.|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -35,15 +37,33 @@
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-| hoort bij 1 of meer | verbindingen |Ja|
-| heeft een| openbare ruimte | Ja (als er een openbare ruimte benoemd is) (LR) |
-| ligt op | verharding| ja|
+| ligt aan 1 of meer | gerelateerde wegverbinding(en) |Ja|
+| heeft 1 | openbare ruimte | Ja (als er een openbare ruimte benoemd is) (LR) |
+| ligt op | gerelateerde reële object | Ja|
 
 **Domeinwaarden**
 
-<div class='note'>
-    In het kader van de review wordt u gevraagd om aan te geven welke levensfasen relevant zijn om als STATUS van een knoop te onderscheiden. 
-</div>
+|Waarde Type verkeersgebied|Beschrijving|
+|---|---|
+|kruising||
+|rotonde||
+|knooppunt||
+|inrit||
+|uitrit||
+|transferium||
+
+.
+
+|Waarde Hoofdverkeersgebruik|Beschrijving|
+|---|---|
+|Snelverkeer|	Motorvoertuigen die geen snelheidsbeperking hebben inclusief vrachtwagens.|
+|Langzaam verkeer|	Motorvoertuigen die snelheidsbeperking hebben zoals landbouwvoertuigen, fietsers, voetgangers.|
+|Gemengd verkeer|	Verschillende hoofdverkeersgebruikers zijn toegestaan om de knoop.|
+|Busverkeer|	Voertuig ingericht voor het vervoer van personen, met meer dan acht zitplaatsen, de bestuurderszitplaats niet meegerekend, niet zijnde een motorrijtuig met beperkte snelheid of gehandicaptenvoertuig.|
+|Fietsers| bromfietsers	Bestuurders die met een fiets of bromfiets aan het verkeer deelnemen.|
+|Voetgangers|	Een persoon die te voet deelneemt aan het verkeer.|
+|Ruiters|	Bestuurder van een paard of pony. |
+
 
 *status*
 
@@ -84,7 +104,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie |De geometrische representatie van een wegverbinding  |Ja (lijn), Nee (vlak)|
 |Type wegverbinding||
 |Type weg||
-|Hoofdverkeersgebruik||
+|Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de wegverbinding verplaatst.|
 |Naam|Naam van de weg zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is)(LR)|
 |Status   |De fase van de levenscyclus waarin de betreffende wegverbinding zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
