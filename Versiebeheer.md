@@ -25,4 +25,5 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | **Versie** | **Datum**      | **Status** | **Bewerking**                   | **Toelichting**                   |
 |------------|----------------|------------|---------------------------------|-----------------------------------| 
 | 0.1    | 16-04-2020     |  concept    | Initieel document               | Kapstok document  aangemaakt  |
+| 0.4   | 4-10-2020     |  concept    | 1e consultatie              | Document met vertegenwoordigers werkveld vormgegeven |
                            
