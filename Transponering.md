@@ -4,12 +4,150 @@
 
 |Object	BGT| classificatie (verplicht)|	Plus classificatie (optioneel)	| SOR begrip|
 |---|---|---|---|		
-|Transport|			
-|Wegdeel|	Functie:|	|	vervalt |
-||	OV-baan	||wordt opgenomen als functioneel gebied (verplicht)|
-||	overweg	||	wordt opgenomen als functioneel gebied (verplicht)|
-||	spoorbaan	||	wordt opgenomen als functioneel gebied (verplicht)|
-||	baan voor vliegverkeer	||	wordt opgenomen als functioneel gebied (verplicht)|
+|kruinlijn: lijn|||vervalt als eigenschap|
+|op talud: ja/nee|||vervalt|
+|Overbrugging is beweegbaar J/N|||eigenschap bij overbrugging|
+|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)||
+|||||
+|Transport||||
+|Wegdeel|Functie:||vervalt|
+|kruinlijn: lijn|OV-baan||wordt opgenomen als functionele zone (verplicht)|
+|op talud: ja/nee|overweg||wordt opgenomen als functionele zone (verplicht)|
+||spoorbaan||wordt opgenomen als functionele zone (verplicht)|
+||baan voor vliegverkeer||wordt opgenomen als functionele zone (verplicht)|
+||rijbaan autosnelweg|verbindingsweg|netwerkfunctie?|
+|||calamiteitendoorsteek|netwerkfunctie?|
+||rijbaan autoweg|verbindingsweg|netwerkfunctie?|
+|||calamiteitendoorsteek|netwerkfunctie?|
+||rijbaan regionale weg|verbindingsweg|netwerkfunctie?|
+|||verkeersdrempel|wordt opgenomen als functionele zone (voorstel verplicht maken, omdat in LV vele bronhouders dit hebben opgenomen)|
+||rijbaan lokale weg|verkeersdrempel|netwerkfunctie?|
+||fietspad||netwerkfunctie?|
+||voetpad||netwerkfunctie?|
+||voetpad op trap||netwerkfunctie?|
+||ruiterpad||netwerkfunctie?|
+||parkeervlak||wordt opgenomen als functionele zone (verplicht)|
+||voetgangersgebied||vervalt|
+||inrit||?|
+||woonerf||vervalt, wordt vervangen door netwerk en eigenschappen van het netwerk|
+|||||
+||Fysiek voorkomen:||"vervalt als fysiek voorkomen wegdeel| wordt verharding"|
+||gesloten verharding|asfalt|wordt asfaltverharding (verplicht)|
+|||cementbeton|wordt betonverharding (verplicht)|
+||open verharding|betonstraatstenen|wordt elementenverharding (verplicht)|
+|||gebakken klinkers|wordt elementenverharding (verplicht)|
+|||tegels|wordt elementenverharding (verplicht)|
+|||sierbestrating|wordt elementenverharding (verplicht)|
+|||beton element|wordt elementenverharding (verplicht)|
+||half verhard|grasklinkers|vervalt, wordt halfverharding (verplicht)|
+|||schelpen|vervalt, wordt halfverharding (verplicht)|
+|||puin|vervalt, wordt halfverharding (verplicht)|
+|||grind|vervalt, wordt halfverharding (verplicht)|
+|||gravel|vervalt, wordt halfverharding (verplicht)|
+||onverhard|boomschors|onverhard of onbegroeide grond?|
+|||zand|onverhard of onbegroeide grond?|
+|||||
+|Ondersteunend wegdeel|Functie:||vervalt|
+|kruinlijn: lijn|verkeerseiland||wordt opgenomen als functionele zone (verplicht)|
+|op talud: ja/nee|berm||wordt opgenomen als functionele zone (verplicht)|
+|||||
+||Fysiek voorkomen:||"vervalt als fysiek voorkomen ondersteunend wegdeel| wordt verharding"|
+||gesloten verharding|asfalt|wordt asfaltverharding (verplicht)|
+|||cementbeton|wordt betonverharding (verplicht)|
+||open verharding|betonstraatstenen|wordt elementenverharding (verplicht)|
+|||gebakken klinkers|wordt elementenverharding (verplicht)|
+|||tegels|wordt elementenverharding (verplicht)|
+|||sierbestrating|wordt elementenverharding (verplicht)|
+|||beton element|wordt elementenverharding (verplicht)|
+||half verhard|grasklinkers|vervalt, wordt halfverharding (verplicht)|
+|||schelpen|vervalt, wordt halfverharding (verplicht)|
+|||puin|vervalt, wordt halfverharding (verplicht)|
+|||grind|vervalt, wordt halfverharding (verplicht)|
+|||gravel|vervalt, wordt halfverharding (verplicht)|
+||onverhard|boomschors|onverhard of onbegroeide grond|
+|||zand|onverhard of onbegroeide grond|
+||groenvoorziening|bosplantsoen|"begroeiing| struiken"|
+|||gras- en kruidachtigen|"begroeiing| gras- en kruidachtigen"|
+|||planten|"begroeiing| struiken"|
+|||struikrozen|"begroeiing| struiken"|
+|||heesters|"begroeiing| struiken"|
+|||bodembedekkers|"begroeiing| struiken"|
+|||||
+|Spoor|Functie:|||
+||trein||spoorweg netwerk|
+||sneltram||vervalt, samenvoegen met tram|
+||tram||spoorweg netwerk|
+||Niet BGT|(haven)kraan|?|
+|||||
+|Terrein||||
+|Onbegroeid terreindeel|Fysiek voorkomen:||vervalt|
+|kruinlijn: lijn|erf||onbepaald terreindeel|
+|op talud: ja/nee|gesloten verharding|asfalt|wordt asfaltverharding (verplicht)|
+|||cementbeton|wordt betonverharding (verplicht)|
+|||kunststof|wordt kunststofverharding (verplicht)|
+||open verharding|betonstraatstenen|wordt elementenverharding (verplicht)|
+|||gebakken klinkers|wordt elementenverharding (verplicht)|
+|||tegels|wordt elementenverharding (verplicht)|
+|||sierbestrating|wordt elementenverharding (verplicht)|
+|||beton element|wordt elementenverharding (verplicht)|
+||half verhard|grasklinkers|vervalt, wordt halfverharding (verplicht)|
+|||schelpen|vervalt, wordt halfverharding (verplicht)|
+|||puin|vervalt, wordt halfverharding (verplicht)|
+|||grind|vervalt, wordt halfverharding (verplicht)|
+|||gravel|vervalt, wordt halfverharding (verplicht)|
+||onverhard|boomschors|onverhard of onbegroeide grond|
+|||zand|onverhard of onbegroeide grond|
+||zand|strand en strandwal|"geografisch object| strand"|
+|||zandverstuiving|"geografisch object| zandverstuiving"|
+|||||
+|||||
+|Begroeid terreindeel|Fysiek voorkomen:||Begroeiing|
+|kruinlijn: lijn|loofbos|griend en hakhout|"bos| type loofbos"|
+|op talud: ja/nee|gemengd bos||"bos| type gemengd bos"|
+||naaldbos||"bos| type naaldbos"|
+||heide||"natuurlijk groen| type heide (fysieke verschijningsvorm)"|
+||struiken||struiken|
+||houtwal||"landschapselement| type houtsingel"|
+||duin|open duinvegetatie|"natuurlijk groen| type duin (fysieke verschijningsvorm), specifiek vegetatietype"|
+|||gesloten duinvegetatie||
+||grasland overig||gras- en kruidachtigen|
+||moeras||"natuurlijk groen| type moeras (fysieke verschijningsvorm)"|
+||rietland||"natuurlijk groen| type rietland (fysieke verschijningsvorm)"|
+||kwelder||"getijdengebied| type schor"|
+||fruitteelt|laagstam boomgaarden|fruit- en kweekboom|
+|||hoogstam boomgaarden||
+|||wijngaarden||
+|||klein fruit||
+||boomteelt||fruit- en kweekboom|
+||bouwland|akkerbouw|bouwland |
+|||braakliggend||
+|||vollegrondsteelt||
+|||bollenteelt||
+||grasland agrarisch||gras- en kruidachtigen|
+||groenvoorziening|bosplantsoen|struiken|
+|||gras- en kruidachtigen|gras- en kruidachtigen|
+|||planten|struiken|
+|||struikrozen|struiken|
+|||heesters|struiken|
+|||bodembedekkers|struiken|
+|||||
+|Water||||
+|Waterdeel|Type:|||
+||zee||"watervlakte| type zee"|
+||waterloop|rivier|"waterloop| rivier"|
+|||sloot|"waterloop| type sloot"|
+|||kanaal|"waterloop| type kanaal"|
+|||beek|"waterloop| type beek"|
+|||gracht|"waterloop| type gracht"|
+|||bron|bron|
+||watervlakte|haven|"functionele zone| havencomplex : aanleg en overslag"|
+|||meer, plas, ven, vijver|"watervlakte| type meer, type plas, type ven, type vijver"|
+||greppel/droge sloot||vervalt, wordt eigenschap bij waterloop|
+|||||
+|Ondersteunend waterdeel|oever/slootkant||"functionele zone| oever"|
+||slik||"getijdengebied| type slik"|
+|||||
+
 
 
 ### BAG
