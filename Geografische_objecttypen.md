@@ -94,7 +94,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 
 
@@ -141,7 +141,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 
 
@@ -188,7 +188,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 
 	
@@ -237,7 +237,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 ### Watergebied
 | klasse  | naam  |
@@ -281,7 +281,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 
 ### Eiland
@@ -326,7 +326,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 
 
@@ -342,7 +342,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 
 ### Polder
@@ -387,7 +387,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 
 
@@ -434,7 +434,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 
 
@@ -480,7 +480,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 
 
@@ -492,7 +492,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-### Reliëf object
+### Reliëf 
+
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Reliëf  |
@@ -502,8 +503,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Reliëf  |
 |---|---|
-| Definitie |  |
-|Herkomst definitie  |  |
+| Definitie | Object dat tot doel heeft hoogteverschillen in het landschap te representeren. |
+|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1) |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *reliëf* zoals deze is opgenomen in de basisregistratie  topografie.  |
 |Toelichting|   |
@@ -540,4 +541,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Waarde  | Beschrijving Status  |
 |---|---|
-|||
+|Gepland|	
+|Bestaand|	
+|Verwijderd|	
+|Niet gerealiseerd|	
+|Ten onrechte|	
+
