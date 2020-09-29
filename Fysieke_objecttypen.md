@@ -1,4 +1,4 @@
-## Fysieke objecttypen
+## Reële objecttypen
 
 <div class='note'>
     De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
@@ -2328,7 +2328,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Herkomst definitie  | Gebaseerd op definitie van erf in BGT    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
-|Toelichting| In plaats van onbepaald terreindeel kan ter plaatse ook de fysieke topografie worden ingewonnen (vrijwillig). |
+|Toelichting| In plaats van onbepaald terreindeel kan ter plaatse ook de Reële topografie worden ingewonnen (vrijwillig). |
 
 **Eigenschappen**
 
