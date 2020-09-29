@@ -220,7 +220,7 @@ Deze Referentielaag wordt
    -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
 
-Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referetielaag een rol in het opdelen van de referentielaag. Dit gaf bij het beheer veel extra werk, omdat als een aangrenzend object zelfs maar een tussnepunt in de geoemtrie kreeg, het aanpalende object ook moets worden aangepast. Met de nieuwe aanpak van de SOR vervalt de verplichting om grenzen tussen obejct zo precies gelijk te houden, behalve voro de genoemde objecttypen BODEM en Water
+Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moest worden aangepast. Met de nieuwe aanpak van de SOR vervalt de verplichting om grenzen tussen object zo precies gelijk te houden, behalve voor de genoemde objecttypen BODEM en WATER
 
 Ontwerpprincipe: 
 
