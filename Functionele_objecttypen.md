@@ -102,9 +102,11 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een wegverbinding  |Ja |
 |Geometrie |De geometrische representatie van een wegverbinding  |Ja (lijn), Nee (vlak)|
-|Type wegverbinding||
-|Type weg||
-|Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de wegverbinding verplaatst.|
+|Type wegverbinding||Ja|
+|Type weg| Een catagorisering van de verschillende wegtypes. |Ja|
+|Modaliteit| Soorten voertuigen die zich op de verbinding mogen begeven. | Ja (MV)|
+|Openbare weg|Weg die door iedereen gebruikt kan worden. | Ja|
+|Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de wegverbinding verplaatst.|Ja|
 |Naam|Naam van de weg zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is)(LR)|
 |Status   |De fase van de levenscyclus waarin de betreffende wegverbinding zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
@@ -134,30 +136,64 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde type weg	|Beschrijving|
 |---|---|
-|Autosnelweg	|Een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen, daartoe aangeduid met het betreffende verkeersbord.|
-|Autoweg|Een weg uitsluitend bestemd voor snelverkeer, daartoe aangeduid met het betreffende verkeersbord.|	
-|Regionale weg	|Een weg die een verbinding vormt tussen bewoonde oorden of tussen wijken binnen een dorp of stad.|
-|Lokale weg	|Een weg van lokaal belang.|
-|Fietspad|Een weg met name bestemd voor fietsers en, indien toegestaan, bromfietsers en dat afgescheiden is van de andere wegdelen niet uitsluitend door markering.|	
-|Voetpad|Een wegdeel waar voetgangers gebruik van moeten maken.|
-|Ruiterpad|Een pad primair aangelegd voor het gebruik door ruiters.|	
+|Autosnelweg|	Conflict vrije weg bestemd voor snel gemotoriseerd verkeer.|Minimaal 2 rijbanen met 2 of meer rijtroken. Rijbanen fysiek van elkaar gescheiden.|
+|Autoweg	|Weg die alleen voor snel gemotoriseerd (min 50km/uur) verkeer toegankelijk is.|
+|Gebiedsontsluitingsweg gesloten|	Verbindt een auto(snel)weg met een erftoegangsweg waar geen land- en bosbouwverkeer is toegestaan.|
+|Gebiedsontsluitingsweg open|	Verbindt een auto(snel)weg met een erftoegangsweg waar wel land- en bosbouwverkeer is toegestaan.|
+|Erftoegangsweg|	Wegen met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en meestal zonder gescheiden fietspaden.|
+|Fietsstraat|	Een straat die ingericht is als fietsroute waar auto’s zijn toegestaan. |
+|Fiets/bromfietspad|	Pad dat voor zowel bromfietsers als fietsers verplicht is. |
+|Fietspad|	een weggedeelte of vrij liggend pad dat is gereserveerd voor het fietsverkeer en snorfietsen.|
+|Voetpad|	Deel van verkeersinfrastructuur dat uitsluitend bedoeld is voor voetgangers verkeer.|
+|Overige wegen|	Wegen die niet onder een van bovenstaande typen vallen.| 
+
+|Ruiterpad|Een pad primair aangelegd voor het gebruik door ruiters.|
+
 
 *type hoofdverkeersgebruik*
 
 |Waarde type hoofdverkeersgebruik|Beschrijving|
 |---|---|
-|Brommers||
-|Fietsers||
-|Voetgangers||
-|Landbouwverkeer||
-|Vrachtverkeer||
-|Bussen||
-|Taxi||
-|Personenauto’s|| 
+|Vrachtverkeer|	Motorvoertuig, niet ingericht voor het vervoer van personen, waarvan de toegestane maximum massa meer bedraagt dan 3500 kg.|
+|Snelverkeer|	Motorvoertuigen die geen snelheidsbeperking hebben inclusief vrachtwagens.|
+|Langzaam verkeer|	Motorvoertuigen die snelheidsbeperking hebben zoals landbouwvoertuigen.|
+|Gemengd verkeer|	Verschillende hoofdverkeersgebruikers zijn toegestaan op de verbinding.|
+|Busverkeer|	Voertuig ingericht voor het vervoer van personen, met meer dan acht zitplaatsen, de bestuurderszitplaats niet meegerekend, niet zijnde een motorrijtuig met beperkte snelheid of gehandicaptenvoertuig.|
+|Gemotoriseerd verkeer|	Alle gemotoriseerde voertuigen behalve bromfietsen, fietsen met trapondersteuning en gehandicaptenvoertuigen, anders dan railvoertuigen.|
+|Fietsers, bromfietsers	|Bestuurders die met een fiets of bromfiets aan het verkeer deelnemen.|
+|Fietsers|	Bestuurders die met een fiets aan het verkeer deelnemen.|
+|Voetgangers|	Een persoon die te voet deelneemt aan het verkeer.|
+|Ruiters|	Bestuurder van een paard of pony. |
+|Overig|	Verkeersgebruikers die niet onder de bovenstaande typen vallen. |
 
-<div class='note'>
-    In het kader van de review wordt u gevraagd om aan te geven welke levensfasen relevant zijn om als STATUS wegverbinding te onderscheiden. 
-</div>
+*Modaliteit*
+
+|Waarde Modaliteit|Beschrijving|
+|---|---|
+|Alle voertuigen|	Alle voertuigen exclusief voetgangers. |
+|Bromfiets|	Gemotoriseerd voertuig op twee wielen en de snelheid van 25km per uur overschrijdt (speed-pedelec valt hier onder volgens RVV).|
+|Snorfiets|	Bromfiets die niet harder kan/mag dan 25 km per uur (volgens RVV valt de e-bike met maximale snelheid van 25km/u hier onder).|
+|Fiets|	Een voertuig dat door spierkracht wordt aangedreven. |
+|Gehandicaptenvoertuig |	Voertuig dat is ingericht voor het vervoer van een gehandicapt persoon.|
+|Land- bosbouwverkeer|	Voertuig van de categorie T, C, R of S, niet zijnde een motorrijtuig met beperkte snelheid of een gehandicaptenvoertuig voornamelijk bestemd voor tractiedoeleinden en in het bijzonder ontworpen voor het trekken, duwen, dragen of in beweging brengen van bepaalde verwisselbare uitrustingsstukken of land- of bosbouwaanhangwagens, dan wel het vervoeren van ladingen of bewerken van materialen.|
+|Vrachtwagen|	Motorvoertuig, niet ingericht voor het vervoer van personen, waarvan de toegestane maximum massa meer bedraagt dan 3500 kg.|
+|Bus|	Voertuig ingericht voor het vervoer van personen, met meer dan acht zitplaatsen, de bestuurderszitplaats niet meegerekend, niet zijnde een motorrijtuig met beperkte snelheid of gehandicaptenvoertuig.|
+|Taxi|	Een motorvoertuig waarmee passagiers zich naar de gewenste bestemming laten brengen tegen betaling. | 
+|Personenauto|	Voertuig op vier of meer wielen, niet zijnde een motorrijtuig met beperkte snelheid of gehandicaptenvoertuig, ingericht voor het vervoer van personen, met niet meer dan acht zitplaatsen, de bestuurderszitplaats niet meegerekend.|
+|Auto met trailer|	Personenauto met trailer.|
+|Bestelauto	|Een auto met een laadruimte die voornamelijk voor het vervoer van goederen is ingericht.|
+|Voorrangsvoertuig|	Een motorvoertuig dat optische en geluidssignalen voert. (politie, brandweer, ambulance) |
+|Ruiters|	Bestuurder van een paard of pony. |
+|Voetgangers|	Een persoon die te voet deelneemt aan het verkeer. |
+|Overig	Modaliteiten| Die niet onder bovenstaande typen vallen.|
+
+
+*openbare weg*
+
+|Waarde Openbare weg|Beschrijving|
+|---|---|
+|Ja||
+|Nee||
 
 *status*
 
