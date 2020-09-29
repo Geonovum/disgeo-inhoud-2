@@ -249,8 +249,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Watergebied  |
 |---|---|
-| Definitie |Een complex van meren en plassen. DEFINITIE AANPASSEN |
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+| Definitie |Een met water bedekt gebied.|
+|Herkomst definitie  | Nieuw |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *watergebied* zoals deze is opgenomen in de basisregistratie topografie.  |
 |Toelichting|   |
