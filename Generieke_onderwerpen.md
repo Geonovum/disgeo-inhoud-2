@@ -658,10 +658,10 @@ Bij functionele objecttypen zijn de levensfasen van een object meer verbonden aa
 |Hoofdfase	|Transportvoorziening	|Functionele zonering|
 |---|---|---|
 |Planfase	|Gepland	|Gepland|
-|Aanwezigheidsfase	|Gevormd	|Gevormd|
+|Aanwezigheidsfase	|In aanleg	|Gevormd|
 ||In gebruik|	In gebruik|
 ||Buiten gebruik	|Buiten gebruik|
-|Afwezigheidsfase	|Opgeheven	|Beëindigd|
+|Afwezigheidsfase	|Verwijderd	|Beëindigd|
 ||Niet gerealiseerd	|Niet gerealiseerd|
 ||	Ten onrechte	|Ten onrechte|
 
@@ -669,13 +669,13 @@ De hierbij behorende toelichtingen voor de levensfasen van transportvoorzieninge
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland	|Een object dat zich in de ontwerpfase bevindt|
-|Gevormd	|Een object dat is gerealiseerd maar nog niet in gebruik is genomen|
-|In gebruik|	Een object dat in gebruik is genomen |
-|Buiten gebruik|	Een object dat in gebruik is genomen maar tijdelijk niet gebruikt kan worden|
-|Opgeheven|	Een object dat buiten gebruik is gesteld|
-|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
-|Ten onrechte	|Een object dat ten onrechte is opgevoerd in de registratie|
+|Gepland	|Een object dat zich in de ontwerpfase bevindt.|
+|In aanleg	|Een object dat in aanleg is en nog niet in gebruik is genomen.|
+|In gebruik|	Een object dat in gebruik is genomen. |
+|Buiten gebruik|	Een object dat in gebruik is genomen maar tijdelijk niet gebruikt kan worden.|
+|Verwijderd|	Een object dat is verwijderd.|
+|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd.|
+|Ten onrechte	|Een object dat ten onrechte is opgevoerd in de registratie.|
 
 De bij functionele zoneringen behorende toelichtingen voor de levensfasen zijn:
 
