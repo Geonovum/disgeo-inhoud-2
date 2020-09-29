@@ -328,34 +328,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte opgevoerd|
 
-### Berg
-| klasse  | naam  |
-|---|---|
-| SOR-begrip   | Berg  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
-
-**Definitie**
-
-| Naam  | Berg  |
-|---|---|
-| Definitie | Verhoging van het terrein (heuvel). / Min of meer op zichzelf staande sterke verheffing van het aardoppervlak (berg).|
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Berg* zoals deze is opgenomen in de basisregistratie topografie.  |
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een berg.  |Ja |
-|Naam   |De plaatselijke naam van het berg zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
-|Alternatieve naam   | Een alternatieve benaming van een berg zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
-|Geometrie   |De geometrische representatie van de randen van een berg.  |Ja (vlak)  |
-|Status   |De fase van de levenscyclus waarin de betreffende berg zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
-
-
 
 
 **Domeinwaarden**
@@ -550,8 +522,18 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **Domeinwaarden**
 
-| Waarde  | Beschrijving Type  |
+| Waarde type | Beschrijving Type  |
 |---|---|
+|terp|| 
+|grafheuvel||
+|wal|| 
+|steile rand||
+|holle weg||
+|groeve||
+|berg|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
+|vliedberg||
+|dal||
+
 
 
 *status*
