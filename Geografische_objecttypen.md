@@ -524,15 +524,15 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Waarde type | Beschrijving Type  |
 |---|---|
-|terp|| 
-|grafheuvel||
-|wal|| 
-|steile rand||
-|holle weg||
-|groeve||
-|berg|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
-|vliedberg||
-|dal||
+|terp|Verhoging in het landschap oorspronkelijk bedoelt om de daarop gevestigde bebouwing te beschermen tegen het water.| 
+|grafheuvel|Voorhistorische begraafplaats in de vorm van een heuvel.|
+|wal|Langgerekte ophoging in het terrein met een hoogte tussen 0,50 en 1,00 meter.| 
+|steile rand|Een steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling.|
+|holle weg|Een weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie.|
+|groeve|Opengegraven ruimte waaruit een delfstof gewonnen wordt.|
+|berg|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak.|
+|dal|Een langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten.|
+|tuunwal| Op elkaar gestapelde grasplaggen als scheiding tussen twee percelen.   |
 
 
 
