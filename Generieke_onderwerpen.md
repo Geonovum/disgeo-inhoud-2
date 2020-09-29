@@ -141,7 +141,7 @@ Opname van geometrie van alle objecten in de registratie is van essentieel belan
 
 Hierbij kan de wijze van vastlegging verschillen voor de diverse objecttypen. Sommige objecttypen zullen worden vastgelegd in de vorm van 3D volumes. Andere objecttypen als vlakken met een bepaalde hoogteligging. Voor bepaalde objecten met een minimale omvang kan ook geometrische vastlegging in de vorm van een enkel coördinatendrietal (x, y en z) worden vastgelegd (puntobject).
 
-Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie worden nadere eisen  gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende fysieke objecten). Ook worden bij dit soort objecten deels ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast wordt er in de verdere uitwerking ook nog aandacht besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan hectometerpaaltjes, verdiepingsnummers en bouwlagen.
+Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie worden nadere eisen  gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende reële objecten). Ook worden bij dit soort objecten deels ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast wordt er in de verdere uitwerking ook nog aandacht besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan hectometerpaaltjes, verdiepingsnummers en bouwlagen.
 
 #### Coördinaatreferentiesysteem 
 
@@ -184,11 +184,13 @@ Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8 decim
 
 Ontwerpprincipe: 
 
-**De SOR is 3D-voorbereid. Dit betekent dat 2D verplicht is en 3D vrijwillig.** 
+**De SOR is 3D-voorbereid.** 
 
 Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie  waarbij de vastlegging hiervan zodanig wordt vormgegeven dat een driedimensionale (3D) beschrijving van een object kan worden opgenomen.
 
-De SOR maakt het op vrijwillige basis mogelijk om ook 3D aspecten van objecten vast te leggen. Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Het gaat hierbij dus om de coordinate dimension (ISO19107) en niet om de dimensie van de geometric primitive (ISO19107) die wordt gebruikt om de geometrie te representeren. Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
+Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Het gaat hierbij dus om de coordinate dimension (ISO19107) en niet om de dimensie van de geometric primitive (ISO19107) die wordt gebruikt om de geometrie te representeren. Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
+
+“Bij de nadere uitwerking van het informatiemodel zal worden bepaald op welke wijze het informatiemodel de geleidelijke transitie van de bestaande 2D registratie naar een 3D registratie kan ondersteunen. Daarbij kan bijvoorbeeld worden gedacht aan het voorlopig kunnen blijven vastleggen van de 2D geometrie van een gebouw (zowel grondvlakgeometrie als bovenaanzichtgeometrie) naast het mogelijk worden van een 3D vastlegging van gebouwgeometrie. Ook zal voor bepaalde objecttypen moeten worden bekeken in hoeverre de mogelijkheid moet worden geboden om 3D vastlegging van geometrie voorlopig mogelijk te maken, zonder dat dit aan alle uiteindelijk te stellen vereisten van 3D geometrie voldoet (transitie 3D-geometrie). Op een later moment zal worden bepaald voor welke objecttypen 3D vastlegging verplicht zal worden en vanaf welk moment dit het geval is.”
 
 <div class='note'>
     In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraagt om een herziening van huidige topologie regels en het begrip maaiveld. 
@@ -211,9 +213,9 @@ Ontwerpprincipe:
 **Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken, daarom wordt de term *Referentielaag* gehanteerd.**
 
 Deze Referentielaag wordt 
-- In geval van fysieke objecttypen volledig gedekt door objecten uit de objecttypen BODEM en WATER.
+- In geval van reële objecttypen volledig gedekt door objecten uit de objecttypen BODEM en WATER.
    -	Hierbij sluiten de objecten topologisch naadloos op elkaar aan
-   - 	Objecten van andere fysieke objecttypen worden ten opzichte hiervan gepositioneerd, zoals bijvoorbeeld Gebouwen en Verharding.   Ook de 3D-verschijningsvormen van objecten kunnen ten opzichte hiervan worden gepositioneerd
+   - 	Objecten van andere reële objecttypen worden ten opzichte hiervan gepositioneerd, zoals bijvoorbeeld Gebouwen en Verharding.   Ook de 3D-verschijningsvormen van objecten kunnen ten opzichte hiervan worden gepositioneerd
    -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
 
@@ -248,7 +250,7 @@ Dit figuur laat de werking van linear referencing zien :
 
 ![lineair referencing](media/inspire_lrm2.png)
 
-Let op: als iets in de werkelijkheid zowel een fysiek voorkomen heeft als een funcite, dan moet de geoemtrie van het functionele object afgeleid worden van het fysieke, ook als dit via lineair referencing wordt vastgelegd. 
+Let op: als iets in de werkelijkheid zowel een reel voorkomen heeft als een funcite, dan moet de geoemtrie van het functionele object afgeleid worden van het reële, ook als dit via lineair referencing wordt vastgelegd. 
 
 
 ### Netwerken
@@ -265,15 +267,15 @@ Een netwerk bestaat uit knopen en verbindingen. Een verbinding geeft de relatie 
 
 Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding beschreven kan worden. Administratieve eigenschappen zoals een straatnaam worden vooral gebruikt voor locatiebepaling. Voor routering zijn eigenschappen die een voorwaarde beschrijven belangrijk om te bepalen hoe een route over het netwerk loopt. Voor wegen zijn bijvoorbeeld rijrichtingen en maximum snelheden dergelijke eigenschappen.  Voor waternetwerken bijvoorbeeld een weerstandscoefficient van de bak waar het water door stroomt.
 
-#### Een netwerk is gerelateerd aan de fysieke infrastructuur
+#### Een netwerk is gerelateerd aan de reële infrastructuur
 
-Een transportnetwerk beschrijft de functionele inrichting van de fysieke infrastructuur en is daarmee onlosmakelijk mee verbonden. Bij nieuwe aanleg van infrastructuur is het functioneel ontwerp (het netwerk) de basis voor de aanleg van fysieke infrastructuur. 
+Een transportnetwerk beschrijft de functionele inrichting van de reële infrastructuur en is daarmee onlosmakelijk mee verbonden. Bij nieuwe aanleg van infrastructuur is het functioneel ontwerp (het netwerk) de basis voor de aanleg van reële infrastructuur. 
 
-Een netwerk heeft vanuit zichzelf geen geometrie, voor de beschrijving en positionering van transportnetwerken wordt een geometrie toegevoegd en/of wordt verwezen naar de geometrie van de fysieke infrastructuur.
+Een netwerk heeft vanuit zichzelf geen geometrie, voor de beschrijving en positionering van transportnetwerken wordt een geometrie toegevoegd en/of wordt verwezen naar de geometrie van de reële infrastructuur.
 
-Indien een geometrie wordt toegevoegd aan een knoop of verbinding dan ligt deze op het gerelateerde fysieke object.
+Indien een geometrie wordt toegevoegd aan een knoop of verbinding dan ligt deze op het gerelateerde reële object.
 
-Waternetwerken zijn een uitzondering hierop. In een waternetwerk is het water niet de infrastructuur maar de voorziening waar het water in zit of doorheen stroomt. De geometrie van de bodem van een rivier wordt niet opgenomen in de SOR. Daarom worden voor waternetwerken een geometrie toegevoegd die niet verwijst naar de fysieke infrastructuur maar wel overeenkomt met het wateroppervlak.
+Waternetwerken zijn een uitzondering hierop. In een waternetwerk is het water niet de infrastructuur maar de voorziening waar het water in zit of doorheen stroomt. De geometrie van de bodem van een rivier wordt niet opgenomen in de SOR. Daarom worden voor waternetwerken een geometrie toegevoegd die niet verwijst naar de reële infrastructuur maar wel overeenkomt met het wateroppervlak.
 
 #### Detaillering waar nodig
 Een netwerk is te beschrijven in verschillende niveau’s van detail. Of detaillering nodig iss hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detail niveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals die gebruikt wordt voor kaarten.
@@ -364,19 +366,25 @@ Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generealisatie e
 
  
 
-#### Terugmeldingen op gegeneraliseerde objecten
+#### Kwaliteit
 
-Er kunnen wel terugmeldingen  zijn op de gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
+
+**Kwaliteit**
+-	Dataobjecten moeten op het basisniveau landelijk uniform en homogeen en aaneensluitend zijn 
+-	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hiervoor één consistent systeem voor zijn en ook de implementatie moet consistent zijn
+-	Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken
+
+
+**Terugmeldingen op gegeneraliseerde objecten**
+
+Omdat gegenerealiseerde objecten geen deel uit zullen maken, wordt hier vast voor deze groep een aandachtspunt gegeven:
+Er kunnen wel terugmeldingen  zijn op gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
 - Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders vasn de onderliggende data
 - of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken dataobjecten uit de SOR
 
 Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een eindgebruiker ziet de producten en moet op basis daarvan een terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, want dat is mogelijk helemaal niet aan de orde en dan zouden objecten op het hoogste detailniveau onnodig belast worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap. 
 
-#### Kwaliteit
 
--	Dataobjecten moeten op het basisniveau landelijk uniform en homogeen en aaneensluitend zijn 
--	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hiervoor één consistent systeem voor zijn en ook de implementatie moet consistent zijn
--	Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken
 
 
 
@@ -401,11 +409,11 @@ De voor de bronhouders en gebruikers van de SOR relevante inhoudelijke meta-info
 -	Status
 
 
-1.	De formele definitie van objecten (objecttypen) en attributen (attribuuttypen) die worden geregistreerd in de SOR moet voor bronhouder en gebruiker helder aangeven wat de betekenis is van een bepaald gegeven, maar ook over welke fysieke objecten bijvoorbeeld wel en welke niet geregistreerd worden in de SOR.
+1.	De formele definitie van objecten (objecttypen) en attributen (attribuuttypen) die worden geregistreerd in de SOR moet voor bronhouder en gebruiker helder aangeven wat de betekenis is van een bepaald gegeven, maar ook over welke reële objecten bijvoorbeeld wel en welke niet geregistreerd worden in de SOR.
 
 2.	Alle meta-informatie die een tijdsaspect heeft (historie, levensfase) komt in de volgende paragraaf van dit document afzonderlijk aan de orde.
 
-3.	Bronverwijzing betreft aan de ene kant de formele onderbouwing van gegevens, bijvoorbeeld formele brondocumenten, zoals vergunningen en besluiten, maar aan de andere kant ook de meer technische bron van de gegevens, zoals luchtfoto's, metingen en BIM-modellen. De plaatsbepalingspunten zijn daarmee een bijzondere vorm van bronverwijzing in het kader van de geometrie binnen de SOR. Een ander aspect van de bronverwijzing is de vastlegging van de reden van wijziging van een attribuut.
+3.	Bronverwijzing betreft aan de ene kant de formele onderbouwing van gegevens, bijvoorbeeld formele brondocumenten, zoals vergunningen en besluiten, maar aan de andere kant ook de meer technische bron van de gegevens, zoals plaatsbepalingspunten en indirect luchtfoto's, metingen en BIM-modellen. De plaatsbepalingspunten zijn daarmee een bijzondere vorm van bronverwijzing in het kader van de geometrie binnen de SOR. Een ander aspect van de bronverwijzing is de vastlegging van de reden van wijziging van een attribuut.
 Voor de SOR wordt voorgesteld het uitgangspunt te hanteren dat bij elke wijziging van een attribuut ook een reden wordt geregistreerd. Deze verplichting vereenvoudigt bijvoorbeeld het afhandelen van terugmeldingen. De bronhouder weet dan altijd waarom het gegeven geregistreerd is. Het is aan te bevelen om "reden van wijziging" vast te leggen aan de hand van een waardelijst, waarbij wellicht bij sommige "gebeurtenissen" sprake kan zijn van een combinatie van redenen uit deze waardelijst. Een correctie is ook een in deze waardelijst op te nemen "gebeurtenis".  
 
 Alleen in uitzonderingsgevallen is het nodig om de "reden van wijziging" ook vast te leggen in de vorm van een formeel brondocument. Alleen wanneer er sprake is van een bestaand brondocument (zoals een vergunning) heeft een verwijzing naar dit formele document toegevoegde waarde. Met de SOR vervallen verplichtingen tot het opstellen van brondocumenten, uitsluitend om daarmee een "reden van wijziging" als metagegeven te kunnen vastleggen.
@@ -471,7 +479,7 @@ Per object worden de volgende metagegevens vastgelegd:
 
 -	Bronverwijzing: Bij alle objecten wordt vastgelegd de wijziging op grond waarvan het betreffende object in de registratie is opgenomen (of is beëindigd) aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.).
 
-Afhankelijk van de achtergrond van het opvoeren of beëindigen van een object in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld een luchtfoto of een BIM.
+Afhankelijk van de achtergrond van het opvoeren of beëindigen van een object in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 
 -	In het kader van de autorisatie kan per object vastgelegd worden wie de verantwoordelijke bronhouder is. Dat kan bijvoorbeeld de aanduiding zijn welke gemeente verantwoordelijk is voor het bijhouden van het betreffende object. Of dit relevant is en op welke wijze de verantwoordelijke bronhouder wordt geregistreerd, wordt gespecificeerd in het informatiemodel. Ook kan er sprake zijn van het vastleggen van specifieke gebruiksautorisaties (bijvoorbeeld specifieke/militaire objecten die niet openbaar zijn). Of dit aan de orde is, wordt ook gespecificeerd in het informatiemodel. 
 
@@ -484,7 +492,7 @@ Per attribuut worden de volgende metagegevens vastgelegd:
 
 -	Bronverwijzing: Bij alle attributen wordt vastgelegd de wijziging op grond waarvan het betreffende attribuut (wijziging van een attribuut) in de registratie is opgenomen aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.). 
 -   Bronverwijzing: bij 3D-geometrie wordt vastgelegd hoe deze tot stand is gekomen, bijvoorbeeld door post-processing, door 3D inwinning of andres.
-Afhankelijk van de achtergrond van het opvoeren of wijzigen van een attribuut in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld een luchtfoto of een BIM.
+Afhankelijk van de achtergrond van het opvoeren of wijzigen van een attribuut in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 Bij het attribuut geometrie kan ook sprake zijn van een bronverwijzing naar een plaatsbepalingspunt (zie paragraaf 3.5.5).
 
 -	In het kader van de autorisatie kan eventueel per attribuut vastgelegd worden wie de verantwoordelijke bronhouder is, wanneer dit een ander is dan de bronhouder voor het object. Of dit relevant is en op welke wijze de verantwoordelijke bronhouder wordt geregistreerd, wordt gespecificeerd in het informatiemodel. Ook kan er sprake zijn van het vastleggen van specifieke gebruiksautorisaties (bijvoorbeeld specifieke attributen die niet openbaar zijn). Of dit aan de orde is, wordt ook gespecificeerd in het informatiemodel.
@@ -499,15 +507,11 @@ Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronh
 
 #### Plaatsbepalingspunten
 
-<div class='note'>
-    Mogelijk moet dit nog vertaald worden in een concreet voorstel rondom plaatsbepalingspunten. In de werkgroep inhoud moeten we hier mogelijk nog een proces voor afspreken.
-</div>
+Plaatsbepalingspunten (PBP's) worden gebruikt als bron en zijn daarmee een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie).  
+Een plaatsbepalingspunt is een punt dat is ingemeten en in coördinaten bekend is en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing van reële objecten. 
+Plaatsbepalingspunten komen voor bij reële objecttypen. Objecten met de status 'gepland' hebben geen plaatsbepalingspunten. Het is niet voldoende om PBP's te beperken tot goed idealiseerbare reële objecttypen omdat van elk basisobject nagespeurd moet kunnen wordne wat de bron is en hoe de inwinning tot stand is gekomen. 
 
-Een plaatsbepalingspunt is een punt dat is ingemeten en in coördinaten bekend is en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing van fysieke objecten. 
-Plaatsbepalingspunten (PBP's) worden gebruikt als bron en zijn ook een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie).  
-Plaatsbepalingspunten komen alleen voor bij goed idealiseerbare fysieke objecttypen. Objecten met de status 'gepland' hebben geen plaatsbepalingspunten.
-
-Een eis daarbij is dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar de gerelateerde PBP's expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens.
+Een eis daarbij is dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar de gerelateerde PBP's expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens. In de realisatie moet dit zo worden vormgegeven dat dit in de uitvoering praktisch makkelijk te hanteren is.
 
 Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig: 
 - Voor gebruikers is dan expliciet bekend welk(e) PBP(’s) bij welk object hoort/horen.
@@ -520,7 +524,7 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 
 - Elk plaatsbepalingspunt heeft een unieke identificatie. 
 - De ligging van elk plaatsbepalingspunt is in coördinaten bekend.
-- In de SOR moet (anders dan op dit moment in de BGT) oor de fysieke objecttypen een administratieve koppeling plaatsvinden van de geometrie van een object naar de desbetreffende PBP's op basis van de identificatie.
+- In de SOR moet (anders dan op dit moment in de BGT) voor de reële objecttypen een administratieve koppeling plaatsvinden van de geometrie van een object naar de desbetreffende PBP's op basis van de identificatie.
 - Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de inwinnende instantie die het heeft bepaald en de inwinningsmethode bekend. 
 
 #### Aandachtspunten voor vastleggen meta-informatie in de SOR
@@ -529,7 +533,7 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 - Zo effectief en efficiënt mogelijk (en daarmee voor belangrijk deel geautomatiseerd) metadata vastleggen 
 - Niet onnodig muteren (met name van geometrie) – alleen het relevante object muteren en niet de aangrenzende objecten in de omgeving allemaal gelijk ook muteren. Het zorgdragen van consistentie van de geometrie is iets voor de producten. Hoe dit het best kan worden opgelost, wordt nog verschillend over gedacht.
 - Zoveel mogelijk als kan werken met domeintabellen in de metadata. Voorbeeld bij inwinning kunnen kiezen uit b.v. terrestrisch, digitalisering, constructie. fotokartering. Dit geldt ook voor "wijze van controle".
-- De ervaring uit de BAG leert dat het opvoeren van brondocumenten een zeer tijdrovende bezigheid is met de vraag of het heeft voldaan aan haar doel. Daarom wordt alleen met formele brondocumenten gewerkt als deze om andere reden al bestaan (zoals vergunningen). In andere gevallen wordt gebruik van bijvoorbeeld luchtfoto of PBP als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
+- De ervaring uit de BAG leert dat het opvoeren van brondocumenten een zeer tijdrovende bezigheid is met de vraag of het heeft voldaan aan haar doel. Daarom wordt alleen met formele brondocumenten gewerkt als deze om andere reden al bestaan (zoals vergunningen). In andere gevallen wordt gebruik van bijvoorbeeld plaatsbepalingspunten of een luchtfoto als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
 
 
 ### Historie
@@ -593,7 +597,7 @@ Op 15-2-2022 worden er luchtfoto's gevlogen die in maart worden uitgewerkt. De g
 Om het tijdreizen voor alle gebruikers begrijpelijk en ook flexibel te maken, wordt in de samenhangende objectenregistratie ook gewerkt met levensfasen (statussen) van objecten. Dit heeft te maken met het feit dat bij het tijdreizen in de registratie niet alle gebruikers dezelfde wensen hebben. Bij bijvoorbeeld het raadplegen van de "actuele" situatie in het kader van calamiteiten is alleen relevant wat er ook daadwerkelijk aan objecten aanwezig is (inclusief objecten "in aanbouw" of "aanleg in uitvoering"). Maar bij vergunningverlening zal men ook willen zien voor welke objecten inmiddels een vergunning is verleend of anderszins in planning zijn.
 
 
-Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo’n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In de samenhangende objectenregistratie komen vier soorten objecttypen voor: fysieke objecttypen, functionele objecttypen, registratieve objecttypen en geografische objecttypen. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen.
+Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo’n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In de samenhangende objectenregistratie komen vier soorten objecttypen voor: reële objecttypen, functionele objecttypen, registratieve objecttypen en geografische objecttypen. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen.
 
 Registratieve objecttypen ontstaan als gevolg van besluitvorming. De levenscyclus van registratieve objecttypen bestaat uit twee levensfasen:
 
@@ -609,7 +613,7 @@ Bij geografische objecttypen wordt eveneens een onderscheid gemaakt naar twee le
 of
 -  Ten onrechte opgevoerd:	het object is ten onrechte in de registratie opgenomen
 
-Bij fysieke objecttypen worden drie hoofdfasen onderscheiden waarbinnen meerdere levensfasen kunnen voorkomen. De te onderscheiden hoofdfasen zijn: planfase, aanwezigheidsfase en afwezigheidsfase. Welke levensfasen concreet worden onderscheiden is afhankelijk van het specifieke objecttype. Voor een vergunningplichtig bouwwerk zijn andere (meer) levensfasen van belang dan bijvoorbeeld voor een landschapselement. In het algemeen zullen voor niet-vergunningplichtige (veelal eenvoudigere) objecten en vergunningplichtige (veelal complexere) objecten de volgende aan het fysiek bestaan van objecten gerelateerde levensfasen voorkomen:
+Bij reële objecttypen worden drie hoofdfasen onderscheiden waarbinnen meerdere levensfasen kunnen voorkomen. De te onderscheiden hoofdfasen zijn: planfase, aanwezigheidsfase en afwezigheidsfase. Welke levensfasen concreet worden onderscheiden is afhankelijk van het specifieke objecttype. Voor een vergunningplichtig bouwwerk zijn andere (meer) levensfasen van belang dan bijvoorbeeld voor een landschapselement. In het algemeen zullen voor niet-vergunningplichtige (veelal eenvoudigere) objecten en vergunningplichtige (veelal complexere) objecten de volgende aan het reel bestaan van objecten gerelateerde levensfasen voorkomen:
 
 |Hoofdfase	|Niet-vergunningplichtig	|Vergunningplichtig|
 |---|---|---|
