@@ -46,7 +46,7 @@ De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptu
 |Spoorweg|	Transport voorziening voor voertuigen die zich over rails verplaatsen.|
 |Waterelement	|Transport voorziening voor water.|
 |Registratief object|	Op basis van wet- of regelgeving afgebakend object dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering.|
-|Geografisch gebied|	Gebied dat bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent.|
+|Geografisch object|	Object dat bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent.|
 |Juridisch werkingsgebied| Gebied waar een juridisch instrument beleid of regelgeving toepast.|
 
 ### Aansluiting sectormodellen
