@@ -22,15 +22,7 @@ In de volgende hoofdstukken is daarom telkens aangegeven hoe SOR-begrippen zich 
 
 ![semantisch model NEN3610](media/Semantisch_model_NEN3610_v5.png)
 
-Met wat meer detail in twee figuren :
-
-![semantisch model NEN3610 linkerzijde](media/NEN3610_semantisch_model_deel_1.png)
-
-en
-
-![semantisch model NEN3610 rechterzijde](media/NEN3610_semantisch_model_deel_2.png)
-
-
+  
 
 De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptueel model als volgt (voorlopig) gedefinieerd:
 
@@ -54,7 +46,7 @@ De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptu
 |Spoorweg|	Transport voorziening voor voertuigen die zich over rails verplaatsen.|
 |Waterelement	|Transport voorziening voor water.|
 |Registratief object|	Op basis van wet- of regelgeving afgebakend object dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering.|
-|Geografisch gebied|	Gebied dat bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent.|
+|Geografisch object|	Object dat bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent.|
 |Juridisch werkingsgebied| Gebied waar een juridisch instrument beleid of regelgeving toepast.|
 
 ### Aansluiting sectormodellen
