@@ -62,17 +62,21 @@ Hierbij is als grondgedachte gehanteerd dat gestreefd moet worden naar een “ui
 
 Deze benadering betekent ook dat ervoor is gekozen om in de eerste opzet van het conceptueel model een aantal gedetailleerde objecttypen of typeringen van objecttypen niet langer als zodanig op te nemen. Deze begrippen zijn dan samengevoegd tot een minder gedetailleerd begrip dat weliswaar nog steeds de essentie aangeeft van het betreffende object, maar dat een mindere mate van detaillering geeft dan in de huidige registratie. Het gaat hierbij overigens veelal om begrippen die in de huidige uitvoeringspraktijk niet of slechts zeer beperkt worden toegepast. Indien het gewenst is wel gedetailleerde informatie over deze objecten te verkrijgen, zal deze moeten worden afgenomen vanuit een sectorale registratie (indien aanwezig).
 
-
-
 ### Overzicht van de SOR-begrippen
 
-De verschillende SOR-begrippen kunnen schematisch in een onderlinge samenhang worden vertoond. Dat leidt tot de volgende verdere uitwerking van het eerder opgestelde inhoudelijk denkraam:
+In aansluiting op de voorgestelde ordening van objecttypen in NEN 3610 en het eerder opgestelde conceptueel denkraam, wordt in de inhoud van de SOR een onderscheid gemaakt tussen reële objecttypen (voorheen fysieke objecttypen) en virtuele objecttypen (waaronder de functionele objecttypen en de registratieve objecttypen). Bij de verdere uitwerking van de inhoud is geconstateerd dat daaraan nog een aantal geografische objecttypen moeten worden toegevoegd. Alle hierbij behorende SOR-begrippen zijn in de hierna volgende hoofdstukken verder uitgewerkt. Het gaat daarbij om een aanzienlijk aantal begrippen.
 
+Om enige ordening aan te brengen in de verschillende SOR-begrippen, zijn deze (in geaggregeerde vorm) opgenomen in het eerder opgestelde conceptueel denkraam. Hierbij ontstaat de volgende geactualiseerde versie van het conceptueel denkraam:
 
 ![denkraamSOR](media/denkraam_sor_nieuw.png)
 
+Dit denkraam geeft dus geen volledig overzicht van alle SOR-begrippen. De indeling in de vier kleurgroepen (bebouwing, water, groen en verharding) is geen onderdeel van het uiteindelijke informatiemodel, maar uitsluitend bedoeld als een hulpmiddel om de verschillende begrippen te kunnen ordenen en ten opzichte van elkaar te kunnen plaatsen.
 
-In de volgende hoofdstukken wordt achtereenvolgens ingegaan op de reële objecttypen, de functionele objecttypen, de registratieve objecttypen en de geografische objecttypen. 
+Het conceptueel denkraam kan, voor die onderdelen van het model waar sprake is van een expliciete samenhang tussen verschillende begrippen, verder worden geconcretiseerd. Daar waar dit wenselijk is kan dit plaatsvinden bij de verdere uitwerking van het conceptueel model. Op dit moment is in elk geval een dergelijke uitwerking beschikbaar voor de verschillende begrippen die raken aan gebouwen: 
+
+![denkraamSOR_gebouw](media/gebouwconcepten.png)
+
+
 
 ###	Beschrijving SOR-begrippen
 
