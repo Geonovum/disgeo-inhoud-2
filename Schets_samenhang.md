@@ -68,7 +68,7 @@ In aansluiting op de voorgestelde ordening van objecttypen in NEN 3610 en het ee
 
 Om enige ordening aan te brengen in de verschillende SOR-begrippen, zijn deze (in geaggregeerde vorm) opgenomen in het eerder opgestelde conceptueel denkraam. Hierbij ontstaat de volgende geactualiseerde versie van het conceptueel denkraam:
 
-
+![denkraamSOR](media/denkraam_sor.png)
 
 Dit denkraam geeft dus geen volledig overzicht van alle SOR-begrippen. De indeling in de vier kleurgroepen (bebouwing, water, groen en verharding) is geen onderdeel van het uiteindelijke informatiemodel, maar uitsluitend bedoeld als een hulpmiddel om de verschillende begrippen te kunnen ordenen en ten opzichte van elkaar te kunnen plaatsen.
 
