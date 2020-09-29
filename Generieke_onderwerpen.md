@@ -191,7 +191,7 @@ Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het ge
 De SOR maakt het op vrijwillige basis mogelijk om ook 3D aspecten van objecten vast te leggen. Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Het gaat hierbij dus om de coordinate dimension (ISO19107) en niet om de dimensie van de geometric primitive (ISO19107) die wordt gebruikt om de geometrie te representeren. Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
 
 <div class='note'>
-    In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraag om een herziening van huidige topologie regels en het begrip maaiveld. 
+    In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraagt om een herziening van huidige topologie regels en het begrip maaiveld. 
 </div>
 
 #### Geometrie-type
@@ -245,10 +245,12 @@ lineair referencing wordt door Inspire geadviseerd:
 
 ![requirement inspire](media/inspire_lrm1.png) 
 
-Dit figuur laat de werknig van linear referencing zien :
+Dit figuur laat de werking van linear referencing zien :
 
 
 ![lineair referencing](media/inspire_lrm2.png)
+
+Let op: als iets in de werkelijkheid zowel een fysiek voorkomen heeft als een funcite, dan moet de geoemtrie van het functionele object afgeleid worden van het fysieke, ook als dit via lineair referencing wordt vastgelegd. 
 
 
 ### Netwerken
@@ -320,7 +322,7 @@ In deze paragraaf worden op een generiek niveau Ontwerpprincipes hiervoor benoem
 **BEGRIPPEN**
 
 **cartografisch object** 
-Een object wat voor een visualisatie wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie van die visualisatie hoe lang die visualisatie ook beschikbaar is
+Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie van die visualisatie hoe lang die visualisatie ook beschikbaar is
 
 **generaliseren**
 Dit betreft het zinvol vereenvoudigen, verplaatsen  of ‘opblazen’ van de geometrie van objecten.
@@ -341,7 +343,7 @@ Ontwerpprincipe:
 
 **objecttypen worden enkel en alleen op het voor de SOR meest gedetailleerde noodzakelijke niveau vastgelegd (de kleinste semantische eenheden)**
 
-Dit detailniveau kan per objecttype verschillen.
+Dit detailniveau kan per objecttype verschillen.  Voor met name geografische objecttypen is vaak een minder gedetailleerd niveau noodzakelijk. Denk bijvoorbeeld aan de begrenzing van een streek als de 'Utrechtse Heuvelrug' of het Continentaal Plat.
 
 Ontwerpprincipe: 
 
