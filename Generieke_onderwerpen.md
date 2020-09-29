@@ -567,7 +567,7 @@ Bij de registratie zijn toekomstmutaties mogelijk, maar dit is niet "de regel". 
 Hoewel het vastleggen van de levensduur van een object (ingangsdatumObject en einddatumObject) redundant is, omdat deze levensduur altijd afgeleid kan worden uit de tijdlijn geldigheid, wordt in het historiemodel er vanuit gegaan dat de levensduur afzonderlijk wordt geregistreerd. De ingangsdatumObject zal gelijk zijn aan de oudste beginGeldigheid voor een status "bestaand/geldig" van het betreffende object. Een gebruiker kan deze ingangsdatumObject eventueel zelf afleiden uit de tijdlijn geldigheid, maar er wordt voor gekozen om, parallel aan de registratie van geboortedatum en overlijdensdatum bij personen, de ingangsdatumObject en einddatumObject wel afzonderlijk in de registratie (of in ieder geval in de informatieproducten) op te nemen.
 
 #### Toepassing van historie
-Het hierboven geschetste model wprdt verplicht  voor alle onderdelen van de SOR. Afnemers kunnen daarbij per attribuut informatie krijgen over beide tijdlijnen. Dit is volgens het historiemodel in samenhang met het voor de SOR op te stellen informatiemodel in beginsel beperkt tot die attributen waarvoor in het informatiemodel wordt vastgelegd dat zij voorzien worden van een tijdlijn geldigheid of van een tijdlijn geldigheid plus tijdlijn registratie. Het aanduiden van het relevant zijn van deze tijdlijnen kan in het informatiemodel, wanneer dat conform het Metamodel voor informatiemodellen (MIM 1.1) wordt opgesteld (Binnen het MIM 1.1 worden nog wel de begrippen materiële en formele historie gebruikt).
+Het hierboven geschetste model wordt verplicht voor alle onderdelen van de SOR. Afnemers kunnen daarbij per attribuut informatie krijgen over beide tijdlijnen. Dit is volgens het historiemodel in samenhang met het voor de SOR op te stellen informatiemodel in beginsel beperkt tot die attributen waarvoor in het informatiemodel wordt vastgelegd dat zij voorzien worden van een tijdlijn geldigheid of van een tijdlijn geldigheid plus tijdlijn registratie. Het aanduiden van het relevant zijn van deze tijdlijnen kan in het informatiemodel, wanneer dat conform het Metamodel voor informatiemodellen (MIM 1.1) wordt opgesteld (Binnen het MIM 1.1 worden nog wel de begrippen materiële en formele historie gebruikt).
 
 Er zou bijvoorbeeld afgezien kunnen worden van het vastleggen van deze tijdlijnen, wanneer geen enkele gebruiker nu of in de toekomst behoefte heeft aan deze tijdlijnen voor het desbetreffende attribuut. Een voorbeeld hiervan zou kunnen zijn de toegang tot een verblijfsobject. Dit kenmerk van een verblijfsobject is vooral van belang om hulpdiensten te ondersteunen bij het zo snel mogelijk binnenkomen van een verblijfsobject. Dit is uitsluitend relevant in de actuele situatie. Het in de SOR opnemen van een tijdlijn voor het attribuut toegang is daarom mogelijk niet relevant is, omdat geen enkele afnemer geïnteresseerd is in het feit dat in het verleden de toegang tot dit verblijfsobject elders was. Aan de andere kant kan ook de principiële keuze gemaakt worden dat gegevens in een basisregistratie "niet weggegooid worden". Dat uitgangspunt zou betekenen dat voor alle attributen in de SOR zowel de tijdlijn geldigheid als de tijdlijn registratie verplicht zouden zijn.
 
@@ -631,7 +631,7 @@ De bij de levensfasen voor niet-vergunningplichtige objecttypen behorende toelic
 
 |Waarde status|	Beschrijving|
 |---|---|
-|Gepland|	Een object in ontwerpfase of in aanbouw|
+|Gepland| Een object dat zich in de ontwerpfase bevindt of in aanbouw is.	|
 |Bestaand	|Een object dat in gebruik is of als gebruiksgereed kan worden beschouwd, dan wel buiten gebruik is gesteld|
 |Verwijderd|	Een object dat feitelijk is verwijderd|
 |Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
@@ -655,7 +655,7 @@ De bij de levensfasen voor vergunningplichtige objecttypen behorende toelichting
 
 Bij functionele objecttypen zijn de levensfasen van een object meer verbonden aan het gebruik ervan. Ook hier worden in het algemeen de drie genoemde hoofdfasen onderscheiden, waarbij de te onderscheiden levensfasen afhankelijk zijn van het specifieke objecttype. In het algemeen zullen de volgende levensfasen voorkomen:
 
-|Hoofdfase	|Transportvoorziening	|Functionele indeling|
+|Hoofdfase	|Transportvoorziening	|Functionele zonering|
 |---|---|---|
 |Planfase	|Gepland	|Gepland|
 |Aanwezigheidsfase	|Gevormd	|Gevormd|
@@ -665,7 +665,7 @@ Bij functionele objecttypen zijn de levensfasen van een object meer verbonden aa
 ||Niet gerealiseerd	|Niet gerealiseerd|
 ||	Ten onrechte	|Ten onrechte|
 
-Als voorbeeld van een functioneel objcttype worden transportvoorzieningen gebruikt. De hierbij behorende toelichtingen voor de levensfasen van transportvoorzieningen zijn:
+De hierbij behorende toelichtingen voor de levensfasen van transportvoorzieningen zijn:
 
 |Waarde status	|Beschrijving|
 |---|---|
@@ -677,7 +677,7 @@ Als voorbeeld van een functioneel objcttype worden transportvoorzieningen gebrui
 |Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
 |Ten onrechte	|Een object dat ten onrechte is opgevoerd in de registratie|
 
-De bij functionele indelingen behorende toelichtingen voor de levensfasen zijn:
+De bij functionele zoneringen behorende toelichtingen voor de levensfasen zijn:
 
 |Waarde status|	Beschrijving|
 |---|---|
