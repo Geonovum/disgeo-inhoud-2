@@ -48,7 +48,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |bestaand|
 |verwijderd|
 |niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type watervlakte*
 
@@ -107,7 +107,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |bestaand|
 |verwijderd|
 |niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type waterloop*
 
@@ -166,7 +166,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |bestaand|
 |verwijderd|
 |niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 #### Getijdengebied
 | Klasse  | Naam  |
@@ -211,7 +211,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |bestaand|
 |verwijderd|
 |niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 .
 
@@ -263,7 +263,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 .
 
@@ -314,7 +314,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 
 
@@ -329,8 +329,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Struiken |
 |---|---|
-| Definitie |Terreindeel bedekt met lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en eventueel aanwezigheid van enkele verspreid staande stammen.   |    |
-|Herkomst definitie  |  BGT 1.1.1 |
+| Definitie |Terreindeel bedekt met lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en eventueel aanwezigheid van enkele verspreid staande stammen.   |   
+|Herkomst definitie  |  BGT 1.2 |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struiken*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting| | 
@@ -342,7 +342,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   | De unieke aanduiding van struiken. |Ja |
 |Geometrie| De geometrische representatie van de randen van struiken. |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin de betreffende struiken zich bevinden.  |Ja   |
-|Type struiken| Aanduiding soort struiken.|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -359,21 +358,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
-*type struiken*
 
-|Waarde Type struiken| Beschrijving   |
-|---|---|
-| heesters |Beplanting van houtige gewassen die struikvormend zijn en die al dan niet een  gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit één soort of uit meerdere soorten bestaan. Onder de heesters kan een houtachtige of kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met struikachtige gewassen is meer dan 50% van de totale oppervlakte van het vak.  | 
-| bosplantsoen |Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant.De beplanting kan open of  gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.   |
-| planten|Beheerde niet nader gespecificeerde beplanting van groenvak in de openbare ruimte.|
-| struikrozen|Beheerde beplanting van groenvak in de openbare ruimte, zijnde in struikvorm groeiende rozen.|
-| bodembedekkers|Beheerde beplanting van groenvak in de openbare ruimte, zijnde bodembedekkers.|
-
-<div class='note'>
-    Afstemming met IMBOR nodig. 
-</div>
 
 
 #### Onbegroeide grond
@@ -418,7 +405,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type*
 
@@ -469,7 +456,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 <div class='note'>
     BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in bouwland. 
@@ -517,7 +504,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 .
 
@@ -575,7 +562,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 .
 
@@ -632,7 +619,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|	
 |Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+|Ten onrechte|	
 
 *landschapselement*
 
@@ -641,7 +628,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | bomenrij|opgaande begroeiing van bomen zonder struiken  |
 | houtsingel |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
 | haag |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
-| tuunwal| Op elkaar gestapelde grasplaggen als scheiding tussen twee percelen.   |
+
 
 
 #### Boom
@@ -685,7 +672,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 
 
@@ -758,7 +745,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |In verbouw|	
 |Gesloopt|	
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 
 
@@ -1135,7 +1122,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type verharding*
 
@@ -1195,7 +1182,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type overbrugging* 
 
@@ -1266,7 +1253,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *Type kunstwerkdeel*
 
@@ -1326,7 +1313,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type ondertunneling*
 
@@ -1395,7 +1382,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type kerend kunstwerk*
 
@@ -1457,7 +1444,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type overig kunstwerk*
 
@@ -1522,7 +1509,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 
 #### Hek
@@ -1569,7 +1556,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 
 #### Raster
@@ -1615,7 +1602,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 
 #### Scherm
@@ -1661,7 +1648,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 
 
@@ -1707,7 +1694,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 .
 
@@ -1763,7 +1750,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 .
 
@@ -1820,7 +1807,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 .
 
@@ -1872,7 +1859,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 .
 
@@ -1931,7 +1918,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 .
 
@@ -1985,7 +1972,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type mast*
 
@@ -2043,7 +2030,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type straatmeubilair*
 
@@ -2113,7 +2100,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type sensor*
 
@@ -2165,7 +2152,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type paal*
 
@@ -2250,7 +2237,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 *type kast*
 
@@ -2305,7 +2292,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 
 
@@ -2350,7 +2337,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Bestaand|	
 |Verwijderd|
 |Niet gerealiseerd|
-|Ten onrechte opgevoerd|
+|Ten onrechte|
 
 
 
