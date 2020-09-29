@@ -14,7 +14,7 @@
 |Herkomst definitie  | Gebaseerd op definitie Plaats in BRT  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Bebouwde kom is op dit moment nog geen onderdeel van een basisregistratie. Wel zijn in de BRT plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. Door de opname van bebouwde kom in de objectenregistratie ontstaat een formele vastlegging van een algemeen bruikbare bebouwde kom.  |
-|Toelichting|   |
+|Toelichting| De hier beschreven algemeen toepasbare bebouwde kom (zonder juridische status) moet niet worden verward met enkele andere bestaande definities van bebouwde kom (die wel een juridische grondslag kennen in specifieke wetgeving). Hierbij kan worden gedacht aan de bebouwde kom in het kader van Wegenverkeerswet, Wegenwet, Wet natuurbescherming en Omgevingswet. De diversiteit in achterliggende doelstellingen van genoemde wetgeving maakt het op dit moment niet mogelijk te komen tot één uniforme definitie van bebouwde kom.   |
 
 **Eigenschappen**
 
