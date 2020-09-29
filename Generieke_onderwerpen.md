@@ -201,9 +201,6 @@ Er wordt hietrbij verwezen naar de Simple Features, zoals vastgelegd in ISO19125
 
 #### Topologie
 
-Ontwerpprincipe: 
-
-**Het semantisch model van de SOR conformeert zich aan NEN3610**
 
 Ontwerpprincipe: 
 
@@ -211,7 +208,7 @@ Ontwerpprincipe:
 
 Ontwerpprincipe: 
 
-**Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.**
+**Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken, daarom wordt de term *Referentielaag* gehanteerd.**
 
 Deze Referentielaag wordt 
 - In geval van fysieke objecttypen volledig gedekt door objecten uit de objecttypen BODEM en WATER.
@@ -220,6 +217,7 @@ Deze Referentielaag wordt
    -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
 
+Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moest worden aangepast. Met de nieuwe aanpak van de SOR vervalt de verplichting om grenzen tussen object zo precies gelijk te houden, behalve voor de genoemde objecttypen BODEM en WATER
 
 Ontwerpprincipe: 
 
