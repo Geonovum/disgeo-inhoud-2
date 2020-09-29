@@ -220,7 +220,6 @@ Deze Referentielaag wordt
    -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
 
-![topologie](media/topologie.png)
 
 Ontwerpprincipe: 
 
