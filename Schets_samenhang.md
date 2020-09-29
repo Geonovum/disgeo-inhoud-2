@@ -22,7 +22,7 @@ In de volgende hoofdstukken is daarom telkens aangegeven hoe SOR-begrippen zich 
 
 ![semantisch model NEN3610](media/Semantisch_model_NEN3610_v5.png)
 
-
+  
 
 De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptueel model als volgt (voorlopig) gedefinieerd:
 
