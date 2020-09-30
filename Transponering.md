@@ -69,7 +69,7 @@
 |||struikrozen|begroeiing: struiken|
 |||heesters|begroeiing: struiken|
 |||bodembedekkers|begroeiing: struiken|
-|||||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
 |**Spoor**|Functie:|||
 ||trein||spoorweg netwerk|
 ||sneltram||vervalt, samenvoegen met tram|
