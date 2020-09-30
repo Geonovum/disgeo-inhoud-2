@@ -119,7 +119,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Herkomst definitie  | Grondwet en Waterschapswet.  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen.  |
-|Toelichting|In een latere fase moet nog worden bepaald welke gebiedsbegrenzing wordt vastgelegd (de administratieve gebiedsbegrenzing of het regelementsgebied). |
+|Toelichting|In een latere fase moet nog worden bepaald welke gebiedsbegrenzing wordt vastgelegd (de administratieve gebiedsbegrenzing of het reglementsgebied). |
 
 **Eigenschappen**
 
