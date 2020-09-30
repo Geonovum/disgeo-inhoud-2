@@ -1,7 +1,9 @@
 ## Transponering
 
 ### BGT
-nieuwe tabel
+
+
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip|
 |-----------------|----------------------|-----------------|---------------|
 |*Transport*||||
