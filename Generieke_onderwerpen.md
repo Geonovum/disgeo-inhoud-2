@@ -391,16 +391,15 @@ Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een ei
 
 ### Meta-informatie en bronverwijzing
 
-#### Inleiding
+#### Relevante aspecten meta-informatie
 Mata-informatie is een breed begrip dat door wikipedia als volgt wordt omschreven: "Meta-informatie bevat alle informatie die ertoe bijdraagt gegevens tot informatie te verheffen. Anders gezegd: omdat meta-informatie gegevens in een bepaalde context zet, is meta-informatie de factor die gegevens tot informatie verheft.
 Onder meta-informatie kan zowel de expliciet beschrijvende als de impliciet aanwezige informatie over structuur, betekenis, onderlinge relaties, locatie, status, eigenaarschap, enz. van gegevens worden verstaan. Ook alle informatie over de applicaties en processen die de gegevens manipuleren, valt onder de noemer meta-informatie."
 In dit document kijken we met name naar dat deel van de meta-informatie die inhoudelijk van belang is voor gebruikers van de gegevens uit de objectenregistratie en voor de bijhouding van de gegevens door bronhouders.
 Immers meta-informatie is essentieel voor de gebruiker van gegevens om te beoordelen of het gegeven in de objectenregistratie geschikt is voor het doel waarvoor de gegevens gebruikt worden. Een oppervlakte van een woning die 25 jaar geleden voor het laatst gecontroleerd is, kan geschikt zijn voor het bepalen van een algemeen kengetal over de totale omvang van de woningvoorraad in een gemeente, maar is ongeschikt voor het opleggen van een belastingaanslag aan de eigenaar van die woning.
 Aan de andere kant is meta-informatie essentieel voor de bronhouders van de gegevens, omdat ze de noodzakelijke stuurinformatie bieden over de wijze waarop invulling wordt gegeven aan die verantwoordelijkheid en over de werkzaamheden die de komende periode gedaan moeten worden. Metagegevens zijn voor de bronhouders van betekenis voor beheersing van hun bijhoudingsproces. Ook deze aspecten gericht op de bijhoudingsprocessen maken een inherent onderdeel uit van de objectenregistratie.
 Alle meta-informatie die niet de inhoud van de gegevens betreft, laten we in dit document buiten beschouwing. Dat gedeelte van de meta-informatie is niet relevant voor het uitwerken van het informatiemodel voor de SOR. De niet-inhoudelijke aspecten van de meta-informatie worden opgepakt in het kader van de architectuur en de uitwerking daarvan. Bijvoorbeeld praktische aspecten omtrent beschikbaarheid, inclusief aandachtspunten als kosten, technische specificaties voor bevraging en ander services, url of andere toegangsinformatie.
-Relevante aspecten van meta-informatie
 De voor de bronhouders en gebruikers van de SOR relevante inhoudelijke meta-informatie wordt in de context van dit document onderverdeeld in de volgende aspecten:
--	Definitie van gegeven (op niveau van objecten en attributen)
+-	Definities (op niveau van objecten en attributen)
 -	Tijdsaspecten (historie en levensfase)
 -	Bronverwijzing
 -	Autorisatie
@@ -409,14 +408,14 @@ De voor de bronhouders en gebruikers van de SOR relevante inhoudelijke meta-info
 -	Status
 
 
-1.	De formele definitie van objecten (objecttypen) en attributen (attribuuttypen) die worden geregistreerd in de SOR moet voor bronhouder en gebruiker helder aangeven wat de betekenis is van een bepaald gegeven, maar ook over welke reële objecten bijvoorbeeld wel en welke niet geregistreerd worden in de SOR.
+1.	De formele definitie van objecten (objecttypen) en eigenschappen (attribuuttypen) die worden geregistreerd in de SOR moet voor bronhouder en gebruiker helder aangeven wat de betekenis is van een bepaald gegeven, maar ook over welke reële objecten bijvoorbeeld wel en welke niet geregistreerd worden in de SOR.
 
 2.	Alle meta-informatie die een tijdsaspect heeft (historie, levensfase) komt in de volgende paragraaf van dit document afzonderlijk aan de orde.
 
 3.	Bronverwijzing betreft aan de ene kant de formele onderbouwing van gegevens, bijvoorbeeld formele brondocumenten, zoals vergunningen en besluiten, maar aan de andere kant ook de meer technische bron van de gegevens, zoals plaatsbepalingspunten en indirect luchtfoto's, metingen en BIM-modellen. De plaatsbepalingspunten zijn daarmee een bijzondere vorm van bronverwijzing in het kader van de geometrie binnen de SOR. Een ander aspect van de bronverwijzing is de vastlegging van de reden van wijziging van een attribuut.
 Voor de SOR wordt voorgesteld het uitgangspunt te hanteren dat bij elke wijziging van een attribuut ook een reden wordt geregistreerd. Deze verplichting vereenvoudigt bijvoorbeeld het afhandelen van terugmeldingen. De bronhouder weet dan altijd waarom het gegeven geregistreerd is. Het is aan te bevelen om "reden van wijziging" vast te leggen aan de hand van een waardelijst, waarbij wellicht bij sommige "gebeurtenissen" sprake kan zijn van een combinatie van redenen uit deze waardelijst. Een correctie is ook een in deze waardelijst op te nemen "gebeurtenis".  
 
-Alleen in uitzonderingsgevallen is het nodig om de "reden van wijziging" ook vast te leggen in de vorm van een formeel brondocument. Alleen wanneer er sprake is van een bestaand brondocument (zoals een vergunning) heeft een verwijzing naar dit formele document toegevoegde waarde. Met de SOR vervallen verplichtingen tot het opstellen van brondocumenten, uitsluitend om daarmee een "reden van wijziging" als metagegeven te kunnen vastleggen.
+Alleen in uitzonderingsgevallen is het nodig om de "reden van wijziging" ook vast te leggen in de vorm van een formeel brondocument. Alleen wanneer er sprake is van een bestaand brondocument (zoals een vergunning) heeft een verwijzing naar dit formele document toegevoegde waarde. In de SOR kunnen verplichtingen tot het opstellen van brondocumenten, uitsluitend om daarmee een "reden van wijziging" als metagegeven te kunnen vastleggen, dan vervallen.
 
 4.	Het aspect autorisaties betreft de formele voorschriften over bronhouders en afnemers. Hieronder vallen bijvoorbeeld de gebruiksautorisaties en daarmee de mate van openbaarheid. Het uitgangspunt van de SOR is dat alle gegevens als open data beschikbaar zijn. Daarbij is het aspect van gebruikersautorisaties minder relevant.
 Naast gebruikersautorisatie is ook mutatieautorisatie gewenst, zodat bekend is wie bepaalde mutaties mag aanbrengen. Daarmee is ook duidelijk waar men moet zijn bij een vraag over een waarde van een gegeven. Default is dat de bronhouder van het desbetreffende objecttype/object, maar bij uitzondering kan dat een andere partij zijn en die moet daar dan wel voor zijn geautoriseerd en dat moet vastgelegd kunnen worden op attribuutniveau.
@@ -427,13 +426,13 @@ Bij geometrie kan het noodzakelijk zijn dat de bronhouder van een bepaald object
 
 De gewenste controlefrequentie kan sterk verschillen per objecttype/attribuuttype. De begrenzing van een woonplaats zal immers in de werkelijkheid minder aan verandering onderhevig zijn dan de geometrie van de achtergevel van een woning.
 
-6.	De meta-informatie over de precisie en betrouwbaarheid van de gegevens worden breed gezien als de belangrijkste metagegevens. Er bestaat echter geen gezamenlijk beeld hoe deze precisie en betrouwbaarheid objectief en kwantitatief op een doelmatige wijze bepaald en geregistreerd kan worden.
+6.	De meta-informatie over de precisie en betrouwbaarheid van de gegevens worden breed gezien als de belangrijkste metagegevens. Er bestaat echter nog geen gezamenlijk beeld hoe deze precisie en betrouwbaarheid objectief en kwantitatief op een doelmatige wijze bepaald en geregistreerd kan worden.
 
-Tot de gewenste meta-informatie hoort in ieder geval wijze van inwinning (controle) en controledatum die wel eenvoudig geregistreerd kunnen worden. Voor het vastleggen van de precisie van gegevens (met name geometrie) lijkt het vastleggen van de bereikte precisie in de vorm van een klasse van nauwkeurigheid een haalbare optie. De geometrie van een zandweg valt dan in een minder nauwkeurige klasse dan de geometrie van een pand. De zorgen over de uitvoerbaarheid van het bijhouden van deze meta-informatie zullen moeten worden weggenomen door de functionaliteit van de bijhoudingssoftware. De bijhoudingssystemen zouden dan bijvoorbeeld in één keer voor alle objecten in een gecontroleerd gebied deze metagegevens moeten kunnen registreren. Het vastleggen van een controledatum, verhoogt de betrouwbaarheid, ook al is er aan de vastlegging van het object niets gewijzigd, je laat daarmee zien aan de gebruikers dat de waarde van een gegeven nog steeds actueel is en een (aangrenzende) bronhouder in dat gebied kan zien dat object al bekeken is. 
+Tot de gewenste meta-informatie hoort in ieder geval wijze van inwinning (controle) en controledatum die wel eenvoudig geregistreerd kunnen worden. Voor het vastleggen van de precisie van gegevens (met name geometrie) lijkt het vastleggen van de bereikte precisie in de vorm van een klasse van nauwkeurigheid een haalbare optie. De geometrie van een zandweg valt dan in een minder nauwkeurige klasse dan de geometrie van een pand. De zorgen over de uitvoerbaarheid van het bijhouden van deze meta-informatie zullen moeten worden weggenomen door de functionaliteit van de bijhoudingssoftware. De bijhoudingssystemen zouden dan bijvoorbeeld in één keer voor alle objecten in een gecontroleerd gebied deze metagegevens moeten kunnen registreren. Het vastleggen van een controledatum, verhoogt de betrouwbaarheid, ook al is er aan de vastlegging van het object niets gewijzigd. Je laat daarmee zien aan de gebruikers dat de waarde van een gegeven nog steeds actueel is en een (aangrenzende) bronhouder in dat gebied kan zien dat object al bekeken is. 
 
 7.	Meta-informatie over de status van de gegevens is bijvoorbeeld om te beoordelen of een (overheids-) gebruikers van de registratie verplicht is de desbetreffende gegevens te gebruiken. Bijvoorbeeld wanneer een attribuut de status "inOnderzoek" heeft vervalt de gebruiksplicht. Daarnaast zal de SOR bestaan uit verplichte inhoud en optionele inhoud. De status "optioneel" zal dan ook betekenen dat het gebruiken van die gegevens niet verplicht is.
 
-De status "inOnderzoek" is inmiddels binnen de basisregistraties voldoende bekend. Deze status hangt samen met formele terugmeldingen door gebruikers. Parallel hieraan is het wellicht ook een goed idee om op een vergelijkbare manier een status te kunnen aangeven voor "inBewerking" (bijvoorbeeld wanneer de gemeente zelf met de inmeting van een gegeven bezig is), voor "inDiscussie" (bij bijvoorbeeld een metingsverschil tussen twee aangrenzende bronhouders), "reactieBelanghebbende" (wanneer in het kader van "Regie op gegevens" een betrokkene suggesties heeft gedaan voor aanpassingen).
+De status "inOnderzoek" is inmiddels binnen de basisregistraties voldoende bekend. Deze status hangt samen met formele terugmeldingen door gebruikers. Daarnaast valt te overwegen om op een vergelijkbare manier een status te kunnen aangeven voor "inBewerking" (bijvoorbeeld wanneer de gemeente zelf met de inmeting van een gegeven bezig is), voor "inDiscussie" (bij bijvoorbeeld een metingsverschil tussen twee aangrenzende bronhouders), "reactieBelanghebbende" (wanneer in het kader van "Regie op gegevens" een betrokkene suggesties heeft gedaan voor aanpassingen).
 
 Voor de meta-informatie over "inOnderzoek" is het ook nuttig om apart te kunnen raadplegen dat een terugmelding is onderzocht en afgewezen. Het kan handig zijn (voor zowel een eventuele terugmelder als de bronhouder die moet onderzoeken) te weten dat er een melding is geweest, maar dat onderzoek heeft opgeleverd dat die melding onterecht was. Dat scheelt mogelijk bij een volgende melding, ook een in de directe nabijheid. Deze behoefte aan een metagegeven moet wel gezien worden in het licht van het vastleggen van de historie van terugmeldingen.
 
@@ -454,8 +453,8 @@ Om recht te doen aan dit Ontwerpprincipe zodat deze metagegevens net zo toeganke
 
 Daarnaast wordt in het informatiemodel vastgelegd wie de bronhouder is voor een objecttype. Het is mogelijk dat in het informatiemodel wordt gespecificeerd dat er verschillende (categorieën) bronhouders zijn voor één objecttype. De bronhouder is de partij die objecten kan opvoeren en afvoeren.
 
--	Op terrein van de kwaliteitseisen wordt de populatie die wordt opgenomen in de SOR beschreven. Om helder te maken dat bijvoorbeeld niet alle gebouwtjes of alle bomen in de SOR worden opgenomen. Aanvullend zal een eis over binnen welke termijn (aantal dagen/maanden) na realisatie/ontstaan van een object, dit object beschikbaar moet zijn in de SOR, gespecificeerd moeten worden.
--	Per objecttype wordt aangegeven of het objecttype behoort tot de verplichte inhoud van de SOR of optioneel is (meta-informatie Status).
+-	Op terrein van de kwaliteitseisen wordt de populatie die wordt opgenomen in de SOR beschreven. Om helder te maken dat bijvoorbeeld niet alle bomen in de SOR worden opgenomen. Aanvullend zal een eis over binnen welke termijn (aantal dagen/maanden) na realisatie/ontstaan van een object, dit object beschikbaar moet zijn in de SOR, gespecificeerd moeten worden.
+-	Per objecttype wordt aangegeven of het objecttype behoort tot de verplichte inhoud van de SOR of optioneel is.
 
 
 **Per attribuuttype** wordt in het informatiemodel de volgende meta-informatie vastgelegd:
@@ -469,10 +468,10 @@ Bij de geometrie kan sprake zijn van specifieke kwaliteitseisen die voortkomen u
 
 De gebruikers/afnemers mogen erop vertrouwen dat in de producten die zij ontvangen wel aan deze eisen aan samenhang tussen geometrie wordt voldaan. Dit kan betekenen dat er in de afnemersproducten wordt afgeweken van de door de bronhouder geregistreerde geometrie om bijvoorbeeld de aansluiting te realiseren.
 
--	Per attribuuttype wordt aangegeven of het attribuuttype behoort tot de verplichte inhoud van de SOR of optioneel is (meta-informatie Status).
+-	Per attribuuttype wordt aangegeven of het attribuuttype behoort tot de verplichte inhoud van de SOR of optioneel is.
 
 
-Naast deze meta-informatie die in het informatiemodel zelf wordt vastgelegd, specificeert het informatiemodel ook welke metagegevens per object en/of per attribuut in de registratie worden opgenomen. De uitgangspunten voor de registratie van metagegevens in de SOR komen in de volgende twee paragrafen aan de orde.
+Naast deze meta-informatie die in het informatiemodel zelf wordt vastgelegd, specificeert het informatiemodel ook welke metagegevens per object en/of per attribuut in de registratie worden opgenomen. Deze komen hierna aan de orde.
 
 #### Registeren metagegevens per object
 Per object worden de volgende metagegevens vastgelegd:
@@ -491,13 +490,13 @@ Naast de genoemde metagegevens die gericht zijn op zowel gebruikers als bronhoud
 Per attribuut worden de volgende metagegevens vastgelegd:
 
 -	Bronverwijzing: Bij alle attributen wordt vastgelegd de wijziging op grond waarvan het betreffende attribuut (wijziging van een attribuut) in de registratie is opgenomen aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.). 
--   Bronverwijzing: bij 3D-geometrie wordt vastgelegd hoe deze tot stand is gekomen, bijvoorbeeld door post-processing, door 3D inwinning of andres.
+-   Bronverwijzing: bij 3D-geometrie wordt vastgelegd hoe deze tot stand is gekomen, bijvoorbeeld door post-processing, door 3D inwinning of anders.
 Afhankelijk van de achtergrond van het opvoeren of wijzigen van een attribuut in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 Bij het attribuut geometrie kan ook sprake zijn van een bronverwijzing naar een plaatsbepalingspunt (zie paragraaf 3.5.5).
 
 -	In het kader van de autorisatie kan eventueel per attribuut vastgelegd worden wie de verantwoordelijke bronhouder is, wanneer dit een ander is dan de bronhouder voor het object. Of dit relevant is en op welke wijze de verantwoordelijke bronhouder wordt geregistreerd, wordt gespecificeerd in het informatiemodel. Ook kan er sprake zijn van het vastleggen van specifieke gebruiksautorisaties (bijvoorbeeld specifieke attributen die niet openbaar zijn). Of dit aan de orde is, wordt ook gespecificeerd in het informatiemodel.
 
-Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronhouder van geometrie, wanneer dit (vlak)geometrie betreft die (verplicht) aansluit op vlakgeometrie in beheer bij een andere bronhouder. Wanneer de bronhouder dan geometrie heeft geregistreerd die niet voldoet aan deze eisen (bijvoorbeeld de gemeente registreert een vlak buiten de contour van de gemeentegrens) kan in een geleverd product sprake zijn van een "gecorrigeerde" geometrie. Het feit dat in het geleverde product sprake is van een correctie wordt ook zichtbaar in de meta-informatie door bij de "verantwoordelijk bronhouder" aan te geven dat sprake is van een correctie door de informatieverstrekker.
+Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronhouder van geometrie, wanneer dit (vlak)geometrie betreft die (verplicht) aansluit op vlakgeometrie in beheer bij een andere bronhouder. Wanneer de bronhouder dan geometrie heeft geregistreerd die niet voldoet aan deze eisen (bijvoorbeeld de gemeente registreert een vlak buiten de contour van de gemeentegrens) kan in een geleverd product sprake zijn van een "gecorrigeerde" geometrie. Het feit dat in het geleverde product sprake is van een correctie wordt ook zichtbaar in de meta-informatie door bij de "verantwoordelijk bronhouder" aan te geven dat sprake is van een correctie door een andere bronhouder.
 	
 -	Tot de basis metagegevens per attribuut op het aspect van kwaliteit behoren: wijze van inwinning (aan de hand van waardelijst) en uitvoerder inwinning, wijze en moment van controle en uitvoerder controle. Voor de geometrie wordt dit aangevuld met een aanduiding van de klasse van nauwkeurigheid van de geregistreerde geometrie.
 
@@ -527,7 +526,9 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 - In de SOR moet (anders dan op dit moment in de BGT) voor de reële objecttypen een administratieve koppeling plaatsvinden van de geometrie van een object naar de desbetreffende PBP's op basis van de identificatie.
 - Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de inwinnende instantie die het heeft bepaald en de inwinningsmethode bekend. 
 
-#### Aandachtspunten voor vastleggen meta-informatie in de SOR
+#### Verdere aandachtspunten meta-informatie
+
+In het voorgaande is een eerste schets gegeven van het onderwerp meta-informatie in de SOR. Bij de verdere uitwerking van het informatiemodel zal daaraan nog een verdere invulling moeten worden gegeven. Een aantal te maken keuzen zijn daarbij afhankelijk van besluiten die nog moeten worden genomen over onder meer de toewijzing van verantwoordelijkheden, de omgang met brondocumenten en de concreet te stellen kwaliteitseisen. Voor de verdere uitwerking worden nog een aantal aandachtspunten meegegeven:
 
 - Meta-informatie makkelijk kunnen registreren met ondersteuning vanuit de systemen, zodat het bijvoorbeeld eenvoudig is om metagegevens over te nemen naar andere objecten (bijvoorbeeld alle gebouwen binnen een luchtfoto de status "gecontroleerd" te geven,
 - Zo effectief en efficiënt mogelijk (en daarmee voor belangrijk deel geautomatiseerd) metadata vastleggen 
