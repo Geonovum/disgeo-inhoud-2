@@ -1,5 +1,12 @@
 ## Transponering
 
+In dit hoofdstuk wordt aangegeven hoe elementen uit de huidige basisregistraties als begrip terugkomen in de samenhangende objectenregistratie. 
+Ook wordt aangegeven als er voor is gekozen om bepaalde elementen NIET terug te laten keren in de SOR. 
+Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden overgenomen. 
+
+
+
+
 ### BGT
 
 
