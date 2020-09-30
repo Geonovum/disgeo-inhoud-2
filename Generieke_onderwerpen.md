@@ -235,7 +235,7 @@ In een situatie waarin alle objecten een 3D-geometrie hebben is relatieve hoogte
 Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afspraken nodig over op welke wijze deze verticale informatie in de gegevensverzameling wordt vastgelegd.
 
 **Niveauaanduidingen per object**
-Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de refeerentielaag bevindt (niveau 0)  of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
+Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de referentielaag bevindt (niveau 0)  of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
 
 
 #### Lineair referencing
@@ -251,14 +251,14 @@ Dit figuur laat de werking van linear referencing zien :
 
 ![lineair referencing](media/inspire_lrm2.png)
 
-Let op: als iets in de werkelijkheid zowel een reel voorkomen heeft als een funcite, dan moet de geoemtrie van het functionele object afgeleid worden van het reële, ook als dit via lineair referencing wordt vastgelegd. 
+Let op: als iets in de werkelijkheid zowel een reel voorkomen heeft als een functie, dan moet de geometrie van het functionele object afgeleid worden van het reële, ook als dit via lineair referencing wordt vastgelegd. 
 
 
 ### Netwerken
 
 In de samenhangende objectenregistratie worden vier transportnetwerken onderscheiden: wegen, spoor, water en scheepvaart. Netwerken zijn een verdere uitwerking van de virtuele objecten transportvoorzieningen in het basismodel NEN3610. En zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
 
-De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerk los van elkaar te beschrijven.
+De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerken los van elkaar te beschrijven.
 
 Voor meer detail wordt verwezen naar het conceptueel model netwerken.
 
@@ -282,7 +282,7 @@ Waternetwerken zijn een uitzondering hierop. In een waternetwerk is het water ni
 Een netwerk is te beschrijven in verschillende niveau’s van detail. Of detaillering nodig iss hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detail niveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals die gebruikt wordt voor kaarten.
 
 Het detailniveau van een netwerk wordt bepaald door wat nodig is om het netwerk te kunnen beschrijven.
-Een wegennetwerk kent functioneel gezien drie niveau’s: een weg, een rijbaan en rijstrook niveau. Een eigenschap bepaalt de niveau van detail. Een straatnaam geldt voor de weg en daarmee ook voor de rijbanen en rijstroken die bij die weg behoren. Een busstrook wordt gedefinieerd op strook niveau en een busbaan op baan niveau. 
+Een wegennetwerk kent functioneel gezien drie niveau’s: een weg, een rijbaan en rijstrook niveau. Een eigenschap bepaalt het niveau van detail. Een straatnaam geldt voor de weg en daarmee ook voor de rijbanen en rijstroken die bij die weg behoren. Een busstrook wordt gedefinieerd op strook niveau en een busbaan op baan niveau. 
 
 #### Eigenschappen van knopen en verbindingen
 
@@ -354,7 +354,7 @@ Ontwerpprincipe:
 
 **cartografische objecttypen worden als onderdeel van de producten van DisGeo ogenomen**
 
-cartografische objecten zijn voor gebruiikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
+cartografische objecten zijn voor gebruikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
 
 Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een laag naar een hoog detailniveau teruggaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau
 
@@ -362,7 +362,7 @@ Ontwerpprincipe:
 
 **De kwaliteit van de objecten en de bijbehorende gegevens worden in die mate geborgd dat geautomatiseerde generalisatie probleemloos kan verlopen**
 
-Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generealisatie extra handwerk nodig is om het gewenste resultaat te bereiken. 
+Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie extra handwerk nodig is om het gewenste resultaat te bereiken. 
 
 
  
@@ -378,9 +378,9 @@ Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generealisatie e
 
 **Terugmeldingen op gegeneraliseerde objecten**
 
-Omdat gegenerealiseerde objecten geen deel uit zullen maken, wordt hier vast voor deze groep een aandachtspunt gegeven:
-Er kunnen wel terugmeldingen  zijn op gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateed wordt dat 
-- Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders vasn de onderliggende data
+Omdat gegeneraliseerde objecten geen deel uit zullen maken, wordt hier vast voor deze groep een aandachtspunt gegeven:
+Er kunnen wel terugmeldingen zijn op gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateerd wordt dat 
+- Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders van de onderliggende data
 - of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken dataobjecten uit de SOR
 
 Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een eindgebruiker ziet de producten en moet op basis daarvan een terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, want dat is mogelijk helemaal niet aan de orde en dan zouden objecten op het hoogste detailniveau onnodig belast worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap. 
@@ -393,7 +393,7 @@ Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een ei
 ### Meta-informatie en bronverwijzing
 
 #### Relevante aspecten meta-informatie
-Mata-informatie is een breed begrip dat door wikipedia als volgt wordt omschreven: "Meta-informatie bevat alle informatie die ertoe bijdraagt gegevens tot informatie te verheffen. Anders gezegd: omdat meta-informatie gegevens in een bepaalde context zet, is meta-informatie de factor die gegevens tot informatie verheft.
+Mata-informatie is een breed begrip dat door Wikipedia als volgt wordt omschreven: "Meta-informatie bevat alle informatie die ertoe bijdraagt gegevens tot informatie te verheffen. Anders gezegd: omdat meta-informatie gegevens in een bepaalde context zet, is meta-informatie de factor die gegevens tot informatie verheft.
 Onder meta-informatie kan zowel de expliciet beschrijvende als de impliciet aanwezige informatie over structuur, betekenis, onderlinge relaties, locatie, status, eigenaarschap, enz. van gegevens worden verstaan. Ook alle informatie over de applicaties en processen die de gegevens manipuleren, valt onder de noemer meta-informatie."
 In dit document kijken we met name naar dat deel van de meta-informatie die inhoudelijk van belang is voor gebruikers van de gegevens uit de objectenregistratie en voor de bijhouding van de gegevens door bronhouders.
 Immers meta-informatie is essentieel voor de gebruiker van gegevens om te beoordelen of het gegeven in de objectenregistratie geschikt is voor het doel waarvoor de gegevens gebruikt worden. Een oppervlakte van een woning die 25 jaar geleden voor het laatst gecontroleerd is, kan geschikt zijn voor het bepalen van een algemeen kengetal over de totale omvang van de woningvoorraad in een gemeente, maar is ongeschikt voor het opleggen van een belastingaanslag aan de eigenaar van die woning.
