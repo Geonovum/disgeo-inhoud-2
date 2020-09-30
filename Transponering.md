@@ -1,18 +1,13 @@
 ## Transponering
 
 ### BGT
-
-|Object	BGT| classificatie (verplicht)|	Plus classificatie (optioneel)	| SOR begrip|
-|---|---|---|---|		
-|kruinlijn: lijn|||vervalt als eigenschap|
-|op talud: ja/nee|||vervalt|
-|Overbrugging is beweegbaar J/N|||eigenschap bij overbrugging|
-|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)||
-|||||
-|Transport||||
-|Wegdeel|Functie:||vervalt|
-|kruinlijn: lijn|OV-baan||wordt opgenomen als functionele zone (verplicht)|
-|op talud: ja/nee|overweg||wordt opgenomen als functionele zone (verplicht)|
+nieuwe tabel
+|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip|
+|-----------------|----------------------|-----------------|---------------|
+|*Transport*||||
+|**Wegdeel**|Functie:||vervalt|
+||OV-baan||wordt opgenomen als functionele zone (verplicht)|
+||overweg||wordt opgenomen als functionele zone (verplicht)|
 ||spoorbaan||wordt opgenomen als functionele zone (verplicht)|
 ||baan voor vliegverkeer||wordt opgenomen als functionele zone (verplicht)|
 ||rijbaan autosnelweg|verbindingsweg|netwerkfunctie?|
@@ -46,10 +41,10 @@
 |||gravel|vervalt, wordt halfverharding (verplicht)|
 ||onverhard|boomschors|onverhard of onbegroeide grond?|
 |||zand|onverhard of onbegroeide grond?|
-|||||
-|Ondersteunend wegdeel|Functie:||vervalt|
-|kruinlijn: lijn|verkeerseiland||wordt opgenomen als functionele zone (verplicht)|
-|op talud: ja/nee|berm||wordt opgenomen als functionele zone (verplicht)|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Ondersteunend wegdeel**|Functie:||vervalt|
+||verkeerseiland||wordt opgenomen als functionele zone (verplicht)|
+||berm||wordt opgenomen als functionele zone (verplicht)|
 |||||
 ||Fysiek voorkomen:||vervalt als fysiek voorkomen ondersteunend wegdeel: wordt verharding|
 ||gesloten verharding|asfalt|wordt asfaltverharding (verplicht)|
@@ -73,16 +68,16 @@
 |||heesters|begroeiing: struiken|
 |||bodembedekkers|begroeiing: struiken|
 |||||
-|Spoor|Functie:|||
+|**Spoor**|Functie:|||
 ||trein||spoorweg netwerk|
 ||sneltram||vervalt, samenvoegen met tram|
 ||tram||spoorweg netwerk|
 ||Niet BGT|(haven)kraan|?|
-|||||
-|Terrein||||
-|Onbegroeid terreindeel|Fysiek voorkomen:||vervalt|
-|kruinlijn: lijn|erf||onbepaald terreindeel|
-|op talud: ja/nee|gesloten verharding|asfalt|wordt asfaltverharding (verplicht)|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|*Terrein*||||
+|**Onbegroeid terreindeel**|Fysiek voorkomen:||vervalt|
+||erf||onbepaald terreindeel|
+||gesloten verharding|asfalt|wordt asfaltverharding (verplicht)|
 |||cementbeton|wordt betonverharding (verplicht)|
 |||kunststof|wordt kunststofverharding (verplicht)|
 ||open verharding|betonstraatstenen|wordt elementenverharding (verplicht)|
@@ -100,10 +95,10 @@
 ||zand|strand en strandwal|geografisch object: strand|
 |||zandverstuiving|geografisch object: zandverstuiving|
 |||||
-|||||
-|Begroeid terreindeel|Fysiek voorkomen:||Begroeiing|
-|kruinlijn: lijn|loofbos|griend en hakhout|bos: type loofbos|
-|op talud: ja/nee|gemengd bos||bos: type gemengd bos|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Begroeid terreindeel**|Fysiek voorkomen:||Begroeiing|
+||loofbos|griend en hakhout|bos: type loofbos|
+||gemengd bos||bos: type gemengd bos|
 ||naaldbos||bos: type naaldbos|
 ||heide||natuurlijk groen: type heide (fysieke verschijningsvorm)|
 ||struiken||struiken|
@@ -130,9 +125,9 @@
 |||struikrozen|struiken|
 |||heesters|struiken|
 |||bodembedekkers|struiken|
-|||||
-|Water||||
-|Waterdeel|Type:|||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|*Water*||||
+|**Waterdeel**|Type:|||
 ||zee||watervlakte: type zee|
 ||waterloop|rivier|waterloop: rivier|
 |||sloot|waterloop: type sloot|
@@ -143,14 +138,14 @@
 ||watervlakte|haven|functionele zone: havencomplex : aanleg en overslag|
 |||meer, plas, ven, vijver|watervlakte: type meer, type plas, type ven, type vijver|
 ||greppel/droge sloot||vervalt, wordt eigenschap bij waterloop|
-|||||
-|Ondersteunend waterdeel|oever/slootkant||functionele zone: oever|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Ondersteunend waterdeel**|oever/slootkant||functionele zone: oever|
 ||slik||getijdengebied: type slik|
-|||||
-|Bouwwerk||||
-|Pand|Grondvlaksituatie van BAG-pand||Komt terug als Gebouw|
-|||||
-|Overig bouwwerk|Type:|||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|*Bouwwerk*||||
+|**Pand**|Grondvlaksituatie van BAG-pand||Komt terug als Gebouw|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Overig bouwwerk**|Type:|||
 ||overkapping (maaiveldgeometrie)||open bouwwerk: type overkapping|
 ||open loods||open bouwwerk: type open loods|
 ||opslagtank||Depot: type opslagtank|
@@ -161,10 +156,10 @@
 ||Niet BGT|bunker|bunker|
 ||Niet BGT|voedersilo|Depot: type voedersilo|
 ||Niet BGT|schuur|komt terug als gebouw, met typering|
-|||||
-|Kunstwerk||||
-|Overbruggingsdeel|overbruggingsdeel|Hoort bij type overbrugging:|overbrugging|
-|Overbrugging is beweegbaar J/N||brug|overbrugging: type brug|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|*Kunstwerk*||||
+|**Overbruggingsdeel**|overbruggingsdeel|Hoort bij type overbrugging:|overbrugging|
+|||brug|overbrugging: type brug|
 |||aquaduct|overbrugging: type aquaduct|
 |||viaduct|overbrugging: type viaduct|
 |||ecoduct|overbrugging: type ecoduct|
@@ -176,10 +171,10 @@
 |||pijler|kunstwerkdeel: type pijler|
 |||sloof|kunstwerkdeel: type sloof|
 |||pyloon|kunstwerkdeel: type pyloon|
-|||||
-|Tunneldeel|Tunneldeel||ondertunneling: type tunnel|
-|||||
-|Kunstwerkdeel|Type:|||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Tunneldeel**|Tunneldeel||ondertunneling: type tunnel|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Kunstwerkdeel**|Type:|||
 ||hoogspanningsmast||mast: type hoogspanningsmast|
 ||gemaal||overig kunstwerk: gemaal|
 ||perron||functione spoorzone: type perron|
@@ -196,8 +191,8 @@
 ||Niet BGT|coupure|overig kunstwerk: coupure|
 ||Niet BGT|ponton|overig kunstwerk: ponton|
 ||Niet BGT|voorde|overig kunstwerk: voorde|
-|||||
-|Scheiding|Type:||Ondergebracht bij functie: afscheiding, kering, reducering|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Scheiding**|Type:||Ondergebracht bij functie: afscheiding, kering, reducering|
 ||muur||muur |
 ||Kademuur||overig kunstwerk: kademuur|
 ||damwand||overig kunstwerk: damwand|
@@ -206,11 +201,11 @@
 ||hek||hek|
 ||Niet BGT|draadraster|raster|
 ||Niet BGT|faunaraster|raster|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
 |||||
-|||||
-|Ongeclassificeerd object|||komt niet meer terug|
-|||||
-|Functioneel Gebied|Type:|||
+|**Ongeclassificeerd object**|||komt niet meer terug|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Functioneel Gebied**|Type:|||
 ||kering||kering|
 ||Niet BGT|bedrijvigheid|vervalt|
 ||Niet BGT|natuur en landschap|vervalt|
@@ -234,18 +229,18 @@
 ||Niet BGT|carpoolplaats|functionele zone: blijft indien gewenst door BRT.next: in LV maar 6 bronhouders|
 ||Niet BGT|benzinestation|functionele zone: Ter discussie stellen: in LV maar 5 bronhouders|
 ||Niet BGT|verzorgingsplaats|functionele zone: blijft indien gewenst door BRT.next: in LV maar 0 bronhouders|
-|||||
-|Overige Scheiding|Niet BGT|Type zoals Scheiding|zie scheiding|
-|||||
-|Bak||Type:|andere definitie|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Overige Scheiding**|Niet BGT|Type zoals Scheiding|zie scheiding|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Bak**||Type:|andere definitie|
 ||Niet BGT|afval apart plaats|bak: afval apart plaats|
 ||Niet BGT|afvalbak|straatmeubilair|
 ||Niet BGT|drinkbak|vervalt|
 ||Niet BGT|bloembak|straatmeubilair|
 ||Niet BGT|zand- / zoutbak|straatmeubilair|
 ||Niet BGT|container|bak: container|
-|||||
-|Bord||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Bord**||Type:||
 ||Niet BGT|informatiebord|paal|
 ||Niet BGT|plaatsnaambord|paal|
 ||Niet BGT|straatnaambord|paal|
@@ -256,17 +251,17 @@
 ||Niet BGT|wegwijzer|paal|
 ||Niet BGT|waarschuwingshek|hek|
 ||Niet BGT|dynamische snelheidsindicator|paal|
-|||||
-|Gebouwinstallatie||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Gebouwinstallatie**||Type:||
 ||Niet BGT|bordes|gebouwcomponent: aard bordes|
 ||Niet BGT|luifel|gebouwcomponent: aard luifel|
 ||Niet BGT|toegangstrap|gebouwcomponent: aard toegangstrap|
-|||||
-|Installatie||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Installatie**||Type:||
 ||Niet BGT|pomp|Installatie: type pomp|
 ||Niet BGT|zonnepaneel|Installatie: type zonnepanelen|
-|||||
-|Kast||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Kast**||Type:||
 ||Niet BGT|CAI-kast|kast: type telecom|
 ||Niet BGT|elektrakast|kast: type elektra (inclusief lage trafo)|
 ||Niet BGT|gaskast|kast: type gas|
@@ -276,15 +271,15 @@
 ||Niet BGT|verkeersregelinstallatiekast|kast: type verkeer|
 ||Niet BGT|telkast|kast: type verkeer|
 ||Niet BGT|GMS kast|kast: type verkeer|
-|||||
-|Mast||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Mast**||Type:||
 ||Niet BGT|bovenleidingmast|mast: type bovenleidingmast|
 ||Niet BGT|laagspanningsmast|mast: type laagspanningsmast|
 ||Niet BGT|straalzender|mast: type straalzender|
 ||Niet BGT|zendmast|mast: type zendmast|
 ||Niet BGT|radarmast|mast: type radarmast|
-|||||
-|Paal||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Paal**||Type:||
 ||Niet BGT|lichtmast|paal|
 ||Niet BGT|telpaal|paal|
 ||Niet BGT|portaal|paal|
@@ -300,8 +295,8 @@
 ||Niet BGT|drukknoppaal|paal|
 ||Niet BGT|grensmarkering|paal|
 ||Niet BGT|sirene|mast: type sirene|
-|||||
-|Put||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Put**||Type:||
 ||Niet BGT|benzine- / olieput|putdeksel: benzine- / olie|
 ||Niet BGT|brandkraan / -put|putdeksel: brandkraan|
 ||Niet BGT|drainageput|putdeksel: riolering|
@@ -309,8 +304,8 @@
 ||Niet BGT|inspectie- / rioolput|putdeksel: riolering|
 ||Niet BGT|kolk|putdeksel: riolering|
 ||Niet BGT|waterleidingput|putdeksel: waterleiding|
-|||||
-|Sensor||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Sensor**||Type:||
 ||Niet BGT|camera|paal|
 ||Niet BGT|debietmeter|paal|
 ||Niet BGT|hoogtedetectieapparaat|sensor: hoogtedetectieapparaat|
@@ -322,8 +317,8 @@
 ||Niet BGT|lichtcel|paal|
 ||Niet BGT|GMS sensor|sensor: GMS sensor|
 ||Niet BGT|radar detector|paal|
-|||||
-|Straatmeubilair||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Straatmeubilair**||Type:||
 ||Niet BGT|abri|straatmeubilair|
 ||Niet BGT|bolder|paal|
 ||Niet BGT|brievenbus|straatmeubilair|
@@ -342,16 +337,16 @@
 ||Niet BGT|reclamezuil|paal|
 ||Niet BGT|fietsenkluis|straatmeubilair|
 ||Niet BGT|herdenkingsmonument|straatmeubilair|
-|||||
-|Waterinrichtings-element||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Waterinrichtings-element**||Type:||
 ||Niet BGT|remmingswerk|geleider: remmingswerk|
 ||Niet BGT|betonning|paal|
 ||Niet BGT|geleidewerk|geleider: geleidewerk|
 ||Niet BGT|vuilvang|functionele zone, vuilvang|
 ||Niet BGT|meerpaal|paal|
 ||Niet BGT|hoogtemerk|vervalt|
-|||||
-|Weginrichtings-element||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Weginrichtings-element**||Type:||
 ||Niet BGT|molgoot|vervalt|
 ||Niet BGT|lijnafwatering|putdeksel: riolering|
 ||Niet BGT|wegmarkering|vervalt|
@@ -361,17 +356,23 @@
 ||Niet BGT|balustrade|gesplitst: hek en functie: valbescherming|
 ||Niet BGT|boomspiegel|vervalt|
 ||Niet BGT|verblindingswering|geleider: verblindingswering|
-|||||
-|Vegetatieobject||Type:||
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Vegetatieobject**||Type:||
 ||Niet BGT|boom|boom|
 ||Niet BGT|haag|landschapselement: type haag|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|**Registratief Gebied**||||
+|**Buurt**|Niet BGT||registratief Objecttype: buurt|
+|**Openbare Ruimte**|Niet BGT||registratief objecttype: Openbare ruimte|
+|**Stadsdeel**|Niet BGT||vervalt|
+|**Waterschap**|Niet BGT||registratief objecttype:waterschap|
+|**Wijk **|Niet BGT||registratief Objecttype: wijkj|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
+|kruinlijn: lijn|||vervalt als eigenschap|
+|op talud: ja/nee|||vervalt|
+|Overbrugging is beweegbaar J/N|||eigenschap bij overbrugging|
 |||||
-|Registratief Gebied||||
-|Buurt|Niet BGT||registratief Objecttype: buurt|
-|Openbare Ruimte|Niet BGT||registratief objecttype: Openbare ruimte|
-|Stadsdeel|Niet BGT||vervalt|
-|Waterschap|Niet BGT||registratief objecttype:waterschap|
-|Wijk |Niet BGT||registratief Objecttype: wijk|
+|____________________________|_____________________________|___________________________________|___________________________________________________|
 
 
 
