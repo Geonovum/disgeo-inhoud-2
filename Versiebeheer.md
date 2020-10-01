@@ -28,14 +28,10 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.4   | 4-10-2020     |  concept    | 1e opbouw              | Document met vertegenwoordigers werkveld vormgegeven |
                            
 
-<div class='remark note-info'>
- notitieblokje rood bbbbbb
+
+
+<div class='success note-info'>
+ notitieblokje rood bbbbbb2vvvvvv
 </div>
 
-<div class='warning note-info'>
- notitieblokje rood bbbbbb2
-</div>
 
-<div class='tip note-info'>
- notitieblokje rood bbbbbb3
-</div>
