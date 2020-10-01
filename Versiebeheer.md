@@ -28,10 +28,10 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.4   | 4-10-2020     |  concept    | 1e opbouw              | Document met vertegenwoordigers werkveld vormgegeven |
                            
 
-<div class='alert-warning'>
+<div class='note'>
  dit is blokje onsultatievraag
- regel2
- regel 3
+ ! oranje regel2
+ - rode regel 3
 </div>
 
 
