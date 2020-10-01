@@ -27,11 +27,15 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.1    | 16-04-2020     |  concept    | Initieel document               | Kapstok document  aangemaakt  |
 | 0.4   | 4-10-2020     |  concept    | 1e opbouw              | Document met vertegenwoordigers werkveld vormgegeven |
                            
-<div class='tip'>
- dit is een consultatievraag
- regel2
- regel 3
+
+<div class="panel panel-info">
+**Note consultatievraag**
+{: .panel-heading}
+<div class="panel-body">
+
+NOTE DESCRIPTION consultatievraag
+
+</div>
 </div>
 
 
-Dit moet buiten het blok vallen
