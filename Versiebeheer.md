@@ -29,11 +29,4 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
                            
 
 
->
->**CONSULTaTIEVRAAG:**
->
->Op dit moment zijn veel van deze breder gebruikte gegevens over objecten 
-> verspreid over verschillende registraties. Het gaat daarbij zowel om r.
->
->
 
