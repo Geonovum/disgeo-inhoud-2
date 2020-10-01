@@ -683,18 +683,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #### Begraafplaats
 
 #### Recreatie
@@ -707,8 +695,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Recreatie  |
 |---|---|
-| Definitie |  |
-| Herkomst definitie  |      |
+| Definitie | Gebied in gebruik voor openlucht recreatie.  |
+| Herkomst definitie  | IMGeo 2.2     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening||
 | Toelichting|  |
@@ -717,14 +705,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van recreatie  |Ja |
-|Geometrie |De geometrische representatie van recreatie |Ja (vlak)|
+|Identificatie   |De unieke aanduiding van recreatie.  |Ja |
+|Geometrie |De geometrische representatie van recreatie. |Ja (vlak)|
 |Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Type|Een categorisering van de verschillende soorten recreatie.|Nee| 
 |Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt.   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-
-
 
 **Domeinwaarden**
 
@@ -746,12 +732,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde type | Beschrijving|
 |---|---|
-| 	speeltuin||
-| 	park||
-| 	sportterrein||
-| 	camping||
-| 	bungalowpark||
-| 	volkstuin| | 
+| 	speeltuin|Geheel van begroeiing, verharding, opstallen en speelwerktuigen, bedoeld als speelplaats voor kinderen.|
+| 	park|Landschappelijk ingericht terrein, begroeid met houtachtige en kruidachtige vegetatie, verharding, objecten, waterpartijen en dergelijke, bedoeld als (grootschalige) recreatieve voorziening.|
+| 	sportterrein|Terrein, mogelijk met groenvoorziening, verharding en bebouwing, bestemd voor sportbeoefening.|
+| 	camping|Geheel van verharding, begroeiing en opstallen, in gebruik als terrein waar tijdelijk tenten en/of caravans kunnen worden geplaatst ten behoeve van recreatie.|
+| 	bungalowpark|Geheel van verharding, begroeiing, overige opstallen en gebouwen, bedoeld als vakantie-/weekendhuisjes die niet permanent bewoond worden.|
+| 	volkstuin|Terreingedeelte in gebruik als volkstuinen, inclusief bebouwing, verharding en dergelijke. | 
 
 
 
