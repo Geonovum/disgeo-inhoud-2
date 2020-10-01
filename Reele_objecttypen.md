@@ -388,7 +388,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van het SOR-begrip onbegroeide grond.|Ja |
 |Geometrie| De geometrische representatie van de randen van onbegroeide grond.|Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt.  |Ja   |
-|Type onbegroeide grond| De aanduiding van het soort onbegroeide grond.|Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -407,13 +406,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|
 |Ten onrechte|
 
-*type*
-
-|Waarde Type | Beschrijving   |
-|---|---|
-|   Zand| Onverhard waarvan het oppervlak (deklaag) bestaat uit zand.|
-| 	Zwarte grond| Onverhard waarvan het oppervlak bestaat uit zwarte grond.|
-| 	Open grond| Onverhard waarvan het oppervlak bestaat uit open grond, niet zijnde zand of zwarte grond.|
 
 
 
@@ -431,7 +423,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Bouwland |Terrein in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
 |Herkomst definitie  | BGT 1.1.1 |
 |Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in bouwland. |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -458,9 +450,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|
 |Ten onrechte|
 
-<div class='note'>
-    BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in bouwland. 
-</div>
 
 ####    Fruit en bomenteelt
 
@@ -625,8 +614,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde Type landschapselement| Beschrijving   |
 |---|---|
-| bomenrij|opgaande begroeiing van bomen zonder struiken  |
-| houtsingel |opgaande begroeiing van  bomen (enkelvoudige/meervoudige stammen) en struiken  |
+| bomenrij|Opgaande rijvormige begroeiing van bomen zonder ondergroei van struiken.  |
+| houtsingel |Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken.  |
 | haag |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
 
 
