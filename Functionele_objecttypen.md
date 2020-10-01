@@ -35,7 +35,6 @@
 
 
 *overerving van eigenschappen/kenmerken a.g.v. relatie met andere objecten*
-{: .blue}
 
 
 |Eigenschap   |Beschrijving   |Verplicht   |
