@@ -29,8 +29,10 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
                            
 
 
-
-<div class='info note-info consultatie '>
- hsfgjhsfgjhsfgjhsfgjhsfgjhfgh 2
-</div>
+>
+>**CONSULTaTIEVRAAG:**
+>
+>Op dit moment zijn veel van deze breder gebruikte gegevens over objecten verspreid over verschillende registraties. Het gaat daarbij zowel om registraties die de status van basisregistratie hebben gekregen, als om registraties waarin gegevens over deze objecten ten behoeve van een specifieke toepassing of ten behoeve van gebruik binnen een bepaalde sector zijn vastgelegd. De belangrijkste basisregistraties waarin informatie over fysieke objecten is opgenomen zijn de Basisregistratie Adressen en Gebouwen (BAG), de Basisregistratie Grootschalige Topografie (BGT), de Basisregistratie Waardering Onroerende Zaken (WOZ) en de Basisregistratie Topografie (BRT). Voorbeelden van andere registraties waarin gegevens over fysieke objecten zijn opgenomen zijn de registraties voor het Beheer van de Openbare Ruimte (BOR-registraties), Nationaal Wegenbestand (NWB) en het Actueel Hoogtebestand Nederland (AHN).
+>
+>
 
