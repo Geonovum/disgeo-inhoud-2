@@ -30,8 +30,8 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 
 
 
-<div class='success note-info'>
- notitieblokje rood bbbbbb2vvvvvv
+<div class='alert note-info'>
+ notitieblokje rood bbbbbb2vvvvvv mmmmmmm
 </div>
 
 
