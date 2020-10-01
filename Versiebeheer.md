@@ -32,3 +32,10 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
  notitieblokje rood bbbbbb
 </div>
 
+<div class='warning note-info'>
+ notitieblokje rood bbbbbb2
+</div>
+
+<div class='tip note-info'>
+ notitieblokje rood bbbbbb3
+</div>
