@@ -684,6 +684,43 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Begraafplaats
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Begraafplaats |
+| Onderdeel van NEN3610-objecttype |Functioneel object|
+
+**Definitie**
+
+| Naam  | Begraafplaats |
+|---|---|
+| Definitie |Een besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard. |
+|Herkomst definitie  | IMGeo 2.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier deels de bestaande populatie *begraafplaats*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van Begraafplaats. |Ja |
+|Geometrie|De geometrische representatie van de randen van een begraafplaats. |Ja (vlak)|
+|Status   |  De fase van de levenscyclus waarin de begraafplaats zich bevindt. |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte|
 
 #### Recreatie
 | Klasse  | Naam  |
@@ -698,7 +735,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Definitie | Gebied in gebruik voor openlucht recreatie.  |
 | Herkomst definitie  | IMGeo 2.2     |
 | Verplicht  | Ja  |
-| Gevolgen afbakening||
+| Gevolgen afbakening|Het betreft hier deels de bestaande populatie typen *recreatie*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.|
 | Toelichting|  |
 
 **Eigenschappen**
@@ -767,7 +804,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip oever.|Ja |
+|Identificatie   |De unieke aanduiding van oever.|Ja |
 |Geometrie|De geometrische representatie van de randen van de oever.|Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende oever zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -809,7 +846,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip complex.|Ja |
+|Identificatie   |De unieke aanduiding van Complex.|Ja |
 |Geometrie|De geometrische representatie van de randen van een complex.|ja (vlak)|
 |Type complex|Een categorisering van de verschillende complexen. |ja|
 |Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
@@ -871,7 +908,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
+|Identificatie   |De unieke aanduiding van Kering.|Ja |
 |Geometrie|De geometrische representatie van de kerende voorziening.|Ja (lijn, vlak)|
 |Type kering|Een categorisering van de verschillende type keringen.|Ja|
 |Status   | De fase van de levenscyclus waarin de kerende voorziening zich bevindt.   |Ja   |
@@ -924,7 +961,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip reducering|Ja |
+|Identificatie   |De unieke aanduiding van reducering.|Ja |
 |Geometrie|De geometrische representatie van de reducerende voorziening.|Ja (lijn)|
 |Type reducering|Een categorisering van de verschillende type reducering.| Ja|
 |Status   | De fase van de levenscyclus waarin de reducerende voorziening zich bevindt.   |Ja   |
@@ -974,7 +1011,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip valbescherming|Ja |
+|Identificatie   |De unieke aanduiding van valbescherming.|Ja |
 |Geometrie|De geometrische representatie de valbescherming.|Ja (lijn)|
 |Status   |  De fase van de levenscyclus waarin de valbescherming zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
