@@ -33,5 +33,8 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
  regel 3
 </div>
 
+<pre class='ex-generic'>
+andere test
+</pre>
 
 
