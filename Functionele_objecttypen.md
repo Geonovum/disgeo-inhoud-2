@@ -886,9 +886,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
-|Geometrie||ja (lijn, vlak)|
-|type kering|||
-|Status   |   |Ja   |
+|Geometrie|De geometrische representatie van de kerende voorziening.|Ja (lijn, vlak)|
+|Type kering|Een categorisering van de verschillende type keringen.|Ja|
+|Status   | De fase van de levenscyclus waarin de kerende voorziening zich bevindt.   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Domeinwaarden**
@@ -939,9 +939,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip reducering|Ja |
-|Geometrie||nee (lijn)|
-|type reducering|||
-|Status   |   |Ja   |
+|Geometrie|De geometrische representatie van de reducerende voorziening.|Ja (lijn)|
+|type reducering|Een categorisering van de verschillende type reducering.| Ja|
+|Status   | De fase van de levenscyclus waarin de reducerende voorziening zich bevindt.   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Domeinwaarden**
@@ -989,8 +989,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip valbescherming|Ja |
-|Geometrie||nee (lijn)|
-|Status   |   |Ja   |
+|Geometrie|De geometrische representatie de valbescherming.|nee (lijn)|
+|Status   |  De fase van de levenscyclus waarin de valbescherming zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -1017,8 +1017,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Afscheiding |
 | Onderdeel van NEN3610-objecttype | Functioneel object |
 
- 
-
 
 **Definitie**
 
@@ -1034,15 +1032,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip afscheiding|Ja |
-|Geometrie||nee (lijn)|
-|Status   |   |Ja   |
+|Identificatie   |De unieke aanduiding van afscheiding. |Ja |
+|Geometrie|De geometrische representatie van de afscheiding.|nee (lijn)|
+|Status   | De fase van de levenscyclus waarin de afscheiding zich bevindt.   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-
-
 **Domeinwaarden**
-
 
 *status*
 
@@ -1055,48 +1050,4 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Beëindigd	|
 |Niet gerealiseerd|	
 |Ten onrechte	|
-
-
-
-
-
-**Definitie**
-
-| Naam  | Vuilvang  |
-|---|---|
-| Definitie |   |
-|Herkomst definitie  |     |
-|Verplicht  | Ja  |
-|Gevolgen afbakening||
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip vuilvang|Ja |
-|Geometrie||nee (vlak)|
-|Status   |   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-
-
-**Domeinwaarden**
-
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
-
-
-
-
 
