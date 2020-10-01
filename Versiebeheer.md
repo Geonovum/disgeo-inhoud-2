@@ -28,7 +28,7 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.4   | 4-10-2020     |  concept    | 1e opbouw              | Document met vertegenwoordigers werkveld vormgegeven |
                            
 
-<div class='remark'>
- notitieblokje
+<div class='note note-remark'>
+ notitieblokje rood 
 </div>
 
