@@ -134,7 +134,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 | hoort bij 2 | knoop |ja|
 | heeft een | openbare ruimte | ja  |
-| ligt op | verharding| ja|
+| ligt op | gerelateerde reële object| ja|
 | hyperverbinding met | gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
@@ -260,7 +260,112 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Spoorweg
 
+**KNOOP**
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Knoop|
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+**Definitie**
+
+| Naam  | Knoop  |
+|---|---|
+| Definitie | Een knoop is een begin-, eind- of keuzepunt voor de spoorgebruiker. |
+| Herkomst definitie  | nieuw     |
+| Verplicht  | Ja  |
+| Gevolgen afbakening||
+| Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Knoop.  |Ja |
+|Geometrie |De geometrische representatie van een knoop. |Ja (punt), Nee (vlak)|
+|Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt.   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| ligt aan 1 of meer | gerelateerde spoorwegverbinding(en) |Ja|
+| ligt op | gerelateerde reële object | Ja|
+| hyperverbinding met| gerelateerde functionele zone | Ja|
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+
+**SPOORVERBINDING**
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Spoorverbinding|
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+**Definitie**
+
+| Naam  | Spoorverbinding  |
+|---|---|
+| Definitie | Een spoorverbinding beschrijft de verkeerskundige inrichting van een spoor tussen twee knopen. |
+|Herkomst definitie  | conceptueel model netwerken     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening||
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Spoorverbinding.  |Ja |
+|Geometrie |De geometrische representatie van een spoorverbinding.  |Ja (lijn), Nee (vlak)|
+|Status   |De fase van de levenscyclus waarin de betreffende spoorverbinding zich bevindt.   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| hoort bij 2 | knoop |ja|
+| ligt op | gerelateerde reële object| ja|
+| hyperverbinding met | gerelateerde functionele zone | Ja|
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+
+
 #### Vaarweg
+
+
 
 #### Waterelement
 
@@ -592,6 +697,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
+|hyperverbinding |wegverbinding |ja|
 |hyperverbinding |spoorverbinding |ja|
 |hyperverbinding |knoop |ja|
 
