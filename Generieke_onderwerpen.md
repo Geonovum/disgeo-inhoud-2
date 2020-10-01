@@ -12,7 +12,7 @@ Ontwerpprincipe:
 
 **De huidige wijze van objectidentificatie van NEN3610 wordt gehanteerd want de SOR conformeert zich aan de NEN3610-norm**
 
-In NEN3610 wordt over het ID het volgende gesteld. Binnen de ‘digitale ruimte’ moeten objecten uniek identificeerbaar zijn. De objectidentificatie  is de pointer naar het informatie-object. Als men het over het informatie-object met een bepaalde identificatie heeft (of er naar verwijst) dan wil men zeker weten dat daadwerkelijk dat ene object wordt bedoeld en niet dat men er meerdere ‘terugkrijgt’. Belangrijk is ook om duidelijk te hebben wat de ‘digitale ruimte’ is. Er wordt mee bedoeld de ruimte waarin digitale objecten gezamenlijk voor kunnen komen. Dus in principe de ruimte waarin je informatie met elkaar uitwisselt of deelt.
+In NEN3610 wordt over het ID het volgende gesteld. Binnen de ‘digitale ruimte’ moeten objecten uniek identificeerbaar zijn. De objectidentificatie is de pointer naar het informatie-object. Als men het over het informatie-object met een bepaalde identificatie heeft (of er naar verwijst) dan wil men zeker weten dat daadwerkelijk dat ene object wordt bedoeld en niet dat men er meerdere ‘terugkrijgt’. Belangrijk is ook om duidelijk te hebben wat de ‘digitale ruimte’ is. Er wordt mee bedoeld de ruimte waarin digitale objecten gezamenlijk voor kunnen komen. Dus in principe de ruimte waarin je informatie met elkaar uitwisselt of deelt.
 
 
 Ontwerpprincipe: 
@@ -141,10 +141,14 @@ Opname van geometrie van alle objecten in de registratie is van essentieel belan
 
 Hierbij kan de wijze van vastlegging verschillen voor de diverse objecttypen. Sommige objecttypen zullen worden vastgelegd in de vorm van 3D volumes. Andere objecttypen als vlakken met een bepaalde hoogteligging. Voor bepaalde objecten met een minimale omvang kan ook geometrische vastlegging in de vorm van een enkel coördinatendrietal (x, y en z) worden vastgelegd (puntobject).
 
-Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie worden nadere eisen  gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende reële objecten). Ook worden bij dit soort objecten deels ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast wordt er in de verdere uitwerking ook nog aandacht besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan hectometerpaaltjes, verdiepingsnummers en bouwlagen.
+Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie worden nadere eisen gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende reële objecten). Ook worden bij dit soort objecten deels ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast wordt er in de verdere uitwerking ook nog aandacht besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan hectometerpaaltjes, verdiepingsnummers en bouwlagen.
 
 #### Coördinaatreferentiesysteem 
 
+Ontwerpprincipe:
+**In de SOR worden de regels voor het gebruik van coördinaatreferentiesystemen gevolgd**
+
+Het gaat hierbij in elk geval om de volgende regels:
 
 *Normatief.*
 
@@ -152,14 +156,14 @@ Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geome
 
 *Classificatie: ontsluiting, techniek*
 
-- **Regel** Iedere geometrische dataset/geometrie moet zijn voorzien van een verwijzing naar
+- Iedere geometrische dataset/geometrie moet zijn voorzien van een verwijzing naar
 het coördinaatreferentiesysteem waarin de coördinaten van de geometrie zijn
 beschreven.
-- **Regel:** Coördinaatreferentiesystemen moeten voldoen aan NEN-EN-ISO 19111 óf
+- Coördinaatreferentiesystemen moeten voldoen aan NEN-EN-ISO 19111 óf
 NEN-EN-ISO 19112 en bestaan uit een horizontaal en verticaal
 coördinaatreferentiesysteem. Een coördinaatreferentiesysteem is op zijn beurt
 weer opgebouwd uit een datum (horizontaal/verticaal) en een coördinaatsysteem.
-- **Regel:** Binnen de Europese continentale aardschol (waartoe ook Nederland en het
+- Binnen de Europese continentale aardschol (waartoe ook Nederland en het
 Nederlandse deel van de Noordzee behoren) geldt dat
 coördinaten herleidbaar moeten zijn tot het European Terrestrial Reference
 System 1989 (ETRS89) voor wat betreft de horizontale component. 
@@ -170,17 +174,17 @@ gebruikelijke NAP.
 Coördinaatreferentiesystemen die naast ETRS89/EVRS kunnen worden gebruikt zijn
 de volgende.
 
-1.  Het RD-NAP-coördinaatreferentiesysteem. Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89. 
-    Hiervoor geldt dat de gebruikte horizontale datum Bessel 1841 is en het
-    coördinaatsysteem de stereografische projectie. Als verticale datum wordt
-    het NAP-vlak gebruikt. RDNAPTRANS™ is de officiële en nauwkeurige transformatie tussen het coördinatensysteem van de Rijksdriehoeksmeting (RD) en het Normaal Amsterdams Peil (NAP) enerzijds en het European Terrestrial Reference System 1989 (ETRS89) anderzijds. **Aanbeveling:** controleer bij transformaties tussen ETRS89 en RD coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties.;
+1. Het RD-NAP-coördinaatreferentiesysteem. Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89. 
+ Hiervoor geldt dat de gebruikte horizontale datum Bessel 1841 is en het
+ coördinaatsysteem de stereografische projectie. Als verticale datum wordt
+ het NAP-vlak gebruikt. RDNAPTRANS™ is de officiële en nauwkeurige transformatie tussen het coördinatensysteem van de Rijksdriehoeksmeting (RD) en het Normaal Amsterdams Peil (NAP) enerzijds en het European Terrestrial Reference System 1989 (ETRS89) anderzijds. **Aanbeveling:** controleer bij transformaties tussen ETRS89 en RD coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties.;
 
-2.  De UTM-projectie (zone 31/32) (op het Nederlands continentaal plat). Voor
-    dit systeem geldt dat het gebruikte horizontale datum vaak ofwel het
-    European Datum 1950 (ED50) of het World Geodetic System 1984 (WGS84) is. Als
-    verticale datum wordt van verschillende, getijgerelateerde, verticale
-    datums, waaronder het Lowest Astronomical Tide en het Mean Sea Level,
-    gebruikgemaakt.
+2. De UTM-projectie (zone 31/32) (op het Nederlands continentaal plat). Voor
+ dit systeem geldt dat het gebruikte horizontale datum vaak ofwel het
+ European Datum 1950 (ED50) of het World Geodetic System 1984 (WGS84) is. Als
+ verticale datum wordt van verschillende, getijgerelateerde, verticale
+ datums, waaronder het Lowest Astronomical Tide en het Mean Sea Level,
+ gebruikgemaakt.
 
 3. De WGS84 / Pseudo-Mercator projectie. Voor dit systeem geldt dat het horizontale datum het World Geodetic System 1984 is. Deze projectie is de de-facto standaard voor visualisatietoepassingen op het web. 
 
@@ -193,17 +197,17 @@ Voor het definiëren van de coördinaatreferentiesystemen kunnen de EPSG-codes
 
 Voor de handliggende coördinaatreferentiesystemen en hun EPSG-codes zijn:
 
--   RD stelsel (2D): EPSG:28992
+- RD stelsel (2D): EPSG:28992
 
--   RD-NAP (3D): EPSG:7415
+- RD-NAP (3D): EPSG:7415
 
--   ETRS89 (2D): EPSG:4258 (lengte, breedte in graden)
+- ETRS89 (2D): EPSG:4258 (lengte, breedte in graden)
 
--   ETRS89 (3D): EPSG:4937 (lengte, breedte in graden, hoogte in meters tov
-    ellipsoide)
+- ETRS89 (3D): EPSG:4937 (lengte, breedte in graden, hoogte in meters tov
+ ellipsoide)
 
--   ETRS89 + EVRF2007 (3D): EPSG:7423 (lengte, breedte in graden, hoogte in
-    meters tov NAP)
+- ETRS89 + EVRF2007 (3D): EPSG:7423 (lengte, breedte in graden, hoogte in
+ meters tov NAP)
 
 Een gangbare methode voor het specificeren van het coördinaatreferentiesysteem in een implementatieformat is verwijzen naar de URI van het desbetreffende coördinaatreferentiesysteem in het register met coördinaatreferentiesystemen van OGC, bijvoorbeeld [http://www.opengis.net/def/crs/EPSG/0/28992](http://www.opengis.net/def/crs/EPSG/0/28992) voor RD.
 
@@ -225,14 +229,14 @@ Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8 decim
 0.0014 -> 0.001.
 
 
-####  3D
+#### 3D
 
 
 Ontwerpprincipe: 
 
 **De SOR is 3D-voorbereid.** 
 
-Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie  waarbij de vastlegging hiervan zodanig wordt vormgegeven dat een driedimensionale (3D) beschrijving van een object kan worden opgenomen.
+Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie waarbij de vastlegging hiervan zodanig wordt vormgegeven dat een driedimensionale (3D) beschrijving van een object kan worden opgenomen.
 
 Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Het gaat hierbij dus om de coordinate dimension (ISO19107) en niet om de dimensie van de geometric primitive (ISO19107) die wordt gebruikt om de geometrie te representeren. Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
 
@@ -240,7 +244,7 @@ Bij de nadere uitwerking van het informatiemodel zal worden bepaald op welke wij
 Voor ISO19107 zie: https://www.iso.org/standard/66175.html 
 
 <div class='note'>
-    In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraagt om een herziening van huidige topologie regels en het begrip maaiveld. 
+ In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraagt om een herziening van huidige topologie regels en het begrip maaiveld. 
 </div>
 
 #### Geometrie-type
@@ -261,9 +265,9 @@ Ontwerpprincipe:
 
 Deze Referentielaag wordt 
 - In geval van reële objecttypen volledig gedekt door objecten uit de objecttypen BODEM en WATER.
-   -	Hierbij sluiten de objecten topologisch naadloos op elkaar aan
-   - 	Objecten van andere reële objecttypen worden ten opzichte hiervan gepositioneerd, zoals bijvoorbeeld Gebouwen en Verharding.   Ook de 3D-verschijningsvormen van objecten kunnen ten opzichte hiervan worden gepositioneerd
-   -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
+ -	Hierbij sluiten de objecten topologisch naadloos op elkaar aan
+ - 	Objecten van andere reële objecttypen worden ten opzichte hiervan gepositioneerd, zoals bijvoorbeeld Gebouwen en Verharding. Ook de 3D-verschijningsvormen van objecten kunnen ten opzichte hiervan worden gepositioneerd
+ -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
 
 Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moest worden aangepast. Met de nieuwe aanpak van de SOR vervalt de verplichting om grenzen tussen object zo precies gelijk te houden, behalve voor de genoemde objecttypen BODEM en WATER
@@ -281,7 +285,7 @@ In een situatie waarin alle objecten een 3D-geometrie hebben is relatieve hoogte
 Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afspraken nodig over op welke wijze deze verticale informatie in de gegevensverzameling wordt vastgelegd.
 
 **Niveauaanduidingen per object**
-Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de referentielaag bevindt (niveau 0)  of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
+Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de referentielaag bevindt (niveau 0) of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
 
 
 #### Lineair referencing
@@ -312,7 +316,7 @@ Voor meer detail wordt verwezen naar het conceptueel model netwerken.
 
 Een netwerk bestaat uit knopen en verbindingen. Een verbinding geeft de relatie aan tussen twee knopen. Een knoop is een keuzepunt. Bijvoorbeeld voor een weggebruiker. Een verbinding verbindt twee direct aanliggende keuzepunten. 
 
-Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding beschreven kan worden. Administratieve eigenschappen zoals een straatnaam worden vooral gebruikt voor locatiebepaling. Voor routering zijn eigenschappen die een voorwaarde beschrijven belangrijk om te bepalen hoe een route over het netwerk loopt. Voor wegen zijn bijvoorbeeld rijrichtingen en maximum snelheden dergelijke eigenschappen.  Voor waternetwerken bijvoorbeeld een weerstandscoefficient van de bak waar het water door stroomt.
+Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding beschreven kan worden. Administratieve eigenschappen zoals een straatnaam worden vooral gebruikt voor locatiebepaling. Voor routering zijn eigenschappen die een voorwaarde beschrijven belangrijk om te bepalen hoe een route over het netwerk loopt. Voor wegen zijn bijvoorbeeld rijrichtingen en maximum snelheden dergelijke eigenschappen. Voor waternetwerken bijvoorbeeld een weerstandscoefficient van de bak waar het water door stroomt.
 
 #### Een netwerk is gerelateerd aan de reële infrastructuur
 
@@ -336,13 +340,13 @@ Ontwerpprincipe:
 
 **Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
 
-Eigenschappen kunnen meerdere malen van waarde veranderen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor een kruising wordt teruggebracht naar 50 km/h. Als er geen dwingende reden is om de structuur van het netwerk te verstoren door een verbinding op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing.  Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap van het kenmerk aangegeven door de afkorting LR.
+Eigenschappen kunnen meerdere malen van waarde veranderen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor een kruising wordt teruggebracht naar 50 km/h. Als er geen dwingende reden is om de structuur van het netwerk te verstoren door een verbinding op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing. Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap van het kenmerk aangegeven door de afkorting LR.
 Indien een eigenschap meerdere waarden kan bevatten zonder dat er sprake is van een afhankelijkheid van een locatie, dan wordt dit bij het eigenschap aangegeven door de afkorting MV (meervoudig). Bijvoorbeeld als er meerdere soorten modaliteiten zijn toegestaan op een verbinding of knoop.
 
 #### Relaties bij netwerken
 
 
-Een netwerk kent  verschillende type relaties:
+Een netwerk kent verschillende type relaties:
 Relaties die binnen het netwerk gelegd worden en relaties die met objecten gelegd worden die geen onderdeel zijn van het netwerk, maar wel van belang zijn voor het netwerk.
 
 Relaties die binnen het netwerk gelegd worden zijn onderdeel van het netwerk. Bijvoorbeeld een rijbaan die bestaat uit een aantal rijstroken of een vistrap die hoort bij de rivier (of ventweg en de bijbehorende hoofdrijbaan).
@@ -359,20 +363,18 @@ Een voorbeeld van een hyperverbinding is de relatie tussen een vistrap en de riv
 
 ### Mate van detail 
 
-Als uitgangspunt in het hoofdlijnenrapport is gesteld dat het objectenmodel van de SOR wordt opgebouwd vanuit de kleinste semantische eenheden die het minimum detailniveau aangeven waarvan is vastgesteld dat deze van waarde zijn voor meerdere gebruikers van de registratie.
+Het uitgangspunt is dat het objectenmodel van de SOR wordt opgebouwd vanuit de kleinste semantische eenheden die het minimum detailniveau aangeven waarvan is vastgesteld dat deze van waarde zijn voor meerdere gebruikers van de registratie.
 
 Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste semantische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit minimum detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. 
 
-In deze paragraaf worden op een generiek niveau Ontwerpprincipes hiervoor benoemd. 
-
-
-**BEGRIPPEN**
+In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd. 
+Hierbij worden de volgende begrippen gehanteerd:
 
 **cartografisch object** 
 Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie van die visualisatie hoe lang die visualisatie ook beschikbaar is
 
 **generaliseren**
-Dit betreft het zinvol vereenvoudigen, verplaatsen  of ‘opblazen’ van de geometrie van objecten.
+Dit betreft het zinvol vereenvoudigen, verplaatsen of ‘opblazen’ van de geometrie van objecten.
 
 **aggregeren**
 Dit betreft het samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn. 
@@ -380,8 +382,8 @@ Dit betreft het samenvoegen van objecten tot een nieuw object (zowel op datanive
 
 #### Generaliseren
 
-Uit consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen , hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
-Daarmee 
+Uit consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen, hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
+Daarmee:
 1.	Is er geen informatiebehoefte aan gegeneraliseerde data-objecttypen
 2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties
 3.	Is er ook geen behoefte aan unieke universele persistente identificatie van gegeneraliseerde objecten
@@ -390,7 +392,7 @@ Ontwerpprincipe:
 
 **objecttypen worden enkel en alleen op het voor de SOR meest gedetailleerde noodzakelijke niveau vastgelegd (de kleinste semantische eenheden)**
 
-Dit detailniveau kan per objecttype verschillen.  Voor met name geografische objecttypen is vaak een minder gedetailleerd niveau noodzakelijk. Denk bijvoorbeeld aan de begrenzing van een streek als de 'Utrechtse Heuvelrug' of het Continentaal Plat.
+Dit detailniveau kan per objecttype verschillen. Voor met name geografische objecttypen is vaak een minder gedetailleerd niveau noodzakelijk. Denk bijvoorbeeld aan de begrenzing van een streek als de 'Utrechtse Heuvelrug' of het Continentaal Plat.
 
 Ontwerpprincipe: 
 
@@ -398,11 +400,15 @@ Ontwerpprincipe:
 
 Ontwerpprincipe: 
 
-**cartografische objecttypen worden als onderdeel van de producten van DisGeo ogenomen**
+**cartografische objecttypen worden als onderdeel van de producten van DisGeo opgenomen**
 
 cartografische objecten zijn voor gebruikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
 
 Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een laag naar een hoog detailniveau teruggaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau
+
+
+
+#### Kwaliteit
 
 Ontwerpprincipe: 
 
@@ -410,13 +416,7 @@ Ontwerpprincipe:
 
 Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie extra handwerk nodig is om het gewenste resultaat te bereiken. 
 
-
- 
-
-#### Kwaliteit
-
-
-**Kwaliteit**
+Hiermee wordt concreet bedoeld:
 -	Dataobjecten moeten op het basisniveau landelijk uniform en homogeen en aaneensluitend zijn 
 -	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hiervoor één consistent systeem voor zijn en ook de implementatie moet consistent zijn
 -	Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken
@@ -460,7 +460,7 @@ De voor de bronhouders en gebruikers van de SOR relevante inhoudelijke meta-info
 2.	Alle meta-informatie die een tijdsaspect heeft (historie, levensfase) komt in de volgende paragraaf van dit document afzonderlijk aan de orde.
 
 3.	Bronverwijzing betreft aan de ene kant de formele onderbouwing van gegevens, bijvoorbeeld formele brondocumenten, zoals vergunningen en besluiten, maar aan de andere kant ook de meer technische bron van de gegevens, zoals plaatsbepalingspunten en indirect luchtfoto's, metingen en BIM-modellen. De plaatsbepalingspunten zijn daarmee een bijzondere vorm van bronverwijzing in het kader van de geometrie binnen de SOR. Een ander aspect van de bronverwijzing is de vastlegging van de reden van wijziging van een attribuut.
-Voor de SOR wordt voorgesteld het uitgangspunt te hanteren dat bij elke wijziging van een attribuut ook een reden wordt geregistreerd. Deze verplichting vereenvoudigt bijvoorbeeld het afhandelen van terugmeldingen. De bronhouder weet dan altijd waarom het gegeven geregistreerd is. Het is aan te bevelen om "reden van wijziging" vast te leggen aan de hand van een waardelijst, waarbij wellicht bij sommige "gebeurtenissen" sprake kan zijn van een combinatie van redenen uit deze waardelijst. Een correctie is ook een in deze waardelijst op te nemen "gebeurtenis".  
+Voor de SOR wordt voorgesteld het uitgangspunt te hanteren dat bij elke wijziging van een attribuut ook een reden wordt geregistreerd. Deze verplichting vereenvoudigt bijvoorbeeld het afhandelen van terugmeldingen. De bronhouder weet dan altijd waarom het gegeven geregistreerd is. Het is aan te bevelen om "reden van wijziging" vast te leggen aan de hand van een waardelijst, waarbij wellicht bij sommige "gebeurtenissen" sprake kan zijn van een combinatie van redenen uit deze waardelijst. Een correctie is ook een in deze waardelijst op te nemen "gebeurtenis". 
 
 Alleen in uitzonderingsgevallen is het nodig om de "reden van wijziging" ook vast te leggen in de vorm van een formeel brondocument. Alleen wanneer er sprake is van een bestaand brondocument (zoals een vergunning) heeft een verwijzing naar dit formele document toegevoegde waarde. In de SOR kunnen verplichtingen tot het opstellen van brondocumenten, uitsluitend om daarmee een "reden van wijziging" als metagegeven te kunnen vastleggen, dan vervallen.
 
@@ -536,24 +536,24 @@ Naast de genoemde metagegevens die gericht zijn op zowel gebruikers als bronhoud
 #### Registreren metagegevens per attribuut
 Per attribuut worden de volgende metagegevens vastgelegd:
 
--	Bronverwijzing: Bij alle attributen wordt vastgelegd de wijziging op grond waarvan het betreffende attribuut (wijziging van een attribuut) in de registratie is opgenomen aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.). 
+-   Bronverwijzing: Bij alle attributen wordt vastgelegd de wijziging op grond waarvan het betreffende attribuut (wijziging van een attribuut) in de registratie is opgenomen aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.). 
 -   Bronverwijzing: bij 3D-geometrie wordt vastgelegd hoe deze tot stand is gekomen, bijvoorbeeld door post-processing, door 3D inwinning of anders.
 Afhankelijk van de achtergrond van het opvoeren of wijzigen van een attribuut in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 Bij het attribuut geometrie kan ook sprake zijn van een bronverwijzing naar een plaatsbepalingspunt (zie paragraaf 3.5.5).
 
--	In het kader van de autorisatie kan eventueel per attribuut vastgelegd worden wie de verantwoordelijke bronhouder is, wanneer dit een ander is dan de bronhouder voor het object. Of dit relevant is en op welke wijze de verantwoordelijke bronhouder wordt geregistreerd, wordt gespecificeerd in het informatiemodel. Ook kan er sprake zijn van het vastleggen van specifieke gebruiksautorisaties (bijvoorbeeld specifieke attributen die niet openbaar zijn). Of dit aan de orde is, wordt ook gespecificeerd in het informatiemodel.
+-   In het kader van de autorisatie kan eventueel per attribuut vastgelegd worden wie de verantwoordelijke bronhouder is, wanneer dit een ander is dan de bronhouder voor het object. Of dit relevant is en op welke wijze de verantwoordelijke bronhouder wordt geregistreerd, wordt gespecificeerd in het informatiemodel. Ook kan er sprake zijn van het vastleggen van specifieke gebruiksautorisaties (bijvoorbeeld specifieke attributen die niet openbaar zijn). Of dit aan de orde is, wordt ook gespecificeerd in het informatiemodel.
 
 Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronhouder van geometrie, wanneer dit (vlak)geometrie betreft die (verplicht) aansluit op vlakgeometrie in beheer bij een andere bronhouder. Wanneer de bronhouder dan geometrie heeft geregistreerd die niet voldoet aan deze eisen (bijvoorbeeld de gemeente registreert een vlak buiten de contour van de gemeentegrens) kan in een geleverd product sprake zijn van een "gecorrigeerde" geometrie. Het feit dat in het geleverde product sprake is van een correctie wordt ook zichtbaar in de meta-informatie door bij de "verantwoordelijk bronhouder" aan te geven dat sprake is van een correctie door een andere bronhouder.
 	
--	Tot de basis metagegevens per attribuut op het aspect van kwaliteit behoren: wijze van inwinning (aan de hand van waardelijst) en uitvoerder inwinning, wijze en moment van controle en uitvoerder controle. Voor de geometrie wordt dit aangevuld met een aanduiding van de klasse van nauwkeurigheid van de geregistreerde geometrie.
+-   Tot de basis metagegevens per attribuut op het aspect van kwaliteit behoren: wijze van inwinning (aan de hand van waardelijst) en uitvoerder inwinning, wijze en moment van controle en uitvoerder controle. Voor de geometrie wordt dit aangevuld met een aanduiding van de klasse van nauwkeurigheid van de geregistreerde geometrie.
 
--	De status inOnderzoek wordt per attribuut geregistreerd. Op overeenkomstige wijze wordt ook de status "inBewerking" (wanneer de bronhouder zelf gestart is met een onderzoek), en "reactieBelanghebbende" (wanneer een belanghebbende gereageerd heeft in het kader van regie op gegevens). Bij geometrie wordt in overweging gegeven een status "inDiscussie" mogelijk te maken voor gevallen waarin verschillende bronhouders een andere meetuitkomst hebben bij een gezamenlijke grenslijn tussen twee vlakken.
+-   De status inOnderzoek wordt per attribuut geregistreerd. Op overeenkomstige wijze wordt ook de status "inBewerking" (wanneer de bronhouder zelf gestart is met een onderzoek), en "reactieBelanghebbende" (wanneer een belanghebbende gereageerd heeft in het kader van regie op gegevens). Bij geometrie wordt in overweging gegeven een status "inDiscussie" mogelijk te maken voor gevallen waarin verschillende bronhouders een andere meetuitkomst hebben bij een gezamenlijke grenslijn tussen twee vlakken.
 
 
 
 #### Plaatsbepalingspunten
 
-Plaatsbepalingspunten (PBP's) worden gebruikt als bron en zijn daarmee een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie).  
+Plaatsbepalingspunten (PBP's) worden gebruikt als bron en zijn daarmee een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie). 
 Een plaatsbepalingspunt is een punt dat is ingemeten en in coördinaten bekend is en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing van reële objecten. 
 Plaatsbepalingspunten komen voor bij reële objecttypen. Objecten met de status 'gepland' hebben geen plaatsbepalingspunten. Het is niet voldoende om PBP's te beperken tot goed idealiseerbare reële objecttypen omdat van elk basisobject nagespeurd moet kunnen wordne wat de bron is en hoe de inwinning tot stand is gekomen. 
 
@@ -659,7 +659,7 @@ Bij geografische objecttypen wordt eveneens een onderscheid gemaakt naar twee le
 - 	Aangewezen:	het object wordt als zodanig onderscheiden
 - 	Beëindigd:	het object wordt niet langer als zodanig onderscheiden
 of
--  Ten onrechte opgevoerd:	het object is ten onrechte in de registratie opgenomen
+- Ten onrechte opgevoerd:	het object is ten onrechte in de registratie opgenomen
 
 Bij reële objecttypen worden drie hoofdfasen onderscheiden waarbinnen meerdere levensfasen kunnen voorkomen. De te onderscheiden hoofdfasen zijn: planfase, aanwezigheidsfase en afwezigheidsfase. Welke levensfasen concreet worden onderscheiden is afhankelijk van het specifieke objecttype. Voor een vergunningplichtig bouwwerk zijn andere (meer) levensfasen van belang dan bijvoorbeeld voor een landschapselement. In het algemeen zullen voor niet-vergunningplichtige (veelal eenvoudigere) objecten en vergunningplichtige (veelal complexere) objecten de volgende aan het reel bestaan van objecten gerelateerde levensfasen voorkomen:
 
@@ -754,7 +754,7 @@ Dit kan worden geïllustreerd aan de hand van het voorbeeld van een school die m
 Toepassing van deze aanpak zou kunnen betekenen dat we de beoogde verbouwing niet registreren met beginGeldigheid het moment van verstrekken van de vergunning, maar met het verwachte moment van verbouwing (bijvoorbeeld aanstaande september). Bij die werkwijze kunnen we echter nog niet vastleggen dat op dit moment al sprake is van een verleende vergunning, terwijl je dat wel zou doen, wanneer sprake zou zijn van een nieuwbouwwoning.
 
 <div class='note'>
-    Hieronder is een eerste voorstel oplossing van dit vraagstuk opgenomen. In de review wordt iedereen uitgenodigd beargumenteerd aan te geven in hoeverre het genoemde voorstel al dan niet een goede oplossing is. Ook wordt iedereen van harte uitgenodigd om alternatieve oplossingen aan te dragen.
+ Hieronder is een eerste voorstel oplossing van dit vraagstuk opgenomen. In de review wordt iedereen uitgenodigd beargumenteerd aan te geven in hoeverre het genoemde voorstel al dan niet een goede oplossing is. Ook wordt iedereen van harte uitgenodigd om alternatieve oplossingen aan te dragen.
 </div>
 
 
