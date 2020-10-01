@@ -28,12 +28,11 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.4   | 4-10-2020     |  concept    | 1e opbouw              | Document met vertegenwoordigers werkveld vormgegeven |
                            
 
-<div class='note'>
- notitieblokje
-</div>
 
-> test
->test 2
->Test 3
+
+> Consultatievraag:
+>
+> Wat vind u hiervan  - Deze versie van dit document is tot stand gekomen door de werkgroep "inhoud van de samenhangende objectenregistratie" van DiSGeo, waar de volgende personen deel van uitmaken:
+>
 
 
