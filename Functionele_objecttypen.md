@@ -466,7 +466,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een verkeerskundig functionele zone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone.  |Ja (vlak)|
 |Type| Een categorisering van de verschillende verkeerskundig functionele zones.| Ja|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt.   |Ja  |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -521,8 +521,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Spoorzone |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  ||
+| Definitie | Gebied in gebruik voor spoorwegen.  |
+|Herkomst definitie  | nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type spoorzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -532,10 +532,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een spoorzone.  |Ja |
+|Identificatie   |De unieke aanduiding van Spoorzone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een spoorzone.  |Ja (vlak) |
-|Type| Een categorisering van verschillende type spoorzones. |Ja|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Type| Een categorisering van verschillende soorten spoorzones. |Ja|
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -561,7 +561,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Waarde type	|Beschrijving|
 |---|---|
 | Perron |  Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. |
-| Overweg | Een gelijkvloerse kruising van een weg met een spoor type trein of sneltram. |
+| Overweg | Een gelijkvloerse kruising van een weg met een spoor voor trein, tram of metro. |
 | Spoorbaan | Gebaand gedeelte voor het verkeer over rails. |
 | Emplacement | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen. |
 
@@ -579,9 +579,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Wegzone  |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  |  |
-|Verplicht  | Ja  |
+| Definitie | Gebied in gebruik voor weginrichting.  |
+|Herkomst definitie  | nieuw |
+|Verplicht  | Ja (deels)  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type wegzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
@@ -589,9 +589,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een wegzone.  |Ja |
-|Geometrie |De geometrische representatie van een wegzone.  |Ja (vlak) |
-|Type | Een categorisering van verschillende wegzones. | Ja|
+|Identificatie   |De unieke aanduiding van Wegzone.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een wegzone.  |Ja (vlak) |
+|Type | Een categorisering van verschillende soorten wegzones. | Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -612,10 +612,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
-<div class='note'>
-    Niet alle type wegzones verplicht maken
-</div>
-
 |Waarde type	|Beschrijving|
 |---|---|
 | Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.  |
@@ -635,8 +631,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Luchtvaartzone |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  | |
+| Definitie | Gebied in gebruik voor luchtvaart.  |
+|Herkomst definitie  | nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type luchtvaartzones zoals deze zijn opgenomen in de basisregistratie (grootschalige) topografie.  |
 |Toelichting|  |
@@ -646,17 +642,14 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een luchtvaartzone.  |Ja |
-|Geometrie |De geometrische representatie van een luchtvaartzone. |Ja (vlak)|
-|Type| Een categorisering van type luchtvaartzone. | Ja|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Identificatie   |De unieke aanduiding van Luchtvaartzone.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een luchtvaartzone. |Ja (vlak)|
+|Type| Een categorisering van soort luchtvaartzone. | Ja|
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-
-
 **Domeinwaarden**
-
 
 *status*
 
@@ -744,7 +737,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 |Identificatie   |De unieke aanduiding van recreatie.  |Ja |
 |Geometrie |De geometrische representatie van recreatie. |Ja (vlak)|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Type|Een categorisering van de verschillende soorten recreatie.|Nee| 
 |Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt.   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
@@ -775,13 +768,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | 	camping|Geheel van verharding, begroeiing en opstallen, in gebruik als terrein waar tijdelijk tenten en/of caravans kunnen worden geplaatst ten behoeve van recreatie.|
 | 	bungalowpark|Geheel van verharding, begroeiing, overige opstallen en gebouwen, bedoeld als vakantie-/weekendhuisjes die niet permanent bewoond worden.|
 | 	volkstuin|Terreingedeelte in gebruik als volkstuinen, inclusief bebouwing, verharding en dergelijke. | 
-
-
-
-
- 
-
-
 
 
 #### Oever
@@ -849,7 +835,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van Complex.|Ja |
 |Geometrie|De geometrische representatie van de randen van een complex.|ja (vlak)|
 |Type complex|Een categorisering van de verschillende complexen. |ja|
-|Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   | De fase van de levenscyclus waarin de betreffende complex zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
