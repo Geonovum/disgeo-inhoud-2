@@ -7,7 +7,6 @@
 **KNOOP**
 
 | Klasse  | Naam  |
-{: .blue}
 |---|---|
 | SOR-begrip   | Knoop|
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
@@ -32,6 +31,8 @@
 |Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de knoop verplaatst.|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+{: .blue}
 
 *overerving van eigenschappen/kenmerken a.g.v. relatie met andere objecten*
 
