@@ -7,6 +7,7 @@
 **KNOOP**
 
 | Klasse  | Naam  |
+{: .blue}
 |---|---|
 | SOR-begrip   | Knoop|
 | Onderdeel van NEN3610-objecttype |Functioneel object  |
