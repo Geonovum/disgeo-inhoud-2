@@ -30,7 +30,7 @@
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip watervlakte |Ja |
-|Geometrie|De geometrische representatie van de randen van een watervlakte. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een watervlakte.  |Ja (vlak)|
 |Status   |   |Ja   |
 |Type watervlakte|aanduiding soort watervlakte|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -87,7 +87,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip waterloop |Ja |
-|Geometrie|De geometrische representatie van de randen van een waterloop. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een waterloop. |Ja (vlak)|
 |Status   |   |Ja   |
 |Type waterloop|aanduiding soort waterloop|Nee|
 |*watervoerend* | *aanduiding of de waterloop wel of geen water bevat* | *ja*|
@@ -143,7 +143,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip bron |Ja |
-|Geometrie|De geometrische representatie van de randen van een bron.  *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie*|Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een bron. |Ja (vlak)|
 |Status   |   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -1846,7 +1846,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van bak |Ja |
-|Geometrie|De geometrische representatie van de locatie van bak. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Geometrie|De geometrische representatie van de locatie van bak.  |Ja (punt)|
 |Status   |   |Ja   |
 |Type bak|Aanduiding soort bak|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1959,7 +1959,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van depot |Ja |
-|Geometrie|De geometrische representatie van de locatie van depot. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Geometrie|De geometrische representatie van de locatie van depot.  |Ja (punt)|
 |Status   |   |Ja   |
 |Type bak|Aanduiding soort depot|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -2011,7 +2011,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van geleider |Ja |
-|Geometrie|De geometrische representatie van de ligging van de geleider. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (lijn, vlak)|
+|Geometrie|De geometrische representatie van de ligging van de geleider.  |Ja (lijn, vlak)|
 |Status   |   |Ja   |
 |Type geleider|aanduiding soort geleider|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -2124,7 +2124,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van mast |Ja |
-|Geometrie|De geometrische representatie van de ligging van de mast of van de randen van de mast. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt, lijn, vlak)|
+|Geometrie|De geometrische representatie van de ligging van de mast of van de randen van de mast.  |Ja (punt, lijn, vlak)|
 |Status   |   |Ja   |
 |Type installatie|aanduiding soort mast |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -2182,7 +2182,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van straatmeubilair |Ja |
-|Geometrie|De geometrische representatie van de locatie van het straatmeubilair. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Geometrie|De geometrische representatie van de locatie van het straatmeubilair.  |Ja (punt)|
 |Status   |   |Ja   |
 |Type installatie|aanduiding soort straatmeubilair |Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -2252,7 +2252,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van sensor |Ja |
-|Geometrie|De geometrische representatie van de sensor. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Geometrie|De geometrische representatie van de sensor. |Ja (punt)|
 |Status   |   |Ja   |
 |Type sensor|aanduiding soort sensor|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -2304,7 +2304,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van paal |Ja |
-|Geometrie|De geometrische representatie van een paal. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Geometrie|De geometrische representatie van een paal.  |Ja (punt)|
 |Status   |   |Ja   |
 |Type paal|aanduiding soort paal|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -2389,7 +2389,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van kast |Ja |
-|Geometrie|De geometrische representatie van een kast. *nader te preciseren op basis van generieke uitspraken over de vastlegging van geometrie* |Ja (punt)|
+|Geometrie|De geometrische representatie van een kast.  |Ja (punt)|
 |Status   |   |Ja   |
 |Type kast|aanduiding soort kast|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
