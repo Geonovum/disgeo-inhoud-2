@@ -36,8 +36,8 @@
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja (LR)|
-|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Ja (LR)|
+|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja (LR) (MV)|
+|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Ja (LR) (MV)|
 |Type verharding|Aanduiding soort verharding.|Ja (LR) (MV)|
 
 
@@ -115,7 +115,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type strook| Een categorisering van de verschillende strooktypes. |Nee|
 |Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de wegverbinding verplaatst.|Ja|
 |Modaliteit| Soorten voertuigen die zich op de verbinding mogen begeven. | Ja (MV)|
+|Rijrichting| De toegestane beweegrichting van het verkeer op een wegverbinding | Ja|
 |Openbare weg|Weg die door iedereen gebruikt kan worden. | Ja|
+|Verkeerskundig kenmerk| Een mogelijk geldende beperking/waarschuwing voor weggebruikers op een deel van de wegverbinding.| Ja (LR) (MV)|
 |Status   |De fase van de levenscyclus waarin de betreffende wegverbinding zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -125,7 +127,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 |Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja (LR) (MV)|
 |Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Ja (LR) (MV)|
-|Type verharding|Aanduiding soort verharding.|Ja (LR) (MV)|
+|Fysieke kenmerken | Fysieke eigenschappen met een verkeerskundige betekenis zoals opgenomen als eigenschap bij gerelateerde reële objecten. Zoals bijvoorbeeld de eigenschap type verharding. |Ja (LR) (MV)|
 
 
 **Relaties met andere objecttypen** 
