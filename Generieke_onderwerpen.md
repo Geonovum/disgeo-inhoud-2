@@ -150,6 +150,12 @@ Ontwerpprincipe:
 
 Het gaat hierbij in elk geval om de volgende regels:
 
+*Normatief.*
+
+*Bevat regels voor het gebruik van een aantal coördinaatreferentiesystemen en sluit aan op nationale afspraken hierover.*
+
+*Classificatie: ontsluiting, techniek*
+
 - Iedere geometrische dataset/geometrie moet zijn voorzien van een verwijzing naar
 het coördinaatreferentiesysteem waarin de coördinaten van de geometrie zijn
 beschreven.
