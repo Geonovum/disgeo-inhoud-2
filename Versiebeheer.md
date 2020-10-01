@@ -29,9 +29,11 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
                            
 
 <div class='note'>
- dit is blokje onsultatievraag
- ! oranje regel2
- - rode regel 3
+ notitieblokje
 </div>
+
+> test
+>test 2
+>Test 3
 
 
