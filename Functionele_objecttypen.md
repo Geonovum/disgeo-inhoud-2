@@ -27,18 +27,26 @@
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Knoop  |Ja |
 |Geometrie |De geometrische representatie van een knoop |Ja (punt), Nee (vlak)|
-|Naam|Naam van de knoop zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is) (LR)|
 |Type verkeersgebied|Een deel van de weg met een specifieke functie om van richting te veranderen of de reis te beginnen/eindigen.|Ja|
 |Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de knoop verplaatst.|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+*overerving van eigenschappen/kenmerken a.g.v. relatie met andere objecten*
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja (LR)|
+|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Ja (LR)|
+|Type verharding|Aanduiding soort verharding.|Ja (LR) (MV)|
+
 
 **Relaties met andere objecttypen** 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 | ligt aan 1 of meer | gerelateerde wegverbinding(en) |Ja|
-| heeft 1 | openbare ruimte | Ja (als er een openbare ruimte benoemd is) (LR) |
+| heeft 1 | openbare ruimte | Ja  |
 | ligt op | gerelateerde reële object | Ja|
 
 **Domeinwaarden**
@@ -124,7 +132,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 | hoort bij 2 | knoop |ja|
-| heeft een | openbare ruimte | ja (als er een openbare ruimte benoemd is)(LR) |
+| heeft een | openbare ruimte | ja  |
 | ligt op | verharding| ja|
 
 **Domeinwaarden**
@@ -159,6 +167,17 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde type baan	|Beschrijving|
 |---|---|
+|hoofdrijbaan	|Meerdere stroken met dezelfde hoofdverkeersfunctie. Een verkeer dragende baan bestemd voor doorgaand verkeer.|
+|busbaan	|Vrij liggende baan bestemd voor autobussen ten behoeve van het openbaar vervoer en andere erop toegelaten motorvoertuigen. |
+|rotondebaan|	Een hoofdrijbaan op een rotonde, met een hectometrering en een hectometreringsletter.|
+|rangeerbaan|	Verbindt de uit en invoegstrook met elkaar en geeft toegang tot verbindingsbogen. |
+|parallelbaan|	Een verkeer dragende baan die naast een hoofdrijbaan loopt en het lokale verkeer dat die hoofdrijbaan mag en wil kruisen, oprijden of verlaten, kan opvangen, verzamelen of verdelen, of alleen voor lokaal verkeer gebruikt kan worden.|
+|tussenbaan	|Een verkeerdragende baan die een verbinding vormt tussen twee verzorgingsbanen en geen eigen hectometreringsletter heeft.|
+|verbindingsbaan|	Een verkeer dragende baan die de verbinding verzorgt tussen ongelijkvloers samenkomende wegen of tussen niet samenkomende wegen, en die voorzien is van hectometerborden met een hectometrering en een hectometreringsletter.|
+|verzorgingsbaan|	Een verkeer dragende baan op een parkeer- of verzorgingsplaats voor rustend verkeer|
+|fietspad	|Een weggedeelte dat is gereserveerd voor het fietsverkeer en snorfietsen|
+|voetpad	|Deel van verkeersinfrastructuur dat uitsluitend bedoeld is voor voetgangers.|
+|ruiterpad	|Een speciaal zandpad waarover ruiters kunnen rijden.|
 
 
 *type hoofdverkeersgebruik*
@@ -175,7 +194,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Fietsers|	Bestuurders die met een fiets aan het verkeer deelnemen.|
 |Voetgangers|	Een persoon die te voet deelneemt aan het verkeer.|
 |Ruiters|	Bestuurder van een paard of pony. |
-|Overig|	Verkeersgebruikers die niet onder de bovenstaande typen vallen. |
 
 *Modaliteit*
 
@@ -196,8 +214,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Voorrangsvoertuig|	Een motorvoertuig dat optische en geluidssignalen voert. (politie, brandweer, ambulance) |
 |Ruiters|	Bestuurder van een paard of pony. |
 |Voetgangers|	Een persoon die te voet deelneemt aan het verkeer. |
-|Overig	Modaliteiten| Die niet onder bovenstaande typen vallen.|
-
 
 *openbare weg*
 
@@ -622,6 +638,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Beëindigd	|
 |Niet gerealiseerd|	
 |Ten onrechte	|
+
+.
 
 |Waarde type	|Beschrijving|
 |---|---|
