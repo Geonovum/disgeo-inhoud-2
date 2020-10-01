@@ -145,23 +145,69 @@ Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geome
 
 #### Coördinaatreferentiesysteem 
 
-Voor het definiëren van de coördinaatreferentiesystemen kunnen de EPSG-codes (European Petroleum Survey Group) worden gebruikt.
 
-Voor de handliggende coördinaatreferentiesystemen zijn:
+*Normatief.*
 
-- RD stelsel (2D): EPSG:28992
+*Bevat regels voor het gebruik van een aantal coördinaatreferentiesystemen en sluit aan op nationale afspraken hierover.*
 
-- RD-NAP (3D): EPSG:7415
+*Classificatie: ontsluiting, techniek*
 
-- ETRS89 (2D): EPSG:4258 (lengte, breedte in graden)
+- **Regel** Iedere geometrische dataset/geometrie moet zijn voorzien van een verwijzing naar
+het coördinaatreferentiesysteem waarin de coördinaten van de geometrie zijn
+beschreven.
+- **Regel:** Coördinaatreferentiesystemen moeten voldoen aan NEN-EN-ISO 19111 óf
+NEN-EN-ISO 19112 en bestaan uit een horizontaal en verticaal
+coördinaatreferentiesysteem. Een coördinaatreferentiesysteem is op zijn beurt
+weer opgebouwd uit een datum (horizontaal/verticaal) en een coördinaatsysteem.
+- **Regel:** Binnen de Europese continentale aardschol (waartoe ook Nederland en het
+Nederlandse deel van de Noordzee behoren) geldt dat
+coördinaten herleidbaar moeten zijn tot het European Terrestrial Reference
+System 1989 (ETRS89) voor wat betreft de horizontale component. 
+De verticale component is bij voorkeur uitgedrukt ten opzichte van het Europese Verticale
+Referentie Stelsel (EVRS) dat één centimeter afwijkt van het in Nederland
+gebruikelijke NAP.
 
-- ETRS89 (3D): EPSG:4937 (lengte, breedte in graden, hoogte in meters tov ellipsoide)
+Coördinaatreferentiesystemen die naast ETRS89/EVRS kunnen worden gebruikt zijn
+de volgende.
 
-- ETRS89 + EVRF2007 (3D): EPSG:7423 (lengte, breedte in graden, hoogte in meters tov NAP)
+1.  Het RD-NAP-coördinaatreferentiesysteem. Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89. 
+    Hiervoor geldt dat de gebruikte horizontale datum Bessel 1841 is en het
+    coördinaatsysteem de stereografische projectie. Als verticale datum wordt
+    het NAP-vlak gebruikt. RDNAPTRANS™ is de officiële en nauwkeurige transformatie tussen het coördinatensysteem van de Rijksdriehoeksmeting (RD) en het Normaal Amsterdams Peil (NAP) enerzijds en het European Terrestrial Reference System 1989 (ETRS89) anderzijds. **Aanbeveling:** controleer bij transformaties tussen ETRS89 en RD coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties.;
 
-Ontwerpprincipe: 
+2.  De UTM-projectie (zone 31/32) (op het Nederlands continentaal plat). Voor
+    dit systeem geldt dat het gebruikte horizontale datum vaak ofwel het
+    European Datum 1950 (ED50) of het World Geodetic System 1984 (WGS84) is. Als
+    verticale datum wordt van verschillende, getijgerelateerde, verticale
+    datums, waaronder het Lowest Astronomical Tide en het Mean Sea Level,
+    gebruikgemaakt.
 
-**Voor 3D geometrie is het noodzakelijk om met een cartesisch coördinatenstelsel te werken (d.w.z. waarin de 3D assen onderling loodrecht op elkaar staan).**
+3. De WGS84 / Pseudo-Mercator projectie. Voor dit systeem geldt dat het horizontale datum het World Geodetic System 1984 is. Deze projectie is de de-facto standaard voor visualisatietoepassingen op het web. 
+
+Indien andere coördinaatreferentiesystemen worden gebruikt, moet worden
+aangegeven welke coördinaatconversie en coördinaattransformatie noodzakelijk
+zijn om van de gehanteerde coördinaten te komen tot coördinaten in het ETRS89.
+
+Voor het definiëren van de coördinaatreferentiesystemen kunnen de EPSG-codes
+(European Petroleum Survey Group) worden gebruikt. 
+
+Voor de handliggende coördinaatreferentiesystemen en hun EPSG-codes zijn:
+
+-   RD stelsel (2D): EPSG:28992
+
+-   RD-NAP (3D): EPSG:7415
+
+-   ETRS89 (2D): EPSG:4258 (lengte, breedte in graden)
+
+-   ETRS89 (3D): EPSG:4937 (lengte, breedte in graden, hoogte in meters tov
+    ellipsoide)
+
+-   ETRS89 + EVRF2007 (3D): EPSG:7423 (lengte, breedte in graden, hoogte in
+    meters tov NAP)
+
+Een gangbare methode voor het specificeren van het coördinaatreferentiesysteem in een implementatieformat is verwijzen naar de URI van het desbetreffende coördinaatreferentiesysteem in het register met coördinaatreferentiesystemen van OGC, bijvoorbeeld [http://www.opengis.net/def/crs/EPSG/0/28992](http://www.opengis.net/def/crs/EPSG/0/28992) voor RD.
+
+
 
 
 #### Coördinaten
