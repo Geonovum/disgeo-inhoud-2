@@ -415,7 +415,6 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                              | voetgangersgebied             |                                     | vervalt                                                                |
 |                              | inrit                         |                                     | verkeerskundig functionele zone: type inrit                            |
 |                              | woonerf                       |                                     | vervalt, wordt vervangen door netwerk en eigenschappen van het netwerk |
-|                              |                               |                                     |                                                                        |
 | **Wegdeel**                  | Fysiek voorkomen:             |                                     |                                                                        |
 |                              | gesloten verharding           | asfalt                              | asfaltverharding                                                       |
 |                              |                               | cementbeton                         | betonverharding                                                        |
@@ -431,10 +430,10 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                              |                               | gravel                              | halfverharding                                                         |
 |                              | onverhard                     | boomschors                          | onverhard of onbegroeide grond?                                        |
 |                              |                               | zand                                | onverhard of onbegroeide grond?                                        |
+|      |     |      |     |
 | **Ondersteunend wegdeel**    | Functie:                      |                                     |                                                                        |
 |                              | verkeerseiland                |                                     | wegzone: type verkeerseiland                                           |
 |                              | berm                          |                                     | wegzone: type berm                                                     |
-|                              |                               |                                     |                                                                        |
 | **Ondersteunend wegdeel**    | Fysiek voorkomen:             |                                     |                                                                        |
 |                              | gesloten verharding           | asfalt                              | asfaltverharding                                                       |
 |                              |                               | cementbeton                         | betonverharding                                                        |
@@ -456,6 +455,7 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                              |                               | struikrozen                         | struiken                                                               |
 |                              |                               | heesters                            | struiken                                                               |
 |                              |                               | bodembedekkers                      | struiken                                                               |
+|      |     |      |     |
 | **Spoor**                    | Functie:                      |                                     |                                                                        |
 |                              | trein                         |                                     | spoorweg: type spoorverbinding                                         |
 |                              | sneltram                      |                                     | spoorweg: type spoorverbinding                                         |
@@ -533,6 +533,7 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                              | watervlakte                   | haven                               | functionele zone: havencomplex : aanleg en overslag      |
 |                              |                               | meer, plas, ven, vijver             | watervlakte: type meer, type plas, type ven, type vijver |
 |                              | greppel/droge sloot           |                                     | vervalt, wordt eigenschap bij waterloop                  |
+|  |  |  |  |
 | **Ondersteunend waterdeel**  | oever/slootkant               |                                     | oever                                                    |
 |                              | slik                          |                                     | getijdengebied: type slik                                |
 
