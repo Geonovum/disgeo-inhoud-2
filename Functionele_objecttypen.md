@@ -108,7 +108,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Wegverbinding.  |Ja |
 |Geometrie |De geometrische representatie van een wegverbinding.  |Ja (lijn), Nee (vlak)|
-|Type wegverbinding|De type verbinding beschrijft het level van detail van het netwerk|Ja|
+|Type wegverbinding|De type verbinding beschrijft het level van detail van het netwerk.|Ja|
 |Type weg| Een categorisering van de verschillende wegtypes. |Ja|
 |Type baan| Een categorisering van de verschillende baantypes. |Ja|
 |Type strook| Een categorisering van de verschillende strooktypes. |Nee|
@@ -122,8 +122,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja (LR)|
-|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Ja (LR)|
+|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja (LR) (MV)|
+|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Ja (LR) (MV)|
 |Type verharding|Aanduiding soort verharding.|Ja (LR) (MV)|
 
 
@@ -144,9 +144,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan. (LoD2)|
 |Veerverbinding|Een geregelde verbinding per vaartuig bestemd voor (on)bepaalde hoofdverkeersgebruik. (Verbijzondering van type weg)|
 
-<div class='note'>
-    Wat te doen met wegtypen: verbindingsweg, calamiteitendoorsteek en voetpad op trap
-</div>
 
 *type weg*
 
@@ -178,6 +175,29 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |fietspad	|Een weggedeelte dat is gereserveerd voor het fietsverkeer en snorfietsen|
 |voetpad	|Deel van verkeersinfrastructuur dat uitsluitend bedoeld is voor voetgangers.|
 |ruiterpad	|Een speciaal zandpad waarover ruiters kunnen rijden.|
+
+*type strook*
+
+|Waarde type strook	|Beschrijving|
+|---|---|
+|Rijstrook |	Een strook waar voertuigen over rijden.|
+|Vluchtstrook|	Een strook langs autosnelwegen waar weggebruikers naar kunnen uitwijken in geval van nood of pech|
+|Spitsstrook |	Een spitsstrook is een extra rijstrook op een rijbaan van een autosnelweg|
+|Invoegstrook |	Een rijstrook die naar de hoofdrijbaan leidt|
+|Uitvoegstrook |	Een rijstrook met beperkte lengte waarop bestuurders snelheid kunnen minderen om uit te voegen.|
+|Weefstrook |	Een weefvak is een combinatie van een invoegstrook en uitvoegstrook.|
+|Bufferstrook |	Een bufferstrook is een extra rijstrook die kan worden opengesteld om te voorkomen dat een file vóór een knelpunt zo lang wordt dat hij andere verkeersstromen gaat blokkeren.|
+|Plusstrook |	Een opengestelde strook aan de linkerzijde van een rijbaan.|
+|Wisselstrook |	Een rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting.|
+|Redresseerstrook |	Een strook langs de buitenste rijstroken van een rijbaan met als doel om uit de koers geraakte voertuigen op te vangen en terug op koers te brengen.|
+|Voorsorteerstrook |	Een infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om naar de gewenste richting (linksaf, rechtdoor, rechtsaf) af te slaan. |
+|Klimstrook |	Een strook waarbij trager rijdend verkeer (zoals vrachtwagens) en het overige sneller rijdende verkeer gescheiden wordt bij het beklimmen van een heuvel of berg.|
+|Fietsstrook |	Een strook dat uitsluitend voor fietsers is gereserveerd met fietssymbool. |
+|Fietssuggestiestrook |	Een strook dat voor fietsers is gereserveerd zonder fietssymbool.|
+|Passeerstrook|	Een passeerstrook is een lokale wegverbreding op smalle wegen buiten de bebouwde kom waar langzaam verkeer gepasseerd kan worden. |
+|Vrachtwagenstrook|	Een vrachtwagenstrook is een rijstrook specifiek bestemd voor vrachtverkeer en meestal ook bussen.|
+|Bus-strook|	Een strook waar alleen bussen (hulpdiensten en trams) mogen rijden.|
+
 
 
 *type hoofdverkeersgebruik*
