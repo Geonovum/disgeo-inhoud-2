@@ -31,6 +31,6 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 
 
 <div class='info note-info consultatie '>
- hsfgjhsfgjhsfgjhsfgjhsfgjhfgh
+ hsfgjhsfgjhsfgjhsfgjhsfgjhfgh 2
 </div>
 
