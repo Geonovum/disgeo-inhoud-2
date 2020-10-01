@@ -1453,7 +1453,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Ondertunneling  |
 |---|---|
 | Definitie | Ondergrondse of onder water gelegen verbinding tussen twee punten, aan beide einden voorzien van een open bakconstructie. |
-|Herkomst definitie  |  |
+|Herkomst definitie  | nieuw |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *tunneldelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En van *kunstwerkdelen van Type duiker* indien opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
 |Toelichting|  |
@@ -1497,13 +1497,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde Beperking| Beschrijving   |
 |---|---|
-| doorrijhoogte | De hoogte die beschikbaar is tussen de rijbaan en de constructies welke boven de weg aanwezig zijn, als deze lager is dan 4,20 meter. |
-| doorrijbreedte| |
-| toegestane massa||
-| toegestane lengte||
-
-
-
+| doorrijhoogte | Maximale doorrijhoogte tussen het wegdek en de constructie boven het wegdek geldend op een weg, rijbaan of rijstrook (afhankelijk van de type verbinding). |
+| doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van de type verbinding).  |
+| toegestane massa|Toegestane massa op een kunstwerk/verharding.|
+| toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van de type verbinding).|
 
 
 #### Kerende kunstwerken
@@ -1518,7 +1515,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Kerende kunstwerken  |
 |---|---|
 | Definitie | Kunstwerk met mogelijk een kerende functie. |
-|Herkomst definitie  |  |
+|Herkomst definitie  | nieuw  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
 |Toelichting|  |
@@ -1892,7 +1889,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Putdeksel  |
 |---|---|
 | Definitie | Het afsluitende deel van een gegraven, koker of lijnvormige constructie waarin zich (vloei)stoffen kunnen bevinden. |
-|Herkomst definitie  |     |
+|Herkomst definitie  |   Afgeleid van de definitie van een put in IMGeo 2.2 |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van de bestaande populatie *put* en van een subset van de bestaande populatie *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -1949,7 +1946,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Depot  |
 |---|---|
 | Definitie | Object met een permanent karakter dat dient om gassen, energie, vaste- en vloeistoffen in te bergen of te verzamelen. |
-|Herkomst definitie  |   |
+|Herkomst definitie  |  nieuw |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier een subset van de bestaande populatie *overig bouwwerk* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -2001,7 +1998,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Geleider  |
 |---|---|
 | Definitie | Een constructie bedoeld voor de fysieke (be)geleiding van voer-, vaartuigen. |
-|Herkomst definitie  |     |
+|Herkomst definitie  | nieuw    |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *waterinrichtingselementen* en *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -2054,8 +2051,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Installatie  |
 |---|---|
-| Definitie | Een technisch samenhangend systeem dat een bepaald doel dient |
-|Herkomst definitie  | IMGeo   |
+| Definitie | Een technisch samenhangend systeem dat een bepaald doel dient. |
+|Herkomst definitie  | Gebaseerd op installatie in IMGeo 2.2  |
 |Verplicht  | Nader te bepalen  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties  *installatie* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -2114,7 +2111,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Mast  |
 |---|---|
 | Definitie | Een hoge draagconstructie voor de opwekking en transport van energie en elektromagnetische straling. |
-|Herkomst definitie  |     |
+|Herkomst definitie  |  nieuw   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *gebouwen*, *kunstwerkdelen* en *mast* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -2172,7 +2169,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Straatmeubilair  |
 |---|---|
 | Definitie | Een ruimtelijk object ter inrichting van de openbare ruimte. |
-|Herkomst definitie  |  imgeo.geostandaarden.nl   |
+|Herkomst definitie  |  IMGeo 2.2  |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een subset van de bestaande populaties *bak*, *paal* en *straatmeubilair* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -2242,7 +2239,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Sensor  |
 |---|---|
 | Definitie | Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit. |
-|Herkomst definitie  | IMGeo 2.1.1    |
+|Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *sensor* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -2294,7 +2291,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Paal  |
 |---|---|
 | Definitie | Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat. |
-|Herkomst definitie  | IMGeo 2.1.1    |
+|Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Paal* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -2379,7 +2376,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Kast  |
 |---|---|
 | Definitie | Object met een permanent karakter dat dient om iets in te bergen en te beschermen. |
-|Herkomst definitie  | IMGeo 2.1.1    |
+|Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Kast* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
