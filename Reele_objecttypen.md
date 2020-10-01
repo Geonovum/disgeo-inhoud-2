@@ -379,7 +379,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Herkomst definitie  | Gebaseerd op definitie van bodem in concept NEN3610 2020|
 | Verplicht  | Ja  |
 | Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen  type *onverhard* van wegen en terreinen in de basisregistratie grootschalige topografie. |
-| Toelichting| Het gaat hierbij over het type  waarmee het vlak overwegend is bedekt. Voor minimale stukjes, 5m2, met ander Type hoeft geen apart vlak te worden gevormd. |
+| Toelichting|  |
 
 **Eigenschappen**
 
@@ -421,7 +421,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Gewas  |
 |---|---|
 | Gewas |Terrein in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
-|Herkomst definitie  | BGT 1.2 |
+|Herkomst definitie  | Definitie gebaseerd op bouwland in de BGT 1.2 |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in Gewas. |
 |Toelichting|  |
@@ -1319,7 +1319,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Overbrugging  |
 |---|---|
 | Definitie | Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
-|Herkomst definitie  |  |
+|Herkomst definitie  | nieuw  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen; hoort bij Type overbrugging* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
 |Toelichting|  |
@@ -1369,10 +1369,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde Beperking| Beschrijving   |
 |---|---|
-| doorrijhoogte | De hoogte die beschikbaar is tussen de rijbaan en de constructies welke boven de weg aanwezig zijn, als deze lager is dan 4,20 meter. |
-| doorrijbreedte| |
-| toegestane massa||
-| toegestane lengte||
+| doorrijhoogte | Maximale doorrijhoogte tussen het wegdek en de constructie boven het wegdek geldend op een weg, rijbaan of rijstrook (afhankelijk van de type verbinding). |
+| doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van de type verbinding).  |
+| toegestane massa|Toegestane massa op een kunstwerk/verharding.|
+| toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van de type verbinding).|
 | doorvaarhoogte |De hoogte die beschikbaar is tussen water en de constructies welke boven het water aanwezig zijn. |
 
 
@@ -1389,7 +1389,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  |Kunstwerkdeel  |
 |---|---|
 | Definitie |  Onderdeel van een civieltechnisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
-|Herkomst definitie  |   |
+|Herkomst definitie  | BGT 1.2  |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
 |Toelichting|  |
