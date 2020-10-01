@@ -260,6 +260,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Spoorweg
 
+<div class='note'>
+    De definitieve beschrijving van het spoorwegennetwerk zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze beschrijving aansluit op de begrippen zoals deze Prorail worden gehanteerd. Onderstaande begrippen zijn voorbeelden en uitsluitend bedoeld om een indruk te geven van wat hier zal worden opgenomen. Ook wordt deze lijst nog afgestemd met begrippen in de BRT.
+</div>
+
 **KNOOP**
 
 | Klasse  | Naam  |
@@ -365,6 +369,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Vaarweg
 
+<div class='note'>
+    De definitieve beschrijving van het vaarwegennetwerk zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze beschrijving aansluit op de begrippen zoals deze in de scheepvaartsector worden gehanteerd. Onderstaande begrippen zijn voorbeelden en uitsluitend bedoeld om een indruk te geven van wat hier zal worden opgenomen. Ook wordt deze lijst nog afgestemd met begrippen in de BRT.
+</div>
+
+
 **KNOOP**
 
 | Klasse  | Naam  |
@@ -468,6 +477,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Water
+
+<div class='note'>
+    De definitieve beschrijving van het waternetwerk zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze beschrijving aansluit op de begrippen zoals deze in de watersector worden gehanteerd. Onderstaande begrippen zijn voorbeelden en uitsluitend bedoeld om een indruk te geven van wat hier zal worden opgenomen. Ook wordt deze lijst nog afgestemd met begrippen in de BRT.
+</div>
 
 **KNOOP**
 
