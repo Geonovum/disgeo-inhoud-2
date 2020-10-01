@@ -409,30 +409,30 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-#### Bouwland
+#### Gewas
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Bouwland  |
+|SOR-begrip   | Gewas  |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | Bouwland  |
+| Naam  | Gewas  |
 |---|---|
-| Bouwland |Terrein in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
-|Herkomst definitie  | BGT 1.1.1 |
+| Gewas |Terrein in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
+|Herkomst definitie  | BGT 1.2 |
 |Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in bouwland. |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in Gewas. |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van bouwland. |Ja |
-|Geometrie| De geometrische representatie van de randen van een bouwland. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het betreffende bouwland zich bevindt.  |Ja   |
+|Identificatie   | De unieke aanduiding van Gewas. |Ja |
+|Geometrie| De geometrische representatie van de randen van een Gewas. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende Gewas zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -451,32 +451,32 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte|
 
 
-####    Fruit en bomenteelt
+####    Fruit- of kweekbomen
 
 | Klasse  | Naam  |
 |---|---|
-|SOR-begrip   | Fruit en bomenteelt |
+|SOR-begrip   | Fruit- of kweekbomen |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
 
 
 **Definitie**
 
-| Naam  | Fruit en bomenteelt |
+| Naam  | Fruit- of kweekbomen |
 |---|---|
-| Definitie |Terreindeel begroeid met fruitbomen in de vorm van hoogstam en laagstamboomgaard, druiven of kleinfruit. en Grond in gebruik voor het kweken van jonge siergewassen, bomen enz. ten behoeve van een later gebruik elders.   |
-|Herkomst definitie  | BT / CROW  |
+| Definitie |Terrein in gebruik voor het kweken van meerjarige siergewassen en bomen ten behoeve van een later gebruik elders of voor het kweken van fruit.   |
+|Herkomst definitie  | nieuw |
 |Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *fruitteelt* bij *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *fruitteelt* en *boomteelt* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de *Boomkwekerij*, *Fruitkwekerij* en *Boomgaard* zoals deze is opgenomen in de basisregistratie topografie. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen. |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van fruit en bomenteelt. |Ja |
-|Geometrie| De geometrische representatie van de randen van fruit en bomenteelt. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de betreffende fruit en bomenteelt zich bevindt.  |Ja   |
-|Type fruit en bomenteelt| De aanduiding van het soort fruit- bomenteelt.|Ja|
+|Identificatie   | De unieke aanduiding van fruit- of kweekbomen. |Ja |
+|Geometrie| De geometrische representatie van de randen van fruit- of kweekbomen. |Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de betreffende fruit- of kweekbomen zich bevindt.  |Ja   |
+|Type fruit- of kweekbomen| De aanduiding van het soort fruit- of kweekbomen.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -497,18 +497,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 .
 
-|Waarde Type fruit en bomenteelt| Beschrijving   |
+|Waarde Type fruit- of kweekbomen| Beschrijving   |
 |---|---|
 | laagstam boomgaarden |Terreindeel begroeid met laagstamfruitbomen.   |
 | hoogstam boomgaarden |Terreindeel begroeid met hoogstamfruitbomen.   |
 | wijngaarden|Terreindeel begroeid met druivenstokken voor wijnbouw.  |
 | klein fruit |Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen.   |
 | boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is.  |
-
-<div class='note'>
-    De huidige BGT-objecten "Fruitteelt" met subtypen (laagstam boomgaarden, hoogstam boomgaarden, wijngaarden en klein fruit) en "Boomteelt" alsmede de BRT objecttypen "Boomkwekerij", Fruitkwekerij" en "Boomgaard" lopen qua definities door elkaar. WG Groen heeft geen specifieke toepassingen van dit objecttype kunnen vinden en stelt daarom voor om één supertype "Fruit en boomteelt" te definiëren met daaronder 5 subtypen die vrijwillig gevuld worden. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.  
-</div>
-
 
 
 #### Natuurlijk groen 
@@ -517,26 +512,30 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |SOR-begrip   | Natuurlijk groen  |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
 
+MOERAS
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Moeras |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 **Definitie**
 
-| Naam  | Natuurlijk groen  |
+| Naam  | Moeras |
 |---|---|
-| Definitie | |
-|Herkomst definitie  | |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+| Definitie | Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing. |
+|Herkomst definitie  | BGT 1.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *moeras*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van natuurlijk groen. |Ja |
-|Geometrie| De geometrische representatie van de randen van natuurlijk groen. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het betreffende natuurlijke groen zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
+|Identificatie   |De unieke aanduiding van het SOR-begrip Moeras. |Ja |
+|Geometrie|De geometrische representatie van de randen van een moeras. |Ja (vlak)|
+|Status   |  De fase van de levenscyclus waarin het moeras zich bevindt. |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 **Domeinwaarden**
@@ -547,23 +546,137 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde Status| 
 |---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
 |Ten onrechte|
 
-.
-
-|Waarde type natuurlijk groen| Beschrijving|
+RIETLAND
+| Klasse  | Naam  |
 |---|---|
-| Moeras |Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing.  |
-| Heide |Terreindeel overwegend begroeid met heide en heideachtige vegetaties.  |
-| Rietland |Terreindeel overwegend begroeid met rietvegetatie.  |
-| Duin| Verhoging of heuvel van zand of fijne losse aarde en verpulverd gesteente opgeworpen door wind of door stromend water.|
+| SOR-begrip   | Rietland |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+ 
+
+**Definitie**
+
+| Naam  | Rietland |
+|---|---|
+| Definitie |Terreindeel overwegend begroeid met rietvegetatie. |
+|Herkomst definitie  | BGT 1.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *rietland*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip Rietland. |Ja |
+|Geometrie|De geometrische representatie van de randen van een rietland. |Ja (vlak)|
+|Status   |  De fase van de levenscyclus waarin het rietland zich bevindt. |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
+**Domeinwaarden**
 
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte|
+
+HEIDE
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Heide |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+ 
+
+**Definitie**
+
+| Naam  | Heide |
+|---|---|
+| Definitie | Terreindeel overwegend begroeid met heide en heideachtige vegetaties.|
+|Herkomst definitie  | BGT 1.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *heide*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip Heide. |Ja |
+|Geometrie|De geometrische representatie van de randen van een heide. |Ja (vlak)|
+|Status   |  De fase van de levenscyclus waarin het heide zich bevindt. |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte|
+
+DUIN
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Duin |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+ 
+
+**Definitie**
+
+| Naam  | Duin |
+|---|---|
+| Definitie |Verhoging of heuvel van zand of fijne losse aarde en verpulverd gesteente opgeworpen door wind of door stromend water. |
+|Herkomst definitie  | BGT 1.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *duin*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip Duin. |Ja |
+|Geometrie|De geometrische representatie van de randen van een duin. |Ja (vlak)|
+|Status   |  De fase van de levenscyclus waarin het duin zich bevindt. |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte|
 
 
 #### Landschapselement
@@ -633,7 +746,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|
 | Definitie | Een markante boom die geen onderdeel uitmaakt van bos of struiken. |
 |Herkomst definitie  | IMGeo 2.2 |
-|Verplicht  | ja  |
+|Verplicht  | nee  |
 |Gevolgen afbakening  | nieuw object  |
 |Toelichting|  |
 
