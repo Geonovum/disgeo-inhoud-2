@@ -261,7 +261,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Spoorweg
 
 <div class='note'>
-    De definitieve beschrijving van het spoorwegennetwerk zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze beschrijving aansluit op de begrippen zoals deze Prorail worden gehanteerd. Onderstaande begrippen zijn voorbeelden en uitsluitend bedoeld om een indruk te geven van wat hier zal worden opgenomen. Ook wordt deze lijst nog afgestemd met begrippen in de BRT.
+    De definitieve beschrijving van het spoorwegennetwerk zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze beschrijving aansluit op de begrippen zoals deze door Prorail worden gehanteerd. Onderstaande begrippen zijn voorbeelden en uitsluitend bedoeld om een indruk te geven van wat hier zal worden opgenomen. Ook wordt deze lijst nog afgestemd met begrippen in de BRT.
 </div>
 
 **KNOOP**
