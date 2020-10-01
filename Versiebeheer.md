@@ -27,3 +27,10 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.1    | 16-04-2020     |  concept    | Initieel document               | Kapstok document  aangemaakt  |
 | 0.4   | 4-10-2020     |  concept    | 1e opbouw              | Document met vertegenwoordigers werkveld vormgegeven |
                            
+[!NOTE]
+Dit is een consultatievraag :
+regel 1
+regel 2
+
+
+Dit moet buiten het blok vallen
