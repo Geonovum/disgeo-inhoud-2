@@ -32,9 +32,11 @@
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-{: .blue}
+
 
 *overerving van eigenschappen/kenmerken a.g.v. relatie met andere objecten*
+{: .blue}
+
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
