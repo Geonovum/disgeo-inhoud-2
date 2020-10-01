@@ -25,7 +25,7 @@
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een knoop  |Ja |
+|Identificatie   |De unieke aanduiding van een Knoop  |Ja |
 |Geometrie |De geometrische representatie van een knoop |Ja (punt), Nee (vlak)|
 |Naam|Naam van de knoop zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is) (LR)|
 |Type verkeersgebied|Een deel van de weg met een specifieke functie om van richting te veranderen of de reis te beginnen/eindigen.|Ja|
@@ -45,12 +45,10 @@
 
 |Waarde Type verkeersgebied|Beschrijving|
 |---|---|
-|kruising||
-|rotonde||
-|knooppunt||
-|inrit||
-|uitrit||
-|transferium||
+|kruising|Een kruising is een punt waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +.|
+|verkeersplein|Een verkeersplein is een punt waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft.|
+|rotonde|Een rotonde is een punt waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een ring (veelal rond), waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld en waarbij het verkeer op de ring voorrang heeft. |
+|knooppunt|Een knooppunt is een kruispunt van auto(snel)wegen.|
 
 .
 
@@ -60,7 +58,7 @@
 |Langzaam verkeer|	Motorvoertuigen die snelheidsbeperking hebben zoals landbouwvoertuigen, fietsers, voetgangers.|
 |Gemengd verkeer|	Verschillende hoofdverkeersgebruikers zijn toegestaan om de knoop.|
 |Busverkeer|	Voertuig ingericht voor het vervoer van personen, met meer dan acht zitplaatsen, de bestuurderszitplaats niet meegerekend, niet zijnde een motorrijtuig met beperkte snelheid of gehandicaptenvoertuig.|
-|Fietsers| bromfietsers	Bestuurders die met een fiets of bromfiets aan het verkeer deelnemen.|
+|Fietsers, bromfietsers	|Bestuurders die met een fiets of bromfiets aan het verkeer deelnemen.|
 |Voetgangers|	Een persoon die te voet deelneemt aan het verkeer.|
 |Ruiters|	Bestuurder van een paard of pony. |
 
@@ -100,16 +98,26 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een wegverbinding  |Ja |
-|Geometrie |De geometrische representatie van een wegverbinding  |Ja (lijn), Nee (vlak)|
-|Type wegverbinding||Ja|
+|Identificatie   |De unieke aanduiding van een Wegverbinding.  |Ja |
+|Geometrie |De geometrische representatie van een wegverbinding.  |Ja (lijn), Nee (vlak)|
+|Type wegverbinding|De type verbinding beschrijft het level van detail van het netwerk|Ja|
 |Type weg| Een categorisering van de verschillende wegtypes. |Ja|
+|Type baan| Een categorisering van de verschillende baantypes. |Ja|
+|Type strook| Een categorisering van de verschillende strooktypes. |Nee|
+|Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de wegverbinding verplaatst.|Ja|
 |Modaliteit| Soorten voertuigen die zich op de verbinding mogen begeven. | Ja (MV)|
 |Openbare weg|Weg die door iedereen gebruikt kan worden. | Ja|
-|Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de wegverbinding verplaatst.|Ja|
-|Naam|Naam van de weg zoals opgenomen in besluit openbare ruimte.|Ja (als er een openbare ruimte benoemd is)(LR)|
 |Status   |De fase van de levenscyclus waarin de betreffende wegverbinding zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+*overerving van eigenschappen/kenmerken a.g.v. relatie met andere objecten*
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja (LR)|
+|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Ja (LR)|
+|Type verharding|Aanduiding soort verharding.|Ja (LR) (MV)|
+
 
 **Relaties met andere objecttypen** 
 
@@ -123,10 +131,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde type wegverbinding|	Beschrijving|
 |---|---|
-|Weg	|Beschrijft level detail 0 van een weg|
-|Baan	|Beschrijft level detail 1 van een weg|
-|Strook|	Beschrijft level detail 2 van een weg|
-|Veerverbinding|	Verbijzondering van type wegverbinding|
+|Weg	|Een weg is een voorziening die bestaat uit banen die een functie vervullen ten behoeve van het afwikkelen van het verkeer.(LoD0))|
+|Baan	|Een aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers. (LoD1)|
+|Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan. (LoD2)|
+|Veerverbinding|Een geregelde verbinding per vaartuig bestemd voor (on)bepaalde hoofdverkeersgebruik. (Verbijzondering van type weg)|
 
 <div class='note'>
     Wat te doen met wegtypen: verbindingsweg, calamiteitendoorsteek en voetpad op trap
@@ -145,9 +153,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Fiets/bromfietspad|	Pad dat voor zowel bromfietsers als fietsers verplicht is. |
 |Fietspad|	een weggedeelte of vrij liggend pad dat is gereserveerd voor het fietsverkeer en snorfietsen.|
 |Voetpad|	Deel van verkeersinfrastructuur dat uitsluitend bedoeld is voor voetgangers verkeer.|
-|Overige wegen|	Wegen die niet onder een van bovenstaande typen vallen.| 
-
 |Ruiterpad|Een pad primair aangelegd voor het gebruik door ruiters.|
+
+*type baan*
+
+|Waarde type baan	|Beschrijving|
+|---|---|
 
 
 *type hoofdverkeersgebruik*
