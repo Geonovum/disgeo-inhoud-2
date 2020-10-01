@@ -466,7 +466,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een verkeerskundig functionele zone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone.  |Ja (vlak)|
 |Type| Een categorisering van de verschillende verkeerskundig functionele zones.| Ja|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt.   |Ja  |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -521,8 +521,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Spoorzone |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  ||
+| Definitie | Gebied in gebruik voor spoorwegen.  |
+|Herkomst definitie  | nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type spoorzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -532,10 +532,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een spoorzone.  |Ja |
+|Identificatie   |De unieke aanduiding van Spoorzone.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een spoorzone.  |Ja (vlak) |
-|Type| Een categorisering van verschillende type spoorzones. |Ja|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Type| Een categorisering van verschillende soorten spoorzones. |Ja|
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -561,7 +561,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Waarde type	|Beschrijving|
 |---|---|
 | Perron |  Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. |
-| Overweg | Een gelijkvloerse kruising van een weg met een spoor type trein of sneltram. |
+| Overweg | Een gelijkvloerse kruising van een weg met een spoor voor trein, tram of metro. |
 | Spoorbaan | Gebaand gedeelte voor het verkeer over rails. |
 | Emplacement | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen. |
 
@@ -579,9 +579,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Wegzone  |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  |  |
-|Verplicht  | Ja  |
+| Definitie | Gebied in gebruik voor weginrichting.  |
+|Herkomst definitie  | nieuw |
+|Verplicht  | Ja (deels)  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type wegzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
@@ -589,9 +589,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een wegzone.  |Ja |
-|Geometrie |De geometrische representatie van een wegzone.  |Ja (vlak) |
-|Type | Een categorisering van verschillende wegzones. | Ja|
+|Identificatie   |De unieke aanduiding van Wegzone.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een wegzone.  |Ja (vlak) |
+|Type | Een categorisering van verschillende soorten wegzones. | Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -612,10 +612,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
-<div class='note'>
-    Niet alle type wegzones verplicht maken
-</div>
-
 |Waarde type	|Beschrijving|
 |---|---|
 | Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.  |
@@ -635,8 +631,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Luchtvaartzone |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  | |
+| Definitie | Gebied in gebruik voor luchtvaart.  |
+|Herkomst definitie  | nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type luchtvaartzones zoals deze zijn opgenomen in de basisregistratie (grootschalige) topografie.  |
 |Toelichting|  |
@@ -646,17 +642,14 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een luchtvaartzone.  |Ja |
-|Geometrie |De geometrische representatie van een luchtvaartzone. |Ja (vlak)|
-|Type| Een categorisering van type luchtvaartzone. | Ja|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Identificatie   |De unieke aanduiding van Luchtvaartzone.  |Ja |
+|Geometrie |De geometrische representatie van de randen van een luchtvaartzone. |Ja (vlak)|
+|Type| Een categorisering van soort luchtvaartzone. | Ja|
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-
-
 **Domeinwaarden**
-
 
 *status*
 
@@ -683,19 +676,44 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #### Begraafplaats
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Begraafplaats |
+| Onderdeel van NEN3610-objecttype |Functioneel object|
+
+**Definitie**
+
+| Naam  | Begraafplaats |
+|---|---|
+| Definitie |Een besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard. |
+|Herkomst definitie  | IMGeo 2.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier deels de bestaande populatie *begraafplaats*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van Begraafplaats. |Ja |
+|Geometrie|De geometrische representatie van de randen van een begraafplaats. |Ja (vlak)|
+|Status   |  De fase van de levenscyclus waarin de begraafplaats zich bevindt. |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte|
 
 #### Recreatie
 | Klasse  | Naam  |
@@ -707,24 +725,22 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Recreatie  |
 |---|---|
-| Definitie |  |
-| Herkomst definitie  |      |
+| Definitie | Gebied in gebruik voor openlucht recreatie.  |
+| Herkomst definitie  | IMGeo 2.2     |
 | Verplicht  | Ja  |
-| Gevolgen afbakening||
+| Gevolgen afbakening|Het betreft hier deels de bestaande populatie typen *recreatie*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.|
 | Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van recreatie  |Ja |
-|Geometrie |De geometrische representatie van recreatie |Ja (vlak)|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Identificatie   |De unieke aanduiding van recreatie.  |Ja |
+|Geometrie |De geometrische representatie van recreatie. |Ja (vlak)|
+|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
+|Type|Een categorisering van de verschillende soorten recreatie.|Nee| 
 |Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt.   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
-
-
-
 
 **Domeinwaarden**
 
@@ -746,19 +762,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde type | Beschrijving|
 |---|---|
-| 	speeltuin||
-| 	park||
-| 	sportterrein||
-| 	camping||
-| 	bungalowpark||
-| 	volkstuin| | 
-
-
-
-
- 
-
-
+| 	speeltuin|Geheel van begroeiing, verharding, opstallen en speelwerktuigen, bedoeld als speelplaats voor kinderen.|
+| 	park|Landschappelijk ingericht terrein, begroeid met houtachtige en kruidachtige vegetatie, verharding, objecten, waterpartijen en dergelijke, bedoeld als (grootschalige) recreatieve voorziening.|
+| 	sportterrein|Terrein, mogelijk met groenvoorziening, verharding en bebouwing, bestemd voor sportbeoefening.|
+| 	camping|Geheel van verharding, begroeiing en opstallen, in gebruik als terrein waar tijdelijk tenten en/of caravans kunnen worden geplaatst ten behoeve van recreatie.|
+| 	bungalowpark|Geheel van verharding, begroeiing, overige opstallen en gebouwen, bedoeld als vakantie-/weekendhuisjes die niet permanent bewoond worden.|
+| 	volkstuin|Terreingedeelte in gebruik als volkstuinen, inclusief bebouwing, verharding en dergelijke. | 
 
 
 #### Oever
@@ -781,7 +790,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip oever.|Ja |
+|Identificatie   |De unieke aanduiding van oever.|Ja |
 |Geometrie|De geometrische representatie van de randen van de oever.|Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende oever zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -823,10 +832,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip complex.|Ja |
+|Identificatie   |De unieke aanduiding van Complex.|Ja |
 |Geometrie|De geometrische representatie van de randen van een complex.|ja (vlak)|
 |Type complex|Een categorisering van de verschillende complexen. |ja|
-|Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   | De fase van de levenscyclus waarin de betreffende complex zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -885,7 +894,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kering|Ja |
+|Identificatie   |De unieke aanduiding van Kering.|Ja |
 |Geometrie|De geometrische representatie van de kerende voorziening.|Ja (lijn, vlak)|
 |Type kering|Een categorisering van de verschillende type keringen.|Ja|
 |Status   | De fase van de levenscyclus waarin de kerende voorziening zich bevindt.   |Ja   |
@@ -938,7 +947,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip reducering|Ja |
+|Identificatie   |De unieke aanduiding van reducering.|Ja |
 |Geometrie|De geometrische representatie van de reducerende voorziening.|Ja (lijn)|
 |Type reducering|Een categorisering van de verschillende type reducering.| Ja|
 |Status   | De fase van de levenscyclus waarin de reducerende voorziening zich bevindt.   |Ja   |
@@ -988,7 +997,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip valbescherming|Ja |
+|Identificatie   |De unieke aanduiding van valbescherming.|Ja |
 |Geometrie|De geometrische representatie de valbescherming.|Ja (lijn)|
 |Status   |  De fase van de levenscyclus waarin de valbescherming zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
