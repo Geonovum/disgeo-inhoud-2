@@ -254,7 +254,6 @@ Voor ISO19125 zie: https://www.iso.org/standard/40114.html
 
 #### Topologie
 
-
 Ontwerpprincipe: 
 
 **Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels**
@@ -264,13 +263,12 @@ Ontwerpprincipe:
 **Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken, daarom wordt de term *Referentielaag* gehanteerd.**
 
 Deze Referentielaag wordt 
-- In geval van reële objecttypen volledig gedekt door objecten uit de objecttypen BODEM en WATER.
- -	Hierbij sluiten de objecten topologisch naadloos op elkaar aan
- - 	Objecten van andere reële objecttypen worden ten opzichte hiervan gepositioneerd, zoals bijvoorbeeld Gebouwen en Verharding. Ook de 3D-verschijningsvormen van objecten kunnen ten opzichte hiervan worden gepositioneerd
- -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
+- In geval van reële objecttypen volledig gedekt door objecten uit de objecttypen water + begroeiing (onbegroeid) + constructies
+    -	Hierbij sluiten de objecten topologisch naadloos op elkaar aan, maar overlap is vooralsnog mogelijk. Er worden nog regels opgesteld over welke objecten prevaleren voor een kaartbeeld.
+    -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
 
-Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moest worden aangepast. Met de nieuwe aanpak van de SOR vervalt de verplichting om grenzen tussen object zo precies gelijk te houden, behalve voor de genoemde objecttypen BODEM en WATER
+Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moest worden aangepast. 
 
 Ontwerpprincipe: 
 
@@ -564,7 +562,7 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 - PBP’s die niet meer tot de actuele objecten behoren kunnen worden bepaald en in downloads zonder historie worden geschrapt.
 - Alleen voor objecten die goed idealiseerbaar zijn in het terrein worden voor de coördinaten die zijn ingemeten middels inwinningsmethoden fotogrammetrisch, terrestrisch, laserscanning of panoramabeelden, plaatsbepalingspunten opgenomen. De goed idealiseerbare objecten zijn de objecten met een positionele nauwkeurigheid van tenminste 30 centimeter.
 - De ligging van elk object is gedefinieerd door geometrie. Deze is vastgelegd bij een object in de vorm van een eigenschap ‘geometrie’. Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten van de goed idealiseerbare objecten, die deel uitmaken van de verzameling van de meetkundige afbakening.
-- Bij de objecten die op de referentielaag deel uitmaken van de groepen "Bodem" en "Water" vormen de verbindingen tussen de coördinaten altijd een grens tussen twee aangrenzende objecten. 
+- Bij de objecten die op de referentielaag deel uitmaken van de groepen water + begroeiing (onbegroeid) + constructies  vormen de verbindingen tussen de coördinaten meestal een grens zonder gaten tussen twee aangrenzende objecten, maar overlap is vooralsnog mogelijk
 
 **Eisen aan plaatsbepalingspunten**
 
