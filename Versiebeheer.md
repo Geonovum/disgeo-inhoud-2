@@ -28,14 +28,6 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.4   | 4-10-2020     |  concept    | 1e opbouw              | Document met vertegenwoordigers werkveld vormgegeven |
                            
 
-<div class="panel panel-info">
-**Note consultatievraag**
-{: .panel-heading}
-<div class="panel-body">
 
-NOTE DESCRIPTION consultatievraag
-
-</div>
-</div>
 
 
