@@ -844,6 +844,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|
 |Ten onrechte|
 
+.
+
+|Waarde soortnaam|
+|---|
+|Betreffende soortnaam uit ‘Naamlijst van houtige gewassen en vaste planten’|
 
 
 ### Bebouwing
@@ -2188,17 +2193,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **Domeinwaarden**
 
-*status*
+<div class='note'>
+    Het voorstel is om onderstaande typeringen van straatmeubilair **niet** meer op te nemen in de SOR.
+</div>
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 *type straatmeubilair*
 
@@ -2224,6 +2222,20 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |betaalautomaat|Een apparaat dat betaalkaarten en/of contant geld accepteert om betalingen uit te voeren.|
 |fietsenkluis|Een kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging.|
 |herdenkingsmonument|In het terrein aangelegd object ter herdenking van personen of evenementen.|
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte|
+
+
 
 
 #### Sensor
@@ -2310,17 +2322,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **Domeinwaarden**
 
-*status*
+<div class='note'>
+    Het voorstel is om onderstaande typeringen van paal **niet** meer op te nemen in de SOR.
+</div>
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 *type paal*
 
@@ -2361,6 +2367,19 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |reclamezuil|*Vrijstaand bord/zuil waarop rondom of aan één of meer zijden affiches kunnen worden (of zijn) geplakt.*|
 |betonning|*Een systeem van boeien en bakens, waarmee in open zee of in een vaarwater ondiepten of de aanwezigheid van gevaarlijke objecten worden aangegeven.*|
 |meerpaal|*Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd.*|
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte|
+
 
 
 #### Kast
