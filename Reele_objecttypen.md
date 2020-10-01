@@ -513,6 +513,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Onderdeel van NEN3610-objecttype |Begroeiing |
 
 MOERAS
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Moeras |
@@ -537,7 +538,6 @@ MOERAS
 |Status   |  De fase van de levenscyclus waarin het moeras zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-
 **Domeinwaarden**
 
 *status*
@@ -553,12 +553,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte|
 
 RIETLAND
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Rietland |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
-
- 
 
 **Definitie**
 
@@ -579,7 +578,6 @@ RIETLAND
 |Status   |  De fase van de levenscyclus waarin het rietland zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-
 **Domeinwaarden**
 
 *status*
@@ -595,12 +593,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte|
 
 HEIDE
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Heide |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
-
- 
 
 **Definitie**
 
@@ -621,7 +618,6 @@ HEIDE
 |Status   |  De fase van de levenscyclus waarin het heide zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-
 **Domeinwaarden**
 
 *status*
@@ -637,12 +633,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte|
 
 DUIN
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Duin |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
-
- 
 
 **Definitie**
 
@@ -662,7 +657,6 @@ DUIN
 |Geometrie|De geometrische representatie van de randen van een duin. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin het duin zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
 
 **Domeinwaarden**
 
