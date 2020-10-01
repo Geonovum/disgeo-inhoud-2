@@ -365,9 +365,211 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Vaarweg
 
+**KNOOP**
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Knoop|
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+**Definitie**
+
+| Naam  | Knoop  |
+|---|---|
+| Definitie | Een knoop is een begin-, eind- of keuzepunt voor de vaarweggebruiker. |
+| Herkomst definitie  | nieuw     |
+| Verplicht  | Ja  |
+| Gevolgen afbakening||
+| Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Knoop.  |Ja |
+|Geometrie |De geometrische representatie van een knoop. |Ja (punt), Nee (vlak)|
+|Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt.   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| ligt aan 1 of meer | gerelateerde vaarwegverbinding(en) |Ja|
+| ligt op | gerelateerde reële object | Ja|
+| hyperverbinding met| gerelateerde functionele zone | Ja|
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
 
 
-#### Waterelement
+**VAARWEGVERBINDING**
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Vaarwegverbinding|
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+**Definitie**
+
+| Naam  | Vaarwegverbinding  |
+|---|---|
+| Definitie | Een vaarwegverbinding beschrijft de verkeerskundige inrichting van een vaarweg tussen twee knopen. |
+|Herkomst definitie  | conceptueel model netwerken     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening||
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een vaarwegverbinding.  |Ja |
+|Geometrie |De geometrische representatie van een vaarwegverbinding.  |Ja (lijn), Nee (vlak)|
+|Status   |De fase van de levenscyclus waarin de betreffende vaarwegverbinding zich bevindt.   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| hoort bij 2 | knoop |ja|
+| ligt op | gerelateerde reële object| ja|
+| hyperverbinding met | gerelateerde functionele zone | Ja|
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+
+#### Water
+
+**KNOOP**
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Knoop|
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+**Definitie**
+
+| Naam  | Knoop  |
+|---|---|
+| Definitie | Een knoop is een begin-, eind- of keuzepunt voor water. |
+| Herkomst definitie  | nieuw     |
+| Verplicht  | Ja  |
+| Gevolgen afbakening||
+| Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een Knoop.  |Ja |
+|Geometrie |De geometrische representatie van een knoop. |Ja (punt), Nee (vlak)|
+|Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt.   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| ligt aan 1 of meer | gerelateerde waterverbinding(en) |Ja|
+| ligt op | gerelateerde reële object | Ja|
+| hyperverbinding met| gerelateerde functionele zone | Ja|
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
+
+**WATERVERBINDING**
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Waterverbinding|
+| Onderdeel van NEN3610-objecttype |Functioneel object  |
+
+**Definitie**
+
+| Naam  | waterverbinding  |
+|---|---|
+| Definitie | Een waterverbinding beschrijft de hydrologische inrichting van water tussen twee knopen. |
+|Herkomst definitie  | nieuw     |
+|Verplicht  | Ja  |
+|Gevolgen afbakening||
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een waterverbinding.  |Ja |
+|Geometrie |De geometrische representatie van een waterverbinding.  |Ja (lijn), Nee (vlak)|
+|Status   |De fase van de levenscyclus waarin de betreffende waterverbinding zich bevindt.   |Ja   |
+|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| hoort bij 2 | knoop |ja|
+| ligt op | gerelateerde reële object| ja|
+| hyperverbinding met | gerelateerde functionele zone | Ja|
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland	|
+|Gevormd|
+|In gebruik|	
+|Buiten gebruik|	
+|Beëindigd|	
+|Niet gerealiseerd|	
+|Ten onrechte	|
+
 
 ### Functionele gebouwobjecten
 
