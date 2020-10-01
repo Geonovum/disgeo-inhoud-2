@@ -680,28 +680,31 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |SOR-begrip   | Landschapselement |
 | Onderdeel van NEN3610-objecttype |Begroeiing |
 
+BOMENRIJ
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Bomenrij |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
 **Definitie**
 
-| Naam  | Landschapselement |
+| Naam  | Bomenrij |
 |---|---|
-| Definitie |  |
-|Herkomst definitie  |   |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | het betreft hier grotendeels de bestaande populatie *haag* en *houtsingel* zoals deze is opgenomen in de basisregistratie grootschalige topografie. Aangevuld met nieuwe elementen bomenrij en tuunwal.  |
+| Definitie | Opgaande rijvormige begroeiing van bomen zonder ondergroei van struiken.|
+|Herkomst definitie  | BGT 1.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *bomenrij*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van een landschapselement. |Ja |
-|Geometrie| De geometrische representatie van de randen van een landschapselement. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de betreffende landschapselement zich bevindt.  |Ja   |
-|Type landschapselement| De aanduiding van het soort landschapselement.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-
+|Identificatie   |De unieke aanduiding van het SOR-begrip Bomenrij. |Ja |
+|Geometrie|De geometrische representatie van de randen van een bomenrij. |Ja (vlak)|
+|Status   |  De fase van de levenscyclus waarin het bomenrij zich bevindt. |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Domeinwaarden**
 
@@ -711,20 +714,91 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Waarde Status| 
 |---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|	
-|Niet gerealiseerd|	
-|Ten onrechte|	
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte|
 
-*landschapselement*
+HOUTSINGEL
 
-|Waarde Type landschapselement| Beschrijving   |
+| Klasse  | Naam  |
 |---|---|
-| bomenrij|Opgaande rijvormige begroeiing van bomen zonder ondergroei van struiken.  |
-| houtsingel |Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken.  |
-| haag |Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken.   |
+| SOR-begrip   | Houtsingel |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
 
+**Definitie**
+
+| Naam  | Houtsingel |
+|---|---|
+| Definitie |Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken.   |
+|Herkomst definitie  | BGT 1.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *houtwal*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip Houtsingel. |Ja |
+|Geometrie|De geometrische representatie van de randen van een houtsingel. |Ja (vlak)|
+|Status   |  De fase van de levenscyclus waarin het houtsingel zich bevindt. |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte|
+
+HAAG
+
+| Klasse  | Naam  |
+|---|---|
+| SOR-begrip   | Haag |
+| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+**Definitie**
+
+| Naam  | Haag |
+|---|---|
+| Definitie | Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken. |
+|Herkomst definitie  | BGT 1.2    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *haag*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van het SOR-begrip Haag. |Ja |
+|Geometrie|De geometrische representatie van de randen van een haag. |Ja (vlak)|
+|Status   |  De fase van de levenscyclus waarin het haag zich bevindt. |Ja   |
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|gepland|
+|bestaand|
+|verwijderd|
+|niet gerealiseerd|
+|Ten onrechte|
 
 
 #### Boom
