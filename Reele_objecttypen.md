@@ -1266,6 +1266,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels).   |
 | sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden|
 | kolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht.|
+| vuilvang | Een voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke.|
 
 
 #### Ondertunneling
