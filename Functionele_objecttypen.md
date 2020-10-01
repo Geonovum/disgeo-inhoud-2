@@ -781,7 +781,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip oever|Ja |
+|Identificatie   |De unieke aanduiding van het SOR-begrip oever.|Ja |
 |Geometrie|De geometrische representatie van de randen van de oever.|Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende oever zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -813,8 +813,8 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Complex  |
 |---|---|
-| Definitie |   |
-|Herkomst definitie  |     |
+| Definitie |  Verzameling van één of meer bouwwerken, gronden en inrichtingen die samen een functionele eenheid vormen, en die een aantal voorzieningen kunnen delen. |
+|Herkomst definitie  |  nieuw   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening||
 |Toelichting|  |
@@ -823,11 +823,11 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip complex|Ja |
-|Geometrie||nee (vlak)|
-|Type complex|||
+|Identificatie   |De unieke aanduiding van het SOR-begrip complex.|Ja |
+|Geometrie|De geometrische representatie van de randen van een complex.|nee (vlak)|
+|Type complex|Een categorisering van de verschillende complexen. |ja|
 |Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
-|Status   |   |Ja   |
+|Status   | De fase van de levenscyclus waarin de betreffende complex zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -852,11 +852,11 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Type complex| Beschrijving   |
 |---|---|
 |||
-|havencomplex||
-|gemaalcomplex||
-|sluiscomplex||
-|stuwcomplex||
-|coupurecomplex||
+|gemaalcomplex|Alle bij een gemaal behorende gronden, inrichtingen en bouwwerken.|
+|sluiscomplex|Alle bij een sluis behorende gronden, inrichtingen en bouwwerken.|
+|stuwcomplex|Alle bij een stuw behorende gronden, inrichtingen en bouwwerken.|
+|coupurecomplex|Alle bij een coupure behorende gronden, inrichtingen en bouwwerken.|
+|aanleg en overslag|Alle bij een haven behorende gronden, inrichtingen en bouwwerken.|
 
 
 
@@ -1055,17 +1055,6 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Beëindigd	|
 |Niet gerealiseerd|	
 |Ten onrechte	|
-
-
-#### Vuilvang
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Vuilvang |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
-
-<div class='note'>
-    Is vuilvang een functie of een kunstwerk? (IMBOR zegt kunstwerk)
-</div>
 
 
 
