@@ -30,10 +30,7 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 
 
 
-<div class='hint note-info'>
- notitieblokje rood bbbbbb2vvvvvv mmmmmmm hhhhhhhhhhhhhhhhhhh
+<div class='info note-consultatievraag'>
+ hsfgjhsfgjhsfgjhsfgjhsfgjhfgh
 </div>
->  
->|CONSULTATIEVRAAG|
->|dIT IS EEN STUK TEKST dit is een stuk tekst|
->
+
