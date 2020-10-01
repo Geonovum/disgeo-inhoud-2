@@ -824,7 +824,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip complex.|Ja |
-|Geometrie|De geometrische representatie van de randen van een complex.|nee (vlak)|
+|Geometrie|De geometrische representatie van de randen van een complex.|ja (vlak)|
 |Type complex|Een categorisering van de verschillende complexen. |ja|
 |Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   | De fase van de levenscyclus waarin de betreffende complex zich bevindt.  |Ja   |
@@ -921,7 +921,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Klasse  | Naam  |
 |---|---|
-| SOR-begrip   | reducering|
+| SOR-begrip   | Reducering|
 | Onderdeel van NEN3610-objecttype | Functioneel object |
 
 **Definitie**
@@ -940,7 +940,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip reducering|Ja |
 |Geometrie|De geometrische representatie van de reducerende voorziening.|Ja (lijn)|
-|type reducering|Een categorisering van de verschillende type reducering.| Ja|
+|Type reducering|Een categorisering van de verschillende type reducering.| Ja|
 |Status   | De fase van de levenscyclus waarin de reducerende voorziening zich bevindt.   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -960,10 +960,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 *type reducering* 
 
-|Waarde Type reducering| Beschrijving   |Herkomst|
-|---|---|---|
-|geluid|	voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|	nieuw|
-|fijnstof|	voorziening bedoeld om verspreiding van fijnstof te verminderen	|nieuw|
+|Waarde Type reducering| Beschrijving   |
+|---|---|
+|geluid|	voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
+|fijnstof|	voorziening bedoeld om verspreiding van fijnstof te verminderen	|
 
 
 #### Valbescherming
@@ -989,7 +989,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het SOR-begrip valbescherming|Ja |
-|Geometrie|De geometrische representatie de valbescherming.|nee (lijn)|
+|Geometrie|De geometrische representatie de valbescherming.|Ja (lijn)|
 |Status   |  De fase van de levenscyclus waarin de valbescherming zich bevindt.  |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -1033,7 +1033,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van afscheiding. |Ja |
-|Geometrie|De geometrische representatie van de afscheiding.|nee (lijn)|
+|Geometrie|De geometrische representatie van de afscheiding.|Ja (lijn)|
 |Status   | De fase van de levenscyclus waarin de afscheiding zich bevindt.   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
