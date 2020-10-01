@@ -30,7 +30,7 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 
 
 
-<div class='consultatie note-info'>
+<div class='info note-info consultatie '>
  hsfgjhsfgjhsfgjhsfgjhsfgjhfgh
 </div>
 
