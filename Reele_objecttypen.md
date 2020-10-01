@@ -296,7 +296,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   | De unieke aanduiding van gras- en kruidachtigen |Ja |
-|Geometrie| De geometrische representatie van de randen van veld met een gras- en kruidachtigens. |Ja (vlak)|
+|Geometrie| De geometrische representatie van de randen van veld met gras- en kruidachtigen. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende veld met gras- en kruidachtigen zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
@@ -517,7 +517,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is.  |
 
 <div class='note'>
-    De huidige BGT-objecten "Fruitteelt" met subtypen (laagstam boomgaarden, hoogstam boomgaarden, wijngaarden en klein fruit) en "Boomteelt" alsmede de BRT objecttypen "Boomkwekerij", Fruitkwekerij" en "Boomgaard" lopen qua definities door elkaar. WG Groen heeft geen specifieke toepassingen van dit objectype kunnen vinden en stelt daarom voor om één supertype "Fruit en boomteelt" te definiëren met daaronder 5 subtypen die vrijwillig gevuld worden. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.  
+    De huidige BGT-objecten "Fruitteelt" met subtypen (laagstam boomgaarden, hoogstam boomgaarden, wijngaarden en klein fruit) en "Boomteelt" alsmede de BRT objecttypen "Boomkwekerij", Fruitkwekerij" en "Boomgaard" lopen qua definities door elkaar. WG Groen heeft geen specifieke toepassingen van dit objecttype kunnen vinden en stelt daarom voor om één supertype "Fruit en boomteelt" te definiëren met daaronder 5 subtypen die vrijwillig gevuld worden. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.  
 </div>
 
 
@@ -908,7 +908,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie |De geometrische representatie van de randen van een gebouwcomponent   |Ja (1,5D of 2,5D)|
 |Aard|Het soort gebouwcomponent|Ja |
 |Bijbehorend object |Het object waarbij de betreffende gebouwcomponent behoort|Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende igebouwcomponent zich bevindt   |Ja   |
+|Status   |De fase van de levenscyclus waarin de betreffende gebouwcomponent zich bevindt   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 **Relaties met andere objecttypen** 
@@ -1218,7 +1218,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  |Kunstwerkdeel  |
 |---|---|
-| Definitie |  Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
+| Definitie |  Onderdeel van een civieltechnisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
 |Herkomst definitie  |   |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
@@ -1926,7 +1926,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|
 |pomp|Technische inrichting om vloeistoffen en/of gassen te verplaatsen.|
 |zonnepanelen| Een installatie om zonne-energie om te zetten in energie |
-|lift| Een installatie gericht op het vertikaal vervoeren van personen en goederen|
+|lift| Een installatie gericht op het verticaal vervoeren van personen en goederen|
 |windturbine|Turbine waarin winddruk omgezet wordt in mechanische energie|
 |oplaadpunt| Systeem voor opladen van elektrische auto's |
 

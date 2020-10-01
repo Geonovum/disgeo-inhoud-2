@@ -67,7 +67,7 @@
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -103,7 +103,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een wegverbinding  |Ja |
 |Geometrie |De geometrische representatie van een wegverbinding  |Ja (lijn), Nee (vlak)|
 |Type wegverbinding||Ja|
-|Type weg| Een catagorisering van de verschillende wegtypes. |Ja|
+|Type weg| Een categorisering van de verschillende wegtypes. |Ja|
 |Modaliteit| Soorten voertuigen die zich op de verbinding mogen begeven. | Ja (MV)|
 |Openbare weg|Weg die door iedereen gebruikt kan worden. | Ja|
 |Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de wegverbinding verplaatst.|Ja|
@@ -197,7 +197,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -329,7 +329,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -426,7 +426,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -501,7 +501,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -546,7 +546,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -602,7 +602,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -660,7 +660,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -675,7 +675,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 |Waarde type	|Beschrijving|
 |---|---|
 | Baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer.  |
-| Luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accomodatie voor ontvangst en vertrek van passagiers en verzending van goederen.  |
+| Luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accommodatie voor ontvangst en vertrek van passagiers en verzending van goederen.  |
 
 <div class='note'>
     Luchthaven alleen opnemen als dit door BRT.next wordt aangegeven
@@ -730,7 +730,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -793,7 +793,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -837,7 +837,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -896,7 +896,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -948,7 +948,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1000,7 +1000,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1046,7 +1046,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
@@ -1086,7 +1086,7 @@ Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoal
 
 *status*
 
-Bij dit object kunnen de alleem de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
 |Waarde Status| 
 |---|
