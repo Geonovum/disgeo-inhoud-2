@@ -48,6 +48,7 @@
 | ligt aan 1 of meer | gerelateerde wegverbinding(en) |Ja|
 | heeft 1 | openbare ruimte | Ja  |
 | ligt op | gerelateerde reële object | Ja|
+| hyperverbinding met| gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
 
@@ -134,6 +135,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | hoort bij 2 | knoop |ja|
 | heeft een | openbare ruimte | ja  |
 | ligt op | verharding| ja|
+| hyperverbinding met | gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
 
@@ -586,6 +588,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|hyperverbinding |spoorverbinding |ja|
+|hyperverbinding |knoop |ja|
 
 
 **Domeinwaarden**
@@ -642,6 +650,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|hyperverbinding |wegverbinding |ja|
+|hyperverbinding |knoop |ja|
 
 
 **Domeinwaarden**
