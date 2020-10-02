@@ -268,7 +268,7 @@ Deze Referentielaag wordt
     -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
 - In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
 
-Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moest worden aangepast. 
+Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moest worden aangepast. De nieuwe benadering heeft echter als nadeel dat geregistreerde objecten elkaar als gevolg van bewerkingen geometrisch kunnen gaan overlappen. Dan kan verwarring geven over wat de werkelijke grens is tussen objecten.
 
 Ontwerpprincipe: 
 
