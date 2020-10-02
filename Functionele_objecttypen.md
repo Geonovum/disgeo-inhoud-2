@@ -54,7 +54,7 @@
 | ligt aan 1 of meer | gerelateerde wegverbinding(en) |Ja|
 | heeft 1 of meer | openbare ruimte | Ja (LR) |
 | ligt op 1 of meer| gerelateerde reële object | Ja (LR)|
-| hyperverbinding met | gerelateerde functionele zone | Ja|
+| hyperverbinding | gerelateerde functionele zone | Ja|
 
 Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigenschappen aan het wegennetwerk te relateren.
 
@@ -139,7 +139,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | hoort bij 2 | knoop |ja|
 | heeft 1 of meer | openbare ruimte | ja (LR) |
 | ligt op 1 of meer | gerelateerde reële object| ja (LR)|
-| hyperverbinding met | gerelateerde functionele zone | Ja|
+| hyperverbinding | gerelateerde functionele zone | Ja|
 
 Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigenschappen aan het wegennetwerk te relateren.
 
@@ -310,7 +310,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 | ligt aan 1 of meer | gerelateerde spoorwegverbinding(en) |Ja|
 | ligt op | gerelateerde reële object | Ja|
-| hyperverbinding met| gerelateerde functionele zone | Ja|
+| hyperverbinding| gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
 
@@ -362,7 +362,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 | hoort bij 2 | knoop |ja|
 | ligt op | gerelateerde reële object| ja|
-| hyperverbinding met | gerelateerde functionele zone | Ja|
+| hyperverbinding | gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
 
@@ -422,7 +422,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 | ligt aan 1 of meer | gerelateerde vaarwegverbinding(en) |Ja|
 | ligt op | gerelateerde reële object | Ja|
-| hyperverbinding met| gerelateerde functionele zone | Ja|
+| hyperverbinding| gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
 
@@ -474,7 +474,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 | hoort bij 2 | knoop |ja|
 | ligt op | gerelateerde reële object| ja|
-| hyperverbinding met | gerelateerde functionele zone | Ja|
+| hyperverbinding | gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
 
@@ -532,7 +532,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 | ligt aan 1 of meer | gerelateerde waterverbinding(en) |Ja|
 | ligt op | gerelateerde reële object | Ja|
-| hyperverbinding met| gerelateerde functionele zone | Ja|
+| hyperverbinding| gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
 
@@ -584,7 +584,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|---|
 | hoort bij 2 | knoop |ja|
 | ligt op | gerelateerde reële object| ja|
-| hyperverbinding met | gerelateerde functionele zone | Ja|
+| hyperverbinding | gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
 
@@ -831,6 +831,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 ### Functionele zoneringen
 
+<div class='note'>
+    Functionele zoneringen worden op een later moment gecompleteerd met functionele zones uit BRT.Next.
+</div>
+
+
 #### Verkeerskundig functionele zone
 
 | Klasse  | Naam  |
@@ -842,10 +847,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 | Naam  | Verkeerskundig functionele zone |
 |---|---|
-| Definitie |  |
-|Herkomst definitie  | |
+| Definitie | Gebied met een verkeerskundige functie. |
+|Herkomst definitie  | nieuw |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende typeringen zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
+|Gevolgen afbakening  | Het betreft hier deels de bestaande populaties van de verschillende typeringen zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -868,15 +873,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **Domeinwaarden**
 
-<div class='note'>
-    Carpoolplaats, Transferium, Verzorgingsplaats, Parkeerplaats alleen opnemen als dit door BRT.next wordt aangegeven
-</div>
 
 *type* 
 
 |Waarde type|	Beschrijving|
 |---|---|
-| Inrit||
+| Inrit| Geeft toegang tot een bestemmingsdoel.|
 | Parkeervlak | Wegdeel bestemd voor het parkeren van motorvoertuigen. |
 | Carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling. |
 | Transferium | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto. |
@@ -961,9 +963,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Spoorbaan | Gebaand gedeelte voor het verkeer over rails. |
 | Emplacement | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen. |
 
-<div class='note'>
-    Emplacement alleen opnemen als dit door BRT.next wordt aangegeven 
-</div>
 
 #### Wegzone
 | Klasse  | Naam  |
@@ -1073,11 +1072,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|
 | Baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer.  |
 | Luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accommodatie voor ontvangst en vertrek van passagiers en verzending van goederen.  |
-
-<div class='note'>
-    Luchthaven alleen opnemen als dit door BRT.next wordt aangegeven
-</div>
-
 
 
 #### Begraafplaats
