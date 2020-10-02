@@ -82,9 +82,18 @@ Het conceptueel denkraam kan, voor die onderdelen van het model waar sprake is v
 
 Bij de uitwerking van de verschillende SOR-begrippen of verzamelbegrippen wordt telkens dezelfde structuur gehanteerd. De eerste stap hierbij is dat het begrip wordt gepositioneerd ten opzichte van de objectklasse zoals deze in het kader van het voorstel voor de nieuwe versie van het basismodel geo-informatie (“NEN 3610”) wordt gehanteerd. Hiermee wordt verhelderd hoe het begrip past in een bredere context.
 
-In het tweede blok wordt het betreffende SOR-begrip of verzamelbegrip gedefinieerd. Hierbij wordt zoveel mogelijk aangesloten op bestaande definities. Soms moeten definities worden aangescherpt omdat deze onvoldoende onderscheidend zijn of omdat door de striktere scheiding tussen reële objecttypen en functionele objecttypen de definitie niet langer voldoet. De bron van de definitie wordt vermeld (voor zover deze beschikbaar is). Ook wordt zo nodig een toelichting gegeven en wordt indicatief beschreven hoe de objecten zich verhouden tot afbakeningen zoals deze  momenteel in registraties zijn opgenomen. De opgenomen eerste indicatie van de mate waarin bepaalde SOR-begrippen verplicht in de registratie zullen worden vastgelegd, betreft een expert-inschatting. Hierover zal nog nadere besluitvorming moeten plaatsvinden.
+In het tweede blok wordt het betreffende SOR-begrip of verzamelbegrip gedefinieerd. Hierbij wordt zoveel mogelijk aangesloten op bestaande definities. Soms moeten definities worden aangescherpt omdat deze onvoldoende onderscheidend zijn of omdat door de striktere scheiding tussen reële objecttypen en functionele objecttypen de definitie niet langer voldoet. De bron van de definitie wordt vermeld (voor zover deze beschikbaar is). Ook wordt zo nodig een toelichting gegeven en wordt indicatief beschreven hoe de objecten zich verhouden tot afbakeningen zoals deze  momenteel in registraties zijn opgenomen. 
 
-In het derde blokje wordt een overzicht gegeven van de verschillende eigenschappen die van een object zouden moeten worden vastgelegd. Een aantal eigenschappen keren bij alle beschreven SOR-begrippen terug (zoals identificatie, geometrie, status en overige metagegevens). Voor verschillende SOR-begrippen is ook een voorstel opgenomen voor de vastlegging van andere eigenschappen. De overige meta-gegevens zijn op dit moment nog nergens opgenomen. Deze zullen in een volgende fase verder worden uitgewerkt. De opgenomen eerste indicatie van de mate waarin bepaalde eigenschappen verplicht in de registratie zullen worden vastgelegd, betreft een expert-inschatting. Hierover zal nog nadere besluitvorming moeten plaatsvinden.
+<div class='note'>
+    De opgenomen eerste indicatie van de mate waarin bepaalde SOR-begrippen verplicht in de registratie zullen worden vastgelegd, betreft een expert-inschatting. Hierover zal nog nadere besluitvorming moeten plaatsvinden.
+</div>
+
+
+In het derde blokje wordt een overzicht gegeven van de verschillende eigenschappen die van een object zouden moeten worden vastgelegd. Een aantal eigenschappen keren bij alle beschreven SOR-begrippen terug (zoals identificatie, geometrie, status en overige metagegevens). Voor verschillende SOR-begrippen is ook een voorstel opgenomen voor de vastlegging van andere eigenschappen. De overige meta-gegevens zijn op dit moment nog nergens opgenomen. Deze zullen in een volgende fase verder worden uitgewerkt.
+
+<div class='note'>
+     De opgenomen eerste indicatie van de mate waarin bepaalde eigenschappen verplicht in de registratie zullen worden vastgelegd, betreft een expert-inschatting. Hierover zal nog nadere besluitvorming moeten plaatsvinden.
+</div>
 
 Bij sommige SOR-begrippen is een blokje “relaties met andere objecttypen” opgenomen. Daarin wordt expliciet beschreven hoe een SOR-begrip zich verhoudt tot een ander SOR-begrip. Hierbij kan worden gedacht aan relaties als “ligt in” of “hoort bij”. Deze relaties zullen in een volgende fase nog verder worden gedetailleerd. Als dit blokje niet is opgenomen, dan zijn er op dit moment geen expliciete relaties gedefinieerd.
 
