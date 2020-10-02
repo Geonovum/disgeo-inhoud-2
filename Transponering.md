@@ -419,7 +419,7 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 
 ### BRT
 
-De transponering vanuit de BRT zal op een later moment worden toegevoegd op basis van de resultaten van het traject BRT.next.
+De transponering vanuit de BRT zal op een later moment worden toegevoegd op basis van de resultaten van het traject BRT.Next.
 
 
 ### Nieuw in de SOR
