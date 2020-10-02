@@ -77,6 +77,11 @@ Het conceptueel denkraam kan, voor die onderdelen van het model waar sprake is v
 ![denkraamSOR_gebouw](media/gebouwconcepten.png)
 
 
+>
+> Vraag in de consultatie:
+>
+> Voor welke objecttypen is de samenhang niet gedefinieerd en kunt u aangeven voor welke gebruikstoepassing de samenhang tussen betreffende objecttypen relevant is? 
+>
 
 ###	Beschrijving SOR-begrippen
 
