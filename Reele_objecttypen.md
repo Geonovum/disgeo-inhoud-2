@@ -2224,7 +2224,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 **Domeinwaarden**
 
 <div class='note'>
-    Het voorstel is om onderstaande typeringen van straatmeubilair **niet** meer op te nemen in de SOR.
+    Het voorstel is om onderstaande typeringen van straatmeubilair in principe **niet** meer op te nemen in de SOR. 
+    
+    De onderstaande typeringen zijn vanuit de BGT overgenomen. De verwachting is dat niet alle typering terug zullen keren in de SOR. In de volgende fase zal worden bepaald welke typen straatmeubilair dit betreft.
 </div>
 
 
@@ -2353,7 +2355,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 **Domeinwaarden**
 
 <div class='note'>
-    Het voorstel is om onderstaande typeringen van paal **niet** meer op te nemen in de SOR.
+    Het voorstel is om onderstaande typeringen van paal in principe **niet** meer op te nemen in de SOR.
+
+    De onderstaande typeringen zijn vanuit de BGT overgenomen. De verwachting is dat niet alle typering terug zullen keren in de SOR. In de volgende fase zal worden bepaald welke typen palen dit betreft.
 </div>
 
 
