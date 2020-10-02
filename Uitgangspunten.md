@@ -22,7 +22,7 @@ Onderdeel van deze standaardisatie is dat van de verschillende objecttypen en ei
 
 #### Definiëring
 
-ontwerpprincipe:
+Ontwerpprincipe:
 
 **Definities van zowel objecttypen als eigenschappen van objecttypen zijn scherp afgebakend, niet multi-interpretabel en sluiten waar mogelijk aan op bestaande definities.**
 
