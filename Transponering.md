@@ -163,7 +163,6 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | *Bouwwerk*          |                                 |            |                                                             |
-|---------------------|---------------------------------|------------|-------------------------------------------------------------|
 | **Pand**            | Grondvlaksituatie van BAG-pand  |            | Gebouw                                                      |
 |                     |                                 |            |                                                             |
 | **Overig bouwwerk** | Type:                           |            |                                                             |
@@ -178,7 +177,6 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                     | Niet BGT                        | voedersilo | Depot: type voedersilo                                      |
 |                     | Niet BGT                        | schuur     | gebouw, met typering                                        |
 | **Scheiding** | Type:          |             | Ondergebracht bij functie: afscheiding, kering, reducering |
-|---------------|----------------|-------------|------------------------------------------------------------|
 |               | muur           |             | muur                                                       |
 |               | Kademuur       |             | kerend kunstwerk: type kademuur                            |
 |               | damwand        |             | kerend kunstwerk: type damwand                             |
@@ -194,7 +192,6 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | *Kunstwerk*           |                   |                              |                                   |
-|-----------------------|-------------------|------------------------------|-----------------------------------|
 | **Overbruggingsdeel** | overbruggingsdeel | Hoort bij type overbrugging: | overbrugging                      |
 |                       |                   | brug                         | overbrugging: type brug           |
 |                       |                   | aquaduct                     | overbrugging: type aquaduct       |
@@ -235,7 +232,6 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Functioneel Gebied** | Type:    |                                            |                                                         |
-|------------------------|----------|--------------------------------------------|---------------------------------------------------------|
 |                        | kering   |                                            | kering                                                  |
 |                        | Niet BGT | bedrijvigheid                              | *vervalt waarschijnlijk*                                |
 |                        | Niet BGT | natuur en landschap                        | *vervalt waarschijnlijk*                                |
@@ -266,7 +262,6 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Bak**                        |          | Type:                         | andere definitie                          |
-|--------------------------------|----------|-------------------------------|-------------------------------------------|
 |                                | Niet BGT | afval apart plaats            | bak: afval apart plaats                   |
 |                                | Niet BGT | afvalbak                      | straatmeubilair                           |
 |                                | Niet BGT | drinkbak                      | *vervalt waarschijnlijk*                  |
@@ -400,7 +395,7 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 | **Openbare Ruimte**            | Niet BGT |                               | registratief objecttype: openbare ruimte  |
 | **Stadsdeel**                  | Niet BGT |                               | *vervalt waarschijnlijk*                  |
 | **Waterschap**                 | Niet BGT |                               | registratief objecttype: waterschap       |
-| **Wijk **                      | Niet BGT |                               | registratief objecttype: wijk             |
+| **Wijk**                       | Niet BGT |                               | registratief objecttype: wijk             |
 |                                |          |                               |                                           |
 | kruinlijn: lijn                |          |                               | *vervalt waarschijnlijk als eigenschap*   |
 | op talud: ja/nee               |          |                               | *vervalt waarschijnlijk als eigenschap*   |
