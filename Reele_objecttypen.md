@@ -144,7 +144,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Bron  |
 |---|---|
 | Definitie | Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt.|
-|Herkomst definitie  | IMGeo 2.1.1   |
+|Herkomst definitie  | IMGeo 2.2   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *waterloop; Type bron*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -252,7 +252,7 @@ Wat is volgens u dan de fysieke (reële) tegenhanger?
 | Naam  | Bos |
 |---|---|
 | Definitie |Terrein begroeid met een dusdanige aantal bomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |
-| Herkomst definitie  | Gebaseerd op de definities van bos in de BGT 1.1.1 |
+| Herkomst definitie  | Gebaseerd op de definities van bos in de BGT 1.2 |
 | Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *loofbos, naaldbos en gemengdbos* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 | Toelichting| |
@@ -1898,7 +1898,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Naam  | Bak  |
 |---|---|
 | Definitie | Object met een permanent karakter dat dient om iets in te bergen of te verzamelen. |
-|Herkomst definitie  | definities.geostandaarden.nl   |
+|Herkomst definitie  | IMGeo 2.2  |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een subset van de bestaande populatie *bak* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
 |Toelichting|  |
@@ -2272,7 +2272,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van straatmeubilair. |Ja |
 |Geometrie|De geometrische representatie van de locatie van het straatmeubilair.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin het straatmeubilair zich bevindt.   |Ja   |
-|Type installatie|aanduiding soort straatmeubilair |Nee|
+|Type straatmeubilair|aanduiding soort straatmeubilair |Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -2280,7 +2280,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 **Domeinwaarden**
 
 <div class='note'>
-    Het voorstel is om onderstaande typeringen van straatmeubilair **niet** meer op te nemen in de SOR.
+    Het voorstel is om onderstaande typeringen van straatmeubilair in principe **niet** meer op te nemen in de SOR. 
+    
+    De onderstaande typeringen zijn vanuit de BGT overgenomen. De verwachting is dat niet alle typering terug zullen keren in de SOR. In de volgende fase zal worden bepaald welke typen straatmeubilair dit betreft.
 </div>
 
 > Vraag in de consultatie:
@@ -2420,7 +2422,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 **Domeinwaarden**
 
 <div class='note'>
-    Het voorstel is om onderstaande typeringen van paal **niet** meer op te nemen in de SOR.
+    Het voorstel is om onderstaande typeringen van paal in principe **niet** meer op te nemen in de SOR.
+
+    De onderstaande typeringen zijn vanuit de BGT overgenomen. De verwachting is dat niet alle typering terug zullen keren in de SOR. In de volgende fase zal worden bepaald welke typen palen dit betreft.
 </div>
 
 
