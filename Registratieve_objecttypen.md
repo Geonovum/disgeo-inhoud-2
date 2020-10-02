@@ -1,6 +1,11 @@
 ## Registratieve objecttypen
 
 
+> Vraag in de consultatie:
+>
+> Mist u bij de registratieve objecttypen nog typen die naar uw mening relevant zijn om in de SOR op te nemen? Welke registratieve objecttypen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
+>
+
 ### Bestuurlijke gebieden
 
 
@@ -120,6 +125,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen.  |
 |Toelichting|In een latere fase moet nog worden bepaald welke gebiedsbegrenzing wordt vastgelegd (de administratieve gebiedsbegrenzing of het reglementsgebied). |
+
+
+> Vraag in de consultatie:
+>
+> Gekozen kan worden voor de administratieve gebiedsbegrenzing of het reglementsgebied. Welke van deze begrenzingen moet volgens u gevolgd worden? Kunt u aangeven waarom deze begrenzing gevolgd zou moeten worden? Voor welke gebruikstoepassingen worden deze begrenzing gebruikt?
+>
+
 
 **Eigenschappen**
 
