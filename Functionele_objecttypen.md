@@ -1,6 +1,20 @@
 ## Functionele objecttypen
 
+> Vraag in de consultatie:
+>
+> Mist u bij functionele objecttypen die naar uw mening relevant zijn om in de SOR op te nemen? Welke functionele objecten zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
+>
+
+
+
 ### Transportvoorzieningen
+
+> Vraag in de consultatie:
+>
+> Zijn bermen (of zelfs de verschillende soorten bermen) belangrijk genoeg om op te nemen in het wegennetwerk? Of is het voldoende om bermen te relateren aan het wegennetwerk?
+>
+
+
 
 #### Weg
 
@@ -248,6 +262,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|
 |Ja||
 |Nee||
+
+
+> Vraag in de consultatie:
+>
+> Aan welke aanvullende gegevens over wegen heeft uw organisatie behoefte?
+>
+
 
 *status*
 
@@ -777,9 +798,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |verkeersruimte | | 
 |technische ruimte | | 
 
-<div class='note'>
-    In het kader van de review wordt u gevraagd om aan te geven of er naar uw mening meerdere type gebouwonderdelen relevant zijn om als AARD gebouwzone te onderscheiden
-</div>
+> Vraag in de consultatie:
+>
+> Mist u bij de gebouwzone nog typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welke typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
+>
 
 | Waarde Aard| Beschrijving   |
 |---|---|
