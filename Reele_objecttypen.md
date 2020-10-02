@@ -4,8 +4,19 @@
     De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
 </div>
 
+>
+> Vraag in de consultatie:
+>
+> Mist u bij reële objecten typen die naar uw mening relevant zijn om in de SOR op te nemen?
+>
 
 ### Water
+
+>
+> Vraag in de consultatie:
+>
+> Voor welke gebruikstoepassing wordt de BGT-indeling van watervlakken en waterlopen gebruikt?
+>
 
 #### Watervlakte
 | Klasse  | Naam  |
@@ -222,6 +233,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 ### Begroeiing
+
+>
+> Vraag in de consultatie:
+>
+> Indien u heeft aangegeven dat Bouwland volgens u als functioneel objecttype opgenomen moet worden. 
+Wat is volgens u dan de fysieke (reële) tegenhanger? 
+>
 
 #### Bos
 | Klasse  | Naam  |
@@ -1058,7 +1076,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Gebouwcomponent
 
-
+>
+> Vraag in de consultatie:
+>
+> Mist u bij gebouwcomponenten nog typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welke typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
+>
 
 | Klasse  | Naam  |
 |---|---|
@@ -1098,7 +1120,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 <div class='note'>
     De definitieve lijst met AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze elders worden gehanteerd. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 
-    In het kader van de review wordt u gevraagd om aan te geven welke “gebouwcomponenten” naar uw mening van belang zijn om in een basisregistratie op te nemen.
 </div>
 
 
@@ -1110,9 +1131,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |toegangstrap|Niet afsluitbare trap (of trappenhuis) die toegang biedt aan een gebouw.|
 
 
-<div class='note'>
-    In het kader van de review wordt u gevraagd om aan te geven of onderstaande statussen naar uw mening allemaal noodzakelijk zijn of dat volstaan kan worden met een beperkter aantal statussen (bijvoorbeeld gepland, bestaand, gesloopt en ten onrechte)
-</div>
 
 *status*
 
@@ -1202,6 +1220,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Open bouwwerk
 
+>
+> Vraag in de consultatie:
+>
+> Mist u bij open bouwwerken nog typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welke typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
+>
 
 | Klasse  | Naam  |
 |---|---|
@@ -1255,6 +1278,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 ### Verharding
+
+>
+> Vraag in de consultatie:
+>
+> Kunt u aangeven voor welke gebruikstoepassingen  gedetailleerdere informatie over verhardingen nodig is?
+>
+
 
 | Klasse  | Naam  |
 |---|---|
