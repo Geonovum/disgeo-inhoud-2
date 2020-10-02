@@ -1476,6 +1476,14 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Ondertunneling
 
+
+> Vraag in de consultatie:
+>
+> Mist u bij ondertunneling typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welkte typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
+>
+
+
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Ondertunneling |
@@ -1540,6 +1548,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Kerende kunstwerken
 
+> Vraag in de consultatie:
+>
+> Mist u bij kerende kunstwerken nog kunstwerken die naar uw mening relevant zijn om in de SOR op te nemen? Welkte kunstwerken zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
+>
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Kerende kunstwerken |
@@ -1602,8 +1615,18 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | dijk|Een dijk is een aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen. |
 
 
+> Vraag in de consultatie:
+>
+> Dijk is nu als een apart kerend kunstwerk opgenomen in het ontwerp. Dit wijkt af van het SOR principe van scheiding tussen fysiek en functie. Is dit wenselijk of zou dit moeten worden opgenomen als functioneel object ‘kering’?
+>
 
 #### Overige kunstwerken
+
+> Vraag in de consultatie:
+>
+> Mist u bij overige kunstwerken nog typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welke typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
+>
+
 
 | Klasse  | Naam  |
 |---|---|
@@ -1668,6 +1691,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 ### Overige constructies
 
+
+
 #### Muur
   
 | Klasse  | Naam  |
@@ -1716,7 +1741,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Hek
-  
+
+> Vraag in de consultatie:
+>
+> Op dit moment zijn hek en raster apart opgenomen in het ontwerp. Is het voor gebruikstoepassingen nodig om onderscheid te maken tussen deze twee objecten? Kunt u aangeven voor welke gebruikstoepassingen het onderscheid van belang is?
+>
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Hek |
@@ -1883,7 +1913,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type bak|Aanduiding soort bak|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
+>
 
 **Domeinwaarden**
 
@@ -1939,6 +1972,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type deksel|aanduiding soort deksel |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
+>
 
 
 **Domeinwaarden**
@@ -1996,6 +2033,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type bak|Aanduiding soort depot|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
+>
 
 
 **Domeinwaarden**
@@ -2048,6 +2089,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type geleider|aanduiding soort geleider|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
+>
 
 
 **Domeinwaarden**
@@ -2109,6 +2154,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |hoort bij|gebouw|ja|
 |hoort bij|verblijfsobject|ja|
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
+>
+
+
+
 **Domeinwaarden**
 
 *status*
@@ -2161,6 +2213,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type installatie|aanduiding soort mast |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
+>
 
 
 **Domeinwaarden**
@@ -2227,6 +2283,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
     Het voorstel is om onderstaande typeringen van straatmeubilair **niet** meer op te nemen in de SOR.
 </div>
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? Kunt u aangeven welke typeringen naar uw mening behouden zouden moeten blijven en voor welke gebruikstoepassing dit is?
+>
 
 *type straatmeubilair*
 
@@ -2296,6 +2356,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type sensor|aanduiding soort sensor|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
+>
 
 
 **Domeinwaarden**
@@ -2321,6 +2385,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Paal
+
+
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Paal  |
@@ -2398,6 +2465,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |betonning|*Een systeem van boeien en bakens, waarmee in open zee of in een vaarwater ondiepten of de aanwezigheid van gevaarlijke objecten worden aangegeven.*|
 |meerpaal|*Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd.*|
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? Kunt u aangeven welke typeringen naar uw mening behouden zouden moeten blijven en voor welke gebruikstoepassing dit is?
+>
+
 *status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
@@ -2468,6 +2540,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Verkeer| Kast ten behoeven van VRI's, verkeerstellingen en/of het meten van weers- en wegdekomstandigheden|
 |Pakketautomaat| Kast voor het ophalen en afgeven van postpakketten|
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
+>
+
+
+
 #### Bunker
 | Klasse  | Naam  |
 |---|---|
@@ -2495,6 +2574,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin de betreffende bunker zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
+> Vraag in de consultatie:
+>
+> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
+>
 
 
 **Domeinwaarden**
