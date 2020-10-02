@@ -4,16 +4,25 @@
 
 | Afkorting |   Beschrijving                                                |
 |---|---|
-|DiSGeo     |   Doorontwikkeling in Samenhang van de Geo-basisregistraties  |
-|SOR        |   Samenhangende ObjectenRegistratie                           |
-|LOD  |     Level of Detail  | 
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+|DiSGeo     | Doorontwikkeling in Samenhang van de Geo-basisregistraties  |
+|SOR        | Samenhangende ObjectenRegistratie                           |
+|NEN3610    | Basismodel voor geo-informatiemodellen|
+|BAG        | Basisregistratie Adressen en Gebouwen |
+|BGT        | Basisregistratie Grootschalige Topografie |
+|BRT        | Basisregistratie Topografie  |
+|WOZ        | Basisregistratie Waardering Onroerende Zaken  |
+|BOR        | Beheer van de Openbare Ruimte|
+|AHN        | Actueel Hoogtebestand Nederland|
+|PBP        | Plaatsbepalingspunt|
+|LoD        | Level of Detail  | 
+|LR         | Lineair Referencing|
+|UOI        | Unieke Object Identificatie|
+|RD         | Coördinatensysteem van de Rijksdriehoeksmeting|
+|NAP        | Normaal Amsterdams Peil|
+|ETRS89     | European Terrestrial Reference System 1989|
 
 
-### Werkdocumenten
+### Gebruikte werkdocumenten
 
 - Conceptueel model netwerken, ministerie van Infrastructuur en Waterstaat, 3 juli 2020
 - Werkdocument initiële informatiebehoefte voor wegennetwerken, ministerie van Infrastructuur en Waterstaat, 2020-10
