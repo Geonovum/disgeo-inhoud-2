@@ -2,7 +2,7 @@
 
 ## Colofon
 
-Deze versie van dit document is tot stand gekomen door de werkgroep "inhoud van de samenhangende objectenregistratie" van DiSGeo, waar de volgende personen deel van uitmaken:
+Deze versie van dit document is tot stand gekomen onder begeleiding van de werkgroep "inhoud van de samenhangende objectenregistratie" van DiSGeo, waar de volgende personen deel van uit hebben gemaakt:
 
 | Naam                      | Organisatie    | 
 |---------------------------|----------------|
