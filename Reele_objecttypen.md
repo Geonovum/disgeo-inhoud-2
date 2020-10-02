@@ -906,7 +906,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 **Domeinwaarden**
 
 <div class='note'>
-    De definitieve lijst met TYPE en AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de bij de WOZ in ontwikkeling zijnde lijst met domeinwaarden voor WOZ-deelobjecten. Ook moet nog een nadere uitlijning op typeringen vanuit de BRT plaatsvinden. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
+    De definitieve lijst met TYPE en AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de bij de WOZ in ontwikkeling zijnde lijst met domeinwaarden voor WOZ-deelobjecten. Ook moet nog een nadere uitlijning op typeringen vanuit de BRT.next plaatsvinden. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 </div>
 
 
@@ -978,9 +978,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **Domeinwaarden**
 
-<div class='note'>
-    In het kader van de review wordt u gevraagd om aan te geven of onderstaande statussen naar uw mening allemaal noodzakelijk zijn of dat volstaan kan worden met een beperkter aantal statussen (bijvoorbeeld gepland, bestaand, gesloopt en ten onrechte)
-</div>
 
 *status*
 
@@ -1049,11 +1046,6 @@ De definitieve lijst met TYPE zal op een later moment worden opgeleverd. Het is 
 
 
 
-
-
-<div class='note'>
-    In het kader van de review wordt u gevraagd om aan te geven of onderstaande statussen naar uw mening allemaal noodzakelijk zijn of dat volstaan kan worden met een beperkter aantal statussen (bijvoorbeeld gepland, bestaand, gesloopt en ten onrechte)
-</div>
 
 *status*
 
