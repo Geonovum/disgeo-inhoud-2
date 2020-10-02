@@ -35,7 +35,7 @@ De opbouw van de identificatiecode wordt op dit moment onderzocht in het externe
 
 Ontwerpprincipe: 
 
-**een objectidentificatie binnen Nederland is volledig uniek**
+**Een objectidentificatie binnen Nederland is volledig uniek**
 
 We willen zeker weten dat we in tijd en ruimte het over hetzelfde object in de SOR hebben. De objectidentificatie moet daarom uniek zijn.
 Ontwerpprincipe: een identificatie wordt mondiaal uniek gemaakt door er de landcode aan toe te voegen
@@ -46,7 +46,7 @@ Dit is conform de identificatie in NEN3610.
 
 Ontwerpprincipe: 
 
-**een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar**
+**Een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar**
 
 De objectidentificatie van de SOR is bedoeld om in het kader van interoperabiliteit te gebruiken bij het volledig geautomatiseerd relaties bevragen tussen verschillende datasets.
 
@@ -60,7 +60,7 @@ De SOR kent een functionele objectidentificatie. De functionele objectidentifica
 
 Ontwerpprincipe: 
 
-**een functionele objectidentificatie kan een of meer technische identificaties hebben**
+**Een functionele objectidentificatie kan een of meer technische identificaties hebben**
 
 De technische objectidentificatie is de toepassing van de functionele identificatie in een technische omgeving. In de technische uitwerking kunnen aan de functionele identificatie een of meer technische identificaties worden gerelateerd die eenduidig met die ene functionele identificatie verbonden zijn, bijvoorbeeld GML,API of URI. Objecten geïmplementeerd in verschillende technische omgevingen moeten middels hun functionele identificatie aan elkaar te relateren zijn. Bijvoorbeeld: een object dat zowel in XML als in JSON als in LD is geïmplementeerd moet herkenbaar zijn als voorkomens van eenzelfde object.
 
@@ -68,13 +68,13 @@ De technische objectidentificatie is de toepassing van de functionele identifica
 
 Ontwerpprincipe: 
 
-**samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de objectidentificatie in de SOR (externe ID)**
+**Samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de objectidentificatie in de SOR (externe ID)**
 
 Sectorregistraties kennen vaak hun eigen identificatie. Er zal gefaciliteerd moeten worden dat bij de objecten in de sectorregistraties de objectidentificaties van de SOR-objecten worden vastgelegd. De informatie die in de sector opgeslagen is daarmee te ontsluiten op basis van de SOR-objectidentificatie
 
 Ontwerpprincipe: 
 
-**samenhang faciliteren van huidige basisregistratie-identificaties en de objectidentificatie van de SOR**
+**Samenhang faciliteren van huidige basisregistratie-identificaties en de objectidentificatie van de SOR**
 
 De objecten in de huidige basisregistraties hebben een verplichte unieke identificatie, die in veel aanpalende sectorregistraties wordt gebruikt. Gedurende een nader te bepalen (transitie-)periode zal de samenhang moeten worden bijgehouden tussen de identificatie van de SOR en die van de objecten waaruit SOR-objecten zijn ontstaan.
 
@@ -104,6 +104,8 @@ Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn over
 
 
 **LEVENSLOOP** 
+
+
 Ontwerpprincipe: 
 
 **De levensloop van een object, met een unieke objectidentificatie, begint in de samenhangende objectenregistratie**
@@ -112,26 +114,26 @@ In het eerder genoemde externe project Regie Op Bouwgegevens (UOI) zal onderzoch
 
 Ontwerpprincipe: 
 
-**de levensloop van een object, met een unieke objectidentificatie, eindigt in de samenhangende objectenregistratie**
+**De levensloop van een object, met een unieke objectidentificatie, eindigt in de samenhangende objectenregistratie**
 
 
 #### Uitgifte
 
 Ontwerpprincipe: 
 
-**uitgifte van individuele objectidentificaties in de SOR moet dubbele objectidentificaties voorkomen**
+**Uitgifte van individuele objectidentificaties in de SOR moet dubbele objectidentificaties voorkomen**
 
 Er moet een methodiek worden ontwikkeld om uit te sluiten dat dubbele objectidentificaties worden uitgegeven. Tevens moet er direct op getoetst worden bij de voorbereiding van een uitgifte van een identificatie of deze al bestaat om latere schade te voorkomen.
 
 Ontwerpprincipe: 
 
-**een objectidentificatie wordt toegekend aan een object in de SOR zodra er voor het eerst in de SOR iets over dit object wordt geregistreerd**
+**Een objectidentificatie wordt toegekend aan een object in de SOR zodra er voor het eerst in de SOR iets over dit object wordt geregistreerd**
 
 Vanwege de eis van persistentie moet de uitgifte van de objectidentificatie direct worden gedaan bij welke registratie van een gegeven en welk moment in de tijdslijn van een object dan ook.
 
 Ontwerpprincipe: 
 
-**uitgifte van identificaties vindt niet eerder dan de SOR plaats**
+**Uitgifte van identificaties vindt niet eerder dan de SOR plaats**
 
 Indien een object in een sectorregistratie mocht ontstaan, dan heeft dat object daar een unieke sectorregistratie-identificatie. Er is dan nog geen sprake van meervoudig gebruik buiten de sector. Als het object vervolgend wordt aangeboden aan de SOR, wordt dan pas en niet eerder een objectidentificatie (voor het object in de SOR) uitgegeven. Om de interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
 
@@ -146,6 +148,7 @@ Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geome
 #### Coördinaatreferentiesysteem 
 
 Ontwerpprincipe:
+
 **In de SOR worden de regels voor het gebruik van coördinaatreferentiesystemen gevolgd**
 
 Het gaat hierbij in elk geval om de volgende regels:
@@ -177,7 +180,9 @@ de volgende.
 1. Het RD-NAP-coördinaatreferentiesysteem. Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89. 
  Hiervoor geldt dat de gebruikte horizontale datum Bessel 1841 is en het
  coördinaatsysteem de stereografische projectie. Als verticale datum wordt
- het NAP-vlak gebruikt. RDNAPTRANS™ is de officiële en nauwkeurige transformatie tussen het coördinatensysteem van de Rijksdriehoeksmeting (RD) en het Normaal Amsterdams Peil (NAP) enerzijds en het European Terrestrial Reference System 1989 (ETRS89) anderzijds. **Aanbeveling:** controleer bij transformaties tussen ETRS89 en RD coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties.;
+ het NAP-vlak gebruikt. RDNAPTRANS™ is de officiële en nauwkeurige transformatie tussen het coördinatensysteem van de Rijksdriehoeksmeting (RD) en het Normaal Amsterdams Peil (NAP) enerzijds en het European Terrestrial Reference System 1989 (ETRS89) anderzijds. 
+ **Aanbeveling:** 
+ controleer bij transformaties tussen ETRS89 en RD coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties.;
 
 2. De UTM-projectie (zone 31/32) (op het Nederlands continentaal plat). Voor
  dit systeem geldt dat het gebruikte horizontale datum vaak ofwel het
@@ -260,13 +265,15 @@ Ontwerpprincipe:
 
 Ontwerpprincipe: 
 
-**Er is sprake van een Referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken, daarom wordt de term *Referentielaag* gehanteerd.**
+**In de SOR wordt gewerkt met een referentielaag**
 
-Deze Referentielaag wordt 
-- In geval van reële objecttypen volledig gedekt door objecten uit de objecttypen water + begroeiing (inclusief onbegroeid) + constructies
-    -	Hierbij sluiten de objecten topologisch naadloos op elkaar aan, maar overlap is vooralsnog mogelijk. Er worden nog regels opgesteld over welke objecten prevaleren voor een kaartbeeld.
+Er is sprake van een referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.
+
+Deze referentielaag wordt 
+- In geval van reële objecttypen volledig bedekt door objecten uit de objecttypen water, begroeiing (inclusief onbegroeid) en constructies
+    -	Hierbij sluiten de objecten  op elkaar aan volgens topologische regels, maar overlap is vooralsnog mogelijk. 
     -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
-- In geval van functionele objecttypen NIET volledig gedekt omdat daar geen noodzaak voor is.
+- In geval van functionele objecttypen NIET volledig bedekt omdat daar geen noodzaak voor is.
 
 Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moest worden aangepast. De nieuwe benadering heeft echter als nadeel dat geregistreerde objecten elkaar als gevolg van bewerkingen geometrisch kunnen gaan overlappen. Dan kan verwarring geven over wat de werkelijke grens is tussen objecten.
 
@@ -283,6 +290,7 @@ In een situatie waarin alle objecten een 3D-geometrie hebben is relatieve hoogte
 Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afspraken nodig over op welke wijze deze verticale informatie in de gegevensverzameling wordt vastgelegd.
 
 **Niveauaanduidingen per object**
+
 Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de referentielaag bevindt (niveau 0) of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
 
 
@@ -308,7 +316,7 @@ In de samenhangende objectenregistratie worden vier transportnetwerken ondersche
 
 De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerken los van elkaar te beschrijven.
 
-Voor meer detail wordt verwezen naar het conceptueel model netwerken.
+
 
 #### Elementen van een netwerk: knopen en verbindingen
 
@@ -388,17 +396,17 @@ Daarmee:
 
 Ontwerpprincipe: 
 
-**objecttypen worden enkel en alleen op het voor de SOR meest gedetailleerde noodzakelijke niveau vastgelegd (de kleinste semantische eenheden)**
+**Objecttypen worden enkel en alleen op het voor de SOR meest gedetailleerde noodzakelijke niveau vastgelegd (de kleinste semantische eenheden)**
 
 Dit detailniveau kan per objecttype verschillen. Voor met name geografische objecttypen is vaak een minder gedetailleerd niveau noodzakelijk. Denk bijvoorbeeld aan de begrenzing van een streek als de 'Utrechtse Heuvelrug' of het Continentaal Plat.
 
 Ontwerpprincipe: 
 
-**gegeneraliseerde dataobjecttypen worden niet opgenomen in de SOR**
+**Gegeneraliseerde dataobjecttypen worden niet opgenomen in de SOR**
 
 Ontwerpprincipe: 
 
-**cartografische objecttypen worden als onderdeel van de producten van DisGeo opgenomen**
+**Cartografische objecttypen worden als onderdeel van de producten van DisGeo opgenomen**
 
 cartografische objecten zijn voor gebruikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
 
