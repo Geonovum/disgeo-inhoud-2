@@ -10,6 +10,7 @@
 |BAG        | Basisregistratie Adressen en Gebouwen |
 |BGT        | Basisregistratie Grootschalige Topografie |
 |BRT        | Basisregistratie Topografie  |
+|BRT.next   | nieuwe vorm van Basisregistratie Topografie  |
 |WOZ        | Basisregistratie Waardering Onroerende Zaken  |
 |BOR        | Beheer van de Openbare Ruimte|
 |AHN        | Actueel Hoogtebestand Nederland|
