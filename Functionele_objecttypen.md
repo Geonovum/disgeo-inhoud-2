@@ -47,25 +47,16 @@
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
 
-
-*overerving van eigenschappen/kenmerken a.g.v. relatie met andere objecten*
-
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja (LR) (MV)|
-|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Ja (LR) (MV)|
-|Type verharding|Aanduiding soort verharding.|Ja (LR) (MV)|
-
-
 **Relaties met andere objecttypen** 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 | ligt aan 1 of meer | gerelateerde wegverbinding(en) |Ja|
-| heeft 1 | openbare ruimte | Ja  |
-| ligt op | gerelateerde reële object | Ja|
-| hyperverbinding met| gerelateerde functionele zone | Ja|
+| heeft 1 of meer | openbare ruimte | Ja (LR) |
+| ligt op 1 of meer| gerelateerde reële object | Ja (LR)|
+| hyperverbinding met | gerelateerde functionele zone | Ja|
+
+Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigenschappen aan het wegennetwerk te relateren.
 
 **Domeinwaarden**
 
@@ -138,13 +129,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   |De fase van de levenscyclus waarin de betreffende wegverbinding zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
-*overerving van eigenschappen/kenmerken a.g.v. relatie met andere objecten*
 
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja (LR) (MV)|
-|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Ja (LR) (MV)|
-|Fysieke kenmerken | Fysieke eigenschappen met een verkeerskundige betekenis zoals opgenomen als eigenschap bij gerelateerde reële objecten. Zoals bijvoorbeeld de eigenschap type verharding. |Ja (LR) (MV)|
 
 
 **Relaties met andere objecttypen** 
@@ -152,9 +137,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 | hoort bij 2 | knoop |ja|
-| heeft een | openbare ruimte | ja  |
-| ligt op | gerelateerde reële object| ja|
+| heeft 1 of meer | openbare ruimte | ja (LR) |
+| ligt op 1 of meer | gerelateerde reële object| ja (LR)|
 | hyperverbinding met | gerelateerde functionele zone | Ja|
+
+Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigenschappen aan het wegennetwerk te relateren.
 
 **Domeinwaarden**
 
@@ -502,7 +489,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte	|
 
 
-#### Water
+#### Watersysteem
 
 <div class='note'>
     De definitieve beschrijving van het waternetwerk zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze beschrijving aansluit op de begrippen zoals deze in de watersector worden gehanteerd. Onderstaande begrippen zijn voorbeelden en uitsluitend bedoeld om een indruk te geven van wat hier zal worden opgenomen. Ook wordt deze lijst nog afgestemd met begrippen in de BRT.
