@@ -616,34 +616,33 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 ### Niet opnemen in SOR
 
 Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te nemen in de SOR: 
-- drinkbak 
-- detectielus
-- hoogtemerk
-- wegmarkering
-- faunavoorziening
-- rooster
-- molgoot
-- woonerf
-- voetgangersgebied
-- boomspiegel
-- kruinlijn
-- op talud
-- schuur
-- griend en hakhout
+-	fauna voorziening
+-	bedrijvigheid
+-	natuur en landschap
+-	landbouw
+-	bewoning
+-	infrastructuur verkeer en vervoer
+-   opstelpunt open water
+- zuiveringscomplex 
+- waterwingebied
+- waterbergingsgebied
+-	infrastructuur waterstaatswerken
+-	waterbergingsgebied
+-	maatschappelijke en/of publieksvoorziening
+-	functioneel beheer
+-	functioneel beheer: hondenuitlaatplaats
+-	drinkbak
+-	detectielus
+-	hoogtemerk
+-	molgoot
+-	wegmarkering
+-	rooster
+-	boomspiegel
+-	stadsdeel
 
-<div class='note'>
-    De nu in de basisregistratie opgenomen typeringen die nog geen plaats hebben gekregen in de SOR: 
-</div>
- 
+-	kruinlijn
+-	op talud
 
-|Objecttype |classificatie (verplicht)	| Plus classificatie (vrijwillig)|
-|-----------|---------------------------|--------------------------------|
-|Functioneel Gebied (blauw)|	Functie:	 ||
-||*Niet BGT*| 	 	Opstelpunt open water|
-||*Niet BGT*| 	 	Zuiveringscomplex|
-||*Niet BGT*| 	 	Waterwingebied|
-||*Niet BGT*|	 	Waterbergingsgebied|
-||*Niet BGT*|	 	Infrastructuur waterstaatswerken| 
 
 
 
