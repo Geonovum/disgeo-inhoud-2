@@ -87,10 +87,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Status| 
 |---|
 |Gepland	|
-|Gevormd|
+|In aanleg|
 |In gebruik|	
 |Buiten gebruik|	
-|Beëindigd|	
+|Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
@@ -264,12 +264,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Status| 
 |---|
 |Gepland	|
-|Gevormd|
+|In aanleg|
 |In gebruik|	
 |Buiten gebruik|	
-|Beëindigd|	
+|Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte	|
+
 
 #### Spoorweg
 
@@ -320,12 +321,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Status| 
 |---|
 |Gepland	|
-|Gevormd|
+|In aanleg|
 |In gebruik|	
 |Buiten gebruik|	
-|Beëindigd|	
+|Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte	|
+
 
 
 **SPOORVERBINDING**
@@ -371,12 +373,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Status| 
 |---|
 |Gepland	|
-|Gevormd|
+|In aanleg|
 |In gebruik|	
 |Buiten gebruik|	
-|Beëindigd|	
+|Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte	|
+
 
 
 
@@ -430,12 +433,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Status| 
 |---|
 |Gepland	|
-|Gevormd|
+|In aanleg|
 |In gebruik|	
 |Buiten gebruik|	
-|Beëindigd|	
+|Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte	|
+
 
 
 **VAARWEGVERBINDING**
@@ -481,12 +485,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Status| 
 |---|
 |Gepland	|
-|Gevormd|
+|In aanleg|
 |In gebruik|	
 |Buiten gebruik|	
-|Beëindigd|	
+|Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte	|
+
 
 
 #### Watersysteem
@@ -538,12 +543,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Status| 
 |---|
 |Gepland	|
-|Gevormd|
+|In aanleg|
 |In gebruik|	
 |Buiten gebruik|	
-|Beëindigd|	
+|Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte	|
+
 
 
 **WATERVERBINDING**
@@ -589,10 +595,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde Status| 
 |---|
 |Gepland	|
-|Gevormd|
+|In aanleg|
 |In gebruik|	
 |Buiten gebruik|	
-|Beëindigd|	
+|Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
@@ -1263,7 +1269,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |sluiscomplex|Alle bij een sluis behorende gronden, inrichtingen en bouwwerken.|
 |stuwcomplex|Alle bij een stuw behorende gronden, inrichtingen en bouwwerken.|
 |coupurecomplex|Alle bij een coupure behorende gronden, inrichtingen en bouwwerken.|
-|aanleg en overslag|Alle bij een haven behorende gronden, inrichtingen en bouwwerken.|
+|aanleg- en overslagcomplex|Alle bij een haven behorende gronden, inrichtingen en bouwwerken.|
 
 
 
