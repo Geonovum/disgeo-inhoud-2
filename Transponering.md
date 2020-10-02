@@ -176,6 +176,7 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                     | Niet BGT                        | bunker     | bunker                                                      |
 |                     | Niet BGT                        | voedersilo | Depot: type voedersilo                                      |
 |                     | Niet BGT                        | schuur     | gebouw, met typering                                        |
+|                     |                                 |            |                                                             |
 | **Scheiding** | Type:          |             | Ondergebracht bij functie: afscheiding, kering, reducering |
 |               | muur           |             | muur                                                       |
 |               | Kademuur       |             | kerend kunstwerk: type kademuur                            |
@@ -405,7 +406,7 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 
 ### BAG
 
-|BAG object | SOR object|
+|BAG object | SOR-begrip in dit document|
 |---|---|
 |woonplaats	|registratief object; woonplaats|
 |openbare ruimte|	registratief object; openbare ruimte|
