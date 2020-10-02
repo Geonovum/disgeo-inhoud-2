@@ -485,9 +485,19 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Polder
 - Relief
 
-
+ Vraag in de consultatie:
+>
+> Er wordt overwogen om pakketautomaten als nieuw object op te nemen in de SOR. Vindt u dit een goed voorstel? Kunt u aangeven voor welke gebruikstoepassingen deze opname van belang is?
+>
 
 ### Niet opnemen in SOR
+
+> Vraag in de consultatie:
+>
+> U geeft aan dat het verwijderen van objecttype(n) tot problemen leiden. Kunt u toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie uit andere bronnen afgeleid kan worden?
+>
+
+
 
 Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te nemen in de SOR: 
 -	fauna voorziening
@@ -518,5 +528,9 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 -	op talud
 
 
+> Vraag in de consultatie:
+>
+> Alle overige objecttypen keren in de een of andere vorm terug in de SOR (zoals beschreven in de paragrafen 9.1 – 9.3). Bent u van mening dat er objecttypen over het hoofd worden gezien? Kunt u toelichten welke objecttypen dit zijn?
+>
 
 
