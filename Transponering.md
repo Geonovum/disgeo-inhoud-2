@@ -559,6 +559,7 @@ populieren zoals nu in de BRT worden in de SOR niet apart onderscheiden, maar va
 Nieuw in de SOR gezien vanuit de BGT en BAG:
 
 **Reële objecttypen:**
+
 - Onbegroeide grond
 - Bomenrij
 - Gebouw
@@ -575,7 +576,9 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Installatie: lift
 - Installatie: oplaadpunt
 - Kast: pakketautomaat
+
 **Functionele objecttypen:**
+
 - Transportvoorzieningen: weg
 - Transportvoorzieningen: spoorweg
 - Transportvoorzieningen: vaarweg
@@ -590,7 +593,9 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Reducering
 - Valbescherming
 - Afscheiding
+
 **Registratieve objecttypen:**
+
 - Rijk
 - Provincie
 - Waterschap
@@ -600,7 +605,9 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Nederlandse exclusieve economische zone
 - Wijk
 - Buurt
-- Geografische objecttypen:
+
+**Geografische objecttypen:**
+
 - Bebouwde kom
 - Streek
 - Bosgebied
