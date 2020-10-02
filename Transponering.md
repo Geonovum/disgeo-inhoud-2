@@ -418,7 +418,9 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 
 
 ### BRT
-populieren zoals nu in de BRT worden in de SOR niet apart onderscheiden, maar vallen bijvoorbeeld onder loofbos
+
+De transponering vanuit de BRT zal op een later moment worden toegevoegd op basis van de resultaten van het traject BRT.next.
+
 
 ### Nieuw in de SOR
 Nieuw in de SOR gezien vanuit de BGT en BAG:
