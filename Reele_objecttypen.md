@@ -40,10 +40,10 @@
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip watervlakte |Ja |
+|Identificatie   |De unieke aanduiding van een watervlakte. |Ja |
 |Geometrie|De geometrische representatie van de randen van een watervlakte.  |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de watervlakte zich bevindt.   |Ja   |
-|Type watervlakte|aanduiding soort watervlakte|Nee|
+|Type watervlakte|De aanduiding van het soort watervlakte.|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -97,12 +97,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip waterloop |Ja |
+|Identificatie   |De unieke aanduiding van een waterloop. |Ja |
 |Geometrie|De geometrische representatie van de randen van een waterloop. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de waterloop zich bevindt.  |Ja   |
-|Type waterloop|aanduiding soort waterloop|Nee|
-|*watervoerend* | *aanduiding of de waterloop wel of geen water bevat* | *ja*|
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+|Type waterloop|De aanduiding van het soort waterloop.|Nee|
+|Watervoerend | De aanduiding of de waterloop wel of geen water bevat. | Ja|
+|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -153,7 +153,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip bron |Ja |
+|Identificatie   |De unieke aanduiding van een bron. |Ja |
 |Geometrie|De geometrische representatie van de randen van een bron. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de bron zich bevindt.   |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -201,10 +201,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip getijdengebied. |Ja |
+|Identificatie   |De unieke aanduiding van een getijdengebied. |Ja |
 |Geometrie|De geometrische representatie van de randen van een getijdengebied. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het getijdengebied zich bevindt.   |Ja   |
-|Type getijdengebied|aanduiding soort getijdengebied|Nee|
+|Type getijdengebied|De aanduiding van het soort getijdengebied|Nee|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -261,10 +261,10 @@ Wat is volgens u dan de fysieke (reële) tegenhanger?
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van bos. |Ja |
+|Identificatie   | De unieke aanduiding van een bos. |Ja |
 |Geometrie| De geometrische representatie van de randen van een bos. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende bos zich bevindt.  |Ja   |
-|Type bos| Aanduiding soort bos.|Ja|
+|Type bos| De aanduiding van het soort bos.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -313,7 +313,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van gras- en kruidachtigen |Ja |
+|Identificatie   | De unieke aanduiding van gras- en kruidachtigen. |Ja |
 |Geometrie| De geometrische representatie van de randen van veld met gras- en kruidachtigen. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende veld met gras- en kruidachtigen zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -403,7 +403,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip onbegroeide grond.|Ja |
+|Identificatie   |De unieke aanduiding van onbegroeide grond.|Ja |
 |Geometrie| De geometrische representatie van de randen van onbegroeide grond.|Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt.  |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -448,7 +448,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van Gewas. |Ja |
+|Identificatie   | De unieke aanduiding van een Gewas. |Ja |
 |Geometrie| De geometrische representatie van de randen van een Gewas. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende gewas zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -551,7 +551,7 @@ MOERAS
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip Moeras. |Ja |
+|Identificatie   |De unieke aanduiding van een Moeras. |Ja |
 |Geometrie|De geometrische representatie van de randen van een moeras. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin het moeras zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -591,7 +591,7 @@ RIETLAND
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip Rietland. |Ja |
+|Identificatie   |De unieke aanduiding van een Rietland. |Ja |
 |Geometrie|De geometrische representatie van de randen van een rietland. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin het rietland zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -631,7 +631,7 @@ HEIDE
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip Heide. |Ja |
+|Identificatie   |De unieke aanduiding van een Heide. |Ja |
 |Geometrie|De geometrische representatie van de randen van een heide. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de heide zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -671,7 +671,7 @@ DUIN
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip Duin. |Ja |
+|Identificatie   |De unieke aanduiding van een Duin. |Ja |
 |Geometrie|De geometrische representatie van de randen van een duin. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin het duin zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -719,7 +719,7 @@ BOMENRIJ
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip Bomenrij. |Ja |
+|Identificatie   |De unieke aanduiding van een Bomenrij. |Ja |
 |Geometrie|De geometrische representatie van de randen van een bomenrij. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de bomenrij zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -759,7 +759,7 @@ HOUTSINGEL
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip Houtsingel. |Ja |
+|Identificatie   |De unieke aanduiding van een Houtsingel. |Ja |
 |Geometrie|De geometrische representatie van de randen van een houtsingel. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de houtsingel zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -799,7 +799,7 @@ HAAG
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip Haag. |Ja |
+|Identificatie   |De unieke aanduiding van een Haag. |Ja |
 |Geometrie|De geometrische representatie van de randen van een haag. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de haag zich bevindt. |Ja   |
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -840,7 +840,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip boom. |Ja |
+|Identificatie   |De unieke aanduiding van een boom. |Ja |
 |Geometrie| De geometrische representatie van een boom.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de betreffende boom zich bevindt.   |Ja   |
 |Soortnaam| De soortnaam o.b.v. ‘Naamlijst van houtige gewassen en vaste planten’,  internationaal erkend als standaard.  | Ja|
@@ -894,7 +894,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Gebouw  |Ja |
+|Identificatie   |De unieke aanduiding van een gebouw.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een gebouw   |Ja (3D)|
 |Typering|Het doel waarvoor een gebouw gebruikt wordt. |Ja|
 |Aard|De fysieke verschijningsvorm van een gebouw  |Ja|
@@ -964,7 +964,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Bouwlaag  |Ja |
+|Identificatie   |De unieke aanduiding van een Bouwlaag.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een Bouwlaag  |Ja (2,5D)|
 |Bouwlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
 |Status   |De fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
@@ -1021,7 +1021,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Ruimte  |Ja |
+|Identificatie   |De unieke aanduiding van een Ruimte.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een Ruimte   |Ja (2,5D)|
 |Bouwlaagnummer |De bouwlaag waarop de ruimte zich bevindt|Ja|
 |Oppervlakte| De gebruiksoppervlakte van de ruimte| Nee |
@@ -1101,7 +1101,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een gebouwcomponent  |Ja |
+|Identificatie   |De unieke aanduiding van een gebouwcomponent.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een gebouwcomponent   |Ja (1,5D of 2,5D)|
 |Aard|Het soort gebouwcomponent|Ja |
 |Bijbehorend object |Het object waarbij de betreffende gebouwcomponent behoort|Ja|
@@ -1172,7 +1172,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een toegangsdeur  |Ja |
+|Identificatie   |De unieke aanduiding van een toegangsdeur.  |Ja |
 |Geometrie |De geometrische representatie van een Toegangsdeur   |Ja (1,5D)|
 |Toegangssoort|De plaats waarvan de toegangsdeur toegang geeft|Ja|
 |Gebruiksaard|De aard van gebruik van de  toegangsdeur|Ja|
@@ -1245,7 +1245,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een open bouwwerk  |Ja |
+|Identificatie   |De unieke aanduiding van een open bouwwerk.  |Ja |
 |Geometrie |De geometrische representatie van de randen van een open bouwwerk   |Ja (3D)|
 |typering| Het soort open bouwwerk|
 |Status   |De fase van de levenscyclus waarin het betreffende open bouwwerk zich bevindt   |Ja   |
@@ -1307,10 +1307,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van verharding |Ja |
+|Identificatie   |De unieke aanduiding van een verharding. |Ja |
 |Geometrie|De geometrische representatie van de randen van een verhardingsvlak. |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt.  |Ja   |
-|Type verharding|Aanduiding soort verharding.|Ja|
+|Type verharding|De aanduiding van het soort verharding.|Ja|
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -1363,7 +1363,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip overbrugging. |Ja |
+|Identificatie   |De unieke aanduiding van overbrugging. |Ja |
 |Geometrie|De geometrische representatie van de randen van een overbrugging.  |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin de betreffende overbrugging zich bevindt.   |Ja   |
 |Type overbrugging|De aanduiding van het soort overbrugging. |Ja|
@@ -1433,7 +1433,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kunstwerkdeel. |Ja |
+|Identificatie   |De unieke aanduiding van een kunstwerkdeel. |Ja |
 |Geometrie|De geometrische representatie van de randen van een kunstwerkdeel. .|Ja (vlak, 2.5D|
 |Status   |  De fase van de levenscyclus waarin het betreffende kunstwerkdeel zich bevindt.  |Ja   |
 |Type kunstwerkdeel| De aanduiding van het soort kunstwerkdeel.|ja|
@@ -1497,7 +1497,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip ondertunneling|Ja |
+|Identificatie   |De unieke aanduiding van een ondertunneling.|Ja |
 |Geometrie|De geometrische representatie van de randen van een ondertunneling.  |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin de betreffende ondertunneling zich bevindt.   |Ja   |
 |Type ondertunneling| De aanduiding van het soort ondertunneling.|Ja|
@@ -1559,7 +1559,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip kerende kunstwerken |Ja |
+|Identificatie   |De unieke aanduiding van kerende kunstwerken. |Ja |
 |Geometrie|De geometrische representatie van de randen van het betreffende kunstwerk.  |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt.  |Ja   |
 |Type kerend kunstwerk| De aanduiding van het soort kunstwerk. |Ja|
@@ -1624,7 +1624,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het SOR-begrip overige kunstwerken. |Ja |
+|Identificatie   |De unieke aanduiding van overige kunstwerken. |Ja |
 |Geometrie|De geometrische representatie van de randen van het betreffende kunstwerk.  |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt.  |Ja   |
 |Type overig kunstwerk| De aanduiding van het soort kunstwerk.|Ja|
@@ -1692,7 +1692,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-| Identificatie   |De unieke aanduiding van muur.|Ja |
+| Identificatie   |De unieke aanduiding van een muur.|Ja |
 | Geometrie|De geometrische representatie van een muur. |Ja (lijn) Nee (vlak)|
 | Status   |De fase van de levenscyclus waarin het betreffende muur zich bevindt.   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1738,7 +1738,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van hek|Ja |
+|Identificatie   |De unieke aanduiding van een hek.|Ja |
 |Geometrie|De geometrische representatie van een hek. |Ja (lijn)|
 |Status   | De fase van de levenscyclus waarin het betreffende hek zich bevindt.   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1785,7 +1785,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van raster|Ja |
+|Identificatie   |De unieke aanduiding van een raster.|Ja |
 |Geometrie|De geometrische representatie van een raster. |Ja (lijn)|
 |Status   | De fase van de levenscyclus waarin het betreffende raster zich bevindt.  |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1831,7 +1831,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van scherm. |Ja |
+|Identificatie   |De unieke aanduiding van een scherm. |Ja |
 |Geometrie|De geometrische representatie van een scherm.  |Ja (lijn)|
 |Status   |De fase van de levenscyclus waarin het betreffende scherm zich bevindt.   |Ja   |
 | Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
@@ -1877,10 +1877,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van bak |Ja |
+|Identificatie   |De unieke aanduiding van een bak. |Ja |
 |Geometrie|De geometrische representatie van de locatie van bak.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de bak zich bevindt.   |Ja   |
-|Type bak|Aanduiding soort bak|Nee|
+|Type bak|De aanduiding van het soort bak.|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -1933,10 +1933,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van putdeksel. |Ja |
+|Identificatie   |De unieke aanduiding van een putdeksel. |Ja |
 |Geometrie|De geometrische representatie van de ligging van de putdeksel.  |Ja (punt, lijn, vlak)|
 |Status   | De fase van de levenscyclus waarin de putdeksel zich bevindt.   |Ja   |
-|Type deksel|aanduiding soort deksel |Ja|
+|Type deksel|De aanduiding van het soort deksel |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -1990,10 +1990,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van depot. |Ja |
+|Identificatie   |De unieke aanduiding van een depot. |Ja |
 |Geometrie|De geometrische representatie van de locatie van depot.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin het depot zich bevindt.   |Ja   |
-|Type bak|Aanduiding soort depot|Nee|
+|Type bak|De aanduiding van het soort depot|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -2042,10 +2042,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van geleider. |Ja |
+|Identificatie   |De unieke aanduiding van een geleider. |Ja |
 |Geometrie|De geometrische representatie van de ligging van de geleider.  |Ja (lijn, vlak)|
 |Status   |  De fase van de levenscyclus waarin de geleider zich bevindt.  |Ja   |
-|Type geleider|aanduiding soort geleider|Nee|
+|Type geleider|De aanduiding van het soort geleider|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -2096,7 +2096,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een installatie |Ja |
+|Identificatie   |De unieke aanduiding van een installatie. |Ja |
 |Geometrie|De geometrische representatie van de ligging van de installatie of van de randen van de installatie.  |Ja (punt, lijn, vlak)|
 |Status   |  De fase van de levenscyclus waarin de installatie zich bevindt.  |Ja   |
 |Type installatie| De aanduiding van het soort installatie. |Ja|
@@ -2158,7 +2158,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een mast. |Ja |
 |Geometrie|De geometrische representatie van de ligging van de mast of van de randen van de mast.  |Ja (punt, lijn, vlak)|
 |Status   | De fase van de levenscyclus waarin de mast zich bevindt.   |Ja   |
-|Type installatie|aanduiding soort mast |Ja|
+|Type installatie|De aanduiding van het soort mast |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -2216,7 +2216,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van straatmeubilair. |Ja |
 |Geometrie|De geometrische representatie van de locatie van het straatmeubilair.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin het straatmeubilair zich bevindt.   |Ja   |
-|Type straatmeubilair|aanduiding soort straatmeubilair |Nee|
+|Type straatmeubilair|De aanduiding van het soort straatmeubilair |Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -2292,10 +2292,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van sensor. |Ja |
+|Identificatie   |De unieke aanduiding van een sensor. |Ja |
 |Geometrie|De geometrische representatie van de sensor. |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de sensor zich bevindt.   |Ja   |
-|Type sensor|aanduiding soort sensor|Nee|
+|Type sensor|De aanduiding van het soort sensor|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -2347,7 +2347,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een paal. |Ja |
 |Geometrie|De geometrische representatie van een paal.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de paal zich bevindt.   |Ja   |
-|Type paal|aanduiding soort paal|Nee|
+|Type paal|De aanduiding van het soort paal|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
@@ -2441,7 +2441,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een kast. |Ja |
 |Geometrie|De geometrische representatie van een kast.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de kast zich bevindt.   |Ja   |
-|Type kast|aanduiding soort kast|Nee|
+|Type kast|De aanduiding van het soort kast|Nee|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
