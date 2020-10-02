@@ -556,7 +556,61 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 populieren zoals nu in de BRT worden in de SOR niet apart onderscheiden, maar vallen bijvoorbeeld onder loofbos
 
 ### Nieuw in de SOR
-- pakketautomaat
+Nieuw in de SOR gezien vanuit de BGT en BAG:
+
+**Reële objecttypen:**
+- Onbegroeide grond
+- Bomenrij
+- Gebouw
+- Bouwlaag
+- Ruimte
+- Gebouwcomponent: dakkapel
+- Toegangsdeur
+- Openbouwwerk: parkeergarage
+- Kunstwerkdeel: sluisdeur’
+- Kunstwerkdeel: kolk
+- Kerende kunstwerken: schot
+- Kerende kunstwerken: dijk
+- Scherm
+- Installatie: lift
+- Installatie: oplaadpunt
+- Kast: pakketautomaat
+**Functionele objecttypen:**
+- Transportvoorzieningen: weg
+- Transportvoorzieningen: spoorweg
+- Transportvoorzieningen: vaarweg
+- Transportvoorzieningen: watersysteem
+- Gebouwzone
+- Verkeerskundig functionele zone: transferium
+- Verkeerskundig functionele zone: snellaadstation
+- Verkeerskundig functionele zone: zone
+- Spoorzone: emplacement
+- Luchtvaartzone: luchthaven
+- Complex
+- Reducering
+- Valbescherming
+- Afscheiding
+**Registratieve objecttypen:**
+- Rijk
+- Provincie
+- Waterschap
+- Gemeente
+- Nederlandse territoriale zee
+- Nederlandse aansluitende zone
+- Nederlandse exclusieve economische zone
+- Wijk
+- Buurt
+- Geografische objecttypen:
+- Bebouwde kom
+- Streek
+- Bosgebied
+- Duingebied
+- Heidegebied
+- Watergebied
+- Eiland
+- Polder
+- Relief
+
 
 
 ### Niet opnemen in SOR
