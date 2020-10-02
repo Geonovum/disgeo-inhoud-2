@@ -255,9 +255,11 @@ Eén object kan meerdere geometrische representaties hebben, die het object in v
 Bij de nadere uitwerking van het informatiemodel zal worden bepaald op welke wijze het informatiemodel de geleidelijke transitie van de bestaande 2D registratie naar een 3D registratie kan ondersteunen. Daarbij kan bijvoorbeeld worden gedacht aan het voorlopig kunnen blijven vastleggen van de 2D geometrie van een gebouw (zowel grondvlakgeometrie als bovenaanzichtgeometrie) naast het mogelijk worden van een 3D vastlegging van gebouwgeometrie. Ook zal voor bepaalde objecttypen moeten worden bekeken in hoeverre de mogelijkheid moet worden geboden om 3D vastlegging van geometrie voorlopig mogelijk te maken, zonder dat dit aan alle uiteindelijk te stellen vereisten van 3D geometrie voldoet (transitie 3D-geometrie). Op een later moment zal worden bepaald voor welke objecttypen 3D vastlegging verplicht zal worden en vanaf welk moment dit het geval is.
 Voor ISO19107 zie: https://www.iso.org/standard/66175.html 
 
-<div class='note'>
- In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraagt om een herziening van huidige topologie regels en het begrip maaiveld. 
-</div>
+>
+> Vraag in de consultatie:
+>
+> In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraagt om een herziening van huidige topologie regels en het begrip maaiveld. Welke topologieregels moeten er volgens u worden vastgelegd om een driedimensionale beschrijving van objecten te faciliteren?
+>
 
 #### Geometrie-type
 
@@ -395,7 +397,7 @@ Dit betreft het samenvoegen van objecten tot een nieuw object (zowel op datanive
 
 #### Generaliseren
 
-Uit consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen, hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
+Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen, hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
 Daarmee:
 1.	Is er geen informatiebehoefte aan gegeneraliseerde data-objecttypen
 2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties
@@ -467,6 +469,11 @@ De voor de bronhouders en gebruikers van de SOR relevante inhoudelijke meta-info
 -	Kwaliteit
 -	Status
 
+>
+> Vraag in de consultatie:
+>
+> Mist u meta-informatie die naar uw mening relevant is om in de SOR op te nemen? Welke meta-informatie is dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
+>
 
 1.	De formele definitie van objecten (objecttypen) en eigenschappen (attribuuttypen) die worden geregistreerd in de SOR moet voor bronhouder en gebruiker helder aangeven wat de betekenis is van een bepaald gegeven, maar ook over welke reële objecten bijvoorbeeld wel en welke niet geregistreerd worden in de SOR.
 
