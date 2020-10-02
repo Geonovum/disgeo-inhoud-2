@@ -485,7 +485,7 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Polder
 - Relief
 
- Vraag in de consultatie:
+> Vraag in de consultatie:
 >
 > Er wordt overwogen om pakketautomaten als nieuw object op te nemen in de SOR. Vindt u dit een goed voorstel? Kunt u aangeven voor welke gebruikstoepassingen deze opname van belang is?
 >
