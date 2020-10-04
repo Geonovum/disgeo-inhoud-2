@@ -237,7 +237,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 >
 > Vraag in de consultatie:
 >
-> Indien u heeft aangegeven dat Bouwland volgens u als functioneel objecttype opgenomen moet worden. 
+> Indien u heeft aangegeven dat Gewas volgens u als functioneel objecttype opgenomen moet worden. 
 Wat is volgens u dan de fysieke (reële) tegenhanger? 
 >
 
