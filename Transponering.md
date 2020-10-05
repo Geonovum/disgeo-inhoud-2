@@ -505,7 +505,6 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 -   waterwingebied
 -   waterbergingsgebied
 -	infrastructuur waterstaatswerken
--	waterbergingsgebied
 -	maatschappelijke en/of publieksvoorziening
 -	functioneel beheer
 -	functioneel beheer: hondenuitlaatplaats
