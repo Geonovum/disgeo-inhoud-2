@@ -429,13 +429,13 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 
 - Onbegroeide grond
 - Bomenrij
-- Gebouw
+- Gebouw *(voorheen pand)*
 - Bouwlaag
 - Ruimte
 - Gebouwcomponent: dakkapel
 - Toegangsdeur
 - Openbouwwerk: parkeergarage
-- Kunstwerkdeel: sluisdeur’
+- Kunstwerkdeel: sluisdeur
 - Kunstwerkdeel: kolk
 - Kerende kunstwerken: schot
 - Kerende kunstwerken: dijk
@@ -487,7 +487,7 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 
 > Vraag in de consultatie:
 >
-> Er wordt overwogen om pakketautomaten als nieuw object op te nemen in de SOR. Vindt u dit een goed voorstel? Kunt u aangeven voor welke gebruikstoepassingen deze opname van belang is?
+> Er wordt overwogen om bovenstaande zaken nieuw op te nemen in de SOR. Vindt u dit een goed voorstel? Kunt u voor de voor u relevante wijzigingen aangeven voor welke gebruikstoepassingen deze opname van belang is?
 >
 
 ### Niet opnemen in SOR
@@ -530,7 +530,7 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 
 > Vraag in de consultatie:
 >
-> Alle overige objecttypen keren in de een of andere vorm terug in de SOR (zoals beschreven in de paragrafen 9.1 – 9.3). Bent u van mening dat er objecttypen over het hoofd worden gezien? Kunt u toelichten welke objecttypen dit zijn?
+> Er wordt overwogen om onderstaande objecten en typeringen niet meer op te nemen in de SOR. Als u denkt dat het verwijderen van objecttype(n) tot problemen gaat leiden, kunt u dan toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie uit andere bronnen afgeleid kan worden?
 >
 
 
