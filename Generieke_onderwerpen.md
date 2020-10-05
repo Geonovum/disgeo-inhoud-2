@@ -160,12 +160,6 @@ Ontwerpprincipe:
 
 Het gaat hierbij in elk geval om de volgende regels:
 
-*Normatief.*
-
-*Bevat regels voor het gebruik van een aantal coördinaatreferentiesystemen en sluit aan op nationale afspraken hierover.*
-
-*Classificatie: ontsluiting, techniek*
-
 - Iedere geometrische dataset/geometrie moet zijn voorzien van een verwijzing naar
 het coördinaatreferentiesysteem waarin de coördinaten van de geometrie zijn
 beschreven.
@@ -291,6 +285,16 @@ Ontwerpprincipe:
 **In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken**
 
 - Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
+
+
+>
+> Vraag in de consultatie:
+>
+> In de BGT zijn alle vlakobjecten opdelend, dit betekent dat ze naadloos op elkaar aansluiten. Dit is in de praktijk heel bewerkelijk.  In de SOR stelt het expertteam voor om het bestaande onderscheid tussen opdelende objecttypen en inrichtende objecttypen te vervangen door vernieuwde topologieregels. In hoeverre bent u het met dit voorstel eens?
+>
+
+
+
 
 #### Relatieve hoogte
 
@@ -593,6 +597,14 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 - In de SOR moet (anders dan op dit moment in de BGT) voor de reële objecttypen een administratieve koppeling plaatsvinden van de geometrie van een object naar de desbetreffende PBP's op basis van de identificatie.
 - Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de inwinnende instantie die het heeft bepaald en de inwinningsmethode bekend. 
 
+
+>
+> Vraag in de consultatie:
+>
+> Voorgesteld wordt plaatsbepalingspunten als meta-informatie te gaan behandelen. In hoeverre bent u het eens met het voorstel voor plaatsbepalingspunten?
+>
+
+
 #### Verdere aandachtspunten meta-informatie
 
 In het voorgaande is een eerste schets gegeven van het onderwerp meta-informatie in de SOR. Bij de verdere uitwerking van het informatiemodel zal daaraan nog een verdere invulling moeten worden gegeven. Een aantal te maken keuzen zijn daarbij afhankelijk van besluiten die nog moeten worden genomen over onder meer de toewijzing van verantwoordelijkheden, de omgang met brondocumenten en de concreet te stellen kwaliteitseisen. Voor de verdere uitwerking worden nog een aantal aandachtspunten meegegeven:
@@ -773,9 +785,10 @@ Het slechts kunnen registreren van één levensfase (samenhangend met de kenmerk
 Dit kan worden geïllustreerd aan de hand van het voorbeeld van een school die momenteel als school in gebruik is, maar die na het lopende schooljaar verbouwd zal worden tot een woning. Wanneer in de loop van het schooljaar de bouwvergunning wordt verleend voor deze verbouwing, dan wordt volgens het huidige historiemodel van de BAG direct de registratie aangepast. Raadplegen van de actualiteit levert dan op dat sprake is van een woning, terwijl de situatie "in gebruik" nog betrekking heeft op een school met leerlingen.
 Toepassing van deze aanpak zou kunnen betekenen dat we de beoogde verbouwing niet registreren met beginGeldigheid het moment van verstrekken van de vergunning, maar met het verwachte moment van verbouwing (bijvoorbeeld aanstaande september). Bij die werkwijze kunnen we echter nog niet vastleggen dat op dit moment al sprake is van een verleende vergunning, terwijl je dat wel zou doen, wanneer sprake zou zijn van een nieuwbouwwoning.
 
-<div class='note'>
- Hieronder is een eerste voorstel oplossing van dit vraagstuk opgenomen. In de consultatie wordt iedereen uitgenodigd beargumenteerd aan te geven in hoeverre het genoemde voorstel al dan niet een goede oplossing is. Ook wordt iedereen van harte uitgenodigd om alternatieve oplossingen aan te dragen.
-</div>
+
+>
+>Hieronder is een eerste voorstel oplossing van dit vraagstuk opgenomen. In de consultatie wordt iedereen uitgenodigd beargumenteerd aan te geven in hoeverre het genoemde voorstel al dan niet een goede oplossing is.Ook wordt iedereen van harte uitgenodigd om alternatieve oplossingen aan te dragen.
+>
 
 
 Daarom moet het in dit soort situaties (voor een "in gebruik" zijnde gebouw is een vergunning verleend voor verbouw, voor een "in gebruik" zijnde weg bestaat het plan voor uitbreiding) door het informatiemodel voor de SOR gefaciliteerd worden dat een tweede object (bijvoorbeeld gebouw of verblijfsobject of wegvak) wordt geregistreerd. Deze werkwijze komt overeen met de huidige werkwijze voor plantopografie binnen IMGeo. Dit nieuw object wordt wel gerelateerd aan het bestaande object waarop het plan betrekking heeft (en vice versa). De registratie van dit tweede object geschiedt verder alsof sprake is van een nieuwbouwsituatie. Echter zodra dit object gericht op een verbouwing ook daadwerkelijk de fase bestaand/geldig bereikt, wordt het nieuw opgevoerde object "beëindigd" en wordt de feitelijk situatie weer opgenomen in de tijdlijn geldigheid van het oorspronkelijke object dat vanaf dat moment daadwerkelijk "in verbouw" is.
