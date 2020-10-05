@@ -889,6 +889,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Snellaadstation |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd. |
 | Zone |  Verkeerskundige afbakening van een gebied. |
 
+> Vraag in de consultatie:
+>
+> Inritten in de BGT variëren van een verlaagde band tot een toegangsweg naar een afgelegen gebouw. Kunt u aangeven welke inritten van belang zijn en voor welke gebruikstoepassingen zouden deze moeten worden opgenomen?
+>
+
 
 *status*
 
@@ -1374,6 +1379,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Valbescherming
+
+> Vraag in de consultatie:
+>
+> Valbescherming is nu als een aparte functie opgenomen in het ontwerp als gevolg van de scheiding tussen fysiek en functie. Een andere optie (pragmatisch) is om valbescherming als een eigenschap bij bijvoorbeeld een hek of een muur op te nemen. Waar gaat uw voorkeur naar uit?
+>
+
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Valbescherming|
