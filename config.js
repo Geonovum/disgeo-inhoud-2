@@ -59,11 +59,11 @@ var respecConfig =
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   //publishDate: "2020-04-07",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
-  github: "https://github.com/geonovum/disgeo-inhoud",
+  github: "https://github.com/geonovum/disgeo-inhoud-2",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/geonovum/disgeo-inhoud/issues",
+  issueBase: "https://github.com/geonovum/disgeo-inhoud-2/issues",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://geonovum.github.io/disgeo-inhoud",
+  edDraftURI: "https://geonovum.github.io/disgeo-inhoud-2",
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors: 
@@ -95,7 +95,7 @@ var respecConfig =
     }, 
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
-  shortName: "hiso",  	              // Wordt gebruikt in de document URL
+  shortName: "emso",  	              // Wordt gebruikt in de document URL
   //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
   pubDomain: "disgeo", 	            // Doorontwikkeling in Samenhang
   //pubDomain: "et",                // Energie transitie
@@ -157,12 +157,12 @@ var respecConfig =
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2020-04-10",  	    // Format is "YYY-MM-DD"
-  previousMaturity: "CV",                   // kies 1 van deze 2 regels  	  
-  //previousMaturity: "VV",  	                // kies 1 van deze 2 regels
+  previousPublishDate: "2020-10-05",  	    // Format is "YYY-MM-DD"
+  previousMaturity: "GN-CV",                // kies 1 van deze 2 regels  	  
+  //previousMaturity: "GN-VV",                // kies 1 van deze 2 regels
 
   //-- Optionele parameters:
-  //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
+  emailComments: "disgeo@minbzk.nl",          // reactie mailadres, alleen bij CV!
   //subtitle: "iets",                         // Subtitel van het document
   //maxTocLevel: 3,                           // Aantal niveau's ToC, default is 0
   //-- LOGO: Hier kan je een ander logo opgeven indien nodig
