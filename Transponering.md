@@ -492,12 +492,6 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 
 ### Niet opnemen in SOR
 
-> Vraag in de consultatie:
->
-> U geeft aan dat het verwijderen van objecttype(n) tot problemen kan leiden. Kunt u toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie uit andere bronnen afgeleid kan worden?
->
-
-
 
 Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te nemen in de SOR: 
 -	fauna voorziening
@@ -528,9 +522,16 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 -	op talud
 
 
+> 
 > Vraag in de consultatie:
 >
 > Er wordt overwogen om bovenstaande objecten en typeringen niet meer op te nemen in de SOR. Als u denkt dat het verwijderen van objecttype(n) tot problemen gaat leiden, kunt u dan toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie uit andere bronnen afgeleid kan worden?
 >
-
+      
+     
+> 
+> Vraag in de consultatie:
+>
+> Als u van mening bent dat kruinlijnen en op talud niet gemist kunnen worden, kunt u dan toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie ook uit andere bronnen afgeleid kan worden?
+>
 
