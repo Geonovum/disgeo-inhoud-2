@@ -15,7 +15,7 @@
 >
 > Vraag in de consultatie:
 >
-> Voor welke gebruikstoepassing wordt de BGT-indeling van watervlakken en waterlopen gebruikt?
+> Voor welke gebruikstoepassingen wordt de nu bestaande BGT-indeling van watervlakken en waterlopen gebruikt? Is een andere indeling wenselijker? Voor welke gebruikstoepassingen?
 >
 
 #### Watervlakte
@@ -231,15 +231,28 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. |
 |schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is. |
 
+>
+> Vraag in de consultatie:
+>
+> In hoeverre bent u het eens met het voorstel om niet voor te schrijven welke waterlijnen worden vastgelegd?”
+>
+
+
 
 ### Begroeiing
+
 
 >
 > Vraag in de consultatie:
 >
-> Indien u heeft aangegeven dat Gewas volgens u als functioneel objecttype opgenomen moet worden. 
-Wat is volgens u dan de fysieke (reële) tegenhanger? 
+> Hierna worden een aantal voorstellen gedaan waarover we in de consultatie graag uw mening horen:
+> -	Begroeiing indikken tot tot gras-en kruidachtigen (laag), struiken (midden) en bostypen (hoog)
+> - Alle typen gras die nu in de BGT worden onderscheiden (grasland overig, grasland agrarisch en groenvoorziening) bundelen tot één type “gras- en kruidachtigen”
+> - Bomen opnemen als bos, bomenrij of boom
+> - Naast geografisch gebied (heidegebied, duingebied, bosgebied) ook begroeiing (heide, duin en bos) opnemen als reëel object
 >
+>
+
 
 #### Bos
 | Klasse  | Naam  |
@@ -428,6 +441,14 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Gewas
+
+
+>
+> Vraag in de consultatie:
+>
+> Gewas is nu opgenomen als een reëel object. Het zou ook kunnen worden opgenomen als een functioneel object. Wat vindt u daarvan? En wat zou dan de reële tegenhanger van dit functionele object moeten zijn?
+>
+
 | Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Gewas  |
@@ -870,6 +891,13 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 ### Bebouwing
+
+>
+> Vraag in de consultatie:
+>
+> Kunt u aangeven welke statussen naar uw mening van belang zijn voor gebouw, bouwlaag, ruimte en gebouwcomponent?
+>
+
 
 #### Gebouw
 
@@ -2202,7 +2230,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een mast. |Ja |
 |Geometrie|De geometrische representatie van de ligging van de mast of van de randen van de mast.  |Ja (punt, lijn, vlak)|
 |Status   | De fase van de levenscyclus waarin de mast zich bevindt.   |Ja   |
-|Type installatie|De aanduiding van het soort mast |Ja|
+|Type mast|De aanduiding van het soort mast |Ja|
 |Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 > Vraag in de consultatie:
