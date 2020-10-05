@@ -42,7 +42,7 @@
 |Identificatie   |De unieke aanduiding van een Knoop  |Ja |
 |Geometrie |De geometrische representatie van een knoop |Ja (punt), Nee (vlak)|
 |Type verkeersgebied|Een deel van de weg met een specifieke functie om van richting te veranderen of de reis te beginnen/eindigen.|Ja|
-|Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de knoop verplaatst.|Ja|
+|Hoofdverkeersgebruik|Hoofdverkeersgebruik is het meest voorkomende verkeer dat zich over de knoop verplaatst.|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt   |Ja   |
 |overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
 
@@ -78,6 +78,14 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Fietsers, bromfietsers	|Bestuurders die met een fiets of bromfiets aan het verkeer deelnemen.|
 |Voetgangers|	Een persoon die te voet deelneemt aan het verkeer.|
 |Ruiters|	Bestuurder van een paard of pony. |
+
+
+> Vraag in de consultatie:
+>
+> Het wegennetwerk heeft als eigenschap hoofdverkeersgebruik. De beschrijving van hoofdverkeersgebruik “snelverkeer” is inclusief vrachtverkeer. Is vrachtverkeer gewenst als apart hoofdverkeersgebruik?”
+>
+
+
 
 
 *status*
@@ -121,7 +129,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type weg| Een categorisering van de verschillende wegtypes. |Ja|
 |Type baan| Een categorisering van de verschillende baantypes. |Ja|
 |Type strook| Een categorisering van de verschillende strooktypes. |Nee|
-|Hoofdverkeersgebruik|Hoofdverkeersgebruiker is het meest voorkomende verkeer dat zich over de wegverbinding verplaatst.|Ja|
+|Hoofdverkeersgebruik|Hoofdverkeersgebruik is het meest voorkomende verkeer dat zich over de wegverbinding verplaatst.|Ja|
 |Modaliteit| Soorten voertuigen die zich op de verbinding mogen begeven. | Ja (MV)|
 |Rijrichting| De toegestane beweegrichting van het verkeer op een wegverbinding | Ja|
 |Openbare weg|Weg die door iedereen gebruikt kan worden. | Ja|
