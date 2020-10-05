@@ -494,7 +494,7 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 
 > Vraag in de consultatie:
 >
-> U geeft aan dat het verwijderen van objecttype(n) tot problemen leiden. Kunt u toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie uit andere bronnen afgeleid kan worden?
+> U geeft aan dat het verwijderen van objecttype(n) tot problemen kan leiden. Kunt u toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie uit andere bronnen afgeleid kan worden?
 >
 
 
