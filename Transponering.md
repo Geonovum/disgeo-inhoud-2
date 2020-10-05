@@ -507,9 +507,9 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 -	bewoning
 -	infrastructuur verkeer en vervoer
 -   opstelpunt open water
-- zuiveringscomplex 
-- waterwingebied
-- waterbergingsgebied
+-   zuiveringscomplex 
+-   waterwingebied
+-   waterbergingsgebied
 -	infrastructuur waterstaatswerken
 -	waterbergingsgebied
 -	maatschappelijke en/of publieksvoorziening
@@ -530,7 +530,7 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 
 > Vraag in de consultatie:
 >
-> Er wordt overwogen om onderstaande objecten en typeringen niet meer op te nemen in de SOR. Als u denkt dat het verwijderen van objecttype(n) tot problemen gaat leiden, kunt u dan toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie uit andere bronnen afgeleid kan worden?
+> Er wordt overwogen om bovenstaande objecten en typeringen niet meer op te nemen in de SOR. Als u denkt dat het verwijderen van objecttype(n) tot problemen gaat leiden, kunt u dan toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie uit andere bronnen afgeleid kan worden?
 >
 
 
