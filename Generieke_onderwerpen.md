@@ -45,9 +45,12 @@ Ontwerpprincipe:
 **Een objectidentificatie binnen Nederland is volledig uniek**
 
 We willen zeker weten dat we in tijd en ruimte het over hetzelfde object in de SOR hebben. De objectidentificatie moet daarom uniek zijn.
-Ontwerpprincipe: een identificatie wordt mondiaal uniek gemaakt door er de landcode aan toe te voegen
-Dit is conform de identificatie in NEN3610.
 
+Ontwerpprincipe: 
+
+**een identificatie wordt mondiaal uniek gemaakt door er de landcode aan toe te voegen**
+
+Dit is conform de identificatie in NEN3610.
 
 **HANTEERBAARHEID**
 
@@ -69,7 +72,7 @@ Ontwerpprincipe:
 
 **Een functionele objectidentificatie kan een of meer technische identificaties hebben**
 
-De technische objectidentificatie is de toepassing van de functionele identificatie in een technische omgeving. In de technische uitwerking kunnen aan de functionele identificatie een of meer technische identificaties worden gerelateerd die eenduidig met die ene functionele identificatie verbonden zijn, bijvoorbeeld GML,API of URI. Objecten geïmplementeerd in verschillende technische omgevingen moeten middels hun functionele identificatie aan elkaar te relateren zijn. Bijvoorbeeld: een object dat zowel in XML als in JSON als in LD is geïmplementeerd moet herkenbaar zijn als voorkomens van eenzelfde object.
+De technische objectidentificatie is de toepassing van de functionele identificatie in een technische omgeving, bijvoorbeeld GML,API of URI. In de technische uitwerking kunnen aan de functionele identificatie een of meer technische identificaties worden gerelateerd die eenduidig met die ene functionele identificatie verbonden zijn. Objecten geïmplementeerd in verschillende technische omgevingen moeten middels hun functionele identificatie aan elkaar te relateren zijn. Bijvoorbeeld: informatie over een object dat zowel in XML als in JSON als in LD te verkrijgen is  moet herkenbaar zijn als informatie over eenzelfde object.
 
 **SAMENHANG**
 
@@ -77,7 +80,7 @@ Ontwerpprincipe:
 
 **Samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de objectidentificatie in de SOR (externe ID)**
 
-Sectorregistraties kennen vaak hun eigen identificatie. Er zal gefaciliteerd moeten worden dat bij de objecten in de sectorregistraties de objectidentificaties van de SOR-objecten worden vastgelegd. De informatie die in de sector opgeslagen is daarmee te ontsluiten op basis van de SOR-objectidentificatie
+Sectorregistraties kennen vaak hun eigen identificatie. Er zal gefaciliteerd moeten worden dat bij de objecten in de sectorregistraties de objectidentificaties van de SOR-objecten worden vastgelegd. De informatie die in de sector opgeslagen is daarmee te ontsluiten op basis van de SOR-objectidentificatie.
 
 Ontwerpprincipe: 
 

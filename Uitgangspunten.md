@@ -40,20 +40,20 @@ Ontwerpprincipe:
 
 **Objecttypen en eigenschappen van objecttypen worden zodanig in de SOR opgenomen dat uitbreiding en inkrimping van het aantal objecttypen en eigenschappen en het aanpassen van de kwalificatie van objecttypen en eigenschappen als verplicht of vrijwillig binnen het informatiemodel eenvoudig mogelijk is.**
 
-Het moet mogelijk zijn om de inhoud van de samenhangende objectenregistratie relatief eenvoudig aan te kunnen passen. Dit begint met een informatiemodel dat dergelijke aanpassingen kan faciliteren. Dat betekent dat bijvoorbeeld het onderscheid tussen verplichte en vrijwillige objecten in de registratie niet diepgaand in het uitgewerkte informatiemodel moet worden verankerd. Of aanpassing ook daadwerkelijk zal plaatsvinden is uiteraard afhankelijk van de afspraken die er worden gemaakt over de wijze waarop besluitvorming over wijzigingen plaatsvindt en hoe er wordt omgegaan met de gevolgen daarvan voor bronhouders en gebruikers. Bij het doorvoeren van dit soort wijzigingen moeten er altijd heldere transitieafspraken worden gemaakt.
+Het moet mogelijk zijn om de inhoud van de samenhangende objectenregistratie relatief eenvoudig aan te passen. Dit begint met een informatiemodel dat dergelijke aanpassingen kan faciliteren. Dat betekent dat bijvoorbeeld het onderscheid tussen verplichte en vrijwillige objecten in de registratie niet diepgaand in het uitgewerkte informatiemodel moet worden verankerd. Of aanpassing ook daadwerkelijk zal plaatsvinden is uiteraard afhankelijk van de afspraken die er worden gemaakt over de wijze waarop besluitvorming over wijzigingen plaatsvindt en hoe er wordt omgegaan met de gevolgen daarvan voor bronhouders en gebruikers. Bij het doorvoeren van dit soort wijzigingen moeten er altijd heldere transitieafspraken worden gemaakt.
 
 
 ### Uitgangspunten reikwijdte 
 
-#### Sector overstijgend
+#### Sectoroverstijgend
 
 Ontwerpprincipe:
 
 **In de SOR worden uitsluitend objecttypen en eigenschappen van objecttypen opgenomen die van belang zijn voor gebruik in verschillende overheidsdomeinen.**
 
-Met dit uitgangspunt wordt invulling gegeven aan de ook nu al bestaande eisen die worden gesteld aan basisregistraties. De objectenregistratie fungeert daarbij als een onderdeel van het fundament voor een gegevenslandschap waarin aanvullend op dit fundament in sectorale en lokale registraties aanvullende objecttypen en eigenschappen worden geregistreerd. De samenhangende objectenregistratie fungeert daarmee dus als een verbindende schakel tussen de verschillende specifieke eigenschappen die van deze objecttypen zijn geregistreerd in de verschillende sectorale registraties. Daarnaast bevordert de samenhangende objectenregistratie indirect ook de samenhang met in die sectorale registraties opgenomen specifieke objecttypen en eigenschappen daarvan. Deze brugfunctie van de samenhangende objectenregistratie is daarmee essentieel voor het integraal kunnen gebruiken van gegevens.
+Met dit uitgangspunt wordt invulling gegeven aan de ook nu al bestaande eisen die worden gesteld aan basisregistraties. De objectenregistratie fungeert daarbij als een onderdeel van het fundament voor een gegevenslandschap waarin aansluitend op dit fundament in sectorale en lokale registraties aanvullende objecttypen en eigenschappen worden geregistreerd. De samenhangende objectenregistratie fungeert daarmee dus als een verbindende schakel tussen de verschillende specifieke eigenschappen die van deze objecttypen zijn geregistreerd in de verschillende sectorale registraties. Daarnaast bevordert de samenhangende objectenregistratie indirect ook de samenhang met in die sectorale registraties opgenomen specifieke objecttypen en eigenschappen daarvan. Deze brugfunctie van de samenhangende objectenregistratie is daarmee essentieel voor het integraal kunnen gebruiken van gegevens.
 
-Dit uitgangspunt betekent praktisch onder meer dat specifieke zoneringen en werkingsgebieden (zoals deze bijvoorbeeld voortvloeien vanuit de Omgevingswet) niet worden opgenomen in de SOR, maar “achterblijven” in sectorale registraties.
+Dit uitgangspunt betekent praktisch onder andere dat specifieke zoneringen en werkingsgebieden (zoals deze bijvoorbeeld voortvloeien vanuit de Omgevingswet) niet worden opgenomen in de SOR, maar “achterblijven” in sectorale registraties.
 
 #### Primair bovengronds
 
@@ -108,7 +108,7 @@ Ontwerpprincipe:
 
 **In de SOR wordt een expliciet onderscheid gemaakt tussen reële en functionele objecttypen.**
 
-Bij de uitwerking van de SOR wordt een scheiding aangebracht tussen reële objecttypen en functionele objecttypen. De aanleiding is dat definities van functionele objecttypen sterk samenhangen met specifieke gebruikstoepassingen of afsprakenkaders. reële objecttypen worden altijd gedefinieerd door hetgeen in het terrein zichtbaar is. Door in de SOR een strikte scheiding aan te brengen tussen reële objecttypen en functionele objecttypen, kunnen duidelijkere regels worden opgesteld over onder meer samenhang en overlap van verschillende objecttypen. Daar waar dat de in de huidige registraties vaak niet mogelijk is, wordt het in de SOR bijvoorbeeld mogelijk dat er meerdere functionele indelingen op één reële locatie voorkomen. Hiermee vergroten we de flexibiliteit en de gebruiksmogelijkheden van de SOR enorm. Functionele en reële objecttypen worden hierbij altijd als aparte objecttypen gedefinieerd, als de begrenzing ervan kan verschillen.
+Bij de uitwerking van de SOR wordt een scheiding aangebracht tussen reële objecttypen en functionele objecttypen. De aanleiding is dat definities van functionele objecttypen sterk samenhangen met specifieke gebruikstoepassingen of afsprakenkaders. Reële objecttypen worden altijd gedefinieerd door hetgeen in het terrein zichtbaar is. Door in de SOR een strikte scheiding aan te brengen tussen reële objecttypen en functionele objecttypen, kunnen duidelijkere regels worden opgesteld over onder meer samenhang en overlap van verschillende objecttypen. Daar waar dat in de huidige registraties vaak niet mogelijk is, wordt het in de SOR bijvoorbeeld mogelijk dat er meerdere functionele indelingen op één reële locatie voorkomen. Hiermee vergroten we de flexibiliteit en de gebruiksmogelijkheden van de SOR enorm. Functionele en reële objecttypen worden hierbij altijd als aparte objecttypen gedefinieerd, als de begrenzing ervan kan verschillen.
 
 #### Kleinste semantische eenheden
 
@@ -118,9 +118,9 @@ Ontwerpprincipe:
 
 Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste semantische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit minimum detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. Op het moment dat bepaalde gebruikers binnen deze kleinste semantische eenheid voor eigen gebruik nog een nadere detaillering wil aanbrengen, dan zal de gebruiker dat als onderdeel van de eigen sectorale registratie zelf nader moeten vormgeven. Hierbij kan bijvoorbeeld worden gedacht aan het nader detailleren van een groenobject in verschillende beplantingsvakken als onderdeel van het werkproces voor het beheren van de openbare ruimte.
 
-Een onderwerp dat in het kader van dit uitgangspunt in het vervolgtraject nog nader zal moeten worden uitgewerkt is de vraag op welke wijze binnen het conceptueel model zal worden omgegaan met objecten die het gevolg zijn van aggregatie. Hierbij kan bijvoorbeeld worden gedacht aan de momenteel in de BRT voorkomende objecttype “gebouw” dat ontstaat door aggregatie van het in de BAG en de BGT voorkomende objecttype “pand”. Hierbij is in het kader van de SOR het uitgangspunt dat gegevens worden ingewonnen met een mate van detail die behoort bij een schaalniveau 1 : 1000. Geaggregeerde objecten moeten dus op basis van deze gegevens kunnen worden gevormd.
+Een onderwerp dat in het kader van dit uitgangspunt in het vervolgtraject nog nader zal moeten worden uitgewerkt is de vraag op welke wijze binnen het conceptueel model zal worden omgegaan met objecten die het gevolg zijn van aggregatie. Hierbij kan bijvoorbeeld worden gedacht aan het momenteel in de BRT voorkomende objecttype “gebouw” dat ontstaat door aggregatie van het in de BAG en de BGT voorkomende objecttype “pand”. Hierbij is in het kader van de SOR het uitgangspunt dat gegevens worden ingewonnen met een mate van detail die behoort bij een schaalniveau 1 : 1000. Geaggregeerde objecten moeten dus op basis van deze gegevens kunnen worden gevormd.
 
-Vragen die daarbij eveneens zullen moeten worden beantwoord is in hoeverre geaggregeerde objecten ook terug te herleiden moeten zijn tot de verschillende oorspronkelijke objecten en wat er wordt voorgeschreven voor verplicht gebruik bij geaggregeerde objecten (het algoritme of een vastlegging van de uitkomst van dit algoritme).
+Vragen die daarbij eveneens zullen moeten worden beantwoord zijn in hoeverre geaggregeerde objecten ook terug te herleiden moeten zijn tot de verschillende oorspronkelijke objecten en wat er wordt voorgeschreven voor verplicht gebruik bij geaggregeerde objecten (het algoritme of een vastlegging van de uitkomst van dit algoritme).
 
 #### Volledige levensloop
 
@@ -165,7 +165,7 @@ Hierbij kan de wijze van vastlegging verschillen voor de diverse objecttypen. So
 Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie zullen in de regel nadere eisen worden gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende reële objecten). Ook worden bij dit soort objecten soms ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast zal er in de verdere uitwerking ook nog aandacht moeten worden besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan hectometerpaaltjes, verdiepingsnummers en bouwlagen.
 
 De SOR is primair een geometrische gegevensverzameling en kaartbeelden kunnen daar als product van worden afgeleid. Hierbij is voor geometrie aansluiting op Simple Features (ISO19125) voorgeschreven. 
-De SOR hanteert altijd expliciete geometrie en geen impliciete geometrie (zoals geparametriseerde geometriebeschrijvingen die in CAD/BIM voorkomen). Hiermee kunnen namelijk betere analyses en kwaliteitscontroles (zoals topologische controles) worden uitgevoerd en  2D geometrie worden ‘opgetrokken’ naar 3D geometrie
+De SOR hanteert altijd expliciete geometrie en geen impliciete geometrie (zoals geparametriseerde geometriebeschrijvingen die in CAD/BIM voorkomen). Hiermee kunnen namelijk betere analyses en kwaliteitscontroles (zoals topologische controles) worden uitgevoerd en kan 2D geometrie worden ‘opgetrokken’ naar 3D geometrie.
 
 #### Meta-informatie
 
@@ -175,7 +175,7 @@ ontwerpprincipe:
 
 Bij meta-informatie gaat het onder meer over informatie over de kwaliteit, ontstaansmoment en versie van het object. Voor het vastleggen van meta-informatie zullen nog nadere afspraken moeten worden ontwikkeld, waarbij het uitgangspunt is dat zoveel mogelijk wordt aangesloten op hiervoor bestaande standaarden. Deze zullen worden toegespitst op de verschillende soorten objecttypen. In de huidige basisregistraties wordt aan dit aspect op verschillende wijzen invulling gegeven. In de BAG wordt gewerkt met verwijzingen naar brondocumenten, in de BGT wordt hieraan op dit moment invulling gegeven met de opname van plaatsbepalingspunten en in de WOZ wordt hiervoor specifieke kwaliteitsinformatie aan de registratie toegevoegd.
 
-Metagegevens kunnen ook informatie over de totstandkoming van 3D geometrie bevatten. Is deze afgeleid van andere gegevens of is deze in 3D ingewonnen?. Ook zal uit een LOD(-beschrijving) van geometrie duidelijk moeten worden in hoeverre bijvoorbeeld een dak plat is omdat deze in werkelijkheid plat is en dus zo in de gegevensverzameling is opgenomen of omdat er sprake is van een LOD1 representatie.
+Metagegevens kunnen ook informatie over de totstandkoming van 3D geometrie bevatten. Is deze afgeleid van andere gegevens of is deze in 3D ingewonnen?. Ook zal uit een LoD(-beschrijving) van geometrie duidelijk moeten worden in hoeverre bijvoorbeeld een dak plat is omdat deze in werkelijkheid plat is en dus zo in de gegevensverzameling is opgenomen of omdat er sprake is van een LoD1 representatie.
 
 
 #### Aanvullende eigenschappen
@@ -184,9 +184,7 @@ Ontwerpprincipe:
 
 **In de SOR kunnen van bepaalde objecttypen aanvullende eigenschappen worden vastgelegd, als deze van belang zijn voor meerdere gebruikers vanuit verschillende gebruikersdomeinen.**
 
-De samenhangende objectenregistratie heeft primair het karakter van een basisregistratie. Dat betekent dat in de registratie van objecttypen alleen eigenschappen worden vastgelegd die in verschillende overheidsdomeinen worden gebruikt. Hierbij kunnen er tussen verschillende objecttypen grote verschillen bestaan tussen het aantal eigenschappen dat dit betreft. Bij het objecttype ‘pand’ worden bijvoorbeeld aanzienlijk meer eigenschappen vastgelegd dan bij een objecttype ‘tunneldeel’.
-
-
+De samenhangende objectenregistratie heeft primair het karakter van een basisregistratie. Dat betekent dat in de registratie van objecttypen alleen eigenschappen worden vastgelegd die in verschillende overheidsdomeinen worden gebruikt. Hierbij kan er tussen verschillende objecttypen een groot verschil bestaan in het aantal eigenschappen dat van deze objecttypen wordt vastgelegd. Bij het objecttype ‘pand’ worden bijvoorbeeld aanzienlijk meer eigenschappen vastgelegd dan bij een objecttype ‘tunneldeel’.
 
 
 
