@@ -96,7 +96,7 @@ Ontwerpprincipe:
 
 **Een objectidentificatie mag niet veranderen in de levensloop van het object zodat tijdreizen maximaal wordt gefaciliteerd**
 
-De objectidentificatie van een object in de SOR moet persistent zijn over de levensloop van dat object, zodat altijd duidelijk is welk object het betreft, ook als het object inmiddels is gesloopt.
+De objectidentificatie van een object in de SOR moet persistent zijn over de levensloop van dat object, zodat altijd duidelijk is welk object het betreft, ook als het object inmiddels in de werkelijkheid niet meer bestaat.
 
 **FILIATIE (AFKOMST/OVERGANG)** 
 
@@ -145,7 +145,7 @@ Ontwerpprincipe:
 
 **Uitgifte van identificaties vindt niet eerder dan de SOR plaats**
 
-Indien een object in een sectorregistratie mocht ontstaan, dan heeft dat object daar een unieke sectorregistratie-identificatie. Er is dan nog geen sprake van meervoudig gebruik buiten de sector. Als het object vervolgend wordt aangeboden aan de SOR, wordt dan pas en niet eerder een objectidentificatie (voor het object in de SOR) uitgegeven. Om de interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
+Indien een object in een sectorregistratie mocht ontstaan, dan heeft dat object daar een unieke sectorregistratie-identificatie. Er is dan nog geen sprake van meervoudig gebruik buiten de sector. Als het object vervolgens wordt aangeboden aan de SOR, wordt dan pas en niet eerder een objectidentificatie (voor het object in de SOR) uitgegeven. Om de interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
 
 ### Geometrie
 
@@ -186,7 +186,7 @@ de volgende.
  coördinaatsysteem de stereografische projectie. Als verticale datum wordt
  het NAP-vlak gebruikt. RDNAPTRANS™ is de officiële en nauwkeurige transformatie tussen het coördinatensysteem van de Rijksdriehoeksmeting (RD) en het Normaal Amsterdams Peil (NAP) enerzijds en het European Terrestrial Reference System 1989 (ETRS89) anderzijds. 
  **Aanbeveling:** 
- controleer bij transformaties tussen ETRS89 en RD coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties.;
+ controleer bij transformaties tussen ETRS89 en RD coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties.
 
 2. De UTM-projectie (zone 31/32) (op het Nederlands continentaal plat). Voor
  dit systeem geldt dat het gebruikte horizontale datum vaak ofwel het
@@ -204,7 +204,7 @@ zijn om van de gehanteerde coördinaten te komen tot coördinaten in het ETRS89.
 Voor het definiëren van de coördinaatreferentiesystemen kunnen de EPSG-codes
 (European Petroleum Survey Group) worden gebruikt. 
 
-Voor de handliggende coördinaatreferentiesystemen en hun EPSG-codes zijn:
+Voor de hand liggende coördinaatreferentiesystemen en hun EPSG-codes zijn:
 
 - RD stelsel (2D): EPSG:28992
 
@@ -227,15 +227,17 @@ Een gangbare methode voor het specificeren van het coördinaatreferentiesysteem 
 
 Coordinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD,NAP en ETRS89 komt dat overeen met de volgende nauwkeurigheden:
 
-RD in meters 3 decimalen (1 mm);
-NAP-hoogte in meters 3 decimalen (1 mm);
-ETRS89-breedte in graden 8 decimalen (1,1 mm);
-ETRS89-lengte in graden 8 decimalen (0,7 mm);
-ETRS89-hoogte in meters 3 decimalen (1 mm).
+CRS | Nauwkeurigheid
+----|---------------
+RD in meters | 3 decimalen (1 mm);
+NAP-hoogte in meters | 3 decimalen (1 mm);
+ETRS89-breedte in graden | 8 decimalen (1,1 mm);
+ETRS89-lengte in graden | 8 decimalen (0,7 mm);
+ETRS89-hoogte in meters | 3 decimalen (1 mm).
 
 Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8 decimalen. Afronding is volgens de volgende regel:
-0.0015 -> 0.002;
-0.0014 -> 0.001.
+- 0.0015 -> 0.002;
+- 0.0014 -> 0.001.
 
 
 #### 3D
@@ -312,9 +314,9 @@ Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van 
 
 #### Lineair referencing
 
-De Lineair Referencing Methode (LRM) gebruiken we om het lokaliseren van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van het netwerk te verstoren door verder op te knippen. Dus een methode waarbij administratief wordt aangegeven vanwaar een verandering geldt: bv. vanaf 200 meter van af start verbinding geldt een toegestane snelheid van 70 km/h. 
+De Lineair Referencing Methode (LRM) gebruiken we om het lokaliseren van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van een netwerk te verstoren door verder op te knippen. Dus een methode waarbij administratief wordt aangegeven vanaf waar een verandering geldt: bv. vanaf 200 meter vanaf start verbinding geldt een toegestane snelheid van 70 km/h. 
 
-lineair referencing wordt door Inspire geadviseerd:
+Lineair referencing wordt door Inspire geadviseerd:
 
 ![requirement inspire](media/inspire_lrm1.png) 
 
@@ -323,12 +325,12 @@ Dit figuur laat de werking van linear referencing zien :
 
 ![lineair referencing](media/inspire_lrm2.png)
 
-Let op: als iets in de werkelijkheid zowel een reel voorkomen heeft als een functie, dan moet de geometrie van het functionele object afgeleid worden van het reële, ook als dit via lineair referencing wordt vastgelegd. 
+Let op: als iets in de werkelijkheid zowel een reëel voorkomen heeft als een functie, dan moet de geometrie van het functionele object afgeleid worden van het reële, ook als dit via lineair referencing wordt vastgelegd. 
 
 
 ### Netwerken
 
-In de samenhangende objectenregistratie worden vier transportnetwerken onderscheiden: wegen, spoor, water en scheepvaart. Netwerken zijn een verdere uitwerking van de virtuele objecten transportvoorzieningen in het basismodel NEN3610. En zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
+In de samenhangende objectenregistratie worden vier transportnetwerken onderscheiden: wegen, spoor, water en scheepvaart. Netwerken zijn een verdere uitwerking van de virtuele, functionele objecten die vallen onder de klasse Transportvoorziening in het basismodel NEN3610. Ze zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
 
 De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerken los van elkaar te beschrijven.
 
@@ -338,23 +340,23 @@ De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze
 
 Een netwerk bestaat uit knopen en verbindingen. Een verbinding geeft de relatie aan tussen twee knopen. Een knoop is een keuzepunt. Bijvoorbeeld voor een weggebruiker. Een verbinding verbindt twee direct aanliggende keuzepunten. 
 
-Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding beschreven kan worden. Administratieve eigenschappen zoals een straatnaam worden vooral gebruikt voor locatiebepaling. Voor routering zijn eigenschappen die een voorwaarde beschrijven belangrijk om te bepalen hoe een route over het netwerk loopt. Voor wegen zijn bijvoorbeeld rijrichtingen en maximum snelheden dergelijke eigenschappen. Voor waternetwerken bijvoorbeeld een weerstandscoefficient van de bak waar het water door stroomt.
+Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding beschreven kan worden. Administratieve eigenschappen zoals een straatnaam worden vooral gebruikt voor locatiebepaling. Voor routering zijn eigenschappen die een voorwaarde beschrijven belangrijk om te bepalen hoe een route over het netwerk loopt. Voor wegen zijn bijvoorbeeld rijrichtingen en maximum snelheden dergelijke eigenschappen. Voor waternetwerken bijvoorbeeld een weerstandscoëfficiënt van de bak waar het water door stroomt.
 
 #### Een netwerk is gerelateerd aan de reële infrastructuur
 
-Een transportnetwerk beschrijft de functionele inrichting van de reële infrastructuur en is daarmee onlosmakelijk mee verbonden. Bij nieuwe aanleg van infrastructuur is het functioneel ontwerp (het netwerk) de basis voor de aanleg van reële infrastructuur. 
+Een transportnetwerk beschrijft de functionele inrichting van de reële infrastructuur en is daar onlosmakelijk mee verbonden. Bij nieuwe aanleg van infrastructuur is het functioneel ontwerp (het netwerk) de basis voor de aanleg van reële infrastructuur. 
 
 Een netwerk heeft vanuit zichzelf geen geometrie, voor de beschrijving en positionering van transportnetwerken wordt een geometrie toegevoegd en/of wordt verwezen naar de geometrie van de reële infrastructuur.
 
 Indien een geometrie wordt toegevoegd aan een knoop of verbinding dan ligt deze op het gerelateerde reële object.
 
-Waternetwerken zijn een uitzondering hierop. In een waternetwerk is het water niet de infrastructuur maar de voorziening waar het water in zit of doorheen stroomt. De geometrie van de bodem van een rivier wordt niet opgenomen in de SOR. Daarom worden voor waternetwerken een geometrie toegevoegd die niet verwijst naar de reële infrastructuur maar wel overeenkomt met het wateroppervlak.
+Waternetwerken zijn een uitzondering hierop. In een waternetwerk is het water niet de infrastructuur maar de voorziening waar het water in zit of doorheen stroomt. De geometrie van de bodem van een rivier wordt niet opgenomen in de SOR. Daarom wordt voor waternetwerken een geometrie toegevoegd die niet verwijst naar de reële infrastructuur maar wel overeenkomt met het wateroppervlak.
 
 #### Detaillering waar nodig
-Een netwerk is te beschrijven in verschillende niveau’s van detail. Of detaillering nodig iss hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detail niveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals die gebruikt wordt voor kaarten.
+Een netwerk is te beschrijven in verschillende niveau’s van detail. Of detaillering nodig is hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detailniveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals dat gebruikt wordt voor kaarten.
 
 Het detailniveau van een netwerk wordt bepaald door wat nodig is om het netwerk te kunnen beschrijven.
-Een wegennetwerk kent functioneel gezien drie niveau’s: een weg, een rijbaan en rijstrook niveau. Een eigenschap bepaalt het niveau van detail. Een straatnaam geldt voor de weg en daarmee ook voor de rijbanen en rijstroken die bij die weg behoren. Een busstrook wordt gedefinieerd op strook niveau en een busbaan op baan niveau. 
+Een wegennetwerk kent functioneel gezien drie niveau’s: een weg, een rijbaan en rijstrook niveau. Een eigenschap bepaalt het niveau van detail. Een straatnaam geldt voor de weg en daarmee ook voor de rijbanen en rijstroken die bij die weg behoren. Een busstrook wordt gedefinieerd op strookniveau en een busbaan op baanniveau. 
 
 #### Eigenschappen van knopen en verbindingen
 
@@ -368,16 +370,15 @@ Indien een eigenschap meerdere waarden kan bevatten zonder dat er sprake is van 
 #### Relaties bij netwerken
 
 
-Een netwerk kent verschillende type relaties:
-Relaties die binnen het netwerk gelegd worden en relaties die met objecten gelegd worden die geen onderdeel zijn van het netwerk, maar wel van belang zijn voor het netwerk.
+Een netwerk kent verschillende typen relaties: relaties die binnen het netwerk gelegd worden en relaties die met objecten gelegd worden die geen onderdeel zijn van het netwerk, maar wel van belang zijn voor het netwerk.
 
-Relaties die binnen het netwerk gelegd worden zijn onderdeel van het netwerk. Bijvoorbeeld een rijbaan die bestaat uit een aantal rijstroken of een vistrap die hoort bij de rivier (of ventweg en de bijbehorende hoofdrijbaan).
+Relaties die binnen het netwerk gelegd worden zijn onderdeel van het netwerk. Bijvoorbeeld een rijbaan die bestaat uit een aantal rijstroken, een vistrap die hoort bij de rivier, of een ventweg en de bijbehorende hoofdrijbaan.
 
-Er zijn objecten die van belang zijn voor het netwerk maar die niet worden opgenomen als onderdeel van het netwerk. Parkeervakken langs een verbindingen worden wel gerelateerd aan het netwerk omdat dan bekend is bij welke verbinding een parkeervak hoort, maar maken er geen onderdeel uit. Dat wil zeggen dat er geen knoop wordt geïntroduceerd op een parkeervak alsof het een doodlopende weg is.
+Er zijn objecten die van belang zijn voor het netwerk maar die niet worden opgenomen als onderdeel van het netwerk. Parkeervakken langs een verbinding worden wel gerelateerd aan het netwerk omdat dan bekend is bij welke verbinding een parkeervak hoort, maar maken er geen onderdeel uit. Dat wil zeggen dat er geen knoop wordt geïntroduceerd op een parkeervak alsof het een doodlopende weg is.
 
-Binnen netwerk wordt onderscheidt gemaakt naar verbindingen tussen knopen en verbindingen waarover een voertuig/weggebruiker/water/trein zich kan verplaatsen en tussen (netwerk) objecten die een logische samenhang kennen. Deze laatste categorie wordt een hyperverbinding genoemd.
+Binnen netwerken wordt onderscheid gemaakt in verbindingen tussen knopen waarover een voertuig/weggebruiker/water/trein zich kan verplaatsen en verbindingen tussen (netwerk) objecten die een logische samenhang kennen. Deze laatste categorie wordt een hyperverbinding genoemd.
 
-Een voorbeeld van een hyperverbinding is de relatie tussen een vistrap en de rivier waar de vistrap bij hoort. Ook objecten die van belang zijn voor he netwerk worden gedefinieerd met een hyperverbinding.
+Een voorbeeld van een hyperverbinding is de relatie tussen een vistrap en de rivier waar de vistrap bij hoort. Ook objecten die van belang zijn voor het netwerk worden gedefinieerd met een hyperverbinding.
 
 
 
@@ -393,7 +394,7 @@ In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoem
 Hierbij worden de volgende begrippen gehanteerd:
 
 **cartografisch object** 
-Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie van die visualisatie hoe lang die visualisatie ook beschikbaar is
+Een object dat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie van de visualisatie voor zolang als die visualisatie ook beschikbaar is.
 
 **generaliseren**
 Dit betreft het zinvol vereenvoudigen, verplaatsen of ‘opblazen’ van de geometrie van objecten.
@@ -424,9 +425,9 @@ Ontwerpprincipe:
 
 **Cartografische objecttypen worden als onderdeel van de producten van DisGeo opgenomen**
 
-cartografische objecten zijn voor gebruikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
+Cartografische objecten zijn voor gebruikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
 
-Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een laag naar een hoog detailniveau teruggaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau
+Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een laag naar een hoog detailniveau teruggaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau.
 
 
 
@@ -434,24 +435,25 @@ Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan
 
 Ontwerpprincipe: 
 
-**De kwaliteit van de objecten en de bijbehorende gegevens worden in die mate geborgd dat geautomatiseerde generalisatie probleemloos kan verlopen**
+**De kwaliteit van de objecten en de bijbehorende gegevens wordt in die mate geborgd dat geautomatiseerde generalisatie probleemloos kan verlopen**
 
 Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie extra handwerk nodig is om het gewenste resultaat te bereiken. 
 
 Hiermee wordt concreet bedoeld:
--	Dataobjecten moeten op het basisniveau landelijk uniform en homogeen en aaneensluitend zijn 
--	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hiervoor één consistent systeem voor zijn en ook de implementatie moet consistent zijn
+-	Dataobjecten moeten op het basisniveau landelijk uniform, homogeen en aaneensluitend zijn 
+-	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hiervoor één consistent systeem zijn en ook de implementatie moet consistent zijn
 -	Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken
 
 
 **Terugmeldingen op gegeneraliseerde objecten**
 
-Omdat gegeneraliseerde objecten geen deel uit zullen maken, wordt hier vast voor deze groep een aandachtspunt gegeven:
-Er kunnen wel terugmeldingen zijn op gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateerd wordt dat 
-- Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders van de onderliggende data
-- of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken dataobjecten uit de SOR
+Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, wordt hier vast voor deze groep een aandachtspunt gegeven:
 
-Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een eindgebruiker ziet de producten en moet op basis daarvan een terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, want dat is mogelijk helemaal niet aan de orde en dan zouden objecten op het hoogste detailniveau onnodig belast worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap. 
+Er kunnen wel terugmeldingen zijn op gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden, waarbij geconstateerd wordt: 
+- of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders van de onderliggende data;
+- of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken dataobjecten uit de SOR.
+
+Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een eindgebruiker ziet de producten en moet op basis daarvan een terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, omdat de terugmelding de aggregatie zou kunnen betreffen, en objecten op het hoogste detailniveau niet onnodig belast moeten worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap. 
 
 
 
@@ -461,14 +463,21 @@ Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een ei
 ### Meta-informatie en bronverwijzing
 
 #### Relevante aspecten meta-informatie
-Mata-informatie is een breed begrip dat door Wikipedia als volgt wordt omschreven: "Meta-informatie bevat alle informatie die ertoe bijdraagt gegevens tot informatie te verheffen. Anders gezegd: omdat meta-informatie gegevens in een bepaalde context zet, is meta-informatie de factor die gegevens tot informatie verheft.
+Mata-informatie is een breed begrip dat door Wikipedia als volgt wordt omschreven: 
+
+"Meta-informatie bevat alle informatie die ertoe bijdraagt gegevens tot informatie te verheffen. Anders gezegd: omdat meta-informatie gegevens in een bepaalde context zet, is meta-informatie de factor die gegevens tot informatie verheft.
 Onder meta-informatie kan zowel de expliciet beschrijvende als de impliciet aanwezige informatie over structuur, betekenis, onderlinge relaties, locatie, status, eigenaarschap, enz. van gegevens worden verstaan. Ook alle informatie over de applicaties en processen die de gegevens manipuleren, valt onder de noemer meta-informatie."
+
 In dit document kijken we met name naar dat deel van de meta-informatie die inhoudelijk van belang is voor gebruikers van de gegevens uit de objectenregistratie en voor de bijhouding van de gegevens door bronhouders.
+
 Immers meta-informatie is essentieel voor de gebruiker van gegevens om te beoordelen of het gegeven in de objectenregistratie geschikt is voor het doel waarvoor de gegevens gebruikt worden. Een oppervlakte van een woning die 25 jaar geleden voor het laatst gecontroleerd is, kan geschikt zijn voor het bepalen van een algemeen kengetal over de totale omvang van de woningvoorraad in een gemeente, maar is ongeschikt voor het opleggen van een belastingaanslag aan de eigenaar van die woning.
+
 Aan de andere kant is meta-informatie essentieel voor de bronhouders van de gegevens, omdat ze de noodzakelijke stuurinformatie bieden over de wijze waarop invulling wordt gegeven aan die verantwoordelijkheid en over de werkzaamheden die de komende periode gedaan moeten worden. Metagegevens zijn voor de bronhouders van betekenis voor beheersing van hun bijhoudingsproces. Ook deze aspecten gericht op de bijhoudingsprocessen maken een inherent onderdeel uit van de objectenregistratie.
-Alle meta-informatie die niet de inhoud van de gegevens betreft, laten we in dit document buiten beschouwing. Dat gedeelte van de meta-informatie is niet relevant voor het uitwerken van het informatiemodel voor de SOR. De niet-inhoudelijke aspecten van de meta-informatie worden opgepakt in het kader van de architectuur en de uitwerking daarvan. Bijvoorbeeld praktische aspecten omtrent beschikbaarheid, inclusief aandachtspunten als kosten, technische specificaties voor bevraging en ander services, url of andere toegangsinformatie.
+
+Alle meta-informatie die niet de inhoud van de gegevens betreft, laten we in dit document buiten beschouwing. Dat gedeelte van de meta-informatie is niet relevant voor het uitwerken van het informatiemodel voor de SOR. De niet-inhoudelijke aspecten van de meta-informatie worden opgepakt in het kader van de architectuur en de uitwerking daarvan. Bijvoorbeeld praktische aspecten omtrent beschikbaarheid, inclusief aandachtspunten als kosten, technische specificaties voor bevraging en ander services, URL of andere toegangsinformatie.
+
 De voor de bronhouders en gebruikers van de SOR relevante inhoudelijke meta-informatie wordt in de context van dit document onderverdeeld in de volgende aspecten:
--	Definities (op niveau van objecten en attributen)
+-	Definities (op niveau van objecttypen en attribuuttypen)
 -	Tijdsaspecten (historie en levensfase)
 -	Bronverwijzing
 -	Autorisatie
@@ -482,7 +491,7 @@ De voor de bronhouders en gebruikers van de SOR relevante inhoudelijke meta-info
 > Mist u meta-informatie die naar uw mening relevant is om in de SOR op te nemen? Welke meta-informatie is dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
 >
 
-1.	De formele definitie van objecten (objecttypen) en eigenschappen (attribuuttypen) die worden geregistreerd in de SOR moet voor bronhouder en gebruiker helder aangeven wat de betekenis is van een bepaald gegeven, maar ook over welke reële objecten bijvoorbeeld wel en welke niet geregistreerd worden in de SOR.
+1.	De formele definitie van objecten (objecttypen) en eigenschappen (attribuuttypen) die worden geregistreerd in de SOR moet voor bronhouder en gebruiker helder aangeven wat de betekenis is van een bepaald gegeven, maar ook duidelijk maken welke reële objecten bijvoorbeeld wel en welke niet geregistreerd worden in de SOR.
 
 2.	Alle meta-informatie die een tijdsaspect heeft (historie, levensfase) komt in de volgende paragraaf van dit document afzonderlijk aan de orde.
 
@@ -502,9 +511,9 @@ De gewenste controlefrequentie kan sterk verschillen per objecttype/attribuuttyp
 
 6.	De meta-informatie over de precisie en betrouwbaarheid van de gegevens worden breed gezien als de belangrijkste metagegevens. Er bestaat echter nog geen gezamenlijk beeld hoe deze precisie en betrouwbaarheid objectief en kwantitatief op een doelmatige wijze bepaald en geregistreerd kan worden.
 
-Tot de gewenste meta-informatie hoort in ieder geval wijze van inwinning (controle) en controledatum die wel eenvoudig geregistreerd kunnen worden. Voor het vastleggen van de precisie van gegevens (met name geometrie) lijkt het vastleggen van de bereikte precisie in de vorm van een klasse van nauwkeurigheid een haalbare optie. De geometrie van een zandweg valt dan in een minder nauwkeurige klasse dan de geometrie van een pand. De zorgen over de uitvoerbaarheid van het bijhouden van deze meta-informatie zullen moeten worden weggenomen door de functionaliteit van de bijhoudingssoftware. De bijhoudingssystemen zouden dan bijvoorbeeld in één keer voor alle objecten in een gecontroleerd gebied deze metagegevens moeten kunnen registreren. Het vastleggen van een controledatum, verhoogt de betrouwbaarheid, ook al is er aan de vastlegging van het object niets gewijzigd. Je laat daarmee zien aan de gebruikers dat de waarde van een gegeven nog steeds actueel is en een (aangrenzende) bronhouder in dat gebied kan zien dat object al bekeken is. 
+Tot de gewenste meta-informatie hoort in ieder geval wijze van inwinning (controle) en controledatum die wel eenvoudig geregistreerd kunnen worden. Voor het vastleggen van de precisie van gegevens (met name geometrie) lijkt het vastleggen van de bereikte precisie in de vorm van een klasse van nauwkeurigheid een haalbare optie. De geometrie van een zandweg valt dan in een minder nauwkeurige klasse dan de geometrie van een pand. De zorgen over de uitvoerbaarheid van het bijhouden van deze meta-informatie zullen moeten worden weggenomen door de functionaliteit van de bijhoudingssoftware. De bijhoudingssystemen zouden dan bijvoorbeeld in één keer voor alle objecten in een gecontroleerd gebied deze metagegevens moeten kunnen registreren. Het vastleggen van een controledatum verhoogt de betrouwbaarheid, ook al is er aan de vastlegging van het object niets gewijzigd. Je laat daarmee zien aan de gebruikers dat de waarde van een gegeven nog steeds actueel is en een (aangrenzende) bronhouder in dat gebied kan zien dat een object al bekeken is. 
 
-7.	Meta-informatie over de status van de gegevens is bijvoorbeeld om te beoordelen of een (overheids-) gebruikers van de registratie verplicht is de desbetreffende gegevens te gebruiken. Bijvoorbeeld wanneer een attribuut de status "inOnderzoek" heeft vervalt de gebruiksplicht. Daarnaast zal de SOR bestaan uit verplichte inhoud en optionele inhoud. De status "optioneel" zal dan ook betekenen dat het gebruiken van die gegevens niet verplicht is.
+7.	Meta-informatie over de status van de gegevens is bijvoorbeeld bedoeld om te beoordelen of een (overheids-) gebruiker van de registratie verplicht is de desbetreffende gegevens te gebruiken. Bijvoorbeeld wanneer een attribuut de status "inOnderzoek" heeft vervalt de gebruiksplicht. Daarnaast zal de SOR bestaan uit verplichte inhoud en optionele inhoud. De status "optioneel" zal dan ook betekenen dat het gebruiken van die gegevens niet verplicht is.
 
 De status "inOnderzoek" is inmiddels binnen de basisregistraties voldoende bekend. Deze status hangt samen met formele terugmeldingen door gebruikers. Daarnaast valt te overwegen om op een vergelijkbare manier een status te kunnen aangeven voor "inBewerking" (bijvoorbeeld wanneer de gemeente zelf met de inmeting van een gegeven bezig is), voor "inDiscussie" (bij bijvoorbeeld een metingsverschil tussen twee aangrenzende bronhouders), "reactieBelanghebbende" (wanneer in het kader van "Regie op gegevens" een betrokkene suggesties heeft gedaan voor aanpassingen).
 
@@ -517,7 +526,7 @@ Ontwerpprincipe
 
 **De metagegevens per objecttype en per attribuuttype vormen een integraal onderdeel van de SOR**
 
-Om recht te doen aan dit Ontwerpprincipe zodat deze metagegevens net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken" is het belangrijk dat de specificaties van dit informatiemodel optimaal ontsloten zijn en direct gerelateerd zijn aan de registratie zelf.
+Om te bereiken dat deze metagegevens net zo toegankelijk zijn als de gegevensverzameling zelf en er virtueel één geheel mee vormen, zodat bijvoorbeeld de kwaliteit van de data soepel en geautomatiseerd zonder extra handelingen met de normkwaliteit kan worden vergeleken, is het belangrijk dat de specificaties van dit informatiemodel optimaal ontsloten zijn en direct gerelateerd zijn aan de registratie zelf.
 
 **Per objecttype** wordt in het informatiemodel de volgende meta-informatie vastgelegd:
 
@@ -538,7 +547,7 @@ Daarnaast wordt in het informatiemodel vastgelegd wie de bronhouder is voor een 
 
 -	De kwaliteitseisen per attribuuttype vormen een belangrijk deel van de specificaties van een attribuuttype binnen het informatiemodel. Voorbeelden van relevante kwaliteitseisen per attribuuttype zijn kwantitatieve eisen aan de precisie (vergelijk de eis aan de nauwkeurigheid van de gebruiksoppervlakte in de BAG); eisen aan de wijze van inwinning van het attribuut (bijvoorbeeld de eis dat de geometrie op basis van een luchtfoto ingewonnen moet worden); eisen aan de minimale controlefrequentie (bijvoorbeeld de eis dat tenminste eenmaal per vijf jaar de juistheid van de objecttypering gecontroleerd moet worden).
 
-Bij de geometrie kan sprake zijn van specifieke kwaliteitseisen die voortkomen uit de samenhang met de geometrie van andere objecten. Bijvoorbeeld de eis dat een punt valt binnen de vlakgeometrie van een gerelateerd object, of dat een vlak (naadloos) moet aansluiten op een naastgelegen vlak of moet vallen binnen een ander vlak (bijvoorbeeld de geometrie van de gemeentegrens. Deze kwaliteitseis is relevant voor bronhouders, omdat zij bij de inwinning en controle rekening kunnen houden met deze eisen. Wanneer een vlak wordt geregistreerd waarvoor een dergelijke eis geldt, wordt niet automatisch de geometrie van aangrenzende vlakken aangepast ter voorkoming van een groter aantal ongecontroleerde correcties.
+Bij de geometrie kan sprake zijn van specifieke kwaliteitseisen die voortkomen uit de samenhang met de geometrie van andere objecten. Bijvoorbeeld de eis dat een punt valt binnen de vlakgeometrie van een gerelateerd object, of dat een vlak (naadloos) moet aansluiten op een naastgelegen vlak of moet vallen binnen een ander vlak (bijvoorbeeld de geometrie van de gemeentegrens). Deze kwaliteitseis is relevant voor bronhouders, omdat zij bij de inwinning en controle rekening moeten houden met deze eisen. Wanneer een vlak wordt geregistreerd waarvoor een dergelijke eis geldt, wordt niet automatisch de geometrie van aangrenzende vlakken aangepast ter voorkoming van een groter aantal ongecontroleerde correcties.
 
 De gebruikers/afnemers mogen erop vertrouwen dat in de producten die zij ontvangen wel aan deze eisen aan samenhang tussen geometrie wordt voldaan. Dit kan betekenen dat er in de afnemersproducten wordt afgeweken van de door de bronhouder geregistreerde geometrie om bijvoorbeeld de aansluiting te realiseren.
 
@@ -547,10 +556,10 @@ De gebruikers/afnemers mogen erop vertrouwen dat in de producten die zij ontvang
 
 Naast deze meta-informatie die in het informatiemodel zelf wordt vastgelegd, specificeert het informatiemodel ook welke metagegevens per object en/of per attribuut in de registratie worden opgenomen. Deze komen hierna aan de orde.
 
-#### Registeren metagegevens per object
+#### Registreren metagegevens per object
 Per object worden de volgende metagegevens vastgelegd:
 
--	Bronverwijzing: Bij alle objecten wordt vastgelegd de wijziging op grond waarvan het betreffende object in de registratie is opgenomen (of is beëindigd) aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.).
+-	Bronverwijzing: Bij alle objecten wordt vastgelegd op grond waarvan het betreffende object in de registratie is opgenomen (of is beëindigd) aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.).
 
 Afhankelijk van de achtergrond van het opvoeren of beëindigen van een object in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 
@@ -558,7 +567,7 @@ Afhankelijk van de achtergrond van het opvoeren of beëindigen van een object in
 
 -	De metagegevens over kwaliteit en status worden in de SOR in beginsel op het niveau van de afzonderlijke attributen vastgelegd. Natuurlijk kunnen deze metagegevens betrekking hebben op alle attributen van het object (bijvoorbeeld het object met alle attributen is voor het laatst op 14-09-2020 gecontroleerd of alle attributen staan in onderzoek in verband met een terugmelding).
 
-Naast de genoemde metagegevens die gericht zijn op zowel gebruikers als bronhouders, hebben bronhouders aangegeven behoefte te hebben aan een aantekenveld op objectniveau. Dit aantekenveld is met name van belang om als bronhouder onderling aandachtspunten te kunnen uitwisselen. Dat kan zijn verschillende medewerkers van formeel dezelfde bronhouder (verschillende afdelingen van een gemeente die betrokken zijn bij het beheer van de SOR), maar ook formeel verschillende bronhouders, bijvoorbeeld bij grenslijnen tussen objecten in beheer bij ProRail en bij de gemeente.
+Naast de genoemde metagegevens die gericht zijn op zowel gebruikers als bronhouders, hebben bronhouders aangegeven behoefte te hebben aan een aantekenveld op objectniveau. Dit aantekenveld is met name van belang om als bronhouder onderling aandachtspunten te kunnen uitwisselen. Dat kan gaan om verschillende medewerkers van formeel dezelfde bronhouder (verschillende afdelingen van een gemeente die betrokken zijn bij het beheer van de SOR), maar ook formeel verschillende bronhouders, bijvoorbeeld bij grenslijnen tussen objecten in beheer bij ProRail en bij de gemeente.
 
 #### Registreren metagegevens per attribuut
 Per attribuut worden de volgende metagegevens vastgelegd:
@@ -572,7 +581,7 @@ Bij het attribuut geometrie kan ook sprake zijn van een bronverwijzing naar een 
 
 Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronhouder van geometrie, wanneer dit (vlak)geometrie betreft die (verplicht) aansluit op vlakgeometrie in beheer bij een andere bronhouder. Wanneer de bronhouder dan geometrie heeft geregistreerd die niet voldoet aan deze eisen (bijvoorbeeld de gemeente registreert een vlak buiten de contour van de gemeentegrens) kan in een geleverd product sprake zijn van een "gecorrigeerde" geometrie. Het feit dat in het geleverde product sprake is van een correctie wordt ook zichtbaar in de meta-informatie door bij de "verantwoordelijk bronhouder" aan te geven dat sprake is van een correctie door een andere bronhouder.
 	
--   Tot de basis metagegevens per attribuut op het aspect van kwaliteit behoren: wijze van inwinning (aan de hand van waardelijst) en uitvoerder inwinning, wijze en moment van controle en uitvoerder controle. Voor de geometrie wordt dit aangevuld met een aanduiding van de klasse van nauwkeurigheid van de geregistreerde geometrie.
+-   Tot de basismetagegevens per attribuut op het aspect van kwaliteit behoren: wijze van inwinning (aan de hand van waardelijst) en uitvoerder inwinning, wijze en moment van controle en uitvoerder controle. Voor de geometrie wordt dit aangevuld met een aanduiding van de klasse van nauwkeurigheid van de geregistreerde geometrie.
 
 -   De status inOnderzoek wordt per attribuut geregistreerd. Op overeenkomstige wijze wordt ook de status "inBewerking" (wanneer de bronhouder zelf gestart is met een onderzoek), en "reactieBelanghebbende" (wanneer een belanghebbende gereageerd heeft in het kader van regie op gegevens). Bij geometrie wordt in overweging gegeven een status "inDiscussie" mogelijk te maken voor gevallen waarin verschillende bronhouders een andere meetuitkomst hebben bij een gezamenlijke grenslijn tussen twee vlakken.
 
@@ -582,23 +591,23 @@ Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronh
 
 Plaatsbepalingspunten (PBP's) worden gebruikt als bron en zijn daarmee een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie). 
 Een plaatsbepalingspunt is een punt dat is ingemeten en in coördinaten bekend is en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing van reële objecten. 
-Plaatsbepalingspunten komen voor bij reële objecttypen. Objecten met de status 'gepland' hebben geen plaatsbepalingspunten. Het is niet voldoende om PBP's te beperken tot goed idealiseerbare reële objecttypen omdat van elk basisobject nagespeurd moet kunnen wordne wat de bron is en hoe de inwinning tot stand is gekomen. 
+Plaatsbepalingspunten komen voor bij reële objecttypen. Objecten met de status 'gepland' hebben geen plaatsbepalingspunten. Het is niet voldoende om PBP's te beperken tot goed idealiseerbare reële objecttypen omdat van elk basisobject nagespeurd moet kunnen worden wat de bron is en hoe de inwinning tot stand is gekomen. 
 
-Een eis daarbij is dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar de gerelateerde PBP's expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens. In de realisatie moet dit zo worden vormgegeven dat dit in de uitvoering praktisch makkelijk te hanteren is.
+Een eis daarbij is dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar de gerelateerde PBP's expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens. In de realisatie moet dit zo worden vormgegeven dat dit in de uitvoering praktisch en makkelijk te hanteren is.
 
-Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig: 
+Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is om de volgende redenen nodig: 
 - Voor gebruikers is dan expliciet bekend welk(e) PBP(’s) bij welk object hoort/horen.
 - PBP’s die niet meer tot de actuele objecten behoren kunnen worden bepaald en in downloads zonder historie worden geschrapt.
 - Alleen voor objecten die goed idealiseerbaar zijn in het terrein worden voor de coördinaten die zijn ingemeten middels inwinningsmethoden fotogrammetrisch, terrestrisch, laserscanning of panoramabeelden, plaatsbepalingspunten opgenomen. De goed idealiseerbare objecten zijn de objecten met een positionele nauwkeurigheid van tenminste 30 centimeter.
 - De ligging van elk object is gedefinieerd door geometrie. Deze is vastgelegd bij een object in de vorm van een eigenschap ‘geometrie’. Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten van de goed idealiseerbare objecten, die deel uitmaken van de verzameling van de meetkundige afbakening.
-- Bij de objecten die op de referentielaag deel uitmaken van de groepen water + begroeiing (inclusief onbegroeid) + constructies  vormen de verbindingen tussen de coördinaten meestal een grens zonder gaten tussen twee aangrenzende objecten, maar overlap is vooralsnog mogelijk
+- Bij de objecten die op de referentielaag deel uitmaken van de groepen water + begroeiing (inclusief onbegroeid) + constructies  vormen de verbindingen tussen de coördinaten meestal een grens zonder gaten tussen twee aangrenzende objecten, maar overlap is vooralsnog mogelijk.
 
 **Eisen aan plaatsbepalingspunten**
 
 - Elk plaatsbepalingspunt heeft een unieke identificatie. 
 - De ligging van elk plaatsbepalingspunt is in coördinaten bekend.
 - In de SOR moet (anders dan op dit moment in de BGT) voor de reële objecttypen een administratieve koppeling plaatsvinden van de geometrie van een object naar de desbetreffende PBP's op basis van de identificatie.
-- Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de inwinnende instantie die het heeft bepaald en de inwinningsmethode bekend. 
+- Van elke plaatsbepalingspunt zijn de nauwkeurigheid, de inwinningsdatum, de inwinnende instantie en de inwinningsmethode bekend. 
 
 
 >
@@ -612,11 +621,11 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 
 In het voorgaande is een eerste schets gegeven van het onderwerp meta-informatie in de SOR. Bij de verdere uitwerking van het informatiemodel zal daaraan nog een verdere invulling moeten worden gegeven. Een aantal te maken keuzen zijn daarbij afhankelijk van besluiten die nog moeten worden genomen over onder meer de toewijzing van verantwoordelijkheden, de omgang met brondocumenten en de concreet te stellen kwaliteitseisen. Voor de verdere uitwerking worden nog een aantal aandachtspunten meegegeven:
 
-- Meta-informatie makkelijk kunnen registreren met ondersteuning vanuit de systemen, zodat het bijvoorbeeld eenvoudig is om metagegevens over te nemen naar andere objecten (bijvoorbeeld alle gebouwen binnen een luchtfoto de status "gecontroleerd" te geven,
-- Zo effectief en efficiënt mogelijk (en daarmee voor belangrijk deel geautomatiseerd) metadata vastleggen 
+- Meta-informatie makkelijk kunnen registreren met ondersteuning vanuit de systemen, zodat het bijvoorbeeld eenvoudig is om metagegevens over te nemen naar andere objecten (bijvoorbeeld alle gebouwen binnen een luchtfoto de status "gecontroleerd" te geven.
+- Zo effectief en efficiënt mogelijk (en daarmee voor belangrijk deel geautomatiseerd) metadata vastleggen.
 - Niet onnodig muteren (met name van geometrie) – alleen het relevante object muteren en niet de aangrenzende objecten in de omgeving allemaal gelijk ook muteren. Het zorgdragen van consistentie van de geometrie is iets voor de producten. Hoe dit het best kan worden opgelost, wordt nog verschillend over gedacht.
-- Zoveel mogelijk als kan werken met domeintabellen in de metadata. Voorbeeld bij inwinning kunnen kiezen uit b.v. terrestrisch, digitalisering, constructie. fotokartering. Dit geldt ook voor "wijze van controle".
-- De ervaring uit de BAG leert dat het opvoeren van brondocumenten een zeer tijdrovende bezigheid is met de vraag of het heeft voldaan aan haar doel. Daarom wordt alleen met formele brondocumenten gewerkt als deze om andere reden al bestaan (zoals vergunningen). In andere gevallen wordt gebruik van bijvoorbeeld plaatsbepalingspunten of een luchtfoto als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
+- Zoveel mogelijk als kan werken met domeintabellen in de metadata. Voorbeeld bij inwinning kunnen kiezen uit b.v. terrestrisch, digitalisering, constructie, fotokartering. Dit geldt ook voor "wijze van controle".
+- De ervaring uit de BAG leert dat het opvoeren van brondocumenten een zeer tijdrovende bezigheid is met de vraag of het heeft voldaan aan haar doel. Daarom wordt alleen met formele brondocumenten gewerkt als deze om een andere reden al bestaan (zoals vergunningen). In andere gevallen wordt gebruik gemaakt van bijvoorbeeld plaatsbepalingspunten of een luchtfoto als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
 
 
 ### Historie
