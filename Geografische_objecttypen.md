@@ -78,7 +78,7 @@
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een streek.  |Ja |
-|Naam   |De plaatselijke naam van het streek zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
+|Naam   |De plaatselijke naam van de streek zoals deze als openbare ruimte benoemd is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
 |Alternatieve naam   | Een alternatieve benaming van een streek zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
 |Geometrie   |De geometrische representatie van de randen van een streek.  |Ja (vlak)  |
 |Status   |De fase van de levenscyclus waarin de betreffende streek zich bevindt.    |Ja   |
@@ -332,22 +332,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Verwijderd|	
 |Niet gerealiseerd|	
 |Ten onrechte|
-
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|	
-|Niet gerealiseerd|	
-|Ten onrechte|	
 
 
 ### Polder
