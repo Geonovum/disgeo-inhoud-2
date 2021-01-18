@@ -4,19 +4,11 @@
     De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
 </div>
 
->
-> Vraag in de consultatie:
->
-> Mist u bij reële objecten typen die naar uw mening relevant zijn om in de SOR op te nemen?
->
+
 
 ### Water
 
->
-> Vraag in de consultatie:
->
-> Voor welke gebruikstoepassingen wordt de nu bestaande BGT-indeling van watervlakken en waterlopen gebruikt? Is een andere indeling wenselijker? Voor welke gebruikstoepassingen?
->
+
 
 #### Watervlakte
 | Klasse  | Naam  |
@@ -44,7 +36,7 @@
 |Geometrie|De geometrische representatie van de randen van een watervlakte.  |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de watervlakte zich bevindt.   |Ja   |
 |Type watervlakte|De aanduiding van het soort watervlakte.|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 **Domeinwaarden**
@@ -102,8 +94,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   |  De fase van de levenscyclus waarin de waterloop zich bevindt.  |Ja   |
 |Type waterloop|De aanduiding van het soort waterloop.|Nee|
 |Watervoerend | De aanduiding of de waterloop wel of geen water bevat. | Ja|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
 
 
 **Domeinwaarden**
@@ -156,7 +146,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een bron. |Ja |
 |Geometrie|De geometrische representatie van de randen van een bron. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de bron zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Relaties met andere objecttypen** 
 
@@ -205,9 +194,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de randen van een getijdengebied. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het getijdengebied zich bevindt.   |Ja   |
 |Type getijdengebied|De aanduiding van het soort getijdengebied|Nee|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
-
 
 
 **Domeinwaarden**
@@ -231,27 +217,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt. |
 |schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is. |
 
->
-> Vraag in de consultatie:
->
-> In hoeverre bent u het eens met het voorstel om niet voor te schrijven welke waterlijnen worden vastgelegd?”
->
 
 
 
 ### Begroeiing
 
-
->
-> Vraag in de consultatie:
->
-> Hierna worden een aantal voorstellen gedaan waarover we in de consultatie graag uw mening horen:
-> -	Begroeiing indikken tot tot gras-en kruidachtigen (laag), struiken (midden) en bostypen (hoog)
-> - Alle typen gras die nu in de BGT worden onderscheiden (grasland overig, grasland agrarisch en groenvoorziening) bundelen tot één type “gras- en kruidachtigen”
-> - Bomen opnemen als bos, bomenrij of boom
-> - Naast geografisch gebied (heidegebied, duingebied, bosgebied) ook begroeiing (heide, duin en bos) opnemen als reëel object
->
->
 
 
 #### Bos
@@ -278,8 +248,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie| De geometrische representatie van de randen van een bos. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende bos zich bevindt.  |Ja   |
 |Type bos| De aanduiding van het soort bos.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
 
 
 **Domeinwaarden**
@@ -329,8 +297,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   | De unieke aanduiding van gras- en kruidachtigen. |Ja |
 |Geometrie| De geometrische representatie van de randen van veld met gras- en kruidachtigen. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende veld met gras- en kruidachtigen zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
 
 
 **Domeinwaarden**
@@ -373,8 +339,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   | De unieke aanduiding van struiken. |Ja |
 |Geometrie| De geometrische representatie van de randen van struiken. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende struiken zich bevinden.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
 
 
 **Domeinwaarden**
@@ -419,8 +383,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van onbegroeide grond.|Ja |
 |Geometrie| De geometrische representatie van de randen van onbegroeide grond.|Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt.  |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
 
 
 **Domeinwaarden**
@@ -443,11 +405,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Gewas
 
 
->
-> Vraag in de consultatie:
->
-> Gewas is nu opgenomen als een reëel object. Het zou ook kunnen worden opgenomen als een functioneel object. Wat vindt u daarvan? En wat zou dan de reële tegenhanger van dit functionele object moeten zijn?
->
 
 | Klasse  | Naam  |
 |---|---|
@@ -472,8 +429,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   | De unieke aanduiding van een Gewas. |Ja |
 |Geometrie| De geometrische representatie van de randen van een Gewas. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende gewas zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
 
 **Domeinwaarden**
 
@@ -516,7 +471,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie| De geometrische representatie van de randen van fruit- of kweekbomen. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende fruit- of kweekbomen zich bevinden.  |Ja   |
 |Type fruit- of kweekbomen| De aanduiding van het soort fruit- of kweekbomen.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -575,7 +529,7 @@ MOERAS
 |Identificatie   |De unieke aanduiding van een Moeras. |Ja |
 |Geometrie|De geometrische representatie van de randen van een moeras. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin het moeras zich bevindt. |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Domeinwaarden**
 
@@ -615,7 +569,7 @@ RIETLAND
 |Identificatie   |De unieke aanduiding van een Rietland. |Ja |
 |Geometrie|De geometrische representatie van de randen van een rietland. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin het rietland zich bevindt. |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Domeinwaarden**
 
@@ -655,7 +609,7 @@ HEIDE
 |Identificatie   |De unieke aanduiding van een Heide. |Ja |
 |Geometrie|De geometrische representatie van de randen van een heide. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de heide zich bevindt. |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Domeinwaarden**
 
@@ -695,7 +649,7 @@ DUIN
 |Identificatie   |De unieke aanduiding van een Duin. |Ja |
 |Geometrie|De geometrische representatie van de randen van een duin. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin het duin zich bevindt. |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Domeinwaarden**
 
@@ -743,7 +697,7 @@ BOMENRIJ
 |Identificatie   |De unieke aanduiding van een Bomenrij. |Ja |
 |Geometrie|De geometrische representatie van de randen van een bomenrij. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de bomenrij zich bevindt. |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Domeinwaarden**
 
@@ -783,7 +737,7 @@ HOUTSINGEL
 |Identificatie   |De unieke aanduiding van een Houtsingel. |Ja |
 |Geometrie|De geometrische representatie van de randen van een houtsingel. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de houtsingel zich bevindt. |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Domeinwaarden**
 
@@ -823,7 +777,7 @@ HAAG
 |Identificatie   |De unieke aanduiding van een Haag. |Ja |
 |Geometrie|De geometrische representatie van de randen van een haag. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de haag zich bevindt. |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Domeinwaarden**
 
@@ -865,7 +819,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie| De geometrische representatie van een boom.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de betreffende boom zich bevindt.   |Ja   |
 |Soortnaam| De soortnaam o.b.v. ‘Naamlijst van houtige gewassen en vaste planten’,  internationaal erkend als standaard.  | Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 
@@ -892,11 +846,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 ### Bebouwing
 
->
-> Vraag in de consultatie:
->
-> Kunt u aangeven welke statussen naar uw mening van belang zijn voor gebouw, bouwlaag, ruimte en gebouwcomponent?
->
 
 
 #### Gebouw
@@ -929,7 +878,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Oorspronkelijk bouwjaar | De aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |Status   |De fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Domeinwaarden**
 
@@ -996,7 +945,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie |De geometrische representatie van de randen van een Bouwlaag  |Ja (2,5D)|
 |Bouwlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
 |Status   |De fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -1052,7 +1001,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Oppervlakte| De gebruiksoppervlakte van de ruimte| Nee |
 |Typering|Het doel waarvoor een ruimte gebruikt wordt| Ja|
 |Status   |De fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -1096,11 +1045,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Gebouwcomponent
 
->
-> Vraag in de consultatie:
->
-> Mist u bij gebouwcomponenten nog typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welke typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
+
 
 | Klasse  | Naam  |
 |---|---|
@@ -1126,7 +1071,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Aard|Het soort gebouwcomponent|Ja |
 |Bijbehorend object |Het object waarbij de betreffende gebouwcomponent behoort|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende gebouwcomponent zich bevindt   |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -1198,7 +1143,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Gebruiksaard|De aard van gebruik van de  toegangsdeur|Ja|
 |Bijbehorend object |Het object waarin de betreffende toegangsdeur zich bevindt|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende toegangsdeur zich bevindt   |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -1240,11 +1185,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Open bouwwerk
 
->
-> Vraag in de consultatie:
->
-> Mist u bij open bouwwerken nog typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welke typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
+
 
 | Klasse  | Naam  |
 |---|---|
@@ -1269,7 +1210,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie |De geometrische representatie van de randen van een open bouwwerk   |Ja (3D)|
 |typering| Het soort open bouwwerk|
 |Status   |De fase van de levenscyclus waarin het betreffende open bouwwerk zich bevindt   |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 
 
@@ -1299,11 +1240,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 ### Verharding
 
->
-> Vraag in de consultatie:
->
-> Kunt u aangeven voor welke gebruikstoepassingen  gedetailleerdere informatie over verhardingen nodig is?
->
 
 
 | Klasse  | Naam  |
@@ -1331,7 +1267,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de randen van een verhardingsvlak. |Ja (vlak, 2.5D)|
 |Status   | De fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt.  |Ja   |
 |Type verharding|De aanduiding van het soort verharding.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -1390,8 +1325,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden.| Ja|
 | Beweegbaar |De aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
 
 
 
@@ -1457,7 +1390,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de randen van een kunstwerkdeel. .|Ja (vlak, 2.5D|
 |Status   |  De fase van de levenscyclus waarin het betreffende kunstwerkdeel zich bevindt.  |Ja   |
 |Type kunstwerkdeel| De aanduiding van het soort kunstwerkdeel.|ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -1497,10 +1430,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Ondertunneling
 
 
-> Vraag in de consultatie:
->
-> Mist u bij ondertunneling typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welkte typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
 
 
 
@@ -1531,7 +1460,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type ondertunneling| De aanduiding van het soort ondertunneling.|Ja|
 |Naam| Een breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -1568,10 +1496,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Kerende kunstwerken
 
-> Vraag in de consultatie:
->
-> Mist u bij kerende kunstwerken nog kunstwerken die naar uw mening relevant zijn om in de SOR op te nemen? Welkte kunstwerken zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
 
 | Klasse  | Naam  |
 |---|---|
@@ -1597,7 +1521,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt.  |Ja   |
 |Type kerend kunstwerk| De aanduiding van het soort kunstwerk. |Ja|
 |Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -1635,17 +1559,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | dijk|Een dijk is een aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen. |
 
 
-> Vraag in de consultatie:
->
-> Dijk is nu als een apart kerend kunstwerk opgenomen in het ontwerp. Dit wijkt af van het SOR principe van scheiding tussen fysiek en functie. Is dit wenselijk of zou dit moeten worden opgenomen als functioneel object ‘kering’?
->
 
 #### Overige kunstwerken
 
-> Vraag in de consultatie:
->
-> Mist u bij overige kunstwerken nog typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welke typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
+
 
 
 | Klasse  | Naam  |
@@ -1672,8 +1589,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Status   | De fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt.  |Ja   |
 |Type overig kunstwerk| De aanduiding van het soort kunstwerk.|Ja|
 |Naam| Een breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
-
 
 
 
@@ -1740,7 +1655,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Identificatie   |De unieke aanduiding van een muur.|Ja |
 | Geometrie|De geometrische representatie van een muur. |Ja (lijn) Nee (vlak)|
 | Status   |De fase van de levenscyclus waarin het betreffende muur zich bevindt.   |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 
@@ -1762,10 +1677,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Hek
 
-> Vraag in de consultatie:
->
-> Op dit moment zijn hek en raster apart opgenomen in het ontwerp. Is het voor gebruikstoepassingen nodig om onderscheid te maken tussen deze twee objecten? Kunt u aangeven voor welke gebruikstoepassingen het onderscheid van belang is?
->
+
 
 | Klasse  | Naam  |
 |---|---|
@@ -1791,7 +1703,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een hek.|Ja |
 |Geometrie|De geometrische representatie van een hek. |Ja (lijn)|
 |Status   | De fase van de levenscyclus waarin het betreffende hek zich bevindt.   |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -1838,7 +1749,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een raster.|Ja |
 |Geometrie|De geometrische representatie van een raster. |Ja (lijn)|
 |Status   | De fase van de levenscyclus waarin het betreffende raster zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -1884,7 +1794,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een scherm. |Ja |
 |Geometrie|De geometrische representatie van een scherm.  |Ja (lijn)|
 |Status   |De fase van de levenscyclus waarin het betreffende scherm zich bevindt.   |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -1931,12 +1840,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de locatie van bak.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de bak zich bevindt.   |Ja   |
 |Type bak|De aanduiding van het soort bak.|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
->
+
 
 **Domeinwaarden**
 
@@ -1990,12 +1895,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de ligging van de putdeksel.  |Ja (punt, lijn, vlak)|
 |Status   | De fase van de levenscyclus waarin de putdeksel zich bevindt.   |Ja   |
 |Type deksel|De aanduiding van het soort deksel |Ja|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
->
+
 
 
 **Domeinwaarden**
@@ -2051,12 +1952,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de locatie van depot.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin het depot zich bevindt.   |Ja   |
 |Type bak|De aanduiding van het soort depot|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
->
+
 
 
 **Domeinwaarden**
@@ -2107,12 +2004,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de ligging van de geleider.  |Ja (lijn, vlak)|
 |Status   |  De fase van de levenscyclus waarin de geleider zich bevindt.  |Ja   |
 |Type geleider|De aanduiding van het soort geleider|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
->
+
+
 
 
 **Domeinwaarden**
@@ -2165,7 +2059,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de ligging van de installatie of van de randen van de installatie.  |Ja (punt, lijn, vlak)|
 |Status   |  De fase van de levenscyclus waarin de installatie zich bevindt.  |Ja   |
 |Type installatie| De aanduiding van het soort installatie. |Ja|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -2174,10 +2068,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |hoort bij|gebouw|ja|
 |hoort bij|verblijfsobject|ja|
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
->
+
 
 
 
@@ -2231,12 +2122,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de ligging van de mast of van de randen van de mast.  |Ja (punt, lijn, vlak)|
 |Status   | De fase van de levenscyclus waarin de mast zich bevindt.   |Ja   |
 |Type mast|De aanduiding van het soort mast |Ja|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
->
+
 
 
 **Domeinwaarden**
@@ -2293,7 +2180,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de locatie van het straatmeubilair.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin het straatmeubilair zich bevindt.   |Ja   |
 |Type straatmeubilair|De aanduiding van het soort straatmeubilair |Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 
@@ -2305,10 +2192,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
     De onderstaande typeringen zijn vanuit de BGT overgenomen. De verwachting is dat niet alle typeringen terug zullen keren in de SOR. In de volgende fase zal worden bepaald welke typen straatmeubilair dit betreft.
 </div>
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? Kunt u aangeven welke typeringen naar uw mening behouden zouden moeten blijven en voor welke gebruikstoepassing dit is?
->
+
 
 *type straatmeubilair*
 
@@ -2376,12 +2260,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de sensor. |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de sensor zich bevindt.   |Ja   |
 |Type sensor|De aanduiding van het soort sensor|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
->
+
 
 
 **Domeinwaarden**
@@ -2435,7 +2315,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van een paal.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de paal zich bevindt.   |Ja   |
 |Type paal|De aanduiding van het soort paal|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -2489,10 +2368,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |betonning|*Een systeem van boeien en bakens, waarmee in open zee of in een vaarwater ondiepten of de aanwezigheid van gevaarlijke objecten worden aangegeven.*|
 |meerpaal|*Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd.*|
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? Kunt u aangeven welke typeringen naar uw mening behouden zouden moeten blijven en voor welke gebruikstoepassing dit is?
->
 
 *status*
 
@@ -2534,7 +2409,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van een kast.  |Ja (punt)|
 |Status   | De fase van de levenscyclus waarin de kast zich bevindt.   |Ja   |
 |Type kast|De aanduiding van het soort kast|Nee|
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -2564,11 +2438,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Verkeer| Kast ten behoeven van VRI's, verkeerstellingen en/of het meten van weers- en wegdekomstandigheden|
 |Pakketautomaat| Kast voor het ophalen en afgeven van postpakketten|
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
->
-
 
 
 #### Bunker
@@ -2596,12 +2465,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een bunker. |Ja |
 |Geometrie|De geometrische representatie van de randen van een bunker. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende bunker zich bevindt.  |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
-> Vraag in de consultatie:
->
-> Kunt u toelichten waarom u het (enigszins) oneens bent met dit voorstel? 
->
+
+
 
 
 **Domeinwaarden**
@@ -2645,7 +2511,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een onbepaald terreindeel. |Ja |
 |Geometrie|De geometrische representatie van de randen van een onbepaald terreindeel.  |Ja (vlak)|
 |Status   |De fase van de levenscyclus waarin het betreffende onbepaalde terreindeel zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 

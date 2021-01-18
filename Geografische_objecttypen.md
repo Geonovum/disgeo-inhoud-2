@@ -31,7 +31,7 @@
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als bebouwde kom is aangewezen  |Ja   |
 |Type |Het hoofdkarakter van het gebied dat de bebouwde kom vormt |Ja |
 |Status   |De fase van de levenscyclus waarin de betreffende bebouwde kom zich bevindt    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
 
 **Relaties met andere objecten**
 
@@ -82,8 +82,6 @@
 |Alternatieve naam   | Een alternatieve benaming van een streek zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
 |Geometrie   |De geometrische representatie van de randen van een streek.  |Ja (vlak)  |
 |Status   |De fase van de levenscyclus waarin de betreffende streek zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
-
 
 
 
@@ -129,8 +127,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Alternatieve naam   | Een alternatieve benaming van een bosgebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
 |Geometrie   |De geometrische representatie van de randen van het bosgebied.  |Ja (vlak)  |
 |Status   |De fase van de levenscyclus waarin het betreffende bosgebied zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
-
 
 
 
@@ -176,7 +172,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Alternatieve naam   | Een alternatieve benaming van een duingebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
 |Geometrie   |De geometrische representatie van de randen van het duingebied.  |Ja (vlak)  |
 |Status   |De fase van de levenscyclus waarin het betreffende duingebied zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 
 
@@ -225,7 +220,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Alternatieve naam   | Een alternatieve benaming van een heidegebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
 |Geometrie   |De geometrische representatie van de randen van het heidegebied.  |Ja (vlak)  |
 |Status   |De fase van de levenscyclus waarin het betreffende heidegebied zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 
 
@@ -269,7 +263,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Alternatieve naam   | Een alternatieve benaming van een watergebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
 |Geometrie   |De geometrische representatie van de randen van het watergebied.  |Ja (vlak)  |
 |Status   |De fase van de levenscyclus waarin het betreffende watergebied zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 
 
@@ -314,7 +307,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Alternatieve naam   | Een alternatieve benaming van een eiland zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
 |Geometrie   |De geometrische representatie van de randen van het eiland.  |Ja (vlak)  |
 |Status   |De fase van de levenscyclus waarin het betreffende eiland zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 
 
@@ -375,7 +367,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Alternatieve naam   | Een alternatieve benaming van een polder zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
 |Geometrie   |De geometrische representatie van de randen van een polder.  |Ja (vlak)  |
 |Status   |De fase van de levenscyclus waarin de betreffende polder zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 
 
@@ -422,7 +413,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   | De unieke aanduiding van strand. |Ja |
 |Geometrie| De geometrische representatie van de randen van een strand. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het betreffende strand zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -468,7 +458,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   | De unieke aanduiding van zandverstuiving. |Ja |
 |Geometrie| De geometrische representatie van de randen van een zandverstuiving. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende zandverstuiving zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -522,7 +511,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie   |De geometrische representatie van de randen van het gebied dat reliëf bekend is.  |Ja (punt,vlak)  |
 |Type |Het hoofdkarakter van het reliëf. |Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende reliëf zich bevindt.    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
 
 
 

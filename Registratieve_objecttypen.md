@@ -1,10 +1,7 @@
 ## Registratieve objecttypen
 
 
-> Vraag in de consultatie:
->
-> Mist u bij de registratieve objecttypen nog typen die naar uw mening relevant zijn om in de SOR op te nemen? Welke registratieve objecttypen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
+
 
 ### Bestuurlijke gebieden
 
@@ -41,7 +38,7 @@
 |Geometrie| De geometrische representatie van de randen van het gebied dat als Rijk is benoemd. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het Rijk zich bevindt.  |Ja   |
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 **Domeinwaarden**
@@ -87,7 +84,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Provincienaam|	De naam van een provincie zoals formeel benoemd door het bevoegd gezag.|Ja   |
 |Geometrie| De geometrische representatie van de randen van het gebied dat als Provincie is benoemd. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de Provincie zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 
@@ -127,10 +124,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Toelichting|In een latere fase moet nog worden bepaald welke gebiedsbegrenzing wordt vastgelegd (de administratieve gebiedsbegrenzing of het reglementsgebied). |
 
 
-> Vraag in de consultatie:
->
-> Gekozen kan worden voor de administratieve gebiedsbegrenzing of het reglementsgebied. Welke van deze begrenzingen moet volgens u gevolgd worden? Kunt u aangeven waarom deze begrenzing gevolgd zou moeten worden? Voor welke gebruikstoepassingen worden deze begrenzing gebruikt?
->
+
 
 
 **Eigenschappen**
@@ -142,7 +136,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waterschapsnaam|	De naam van een waterschap zoals formeel benoemd door het bevoegd gezag.|Ja   |
 |Geometrie| De geometrische representatie van de randen van het gebied dat als waterschap is benoemd. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin het waterschap zich bevindt.  |Ja   |
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 
@@ -189,7 +183,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie| De geometrische representatie van de randen van het gebied dat als gemeente is benoemd. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de gemeente zich bevindt.  |Ja   |
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -237,7 +231,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse territoriale zee is benoemd. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt.  |Ja   |
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 
@@ -281,7 +275,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse aansluitende zone is benoemd. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt.  |Ja   |
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 
@@ -330,7 +324,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse exclusieve economische zone is benoemd. |Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt.  |Ja   |
 | Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
-| Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 
@@ -378,7 +372,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 |Alternatieve naam | Een alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)| Nee |
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als Woonplaats is benoemd   |Ja   |
 |Status   |De fase van de levenscyclus waarin de betreffende Woonplaats zich bevindt    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 **Relaties met andere objecttypen** 
@@ -424,7 +418,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 |Wijknaam   |De naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit   |Ja   |
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als wijk is benoemd   |Ja   |
 |Status   |De fase van de levenscyclus waarin de betreffende wijk zich bevindt    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
 
 
 **Relaties met andere objecttypen** 
@@ -475,7 +469,7 @@ ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land
 |Buurtnaam   |De naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit    |Ja   |
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als buurt is benoemd    |Ja   |
 |Status   |De fase van de levenscyclus waarin de betreffende buurt zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -526,7 +520,7 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 |Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Nee|
 |Geometrie   |De geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  | Nee  |
 |Status   |De fase van de levenscyclus waarin de betreffende openbare ruimte zich bevindt    |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -591,7 +585,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Postcode | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer|Ja|
 |Type object | De aard van het object waaraan een nummeraanduiding is toegekend| Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende Nummeraanduiding zich bevindt    |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -642,7 +636,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 |Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde ruimte is benoemd. |Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende Benoemde plaats zich bevindt    |Ja   |
 |Type benoemde plaats| De aard van het object op de benoemde plaats|Ja|
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   |*ja*   |
+
 
 
 

@@ -1,18 +1,9 @@
 ## Functionele objecttypen
 
-> Vraag in de consultatie:
->
-> Mist u bij functionele objecttypen die naar uw mening relevant zijn om in de SOR op te nemen? Welke functionele objecten zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
 
 
 
 ### Transportvoorzieningen
-
-> Vraag in de consultatie:
->
-> Zijn bermen (of zelfs de verschillende soorten bermen) belangrijk genoeg om op te nemen in het wegennetwerk? Of is het voldoende om bermen te relateren aan het wegennetwerk?
->
 
 
 
@@ -44,7 +35,7 @@
 |Type verkeersgebied|Een deel van de weg met een specifieke functie om van richting te veranderen of de reis te beginnen/eindigen.|Ja|
 |Hoofdverkeersgebruik|Hoofdverkeersgebruik is het meest voorkomende verkeer dat zich over de knoop verplaatst.|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 
 **Relaties met andere objecttypen** 
@@ -78,12 +69,6 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Fietsers, bromfietsers	|Bestuurders die met een fiets of bromfiets aan het verkeer deelnemen.|
 |Voetgangers|	Een persoon die te voet deelneemt aan het verkeer.|
 |Ruiters|	Bestuurder van een paard of pony. |
-
-
-> Vraag in de consultatie:
->
-> Het wegennetwerk heeft als eigenschap hoofdverkeersgebruik. De beschrijving van hoofdverkeersgebruik “snelverkeer” is inclusief vrachtverkeer. Is vrachtverkeer gewenst als apart hoofdverkeersgebruik?”
->
 
 
 
@@ -135,7 +120,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Openbare weg|Weg die door iedereen gebruikt kan worden. | Ja|
 |Verkeerskundig kenmerk| Een mogelijk geldende beperking/waarschuwing voor weggebruikers op een deel van de wegverbinding.| Ja (LR) (MV)|
 |Status   |De fase van de levenscyclus waarin de betreffende wegverbinding zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 
 
@@ -259,11 +244,6 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Nee||
 
 
-> Vraag in de consultatie:
->
-> Aan welke aanvullende gegevens over wegen heeft uw organisatie behoefte?
->
-
 
 *status*
 
@@ -310,7 +290,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een Knoop.  |Ja |
 |Geometrie |De geometrische representatie van een knoop. |Ja (punt), Nee (vlak)|
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -362,7 +342,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een Spoorverbinding.  |Ja |
 |Geometrie |De geometrische representatie van een spoorverbinding.  |Ja (lijn), Nee (vlak)|
 |Status   |De fase van de levenscyclus waarin de betreffende spoorverbinding zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -422,7 +402,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een Knoop.  |Ja |
 |Geometrie |De geometrische representatie van een knoop. |Ja (punt), Nee (vlak)|
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -474,7 +454,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een vaarwegverbinding.  |Ja |
 |Geometrie |De geometrische representatie van een vaarwegverbinding.  |Ja (lijn), Nee (vlak)|
 |Status   |De fase van de levenscyclus waarin de betreffende vaarwegverbinding zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -532,7 +512,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een Knoop.  |Ja |
 |Geometrie |De geometrische representatie van een knoop. |Ja (punt), Nee (vlak)|
 |Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -584,7 +564,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van een waterverbinding.  |Ja |
 |Geometrie |De geometrische representatie van een waterverbinding.  |Ja (lijn), Nee (vlak)|
 |Status   |De fase van de levenscyclus waarin de betreffende waterverbinding zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -641,7 +621,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Feitelijk gebruik|Een categorisering van het feitelijke gebruik dat van het betreffende verblijfsobject wordt gemaakt|Ja|
 |Gebruiksoppervlakte|De gebruiksoppervlakte van een verblijfsobject |
 |Status   |De fase van de levenscyclus waarin het betreffende verblijfsobject zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -768,7 +748,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Gebruiksopppervlakte|De gebruiksoppervlakte van een gebouwzone|Ja|
 |Kwaliteitsindicatie|Een aanduiding van de kwalitatieve staat waarin de gebouwzone zich bevindt|NTB|
 |Status   |De fase van de levenscyclus waarin de betreffende Gebouwzone zich bevindt   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -799,10 +779,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |verkeersruimte | | 
 |technische ruimte | | 
 
-> Vraag in de consultatie:
->
-> Mist u bij de gebouwzone nog typeringen die naar uw mening relevant zijn om in de SOR op te nemen? Welke typeringen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
+
 
 | Waarde Aard| Beschrijving   |
 |---|---|
@@ -870,7 +847,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type| Een categorisering van de verschillende verkeerskundig functionele zones.| Ja|
 |Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt.   |Ja  |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -897,10 +874,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Snellaadstation |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd. |
 | Zone |  Verkeerskundige afbakening van een gebied. |
 
-> Vraag in de consultatie:
->
-> Inritten in de BGT variëren van een verlaagde band tot een toegangsweg naar een afgelegen gebouw. Kunt u aangeven welke inritten van belang zijn en voor welke gebruikstoepassingen zouden deze moeten worden opgenomen?
->
 
 
 *status*
@@ -941,7 +914,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type| Een categorisering van verschillende soorten spoorzones. |Ja|
 |Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -1001,7 +974,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie |De geometrische representatie van de randen van een wegzone.  |Ja (vlak) |
 |Type | Een categorisering van verschillende soorten wegzones. | Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt.  |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Relaties met andere objecttypen** 
 
@@ -1063,7 +1036,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type| Een categorisering van soort luchtvaartzone. | Ja|
 |Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt.   |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Domeinwaarden**
 
@@ -1110,7 +1083,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van Begraafplaats. |Ja |
 |Geometrie|De geometrische representatie van de randen van een begraafplaats. |Ja (vlak)|
 |Status   |  De fase van de levenscyclus waarin de begraafplaats zich bevindt. |Ja   |
-|Overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Domeinwaarden**
 
@@ -1151,7 +1124,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Type|Een categorisering van de verschillende soorten recreatie.|Nee| 
 |Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie zoals bronverwijzing en historiemodel*   |*ja*   |
+
 
 **Domeinwaarden**
 
@@ -1204,7 +1177,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van oever.|Ja |
 |Geometrie|De geometrische representatie van de randen van de oever.|Ja (vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende oever zich bevindt.  |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 
 
@@ -1248,7 +1221,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Type complex|Een categorisering van de verschillende complexen. |ja|
 |Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.| Nee |
 |Status   | De fase van de levenscyclus waarin de betreffende complex zich bevindt.  |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -1309,7 +1281,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de kerende voorziening.|Ja (lijn, vlak)|
 |Type kering|Een categorisering van de verschillende type keringen.|Ja|
 |Status   | De fase van de levenscyclus waarin de kerende voorziening zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Domeinwaarden**
 
@@ -1362,7 +1333,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Geometrie|De geometrische representatie van de reducerende voorziening.|Ja (lijn)|
 |Type reducering|Een categorisering van de verschillende type reducering.| Ja|
 |Status   | De fase van de levenscyclus waarin de reducerende voorziening zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 **Domeinwaarden**
 
@@ -1388,10 +1358,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Valbescherming
 
-> Vraag in de consultatie:
->
-> Valbescherming is nu als een aparte functie opgenomen in het ontwerp als gevolg van de scheiding tussen fysiek en functie. Een andere optie (pragmatisch) is om valbescherming als een eigenschap bij bijvoorbeeld een hek of een muur op te nemen. Waar gaat uw voorkeur naar uit?
->
+
 
 | Klasse  | Naam  |
 |---|---|
@@ -1417,7 +1384,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van valbescherming.|Ja |
 |Geometrie|De geometrische representatie de valbescherming.|Ja (lijn)|
 |Status   |  De fase van de levenscyclus waarin de valbescherming zich bevindt.  |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
 
 
 
@@ -1461,7 +1427,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Identificatie   |De unieke aanduiding van afscheiding. |Ja |
 |Geometrie|De geometrische representatie van de afscheiding.|Ja (lijn)|
 |Status   | De fase van de levenscyclus waarin de afscheiding zich bevindt.   |Ja   |
-|overige metagegevens   |*later uitwerken op basis van kaderuitwerking meta-informatie*   | *ja*   |
+
 
 **Domeinwaarden**
 
