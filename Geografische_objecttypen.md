@@ -8,27 +8,27 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Definitie**
 
-| Naam  | Bebouwde kom  |
+| Naam  | Bebouwde kern  |
 |---|---|
-| Definitie |Geografisce ruimte gekenmerkt door een concentratie van gebouwen gebruikt voor wonen en werken  |
+| Definitie |Geografische ruimte die gekenmerkt wordt door een concentratie van gebouwen   |
 |Herkomst definitie  | Gebaseerd op definitie Plaats in BRT  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Bebouwde kom is op dit moment nog geen onderdeel van een basisregistratie. Wel zijn in de BRT plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. Door de opname van bebouwde kom in de objectenregistratie ontstaat een formele vastlegging van een algemeen bruikbare bebouwde kom.  |
-|Toelichting| De hier beschreven algemeen toepasbare bebouwde kom (zonder juridische status) moet niet worden verward met enkele andere bestaande definities van bebouwde kom (die wel een juridische grondslag kennen in specifieke wetgeving). Hierbij kan worden gedacht aan de bebouwde kom in het kader van Wegenverkeerswet, Wegenwet, Wet natuurbescherming en Omgevingswet. De diversiteit in achterliggende doelstellingen van genoemde wetgeving maakt het op dit moment niet mogelijk te komen tot één uniforme definitie van bebouwde kom.   |
+|Gevolgen afbakening  | In de BRT zijn al plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. De plaatsen worden in de vorm van bebouwde kernen ook opgenomen in de objectenregistratie.   |
+|Toelichting| Met bebouwde kernen kan een algemeen toepasbaar onderscheid worden aangebracht tussen bebouwd gebied en het buitengebied. Tot het buitengebied kan dan worden gerekend al het gebied dat niet behoort tot een bebouwde kern, De bebouwde kern (zonder juridische status) moet niet worden verward met bebouwde kommen (die wel een juridische grondslag kennen in specifieke wetgeving). Hierbij kan worden gedacht aan de bebouwde kom in het kader van Wegenverkeerswet, Wegenwet, Wet natuurbescherming en Omgevingswet. De diversiteit in achterliggende doelstellingen van genoemde wetgeving maakt het op dit moment niet mogelijk te komen tot één uniform en breed bruikbaar begrip bebouwde kom. |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een bebouwde kom  |Ja |
-|Naam   |De plaatselijke naam van de bebouwde kom zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
-|Alternatieve naam   | Een alternatieve benaming van een bebouwde kom zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als bebouwde kom is aangewezen  |Ja   |
-|Type |Het hoofdkarakter van het gebied dat de bebouwde kom vormt |Ja |
-|Status   |De fase van de levenscyclus waarin de betreffende bebouwde kom zich bevindt    |Ja   |
+|Identificatie   |De unieke aanduiding van een bebouwde kern  |Ja |
+|Naam   |De plaatselijke naam van de bebouwde kern zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
+|Alternatieve naam   | Een alternatieve benaming van een bebouwde kern zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
+|Geometrie   |De geometrische representatie van de randen van een bebouwde kern   |Ja   |
+|Type |Het hoofdkarakter van het gebied dat een bebouwde kern vormt |Ja |
+|Status   |De fase van de levenscyclus waarin een bebouwde kern zich bevindt    |Ja   |
 
 
-**Relaties met andere objecten**
+**Relaties met andere objecttypen**
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
@@ -38,19 +38,26 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Waarde  | Beschrijving Type  |
 |---|---|
-|Woonkern  | Bebouwingskern met hoofdzakelijk een woonfunctie    |
-|Industriekern  |Bebouwingskern met hoofdzakelijk een bedrijfsmatige functie voorzien van openbare wegen   |
-|Recreatiekern  |Bebouwingskern met hoofdzakelijk een (verblijfs)recreatieve functie |
-|Gehucht  |Kleine bebouwingskern of concentratie van aaneengesloten bebouwing, niet zijnde lintbebouwing   |
-|Buurtschap  |Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang  |
-|deelkern  |Historische bebouwingskern, ruimtelijk te onderscheiden van de omliggende bebouwing, gelegen binnen een andere bebouwde kom     |
+|Woonkern  | Van openbare wegen voorziene bebouwde kern dat voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen
+   |
+|Industriekern  |Van openbare wegen voorziene bebouwde kern dat voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten
+  |
+|Recreatiekern  |bebouwde kern dat voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor (verblijfs)recreatie
+ |
+|Gehucht  |Kleine bebouwde kern die bestaat uit een concentratie van aaneengesloten bebouwing,    |
+|Buurtschap  |Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang die gezamenlijk een bebouwde kern vormen |
+|deelkern  |Ruimtelijk van omliggende bebouwing te onderscheiden historische bebouwde kern, die is gelegen binnen een andere bebouwde kern   |
 
 *status*
 
 | Waarde  | Beschrijving Status  |
 |---|---|
-| Aangewezen| Bebouwde kom is in gebruik |
-| Ingetrokken | Bebouwde kom wordt niet langer als zodanig onderscheiden|
+|Gepland | Een object waarvan de vorming wordt voorbereid|
+|Bestaand | Een object dat als zodanig wordt onderscheiden|
+|Verwijderd | Een object dat niet langer als zodanig wordt aangemerkt|
+|Niet gerealiseerd | Een gepland object dat niet als zodanig is gerealiseerd|
+|Ten onrechte | Een object dat ten onrechte is opgevoerd in de registratie|
+
 
 ### Streek
 
