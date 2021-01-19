@@ -1,7 +1,7 @@
 ## Registratieve objecttypen
 
 
-
+ 
 
 ### Bestuurlijke gebieden
 

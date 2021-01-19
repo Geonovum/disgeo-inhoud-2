@@ -1,5 +1,5 @@
 ## Generieke onderwerpen
-
+ 
 ### Identificatie van objecten
 Deze paragraaf beschrijft de algemene Ontwerpprincipes en uitgangspunten die betrekking hebben op identificatie van objecten.
 

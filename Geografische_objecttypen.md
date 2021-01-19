@@ -1,6 +1,6 @@
 ## Geografische objecttypen
 
-
+ 
 
 ### Bebouwde kern
 
