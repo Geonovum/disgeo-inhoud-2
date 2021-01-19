@@ -67,11 +67,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Streek  |
 |---|---|
-| Definitie |Landstreek, gebied dat cultureel of landschappelijk een eenheid vormt (streek). / Het open land buiten steden en dorpen (veld). |
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+| Definitie |Geografische ruimte die cultureel of landschappelijk een eenheid vormt  / Het open land buiten steden en dorpen (veld). |
+|Herkomst definitie  | Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Streek* zoals deze is opgenomen in de basisregistratie topografie.  |
-|Toelichting|   |
+|Toelichting| Onder deze landstreek valt ook het open land buiten steden en dorpen (veld).  |
 
 **Eigenschappen**
 
@@ -110,7 +110,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Bosgebied  |
 |---|---|
-| Definitie | Met bos begroeid gebied.|
+| Definitie | Geografsiche ruimte die met bos begroeid is.|
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *bosgebied* zoals deze is opgenomen in de basisregistratie topografie.  |
@@ -153,7 +153,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Duingebied  |
 |---|---|
-| Definitie |Heuvels van fijn zand, al dan niet begroeid met helmgras en struiken. |
+| Definitie |Geografische ruimte die heuvels van fijn zand betreffen, al dan niet begroeid met helmgras en struiken. |
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *duingebied* zoals deze is opgenomen in de basisregistratie topografie.  |
@@ -199,7 +199,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Heidegebied  |
 |---|---|
-| Definitie | Met heide begroeid gebied.|
+| Definitie | Geografische ruimte die overwegend met heide begroeid is.|
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *heidegebied* zoals deze is opgenomen in de basisregistratie topografie.  |
@@ -240,7 +240,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Watergebied  |
 |---|---|
-| Definitie |Een met water bedekt gebied.|
+| Definitie |Geografische ruimte die overwegend met water bedekt is.|
 |Herkomst definitie  | Nieuw |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *watergebied* zoals deze is opgenomen in de basisregistratie topografie.  |
@@ -282,7 +282,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Eiland  |
 |---|---|
-| Definitie | Land, omgeven door water.|
+| Definitie | Geografische ruimte die omgeven is door water.|
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *eiland* zoals deze is opgenomen in de basisregistratie topografie.  |
@@ -340,7 +340,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Polder  |
 |---|---|
-| Definitie |Door waterscheidingen begrensd stuk land of gebied waarin de waterstand kan worden beheerst door bemaling. |
+| Definitie |Geografische ruimte die door waterscheidingen begrensd is of waarin de waterstand kan worden beheerst door bemaling. |
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Polder* zoals deze is opgenomen in de basisregistratie topografie.  |
@@ -386,7 +386,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Strand |
 |---|---|
-| Definitie | Onbegroeide zandige kustvlakte op de overgang van zee met land. Staat onder invloed van het zeewater en de wind. |
+| Definitie | Geografische ruimte die een onbegroeide zandige kustvlakte op de overgang van zee met land is en onder invloed staat van het zeewater en de wind. |
 |Herkomst definitie  | IMGeo 2.2|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *strand en strandwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -429,7 +429,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Zandverstuiving |
 |---|---|
-| Definitie | Een gebied met zandige bodem waarvan delen van het gebied zonder vegetatie zijn, door invloed van wind. |
+| Definitie | Geografische ruimte die een zandige bodem is waarvan delen van het gebied zonder vegetatie zijn, door invloed van wind. |
 |Herkomst definitie  | IMGeo 2.2|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *zandverstuiving* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -471,7 +471,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Reliëf  |
 |---|---|
-| Definitie | Object dat tot doel heeft hoogteverschillen in het landschap te representeren. |
+| Definitie | Geografische ruimte die tot doel heeft hoogteverschillen in het landschap te representeren. |
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1) |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *reliëf* zoals deze is opgenomen in de basisregistratie  topografie.  |
