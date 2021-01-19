@@ -17,15 +17,15 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Rijk |
 |---|---|
-| Definitie | Registratieve ruimte die het grondgebied van het Koninkrijk der Nederlanden betreft|
+| Definitie | Registratieve ruimte die het grondgebied van het Koninkrijk der Nederlanden betreft*|
 |Herkomst definitie  | BRK  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster.  |
-|Toelichting| |
+|Toelichting| *Dit betreft in eerste instantie het Europese deel. Over het niet-Europese deel zal nog nadere besluitvorming plaatsvinden.|
 
 . 
 
-*Dit betreft in eerste instantie het Europese deel. Over het niet-Europese deel zal nog nadere besluitvorming plaatsvinden.
+
 
 **Eigenschappen**
 
