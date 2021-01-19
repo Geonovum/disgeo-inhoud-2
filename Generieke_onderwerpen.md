@@ -3,7 +3,7 @@
 ### Identificatie van objecten
 Deze paragraaf beschrijft de algemene Ontwerpprincipes en uitgangspunten die betrekking hebben op identificatie van objecten.
 
-Aan elk object wordt een uniek objectnummer (objectidentificatie) toegekend. Zolang het object bestaat, mag deze identificatie niet veranderen. De objectidentificatie moet uniek, betekenisloos, permanent en overal geldig zijn. 
+Aan elk object wordt een uniek objectnummer (objectidentificatie, afgekort als **UOI**) toegekend. Zolang het object bestaat, mag deze identificatie niet veranderen. De objectidentificatie moet uniek, betekenisloos, permanent en overal geldig (systeemonafhankelijk) zijn. 
 
 
 
@@ -29,7 +29,7 @@ Ontwerpprincipe:
 **De opbouw voor alle objecten is gelijk**
 
 Voor alle objecten in de SOR wordt dezelfde opbouw en toekenning van een objectidentificatie toegepast.
-De opbouw van de identificatiecode wordt op dit moment onderzocht in het externe project Regie Op Bouwgegevens (Unique Object Identifier, UOI). In fase 1 van dit project is een 0.8-versie van de UOI beschreven. Deze bestaat uit [OPZOEKEN 0.8-versie UOI]. In de start van fase 2 zal een UOI-versie 1.0 opgesteld worden die als basis kan dienen voor de identificatie van de objecten in de samenhangende objectenregistratie. Daarnaast wordt onderzocht, en beproefd in een aantal use cases of de waarde van de UOI ook buiten het domein van de samenhangende objectenregistratie bruikbaar is.
+De opbouw van de identificatiecode wordt op dit moment onderzocht in het externe project Regie Op Bouwgegevens (Unique Object Identifier, UOI). In fase 1 van dit project is een 0.8-versie van de UOI beschreven [https://www.geobasisregistraties.nl/documenten/rapport/2020/12/01/rapport-regie-op-bouwgegevens-uoi-2020-onderzoeksfase]. In de start van fase 2 zal een UOI-versie 1.0 opgesteld worden die als basis kan dienen voor de identificatie van de objecten in de samenhangende objectenregistratie. Daarnaast wordt onderzocht, en beproefd in een aantal use cases of de waarde van de UOI ook buiten het domein van de samenhangende objectenregistratie bruikbaar is.
 
 #### Identiteit
 
@@ -135,9 +135,11 @@ Vanwege de eis van persistentie moet de uitgifte van de objectidentificatie dire
 
 Ontwerpprincipe: 
 
-**Uitgifte van identificaties vindt niet eerder dan de SOR plaats**
+**Indien uitgifte van de identificatie aan een object eerder plaats vindt dan het object in de SOR ontstaat neemt de SOR deze identificatie over**
 
-Indien een object in een sectorregistratie mocht ontstaan, dan heeft dat object daar een unieke sectorregistratie-identificatie. Er is dan nog geen sprake van meervoudig gebruik buiten de sector. Als het object vervolgend wordt aangeboden aan de SOR, wordt dan pas en niet eerder een objectidentificatie (voor het object in de SOR) uitgegeven. Om de interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
+Een object kan eerder ontstaan (bijvoorbeeld in een sectorregistratie) dan in de SOR. Een object krijgt daar een unieke sectorregistratie-identificatie. Indien een UOI-codestelsel (unique object identifier) in Nederland ingevoerd wordt krijgt dit object mogelijk wel bij ontstaan direct een UOI mee. Indien dit object, voorzien van een UOI, wordt aangeboden aan de SOR, wordt deze UOI-identificatie in de SOR overgenomen. Indien er geen sprake is van een UOI-code stelsel in Nederland, krijgt het object pas in de SOR een unieke objectidentificatie. Om interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
+
+*Achtergrond: Immers als we met een breder UOI-code stelsel werken, dan wordt bij het eerste verschijnen van het object (ideefase) of bij 1e uitgifteverzoek een UOI-code uitgegeven (dat kan dus eerder zijn dan de 1e levensfase in de SOR). Blijkt later dat het door een ander domein ook een UOI-code wordt gevraagd gaat de uitgever na of deze al bestaat en geeft ofwel een nieuwe ofwel de bestaande  om de uniciteit van een UOI-code op een object te kunnen borgen. Voor de SOR geldt dat voor het object de code (automatisch) opgevraagd wordt bij de uitgevende instantie.*
 
 ### Geometrie
 
