@@ -17,7 +17,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 
 | Naam  | Knoop  |
 |---|---|
-| Definitie | Een knoop is een begin-, eind- of keuzepunt voor de weggebruiker. |
+| Definitie |  Wegverkeerruimte die een begin-, eind- of keuzepunt voor de weggebruiker is. |
 | Herkomst definitie  | conceptueel model netwerken     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening||
@@ -92,7 +92,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 
 | Naam  | Wegverbinding  |
 |---|---|
-| Definitie | Een wegverbinding beschrijft de verkeerskundige inrichting van een weg tussen twee knopen. |
+| Definitie |  Wegverkeerruimte die de verkeerskundige inrichting van een weg tussen twee knopen betreft. |
 |Herkomst definitie  | conceptueel model netwerken     |
 |Verplicht  | Ja  |
 |Gevolgen afbakening||
@@ -269,7 +269,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimt
 
 | Naam  | Knoop  |
 |---|---|
-| Definitie | Een knoop is een begin-, eind- of keuzepunt voor de spoorgebruiker. |
+| Definitie | Spoorverkeeruimte die een begin-, eind- of keuzepunt voor de spoorgebruiker is |
 | Herkomst definitie  | nieuw     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening||
@@ -318,7 +318,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimt
 
 | Naam  | Spoorverbinding  |
 |---|---|
-| Definitie | Een spoorverbinding beschrijft de verkeerskundige inrichting van een spoor tussen twee knopen. |
+| Definitie | Spoorverkeeruimte die  de verkeerskundige inrichting van een spoor tussen twee knopen betreft. |
 |Herkomst definitie  | conceptueel model netwerken     |
 |Verplicht  | Ja  |
 |Gevolgen afbakening||
@@ -377,7 +377,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Scheepvaartruimt
 
 | Naam  | Knoop  |
 |---|---|
-| Definitie | Een knoop is een begin-, eind- of keuzepunt voor de vaarweggebruiker. |
+| Definitie | Scheepvaartruimte die een begin-, eind- of keuzepunt voor de vaarweggebruiker is. |
 | Herkomst definitie  | nieuw     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening||
@@ -426,7 +426,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Scheepvaartruimt
 
 | Naam  | Vaarwegverbinding  |
 |---|---|
-| Definitie | Een vaarwegverbinding beschrijft de verkeerskundige inrichting van een vaarweg tussen twee knopen. |
+| Definitie | Scheepvaartruimte die de verkeerskundige inrichting van een vaarweg tussen twee knopen betreft. |
 |Herkomst definitie  | conceptueel model netwerken     |
 |Verplicht  | Ja  |
 |Gevolgen afbakening||
@@ -483,7 +483,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Waterruimte"
 
 | Naam  | Knoop  |
 |---|---|
-| Definitie | Een knoop is een begin-, eind- of keuzepunt voor water. |
+| Definitie | Waterruimte die een begin-, eind- of keuzepunt voor water is. |
 | Herkomst definitie  | nieuw     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening||
@@ -532,7 +532,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Waterruimte"
 
 | Naam  | waterverbinding  |
 |---|---|
-| Definitie | Een waterverbinding beschrijft de hydrologische inrichting van water tussen twee knopen. |
+| Definitie | Waterruimte die de hydrologische inrichting van water tussen twee knopen betreft. |
 |Herkomst definitie  | nieuw     |
 |Verplicht  | Ja  |
 |Gevolgen afbakening||
@@ -584,7 +584,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Verblijfsobject |
 |---|---|
-| Definitie | De kleinste binnen één of meer gebouwen gelegen eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is|
+| Definitie | Kleinste functionele ruimte van gebruik die binnen één of meer gebouwen gelegen is en die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is|
 |Herkomst definitie|Gebaseerd op definitie “verblijfsobject” in artikel 1 Wet basisregistratie adressen en gebouwen |
 |Verplicht  | Ja |
 |Gevolgen afbakening  | Het betreft hier in principe de bestaande populatie verblijfsobjecten zoals deze is opgenomen in de basisregistratie adressen en gebouwen |
@@ -704,7 +704,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Gebouwzone |
 |---|---|
-| Definitie | Het grootst mogelijke gedeelte van een gebouw dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
+| Definitie | Functionele ruimte die het grootst mogelijke gedeelte van een gebouw betreft en dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
 |Herkomst definitie|Begrip gebaseerd op de functionele deelobjecten uit de WOZ en aansluitend bij het begrip Zonering (IfcZone) uit de concepten rondom Bouwwerkinformatiemodellen (BIM), waarbij Ruimten worden gezoneerd tot bijvoorbeeld verblijfsobject of gebouwzone |
 |Verplicht  | Ja |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype |
@@ -805,7 +805,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte 
 
 | Naam  | Verkeerskundig functionele zone |
 |---|---|
-| Definitie | Gebied met een verkeerskundige functie. |
+| Definitie | Transportruimte die een verkeerskundige functie kent. |
 |Herkomst definitie  | nieuw |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier deels de bestaande populaties van de verschillende typeringen zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
@@ -869,7 +869,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruim
 
 | Naam  | Spoorzone |
 |---|---|
-| Definitie | Gebied in gebruik voor spoorwegen.  |
+| Definitie | Spoorverkeerruimte die in gebruik is voor spoorwegen.  |
 |Herkomst definitie  | nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type spoorzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
@@ -929,7 +929,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 
 | Naam  | Wegzone  |
 |---|---|
-| Definitie | Gebied in gebruik voor weginrichting.  |
+| Definitie | Wegverkeerruimte die in gebruik is voor weginrichting.  |
 |Herkomst definitie  | nieuw |
 |Verplicht  | Ja (deels)  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type wegzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
@@ -987,7 +987,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte 
 
 | Naam  | Luchtvaartzone |
 |---|---|
-| Definitie | Gebied in gebruik voor luchtvaart.  |
+| Definitie | Transportruimte die in gebruik is voor luchtvaart.  |
 |Herkomst definitie  | nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type luchtvaartzones zoals deze zijn opgenomen in de basisregistratie (grootschalige) topografie.  |
@@ -1035,7 +1035,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Begraafplaats |
 |---|---|
-| Definitie |Een besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard. |
+| Definitie |Besloten functionele ruimte waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard. |
 |Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier deels de bestaande populatie *begraafplaats*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1072,7 +1072,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Recreatie  |
 |---|---|
-| Definitie | Gebied in gebruik voor openlucht recreatie.  |
+| Definitie | Functionele ruimte die in gebruik is voor openlucht recreatie.  |
 | Herkomst definitie  | IMGeo 2.2     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening|Het betreft hier deels de bestaande populatie typen *recreatie*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.|
@@ -1125,7 +1125,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Oever  |
 |---|---|
-| Definitie | De strook land die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn.   |
+| Definitie | Functionele ruimte die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn.   |
 |Herkomst definitie  | BGT 1.2     |
 |Verplicht  | Ja  |
 |Gevolgen afbakening|Het betreft hier de bestaande populatie *oever, slootkant* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
@@ -1165,7 +1165,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Complex  |
 |---|---|
-| Definitie |  Verzameling van één of meer bouwwerken, gronden en inrichtingen die samen een functionele eenheid vormen, en die een aantal voorzieningen kunnen delen. |
+| Definitie |  Functionele ruimte die een verzameling van één of meer bouwwerken, gronden en inrichtingen betreft die samen een functionele eenheid vormen, en die een aantal voorzieningen kunnen delen. |
 |Herkomst definitie  |  nieuw   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening||
@@ -1224,7 +1224,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Kering |
 |---|---|
-| Definitie | Voorziening met kerende functie. |
+| Definitie | Functionele ruimte die een voorziening met kerende functie betreft. |
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
 |Gevolgen afbakening||
@@ -1273,7 +1273,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Reducering |
 |---|---|
-| Definitie |voorziening om bepaalde effecten van omgevingsfactoren te verminderen|
+| Definitie |Functionele ruimte die een voorziening betreft om bepaalde effecten van omgevingsfactoren te verminderen|
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
 |Gevolgen afbakening||
@@ -1321,7 +1321,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Valbescherming |
 |---|---|
-| Definitie |Voorziening om vallen te voorkomen|
+| Definitie |Functionele ruimte die een voorziening betreft om vallen te voorkomen|
 |Herkomst definitie  |nieuw|
 |Verplicht  | nee  |
 |Gevolgen afbakening||
@@ -1362,7 +1362,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Naam  | Afscheiding |
 |---|---|
-| Definitie |Voorziening om terrein af te scheiden.|
+| Definitie |Functionele ruimte die een voorziening betreft om terrein af te scheiden.|
 |Herkomst definitie  |nieuw|
 |Verplicht  | nee  |
 |Gevolgen afbakening||
