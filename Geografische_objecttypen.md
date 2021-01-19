@@ -110,7 +110,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Bosgebied  |
 |---|---|
-| Definitie | Geografsiche ruimte die met bos begroeid is.|
+| Definitie | Geografische ruimte die met bos begroeid is.|
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *bosgebied* zoals deze is opgenomen in de basisregistratie topografie.  |

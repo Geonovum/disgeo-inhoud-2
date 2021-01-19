@@ -171,7 +171,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
 | Naam  | Getijdengebied  |
 |---|---|
-| Definitie | Geheel of gedeeltelijk droogvallende gronden, buitendijks gelegen.  |
+| Definitie | Geheel of gedeeltelijk droogvallende gronden die buitendijks gelegen zijn.  |
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *ondersteunend waterdeel; Type slik* en *begroeide terreindelen; Type kwelder* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -224,7 +224,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Bos |
 |---|---|
-| Definitie |Terrein begroeid met een dusdanige aantal bomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |
+| Definitie |Begroeiing die een dusdanige aantal bomen betreft dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.  |
 | Herkomst definitie  | Gebaseerd op de definities van bos in de BGT 1.2 |
 | Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *loofbos, naaldbos en gemengdbos* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -272,7 +272,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  |    Gras- en kruidachtigen |
 |---|---|
-| Definitie |(Grond met) een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie. |    
+| Definitie |Begroeiing die een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie betreft. |    
 |Herkomst definitie  | IMBOR 2020 |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *gras- en kruidachtigen*,*grasland agrarisch* en *grasland overig* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -312,7 +312,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Struiken |
 |---|---|
-| Definitie |Terreindeel bedekt met lage, houtachtige, overblijvende planten gekenmerkt door verschillende vertakkingen dicht bij de wortel en eventueel aanwezigheid van enkele verspreid staande stammen.   |   
+| Definitie |Begroeiing die lage, houtachtige, overblijvende planten betreft, gekenmerkt door verschillende vertakkingen dicht bij de wortel en eventueel aanwezigheid van enkele verspreid staande stammen.   |   
 |Herkomst definitie  |  BGT 1.2 |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struiken*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -353,7 +353,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
 
 | Naam  | Onbegroeide grond |
 |---|---|
-| Definitie |Bovenste deel van het natuurlijke aardoppervlak.|
+| Definitie |bodem die het bovenste deel van het natuurlijke aardoppervlak betreft.|
 | Herkomst definitie  | Gebaseerd op definitie van bodem in concept NEN3610 2020|
 | Verplicht  | Ja  |
 | Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen  type *onverhard* van wegen en terreinen in de basisregistratie grootschalige topografie. |
@@ -397,11 +397,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Gewas  |
 |---|---|
-| Gewas |Terrein in gebruik als akker, met gewassen die in een teelt roulatieschema zijn opgenomen. Kan tijdelijk zonder gewas zijn of braak liggen. |
+| Gewas |Begroeiing die gewassen betreft die in een teelt-roulatieschema zijn opgenomen.  |
 |Herkomst definitie  | Definitie gebaseerd op bouwland in de BGT 1.2 |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *bouwland* zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft opgenomen in Gewas. |
-|Toelichting|  |
+|Toelichting| Kan tijdelijk zonder gewas zijn of braak liggen. |
 
 **Eigenschappen**
 
@@ -435,7 +435,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Fruit- of kweekbomen |
 |---|---|
-| Definitie |Terrein in gebruik voor het kweken van meerjarige siergewassen en bomen ten behoeve van een later gebruik elders of voor het kweken van fruit.   |
+| Definitie |Begroeiing die het kweken van meerjarige siergewassen en bomen betreft ten behoeve van een later gebruik elders of voor het kweken van fruit.   |
 |Herkomst definitie  | nieuw |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *fruitteelt* en *boomteelt* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de *Boomkwekerij*, *Fruitkwekerij* en *Boomgaard* zoals deze is opgenomen in de basisregistratie topografie. De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen. |
@@ -489,7 +489,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Moeras |
 |---|---|
-| Definitie | Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing. |
+| Definitie | Begroeiing die vegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing betreft |
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *moeras*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -526,7 +526,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Rietland |
 |---|---|
-| Definitie |Terreindeel overwegend begroeid met rietvegetatie. |
+| Definitie |Begroeiing die overwegend riet betreft. |
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *rietland*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -563,7 +563,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Heide |
 |---|---|
-| Definitie | Terreindeel overwegend begroeid met heide en heideachtige vegetaties.|
+| Definitie | Begroeiing die overwegend heide en heideachtige vegetaties betreft.|
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *heide*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -600,7 +600,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Duin |
 |---|---|
-| Definitie |Verhoging of heuvel van zand of fijne losse aarde en verpulverd gesteente opgeworpen door wind of door stromend water. |
+| Definitie |Begroeiing die een verhoging of heuvel van zand of fijne losse aarde en verpulverd gesteente opgeworpen door wind of door stromend water betreft. |
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *duin*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -642,7 +642,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Bomenrij |
 |---|---|
-| Definitie | Opgaande rijvormige begroeiing van bomen zonder ondergroei van struiken.|
+| Definitie | Begroeiing die een Opgaande rijvormige begroeiing van bomen zonder ondergroei van struiken betreft.|
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *bomenrij*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -679,7 +679,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Houtsingel |
 |---|---|
-| Definitie |Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken.   |
+| Definitie |Begroeiing die een opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken betreft.   |
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *houtwal*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -716,7 +716,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Haag |
 |---|---|
-| Definitie | Een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken. |
+| Definitie | Begroeiing die een rijvormige afscheiding van zeer beperkte breedte bestaande uit aangeplante aaneengesloten struiken betreft. |
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *haag*  zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -755,7 +755,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Boom |
 |---|---|
-| Definitie | Een markante boom die geen onderdeel uitmaakt van bos of struiken. |
+| Definitie | Begroeiing die een markante boom die geen onderdeel uitmaakt van bos of struiken betreft. |
 |Herkomst definitie  | IMGeo 2.2 |
 |Verplicht  | nee  |
 |Gevolgen afbakening  | nieuw object  |
@@ -806,7 +806,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 | Naam  | Gebouw  |
 |---|---|
-| Definitie | Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen. |
+| Definitie | Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid die bedoeld is voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen. |
 |Herkomst definitie  |Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen en de INSPIRE richtlijn |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
@@ -1123,7 +1123,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Open bouwwerk |
 |---|---|
-| Definitie | Een afzonderlijk staande overdekking rustend op een constructie met kolommen met één of meerder open gevels bedoeld voor het beschutten of stallen van objecten of voertuigen |
+| Definitie | Constructie die een afzonderlijk staande overdekking is en rust op kolommen met één of meerder open gevels en is bedoeld voor het beschutten of stallen van objecten of voertuigen |
 |Herkomst definitie  |Gebaseerd op definities “open loods” en “overkapping” uit de gegevenscatalogus BGT|
 |Verplicht  | Ja |
 |Gevolgen afbakening  |Het betreft hier grotendeels de bestaande populatie open loodsen en overkappingen zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
@@ -1176,7 +1176,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Verharding"
 
 | Naam  | Verharding |
 |---|---|
-| Definitie |Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal. |
+| Definitie |Oppervlak, dat door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt is, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal. |
 |Herkomst definitie  | concept NEN3610-2020  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier een selectie van de bestaande populatie fysieke voorkomen van *wegdelen*, *ondersteunende wegdelen* en *onbegroeide terreindelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1228,7 +1228,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 | Naam  | Overbrugging  |
 |---|---|
-| Definitie | Een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
+| Definitie | Kunstwerk dat een beweegbare of vaste verbinding tussen twee punten betreft, die door water, een weg of anderszins  gescheiden zijn,  bestaande uit een brugdek/-bak met landhoofden en veelal gesteund door pijlers. |
 |Herkomst definitie  | nieuw  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen; hoort bij Type overbrugging* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
@@ -1294,7 +1294,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 | Naam  |Kunstwerkdeel  |
 |---|---|
-| Definitie |  Onderdeel van een civieltechnisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
+| Definitie |  Kunstwerk dat een onderdeel van een civieltechnisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen betreft. |
 |Herkomst definitie  | BGT 1.2  |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
@@ -1356,7 +1356,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 | Naam  | Ondertunneling  |
 |---|---|
-| Definitie | Ondergrondse of onder water gelegen verbinding tussen twee punten, aan beide einden voorzien van een open bakconstructie. |
+| Definitie | Kunstwerk dat een ondergrondse of onder water gelegen verbinding tussen twee punten, aan beide einden voorzien van een open bakconstructie betreft. |
 |Herkomst definitie  | nieuw |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *tunneldelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En van *kunstwerkdelen van Type duiker* indien opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie. |
@@ -1415,7 +1415,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 | Naam  | Kerende kunstwerken  |
 |---|---|
-| Definitie | Kunstwerk met mogelijk een kerende functie. |
+| Definitie | Kunstwerk dat kerende functie heeft. |
 |Herkomst definitie  | nieuw  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
@@ -1478,7 +1478,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 | Naam  | Overige kunstwerken  |
 |---|---|
-| Definitie | Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
+| Definitie | Kunstwerk dat een civiel-technisch werk betreft voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. |
 |Herkomst definitie  | NEN3610 |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  zoals deze is opgenomen in de basisregistratie grootschalige topografie. |
@@ -1544,7 +1544,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Muur |
 |---|---|
-| Definitie |Relatief smal, rechtopstaand bouwwerk.|
+| Definitie |Constructie die een relatief smal, rechtopstaand bouwwerk betreft.|
 |Herkomst definitie  |Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type muur* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1588,7 +1588,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Hek |
 |---|---|
-| Definitie | Een hekwerk of schutting om een gebied af te scheiden of de toegang te beheren.|
+| Definitie | Constructie die een hekwerk of schutting om een gebied af te scheiden of de toegang te beheren betreft.|
 |Herkomst definitie  |nieuw|
 |Verplicht  | *staat ter discussie* |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type hek* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1632,7 +1632,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Raster |
 |---|---|
-| Definitie |Kunstmatige terreinafscheiding, in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen gaas of één of meerdere draden.|
+| Definitie |Constructie die een kunstmatige terreinafscheiding betreft, in de vorm van een overwegend houten, metalen of kunststoffen rechtopstaande palen met daartussen gaas of één of meerdere draden.|
 |Herkomst definitie  |Gebaseerd op de definitie van draadraster in de gegevenscatalogus IMGeo 2.2 |
 |Verplicht  | nee  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type draadraster, faunaraster* zoals deze is opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie.  |
@@ -1675,7 +1675,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Scherm |
 |---|---|
-| Definitie |Een lineaire constructie, typisch bedoeld om te reduceren. |
+| Definitie |Constructie die lineair is en specifiek bedoeld om te reduceren. |
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type geluidscherm* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1718,7 +1718,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Bak  |
 |---|---|
-| Definitie | Object met een permanent karakter dat dient om iets in te bergen of te verzamelen. |
+| Definitie | Constructie die een  permanent karakter heeft en dient om iets in te bergen of te verzamelen. |
 |Herkomst definitie  | IMGeo 2.2  |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een subset van de bestaande populatie *bak* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1826,7 +1826,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Depot  |
 |---|---|
-| Definitie | Object met een permanent karakter dat dient om gassen, energie, vaste- en vloeistoffen in te bergen of te verzamelen. |
+| Definitie | Constructie die een permanent karakter heeft en dient om gassen, energie, vaste- en vloeistoffen in te bergen of te verzamelen. |
 |Herkomst definitie  |  nieuw |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier een subset van de bestaande populatie *overig bouwwerk* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1875,7 +1875,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Geleider  |
 |---|---|
-| Definitie | Een constructie bedoeld voor de fysieke (be)geleiding van voer-, vaartuigen. |
+| Definitie | Constructie die is bedoeld voor de fysieke (be)geleiding van voer-, vaartuigen. |
 |Herkomst definitie  | nieuw    |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *waterinrichtingselementen* en *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1928,7 +1928,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Installatie  |
 |---|---|
-| Definitie | Een technisch samenhangend systeem dat een bepaald doel dient. |
+| Definitie | Constructie die een technisch samenhangend systeem betreft dat een bepaald doel dient. |
 |Herkomst definitie  | Gebaseerd op installatie in IMGeo 2.2  |
 |Verplicht  | Nader te bepalen  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties  *installatie* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
@@ -1989,7 +1989,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Mast  |
 |---|---|
-| Definitie | Een hoge draagconstructie voor de opwekking en transport van energie en elektromagnetische straling. |
+| Definitie | Constructie die een hoge draagconstructie btreft voor de opwekking en transport van energie en elektromagnetische straling. |
 |Herkomst definitie  |  nieuw   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *gebouwen*, *kunstwerkdelen* en *mast* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
@@ -2045,7 +2045,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Straatmeubilair  |
 |---|---|
-| Definitie | Een ruimtelijk object ter inrichting van de openbare ruimte. |
+| Definitie | Constructie die ter inrichting van de openbare ruimte is bedoeld. |
 |Herkomst definitie  |  IMGeo 2.2  |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een subset van de bestaande populaties *bak*, *paal* en *straatmeubilair* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.  |
@@ -2123,7 +2123,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Sensor  |
 |---|---|
-| Definitie | Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit. |
+| Definitie | Constructie die een apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit betreft. |
 |Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *sensor* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -2174,7 +2174,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Paal  |
 |---|---|
-| Definitie | Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat. |
+| Definitie | Constructie die een langwerpig stuk hout, ijzer, steen enz., dat in de grond staat, betreft. |
 |Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Paal* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -2266,7 +2266,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Kast  |
 |---|---|
-| Definitie | Object met een permanent karakter dat dient om iets in te bergen en te beschermen. |
+| Definitie | Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen. |
 |Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Kast* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -2321,7 +2321,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Bunker  |
 |---|---|
-| Definitie | Een van oorsprong militair verdedigingswerk dat een zekere mate van bescherming bood tegen beschietingen en bombardementen. |
+| Definitie | Constructie die een van oorsprong militair verdedigingswerk betreft dat een zekere mate van bescherming bood tegen beschietingen en bombardementen. |
 |Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *bunker* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
@@ -2365,7 +2365,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
 
 | Naam  | Onbepaald terreindeel  |
 |---|---|
-| Definitie | Fysiek begrensd en zichtbaar terreindeel dat bij een gebouw hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van begroeiing, verharding en/of water. |
+| Definitie | Bodem die fysiek begrensd en zichtbaar is en bij een gebouw hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van begroeiing, verharding en/of water. |
 |Herkomst definitie  | Gebaseerd op definitie van erf in BGT    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie.  |
