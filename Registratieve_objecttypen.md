@@ -9,10 +9,7 @@
 
 #### Rijk
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Rijk |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
  
 
@@ -58,10 +55,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Provincie
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Provincie |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
  
 
@@ -106,10 +101,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Waterschap
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Waterschap |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
  
 
@@ -155,10 +148,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Gemeente
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Gemeente |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
  
 
@@ -206,10 +197,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Nederlandse territoriale zee
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Nederlandse territoriale zee |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
  
 
@@ -250,10 +238,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Nederlandse aansluitende zone
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Nederlandse aansluitende zone |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
  
 
@@ -299,10 +284,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Nederlandse exclusieve economische zone
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Nederlandse exclusieve economische zone |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
  
 
@@ -343,10 +326,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 ### Woonplaats
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | woonplaats  |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte   |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
 
 ontwerpprincipe: *een woonplaats valt volledig binnen een gemeente*
@@ -393,10 +374,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 
 ### Wijk
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | wijk  |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte   |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
 **Definitie**
 
@@ -444,10 +422,7 @@ ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land
 
 ### Buurt
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | buurt  |
-| onderdeel van NEN3610-objecttype |Registratieve ruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
 **Definitie**
 
@@ -494,10 +469,7 @@ ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op lan
 
 ### Openbare ruimte
 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Openbare ruimte  |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
 **Definitie**
 
@@ -559,10 +531,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 
 ### Nummeraanduiding
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Nummeraanduiding  |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
 **Definitie**
 
@@ -613,10 +582,7 @@ ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijning
 
 ### Benoemde plaats
 
-| Klasse  | naam  |
-|---|---|
-| SOR-begrip   | Benoemde plaats  |
-| Onderdeel van NEN3610-objecttype |Registratieve ruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
 **Definitie**
 

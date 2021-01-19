@@ -11,10 +11,7 @@
 
 **KNOOP**
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Knoop|
-| Onderdeel van NEN3610-objecttype |Wegverkeerruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 
 **Definitie**
 
@@ -89,10 +86,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **WEGVERBINDING**
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Wegverbinding|
-| Onderdeel van NEN3610-objecttype |FWegverkeerruimte   |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 
 **Definitie**
 
@@ -268,10 +262,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **KNOOP**
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Knoop|
-| Onderdeel van NEN3610-objecttype |Spoorverkeeruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimte"
+
 
 **Definitie**
 
@@ -320,10 +312,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **SPOORVERBINDING**
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Spoorverbinding|
-| Onderdeel van NEN3610-objecttype |Spoorverkeerruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimte"
 
 **Definitie**
 
@@ -380,10 +369,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **KNOOP**
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Knoop|
-| Onderdeel van NEN3610-objecttype |Scheepvaartruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Scheepvaartruimte"
+
+
 
 **Definitie**
 
@@ -432,10 +420,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **VAARWEGVERBINDING**
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Vaarwegverbinding|
-| Onderdeel van NEN3610-objecttype |Scheepvaartruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Scheepvaartruimte"
 
 **Definitie**
 
@@ -490,10 +475,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **KNOOP**
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Knoop|
-| Onderdeel van NEN3610-objecttype |Waterruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Waterruimte"
+
+
 
 **Definitie**
 
@@ -542,10 +526,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 **WATERVERBINDING**
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Waterverbinding|
-| Onderdeel van NEN3610-objecttype |Waterruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Waterruimte"
 
 **Definitie**
 
@@ -596,10 +577,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Verblijfsobject
 
 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Verblijfsobject  |
-| Onderdeel van NEN3610-objecttype |Functionele ruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
+
 
 **Definitie**
 
@@ -719,10 +698,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Gebouwzone
 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Gebouwzone  |
-| Onderdeel van NEN3610-objecttype |Functionele ruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
@@ -823,10 +799,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Verkeerskundig functionele zone
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Verkeerskundig functionele zone |
-| Onderdeel van NEN3610-objecttype | Transportruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte "
 
 **Definitie**
 
@@ -889,10 +862,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte	|
 
 #### Spoorzone
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Spoorzone |
-| Onderdeel van NEN3610-objecttype | Spoorverkeerruimte  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruimte "
 
 **Definitie**
 
@@ -951,10 +922,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Wegzone
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Wegzone |
-| Onderdeel van NEN3610-objecttype |Wegverkeerruimte   |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte "
 
 **Definitie**
 
@@ -1011,10 +980,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Luchtvaartzone
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Luchtvaartzone |
-| Onderdeel van NEN3610-objecttype | Transportruimte  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte "
 
 **Definitie**
 
@@ -1061,10 +1028,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Begraafplaats
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Begraafplaats |
-| Onderdeel van NEN3610-objecttype |Functionele ruimte |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
@@ -1100,10 +1065,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte|
 
 #### Recreatie
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Recreatie|
-| Onderdeel van NEN3610-objecttype |Functionele ruimte  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
@@ -1155,10 +1118,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Oever
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Oever |
-| Onderdeel van NEN3610-objecttype |Functionele ruimte  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
@@ -1197,10 +1158,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte	|
 
 #### Complex
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Complex |
-| Onderdeel van NEN3610-objecttype |Functionele ruimte   |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
@@ -1256,10 +1215,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 ### Overige functionele zoneringen
 
 #### Kering
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Kering|
-| Onderdeel van NEN3610-objecttype | Functionele ruimte |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
 
  
 
@@ -1310,10 +1267,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Reducering
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Reducering|
-| Onderdeel van NEN3610-objecttype | Functionele ruimte |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
@@ -1359,11 +1313,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Valbescherming
 
 
-
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Valbescherming|
-| Onderdeel van NEN3610-objecttype | Functionele ruimte  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
 
  
 
@@ -1404,10 +1354,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Afscheiding 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Afscheiding |
-| Onderdeel van NEN3610-objecttype | Functionele ruimte |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 
 **Definitie**

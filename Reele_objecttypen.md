@@ -11,11 +11,8 @@
 
 
 #### Watervlakte
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Watervlakte  |
-| Onderdeel van NEN3610-objecttype |Water  |
 
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
  
 
 **Definitie**
@@ -68,10 +65,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Waterloop
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Waterloop  |
-| Onderdeel van NEN3610-objecttype |Water  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
  
 
@@ -122,10 +117,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Bron
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Bron  |
-| Onderdeel van NEN3610-objecttype |Water  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
  
 
@@ -169,10 +162,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Ten onrechte|
 
 #### Getijdengebied
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Getijdengebied  |
-| Onderdeel van NEN3610-objecttype |Water  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
  
 
@@ -225,10 +216,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Bos
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Bos  |
-| Onderdeel van NEN3610-objecttype | Begroeiing |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
+
 
 **Definitie**
 
@@ -274,10 +264,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
  
 
 ####    Gras- en kruidachtigen
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   |    Gras- en kruidachtigen  |
-| Onderdeel van NEN3610-objecttype |Begroeiing  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 
 **Definitie**
@@ -316,10 +304,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 ####  Struiken
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Struiken  |
-| Onderdeel van NEN3610-objecttype |Begroeiing  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 
 **Definitie**
@@ -360,10 +346,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Onbegroeide grond
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Onbegroeide grond |
-| Onderdeel van NEN3610-objecttype |  Bodem  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
 
 
 **Definitie**
@@ -406,10 +389,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Gewas  |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 
 **Definitie**
@@ -447,10 +428,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 ####    Fruit- of kweekbomen
 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Fruit- of kweekbomen |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 
 **Definitie**
@@ -500,17 +478,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Natuurlijk groen 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Natuurlijk groen  |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 MOERAS
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Moeras |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 **Definitie**
 
@@ -547,10 +520,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 RIETLAND
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Rietland |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 **Definitie**
 
@@ -587,10 +557,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 HEIDE
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Heide |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 **Definitie**
 
@@ -627,10 +594,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 DUIN
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Duin |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 **Definitie**
 
@@ -668,17 +632,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Landschapselement
 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Landschapselement |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 BOMENRIJ
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Bomenrij |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 **Definitie**
 
@@ -715,10 +673,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 HOUTSINGEL
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Houtsingel |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 **Definitie**
 
@@ -755,10 +710,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 HAAG
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Haag |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 **Definitie**
 
@@ -795,10 +747,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Boom
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Boom |
-| Onderdeel van NEN3610-objecttype |Begroeiing |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 
 **Definitie**
@@ -850,10 +800,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Gebouw
 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Gebouw  |
-| Onderdeel van NEN3610-objecttype |Gebouw  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 **Definitie**
 
@@ -921,11 +868,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Bouwlaag
 
-
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Bouwlaag  |
-| Onderdeel van NEN3610-objecttype |Gebouw  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 **Definitie**
 
@@ -975,11 +918,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Ruimte
 
-
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Ruimte  |
-| Onderdeel van NEN3610-objecttype |Gebouw  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 **Definitie**
 
@@ -1045,12 +984,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Gebouwcomponent
 
-
-
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Gebouwcomponent |
-| Onderdeel van NEN3610-objecttype |Gebouw  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 **Definitie**
 
@@ -1118,10 +1052,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Toegangsdeur
 
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Toegangsdeur  |
-| Onderdeel van NEN3610-objecttype |Gebouw  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 **Definitie**
 
@@ -1186,11 +1117,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Open bouwwerk
 
 
-
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Open bouwwerk |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 **Definitie**
 
@@ -1241,11 +1168,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 ### Verharding
 
 
-
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Verharding  |
-| Onderdeel van NEN3610-objecttype |Verharding |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Verharding"
 
  
 
@@ -1299,10 +1222,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 ### Kunstwerken
 #### Overbrugging
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Overbrugging |
-| Onderdeel van NEN3610-objecttype | Kunstwerk  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 **Definitie**
 
@@ -1365,10 +1285,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Kunstwerkdeel
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Kunstwerkdeel |
-| Onderdeel van NEN3610-objecttype |Kunstwerk  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
  
 
@@ -1430,13 +1348,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Ondertunneling
 
 
-
-
-
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Ondertunneling |
-| Onderdeel van NEN3610-objecttype | Kunstwerk  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
  
 
@@ -1497,10 +1409,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Kerende kunstwerken
 
 
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Kerende kunstwerken |
-| Onderdeel van NEN3610-objecttype | Kunstwerk  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 **Definitie**
 
@@ -1563,12 +1472,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Overige kunstwerken
 
 
-
-
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Overige kunstwerken |
-| Onderdeel van NEN3610-objecttype | Kunstwerk  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 **Definitie**
 
@@ -1630,10 +1534,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Muur
   
-| Klasse  | Naam  |
-|---|---|
-|SOR-begrip   | Muur |
-| Onderdeel van NEN3610-objecttype | Constructie |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -1678,11 +1580,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Hek
 
 
-
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Hek |
-| Onderdeel van NEN3610-objecttype | Constructie |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -1725,10 +1623,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Raster
   
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Raster |
-| Onderdeel van NEN3610-objecttype | Constructie |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -1770,10 +1666,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 #### Scherm
   
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Scherm |
-| Onderdeel van NEN3610-objecttype | Constructie |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -1815,10 +1709,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Bak
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Bak  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -1870,10 +1762,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Putdeksel
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Putdeksel  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -1927,10 +1817,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Depot
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Depot  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -1979,11 +1867,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Geleider
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Geleider  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
 
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
  
 
 **Definitie**
@@ -2034,10 +1919,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Installatie
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Installatie  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -2097,10 +1980,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |oplaadpunt| Systeem voor opladen van elektrische auto's |
 
 #### Mast
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Mast  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -2155,10 +2036,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Straatmeubilair
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Straatmeubilair  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -2235,10 +2114,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Sensor
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Sensor  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -2289,11 +2166,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 #### Paal
 
 
-
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Paal  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -2384,10 +2257,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Kast
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Kast  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+|
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -2441,10 +2312,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 #### Bunker
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Bunker  |
-| Onderdeel van NEN3610-objecttype |Constructie  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
  
 
@@ -2487,10 +2356,8 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 
 
 ### Onbepaald terreindeel
-| Klasse  | Naam  |
-|---|---|
-| SOR-begrip   | Onbepaald terreindeel  |
-| Onderdeel van NEN3610-objecttype |Bodem  |
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
 
  
 
