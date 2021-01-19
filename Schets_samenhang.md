@@ -20,7 +20,7 @@ Het informatiemodel voor de samenhangende objectenregistratie zal zodanig worden
 In de volgende hoofdstukken is daarom telkens aangegeven hoe SOR-begrippen zich verhouden tot objectentypen uit het vernieuwde basismodel geo-informatie. In enkele gevallen betekent dit dat de SOR-begrippen hetzelfde zijn als objecttypen uit het vernieuwde basismodel geo-informatie. In andere gevallen zijn de SOR-begrippen een verbijzondering van objecttypen uit het vernieuwde basismodel geo-informatie. Hierbij is uitgegaan van de versie van het nieuwe basismodel geo-informatie zoals deze in juli 2020 beschikbaar was. Daarin wordt het volgende semantische model onderscheiden:
  
 
-![semantisch model NEN3610](media/Semantisch_model_NEN3610_v5.png)
+![semantisch model NEN3610](media/Semantisch_model_NEN3610.png)
 
   
 
