@@ -5,11 +5,6 @@ Deze paragraaf beschrijft de algemene Ontwerpprincipes en uitgangspunten die bet
 
 Aan elk object wordt een uniek objectnummer (objectidentificatie) toegekend. Zolang het object bestaat, mag deze identificatie niet veranderen. De objectidentificatie moet uniek, betekenisloos, permanent en overal geldig zijn. 
 
->
-> Vraag in de consultatie:
->
-> Welke aandachtspunten zou u willen meegeven bij de verdere uitwerking van de unieke identificatie van objecten?
->
 
 
 #### Opbouw objectidentificatie
@@ -249,11 +244,7 @@ Eén object kan meerdere geometrische representaties hebben, die het object in v
 Bij de nadere uitwerking van het informatiemodel zal worden bepaald op welke wijze het informatiemodel de geleidelijke transitie van de bestaande 2D registratie naar een 3D registratie kan ondersteunen. Daarbij kan bijvoorbeeld worden gedacht aan het voorlopig kunnen blijven vastleggen van de 2D geometrie van een gebouw (zowel grondvlakgeometrie als bovenaanzichtgeometrie) naast het mogelijk worden van een 3D vastlegging van gebouwgeometrie. Ook zal voor bepaalde objecttypen moeten worden bekeken in hoeverre de mogelijkheid moet worden geboden om 3D vastlegging van geometrie voorlopig mogelijk te maken, zonder dat dit aan alle uiteindelijk te stellen vereisten van 3D geometrie voldoet (transitie 3D-geometrie). Op een later moment zal worden bepaald voor welke objecttypen 3D vastlegging verplicht zal worden en vanaf welk moment dit het geval is.
 Voor ISO19107 zie: https://www.iso.org/standard/66175.html 
 
->
-> Vraag in de consultatie:
->
-> In de SOR gaan we naar een driedimensionale beschrijving van objecten. Dit vraagt om een herziening van huidige topologie regels en het begrip maaiveld. Welke topologieregels moeten er volgens u worden vastgelegd om een driedimensionale beschrijving van objecten te faciliteren?
->
+
 
 #### Geometrie-type
 
@@ -287,11 +278,6 @@ Ontwerpprincipe:
 - Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
 
 
->
-> Vraag in de consultatie:
->
-> In de BGT zijn alle vlakobjecten opdelend, dit betekent dat ze naadloos op elkaar aansluiten. Dit is in de praktijk heel bewerkelijk.  In de SOR stelt het expertteam voor om het bestaande onderscheid tussen opdelende objecttypen en inrichtende objecttypen te vervangen door vernieuwde topologieregels. In hoeverre bent u het met dit voorstel eens?
->
 
 
 
@@ -473,11 +459,7 @@ De voor de bronhouders en gebruikers van de SOR relevante inhoudelijke meta-info
 -	Kwaliteit
 -	Status
 
->
-> Vraag in de consultatie:
->
-> Mist u meta-informatie die naar uw mening relevant is om in de SOR op te nemen? Welke meta-informatie is dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
+
 
 1.	De formele definitie van objecten (objecttypen) en eigenschappen (attribuuttypen) die worden geregistreerd in de SOR moet voor bronhouder en gebruiker helder aangeven wat de betekenis is van een bepaald gegeven, maar ook over welke reële objecten bijvoorbeeld wel en welke niet geregistreerd worden in de SOR.
 
@@ -597,12 +579,6 @@ Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig:
 - In de SOR moet (anders dan op dit moment in de BGT) voor de reële objecttypen een administratieve koppeling plaatsvinden van de geometrie van een object naar de desbetreffende PBP's op basis van de identificatie.
 - Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de inwinnende instantie die het heeft bepaald en de inwinningsmethode bekend. 
 
-
->
-> Vraag in de consultatie:
->
-> Voorgesteld wordt plaatsbepalingspunten als meta-informatie te gaan behandelen. In hoeverre bent u het eens met het voorstel voor plaatsbepalingspunten?
->
 
 
 #### Verdere aandachtspunten meta-informatie
@@ -784,11 +760,6 @@ Het slechts kunnen registreren van één levensfase (samenhangend met de kenmerk
 
 Dit kan worden geïllustreerd aan de hand van het voorbeeld van een school die momenteel als school in gebruik is, maar die na het lopende schooljaar verbouwd zal worden tot een woning. Wanneer in de loop van het schooljaar de bouwvergunning wordt verleend voor deze verbouwing, dan wordt volgens het huidige historiemodel van de BAG direct de registratie aangepast. Raadplegen van de actualiteit levert dan op dat sprake is van een woning, terwijl de situatie "in gebruik" nog betrekking heeft op een school met leerlingen.
 Toepassing van deze aanpak zou kunnen betekenen dat we de beoogde verbouwing niet registreren met beginGeldigheid het moment van verstrekken van de vergunning, maar met het verwachte moment van verbouwing (bijvoorbeeld aanstaande september). Bij die werkwijze kunnen we echter nog niet vastleggen dat op dit moment al sprake is van een verleende vergunning, terwijl je dat wel zou doen, wanneer sprake zou zijn van een nieuwbouwwoning.
-
-
->
->Hieronder is een eerste voorstel oplossing van dit vraagstuk opgenomen. In de consultatie wordt iedereen uitgenodigd beargumenteerd aan te geven in hoeverre het genoemde voorstel al dan niet een goede oplossing is.Ook wordt iedereen van harte uitgenodigd om alternatieve oplossingen aan te dragen.
->
 
 
 Daarom moet het in dit soort situaties (voor een "in gebruik" zijnde gebouw is een vergunning verleend voor verbouw, voor een "in gebruik" zijnde weg bestaat het plan voor uitbreiding) door het informatiemodel voor de SOR gefaciliteerd worden dat een tweede object (bijvoorbeeld gebouw of verblijfsobject of wegvak) wordt geregistreerd. Deze werkwijze komt overeen met de huidige werkwijze voor plantopografie binnen IMGeo. Dit nieuw object wordt wel gerelateerd aan het bestaande object waarop het plan betrekking heeft (en vice versa). De registratie van dit tweede object geschiedt verder alsof sprake is van een nieuwbouwsituatie. Echter zodra dit object gericht op een verbouwing ook daadwerkelijk de fase bestaand/geldig bereikt, wordt het nieuw opgevoerde object "beëindigd" en wordt de feitelijk situatie weer opgenomen in de tijdlijn geldigheid van het oorspronkelijke object dat vanaf dat moment daadwerkelijk "in verbouw" is.

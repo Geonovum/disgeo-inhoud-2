@@ -1,9 +1,6 @@
 ## Geografische objecttypen
 
-> Vraag in de consultatie:
->
-> Mist u bij geografische objecttypen typen die naar uw mening relevant zijn om in de SOR op te nemen? Welke geografische objecttypen zijn dit en voor welke gebruikstoepassing zouden deze moeten worden opgenomen?
->
+
 
 ### Bebouwde kom
 | klasse  | naam  |
@@ -486,10 +483,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | SOR-begrip   | Reliëf  |
 | onderdeel van NEN3610-objecttype |geografisch object  |
 
-> Vraag in de consultatie:
->
-> Voor welke gebruikstoepassingen wordt reliëf gebruikt en welke soorten reliëf zouden daarvoor moeten worden onderscheiden?
->
 
 
 
