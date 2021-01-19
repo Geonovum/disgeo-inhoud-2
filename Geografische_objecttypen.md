@@ -2,17 +2,17 @@
 
 
 
-### Bebouwde kom
+### Bebouwde kern
 | klasse  | naam  |
 |---|---|
 |SOR-begrip   | bebouwde kom  |
-| onderdeel van NEN3610-objecttype |geografisch object  |
+| onderdeel van NEN3610-objecttype |geografische ruimte  |
 
 **Definitie**
 
 | Naam  | Bebouwde kom  |
 |---|---|
-| Definitie | Een geografisch gebied gekenmerkt door een concentratie van gebouwen gebruikt voor wonen en werken  |
+| Definitie |Geografisce ruimte gekenmerkt door een concentratie van gebouwen gebruikt voor wonen en werken  |
 |Herkomst definitie  | Gebaseerd op definitie Plaats in BRT  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Bebouwde kom is op dit moment nog geen onderdeel van een basisregistratie. Wel zijn in de BRT plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. Door de opname van bebouwde kom in de objectenregistratie ontstaat een formele vastlegging van een algemeen bruikbare bebouwde kom.  |
@@ -103,7 +103,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Bosgebied  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
+| Onderdeel van NEN3610-objecttype |Geografische ruimte |
 
 **Definitie**
 
@@ -148,7 +148,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Duingebied  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
+| Onderdeel van NEN3610-objecttype |Geografische ruimte  |
 
 **Definitie**
 
@@ -196,7 +196,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Heidegebied  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
+| Onderdeel van NEN3610-objecttype |Geografische ruimte   |
 
 **Definitie**
 
@@ -239,7 +239,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Watergebied  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
+| Onderdeel van NEN3610-objecttype |Geografische ruimte  |
 
 **Definitie**
 
@@ -283,7 +283,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Eiland  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
+| Onderdeel van NEN3610-objecttype |Geografische ruimte  |
 
 **Definitie**
 
@@ -343,7 +343,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Polder  |
-| Onderdeel van NEN3610-objecttype |Geografisch object  |
+| Onderdeel van NEN3610-objecttype |Geografische ruimte   |
 
 **Definitie**
 
@@ -391,7 +391,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Strand |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Geografische ruimte  |
 
 **Definitie**
 
@@ -436,7 +436,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Zandverstuiving |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Geografische ruimte   |
 
 **Definitie**
 
@@ -481,7 +481,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | klasse  | naam  |
 |---|---|
 | SOR-begrip   | Reliëf  |
-| onderdeel van NEN3610-objecttype |geografisch object  |
+| onderdeel van NEN3610-objecttype |Geografische ruimte   |
 
 
 

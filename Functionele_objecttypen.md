@@ -14,7 +14,7 @@
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Knoop|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Wegverkeerruimte  |
 
 **Definitie**
 
@@ -92,7 +92,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Wegverbinding|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |FWegverkeerruimte   |
 
 **Definitie**
 
@@ -271,7 +271,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Knoop|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Spoorverkeeruimte  |
 
 **Definitie**
 
@@ -323,7 +323,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Spoorverbinding|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Spoorverkeerruimte  |
 
 **Definitie**
 
@@ -383,7 +383,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Knoop|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Scheepvaartruimte  |
 
 **Definitie**
 
@@ -435,7 +435,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Vaarwegverbinding|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Scheepvaartruimte  |
 
 **Definitie**
 
@@ -493,7 +493,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Knoop|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Waterruimte  |
 
 **Definitie**
 
@@ -545,7 +545,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Waterverbinding|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Waterruimte  |
 
 **Definitie**
 
@@ -599,7 +599,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Verblijfsobject  |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functionele ruimte  |
 
 **Definitie**
 
@@ -722,7 +722,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Gebouwzone  |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functionele ruimte  |
 
 **Definitie**
 
@@ -826,7 +826,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Verkeerskundig functionele zone |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Transportruimte  |
 
 **Definitie**
 
@@ -892,7 +892,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Spoorzone |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Spoorverkeerruimte  |
 
 **Definitie**
 
@@ -954,7 +954,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Wegzone |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Wegverkeerruimte   |
 
 **Definitie**
 
@@ -1014,7 +1014,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Luchtvaartzone |
-| Onderdeel van NEN3610-objecttype | Functioneel object  |
+| Onderdeel van NEN3610-objecttype | Transportruimte  |
 
 **Definitie**
 
@@ -1064,7 +1064,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Begraafplaats |
-| Onderdeel van NEN3610-objecttype |Functioneel object|
+| Onderdeel van NEN3610-objecttype |Functionele ruimte |
 
 **Definitie**
 
@@ -1103,7 +1103,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Recreatie|
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functionele ruimte  |
 
 **Definitie**
 
@@ -1158,7 +1158,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Oever |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functionele ruimte  |
 
 **Definitie**
 
@@ -1200,7 +1200,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Complex |
-| Onderdeel van NEN3610-objecttype |Functioneel object  |
+| Onderdeel van NEN3610-objecttype |Functionele ruimte   |
 
 **Definitie**
 
@@ -1259,7 +1259,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Kering|
-| Onderdeel van NEN3610-objecttype | Functioneel object |
+| Onderdeel van NEN3610-objecttype | Functionele ruimte |
 
  
 
@@ -1313,7 +1313,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Reducering|
-| Onderdeel van NEN3610-objecttype | Functioneel object |
+| Onderdeel van NEN3610-objecttype | Functionele ruimte |
 
 **Definitie**
 
@@ -1363,7 +1363,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Valbescherming|
-| Onderdeel van NEN3610-objecttype | Functioneel object |
+| Onderdeel van NEN3610-objecttype | Functionele ruimte  |
 
  
 
@@ -1407,7 +1407,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 | SOR-begrip   | Afscheiding |
-| Onderdeel van NEN3610-objecttype | Functioneel object |
+| Onderdeel van NEN3610-objecttype | Functionele ruimte |
 
 
 **Definitie**

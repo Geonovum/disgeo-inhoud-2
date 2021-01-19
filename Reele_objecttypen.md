@@ -1190,7 +1190,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Klasse  | Naam  |
 |---|---|
 |SOR-begrip   | Open bouwwerk |
-| Onderdeel van NEN3610-objecttype |constructie  |
+| Onderdeel van NEN3610-objecttype |Constructie  |
 
 **Definitie**
 
