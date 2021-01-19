@@ -17,7 +17,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Rijk |
 |---|---|
-| Definitie | Het grondgebied van het Koninkrijk der Nederlanden*|
+| Definitie | Registratieve ruimte die het grondgebied van het Koninkrijk der Nederlanden betreft|
 |Herkomst definitie  | BRK  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster.  |
@@ -64,7 +64,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Provincie |
 |---|---|
-| Definitie | Een provincie is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet.|
+| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland betreft, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet.|
 |Herkomst definitie  | Grondwet en Provinciewet  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster.  |
@@ -110,7 +110,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Waterschap |
 |---|---|
-| Definitie | Een waterschap is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet.|
+| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland, betreft onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet.|
 |Herkomst definitie  | Grondwet en Waterschapswet.  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen.  |
@@ -157,7 +157,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Gemeente |
 |---|---|
-| Definitie | Een gemeente is een afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet.|
+| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland betreft, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet.|
 |Herkomst definitie  | Grondwet en Gemeentewet.  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster. |
@@ -205,7 +205,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nederlandse territoriale zee |
 |---|---|
-| Definitie | De Nederlandse territoriale zee is het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
+| Definitie | Registratieve ruimte die de Nederlandse territoriale zee betreft vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
 |Herkomst definitie  | Wet grenzen Nederlandse territoriale zee.  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de territoriale zee zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
@@ -246,7 +246,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nederlandse aansluitende zone |
 |---|---|
-| Definitie | De Nederlandse aansluitende zone is het gebied buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan 24 zeemijlen vanaf de laagwaterlijn.|
+| Definitie | Registratieve ruimte die de Nederlandse aansluitende zone betreft buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan 24 zeemijlen vanaf de laagwaterlijn.|
 |Herkomst definitie  | Rijkswet instelling aansluitende zone.  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de aansluitende zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
@@ -293,7 +293,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nederlandse exclusieve economische zone |
 |---|---|
-| Definitie | De Nederlandse exclusieve economische zone is het gebied buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan tweehonderd zeemijlen vanaf de laagwaterlijn.|
+| Definitie | Registratieve ruimte die de Nederlandse exclusieve economische zone betreft buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan tweehonderd zeemijlen vanaf de laagwaterlijn.|
 |Herkomst definitie  | Rijkswet instelling exclusieve economische zone.  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de Nederlandse exclusieve economische zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
@@ -338,7 +338,7 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 
 | Naam  | Woonplaats  |
 |---|---|
-| Definitie | Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente  |
+| Definitie | Registratieve ruimte die door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente is  |
 |Herkomst definitie  | Artikel 1 wet Basisregistratie adressen en gebouwen    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen   |
@@ -380,7 +380,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Wijk  |
 |---|---|
-| Definitie | Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken |
+| Definitie | Registratieve ruimte die een aaneengesloten gedeelte van het grondgebied van een gemeente betreft, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken |
 |Herkomst definitie  | GFO Basisgegevens   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Wijken zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) wijken vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van wijken in de objectenregistratie ontstaat een formele vastlegging van wijken.  |
@@ -428,7 +428,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Buurt  |
 |---|---|
-| Definitie | Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen   |
+| Definitie | Registratieve ruimte die een aaneengesloten gedeelte van een wijk betreft, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen   |
 |Herkomst definitie  | GFO Basisgegevens   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Buurten zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) buurten vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van buurten in de objectenregistratie ontstaat een formele vastlegging van buurten.   |
@@ -476,7 +476,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Openbare ruimte  |
 |---|---|
-| Definitie | Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen  |
+| Definitie | Registratieve ruimte die een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte is die binnen één woonplaats is gelegen  |
 |Herkomst definitie  | Artikel 1 wet Basisregistratie adressen en gebouwen   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | De populatie van openbare ruimten wijzigt als gevolg van de inperking van het aantal typen objecten waaraan een formele benaming van een openbare ruimte kan worden gekoppeld tot wegen en waterelementen |
@@ -537,7 +537,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nummeraanduiding  |
 |---|---|
-| Definitie | Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject of een benoemde plaats.  |
+| Definitie | Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject of een benoemde plaats.  |
 |Herkomst definitie  | Gebaseerd op Artikel 1 wet Basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen  |
@@ -588,7 +588,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Benoemde plaats |
 |---|---|
-| Definitie | Door het bevoegde gemeentelijk orgaan als zodanig aangewezen delen van een terrein en/of water waarvan het belang is daaraan een adres toe te kennen en dat bedoeld is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden ruimte, het permanent afmeren van een drijvend object of het permanent aanwezig zijn van specifieke technische voorzieningen.  |
+| Definitie | Registratieve ruimte die door het bevoegde gemeentelijk orgaan als zodanig aangewezen delen van een terrein en/of water betreft waarvan het belang is daaraan een adres toe te kennen en dat bedoeld is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden ruimte, het permanent afmeren van een drijvend object of het permanent aanwezig zijn van specifieke technische voorzieningen.  |
 |Herkomst definitie  | Gebaseerd op artikel 1 wet Basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Stand- en ligplaatsen worden momenteel door gemeenten afgebakend in het kader van de BAG. Dit meer generieke object biedt ook mogelijkheden voor andere objecten (zoals onbemande tankstations).  |
