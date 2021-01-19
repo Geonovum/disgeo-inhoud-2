@@ -382,7 +382,7 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | wegmarkering                  | *vervalt waarschijnlijk*                  |
 |                                | Niet BGT | wildrooster                   | functionele wegzone:  type wildrooster    |
 |                                | Niet BGT | rooster                       | *vervalt waarschijnlijk*                  |
-|                                | Niet BGT | geleideconstructie            | geleider: geleideconstructie              |
+|                                | Niet BGulT | geleideconstructie            | geleider: geleideconstructie              |
 |                                | Niet BGT | balustrade                    | gesplitst: hek en functie: valbescherming |
 |                                | Niet BGT | boomspiegel                   | *vervalt waarschijnlijk*                  |
 |                                | Niet BGT | verblindingswering            | geleider: verblindingswering              |
@@ -485,10 +485,7 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Polder
 - Relief
 
-> Vraag in de consultatie:
->
-> Er wordt overwogen om bovenstaande zaken nieuw op te nemen in de SOR. Vindt u dit een goed voorstel? Kunt u voor de voor u relevante wijzigingen aangeven voor welke gebruikstoepassingen deze opname van belang is?
->
+
 
 ### Niet opnemen in SOR
 
@@ -521,16 +518,5 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 -	op talud
 
 
-> 
-> Vraag in de consultatie:
->
-> Er wordt overwogen om bovenstaande objecten en typeringen niet meer op te nemen in de SOR. Als u denkt dat het verwijderen van objecttype(n) tot problemen gaat leiden, kunt u dan toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie uit andere bronnen afgeleid kan worden?
->
       
-     
-> 
-> Vraag in de consultatie:
->
-> Als u van mening bent dat kruinlijnen en op talud niet gemist kunnen worden, kunt u dan toelichten voor welke gebruikstoepassingen deze informatie gebruikt wordt en of deze informatie ook uit andere bronnen afgeleid kan worden?
->
 
