@@ -1,7 +1,6 @@
-## Geografische objecttypen
+## Geografische ruimten
 
  
-
 ### Bebouwingskern
 
 Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”

@@ -1,10 +1,8 @@
-## Registratieve objecttypen
+## Registratieve ruimten
 
 
- 
 
 ### Bestuurlijke gebieden
-
 
 
 #### Rijk

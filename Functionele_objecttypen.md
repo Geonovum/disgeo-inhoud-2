@@ -1,10 +1,7 @@
-## Functionele objecttypen
-
-
+## Functionele ruimten
  
 
 ### Transportvoorzieningen
-
 
 
 #### Weg
