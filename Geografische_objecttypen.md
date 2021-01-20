@@ -2,13 +2,13 @@
 
  
 
-### bebouwingskern
+### Bebouwingskern
 
 Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
-| Naam  | bebouwingskern  |
+| Naam  | Bebouwingskern  |
 |---|---|
 | Definitie |Geografische ruimte die gekenmerkt wordt door een concentratie van gebouwen   |
 |Herkomst definitie  | Gebaseerd op definitie Plaats in BRT  |
