@@ -425,7 +425,7 @@ De transponering vanuit de BRT zal op een later moment worden toegevoegd op basi
 ### Nieuw in de SOR
 Nieuw in de SOR gezien vanuit de BGT en BAG:
 
-**Reële objecttypen:**
+**Reële objecten:**
 
 - Onbegroeide grond
 - Bomenrij
@@ -434,7 +434,7 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Ruimte
 - Gebouwcomponent: dakkapel
 - Toegangsdeur
-- Openbouwwerk: parkeergarage
+- Open bouwwerk: parkeergarage
 - Kunstwerkdeel: sluisdeur
 - Kunstwerkdeel: kolk
 - Kerende kunstwerken: schot
@@ -444,12 +444,12 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Installatie: oplaadpunt
 - Kast: pakketautomaat
 
-**Functionele objecttypen:**
+**Functionele ruimten:**
 
-- Transportvoorzieningen: weg
-- Transportvoorzieningen: spoorweg
-- Transportvoorzieningen: vaarweg
-- Transportvoorzieningen: watersysteem
+- Transportruimten: weg
+- Transportruimten: spoorweg
+- Transportruimten: vaarweg
+- Transportruimten: watersysteem
 - Gebouwzone
 - Verkeerskundig functionele zone: transferium
 - Verkeerskundig functionele zone: snellaadstation
@@ -461,7 +461,7 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Valbescherming
 - Afscheiding
 
-**Registratieve objecttypen:**
+**Registratieve ruimten:**
 
 - Rijk
 - Provincie
@@ -473,9 +473,9 @@ Nieuw in de SOR gezien vanuit de BGT en BAG:
 - Wijk
 - Buurt
 
-**Geografische objecttypen:**
+**Geografische ruimten:**
 
-- Bebouwde kom
+- Bebouwdingskern
 - Streek
 - Bosgebied
 - Duingebied
