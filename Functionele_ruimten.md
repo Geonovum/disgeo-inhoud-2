@@ -1,7 +1,7 @@
 ## Functionele ruimten
  
 
-### Transportvoorzieningen
+### Transportruimten
 
 
 #### Weg

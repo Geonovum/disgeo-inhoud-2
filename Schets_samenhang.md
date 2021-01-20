@@ -62,8 +62,13 @@ Deze benadering betekent ook dat ervoor is gekozen om in de eerste opzet van het
 
 ### Overzicht van de SOR-begrippen
 
-![SOR- reele objecten model NEN3610](media/SOR_reele_objecten.png)
+Overzicht met reële objecten:
 
+![SOR-reele objecten](media/SOR_reele_objecten.png)
+
+Overzicht met functionele ruimten:
+
+![SOR-functionele ruimten](media/SOR_functionele_ruimten.png)
 
 In aansluiting op de voorgestelde ordening van objecttypen in NEN 3610 en het eerder opgestelde conceptueel denkraam, wordt in de inhoud van de SOR een onderscheid gemaakt tussen reële objecttypen (voorheen fysieke objecttypen) en virtuele objecttypen (waaronder de functionele objecttypen en de registratieve objecttypen). Bij de verdere uitwerking van de inhoud is geconstateerd dat daaraan nog een aantal geografische objecttypen moeten worden toegevoegd. Alle hierbij behorende SOR-begrippen zijn in de hierna volgende hoofdstukken verder uitgewerkt. Het gaat daarbij om een aanzienlijk aantal begrippen.
 
