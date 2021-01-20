@@ -24,8 +24,6 @@ In de volgende hoofdstukken is daarom telkens aangegeven hoe SOR-begrippen zich 
 
   
 
-De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptueel model als volgt (voorlopig) gedefinieerd:
-
 | Begrip  | Definitie  |
 |---|---|
 |Geo-object| Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde|
@@ -38,16 +36,16 @@ De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptu
 |Kunstwerk|	Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen|
 |Verharding|	Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakte oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal|
 |Leiding|	Een geheel van geleiders of ruimte welke voorzien zijn van één ommanteling en bestemd is voor transport van materie, data of energie|
-|**Virtueel object**|	Geo-object waarvan geen tastbaar, zichtbaar en begrensd fenomeen in de werkelijkheid aanwezig is, maar die slechts in abstracte en/of geregistreerde vorm bestaat|
-|Functioneel object|	Object met een specifieke functie|
-|Transport voorziening|	Natuurlijke of aangelegde transportlijnen of verbindingen met knooppunten waarlangs stromen zich verplaatsen|
-|Weg|	Transport voorziening voor wegverkeer|
-|Vaarweg|	Transport voorziening voor scheepvaart|
-|Spoorweg|	Transport voorziening voor voertuigen die zich over rails verplaatsen|
-|Waterelement	|Transport voorziening voor water|
-|Registratief object|	Op basis van wet- of regelgeving afgebakend object dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering|
-|Geografisch object|	Object dat bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent|
-|Juridisch werkingsgebied| Gebied waar een juridisch instrument beleid of regelgeving toepast|
+|**Virtuele ruimte**|	Geo-object waarvan geen tastbaar, zichtbaar en begrensd fenomeen in de werkelijkheid aanwezig is, maar die slechts in abstracte en/of geregistreerde vorm bestaat|
+|Functionele ruimte|	Ruimte met een specifieke functie|
+|Transportruimte|	Natuurlijke of aangelegde transportlijnen of verbindingen met knooppunten waarlangs stromen zich verplaatsen|
+|Wegverkeerruimte|	Transportruimte voor voertuigen die zich over wegen verplaatsen|
+|Scheepvaartruimte|	Transportruimte voor voertuigen die zich over water verplaatsen|
+|Spoorverkeerruimte|	Transportruimte voor voertuigen die zich over rails verplaatsen|
+|Waterruimte	|Transportruimte waardoor water zich verplaatst|
+|Registratieve ruimte|	Op basis van wet- of regelgeving afgebakende ruimte die als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering|
+|Geografische ruimte|	Ruimte die bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent|
+|Juridische ruimte| Gebied waar een juridisch instrument beleid of regelgeving toepast|
 
 ### Aansluiting sectormodellen
 
