@@ -14,14 +14,14 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 |Herkomst definitie  | Gebaseerd op definitie Plaats in BRT  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | In de BRT zijn al plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. De plaatsen worden in de vorm van bebouwingskernen ook opgenomen in de objectenregistratie.   |
-|Toelichting| Met bebouwingskernen kan een algemeen toepasbaar onderscheid worden aangebracht tussen bebouwd gebied en het buitengebied. Tot het buitengebied kan dan worden gerekend al het gebied dat niet behoort tot een bebouwingskern, De bebouwingskern (zonder juridische status) moet niet worden verward met bebouwde kommen (die wel een juridische grondslag kennen in specifieke wetgeving). Hierbij kan worden gedacht aan de bebouwde kom in het kader van Wegenverkeerswet, Wegenwet, Wet natuurbescherming en Omgevingswet. De diversiteit in achterliggende doelstellingen van genoemde wetgeving maakt het op dit moment niet mogelijk te komen tot één uniform en breed bruikbaar begrip bebouwde kom. |
+|Toelichting| Met bebouwingskernen kan een algemeen toepasbaar onderscheid worden aangebracht tussen bebouwd gebied en het buitengebied. Tot het buitengebied kan dan worden gerekend al het gebied dat niet behoort tot een bebouwingskern, De bebouwingskern (zonder juridische status) moet niet worden verward met bebouwde kommen (die wel een juridische grondslag kennen in specifieke wetgeving). Hierbij kan worden gedacht aan de bebouwde kom in het kader van Wegenverkeerswet, Wegenwet, Wet natuurbescherming en Omgevingswet. De diversiteit in achterliggende doelstellingen van genoemde wetgeving maakt het op dit moment niet mogelijk te komen tot één uniform en breed bruikbaar begrip bebouwde kom. Deze bebouwde kommen maken dan ook geen onderdeel uit van de SOR.|
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van de bebouwingskern  |Ja |
-|Naam   |De plaatselijke naam van de bebouwingskern zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat  |Ja   |
+|Identificatie   |De unieke aanduiding van een bebouwingskern  |Ja |
+|Naam   |De plaatselijke naam van een bebouwingskern zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat  |Ja   |
 |Alternatieve naam   | Een alternatieve benaming van een bebouwingskern zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries) |Nee   |
 |Geometrie   |De geometrische representatie van de randen van een bebouwingskern   |Ja   |
 |Type |Het hoofdkarakter van het gebied dat een bebouwingskern vormt |Ja |
@@ -49,11 +49,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 |Stadsdeel | Binnen een andere bebouwingskern gelegen ruimtelijk samenhangend en van een overkoepelende naam voorzien gebied |
 
 Toelichting:
-Woonkernen, industriekernen, recreatiekernen, gehuchten en buurtschappen zijn in het buitengebied gelegen zelfstandige kernen. Deelkernen en stadsdelen zijn kernen die zich bevinden binnen de begrenzing van een andere bebouwingskern. Voor het concreet vaststellen van de typering zullen op een later moment inwinningsregels worden vastgelegd.
+Woonkernen, industriekernen, recreatiekernen, gehuchten en buurtschappen zijn in het buitengebied gelegen zelfstandige kernen. Deelkernen en stadsdelen zijn kernen die zich bevinden binnen de begrenzing van een andere bebouwingskern. Voor het concreet vaststellen van de typering zullen op een later moment inwinningsregels worden vastgelegd. 
 
-*status*
+*Status*
 
-Deze eigenschap kan alle waarden aannemen die in paragraaf  [Levensfasen](#levensfasen) bij de levensfase van geografische ruimten zijn benoemd.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen)van geografische ruimten zijn benoemd.
 
 
 ### Streek
