@@ -208,6 +208,89 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is|
 
 
+### Bodem
+
+
+#### Onbegroeide grond
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
+
+
+**Definitie**
+
+| Naam  | Onbegroeide grond |
+|---|---|
+| Definitie |bodem die het bovenste deel van het natuurlijke aardoppervlak betreft|
+| Herkomst definitie  | Gebaseerd op definitie van bodem in concept NEN3610 2020|
+| Verplicht  | Ja  |
+| Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen  type *onverhard* van wegen en terreinen in de basisregistratie grootschalige topografie|
+| Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van onbegroeide grond|Ja |
+|Geometrie| De geometrische representatie van de randen van onbegroeide grond|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt|Ja   |
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte|
+
+
+
+### Onbepaald terreindeel
+
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
+
+ 
+
+**Definitie**
+
+| Naam  | Onbepaald terreindeel  |
+|---|---|
+| Definitie | Bodem die fysiek begrensd en zichtbaar is en bij een gebouw hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van begroeiing, verharding en/of water|
+|Herkomst definitie  | Gebaseerd op definitie van erf in BGT    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting| In plaats van onbepaald terreindeel kan ter plaatse ook de Reële topografie worden ingewonnen (vrijwillig)|
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een onbepaald terreindeel|Ja |
+|Geometrie|De geometrische representatie van de randen van een onbepaald terreindeel|Ja (vlak)|
+|Status   |De fase van de levenscyclus waarin het betreffende onbepaalde terreindeel zich bevindt|Ja   |
+
+
+
+**Domeinwaarden**
+
+*status*
+
+Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+
+|Waarde Status| 
+|---|
+|Gepland|	
+|Bestaand|	
+|Verwijderd|
+|Niet gerealiseerd|
+|Ten onrechte|
+
 
 
 ### Begroeiing
@@ -340,46 +423,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte|	
 
-
-
-
-#### Onbegroeide grond
-
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
-
-
-**Definitie**
-
-| Naam  | Onbegroeide grond |
-|---|---|
-| Definitie |bodem die het bovenste deel van het natuurlijke aardoppervlak betreft|
-| Herkomst definitie  | Gebaseerd op definitie van bodem in concept NEN3610 2020|
-| Verplicht  | Ja  |
-| Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen  type *onverhard* van wegen en terreinen in de basisregistratie grootschalige topografie|
-| Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van onbegroeide grond|Ja |
-|Geometrie| De geometrische representatie van de randen van onbegroeide grond|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt|Ja   |
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 
 
@@ -793,7 +836,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Betreffende soortnaam uit ‘Naamlijst van houtige gewassen en vaste planten’|
 
 
-### Bebouwing
+### Gebouw
 
 
 
@@ -2112,47 +2155,6 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|
 |Ten onrechte|
 
-
-
-### Onbepaald terreindeel
-
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
-
- 
-
-**Definitie**
-
-| Naam  | Onbepaald terreindeel  |
-|---|---|
-| Definitie | Bodem die fysiek begrensd en zichtbaar is en bij een gebouw hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van begroeiing, verharding en/of water|
-|Herkomst definitie  | Gebaseerd op definitie van erf in BGT    |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| In plaats van onbepaald terreindeel kan ter plaatse ook de Reële topografie worden ingewonnen (vrijwillig)|
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een onbepaald terreindeel|Ja |
-|Geometrie|De geometrische representatie van de randen van een onbepaald terreindeel|Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende onbepaalde terreindeel zich bevindt|Ja   |
-
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 
 
