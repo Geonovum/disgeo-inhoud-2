@@ -2,30 +2,30 @@
 
  
 
-### Bebouwde kern
+### bebouwingskern
 
 Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
-| Naam  | Bebouwde kern  |
+| Naam  | bebouwingskern  |
 |---|---|
 | Definitie |Geografische ruimte die gekenmerkt wordt door een concentratie van gebouwen   |
 |Herkomst definitie  | Gebaseerd op definitie Plaats in BRT  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | In de BRT zijn al plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. De plaatsen worden in de vorm van bebouwde kernen ook opgenomen in de objectenregistratie.   |
-|Toelichting| Met bebouwde kernen kan een algemeen toepasbaar onderscheid worden aangebracht tussen bebouwd gebied en het buitengebied. Tot het buitengebied kan dan worden gerekend al het gebied dat niet behoort tot een bebouwde kern, De bebouwde kern (zonder juridische status) moet niet worden verward met bebouwde kommen (die wel een juridische grondslag kennen in specifieke wetgeving). Hierbij kan worden gedacht aan de bebouwde kom in het kader van Wegenverkeerswet, Wegenwet, Wet natuurbescherming en Omgevingswet. De diversiteit in achterliggende doelstellingen van genoemde wetgeving maakt het op dit moment niet mogelijk te komen tot één uniform en breed bruikbaar begrip bebouwde kom. |
+|Gevolgen afbakening  | In de BRT zijn al plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. De plaatsen worden in de vorm van bebouwingskernen ook opgenomen in de objectenregistratie.   |
+|Toelichting| Met bebouwingskernen kan een algemeen toepasbaar onderscheid worden aangebracht tussen bebouwd gebied en het buitengebied. Tot het buitengebied kan dan worden gerekend al het gebied dat niet behoort tot een bebouwingskern, De bebouwingskern (zonder juridische status) moet niet worden verward met bebouwde kommen (die wel een juridische grondslag kennen in specifieke wetgeving). Hierbij kan worden gedacht aan de bebouwde kom in het kader van Wegenverkeerswet, Wegenwet, Wet natuurbescherming en Omgevingswet. De diversiteit in achterliggende doelstellingen van genoemde wetgeving maakt het op dit moment niet mogelijk te komen tot één uniform en breed bruikbaar begrip bebouwde kom. |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een bebouwde kern  |Ja |
-|Naam   |De plaatselijke naam van de bebouwde kern zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.   |Ja   |
-|Alternatieve naam   | Een alternatieve benaming van een bebouwde kern zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries). |Nee   |
-|Geometrie   |De geometrische representatie van de randen van een bebouwde kern   |Ja   |
-|Type |Het hoofdkarakter van het gebied dat een bebouwde kern vormt |Ja |
-|Status   |De fase van de levenscyclus waarin een bebouwde kern zich bevindt    |Ja   |
+|Identificatie   |De unieke aanduiding van de bebouwingskern  |Ja |
+|Naam   |De plaatselijke naam van de bebouwingskern zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat  |Ja   |
+|Alternatieve naam   | Een alternatieve benaming van een bebouwingskern zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries) |Nee   |
+|Geometrie   |De geometrische representatie van de randen van een bebouwingskern   |Ja   |
+|Type |Het hoofdkarakter van het gebied dat een bebouwingskern vormt |Ja |
+|Status   |De fase van de levenscyclus waarin een bebouwingskern zich bevindt    |Ja   |
 
 
 **Relaties met andere objecttypen**
@@ -36,27 +36,24 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
+*Type* 
+
 | Waarde  | Beschrijving Type  |
 |---|---|
-|Woonkern  | Van openbare wegen voorziene bebouwde kern dat voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen
-   |
-|Industriekern  |Van openbare wegen voorziene bebouwde kern dat voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten
-  |
-|Recreatiekern  |bebouwde kern dat voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor (verblijfs)recreatie
- |
-|Gehucht  |Kleine bebouwde kern die bestaat uit een concentratie van aaneengesloten bebouwing,    |
-|Buurtschap  |Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang die gezamenlijk een bebouwde kern vormen |
-|deelkern  |Ruimtelijk van omliggende bebouwing te onderscheiden historische bebouwde kern, die is gelegen binnen een andere bebouwde kern   |
+|Woonkern  | Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen    |
+|Industriekern  |Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten   |
+|Recreatiekern  |Bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor (verblijfs)recreatie  |
+|Gehucht  |Kleine bebouwingskern die bestaat uit een concentratie van aaneengesloten bebouwing    |
+|Buurtschap  |Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang die gezamenlijk een bebouwingskern vormen |
+|Deelkern  |Ruimtelijk van omliggende bebouwing te onderscheiden historische bebouwingskern, die is gelegen binnen een andere bebouwingskern   |
+|Stadsdeel | Binnen een andere bebouwingskern gelegen ruimtelijk samenhangend en van een overkoepelende naam voorzien gebied |
+
+Toelichting:
+Woonkernen, industriekernen, recreatiekernen, gehuchten en buurtschappen zijn in het buitengebied gelegen zelfstandige kernen. Deelkernen en stadsdelen zijn kernen die zich bevinden binnen de begrenzing van een andere bebouwingskern. Voor het concreet vaststellen van de typering zullen op een later moment inwinningsregels worden vastgelegd.
 
 *status*
 
-| Waarde  | Beschrijving Status  |
-|---|---|
-|Gepland | Een object waarvan de vorming wordt voorbereid|
-|Bestaand | Een object dat als zodanig wordt onderscheiden|
-|Verwijderd | Een object dat niet langer als zodanig wordt aangemerkt|
-|Niet gerealiseerd | Een gepland object dat niet als zodanig is gerealiseerd|
-|Ten onrechte | Een object dat ten onrechte is opgevoerd in de registratie|
+Deze eigenschap kan alle waarden aannemen die in paragraaf 3.6.6 bij de levensfase van geografische ruimten zijn benoemd.
 
 
 ### Streek
