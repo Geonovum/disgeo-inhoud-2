@@ -2,7 +2,7 @@
 
 
 
-### Bestuurlijke gebieden
+### Bestuurlijk gebied
 
 
 #### Rijk
