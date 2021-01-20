@@ -53,7 +53,7 @@ Woonkernen, industriekernen, recreatiekernen, gehuchten en buurtschappen zijn in
 
 *status*
 
-Deze eigenschap kan alle waarden aannemen die in paragraaf 3.6.6 bij de levensfase van geografische ruimten zijn benoemd.
+Deze eigenschap kan alle waarden aannemen die in paragraaf  [Levensfasen](#levensfasen) bij de levensfase van geografische ruimten zijn benoemd.
 
 
 ### Streek
