@@ -62,7 +62,7 @@ Deze benadering betekent ook dat ervoor is gekozen om in de eerste opzet van het
 
 ### Overzicht van de SOR-begrippen
 
-Overzicht met reële objecten:
+Overzicht met reële objecten: 
 
 ![SOR-reele objecten](media/SOR_reele_objecten.png)
 
