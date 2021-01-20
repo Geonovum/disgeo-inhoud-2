@@ -1218,7 +1218,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Onverhard| Onverhard oppervlakte bestaande uit natuurlijke materialen, voorzien van een fundering|
 
 
-### Kunstwerken
+### Kunstwerk
 #### Overbrugging
 
 Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
