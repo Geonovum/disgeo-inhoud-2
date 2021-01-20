@@ -18,8 +18,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 | Definitie | Registratieve ruimte die het grondgebied van het Koninkrijk der Nederlanden betreft*|
 |Herkomst definitie  | BRK  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster.  |
-|Toelichting| *Dit betreft in eerste instantie het Europese deel. Over het niet-Europese deel zal nog nadere besluitvorming plaatsvinden.|
+|Gevolgen afbakening  | Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster|
+|Toelichting| *Dit betreft in eerste instantie het Europese deel. Over het niet-Europese deel zal nog nadere besluitvorming plaatsvinden|
 
 . 
 
@@ -30,9 +30,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het Rijk |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Rijk is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het Rijk zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Rijk is benoemd|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het Rijk zich bevindt|Ja   |
+|Landcode | De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 
@@ -62,10 +62,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Provincie |
 |---|---|
-| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland betreft, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet.|
+| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland betreft, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet|
 |Herkomst definitie  | Grondwet en Provinciewet  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster.  |
+|Gevolgen afbakening  | Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster|
 |Toelichting| |
 
 **Eigenschappen**
@@ -73,10 +73,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van de Provincie |Ja |
-|Provinciecode|	De codering van een provincie zoals deze door het CBS wordt gebruikt.|Ja   |
-|Provincienaam|	De naam van een provincie zoals formeel benoemd door het bevoegd gezag.|Ja   |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Provincie is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Provincie zich bevindt.  |Ja   |
+|Provinciecode|	De codering van een provincie zoals deze door het CBS wordt gebruikt|Ja   |
+|Provincienaam|	De naam van een provincie zoals formeel benoemd door het bevoegd gezag|Ja   |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Provincie is benoemd|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Provincie zich bevindt|Ja   |
 
 
 
@@ -108,11 +108,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Waterschap |
 |---|---|
-| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland, betreft onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet.|
-|Herkomst definitie  | Grondwet en Waterschapswet.  |
+| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland, betreft onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet|
+|Herkomst definitie  | Grondwet en Waterschapswet|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen.  |
-|Toelichting|In een latere fase moet nog worden bepaald welke gebiedsbegrenzing wordt vastgelegd (de administratieve gebiedsbegrenzing of het reglementsgebied). |
+|Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen|
+|Toelichting|In een latere fase moet nog worden bepaald welke gebiedsbegrenzing wordt vastgelegd (de administratieve gebiedsbegrenzing of het reglementsgebied)|
 
 
 
@@ -123,10 +123,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van het waterschap |Ja |
-|Waterschapscode|	De codering van een waterschap zoals deze door het CBS wordt gebruikt.|Ja   |
-|Waterschapsnaam|	De naam van een waterschap zoals formeel benoemd door het bevoegd gezag.|Ja   |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als waterschap is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het waterschap zich bevindt.  |Ja   |
+|Waterschapscode|	De codering van een waterschap zoals deze door het CBS wordt gebruikt|Ja   |
+|Waterschapsnaam|	De naam van een waterschap zoals formeel benoemd door het bevoegd gezag|Ja   |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als waterschap is benoemd|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin het waterschap zich bevindt|Ja   |
 
 
 
@@ -155,10 +155,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Gemeente |
 |---|---|
-| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland betreft, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet.|
-|Herkomst definitie  | Grondwet en Gemeentewet.  |
+| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland betreft, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet|
+|Herkomst definitie  | Grondwet en Gemeentewet|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster. |
+|Gevolgen afbakening  | Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster|
 |Toelichting| |
 
 **Eigenschappen**
@@ -166,12 +166,12 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van de gemeente |Ja |
-|Gemeentecode|	De codering van een gemeente zoals deze door het CBS wordt gebruikt.|Ja |
-|Formele naam|	De naam van een gemeente zoals formeel benoemd door het bevoegd gezag.|Ja |
+|Gemeentecode|	De codering van een gemeente zoals deze door het CBS wordt gebruikt|Ja |
+|Formele naam|	De naam van een gemeente zoals formeel benoemd door het bevoegd gezag|Ja |
 |Alternatieve naam|	Een alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als gemeente is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de gemeente zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+|Geometrie| De geometrische representatie van de randen van het gebied dat als gemeente is benoemd|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de gemeente zich bevindt|Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 **Relaties met andere objecttypen** 
@@ -203,10 +203,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nederlandse territoriale zee |
 |---|---|
-| Definitie | Registratieve ruimte die de Nederlandse territoriale zee betreft vanaf de laagwaterlijn tot 12 zeemijl uit de kust.|
-|Herkomst definitie  | Wet grenzen Nederlandse territoriale zee.  |
+| Definitie | Registratieve ruimte die de Nederlandse territoriale zee betreft vanaf de laagwaterlijn tot 12 zeemijl uit de kust|
+|Herkomst definitie  | Wet grenzen Nederlandse territoriale zee|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de territoriale zee zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Gevolgen afbakening  | Het betreft hier de territoriale zee zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie|
 |Toelichting| |
 
 **Eigenschappen**
@@ -214,9 +214,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van de Nederlandse territoriale zee |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse territoriale zee is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse territoriale zee is benoemd|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt|Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 
@@ -244,10 +244,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nederlandse aansluitende zone |
 |---|---|
-| Definitie | Registratieve ruimte die de Nederlandse aansluitende zone betreft buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan 24 zeemijlen vanaf de laagwaterlijn.|
-|Herkomst definitie  | Rijkswet instelling aansluitende zone.  |
+| Definitie | Registratieve ruimte die de Nederlandse aansluitende zone betreft buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan 24 zeemijlen vanaf de laagwaterlijn|
+|Herkomst definitie  | Rijkswet instelling aansluitende zone|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de aansluitende zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Gevolgen afbakening  | Het betreft hier de aansluitende zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie|
 |Toelichting| |
 
 **Eigenschappen**
@@ -255,9 +255,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van de Nederlandse aansluitende zone |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse aansluitende zone is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse aansluitende zone is benoemd|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt|Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 
@@ -291,10 +291,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nederlandse exclusieve economische zone |
 |---|---|
-| Definitie | Registratieve ruimte die de Nederlandse exclusieve economische zone betreft buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan tweehonderd zeemijlen vanaf de laagwaterlijn.|
-|Herkomst definitie  | Rijkswet instelling exclusieve economische zone.  |
+| Definitie | Registratieve ruimte die de Nederlandse exclusieve economische zone betreft buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan tweehonderd zeemijlen vanaf de laagwaterlijn|
+|Herkomst definitie  | Rijkswet instelling exclusieve economische zone|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de Nederlandse exclusieve economische zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.  |
+|Gevolgen afbakening  | Het betreft hier de Nederlandse exclusieve economische zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie|
 |Toelichting| |
 
 **Eigenschappen**
@@ -302,9 +302,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van de Nederlandse exclusieve economische zone |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse exclusieve economische zone is benoemd. |Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt.  |Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt.|Ja|
+|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse exclusieve economische zone is benoemd|Ja (vlak)|
+|Status   | De fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt|Ja   |
+| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 
@@ -381,7 +381,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 | Definitie | Registratieve ruimte die een aaneengesloten gedeelte van het grondgebied van een gemeente betreft, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken |
 |Herkomst definitie  | GFO Basisgegevens   |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Wijken zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) wijken vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van wijken in de objectenregistratie ontstaat een formele vastlegging van wijken.  |
+|Gevolgen afbakening  | Wijken zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) wijken vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van wijken in de objectenregistratie ontstaat een formele vastlegging van wijken|
 |Toelichting| Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken  |
 
 
@@ -429,7 +429,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 | Definitie | Registratieve ruimte die een aaneengesloten gedeelte van een wijk betreft, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen   |
 |Herkomst definitie  | GFO Basisgegevens   |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Buurten zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) buurten vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van buurten in de objectenregistratie ontstaat een formele vastlegging van buurten.   |
+|Gevolgen afbakening  | Buurten zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) buurten vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van buurten in de objectenregistratie ontstaat een formele vastlegging van buurten|
 |Toelichting| Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in buurten   |
 
 
@@ -535,7 +535,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nummeraanduiding  |
 |---|---|
-| Definitie | Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject of een benoemde plaats.  |
+| Definitie | Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject of een benoemde plaats|
 |Herkomst definitie  | Gebaseerd op Artikel 1 wet Basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen  |
@@ -586,10 +586,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Benoemde plaats |
 |---|---|
-| Definitie | Registratieve ruimte die door het bevoegde gemeentelijk orgaan als zodanig aangewezen delen van een terrein en/of water betreft waarvan het belang is daaraan een adres toe te kennen en dat bedoeld is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden ruimte, het permanent afmeren van een drijvend object of het permanent aanwezig zijn van specifieke technische voorzieningen.  |
+| Definitie | Registratieve ruimte die door het bevoegde gemeentelijk orgaan als zodanig aangewezen delen van een terrein en/of water betreft waarvan het belang is daaraan een adres toe te kennen en dat bedoeld is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden ruimte, het permanent afmeren van een drijvend object of het permanent aanwezig zijn van specifieke technische voorzieningen|
 |Herkomst definitie  | Gebaseerd op artikel 1 wet Basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Stand- en ligplaatsen worden momenteel door gemeenten afgebakend in het kader van de BAG. Dit meer generieke object biedt ook mogelijkheden voor andere objecten (zoals onbemande tankstations).  |
+|Gevolgen afbakening  | Stand- en ligplaatsen worden momenteel door gemeenten afgebakend in het kader van de BAG. Dit meer generieke object biedt ook mogelijkheden voor andere objecten (zoals onbemande tankstations)|
 |Toelichting| *volgt later* |
 
 **Eigenschappen**
@@ -597,7 +597,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een benoemde plaats  |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde ruimte is benoemd. |Ja|
+|Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde ruimte is benoemd|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende Benoemde plaats zich bevindt    |Ja   |
 |Type benoemde plaats| De aard van het object op de benoemde plaats|Ja|
 

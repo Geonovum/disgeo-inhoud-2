@@ -28,26 +28,26 @@ De daarin opgenomen begrippen waren ten tijde van het opstellen van dit conceptu
 
 | Begrip  | Definitie  |
 |---|---|
-|Geo-object| Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde.|
-|**Reëel object**|	Geo-object waarvan het fenomeen in de werkelijkheid tastbaar, zichtbaar en begrensd aanwezig is.|
-|Bodem|	Bovenste deel van het natuurlijke aardoppervlak.|
-|Water|	Oppervlak permanent bedekt met water of waarvan wordt geaccepteerd dat deze met water bedekt kan worden.|
-|Begroeiing|	Planten die op natuurlijke wijze zijn ontstaan of door mensen zijn aangeplant.|
-|Constructie|	Gebouwd object dat direct of indirect met de grond is verbonden en bedoeld is om ter plaatse te functioneren.|
-|Gebouw|	Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen.|
-|Kunstwerk|	Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen.|
-|Verharding|	Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakte oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal.|
-|Leiding|	Een geheel van geleiders of ruimte welke voorzien zijn van één ommanteling en bestemd is voor transport van materie, data of energie.|
-|**Virtueel object**|	Geo-object waarvan geen tastbaar, zichtbaar en begrensd fenomeen in de werkelijkheid aanwezig is, maar die slechts in abstracte en/of geregistreerde vorm bestaat.|
-|Functioneel object|	Object met een specifieke functie.|
-|Transport voorziening|	Natuurlijke of aangelegde transportlijnen of verbindingen met knooppunten waarlangs stromen zich verplaatsen.|
-|Weg|	Transport voorziening voor wegverkeer.|
-|Vaarweg|	Transport voorziening voor scheepvaart.|
-|Spoorweg|	Transport voorziening voor voertuigen die zich over rails verplaatsen.|
-|Waterelement	|Transport voorziening voor water.|
-|Registratief object|	Op basis van wet- of regelgeving afgebakend object dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering.|
-|Geografisch object|	Object dat bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent.|
-|Juridisch werkingsgebied| Gebied waar een juridisch instrument beleid of regelgeving toepast.|
+|Geo-object| Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde|
+|**Reëel object**|	Geo-object waarvan het fenomeen in de werkelijkheid tastbaar, zichtbaar en begrensd aanwezig is|
+|Bodem|	Bovenste deel van het natuurlijke aardoppervlak|
+|Water|	Oppervlak permanent bedekt met water of waarvan wordt geaccepteerd dat deze met water bedekt kan worden|
+|Begroeiing|	Planten die op natuurlijke wijze zijn ontstaan of door mensen zijn aangeplant|
+|Constructie|	Gebouwd object dat direct of indirect met de grond is verbonden en bedoeld is om ter plaatse te functioneren|
+|Gebouw|	Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen|
+|Kunstwerk|	Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen|
+|Verharding|	Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakte oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal|
+|Leiding|	Een geheel van geleiders of ruimte welke voorzien zijn van één ommanteling en bestemd is voor transport van materie, data of energie|
+|**Virtueel object**|	Geo-object waarvan geen tastbaar, zichtbaar en begrensd fenomeen in de werkelijkheid aanwezig is, maar die slechts in abstracte en/of geregistreerde vorm bestaat|
+|Functioneel object|	Object met een specifieke functie|
+|Transport voorziening|	Natuurlijke of aangelegde transportlijnen of verbindingen met knooppunten waarlangs stromen zich verplaatsen|
+|Weg|	Transport voorziening voor wegverkeer|
+|Vaarweg|	Transport voorziening voor scheepvaart|
+|Spoorweg|	Transport voorziening voor voertuigen die zich over rails verplaatsen|
+|Waterelement	|Transport voorziening voor water|
+|Registratief object|	Op basis van wet- of regelgeving afgebakend object dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering|
+|Geografisch object|	Object dat bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent|
+|Juridisch werkingsgebied| Gebied waar een juridisch instrument beleid of regelgeving toepast|
 
 ### Aansluiting sectormodellen
 
