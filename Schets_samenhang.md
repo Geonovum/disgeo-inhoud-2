@@ -70,6 +70,13 @@ Overzicht met functionele ruimten:
 
 ![SOR-functionele ruimten](media/SOR_functionele_ruimten.png)
 
+Overzicht met registratieve en geografische ruimten:
+
+![SOR-registratieve en geografische ruimten](media/SOR_registratieve_en_geografische_ruimten.png)
+
+
+
+
 In aansluiting op de voorgestelde ordening van objecttypen in NEN 3610 en het eerder opgestelde conceptueel denkraam, wordt in de inhoud van de SOR een onderscheid gemaakt tussen reële objecttypen (voorheen fysieke objecttypen) en virtuele objecttypen (waaronder de functionele objecttypen en de registratieve objecttypen). Bij de verdere uitwerking van de inhoud is geconstateerd dat daaraan nog een aantal geografische objecttypen moeten worden toegevoegd. Alle hierbij behorende SOR-begrippen zijn in de hierna volgende hoofdstukken verder uitgewerkt. Het gaat daarbij om een aanzienlijk aantal begrippen.
 
 Om enige ordening aan te brengen in de verschillende SOR-begrippen, zijn deze (in geaggregeerde vorm) opgenomen in het eerder opgestelde conceptueel denkraam. Hierbij ontstaat de volgende geactualiseerde versie van het conceptueel denkraam:
