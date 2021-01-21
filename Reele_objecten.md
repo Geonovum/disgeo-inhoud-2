@@ -1588,7 +1588,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 | Naam  | Muur |
 |---|---|
 | Definitie |Constructie die een relatief smal, rechtopstaand bouwwerk betreft|
-|Herkomst definitie  |Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+|Herkomst definitie  |Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type muur* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|   |
@@ -1599,25 +1599,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 | Identificatie   |De unieke aanduiding van een muur|Ja |
 | Geometrie|De geometrische representatie van een muur|Ja (lijn) Nee (vlak)|
-| Status   |De fase van de levenscyclus waarin het betreffende muur zich bevindt|Ja   |
-
-
-
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 
 #### Omheining
@@ -1633,7 +1614,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|
 | Definitie | Kunstmatige verticale constructie die bedoeld is om de toegang tot een gebied te weren|
 |Herkomst definitie  |nieuw|
-|Verplicht  | *staat ter discussie* |
+|Verplicht  | Nee |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type hek en Type draadraster, faunaraster* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting| *volgt later*  |
 
@@ -1643,23 +1624,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een omheining|Ja |
 |Geometrie|De geometrische representatie van een omheining|Ja (lijn)|
-|Status   | De fase van de levenscyclus waarin de betreffende omheining zich bevindt|Ja   |
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 
 #### Scherm
@@ -1673,7 +1637,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Scherm |
 |---|---|
-| Definitie |Constructie die lineair is en specifiek bedoeld om te reduceren|
+| Definitie |Lineaire constructie specifiek bedoeld om te reduceren|
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type geluidscherm* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -1685,24 +1649,15 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een scherm|Ja |
 |Geometrie|De geometrische representatie van een scherm|Ja (lijn)|
-|Status   |De fase van de levenscyclus waarin het betreffende scherm zich bevindt|Ja   |
-
-
-
+|Type scherm| *nog toevoegen* |Nee| 
 
 **Domeinwaarden**
 
-*status*
+|Waarde Type Scherm| Beschrijving   |
+|---|---|
+|geluid|*nog toevoegen*|
+|fijnstof|*nog toevoegen*|
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 
 
@@ -1716,8 +1671,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Afvalcontainer  |
 |---|---|
-| Definitie | Constructie die een permanent karakter heeft en dient om iets in te bergen of te verzamelen|
-|Herkomst definitie  | IMGeo 2.2  |
+| Definitie | Constructie met een permanent karakter die ient om iets in te bergen of te verzamelen|
+|Herkomst definitie  | Gebaseerd op IMGeo 2.2  |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een subset van de bestaande populatie *bak* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
@@ -1728,23 +1683,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een afvalcontainer|Ja |
 |Geometrie|De geometrische representatie van de locatie van een afvalcontainer|Ja (punt)|
-|Status   | De fase van de levenscyclus waarin de afvalcontainer zich bevindt|Ja   |
 
 
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 
 
@@ -1758,7 +1698,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Bassin  |
 |---|---|
-| Definitie | Constructie met een bekkken emt een ondoorlaatbare bodem waarin weater opgeslagen kan worden|
+| Definitie | Constructie in de vorm van een bekken met een ondoorlaatbare bodem waarin water opgeslagen kan worden|
 |Herkomst definitie  |... |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier het bassin als type overig bouwwerk zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -1770,24 +1710,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een bassin|Ja |
 |Geometrie|De geometrische representatie van de locatie van een bassin|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het bassin zich bevindt|Ja   |
-
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
 
 #### Opslagtank
 
@@ -1799,7 +1721,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Opslagtank  |
 |---|---|
-| Definitie | Constructie die een reservoir  betreft dat bovengronds is en vaak afgesloten en bestemd is voor gassen, energie of vloeistoffen|
+| Definitie | Constructie in e vorm van een bovengronds, afgeloten reservoir bestemd is voor gassen, energie of vloeistoffen|
 |Herkomst definitie  | IMGeo 2.2  |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier de opsalgtank als type overig bouwwerk zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -1811,23 +1733,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een opslagtank|Ja |
 |Geometrie|De geometrische representatie van de locatie van een opslagtank|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de opslagtank zich bevindt|Ja   |
 
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 #### Putdeksel
 
@@ -1839,9 +1745,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Putdeksel  |
 |---|---|
-| Definitie | Het afsluitende deel van een gegraven, koker of lijnvormige constructie waarin zich (vloei)stoffen kunnen bevinden|
+| Definitie | Het afsluitende deel van een toegang tot een ingegraven constructie  of netwerk|
 |Herkomst definitie  |   Afgeleid van de definitie van een put in IMGeo 2.2 |
-|Verplicht  | Nee  |
+|Verplicht  | Ja (punt)  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van de bestaande populatie *put* en van een subset van de bestaande populatie *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
 
@@ -1851,26 +1757,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een putdeksel|Ja |
 |Geometrie|De geometrische representatie van de ligging van de putdeksel|Ja (punt, lijn, vlak)|
-|Status   | De fase van de levenscyclus waarin de putdeksel zich bevindt|Ja   |
-|Type deksel|De aanduiding van het soort deksel |Ja|
-
-
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
 
 
 
@@ -1884,7 +1770,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Geleider  |
 |---|---|
-| Definitie | Constructie die is bedoeld voor de fysieke (be)geleiding van voer-, vaartuigen|
+| Definitie | Constructie bedoeld voor de fysieke (be)geleiding van voer- of vaartuigen|
 |Herkomst definitie  | nieuw    |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *waterinrichtingselementen* en *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
@@ -1896,28 +1782,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een geleider|Ja |
 |Geometrie|De geometrische representatie van de ligging van de geleider|Ja (lijn, vlak)|
-|Status   |  De fase van de levenscyclus waarin de geleider zich bevindt|Ja   |
-|Type geleider|De aanduiding van het soort geleider|Nee|
 
-
-
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
-.
 
 
 #### Installatie
@@ -1942,7 +1807,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een installatie|Ja |
 |Geometrie|De geometrische representatie van de ligging van de installatie of van de randen van de installatie|Ja (punt, lijn, vlak)|
-|Status   |  De fase van de levenscyclus waarin de installatie zich bevindt|Ja   |
+
 |Type installatie| De aanduiding van het soort installatie|Ja|
 
 
@@ -1954,30 +1819,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |hoort bij|verblijfsobject|ja|
 
 
-
-
-
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
-.
-
-|Waarde Type installatie| Beschrijving   |
-|---|---|
-|**verplicht**||
-|sirene|*nog toevoegen*|
-|verkeerslicht|*nog toevoegen*|
 |openbare verlichting|*nog toevoegen*|
 |kast|Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen|
 |**vrijwillig**||
@@ -2000,7 +1844,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Mast  |
 |---|---|
-| Definitie | Constructie die een hoge draagconstructie betreft voor een installatie of het transport van energie en elektromagnetische straling |
+| Definitie | Constructie in de vorm van een hoge draagconstructie voor een installatie of het transport van energie en elektromagnetische straling |
 |Herkomst definitie  |  nieuw   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *gebouwen*, *kunstwerkdelen* en *mast* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
@@ -2012,26 +1856,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een mast|Ja |
 |Geometrie|De geometrische representatie van de ligging van de mast of van de randen van de mast|Ja (punt, lijn, vlak)|
-|Status   | De fase van de levenscyclus waarin de mast zich bevindt|Ja   |
-|Type mast|De aanduiding van het soort mast |Ja|
-
-
-
-
-**Domeinwaarden**
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
 
 
 
@@ -2057,7 +1881,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |De unieke aanduiding van straatmeubilair|Ja |
 |Geometrie|De geometrische representatie van de locatie van het straatmeubilair|Ja (punt)|
-|Status   | De fase van de levenscyclus waarin het straatmeubilair zich bevindt|Ja   |
 |Type straatmeubilair|De aanduiding van het soort straatmeubilair |Nee|
 
 
@@ -2097,20 +1920,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |betaalautomaat|Een apparaat dat betaalkaarten en/of contant geld accepteert om betalingen uit te voeren|
 |fietsenkluis|Een kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging|
 |herdenkingsmonument|In het terrein aangelegd object ter herdenking van personen of evenementen|
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
-
 
 
 
