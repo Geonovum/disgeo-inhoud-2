@@ -616,12 +616,3 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |Aangewezen| Benoemde plaats is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | Benoemde plaats is formeel ingetrokken door het bevoegd gezag  |
 | Ten onrechte | Benoemde plaats is ten onrechte opgevoerd in de registratie |
-
-*Type*
-
-| Waarde Type benoemde plaats| Beschrijving   |
-|---|---|
-|Mobiele ruimte||
-|Drijvend object||
-|Tankstation||
-
