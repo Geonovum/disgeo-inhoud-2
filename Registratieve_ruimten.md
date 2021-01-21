@@ -40,16 +40,13 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 *status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Bij dit object kunnen  alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
+|Waarde Status|
 |---|
-|Aangewezen	|Het Rijk is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|Het Rijk is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|Het Rijk is ten onrechte opgevoerd in de registratie|
-
-
-
+|Aangewezen	|
+|Ingetrokken	|
+|Ten onrechte opgevoerd	|
 
 
 #### Provincie
@@ -87,15 +84,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
+|Waarde Status|
 |---|
-|Aangewezen	|De Provincie is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Provincie is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Provincie is ten onrechte opgevoerd in de registratie|
-
-
-
-
+|Aangewezen	|
+|Ingetrokken	|
+|Ten onrechte opgevoerd	|
 
 
 #### Waterschap
@@ -137,13 +130,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
+|Waarde Status|
 |---|
-|Aangewezen	|Het waterschap is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|Het waterschap is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|Het waterschap is ten onrechte opgevoerd in de registratie|
-
-
+|Aangewezen	|
+|Ingetrokken	|
+|Ten onrechte opgevoerd	|
 
 #### Gemeente
 
@@ -186,12 +177,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
+|Waarde Status|
 |---|
-|Aangewezen	|De Gemeente is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Gemeente is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Gemeente is ten onrechte opgevoerd in de registratie|
-
+|Aangewezen	|
+|Ingetrokken	|
+|Ten onrechte opgevoerd	|
 
 #### Nederlandse territoriale zee
 
@@ -227,11 +217,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
+|Waarde Status|
 |---|
-|Aangewezen	|De Nederlandse territoriale zee is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Nederlandse territoriale zee is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Nederlandse territoriale zee is ten onrechte opgevoerd in de registratie|
+|Aangewezen	|
+|Ingetrokken	|
+|Ten onrechte opgevoerd	|
 
 
 #### Nederlandse aansluitende zone
@@ -268,14 +258,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
+|Waarde Status|
 |---|
-|Aangewezen	|De Nederlandse aansluitende zone is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Nederlandse aansluitende zone is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Nederlandse aansluitende zone is ten onrechte opgevoerd in de registratie|
-
-
-
+|Aangewezen	|
+|Ingetrokken	|
+|Ten onrechte opgevoerd	|
 
 
 
@@ -315,11 +302,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
+|Waarde Status|
 |---|
-|Aangewezen	|De Nederlandse exclusieve economische zone is formeel aangewezen door het bevoegd gezag|
-|Ingetrokken	|De Nederlandse exclusieve economische zone is formeel ingetrokken door het bevoegd gezag|
-|Ten onrechte opgevoerd	|De Nederlandse exclusieve economische zone is ten onrechte opgevoerd in de registratie|
+|Aangewezen	|
+|Ingetrokken	|
+|Ten onrechte opgevoerd	|
 
 
 
@@ -363,11 +350,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-|Waarde Status| Beschrijving   |
-|---|---|
-| Aangewezen |Woonplaats is formeel aangewezen door het bevoegd gezag |
-| Ingetrokken | Woonplaats is formeel ingetrokken door het bevoegd gezag  |
-| Ten onrechte | Woonplaats is ten onrechte opgevoerd in de registratie |
+
 
 ### Wijk
 
@@ -410,11 +393,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-| Waarde Status | Beschrijving   |
-|---|---|
-| Aangewezen | Wijk is benoemd door het bevoegd gezag |
-| Ingetrokken | Wijk is ingetrokken door het bevoegd gezag  |
-| Ten onrechte | Wijk is ten onrechte opgevoerd in de registratie |
 
 
 ### Buurt
@@ -456,12 +434,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-| Waarde Status| Beschrijving   |
-|---|---|
-| Aangewezen | Buurt is benoemd door het bevoegd gezag |
-| Ingetrokken | Buurt is ingetrokken door het bevoegd gezag  |
-| Ten onrechte | Buurt is ten onrechte opgevoerd in de registratie |
-
 
 ### Openbare ruimte
 
@@ -473,7 +445,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 | Naam  | Openbare ruimte  |
 |---|---|
 | Definitie | Door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen |
-|Herkomst definitie  | Artikel 1 wet basisregistratie adressen en gebouwen   |
+|Herkomst definitie  | Artikel 1 Wet basisregistratie adressen en gebouwen   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | De populatie van openbare ruimten, zoals deze momenteel is opgenomen in de basisregistratie adressen en gebouwen, wijzigt als gevolg van de inperking van het aantal typen objecten waaraan een formele benaming van een openbare ruimte kan worden gekoppeld |
 |Toelichting| Openbare ruimten worden uitsluitend gekoppeld aan wegverbindingen en waterverbindingen door het bij deze verbindingen opnemen van een verwijzing naar de identificatiecode van de openbare ruimte waarbinnen deze verbinding is gelegen. De naamgeving van de andere objecttypen die momenteel nog van een formele openbare ruimte naam kunnen worden voorzien, wordt geregistreerd door het op vrijwillige basis bij deze objecttypen opnemen van een eigenschap “naam”. Het gaat daarbij om spoorverbindingen, kunstwerken, geografische gebieden en functionele gebieden. Door deze wijze van koppeling aan wegverbindingen en waterverbindingen worden openbare ruimten ook geometrisch vindbaar. De naam van een openbare ruimte wordt in de dagelijkse praktijk vaak straatnaam genoemd. |
@@ -502,18 +474,14 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Waarde Type | Beschrijving   |
 |---|---|
-| Wegverbinding|Wegverkeerruimte die de verkeerskundige inrichting van een weg tussen twee knopen betreft|
-| Waterverbinding |Waterruimte die de hydrologische inrichting van water tussen twee knopen betreft|
+| Wegverbinding|Openbare ruimte behoort bij één wegverbinding of bij meerdere wegverbindingen met de tussenliggende knopen|
+| Waterverbinding |Openbare ruimte behoort bij één waterverbinding of bij meerdere waterverbindingen met de tussenliggende knopen|
 
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-| Waarde Status | Beschrijving   |
-|---|---|
-| Aangewezen | Openbare ruimte is formeel uitgegeven door het bevoegd gezag |
-| Ingetrokken | Openbare ruimte is formeel ingetrokken door het bevoegd gezag  |
-| Ten onrechte | Openbare ruimte is ten onrechte opgevoerd in de registratie |
+
 
 
 ### Nummeraanduiding
@@ -524,7 +492,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nummeraanduiding  |
 |---|---|
-| Definitie | Door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject of een benoemde plaats  | Gebaseerd op Artikel 1 Wet basisregistratie adressen en gebouwen |
+| Definitie | Door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject of een benoemde plaats  | 
+|Herkomst definitie  | Gebaseerd op Artikel 1 Wet basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen  |
 |Toelichting| Nummeraanduiding maakt samen met woonplaats en openbare ruimte het officiële adres. Een nummeraanduiding is gelegen aan een openbare ruimte en heeft daartoe een verwijzing naar deze gerelateerde openbare ruimte|
@@ -565,11 +534,7 @@ Toelichting: De woonplaats behorende bij de nummeraanduiding prevaleert boven de
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-| Waarde Status | Beschrijving   |
-|---|---|
-| Aangewezen | Nummeraanduiding is formeel uitgegeven door het bevoegd gezag |
-| Ingetrokken | Nummeraanduiding is formeel ingetrokken door het bevoegd gezag  |
-| Ten onrechte | Nummeraanduiding is ten onrechte opgevoerd in de registratie |
+
 
 
 ### Benoemde plaats
@@ -591,9 +556,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een benoemde plaats  |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde plaats is benoemd|Ja|
-|Type benoemde plaats| 1.	De aard van het object dat op de benoemde plaats is of kan worden geplaatst|Ja|
-|Status   |De fase van de levenscyclus waarin een benoemde plaats zich bevindt    |Ja (2D vlak)  |
+|Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde plaats is benoemd|Ja (2D vlak) |
+|Type benoemde plaats| De aard van het object dat op de benoemde plaats is of kan worden geplaatst|Ja|
+|Status   |De fase van de levenscyclus waarin een benoemde plaats zich bevindt    |Ja  |
 
 
 
@@ -605,14 +570,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |---|---|
 |Mobiele object|Constructief zelfstandig object dat in zijn geheel of delen kan worden verplaatst|
 |Drijvend object|Constructief zelfstandig object dat met het water kan meebewegen|
-|OnbemenstTankstation|Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor voertuigen, waarbij zich geen bij deze installaties betrokken gebouw bevindt|
+|Onbemensd Tankstation|Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor voertuigen, waarbij zich geen bij deze installaties betrokken gebouw bevindt|
 
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-| Waarde Status | Beschrijving   |
-|---|---|
-|Aangewezen| Benoemde plaats is formeel uitgegeven door het bevoegd gezag |
-| Ingetrokken | Benoemde plaats is formeel ingetrokken door het bevoegd gezag  |
-| Ten onrechte | Benoemde plaats is ten onrechte opgevoerd in de registratie |
+
