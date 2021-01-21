@@ -328,19 +328,15 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
 
-ontwerpprincipe: *een woonplaats valt volledig binnen een gemeente*
-
-ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
-
 **Definitie**
 
 | Naam  | Woonplaats  |
 |---|---|
-| Definitie | Registratieve ruimte die door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente is  |
-|Herkomst definitie  | Artikel 1 wet Basisregistratie adressen en gebouwen    |
+| Definitie | Door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente  |
+|Herkomst definitie  | Artikel 1 Wet basisregistratie adressen en gebouwen  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen   |
-|Toelichting| *volgt later*  |
+|Toelichting| Een woonplaats valt altijd volledig binnen een gemeente. De geometrie van alle woonplaatsen moeten het Europese deel van het grondgebied van Nederland op land volledig bedekken. Woonplaatsen mogen niet overlappen. |
 
 **Eigenschappen**
 
@@ -349,8 +345,8 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 |Identificatie   |De unieke aanduiding van een woonplaats, zoals opgenomen in de landelijke woonplaatsentabel  |Ja |
 |Formele naam  |De benaming van een door het gemeentebestuur aangewezen woonplaats   |Ja   |
 |Alternatieve naam | Een alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)| Nee |
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als Woonplaats is benoemd   |Ja   |
-|Status   |De fase van de levenscyclus waarin de betreffende Woonplaats zich bevindt    |Ja   |
+|Geometrie   |De geometrische representatie van de randen van het gebied dat als woonplaats is benoemd   |Ja (2D vlak)  |
+|Status   |De fase van de levenscyclus waarin een woonplaats zich bevindt    |Ja   |
 
 
 
@@ -363,6 +359,9 @@ ontwerpprincipe: *Geometrie van alle woonplaatsen in NL moet vlakdekkend zijn (o
 
 **Domeinwaarden**
 
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 |Waarde Status| Beschrijving   |
 |---|---|
@@ -378,11 +377,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Wijk  |
 |---|---|
-| Definitie | Registratieve ruimte die een aaneengesloten gedeelte van het grondgebied van een gemeente betreft, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken |
+| Definitie | Aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken |
 |Herkomst definitie  | GFO Basisgegevens   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Wijken zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) wijken vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van wijken in de objectenregistratie ontstaat een formele vastlegging van wijken|
-|Toelichting| Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken  |
+|Toelichting| Een wijk valt altijd volledig binnen een gemeente. De geometrie van alle wijken moeten het Europese deel van het grondgebied van Nederland op land volledig bedekken. Wijken mogen niet overlappen  |
 
 
 **Eigenschappen**
@@ -392,8 +391,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Identificatie   |De unieke aanduiding van een wijk  |Ja |
 |Wijkcode   |De codering van een wijk zoals deze door het CBS wordt gebruikt   |Ja   |
 |Wijknaam   |De naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit   |Ja   |
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als wijk is benoemd   |Ja   |
-|Status   |De fase van de levenscyclus waarin de betreffende wijk zich bevindt    |Ja   |
+|Geometrie   |De geometrische representatie van de randen van het gebied dat als wijk is benoemd   |Ja (2D vlak)  |
+|Status   |De fase van de levenscyclus waarin een wijk zich bevindt    |Ja   |
 
 
 
@@ -403,13 +402,13 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |---|---|---|
 |ligt in   |Gerelateerde gemeente | Ja |
 
-ontwerpprincipe: *een wijk valt volledig binnen een gemeente*
-
-ontwerpprincipe: *Geometrie van alle wijken in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
 
 
 **Domeinwaarden**
 
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 | Waarde Status | Beschrijving   |
 |---|---|
@@ -426,11 +425,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Buurt  |
 |---|---|
-| Definitie | Registratieve ruimte die een aaneengesloten gedeelte van een wijk betreft, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen   |
+| Definitie | Aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen  |
 |Herkomst definitie  | GFO Basisgegevens   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Buurten zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) buurten vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van buurten in de objectenregistratie ontstaat een formele vastlegging van buurten|
-|Toelichting| Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in buurten   |
+|Toelichting| Een buurt valt altijd volledig binnen een wijk. De geometrie van alle buurten moeten het Europese deel van het grondgebied van Nederland op land volledig bedekken. Buurten mogen niet overlappen |
 
 
 **Eigenschappen**
@@ -440,8 +439,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Identificatie   |De unieke aanduiding van een buurt   |Ja |
 |Buurtcode   |De codering van een buurt zoals deze door het CBS wordt gebruikt    |Ja   |
 |Buurtnaam   |De naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit    |Ja   |
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als buurt is benoemd    |Ja   |
-|Status   |De fase van de levenscyclus waarin de betreffende buurt zich bevindt   |Ja   |
+|Geometrie   |De geometrische representatie van de randen van het gebied dat als buurt is benoemd    |Ja (2D vlak) |
+|Status   |De fase van de levenscyclus waarin een buurt zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -451,12 +450,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |ligt in   |Gerelateerde wijk | Ja |
 
 
-ontwerpprincipe: *buurten vallen binnen wijken*
-
-ontwerpprincipe: *Geometrie van alle buurten in NL moet vlakdekkend zijn (op land) en mag niet overlappen*
-
 **Domeinwaarden**
 
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 | Waarde Status| Beschrijving   |
 |---|---|
@@ -474,22 +472,22 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Openbare ruimte  |
 |---|---|
-| Definitie | Registratieve ruimte die een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte is die binnen één woonplaats is gelegen  |
-|Herkomst definitie  | Artikel 1 wet Basisregistratie adressen en gebouwen   |
+| Definitie | Door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen |
+|Herkomst definitie  | Artikel 1 wet basisregistratie adressen en gebouwen   |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | De populatie van openbare ruimten wijzigt als gevolg van de inperking van het aantal typen objecten waaraan een formele benaming van een openbare ruimte kan worden gekoppeld tot wegen en waterelementen |
-|Toelichting| *volgt later*  |
+|Gevolgen afbakening  | De populatie van openbare ruimten, zoals deze momenteel is opgenomen in de basisregistratie adressen en gebouwen, wijzigt als gevolg van de inperking van het aantal typen objecten waaraan een formele benaming van een openbare ruimte kan worden gekoppeld |
+|Toelichting| Openbare ruimten worden uitsluitend gekoppeld aan wegverbindingen en waterverbindingen door het bij deze verbindingen opnemen van een verwijzing naar de identificatiecode van de openbare ruimte waarbinnen deze verbinding is gelegen. De naamgeving van de andere objecttypen die momenteel nog van een formele openbare ruimte naam kunnen worden voorzien, wordt geregistreerd door het op vrijwillige basis bij deze objecttypen opnemen van een eigenschap “naam”. Het gaat daarbij om spoorverbindingen, kunstwerken, geografische gebieden en functionele gebieden. Door deze wijze van koppeling aan wegverbindingen en waterverbindingen worden openbare ruimten ook geometrisch vindbaar. De naam van een openbare ruimte wordt in de dagelijkse praktijk vaak straatnaam genoemd. |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Openbare ruimte  |Ja |
-|Type   |De aard van de als zodanig benoemde openbare ruimte   |Ja   |
+|Identificatie   |De unieke aanduiding van een openbare ruimte  |Ja |
+|Type   |De aard van het object waaraan een openbare ruimte is gerelateerd   |Ja   |
 |Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja|
 |Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Nee|
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  | Nee  |
-|Status   |De fase van de levenscyclus waarin de betreffende openbare ruimte zich bevindt    |Ja   |
+|Geometrie   |De geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  | Ja (2D vlak)  |
+|Status   |De fase van de levenscyclus waarin een openbare ruimte zich bevindt    |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -500,31 +498,22 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 **Domeinwaarden**
 
+*Type* 
+
+| Waarde Type | Beschrijving   |
+|---|---|
+| Wegverbinding|Wegverkeerruimte die de verkeerskundige inrichting van een weg tussen twee knopen betreft|
+| Waterverbinding |Waterruimte die de hydrologische inrichting van water tussen twee knopen betreft|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 | Waarde Status | Beschrijving   |
 |---|---|
 | Aangewezen | Openbare ruimte is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | Openbare ruimte is formeel ingetrokken door het bevoegd gezag  |
 | Ten onrechte | Openbare ruimte is ten onrechte opgevoerd in de registratie |
-
-.
-
-| Waarde Type | Beschrijving   |
-|---|---|
-| Weg|Transportvoorzienning voor wegverkeer |
-| Waterlement |Transportvoorzienning voor water|
-
-ontwerpprincipe: *Bij het objecttype spoorweg wordt een (vrijwillige) eigenschap “Naam spoorweg” opgenomen*
-
-ontwerpprincipe: *Bij het objecttype kunstwerk (of eventuele verfijningen daarvan) wordt een (vrijwillige) eigenschap “Naam kunstwerk” opgenomen*
-
-ontwerpprincipe: *Bij het objecttype weg wordt een verwijzing opgenomen naar de identificatiecode van de openbare ruimte waarbinnen de weg is gelegen (als deze formeel is benoemd)*
-
-ontwerpprincipe: *Bij het objecttype waterelement wordt een verwijzing opgenomen naar de identificatiecode van de openbare ruimte waarbinnen het waterelement is gelegen (als deze formeel is benoemd)*
-
-ontwerpprincipe: *Bij het objecttype geografisch gebied wordt een (vrijwillige) eigenschap “Naam geografisch gebied” opgenomen*
-
-ontwerpprincipe: *Bij het objecttype functioneel object (of eventuele verfijningen daarvan) wordt een (vrijwillige) eigenschap “Naam functioneel object” opgenomen*
 
 
 ### Nummeraanduiding
@@ -535,47 +524,52 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Nummeraanduiding  |
 |---|---|
-| Definitie | Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject of een benoemde plaats|
-|Herkomst definitie  | Gebaseerd op Artikel 1 wet Basisregistratie adressen en gebouwen |
+| Definitie | Door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject of een benoemde plaats  | Gebaseerd op Artikel 1 Wet basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen  |
-|Toelichting| *volgt later* |
+|Toelichting| Nummeraanduiding maakt samen met woonplaats en openbare ruimte het officiële adres. Een nummeraanduiding is gelegen aan een openbare ruimte en heeft daartoe een verwijzing naar deze gerelateerde openbare ruimte|
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Nummeraanduiding  |Ja |
+|Identificatie   |De unieke aanduiding van een nummeraanduiding  |Ja |
 |Huisnummer |Een door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende nummering   |Ja|
 |Huisletter | Een door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken  |Ja|
 |Huisnummer  toevoeging| Een door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter |Ja|
-|Postcode | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer|Ja|
+|Postcode | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam openbare ruimte en een huisnummer|Ja|
 |Type object | De aard van het object waaraan een nummeraanduiding is toegekend| Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende Nummeraanduiding zich bevindt    |Ja   |
+|Status   |De fase van de levenscyclus waarin een nummeraanduiding zich bevindt    |Ja   |
 
 
 **Relaties met andere objecttypen** 
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|ligt aan| gerelateerde openbare ruimte |Ja|
+|ligt aan| Gerelateerde openbare ruimte |Ja|
 |ligt in   |Gerelateerde woonplaats | Ja |
+
+Toelichting: De woonplaats behorende bij de nummeraanduiding prevaleert boven de woonplaats behorende bij de openbare ruimte. Achtergrond hiervan is dat de locatie van het object bepalend is voor de vraag in welke woonplaats een adres is gelegen.
 
 **Domeinwaarden**
 
+*Type* 
+
+| Waarde Type | Beschrijving   |
+|---|---|
+| Verblijfsobject |Nummeraanduiding is bedoeld voor een verblijfsobject |
+| Benoemde plaats |Nummeraanduiding is bedoeld voor een benoemde plaats |
+
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 | Waarde Status | Beschrijving   |
 |---|---|
 | Aangewezen | Nummeraanduiding is formeel uitgegeven door het bevoegd gezag |
 | Ingetrokken | Nummeraanduiding is formeel ingetrokken door het bevoegd gezag  |
 | Ten onrechte | Nummeraanduiding is ten onrechte opgevoerd in de registratie |
-
-.
-
-| Waarde Type | Beschrijving   |
-|---|---|
-| Verblijfsobject |Nummeraanduiding is bedoeld voor een verblijfsobject |
-| Benoemde plaats |Nummeraanduiding is bedoeld voor een benoemde plaats |
 
 
 ### Benoemde plaats
@@ -586,27 +580,36 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Naam  | Benoemde plaats |
 |---|---|
-| Definitie | Registratieve ruimte die door het bevoegde gemeentelijk orgaan als zodanig aangewezen delen van een terrein en/of water betreft waarvan het belang is daaraan een adres toe te kennen en dat bedoeld is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden ruimte, het permanent afmeren van een drijvend object of het permanent aanwezig zijn van specifieke technische voorzieningen|
-|Herkomst definitie  | Gebaseerd op artikel 1 wet Basisregistratie adressen en gebouwen |
+| Definitie | Door het bevoegde gemeentelijk orgaan als zodanig aangewezen delen van een terrein en/of water waarvan het belang is daaraan een adres toe te kennen en dat bedoeld is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden object, het permanent afmeren van een drijvend object of het permanent aanwezig zijn van publiek toegankelijke technische voorzieningen|
+|Herkomst definitie  | Gebaseerd op artikel 1 Wet basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Stand- en ligplaatsen worden momenteel door gemeenten afgebakend in het kader van de BAG. Dit meer generieke object biedt ook mogelijkheden voor andere objecten (zoals onbemande tankstations)|
-|Toelichting| *volgt later* |
+|Gevolgen afbakening  | De populatie van standplaatsen en ligplaatsen, zoals deze momenteel is opgenomen in de basisregistratie adressen en gebouwen, wordt met de juiste typering opgenomen als benoemde plaats|
+|Toelichting| Door het hanteren van een generiek begrip benoemde plaats in plaats van standplaats en ligplaats, wordt het mogelijk ook andere objecten onder dit begrip te laten vallen. Van deze mogelijkheid is in eerste instantie gebruik gemaakt om ook onbemenste tankstations van een adres te kunnen voorzien. Door de wijziging van de benaming wordt ook de in de uitvoeringspraktijk bestaande verwarring met vergelijkbare begrippen in het kader van onder meer de Omgevingswet tegengegaan. |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een benoemde plaats  |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde ruimte is benoemd|Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende Benoemde plaats zich bevindt    |Ja   |
-|Type benoemde plaats| De aard van het object op de benoemde plaats|Ja|
-
-
+|Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde plaats is benoemd|Ja|
+|Type benoemde plaats| 1.	De aard van het object dat op de benoemde plaats is of kan worden geplaatst|Ja|
+|Status   |De fase van de levenscyclus waarin een benoemde plaats zich bevindt    |Ja (2D vlak)  |
 
 
 
 **Domeinwaarden**
 
+*Type*
+
+| Waarde Type benoemde plaats| Beschrijving   |
+|---|---|
+|Mobiele object|Constructief zelfstandig object dat in zijn geheel of delen kan worden verplaatst|
+|Drijvend object|Constructief zelfstandig object dat met het water kan meebewegen|
+|OnbemenstTankstation|Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor voertuigen, waarbij zich geen bij deze installaties betrokken gebouw bevindt|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 | Waarde Status | Beschrijving   |
 |---|---|
@@ -614,7 +617,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 | Ingetrokken | Benoemde plaats is formeel ingetrokken door het bevoegd gezag  |
 | Ten onrechte | Benoemde plaats is ten onrechte opgevoerd in de registratie |
 
-'
+*Type*
 
 | Waarde Type benoemde plaats| Beschrijving   |
 |---|---|
