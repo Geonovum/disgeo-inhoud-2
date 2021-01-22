@@ -474,8 +474,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 | Waarde Type | Beschrijving   |
 |---|---|
-| Wegverbinding|Openbare ruimte behoort bij één wegverbinding of bij meerdere wegverbindingen met de tussenliggende knopen|
-| Waterverbinding |Openbare ruimte behoort bij één waterverbinding of bij meerdere waterverbindingen met de tussenliggende knopen|
+| Wegverbinding|Openbare ruimte die behoort bij één wegverbinding of bij meerdere wegverbindingen met de tussenliggende knopen|
+| Waterverbinding |Openbare ruimte die behoort bij één waterverbinding of bij meerdere waterverbindingen met de tussenliggende knopen|
 
 *Status* 
 
