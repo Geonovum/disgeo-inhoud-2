@@ -123,7 +123,7 @@ Ontwerpprincipe:
 
 Ontwerpprincipe: 
 
-**Uitgifte van dubbele objectidentificaties mag niet voorkomen**
+**Uitgifte van dubbele objectidentificaties mag niet voorkomen** 
 
 Er moet een methodiek worden ontwikkeld om uit te sluiten dat dubbele objectidentificaties worden uitgegeven. Tevens moet er direct op getoetst worden bij de voorbereiding van een uitgifte van een identificatie of deze al bestaat om latere schade te voorkomen.
 
