@@ -123,7 +123,7 @@ Ontwerpprincipe:
 
 Ontwerpprincipe: 
 
-**Uitgifte van individuele objectidentificaties in de SOR moet dubbele objectidentificaties voorkomen**
+**Uitgifte van dubbele objectidentificaties mag niet voorkomen**
 
 Er moet een methodiek worden ontwikkeld om uit te sluiten dat dubbele objectidentificaties worden uitgegeven. Tevens moet er direct op getoetst worden bij de voorbereiding van een uitgifte van een identificatie of deze al bestaat om latere schade te voorkomen.
 
@@ -139,7 +139,6 @@ Ontwerpprincipe:
 
 Een object kan eerder ontstaan (bijvoorbeeld in een sectorregistratie) dan in de SOR. Een object krijgt daar een unieke sectorregistratie-identificatie. Indien een UOI-codestelsel (unique object identifier) in Nederland ingevoerd wordt krijgt dit object mogelijk wel bij ontstaan direct een UOI mee. Indien dit object, voorzien van een UOI, wordt aangeboden aan de SOR, wordt deze UOI-identificatie in de SOR overgenomen. Indien er geen sprake is van een UOI-code stelsel in Nederland, krijgt het object pas in de SOR een unieke objectidentificatie. Om interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
 
-*Achtergrond: Immers als we met een breder UOI-code stelsel werken, dan wordt bij het eerste verschijnen van het object (ideefase) of bij 1e uitgifteverzoek een UOI-code uitgegeven (dat kan dus eerder zijn dan de 1e levensfase in de SOR). Blijkt later dat het door een ander domein ook een UOI-code wordt gevraagd gaat de uitgever na of deze al bestaat en geeft ofwel een nieuwe ofwel de bestaande  om de uniciteit van een UOI-code op een object te kunnen borgen. Voor de SOR geldt dat voor het object de code (automatisch) opgevraagd wordt bij de uitgevende instantie.*
 
 ### Geometrie
 
