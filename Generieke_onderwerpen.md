@@ -369,32 +369,36 @@ Een voorbeeld van een hyperverbinding is de relatie tussen een vistrap en de riv
 
 
 
-### Mate van detail 
+### Generalisatie 
+
+*Van grootschalig (schaal 1:1.000) naar kleinschalig (1:10.000 tot 1:1.000.000)*
 
 Het uitgangspunt is dat het objectenmodel van de SOR wordt opgebouwd vanuit de kleinste semantische eenheden die het minimum detailniveau aangeven waarvan is vastgesteld dat deze van waarde zijn voor meerdere gebruikers van de registratie.
 
 Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste semantische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit minimum detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. 
 
+Uit de grootschalige SOR worden informatieproducten samengesteld van kleinere schalen, van schaal 1 op 10.000 tot 1 op 1.000.000. Dit zijn cartografische informatieproducten (data of visualisatie ). Deze informatieproducten worden landelijk uniform  geautomatiseerd samengesteld (automatische generalisatie).
+
 In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd. 
 Hierbij worden de volgende begrippen gehanteerd:
 
 **cartografisch object** 
-Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie van die visualisatie hoe lang die visualisatie ook beschikbaar is
+Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie op 1 of meer schaalniveaus en van die visualisatie hoe lang die visualisatie ook beschikbaar is
 
 **generaliseren**
-Dit betreft het zinvol vereenvoudigen, verplaatsen of ‘opblazen’ van de geometrie van objecten.
+Dit betreft de geometrie van objecten zinvol weglaten, vereenvoudigen, verplaatsen,  vergroten/verkleinen, symboliserenen/of aggregeren.
 
 **aggregeren**
-Dit betreft het samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn. 
+Dit betreft het zinvol samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn. 
 
 
 #### Generaliseren
 
-Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen, hooguit voor aanpassen van visualisatie en symbologie en hooguit voor een eenmalige actie waarbij de identificatie niet nodig is.
-Daarmee:
-1.	Is er geen informatiebehoefte aan gegeneraliseerde data-objecttypen
-2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties
-3.	Is er ook geen behoefte aan unieke universele persistente identificatie van gegeneraliseerde objecten
+Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen. Hooguit voor aanpassen van visualisatie, symbolen en voor een eenmalige actie waarbij de identificatie niet nodig is.
+Daarom:
+1.	Is er geen noodzaak voor gegeneraliseerde data-objecttypen
+2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties. dat wil zeggen dat bijvoorbeeld aggregatierelaties eenmalig zijn en niet worden bewaard.
+3.	Is er geen noodzaak voor unieke universele persistente identificatie van gegeneraliseerde objecten, er wordt geen identificaite bewaard.
 
 Ontwerpprincipe: 
 
@@ -405,14 +409,15 @@ Dit detailniveau kan per objecttype verschillen. Voor met name geografische obje
 Ontwerpprincipe: 
 
 **Gegeneraliseerde dataobjecttypen worden niet opgenomen in de SOR**
+Ze kunnen wel onderdeel zijn van de informatieproducten van DiSGeo.
 
 Ontwerpprincipe: 
 
-**Cartografische objecttypen worden als onderdeel van de producten van DisGeo opgenomen**
+*Cartografische objecttypen worden niet opgenomen in de SOR. Ze kunnen wel als onderdeel van de informatieproducten van DisGeo worden opgenomen
 
-cartografische objecten zijn voor gebruikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
+Cartografische objecten zijn voor gebruikers van belang. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen. 
 
-Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een laag naar een hoog detailniveau teruggaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau
+Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker daar mee verder kan. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een minder (lager) naar een meer (hoger) gedetailleerd niveau terug kunnen gaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau
 
 
 
@@ -426,16 +431,16 @@ Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie ex
 
 Hiermee wordt concreet bedoeld:
 -	Dataobjecten moeten op het basisniveau landelijk uniform en homogeen en aaneensluitend zijn 
--	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hiervoor één consistent systeem voor zijn en ook de implementatie moet consistent zijn
+-	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hier één consistent systeem voor zijn en ook de implementatie moet consistent zijn
 -	Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken
 
 
 **Terugmeldingen op gegeneraliseerde objecten**
 
-Omdat gegeneraliseerde objecten geen deel uit zullen maken, wordt hier vast voor deze groep een aandachtspunt gegeven:
-Er kunnen wel terugmeldingen zijn op gegeneraliseerde cartografische objecten, maar deze werken niet door en moeten altijd eerst beoordeeld worden waarbij geconstateerd wordt dat 
-- Of de terugmelding de aggregatie betreft en niet doorgezet hoeft te worden naar de bronhouders van de onderliggende data
-- of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken dataobjecten uit de SOR
+Omdat gegeneraliseerde objecten geen deel uit zullen maken van de samenhangende objectenregistratie, wordt hier vast voor deze groep een aandachtspunt gegeven:
+Er kunnen wel terugmeldingen zijn op gegeneraliseerde cartografische objecten, maar deze hoeven niet door te werken naar de datas objecten van de samenhangende objectenregistratie. Deze terugmeldingen moeten altijd eerst beoordeeld worden waarbij geconstateerd wordt dat 
+- Of de terugmelding de generalisatie betreft en niet doorgezet hoeft te worden naar de bronhouders van de onderliggende data
+- of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken bronhouders van de dataobjecten uit de SOR.
 
 Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een eindgebruiker ziet de producten en moet op basis daarvan een terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, want dat is mogelijk helemaal niet aan de orde en dan zouden objecten op het hoogste detailniveau onnodig belast worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap. 
 
