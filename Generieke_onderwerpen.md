@@ -5,7 +5,7 @@ Deze paragraaf beschrijft de algemene Ontwerpprincipes en uitgangspunten die bet
 
 Aan elk object wordt een uniek objectnummer (objectidentificatie, afgekort als **UOI**) toegekend. Zolang het object bestaat, mag deze identificatie niet veranderen. De objectidentificatie moet uniek, betekenisloos, permanent en overal geldig (systeemonafhankelijk) zijn. 
 
-
+ 
 
 #### Opbouw objectidentificatie
 Bij de opbouw van de objectidentificatie worden de volgende Ontwerpprincipes gehanteerd.
