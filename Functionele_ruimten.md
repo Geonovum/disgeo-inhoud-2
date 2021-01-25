@@ -22,7 +22,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 
 **Eigenschappen**
 
-|Eigenschap   |Beschrijving   |Verplicht   |
+|Eigenschap   |Beschrijving   |Verplicht   |weg|baan|strook|
 |---|---|---|---|---|---|
 |Identificatie   |De unieke aanduiding van een wegknoop  |Ja | x | x | x |
 |Geometrie |De geometrische representatie van een knoop |Ja (punt), Nee (vlak)|x | x | x |
@@ -86,7 +86,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 
 **Eigenschappen**
 
-|Eigenschap   |Beschrijving   |Verplicht   |
+|Eigenschap   |Beschrijving   |Verplicht   |weg|baan|strook|
 |---|---|---|---|---|---|
 |Identificatie   |De unieke aanduiding van een wegverbinding|Ja | x | x | x |
 |Geometrie |De geometrische representatie van een wegverbinding|Ja (lijn), Nee (vlak)| x | x | |
