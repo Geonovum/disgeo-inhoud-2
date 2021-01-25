@@ -46,10 +46,10 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 |Waarde Type verkeersgebied|Beschrijving|
 |---|---|
-|kruising|Een wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +|
-|verkeersplein|Een wegknoop waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft|
-|rotonde|Een wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
-|knooppunt|Een wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is|
+|kruising|Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +|
+|verkeersplein|Wegknoop waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft|
+|rotonde|Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
+|knooppunt|Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is|
 
 .
 
@@ -60,8 +60,8 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Gemengd verkeer|	Verschillende hoofdverkeersgebruikers zijn toegestaan om de knoop|
 |Busverkeer|	Voertuig ingericht voor het vervoer van personen, met meer dan acht zitplaatsen, de bestuurderszitplaats niet meegerekend, niet zijnde een motorrijtuig met beperkte snelheid of gehandicaptenvoertuig|
 |Fietsers, bromfietsers	|Bestuurders die met een fiets of bromfiets aan het verkeer deelnemen|
-|Voetgangers|	Een persoon die te voet deelneemt aan het verkeer|
-|Ruiters|	Bestuurder van een paard of pony|
+|Voetganger|	Persoon die te voet deelneemt aan het verkeer|
+|Ruiter|	Bestuurder van een paard of pony|
 
 
 
@@ -129,18 +129,18 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 |Waarde type weg	|Beschrijving|
 |---|---|
-|Autosnelweg|	Conflict vrije weg (ongelijkvloerse kruisingen) aangeduid met bord G1 (RVV) bestemd voor snel gemotoriseerd verkeer|
+|Autosnelweg|	Conflictvrije weg (ongelijkvloerse kruisingen) aangeduid met bord G1 (RVV) bestemd voor snel gemotoriseerd verkeer|
 |Autoweg	|Weg aangeduid door bord G3 (RVV) die alleen voor snel gemotoriseerd (min 50km/uur) verkeer toegankelijk is|
 |Gebiedsontsluitingsweg gesloten|	Verbindt een auto(snel)weg met een erftoegangsweg waar geen land- en bosbouwverkeer is toegestaan|
 |Gebiedsontsluitingsweg open|	Verbindt een auto(snel)weg met een erftoegangsweg waar wel land- en bosbouwverkeer is toegestaan|
 |Erftoegangsweg|Weg met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en zonder gescheiden fietspadenn|
 |Fietsstraat|	Straat die ingericht is als fietsroute waar auto’s zijn toegestaan|
-|Fiets/bromfietspad|	Een vrij liggend pad (zonder naast/parallel liggende weg) dat voor zowel bromfietsers als fietsers verplicht is|
-|Fietspad|	Een vrij liggend pad (zonder naast/parallel liggende weg) dat is gereserveerd voor het fietsverkeer en snorfietsen|
-|Voetpad|	Een vrij liggend pad (zonder naast/parallel liggende weg) dat uitsluitend bedoeld is voor voetgangers |
-|Voetgangerszone| Een wegverbinding die bedoeld is voor voetgangers met uitzondering van fietsers en bestemmingsverkeer en, tussen bepaalde tijden, andere verkeersgebruikers|
-|Ruiterpad	|Een vrij liggend (zonder naast/parallel liggende weg) zandpad waarover ruiters mogen rijden|
-|Veerverbinding	|Een geregelde verbinding per vaartuig bestemd voor (on)bepaalde hoofdverkeersgebruik|
+|Fiets/bromfietspad|	Vrij liggend pad (zonder naast/parallel liggende weg) dat voor zowel bromfietsers als fietsers verplicht is|
+|Fietspad|	Vrij liggend pad (zonder naast/parallel liggende weg) dat is gereserveerd voor het fietsverkeer en snorfietsen|
+|Voetpad|	Ven vrij liggend pad (zonder naast/parallel liggende weg) dat uitsluitend bedoeld is voor voetgangers |
+|Voetgangerszone| Wegverbinding die bedoeld is voor voetgangers met uitzondering van fietsers en bestemmingsverkeer en, tussen bepaalde tijden, andere verkeersgebruikers|
+|Ruiterpad	|Vrij liggend (zonder naast/parallel liggende weg) zandpad waarover ruiters mogen rijden|
+|Veerverbinding	|Geregelde verbinding per vaartuig bestemd voor (on)bepaald hoofdverkeersgebruik|
 
 Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgangerszone of ruiterpad indien er geen andere baan is die onderdeel uitmaakt van de weg. Het is dus een “vrij liggend” pad.
 
@@ -226,7 +226,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimt
 
 | Naam  | Spoorwegknoop  |
 |---|---|
-| Definitie | Spoorverkeeruimte die een begin-, eind- of keuzepunt voor de spoorgebruiker is |
+| Definitie | Spoorverkeerruimte die een begin-, eind- of keuzepunt voor de spoorgebruiker is |
 | Herkomst definitie  | nieuw     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening||
@@ -277,7 +277,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimt
 
 | Naam  | Spoorverbinding  |
 |---|---|
-| Definitie | Spoorverkeeruimte die  de verkeerskundige inrichting van een spoor tussen twee knopen betreft|
+| Definitie | Spoorverkeerruimte die  de verkeerskundige inrichting van een spoor tussen twee knopen betreft|
 |Herkomst definitie  | nieuw    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening|Het betreft hier grotendeels de bestaande populatie spoor zoals deze is opgenomen in de basisregistratie grootschalige topografie|
