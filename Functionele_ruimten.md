@@ -47,15 +47,14 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 **Domeinwaarden**
 
+*Type*
+
 |Waarde Type verkeersgebied|Beschrijving|
 |---|---|
 |kruising|Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +|
 |verkeersplein|Wegknoop waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft|
 |rotonde|Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
 |knooppunt|Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is|
-
-
-
 
 
 *Status*
@@ -109,6 +108,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigenschappen aan het wegennetwerk te relateren.
 
 **Domeinwaarden**
+
+*Type wegverbinding*
 
 |Waarde type wegverbinding|	Beschrijving|
 |---|---|
@@ -182,7 +183,6 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |Voetgangersstrook	|Strook bestemd voor voetgangers als onderdeel van een baan|
 
 
-
 *Type rijrichting*
 
 |Waarde rijrichting|Beschrijving|
@@ -191,14 +191,12 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |||
 
 
-
 *openbare weg*
 
 |Waarde Openbare weg|Beschrijving|
 |---|---|
 |Ja|In de vastgestelde wegenlegger benoemde weg, waar geen beperking in het gebruik geldt|
 |Nee|In de vastgestelde wegenlegger benoemde weg, waar een beperking in gebruik geldt.|
-
 
 
 *Status*
@@ -433,6 +431,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 **Domeinwaarden**
 
+*Gebruiksdoel*
+
 |Waarde gebruiksdoel|	Beschrijving|
 |---|---|
 |woonfunctie|	Gebruiksfunctie voor het wonen|
@@ -504,19 +504,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 | eredienst ||
 
 
+
 *Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|In gebruik|	
-|Buiten gebruik	|	
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Gebouwzone
 
@@ -561,6 +552,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
     De definitieve lijst voor TYPE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 </div>
 
+*Type* 
 
 | Waarde Type| Beschrijving   |
 |---|---|
@@ -596,19 +588,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 |  | |
 
 
+
 *Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|In gebruik|	
-|Buiten gebruik	|	
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
 
@@ -671,17 +654,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte 
 
 
 
+
 *Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Spoorzone
 
@@ -721,17 +697,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruim
 **Domeinwaarden**
 
 
-*Status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
 
 *Type*
 
@@ -742,6 +707,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Spoorbaan | Gebaand gedeelte voor het verkeer over rails|
 | Emplacement | Totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen|
 
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Wegzone
 
@@ -778,19 +747,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 **Domeinwaarden**
 
 
-*Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
-
-.
+*type*
 
 |Waarde type	|Beschrijving|
 |---|---|
@@ -800,6 +759,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden| 
 | Wildrooster | Horizontaal raamwerk dat dient om wild de doorgang te beletten|
 
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Luchtvaartzone
 
@@ -829,17 +791,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte 
 
 **Domeinwaarden**
 
-*Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
 
 *Type*
 
@@ -848,7 +801,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer|
 | Luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accommodatie voor ontvangst en vertrek van passagiers en verzending van goederen|
 
+*Status*
 
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 #### Begraafplaats
 
 Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruimte "
@@ -874,17 +829,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 **Domeinwaarden**
 
+
 *Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Recreatie
 
@@ -913,21 +861,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 **Domeinwaarden**
 
-*Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|In gebruik|	
-|Buiten gebruik|	
-|Beëindigd|	
-|Niet gerealiseerd|	
-|Ten onrechte	|
-
-.
+*Type*
 
 |Waarde type | Beschrijving|
 |---|---|
@@ -938,6 +874,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | 	bungalowpark|Geheel van verharding, begroeiing, overige opstallen en gebouwen, bedoeld als vakantie-/weekendhuisjes die niet permanent bewoond worden|
 | 	volkstuin|Terreingedeelte in gebruik als volkstuinen, inclusief bebouwing, verharding en dergelijke| 
 
+
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Oever
 
@@ -967,17 +908,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 **Domeinwaarden**
 
 
+
 *Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Complex
 
@@ -1008,17 +942,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 **Domeinwaarden**
 
 
-*Status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
 
 *Type complex*
 
@@ -1032,6 +955,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |aanleg- en overslagcomplex|Alle bij een haven behorende gronden, inrichtingen en bouwwerken|
 
 
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
 ### Overige functionele zoneringen
@@ -1064,19 +991,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 **Domeinwaarden**
 
 
-*Status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
-
-*kering*
+*Kering*
 
 |Waarde type kering| Beschrijving   |
 |---|---|
@@ -1085,6 +1000,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |stormvloed	|Waterbouwkundige constructie die bij stormvloed of springtij moet verhinderen dat er grote hoeveelheden water de monding van een rivier instromen en stroomopwaarts tot overstromingen leiden|
 
 
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
 #### Reducering
@@ -1112,17 +1031,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 **Domeinwaarden**
 
-*Status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
 
 *Type reducering* 
 
@@ -1130,6 +1038,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|
 |geluid|	voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
 |fijnstof|	voorziening bedoeld om verspreiding van fijnstof te verminderen	|
+
+
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
 #### Valbescherming
@@ -1162,17 +1076,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 **Domeinwaarden**
 
 
+
 *Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
 #### Afscheiding 
@@ -1201,15 +1108,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 **Domeinwaarden**
 
+
+
 *Status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland	|
-|Gevormd|
-|Beëindigd	|
-|Niet gerealiseerd|	
-|Ten onrechte	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
