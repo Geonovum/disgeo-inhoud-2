@@ -47,7 +47,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 |zee|Uitgestrekt oppervlak zout water|
 |meer|Watervlakte (meestal zoet) die op natuurlijke wijze dan wel door menselijk ingrijpen (ingraving of afsluiting) is ontstaan|
 |plas|Waterpartij, ontstaan door de winning van delfstoffen in dagbouw, die in contact staat met de vrije grondwaterspiegel|
-|ven|Een natuurlijk ontstaan meer op heidegrond|
+|ven|Natuurlijk ontstaan meer op heidegrond|
 |vijver|Gegraven waterpartij, aangelegd in stedelijke omgeving of in een parklandschap|
 
 
@@ -67,7 +67,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
 | Naam  | Waterloop  |
 |---|---|
-| Definitie | Een langgerekte verlaging in het terrein van natuurlijke of kunstmatige oorsprong die permanent of periodiek stromend water bevat|
+| Definitie | Langgerekte verlaging in het terrein van natuurlijke of kunstmatige oorsprong die permanent of periodiek stromend water bevat|
 |Herkomst definitie  | AQUO lex    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *waterloop* en *greppel/droge sloot* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -81,7 +81,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 |Geometrie|Geometrische representatie van de randen van een waterloop|Ja (vlak)|
 |Status   |  Fase van de levenscyclus waarin de waterloop zich bevindt|Ja   |
 |Type waterloop|Aanduiding van het soort waterloop|Nee|
-|Watervoerend | De aanduiding of de waterloop wel of geen water bevat| Ja|
+|Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
 
 
 **Domeinwaarden**
@@ -91,11 +91,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
 |Waarde Type waterloop| Beschrijving   |
 |---|---|
-|rivier|Het water, dat ten atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier|
-|sloot|Een waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil|
-|kanaal|Een gegraven grote waterloop die dient voor scheepvaart en/of watertransport|
-|beek|Een natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier|
-|gracht|Een gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden|
+|rivier|Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier|
+|sloot|Waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil|
+|kanaal|Gegraven grote waterloop die dient voor scheepvaart en/of watertransport|
+|beek|Natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier|
+|gracht|Gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden|
 
 *Status* 
 
@@ -685,7 +685,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 |Identificatie   |Unieke aanduiding van een boom|Ja |
 |Geometrie| Geometrische representatie van een boom|Ja (punt)|
 |Status   | Fase van de levenscyclus waarin de betreffende boom zich bevindt|Ja   |
-|Soortnaam| De soortnaam o.b.v. ‘Naamlijst van houtige gewassen en vaste planten’,  internationaal erkend als standaard| Ja|
+|Soortnaam|Soortnaam op basis van ‘Naamlijst van houtige gewassen en vaste planten’, internationaal erkend als standaard| Ja|
 
 
 
@@ -731,10 +731,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een gebouw|Ja |
 |Geometrie |Geometrische representatie van de randen van een gebouw   |Ja (3D)|
-|Typering|Het doel waarvoor een gebouw gebruikt wordt|Ja|
-|Aard|De fysieke verschijningsvorm van een gebouw  |Ja|
+|Typering|Doel waarvoor een gebouw gebruikt wordt|Ja|
+|Aard|Fysieke verschijningsvorm van een gebouw  |Ja|
 |Oorspronkelijk bouwjaar | Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
-|Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+|Naam| Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |Status   |Fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
 
 
@@ -774,7 +774,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 | Naam  | Bouwlaag  |
 |---|---|
-| Definitie | De verzameling van ruimten die zijn gelegen op hetzelfde niveau binnen een gebouw |
+| Definitie | Verzameling van ruimten die zijn gelegen op hetzelfde niveau binnen een gebouw |
 |Herkomst definitie  |Gebaseerd op de definitie van het begrip Bouwlaag (IfcBuildingStorey) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype |
@@ -786,7 +786,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Bouwlaag|Ja |
 |Geometrie |Geometrische representatie van de randen van een Bouwlaag  |Ja (2,5D)|
-|Bouwlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
+|Bouwlaagnummer |Niveau waarop de bouwlaag zich bevindt|Ja|
 |Status   |Fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
 
 
@@ -813,7 +813,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 | Naam  | Ruimte  |
 |---|---|
-| Definitie | Een voor mensen toegankelijk deel van een gebouw, dat ten minste aan de onderzijde en/of de bovenzijde wordt begrensd door een scheidingsconstructie en dat een netto-hoogte heeft van tenminste 1,5 m|
+| Definitie | Voor mensen toegankelijk deel van een gebouw, dat ten minste aan de onderzijde en/of de bovenzijde wordt begrensd door een scheidingsconstructie en dat een netto-hoogte heeft van tenminste 1,5 m|
 |Herkomst definitie  |Ontleend aan NEN 2580 en aansluitend op het begrip Ruimte (IfcSpace) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype |
@@ -825,9 +825,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Ruimte|Ja |
 |Geometrie |Geometrische representatie van de randen van een Ruimte   |Ja (2,5D)|
-|Bouwlaagnummer |De bouwlaag waarop de ruimte zich bevindt|Ja|
+|Bouwlaagnummer |Bouwlaag waarop de ruimte zich bevindt|Ja|
 |Oppervlakte| De gebruiksoppervlakte van de ruimte| Nee |
-|Typering|Het doel waarvoor een ruimte gebruikt wordt| Ja|
+|Typering|Doel waarvoor een ruimte gebruikt wordt| Ja|
 |Status   |Fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
 
 
@@ -865,7 +865,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 | Naam  | Gebouwcomponent  |
 |---|---|
-| Definitie | Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt |
+| Definitie | Component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt |
 |Herkomst definitie  |IMGeo 2.2|
 |Verplicht  | Deels (nog nader te bepalen welke onderdelen) |
 |Gevolgen afbakening  |Het betreft hier grotendeels de bestaande populatie van *gebouwinstallatie* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -877,8 +877,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een gebouwcomponent|Ja |
 |Geometrie |Geometrische representatie van de randen van een gebouwcomponent   |Ja (1,5D of 2,5D)|
-|Aard|Het soort gebouwcomponent|Ja |
-|Bijbehorend object |Het object waarbij de betreffende gebouwcomponent behoort|Ja|
+|Aard|Soort gebouwcomponent|Ja |
+|Bijbehorend object |Object waarbij de betreffende gebouwcomponent behoort|Ja|
 |Status   |Fase van de levenscyclus waarin de betreffende gebouwcomponent zich bevindt   |Ja   |
 
 
@@ -900,9 +900,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 | Waarde Aard| Beschrijving   |
 |---|---|
-|dakkapel |Een uitbouw van het schuine dakvlak|
+|dakkapel |Uitbouw van het schuine dakvlak|
 |luifel|Afdak aangebracht aan de gevel van een pand, eventueel rustend op kolommen|
-|bordes|Een verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers|
+|bordes|Verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers|
 |toegangstrap|Niet afsluitbare trap (of trappenhuis) die toegang biedt aan een gebouw|
 
 
@@ -929,9 +929,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een toegangsdeur|Ja |
 |Geometrie |Geometrische representatie van een Toegangsdeur   |Ja (1,5D)|
-|Toegangssoort|De plaats waarvan de toegangsdeur toegang geeft|Ja|
-|Gebruiksaard|De aard van gebruik van de  toegangsdeur|Ja|
-|Bijbehorend object |Het object waarin de betreffende toegangsdeur zich bevindt|Ja|
+|Toegangssoort|Plaats waarvan de toegangsdeur toegang geeft|Ja|
+|Gebruiksaard|Aard van gebruik van de toegangsdeur|Ja|
+|Bijbehorend object |Object waarin de betreffende toegangsdeur zich bevindt|Ja|
 |Status   |Fase van de levenscyclus waarin de betreffende toegangsdeur zich bevindt   |Ja   |
 
 
@@ -948,17 +948,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 | Waarde Toegangssoort| Beschrijving   |
 |---|---|
-|directe toegang vanaf eigen terrein|de toegangsdeur bevindt zich op een erf, in een tuin of een andere specifiek terrein dat behoort bij het gebouw |
-|directe toegang vanaf openbare weg|de toegangsdeur bevindt zich direct aan een voor iedereen toegankelijke weg |
-|toegang vanaf gemeenschappelijke verkeersruimte |de toegangsdeur bevindt zich aan een inpandige ruimte die bedoeld is voor verplaatsingen door een gebouw door de verschillende gebruikers van dit gebouw  |
+|directe toegang vanaf eigen terrein|De toegangsdeur bevindt zich op een erf, in een tuin of een andere specifiek terrein dat behoort bij het gebouw |
+|directe toegang vanaf openbare weg|De toegangsdeur bevindt zich direct aan een voor iedereen toegankelijke weg |
+|toegang vanaf gemeenschappelijke verkeersruimte |De toegangsdeur bevindt zich aan een inpandige ruimte die bedoeld is voor verplaatsingen door een gebouw door de verschillende gebruikers van dit gebouw  |
 
 *gebruiksaard*
 
 | Waarde Gebruiksaard| Beschrijving   |
 |---|---|
-|Personen|de toegangsdeur is primair bedoeld voor toegang tot een object door personen |
-|Auto|de toegangsdeur is primair bedoeld voor toegang tot een object door voertuigen |
-|Vracht|de toegangsdeur is primair bedoeld voor toegang tot een object door vracht zonder gebruik van een voertuig|
+|Personen|De toegangsdeur is primair bedoeld voor toegang tot een object door personen |
+|Auto|De toegangsdeur is primair bedoeld voor toegang tot een object door voertuigen |
+|Vracht|De toegangsdeur is primair bedoeld voor toegang tot een object door vracht zonder gebruik van een voertuig|
 
 *Status* 
 
@@ -986,7 +986,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een open bouwwerk|Ja |
 |Geometrie |Geometrische representatie van de randen van een open bouwwerk   |Ja (3D)|
-|typering| Het soort open bouwwerk|
+|typering| Soort open bouwwerk|
 |Status   |Fase van de levenscyclus waarin het betreffende open bouwwerk zich bevindt   |Ja   |
 
 
@@ -998,9 +998,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Waarde typering| Beschrijving|
 |---|---|
-|overkapping|Een afzonderlijk staande overdekking rustend op kolommen|
+|overkapping|Afzonderlijk staande overdekking rustend op kolommen|
 |open loods|Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden|
-|parkeergarage|Een open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van motorvoertuigen|
+|parkeergarage|Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van motorvoertuigen|
 
 *Status* 
 
@@ -1080,9 +1080,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 |Geometrie|Geometrische representatie van de randen van een overbrugging|Ja (vlak, 2.5D)|
 |Status   | Fase van de levenscyclus waarin de betreffende overbrugging zich bevindt|Ja   |
 |Type overbrugging|Aanduiding van het soort overbrugging|Ja|
-|Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+|Naam| Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
-| Beweegbaar |De aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
+| Beweegbaar  |Aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
 
 
 
@@ -1098,7 +1098,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 | viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoelt voor verkeer|
 | ecoduct |Overbruggingsconstructie over een weg of spoorweg,  bedoelt voor het passeren van dieren|
 | flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   |
-| overkluizing |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
+| overkluizing |Civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
 
 *Type beperking*
 
@@ -1108,7 +1108,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 | doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van de type verbinding)|
 | toegestane massa|Toegestane massa op een kunstwerk/verharding|
 | toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van de type verbinding)|
-| doorvaarhoogte |De hoogte die beschikbaar is tussen water en de constructies welke boven het water aanwezig zijn|
+| doorvaarhoogte |Hoogte die beschikbaar is tussen water en de constructies welke boven het water aanwezig zijn|
 
 
 *Status* 
@@ -1163,7 +1163,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 | pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels)|
 | sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden|
 | kolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht|
-| vuilvang | Een voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke|
+| vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke|
 
 *Status* 
 
@@ -1195,7 +1195,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 |Geometrie|Geometrische representatie van de randen van een ondertunneling|Ja (vlak, 2.5D)|
 |Status   | Fase van de levenscyclus waarin de betreffende ondertunneling zich bevindt|Ja   |
 |Type ondertunneling| Aanduiding van het soort ondertunneling|Ja|
-|Naam| Een breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+|Naam| Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
 
 
@@ -1249,7 +1249,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 |Geometrie|Geometrische representatie van de randen van het betreffende kunstwerk|Ja (vlak, 2.5D)|
 |Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
 |Type kerend kunstwerk| Aanduiding van het soort kunstwerk|Ja|
-|Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+|Naam| Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 
 
 **Relaties met andere objecttypen** 
@@ -1270,12 +1270,12 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 | keermuur |muur die door vorm, gewicht en fundering zonder verankering de grond keert|
 | kademuur |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton|
 | damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|
-| walbescherming |Een nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur|
+| walbescherming |Nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur|
 | schot|Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen|
-| stuw |Een vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen  |
-| sluis |Een kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt|
-| coupure |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
-| dijk|Een dijk is een aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
+| stuw |Vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen  |
+| sluis |Kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt|
+| coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
+| dijk|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
 
 *Status* 
 
@@ -1305,7 +1305,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 |Geometrie|Geometrische representatie van de randen van het betreffende kunstwerk|Ja (vlak, 2.5D)|
 |Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
 |Type overig kunstwerk| Aanduiding van het soort kunstwerk|Ja|
-|Naam| Een breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+|Naam| Breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 
 
 
@@ -1317,14 +1317,14 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Waarde type overig kunstwerk| Beschrijving   |
 |---|---|
-| gemaal | Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|
-| bezinkbak| Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening|
+| gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|
+| bezinkbak| Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening|
 | strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier|
 | steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen|
-| vispassage |Een waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland|
+| vispassage |Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland|
 | bodemval |Sprong in de bodem van een waterloop|
 | ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft|
-| voorde |Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop|
+| voorde |Doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop|
 
 *Status* 
 
@@ -1511,7 +1511,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Putdeksel  |
 |---|---|
-| Definitie | Het afsluitende deel van een toegang tot een ingegraven constructie  of netwerk|
+| Definitie | Afsluitende deel van een toegang tot een ingegraven constructie  of netwerk|
 |Herkomst definitie  |   Afgeleid van de definitie van een put in IMGeo 2.2 |
 |Verplicht  | Ja (punt)  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van de bestaande populatie *put* en van een subset van de bestaande populatie *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
@@ -1598,8 +1598,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |kast|Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen|
 |**vrijwillig**||
 |pomp|Technische inrichting om vloeistoffen en/of gassen te verplaatsen|
-|zonnepanelen| Een installatie om zonne-energie om te zetten in energie |
-|lift| Een installatie gericht op het verticaal vervoeren van personen en goederen|
+|zonnepanelen| Installatie om zonne-energie om te zetten in energie |
+|lift| Installatie gericht op het verticaal vervoeren van personen en goederen|
 |windturbine|Turbine waarin winddruk omgezet wordt in mechanische energie|
 |oplaadpunt| Systeem voor opladen van elektrische auto's |
 
@@ -1674,23 +1674,23 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |---|---|
 |afvalbak|Bak of korf in de openbare ruimte met een permanent karakter; bedoeld voor het verzamelen van (meestal los) afval|
 |bloembak|Bak in de openbare ruimte met een permanent karakter, waarin planten of struiken zijn geplant|
-|zand-/zoutbak|Een bak met strooisel ten behoeve van gladheidsbestrijding|
-|poller|Een inzinkbare paal die door een elektrische of hydraulische aandrijving uit een wegdek omhoog wordt gestuurd en die dient om het autoverkeer te reguleren|
+|zand-/zoutbak|Bak met strooisel ten behoeve van gladheidsbestrijding|
+|poller|Inzinkbare paal die door een elektrische of hydraulische aandrijving uit een wegdek omhoog wordt gestuurd en die dient om het autoverkeer te reguleren|
 |abri|Overdekte wachtplaats voor passagiers van het openbaar vervoer|
 |brievenbus|Uitpandige kast waar post in kan worden gedeponeerd ter bezorging|
-|fietsenrek|Een duurzaam verankerd rek in de openbare ruimte voor het stallen van (brom)fietsen|
-|kunstobject|Een object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt|
+|fietsenrek|Duurzaam verankerd rek in de openbare ruimte voor het stallen van (brom)fietsen|
+|kunstobject|Object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt|
 |openbaar toilet|Voor mensen bedoeld toilet niet zijnde een pand, langs de openbare weg|
 |slagboom|Boom of balk om de weg of een gedeelte hiervan af te sluiten|
 |speelvoorziening|Aard en nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als speelmateriaal voor kinderen|
 |telefooncel|Niet-inpandige ruimte in openbaar gebied louter bestemd voor telefoneren|
 |bank|Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen)|
-|picknicktafel|Een tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken|
-|fontein|Een fontein is een natuurlijke of kunstmatige installatie die water spuit|
-|lichtpunt|Een lichtpunt is een voorziening die licht uitzendt niet verbonden met een mast die het maaiveld raakt|
-|parkeerbeugel|Een omklapbare beugel voor het afschermen van een parkeerplaats|
-|betaalautomaat|Een apparaat dat betaalkaarten en/of contant geld accepteert om betalingen uit te voeren|
-|fietsenkluis|Een kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging|
+|picknicktafel|Tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken|
+|fontein|Fontein is een natuurlijke of kunstmatige installatie die water spuit|
+|lichtpunt|Voorziening die licht uitzendt niet verbonden met een mast die het maaiveld raakt|
+|parkeerbeugel|Omklapbare beugel voor het afschermen van een parkeerplaats|
+|betaalautomaat|Apparaat dat betaalkaarten en/of contant geld accepteert om betalingen uit te voeren|
+|fietsenkluis|Kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging|
 |herdenkingsmonument|In het terrein aangelegd object ter herdenking van personen of evenementen|
 
 
