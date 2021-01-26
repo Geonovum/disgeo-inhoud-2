@@ -377,7 +377,13 @@ Het uitgangspunt is dat het objectenmodel van de SOR wordt opgebouwd vanuit de k
 
 Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste semantische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit minimum detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. 
 
-Uit de grootschalige SOR worden informatieproducten samengesteld van kleinere schalen, van schaal 1 op 10.000 tot 1 op 1.000.000. Dit zijn cartografische informatieproducten (data of visualisatie ). Deze informatieproducten worden landelijk uniform  geautomatiseerd samengesteld (automatische generalisatie).
+<div class='note'>
+    voor redactie:
+    verwijzing hieronder opnemen naar nog te schrijven uitleg eerder in het document
+</div>
+
+
+Uit de grootschalige SOR worden [informatieproducten](#paragraaf) samengesteld van kleinere schalen, van schaal 1 op 10.000 tot 1 op 1.000.000. Dit zijn cartografische informatieproducten (data of visualisatie ). Deze informatieproducten worden landelijk uniform  geautomatiseerd samengesteld (automatische generalisatie).
 
 In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd. 
 Hierbij worden de volgende begrippen gehanteerd:
@@ -396,7 +402,7 @@ Dit betreft het zinvol samenvoegen van objecten tot een nieuw object (zowel op d
 
 Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen. Hooguit voor aanpassen van visualisatie, symbolen en voor een eenmalige actie waarbij de identificatie niet nodig is.
 Daarom:
-1.	Is er geen noodzaak voor gegeneraliseerde data-objecttypen
+1.	Is er geen noodzaak voor gegeneraliseerde data-objecttypen. maar provincie’s hanteren nu wel unieke persistente id’s voor natuurgebieden op schaalniveau 1:10.000 omdat ze daarvoor nu de BRT TOP10NL gebruiken en die biedt nu unieke id’s.
 2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties. dat wil zeggen dat bijvoorbeeld aggregatierelaties eenmalig zijn en niet worden bewaard.
 3.	Is er geen noodzaak voor unieke universele persistente identificatie van gegeneraliseerde objecten, er wordt geen identificaite bewaard.
 
