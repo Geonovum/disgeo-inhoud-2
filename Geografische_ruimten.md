@@ -26,7 +26,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 |Naam   |Plaatselijke naam van een bebouwingskern zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat  |Ja   |
 |Alternatieve naam   | Alternatieve benaming van een bebouwingskern zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries) |Nee   |
 |Geometrie   |Geometrische representatie van een bebouwingskern   |Ja   |
-|Type |Het hoofdkarakter van het gebied dat een bebouwingskern vormt |Ja |
+|Type |Hoofdkarakter van het gebied dat een bebouwingskern vormt |Ja |
 |Status   |Fase van de levenscyclus waarin een bebouwingskern zich bevindt    |Ja   |
 
 
@@ -396,7 +396,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een reliëf|Ja |
 |Geometrie   |Geometrische representatie van het gebied dat reliëf bekend is|Ja (punt,vlak)  |
-|Type |Het hoofdkarakter van het reliëf|Nee |
+|Type |Hoofdkarakter van het reliëf|Nee |
 |Status   |Fase van delevenscyclus waarin het betreffende reliëf zich bevindt|Ja   |
 
 
@@ -410,11 +410,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 |terp|Verhoging in het landschap oorspronkelijk bedoelt om de daarop gevestigde bebouwing te beschermen tegen het water| 
 |grafheuvel|Voorhistorische begraafplaats in de vorm van een heuvel|
 |wal|Langgerekte ophoging in het terrein met een hoogte tussen 0,50 en 1,00 meter| 
-|steile rand|Een steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling|
-|holle weg|Een weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie|
+|steile rand|Steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling|
+|holle weg|Weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie|
 |groeve|Opengegraven ruimte waaruit een delfstof gewonnen wordt|
 |berg|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
-|dal|Een langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten|
+|dal|Langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten|
 |tuunwal| Op elkaar gestapelde grasplaggen als scheiding tussen twee percelen|
 
 
