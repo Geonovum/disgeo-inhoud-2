@@ -23,32 +23,24 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Gevolgen afbakening  | Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster|
 |Toelichting| *Dit betreft in eerste instantie het Europese deel. Over het niet-Europese deel zal nog nadere besluitvorming plaatsvinden|
 
-. 
-
 
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het Rijk |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Rijk is benoemd|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het Rijk zich bevindt|Ja   |
-|Landcode | De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
+|Identificatie   |Unieke aanduiding van het Rijk |Ja |
+|Geometrie| Geometrische representatie van de randen van het gebied dat als Rijk is benoemd|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin het Rijk zich bevindt|Ja   |
+|Landcode | Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen  alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status|
-|---|
-|Aangewezen	|
-|Ingetrokken	|
-|Ten onrechte opgevoerd	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 
 #### Provincie
@@ -71,26 +63,20 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van de Provincie |Ja |
-|Provinciecode|	De codering van een provincie zoals deze door het CBS wordt gebruikt|Ja   |
-|Provincienaam|	De naam van een provincie zoals formeel benoemd door het bevoegd gezag|Ja   |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Provincie is benoemd|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Provincie zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van de Provincie |Ja |
+|Provinciecode|	Codering van een provincie zoals deze door het CBS wordt gebruikt|Ja   |
+|Provincienaam|	Naam van een provincie zoals formeel benoemd door het bevoegd gezag|Ja   |
+|Geometrie| Geometrische representatie van de randen van het gebied dat als Provincie is benoemd|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de Provincie zich bevindt|Ja   |
 
 
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status|
-|---|
-|Aangewezen	|
-|Ingetrokken	|
-|Ten onrechte opgevoerd	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 
 #### Waterschap
@@ -117,26 +103,20 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van het waterschap |Ja |
-|Waterschapscode|	De codering van een waterschap zoals deze door het CBS wordt gebruikt|Ja   |
-|Waterschapsnaam|	De naam van een waterschap zoals formeel benoemd door het bevoegd gezag|Ja   |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als waterschap is benoemd|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het waterschap zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van het waterschap |Ja |
+|Waterschapscode|	Codering van een waterschap zoals deze door het CBS wordt gebruikt|Ja   |
+|Waterschapsnaam|	Naam van een waterschap zoals formeel benoemd door het bevoegd gezag|Ja   |
+|Geometrie| Geometrische representatie van de randen van het gebied dat als waterschap is benoemd|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin het waterschap zich bevindt|Ja   |
 
 
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status|
-|---|
-|Aangewezen	|
-|Ingetrokken	|
-|Ten onrechte opgevoerd	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 #### Gemeente
 
@@ -158,13 +138,13 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van de gemeente |Ja |
-|Gemeentecode|	De codering van een gemeente zoals deze door het CBS wordt gebruikt|Ja |
-|Formele naam|	De naam van een gemeente zoals formeel benoemd door het bevoegd gezag|Ja |
-|Alternatieve naam|	Een alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als gemeente is benoemd|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de gemeente zich bevindt|Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
+|Identificatie   |Unieke aanduiding van de gemeente |Ja |
+|Gemeentecode|	Codering van een gemeente zoals deze door het CBS wordt gebruikt|Ja |
+|Formele naam|	Naam van een gemeente zoals formeel benoemd door het bevoegd gezag|Ja |
+|Alternatieve naam|	Alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
+|Geometrie| Geometrische representatie van de randen van het gebied dat als gemeente is benoemd|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de gemeente zich bevindt|Ja   |
+| Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 **Relaties met andere objecttypen** 
@@ -175,15 +155,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status|
-|---|
-|Aangewezen	|
-|Ingetrokken	|
-|Ten onrechte opgevoerd	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 #### Nederlandse territoriale zee
 
@@ -205,25 +179,19 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van de Nederlandse territoriale zee |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse territoriale zee is benoemd|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt|Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
+|Identificatie   |Unieke aanduiding van de Nederlandse territoriale zee |Ja |
+|Geometrie| Geometrische representatie van de randen van het gebied dat als Nederlandse territoriale zee is benoemd|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt|Ja   |
+| Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status|
-|---|
-|Aangewezen	|
-|Ingetrokken	|
-|Ten onrechte opgevoerd	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 
 #### Nederlandse aansluitende zone
@@ -246,26 +214,19 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van de Nederlandse aansluitende zone |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse aansluitende zone is benoemd|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt|Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
+|Identificatie   |Unieke aanduiding van de Nederlandse aansluitende zone |Ja |
+|Geometrie| Geometrische representatie van de randen van het gebied dat als Nederlandse aansluitende zone is benoemd|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt|Ja   |
+| Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status|
-|---|
-|Aangewezen	|
-|Ingetrokken	|
-|Ten onrechte opgevoerd	|
-
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 
 
@@ -290,25 +251,19 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van de Nederlandse exclusieve economische zone |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als Nederlandse exclusieve economische zone is benoemd|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt|Ja   |
-| Landcode |	De codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
+|Identificatie   |Unieke aanduiding van de Nederlandse exclusieve economische zone |Ja |
+|Geometrie| Geometrische representatie van de randen van het gebied dat als Nederlandse exclusieve economische zone is benoemd|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt|Ja   |
+| Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 
 
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status|
-|---|
-|Aangewezen	|
-|Ingetrokken	|
-|Ten onrechte opgevoerd	|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 
 
@@ -331,11 +286,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een woonplaats, zoals opgenomen in de landelijke woonplaatsentabel  |Ja |
-|Formele naam  |De benaming van een door het gemeentebestuur aangewezen woonplaats   |Ja   |
-|Alternatieve naam | Een alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)| Nee |
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als woonplaats is benoemd   |Ja (2D vlak)  |
-|Status   |De fase van de levenscyclus waarin een woonplaats zich bevindt    |Ja   |
+|Identificatie   |Unieke aanduiding van een woonplaats, zoals opgenomen in de landelijke woonplaatsentabel  |Ja |
+|Formele naam  |Benaming van een door het gemeentebestuur aangewezen woonplaats   |Ja   |
+|Alternatieve naam | Alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)| Nee |
+|Geometrie   |Geometrische representatie van de randen van het gebied dat als woonplaats is benoemd   |Ja (2D vlak)  |
+|Status   |Fase van de levenscyclus waarin een woonplaats zich bevindt    |Ja   |
 
 
 
@@ -373,11 +328,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een wijk  |Ja |
-|Wijkcode   |De codering van een wijk zoals deze door het CBS wordt gebruikt   |Ja   |
-|Wijknaam   |De naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit   |Ja   |
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als wijk is benoemd   |Ja (2D vlak)  |
-|Status   |De fase van de levenscyclus waarin een wijk zich bevindt    |Ja   |
+|Identificatie   |Unieke aanduiding van een wijk  |Ja |
+|Wijkcode   |Codering van een wijk zoals deze door het CBS wordt gebruikt   |Ja   |
+|Wijknaam   |Naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit   |Ja   |
+|Geometrie   |Geometrische representatie van de randen van het gebied dat als wijk is benoemd   |Ja (2D vlak)  |
+|Status   |Fase van de levenscyclus waarin een wijk zich bevindt    |Ja   |
 
 
 
@@ -416,11 +371,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een buurt   |Ja |
-|Buurtcode   |De codering van een buurt zoals deze door het CBS wordt gebruikt    |Ja   |
-|Buurtnaam   |De naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit    |Ja   |
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als buurt is benoemd    |Ja (2D vlak) |
-|Status   |De fase van de levenscyclus waarin een buurt zich bevindt   |Ja   |
+|Identificatie   |Unieke aanduiding van een buurt   |Ja |
+|Buurtcode   |Codering van een buurt zoals deze door het CBS wordt gebruikt    |Ja   |
+|Buurtnaam   |Naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit    |Ja   |
+|Geometrie   |Geometrische representatie van de randen van het gebied dat als buurt is benoemd    |Ja (2D vlak) |
+|Status   |Fase van de levenscyclus waarin een buurt zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -450,18 +405,18 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Herkomst definitie  | Artikel 1 Wet basisregistratie adressen en gebouwen   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | De populatie van openbare ruimten, zoals deze momenteel is opgenomen in de basisregistratie adressen en gebouwen, wijzigt als gevolg van de inperking van het aantal typen objecten waaraan een formele benaming van een openbare ruimte kan worden gekoppeld |
-|Toelichting| Openbare ruimten worden uitsluitend gekoppeld aan wegverbindingen en waterverbindingen door het bij deze verbindingen opnemen van een verwijzing naar de identificatiecode van de openbare ruimte waarbinnen deze verbinding is gelegen. De naamgeving van de andere objecttypen die momenteel nog van een formele openbare ruimte naam kunnen worden voorzien, wordt geregistreerd door het op vrijwillige basis bij deze objecttypen opnemen van een eigenschap “naam”. Het gaat daarbij om spoorverbindingen, kunstwerken, geografische gebieden en functionele gebieden. Door deze wijze van koppeling aan wegverbindingen en waterverbindingen worden openbare ruimten ook geometrisch vindbaar. De naam van een openbare ruimte wordt in de dagelijkse praktijk vaak straatnaam genoemd. |
+|Toelichting| Openbare ruimten worden uitsluitend gekoppeld aan wegverbindingen en waterverbindingen door het bij deze verbindingen opnemen van een verwijzing naar de identificatiecode van de openbare ruimte waarbinnen deze verbinding is gelegen. De naamgeving van de andere objecttypen die momenteel nog van een formele openbare ruimte naam kunnen worden voorzien, wordt geregistreerd door het op vrijwillige basis bij deze objecttypen opnemen van een eigenschap “naam”. Het gaat daarbij om spoorverbindingen, kunstwerken, geografische gebieden en functionele gebieden. Door deze wijze van koppeling aan wegverbindingen en waterverbindingen worden openbare ruimten ook geometrisch vindbaar. Naam van een openbare ruimte wordt in de dagelijkse praktijk vaak straatnaam genoemd. |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een openbare ruimte  |Ja |
+|Identificatie   |Unieke aanduiding van een openbare ruimte  |Ja |
 |Type   |De aard van het object waaraan een openbare ruimte is gerelateerd   |Ja   |
-|Formele naam | De naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja|
-|Alternatieve naam|Een alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Nee|
-|Geometrie   |De geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  | Ja (2D vlak)  |
-|Status   |De fase van de levenscyclus waarin een openbare ruimte zich bevindt    |Ja   |
+|Formele naam | Naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja|
+|Alternatieve naam|Alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Nee|
+|Geometrie   |Geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  | Ja (2D vlak)  |
+|Status   |Fase van de levenscyclus waarin een openbare ruimte zich bevindt    |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -504,13 +459,13 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een nummeraanduiding  |Ja |
-|Huisnummer |Een door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende nummering   |Ja|
-|Huisletter | Een door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken  |Ja|
-|Huisnummer  toevoeging| Een door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter |Ja|
-|Postcode | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam openbare ruimte en een huisnummer|Ja|
-|Type object | De aard van het object waaraan een nummeraanduiding is toegekend| Ja|
-|Status   |De fase van de levenscyclus waarin een nummeraanduiding zich bevindt    |Ja   |
+|Identificatie   |Unieke aanduiding van een nummeraanduiding  |Ja |
+|Huisnummer |Door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende nummering   |Ja|
+|Huisletter | Door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken  |Ja|
+|Huisnummer  toevoeging| Door of namens het gemeentebestuur aan een verblijfsobject of benoemde plaats toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter |Ja|
+|Postcode | Door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam openbare ruimte en een huisnummer|Ja|
+|Type object | Aard van het object waaraan een nummeraanduiding is toegekend| Ja|
+|Status   |Fase van de levenscyclus waarin een nummeraanduiding zich bevindt    |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -551,16 +506,16 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Herkomst definitie  | Gebaseerd op artikel 1 Wet basisregistratie adressen en gebouwen |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | De populatie van standplaatsen en ligplaatsen, zoals deze momenteel is opgenomen in de basisregistratie adressen en gebouwen, wordt met de juiste typering opgenomen als benoemde plaats|
-|Toelichting| Door het hanteren van een generiek begrip benoemde plaats in plaats van standplaats en ligplaats, wordt het mogelijk ook andere objecten onder dit begrip te laten vallen. Van deze mogelijkheid is in eerste instantie gebruik gemaakt om ook onbemenste tankstations van een adres te kunnen voorzien. Door de wijziging van de benaming wordt ook de in de uitvoeringspraktijk bestaande verwarring met vergelijkbare begrippen in het kader van onder meer de Omgevingswet tegengegaan. |
+|Toelichting| Door het hanteren van een generiek begrip benoemde plaats in plaats van standplaats en ligplaats, wordt het mogelijk ook andere objecten onder dit begrip te laten vallen. Van deze mogelijkheid is in eerste instantie gebruik gemaakt om ook onbemenste tankstations van een adres te kunnen voorzien. Door de wijziging van Benaming wordt ook de in de uitvoeringspraktijk bestaande verwarring met vergelijkbare begrippen in het kader van onder meer de Omgevingswet tegengegaan. |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een benoemde plaats  |Ja |
-|Geometrie| De geometrische representatie van de randen van het gebied dat als benoemde plaats is benoemd|Ja (2D vlak) |
-|Type benoemde plaats| De aard van het object dat op de benoemde plaats is of kan worden geplaatst|Ja|
-|Status   |De fase van de levenscyclus waarin een benoemde plaats zich bevindt    |Ja  |
+|Identificatie   |Unieke aanduiding van een benoemde plaats  |Ja |
+|Geometrie| Geometrische representatie van de randen van het gebied dat als benoemde plaats is benoemd|Ja (2D vlak) |
+|Type benoemde plaats| Aard van het object dat op de benoemde plaats is of kan worden geplaatst|Ja|
+|Status   |Fase van de levenscyclus waarin een benoemde plaats zich bevindt    |Ja  |
 
 
 
