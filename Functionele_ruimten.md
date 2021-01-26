@@ -54,17 +54,6 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |rotonde|Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
 |knooppunt|Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is|
 
-.
-
-|Waarde Hoofdverkeersgebruik|Beschrijving|
-|---|---|
-|Snelverkeer|	Motorvoertuigen die geen snelheidsbeperking hebben inclusief vrachtwagens|
-|Langzaam verkeer|	Motorvoertuigen die snelheidsbeperking hebben zoals landbouwvoertuigen, fietsers, voetgangers|
-|Gemengd verkeer|	Verschillende hoofdverkeersgebruikers zijn toegestaan om de knoop|
-|Busverkeer|	Voertuig ingericht voor het vervoer van personen, met meer dan acht zitplaatsen, de bestuurderszitplaats niet meegerekend, niet zijnde een motorrijtuig met beperkte snelheid of gehandicaptenvoertuig|
-|Fietsers, bromfietsers	|Bestuurders die met een fiets of bromfiets aan het verkeer deelnemen|
-|Voetganger|	Persoon die te voet deelneemt aan het verkeer|
-|Ruiter|	Bestuurder van een paard of pony|
 
 
 
@@ -98,10 +87,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 |Type baan| Een categorisering van de verschillende baantypes|Ja|  | x | |
 |Type strook| Een categorisering van de verschillende strooktypes|Nee|  | | x |
 |Routenummer|Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op een wegverbinding mogelijk (MV)|Ja (indien aanwezig)| x |  |  |
-|Afritnummer| Nummer toegekend aan een verbindingsbaan|  | x |  |
+|Afritnummer| Nummer toegekend aan een verbindingsbaan|Ja (indien aanwezig)|  | x |  |
 |Rijrichting| De toegestane beweegrichting van het verkeer op een weg/baan/strookverbinding | Ja| x | x | x |
-|Openbare weg|Het bestaan van een beperking in het gebruik, zoals bedoeld in art. 6 van de Wegenwet| Ja| x | x | x |
-|Status   |De fase van de levenscyclus waarin een wegverbinding zich bevindt   |Ja (indien aanwezig in wegenlegger)   | x |  |  |
+|Openbare weg|Het bestaan van een beperking in het gebruik, zoals bedoeld in art. 6 van de Wegenwet| Ja (indien aanwezig in wegenlagger) | x | |  |
+|Status   |De fase van de levenscyclus waarin een wegverbinding zich bevindt   |Ja (indien aanwezig in wegenlegger)   | x | x | x  |
 
 
 
@@ -136,7 +125,7 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Autoweg	|Weg aangeduid door bord G3 (RVV) die alleen voor snel gemotoriseerd (min 50km/uur) verkeer toegankelijk is|
 |Gebiedsontsluitingsweg gesloten|	Verbindt een auto(snel)weg met een erftoegangsweg waar geen land- en bosbouwverkeer is toegestaan|
 |Gebiedsontsluitingsweg open|	Verbindt een auto(snel)weg met een erftoegangsweg waar wel land- en bosbouwverkeer is toegestaan|
-|Erftoegangsweg|Weg met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en zonder gescheiden fietspadenn|
+|Erftoegangsweg|Weg met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en zonder gescheiden fietspaden|
 |Fietsstraat|	Straat die ingericht is als fietsroute waar auto’s zijn toegestaan|
 |Fiets/bromfietspad|	Vrij liggend pad (zonder naast/parallel liggende weg) dat voor zowel bromfietsers als fietsers verplicht is|
 |Fietspad|	Vrij liggend pad (zonder naast/parallel liggende weg) dat is gereserveerd voor het fietsverkeer en snorfietsen|
@@ -178,6 +167,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |Plusstrook |	Smalle strook aan de linkerzijde van een rijbaan met dynamische openstelling|
 |Wisselstrook |	Een rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting|
 |Passeerstrook|	Een lokale wegverbreding op smalle wegen buiten de bebouwde kom waar langzaam verkeer gepasseerd kan worden|
+|Opstelstrook |Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om naar de gewenste richting (linksaf, rechtdoor, rechtsaf) af te slaan|
 |Opstelstrook linksaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om linksaf te slaan|
 |Opstelstrook opgeblazen fietsopstelstrook	|Infrastructurele voorziening nabij kruisingen waar fietsers zich voor het andere verkeer opstellen om linksaf te slaan|
 |Opstelstrook rechtdoor	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtdoor te gaan|
@@ -206,7 +196,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 
 |Waarde Openbare weg|Beschrijving|
 |---|---|
-|Ja||In de vastgestelde wegenlegger benoemde weg, waar geen beperking in het gebruik geldt|
+|Ja|In de vastgestelde wegenlegger benoemde weg, waar geen beperking in het gebruik geldt|
 |Nee|In de vastgestelde wegenlegger benoemde weg, waar een beperking in gebruik geldt.|
 
 
@@ -222,7 +212,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **SPOORWEGKNOOP**
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimte"
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruimte"
 
 
 **Definitie**
@@ -263,8 +253,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimt
 |Lokaal spoor	|Gesloten spoornetwerk bedoeld voor en beperkt tot stedelijk/regionaal vervoer van personen|
 
 
-**Discussie ondergrondse delen van spoor wel of niet in de SOR Zie principe in 2.3.2.**
-
 
 *status*
 
@@ -274,7 +262,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **SPOORVERBINDING**
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimte"
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruimte"
 
 **Definitie**
 
@@ -292,7 +280,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeeruimt
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een spoorverbinding|Ja |
 |Geometrie |De geometrische representatie van een spoorverbinding|Ja (lijn)|
-|Type	|Aanduiding van het soort spoor|
+|Type	|Aanduiding van het soort spoor|Ja|
 |Status   |De fase van de levenscyclus waarin de betreffende spoorverbinding zich bevindt|Ja   |
 
 
@@ -327,7 +315,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **WATERWEGKNOOP**
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse **"????"**
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse Scheepvaartruimte
 
 
 
@@ -335,7 +323,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse **"????"**
 
 | Naam  | Waterwegknoop  |
 |---|---|
-| Definitie | **"????"** die een begin-, eind- of keuzepunt voor de watergebruiker is|
+| Definitie | Scheepvaartruimte die een begin-, eind- of keuzepunt voor de watergebruiker is|
 | Herkomst definitie  | nieuw     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening||
@@ -368,16 +356,16 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **WATERVERBINDING**
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse **"????"**
+Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse Scheepvaartruimte
 
 **Definitie**
 
 | Naam  | Vaarwegverbinding  |
 |---|---|
-| Definitie | **"????"** die de verkeerskundige inrichting van een waterweg tussen twee knopen betreft|
+| Definitie | Scheepvaartruimte die de verkeerskundige inrichting van een waterweg tussen twee knopen betreft|
 |Herkomst definitie  |nieuw    |
 |Verplicht  | Ja  |
-|Gevolgen afbakening|Het betreft hier grotendeels de bestaande populatie waterloop zoals deze is opgenomen in de basisregistratie grootschalige topografie.\|
+|Gevolgen afbakening|Het betreft hier grotendeels de bestaande populatie waterloop zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting| Gebaseerd op conceptueel model netwerken. |
 
 **Eigenschappen**
