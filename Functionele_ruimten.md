@@ -83,13 +83,13 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 |Identificatie   |De unieke aanduiding van een wegverbinding|Ja | x | x | x |
 |Geometrie |De geometrische representatie van een wegverbinding|Ja (lijn), Nee (vlak)| x | x | |
 |Type wegverbinding|Aanduiding van soort wegverbinding|Ja| x | x | x |
-|Type weg| Een categorisering van de verschillende wegtypes|Ja| x |  |  |
-|Type baan| Een categorisering van de verschillende baantypes|Ja|  | x | |
-|Type strook| Een categorisering van de verschillende strooktypes|Nee|  | | x |
+|Type weg| Categorisering van de verschillende wegtypes|Ja| x |  |  |
+|Type baan| Categorisering van de verschillende baantypes|Ja|  | x | |
+|Type strook| Categorisering van de verschillende strooktypes|Nee|  | | x |
 |Routenummer|Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op een wegverbinding mogelijk (MV)|Ja (indien aanwezig)| x |  |  |
 |Afritnummer| Nummer toegekend aan een verbindingsbaan|Ja (indien aanwezig)|  | x |  |
 |Rijrichting| De toegestane beweegrichting van het verkeer op een weg/baan/strookverbinding | Ja| x | x | x |
-|Openbare weg|Het bestaan van een beperking in het gebruik, zoals bedoeld in art. 6 van de Wegenwet| Ja (indien aanwezig in wegenlagger) | x | |  |
+|Openbare weg|Bestaan van een beperking in het gebruik, zoals bedoeld in art. 6 van de Wegenwet| Ja (indien aanwezig in wegenlagger) | x | |  |
 |Status   |De fase van de levenscyclus waarin een wegverbinding zich bevindt   |Ja (indien aanwezig in wegenlegger)   | x | x | x  |
 
 
@@ -112,8 +112,8 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 |Waarde type wegverbinding|	Beschrijving|
 |---|---|
-|Weg	|Een weg is een voorziening die bestaat uit banen die een functie vervullen ten behoeve van het afwikkelen van het verkeer|
-|Baan	|Een aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers|
+|Weg	|Voorziening die bestaat uit banen die een functie vervullen ten behoeve van het afwikkelen van het verkeer|
+|Baan	|Aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers|
 |Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan|
 
 
@@ -140,17 +140,17 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 
 |Waarde type baan	|Beschrijving|
 |---|---|
-|Hoofdrijbaan	|Een verkeer dragende baan bestemd voor doorgaand verkeer|
+|Hoofdrijbaan	|Verkeer dragende baan bestemd voor doorgaand verkeer|
 |Busbaan	|Vrij liggende baan bestemd voor autobussen ten behoeve van het openbaar vervoer en andere erop toegelaten motorvoertuigen|
-|Verbindingsbaan	|Een verkeer dragende baan die de verbinding verzorgt tussen ongelijkvloers samenkomende wegen of tussen niet samenkomende wegen, en die voorzien is van hectometerborden|
-|Rotondebaan	|Een hoofdrijbaan op een rotonde|
-|Verzorgingsbaan	|Een verkeer dragende baan op een parkeer- of verzorgingsplaats voor rustend verkeer|
-|Fietspad	|Een baan aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, die is gereserveerd voor het fietsverkeer en snorfietsen|
-|Voetpad	|Een baan aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden die bedoeld is voor voetgangers|
-|Ruiterpad	|Een speciaal zandpad aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, waarover ruiters kunnen rijden|
-|Fietsveer	|Een geregelde verbinding per vaartuig bestemd voor het fietsverkeer en snorfietsen|
-|Voetveer	|Een geregelde verbinding per vaartuig bestemd voor voetgangers|
-|Veerverbinding 	|Een geregelde verbinding per vaartuig bestemd voor onbepaalde hoofdverkeersgebruik|
+|Verbindingsbaan	|Verkeer dragende baan die de verbinding verzorgt tussen ongelijkvloers samenkomende wegen of tussen niet samenkomende wegen, en die voorzien is van hectometerborden|
+|Rotondebaan	|Hoofdrijbaan op een rotonde|
+|Verzorgingsbaan	|Verkeer dragende baan op een parkeer- of verzorgingsplaats voor rustend verkeer|
+|Fietspad	|Baan aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, die is gereserveerd voor het fietsverkeer en snorfietsen|
+|Voetpad	|Baan aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden die bedoeld is voor voetgangers|
+|Ruiterpad	|Speciaal zandpad aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, waarover ruiters kunnen rijden|
+|Fietsveer	|Geregelde verbinding per vaartuig bestemd voor het fietsverkeer en snorfietsen|
+|Voetveer	|Geregelde verbinding per vaartuig bestemd voor voetgangers|
+|Veerverbinding 	|Geregelde verbinding per vaartuig bestemd voor onbepaalde hoofdverkeersgebruik|
 
 *Type strook*
 
@@ -172,7 +172,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |Opstelstrook opgeblazen fietsopstelstrook	|Infrastructurele voorziening nabij kruisingen waar fietsers zich voor het andere verkeer opstellen om linksaf te slaan|
 |Opstelstrook rechtdoor	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtdoor te gaan|
 |Opstelstrook rechtdoor+linksaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om linksaf te slaan of rechtdoor te gaan|
-|Opstelstrook rechtdoor+rechtsaf	|Een infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtsaf te slaan of rechtdoor te gaan|
+|Opstelstrook rechtdoor+rechtsaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtsaf te slaan of rechtdoor te gaan|
 |Opstelstrook rechtsaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtsaf te slaan|
 |Vrachtwagenstrook	|Strook specifiek bestemd voor vrachtverkeer en meestal ook bussen|
 |Klimstrook |	Strook waarbij trager rijdend verkeer (zoals vrachtwagens) en het overige sneller rijdende verkeer gescheiden wordt bij het beklimmen van een heuvel of berg|
@@ -418,8 +418,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een Verblijfsobject  |Ja |
 |Geometrie |De geometrische representatie van een Verblijfsobject  |Ja (2,5D)|
-|Gebruiksdoel|Een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld|Ja|
-|Feitelijk gebruik|Een categorisering van het feitelijke gebruik dat van het betreffende verblijfsobject wordt gemaakt|Ja|
+|Gebruiksdoel|Categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld|Ja|
+|Feitelijk gebruik|Categorisering van het feitelijke gebruik dat van het betreffende verblijfsobject wordt gemaakt|Ja|
 |Gebruiksoppervlakte|De gebruiksoppervlakte van een verblijfsobject |
 |Status   |De fase van de levenscyclus waarin het betreffende verblijfsobject zich bevindt   |Ja   |
 
@@ -540,11 +540,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 |Geometrie |De geometrische representatie van een Gebouwzone   |Ja (2,5D)|
 |Geometrie oppervlakte| De geometrische representatie van de oppervlakte van een gebouwzone die betrokken wordt in de berekening van de gebruiksoppervlakte|Nee (2D)|
 |Bouwlaag|De bouwlaag waarop de gebouwzone is gelegen|Ja|
-|Bouwjaar|Het bouwjaar waarin een gebouwzone is ontstaan|Ja|
-|Type|Een categorisering van het feitelijke gebruik dat van de betreffende gebouwzone wordt gemaakt|Ja|
-|Aard|Een aanduiding van de fysieke constructie waarin de gebouwzone zich bevindt|Ja|
+|Bouwjaar|Jaar waarin een gebouwzone is ontstaan|Ja|
+|Type|Categorisering van het feitelijke gebruik dat van de betreffende gebouwzone wordt gemaakt|Ja|
+|Aard|Aanduiding van de fysieke constructie waarin de gebouwzone zich bevindt|Ja|
 |Gebruiksopppervlakte|De gebruiksoppervlakte van een gebouwzone|Ja|
-|Kwaliteitsindicatie|Een aanduiding van de kwalitatieve staat waarin de gebouwzone zich bevindt|NTB|
+|Kwaliteitsindicatie|Aanduiding van de kwalitatieve staat waarin de gebouwzone zich bevindt|NTB|
 |Status   |De fase van de levenscyclus waarin de betreffende Gebouwzone zich bevindt   |Ja   |
 
 
@@ -581,9 +581,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 | Waarde Aard| Beschrijving   |
 |---|---|
-|basisconstructie |Een gebouwzone maakt onderdeel uit van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
-|aanbouw/opbouw |Een gebouwzone betreft een later aanbouw (niet zijnde een serre) of opbouw ten opzichte van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
-|serre |Een gebouwzone betreft een serre die al dan geen onderdeel uitmaakt van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
+|basisconstructie |Gebouwzone maakt onderdeel uit van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
+|aanbouw/opbouw |Gebouwzone betreft een later aanbouw (niet zijnde een serre) of opbouw ten opzichte van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
+|serre |Gebouwzone betreft een serre die al dan geen onderdeel uitmaakt van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
 
 <div class='note'>
     De definitieve lijst voor KWALITEITSINDICATIE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
@@ -639,8 +639,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte 
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een verkeerskundig functionele zone|Ja |
 |Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone|Ja (vlak)|
-|Type| Een categorisering van de verschillende verkeerskundig functionele zones| Ja|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Type |Categorisering van de verschillende verkeerskundig functionele zones| Ja|
+|Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt|Ja  |
 
 
@@ -704,8 +704,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruim
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Spoorzone|Ja |
 |Geometrie |De geometrische representatie van de randen van een spoorzone|Ja (vlak) |
-|Type| Een categorisering van verschillende soorten spoorzones|Ja|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Type| Categorisering van verschillende soorten spoorzones|Ja|
+|Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt|Ja   |
 
 
@@ -738,9 +738,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Waarde type	|Beschrijving|
 |---|---|
 | Perron |  Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen|
-| Overweg | Een gelijkvloerse kruising van een weg met een spoor voor trein, tram of metro|
+| Overweg | Gelijkvloerse kruising van een weg met een spoor voor trein, tram of metro|
 | Spoorbaan | Gebaand gedeelte voor het verkeer over rails|
-| Emplacement | Het totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen|
+| Emplacement | Totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen|
 
 
 #### Wegzone
@@ -763,7 +763,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Wegzone|Ja |
 |Geometrie |De geometrische representatie van de randen van een wegzone|Ja (vlak) |
-|Type | Een categorisering van verschillende soorten wegzones| Ja|
+|Type | Categorisering van verschillende soorten wegzones| Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt|Ja   |
 
 
@@ -795,7 +795,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Waarde type	|Beschrijving|
 |---|---|
 | Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden|
-| Berm | Een strook grond langs een weg of spoorweg|
+| Berm | Strook grond langs een weg of spoorweg|
 | Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer|
 | Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden| 
 | Wildrooster | Horizontaal raamwerk dat dient om wild de doorgang te beletten|
@@ -822,8 +822,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte 
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Luchtvaartzone|Ja |
 |Geometrie |De geometrische representatie van de randen van een luchtvaartzone|Ja (vlak)|
-|Type| Een categorisering van soort luchtvaartzone| Ja|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Type| Categorisering van soort luchtvaartzone| Ja|
+|Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt|Ja   |
 
 
@@ -906,8 +906,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 |---|---|---|
 |Identificatie   |De unieke aanduiding van recreatie|Ja |
 |Geometrie |De geometrische representatie van recreatie|Ja (vlak)|
-|Naam|Een breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
-|Type|Een categorisering van de verschillende soorten recreatie|Nee| 
+|Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Type|Categorisering van de verschillende soorten recreatie|Nee| 
 |Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt|Ja   |
 
 
@@ -999,8 +999,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Complex|Ja |
 |Geometrie|De geometrische representatie van de randen van een complex|ja (vlak)|
-|Type complex|Een categorisering van de verschillende complexen|ja|
-|Naam|Een breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Type complex|Categorisering van de verschillende complexen|ja|
+|Naam|Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   | De fase van de levenscyclus waarin de betreffende complex zich bevindt|Ja   |
 
 
@@ -1058,7 +1058,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Kering|Ja |
 |Geometrie|De geometrische representatie van de kerende voorziening|Ja (lijn, vlak)|
-|Type kering|Een categorisering van de verschillende type keringen|Ja|
+|Type kering|Categorisering van de verschillende type keringen|Ja|
 |Status   | De fase van de levenscyclus waarin de kerende voorziening zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1082,7 +1082,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |---|---|
 |grond	|voorziening bedoeld om grond te keren|
 |water	|voorziening bedoeld om water te keren|
-|stormvloed	|Een stormvloedkering is een voorziening (waterbouwkundige constructie) die bij stormvloed of springtij moet verhinderen dat er grote hoeveelheden water de monding van een rivier instromen en stroomopwaarts tot overstromingen leiden|
+|stormvloed	|Waterbouwkundige constructie die bij stormvloed of springtij moet verhinderen dat er grote hoeveelheden water de monding van een rivier instromen en stroomopwaarts tot overstromingen leiden|
 
 
 
@@ -1107,7 +1107,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 |---|---|---|
 |Identificatie   |De unieke aanduiding van reducering|Ja |
 |Geometrie|De geometrische representatie van de reducerende voorziening|Ja (lijn)|
-|Type reducering|Een categorisering van de verschillende type reducering| Ja|
+|Type reducering|Categorisering van de verschillende type reducering| Ja|
 |Status   | De fase van de levenscyclus waarin de reducerende voorziening zich bevindt|Ja   |
 
 **Domeinwaarden**
