@@ -702,11 +702,11 @@ De bij de levensfasen voor niet-vergunningplichtige objecttypen behorende toelic
 
 |Waarde status|	Beschrijving|
 |---|---|
-|Gepland| Een object dat zich in de ontwerpfase bevindt of in aanbouw is.	|
-|Bestaand	|Een object dat in gebruik is of als gebruiksgereed kan worden beschouwd, dan wel buiten gebruik is gesteld|
-|Verwijderd|	Een object dat feitelijk is verwijderd|
-|Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
-|Ten onrechte|	Een object dat ten onrechte is opgevoerd in de registratie| 
+|Gepland| Object dat zich in de ontwerpfase bevindt of in aanbouw is.	|
+|Bestaand	|Object dat in gebruik is of als gebruiksgereed kan worden beschouwd, dan wel buiten gebruik is gesteld|
+|Verwijderd|	Object dat feitelijk is verwijderd|
+|Niet gerealiseerd|	Gepland object dat niet als zodanig is gerealiseerd|
+|Ten onrechte|	Object dat ten onrechte is opgevoerd in de registratie| 
 
 De bij de levensfasen voor vergunningplichtige objecttypen behorende toelichtingen zijn:
 
@@ -740,21 +740,21 @@ De hierbij behorende toelichtingen voor de levensfasen van transportvoorzieninge
 
 |Waarde status	|Beschrijving|
 |---|---|
-|Gepland	|Een object dat zich in de ontwerpfase bevindt|
-|In aanleg	|Een object dat in aanleg is en nog niet in gebruik is genomen|
+|Gepland	|Object dat zich in de ontwerpfase bevindt|
+|In aanleg	|Object dat in aanleg is en nog niet in gebruik is genomen|
 |In gebruik|	Een object dat in gebruik is genomen|
 |Buiten gebruik|	Een object dat in gebruik is genomen maar tijdelijk niet gebruikt kan worden|
 |Verwijderd|	Een object dat is verwijderd|
 |Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
-|Ten onrechte	|Een object dat ten onrechte is opgevoerd in de registratie|
+|Ten onrechte	|Object dat ten onrechte is opgevoerd in de registratie|
 
 De bij functionele zoneringen behorende toelichtingen voor de levensfasen zijn:
 
 |Waarde status|	Beschrijving|
 |---|---|
-|Gepland	|Een object dat zich in de ontwerpfase bevindt|
-|Gevormd	|Een object dat is gevormd|
-|In gebruik	|Een object dat in gebruik is genomen |
+|Gepland	|Object dat zich in de ontwerpfase bevindt|
+|Gevormd	|Object dat is gevormd|
+|In gebruik	|Object dat in gebruik is genomen |
 |Buiten gebruik|	Een object dat buiten gebruik is gesteld|
 |Beëindigd|	Een object dat is opgeheven|
 |Niet gerealiseerd|	Een gepland object dat niet als zodanig is gerealiseerd|
