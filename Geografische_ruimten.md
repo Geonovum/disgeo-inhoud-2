@@ -86,7 +86,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
@@ -121,7 +121,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
@@ -157,7 +157,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd	
 
@@ -195,7 +195,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
@@ -228,7 +228,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd	
 
@@ -262,7 +262,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
@@ -298,7 +298,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
@@ -334,7 +334,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
@@ -369,7 +369,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
@@ -403,7 +403,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 **Domeinwaarden**
 
-*type* 
+*Type* 
 
 | waarde | Beschrijving Type  |
 |---|---|
@@ -419,7 +419,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 

@@ -58,7 +58,7 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
@@ -117,7 +117,7 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan|
 
 
-*type weg*
+*Type weg*
 
 |Waarde type weg	|Beschrijving|
 |---|---|
@@ -136,7 +136,7 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgangerszone of ruiterpad indien er geen andere baan is die onderdeel uitmaakt van de weg. Het is dus een “vrij liggend” pad.
 
-*type baan*
+*Type baan*
 
 |Waarde type baan	|Beschrijving|
 |---|---|
@@ -152,7 +152,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |Voetveer	|Een geregelde verbinding per vaartuig bestemd voor voetgangers|
 |Veerverbinding 	|Een geregelde verbinding per vaartuig bestemd voor onbepaalde hoofdverkeersgebruik|
 
-*type strook*
+*Type strook*
 
 |Waarde type strook	|Beschrijving|
 |---|---|
@@ -183,7 +183,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 
 
 
-*type rijrichting*
+*Type rijrichting*
 
 |Waarde rijrichting|Beschrijving|
 |---|---|
@@ -201,7 +201,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 
 
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
@@ -245,7 +245,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruim
 
 **Domeinwaarden**
 
-*type*
+*Type*
 
 |Waarde type spoor| Beschrijving|
 |---|---|
@@ -254,7 +254,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruim
 
 
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
@@ -294,7 +294,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruim
 
 **Domeinwaarden**
 
-*type*
+*Type*
 
 |Waarde type spoor| Beschrijving|
 |---|---|
@@ -303,7 +303,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruim
 
 
 
-*status* 
+*Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
@@ -348,7 +348,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse Scheepvaartruimte
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
@@ -387,7 +387,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse Scheepvaartruimte
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
@@ -504,7 +504,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 | eredienst ||
 
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -596,7 +596,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 |  | |
 
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -654,7 +654,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte 
 **Domeinwaarden**
 
 
-*type* 
+*Type* 
 
 |Waarde type|	Beschrijving|
 |---|---|
@@ -671,7 +671,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte 
 
 
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -721,7 +721,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Spoorverkeerruim
 **Domeinwaarden**
 
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -733,7 +733,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
-*type*
+*Type*
 
 | Waarde type	|Beschrijving|
 |---|---|
@@ -778,7 +778,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Wegverkeerruimte
 **Domeinwaarden**
 
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -829,7 +829,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Transportruimte 
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -841,7 +841,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
-*type*
+*Type*
 
 |Waarde type	|Beschrijving|
 |---|---|
@@ -874,7 +874,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -913,7 +913,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -967,7 +967,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 **Domeinwaarden**
 
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -1008,7 +1008,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 **Domeinwaarden**
 
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -1020,7 +1020,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
-*type complex*
+*Type complex*
 
 |Waarde Type complex| Beschrijving   |
 |---|---|
@@ -1064,7 +1064,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 **Domeinwaarden**
 
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -1112,7 +1112,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -1124,7 +1124,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |Niet gerealiseerd|	
 |Ten onrechte	|
 
-*type reducering* 
+*Type reducering* 
 
 |Waarde Type reducering| Beschrijving   |
 |---|---|
@@ -1162,7 +1162,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 **Domeinwaarden**
 
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
@@ -1201,7 +1201,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 
 **Domeinwaarden**
 
-*status*
+*Status*
 
 Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 

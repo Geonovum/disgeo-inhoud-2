@@ -19,7 +19,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
 | Naam  | Watervlakte  |
 |---|---|
-| Definitie | Een verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat|
+| Definitie | Verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat|
 |Herkomst definitie  | AQUO lex    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *watervlakte* en *zee* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -29,28 +29,18 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een watervlakte|Ja |
-|Geometrie|De geometrische representatie van de randen van een watervlakte|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de watervlakte zich bevindt|Ja   |
-|Type watervlakte|De aanduiding van het soort watervlakte|Nee|
+|Identificatie   |Unieke aanduiding van een watervlakte|Ja |
+|Geometrie|Geometrische representatie van de randen van een watervlakte|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de watervlakte zich bevindt|Ja   |
+|Type watervlakte|Aanduiding van het soort watervlakte|Nee|
 
 
 
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
-
-*type watervlakte*
+*Type watervlakte*
 
 |Waarde Type watervlakte| Beschrijving   |
 |---|---|
@@ -61,6 +51,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |vijver|Gegraven waterpartij, aangelegd in stedelijke omgeving of in een parklandschap|
 
 
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -84,28 +77,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een waterloop|Ja |
-|Geometrie|De geometrische representatie van de randen van een waterloop|Ja (vlak)|
-|Status   |  De fase van de levenscyclus waarin de waterloop zich bevindt|Ja   |
-|Type waterloop|De aanduiding van het soort waterloop|Nee|
+|Identificatie   |Unieke aanduiding van een waterloop|Ja |
+|Geometrie|Geometrische representatie van de randen van een waterloop|Ja (vlak)|
+|Status   |  Fase van de levenscyclus waarin de waterloop zich bevindt|Ja   |
+|Type waterloop|Aanduiding van het soort waterloop|Nee|
 |Watervoerend | De aanduiding of de waterloop wel of geen water bevat| Ja|
 
 
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
-
-*type waterloop*
+*Type waterloop*
 
 |Waarde Type waterloop| Beschrijving   |
 |---|---|
@@ -114,6 +96,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 |kanaal|Een gegraven grote waterloop die dient voor scheepvaart en/of watertransport|
 |beek|Een natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier|
 |gracht|Een gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
 
 
 #### Bron
@@ -136,9 +123,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een bron|Ja |
-|Geometrie|De geometrische representatie van de randen van een bron|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de bron zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een bron|Ja |
+|Geometrie|Geometrische representatie van de randen van een bron|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de bron zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
 
@@ -149,17 +136,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
 
 #### Getijdengebied
 
@@ -181,32 +161,27 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Water"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een getijdengebied|Ja |
-|Geometrie|De geometrische representatie van de randen van een getijdengebied|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het getijdengebied zich bevindt|Ja   |
-|Type getijdengebied|De aanduiding van het soort getijdengebied|Nee|
+|Identificatie   |Unieke aanduiding van een getijdengebied|Ja |
+|Geometrie|Geometrische representatie van de randen van een getijdengebied|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin het getijdengebied zich bevindt|Ja   |
+|Type getijdengebied|Aanduiding van het soort getijdengebied|Nee|
 
 
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
-
-.
+*Type*
 
 |Waarde Type getijdengebied| Beschrijving   |
 |---|---|
 |slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt|
 |schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
 
 
 ### Bodem
@@ -231,24 +206,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van onbegroeide grond|Ja |
-|Geometrie| De geometrische representatie van de randen van onbegroeide grond|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van onbegroeide grond|Ja |
+|Geometrie| Geometrische representatie van de randen van onbegroeide grond|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 
 
@@ -272,25 +240,18 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Bodem"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een onbepaald terreindeel|Ja |
-|Geometrie|De geometrische representatie van de randen van een onbepaald terreindeel|Ja (vlak)|
-|Status   |De fase van de levenscyclus waarin het betreffende onbepaalde terreindeel zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een onbepaald terreindeel|Ja |
+|Geometrie|Geometrische representatie van de randen van een onbepaald terreindeel|Ja (vlak)|
+|Status   |Fase van de levenscyclus waarin het betreffende onbepaalde terreindeel zich bevindt|Ja   |
 
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 
 
@@ -317,27 +278,15 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van een bos|Ja |
-|Geometrie| De geometrische representatie van de randen van een bos|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het betreffende bos zich bevindt|Ja   |
-|Type bos| De aanduiding van het soort bos|Ja|
+|Identificatie   | Unieke aanduiding van een bos|Ja |
+|Geometrie| Geometrische representatie van de randen van een bos|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin het betreffende bos zich bevindt|Ja   |
+|Type bos| Aanduiding van het soort bos|Ja|
 
 
 **Domeinwaarden**
 
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|	
-|Niet gerealiseerd|	
-|Ten onrechte|	
-
-.
+*Type*
 
 |Waarde Type bos| Beschrijving   |
 |---|---|
@@ -345,6 +294,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| 
 | gemengd bos | Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen|  
  
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
 
 ####    Gras- en kruidachtigen
 
@@ -365,24 +319,16 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van gras- en kruidachtigen|Ja |
-|Geometrie| De geometrische representatie van de randen van veld met gras- en kruidachtigen|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het betreffende veld met gras- en kruidachtigen zich bevindt|Ja   |
+|Identificatie   | Unieke aanduiding van gras- en kruidachtigen|Ja |
+|Geometrie| Geometrische representatie van de randen van veld met gras- en kruidachtigen|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin het betreffende veld met gras- en kruidachtigen zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|	
-|Niet gerealiseerd|	
-|Ten onrechte|	
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -405,25 +351,16 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van struiken|Ja |
-|Geometrie| De geometrische representatie van de randen van struiken|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de betreffende struiken zich bevinden|Ja   |
+|Identificatie   | Unieke aanduiding van struiken|Ja |
+|Geometrie| Geometrische representatie van de randen van struiken|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de betreffende struiken zich bevinden|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+**Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|	
-|Niet gerealiseerd|	
-|Ten onrechte|	
-
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -450,23 +387,16 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van een Gewas|Ja |
-|Geometrie| De geometrische representatie van de randen van een Gewas|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin het betreffende gewas zich bevindt|Ja   |
+|Identificatie   | Unieke aanduiding van een Gewas|Ja |
+|Geometrie| Geometrische representatie van de randen van een Gewas|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin het betreffende gewas zich bevindt|Ja   |
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 
 ####    Fruit- of kweekbomen
@@ -488,28 +418,16 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | De unieke aanduiding van fruit- of kweekbomen|Ja |
-|Geometrie| De geometrische representatie van de randen van fruit- of kweekbomen|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de betreffende fruit- of kweekbomen zich bevinden|Ja   |
-|Type fruit- of kweekbomen| De aanduiding van het soort fruit- of kweekbomen|Ja|
+|Identificatie   | Unieke aanduiding van fruit- of kweekbomen|Ja |
+|Geometrie| Geometrische representatie van de randen van fruit- of kweekbomen|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de betreffende fruit- of kweekbomen zich bevinden|Ja   |
+|Type fruit- of kweekbomen| Aanduiding van het soort fruit- of kweekbomen|Ja|
 
 
 
 **Domeinwaarden**
 
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|	
-|Niet gerealiseerd|	
-|Ten onrechte|	
-
-.
+*Type* 
 
 |Waarde Type fruit- of kweekbomen| Beschrijving   |
 |---|---|
@@ -518,6 +436,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | wijngaarden|Terreindeel begroeid met druivenstokken voor wijnbouw|
 | klein fruit |Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen|
 | boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 #### Natuurlijk groen 
@@ -542,24 +464,18 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Moeras|Ja |
-|Geometrie|De geometrische representatie van de randen van een moeras|Ja (vlak)|
-|Status   |  De fase van de levenscyclus waarin het moeras zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een Moeras|Ja |
+|Geometrie|Geometrische representatie van de randen van een moeras|Ja (vlak)|
+|Status   |  Fase van de levenscyclus waarin het moeras zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
+
 
 RIETLAND
 
@@ -579,24 +495,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Rietland|Ja |
-|Geometrie|De geometrische representatie van de randen van een rietland|Ja (vlak)|
-|Status   |  De fase van de levenscyclus waarin het rietland zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een Rietland|Ja |
+|Geometrie|Geometrische representatie van de randen van een rietland|Ja (vlak)|
+|Status   |  Fase van de levenscyclus waarin het rietland zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
 
 HEIDE
 
@@ -616,24 +525,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Heide|Ja |
-|Geometrie|De geometrische representatie van de randen van een heide|Ja (vlak)|
-|Status   |  De fase van de levenscyclus waarin de heide zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een Heide|Ja |
+|Geometrie|Geometrische representatie van de randen van een heide|Ja (vlak)|
+|Status   |  Fase van de levenscyclus waarin de heide zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
 
 DUIN
 
@@ -653,24 +555,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Duin|Ja |
-|Geometrie|De geometrische representatie van de randen van een duin|Ja (vlak)|
-|Status   |  De fase van de levenscyclus waarin het duin zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een Duin|Ja |
+|Geometrie|Geometrische representatie van de randen van een duin|Ja (vlak)|
+|Status   |  Fase van de levenscyclus waarin het duin zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
 
 
 #### Landschapselement
@@ -695,24 +590,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Bomenrij|Ja |
-|Geometrie|De geometrische representatie van de randen van een bomenrij|Ja (vlak)|
-|Status   |  De fase van de levenscyclus waarin de bomenrij zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een Bomenrij|Ja |
+|Geometrie|Geometrische representatie van de randen van een bomenrij|Ja (vlak)|
+|Status   |  Fase van de levenscyclus waarin de bomenrij zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
 
 HOUTSINGEL
 
@@ -732,24 +620,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Houtsingel|Ja |
-|Geometrie|De geometrische representatie van de randen van een houtsingel|Ja (vlak)|
-|Status   |  De fase van de levenscyclus waarin de houtsingel zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een Houtsingel|Ja |
+|Geometrie|Geometrische representatie van de randen van een houtsingel|Ja (vlak)|
+|Status   |  Fase van de levenscyclus waarin de houtsingel zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
 
 HAAG
 
@@ -769,24 +650,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Haag|Ja |
-|Geometrie|De geometrische representatie van de randen van een haag|Ja (vlak)|
-|Status   |  De fase van de levenscyclus waarin de haag zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een Haag|Ja |
+|Geometrie|Geometrische representatie van de randen van een haag|Ja (vlak)|
+|Status   |  Fase van de levenscyclus waarin de haag zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-|Waarde Status| 
-|---|
-|gepland|
-|bestaand|
-|verwijderd|
-|niet gerealiseerd|
-|Ten onrechte|
 
 
 #### Boom
@@ -808,9 +682,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een boom|Ja |
-|Geometrie| De geometrische representatie van een boom|Ja (punt)|
-|Status   | De fase van de levenscyclus waarin de betreffende boom zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een boom|Ja |
+|Geometrie| Geometrische representatie van een boom|Ja (punt)|
+|Status   | Fase van de levenscyclus waarin de betreffende boom zich bevindt|Ja   |
 |Soortnaam| De soortnaam o.b.v. ‘Naamlijst van houtige gewassen en vaste planten’,  internationaal erkend als standaard| Ja|
 
 
@@ -818,23 +692,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Begroeiing"
 
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
-.
+*Type*
 
 |Waarde soortnaam|
 |---|
 |Betreffende soortnaam uit ‘Naamlijst van houtige gewassen en vaste planten’|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
 
 
 ### Gebouw
@@ -861,13 +729,13 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een gebouw|Ja |
-|Geometrie |De geometrische representatie van de randen van een gebouw   |Ja (3D)|
+|Identificatie   |Unieke aanduiding van een gebouw|Ja |
+|Geometrie |Geometrische representatie van de randen van een gebouw   |Ja (3D)|
 |Typering|Het doel waarvoor een gebouw gebruikt wordt|Ja|
 |Aard|De fysieke verschijningsvorm van een gebouw  |Ja|
-|Oorspronkelijk bouwjaar | De aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
+|Oorspronkelijk bouwjaar | Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Een breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-|Status   |De fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
+|Status   |Fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
 
 
 **Domeinwaarden**
@@ -876,6 +744,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
     De definitieve lijst met TYPE en AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de bij de WOZ in ontwikkeling zijnde lijst met domeinwaarden voor WOZ-deelobjecten. Ook moet nog een nadere uitlijning op typeringen vanuit de BRT.next plaatsvinden. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 </div>
 
+*Type* 
 
 |Waarde Typering|	Beschrijving|
 |---|---|
@@ -891,21 +760,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 |Aangrenzende gelijksoortige gebouwen||	
 |Onderdeel heterogeen gebouwblok||
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Bouwvergunning verleend|	
-|Sloopvergunning verleend|	
-|In aanbouw|
-|In verbouw|	
-|Gesloopt|	
-|Niet gerealiseerd|
-|Ten onrechte|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -927,10 +784,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Bouwlaag|Ja |
-|Geometrie |De geometrische representatie van de randen van een Bouwlaag  |Ja (2,5D)|
+|Identificatie   |Unieke aanduiding van een Bouwlaag|Ja |
+|Geometrie |Geometrische representatie van de randen van een Bouwlaag  |Ja (2,5D)|
 |Bouwlaagnummer |Het niveau waarop de bouwlaag zich bevindt|Ja|
-|Status   |De fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
+|Status   |Fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -942,21 +799,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 **Domeinwaarden**
 
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bouwvergunning verleend|	
-|Sloopvergunning verleend|	
-|In aanbouw|	
-|Bestaand|	
-|In verbouw|	
-|Gesloopt|	
-|Niet gerealiseerd|	
-|Ten onrechte opgevoerd|	
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+	
 
 
 #### Ruimte
@@ -977,12 +823,12 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Ruimte|Ja |
-|Geometrie |De geometrische representatie van de randen van een Ruimte   |Ja (2,5D)|
+|Identificatie   |Unieke aanduiding van een Ruimte|Ja |
+|Geometrie |Geometrische representatie van de randen van een Ruimte   |Ja (2,5D)|
 |Bouwlaagnummer |De bouwlaag waarop de ruimte zich bevindt|Ja|
 |Oppervlakte| De gebruiksoppervlakte van de ruimte| Nee |
 |Typering|Het doel waarvoor een ruimte gebruikt wordt| Ja|
-|Status   |De fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
+|Status   |Fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -997,6 +843,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 De definitieve lijst met TYPE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in BIM modellen voor de bouw worden gehanteerd. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 </div>
 
+*Type* 
 
 |Waarde Typering|	Beschrijving|
 |---|---|
@@ -1004,24 +851,9 @@ De definitieve lijst met TYPE zal op een later moment worden opgeleverd. Het is 
 |Keuken||	
 
 
+*Status* 
 
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte opgevoerd|
-|Bouwvergunning verleend|	
-|Sloopvergunning verleend|	
-|In aanbouw|	
-|In verbouw|	
-|Gesloopt|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -1043,11 +875,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een gebouwcomponent|Ja |
-|Geometrie |De geometrische representatie van de randen van een gebouwcomponent   |Ja (1,5D of 2,5D)|
+|Identificatie   |Unieke aanduiding van een gebouwcomponent|Ja |
+|Geometrie |Geometrische representatie van de randen van een gebouwcomponent   |Ja (1,5D of 2,5D)|
 |Aard|Het soort gebouwcomponent|Ja |
 |Bijbehorend object |Het object waarbij de betreffende gebouwcomponent behoort|Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende gebouwcomponent zich bevindt   |Ja   |
+|Status   |Fase van de levenscyclus waarin de betreffende gebouwcomponent zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -1064,6 +896,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 </div>
 
+*Type*
 
 | Waarde Aard| Beschrijving   |
 |---|---|
@@ -1073,23 +906,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 |toegangstrap|Niet afsluitbare trap (of trappenhuis) die toegang biedt aan een gebouw|
 
 
-
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte opgevoerd|
-|Bouwvergunning verleend|	
-|Sloopvergunning verleend|	
-|In aanbouw|	
-|In verbouw|	
-|Gesloopt|	
 
 
 
@@ -1111,12 +927,12 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een toegangsdeur|Ja |
-|Geometrie |De geometrische representatie van een Toegangsdeur   |Ja (1,5D)|
+|Identificatie   |Unieke aanduiding van een toegangsdeur|Ja |
+|Geometrie |Geometrische representatie van een Toegangsdeur   |Ja (1,5D)|
 |Toegangssoort|De plaats waarvan de toegangsdeur toegang geeft|Ja|
 |Gebruiksaard|De aard van gebruik van de  toegangsdeur|Ja|
 |Bijbehorend object |Het object waarin de betreffende toegangsdeur zich bevindt|Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende toegangsdeur zich bevindt   |Ja   |
+|Status   |Fase van de levenscyclus waarin de betreffende toegangsdeur zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -1144,18 +960,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Gebouw"
 |Auto|de toegangsdeur is primair bedoeld voor toegang tot een object door voertuigen |
 |Vracht|de toegangsdeur is primair bedoeld voor toegang tot een object door vracht zonder gebruik van een voertuig|
 
+*Status* 
 
-*status*
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte opgevoerd|
 
 #### Open bouwwerk
 
@@ -1176,17 +984,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een open bouwwerk|Ja |
-|Geometrie |De geometrische representatie van de randen van een open bouwwerk   |Ja (3D)|
+|Identificatie   |Unieke aanduiding van een open bouwwerk|Ja |
+|Geometrie |Geometrische representatie van de randen van een open bouwwerk   |Ja (3D)|
 |typering| Het soort open bouwwerk|
-|Status   |De fase van de levenscyclus waarin het betreffende open bouwwerk zich bevindt   |Ja   |
+|Status   |Fase van de levenscyclus waarin het betreffende open bouwwerk zich bevindt   |Ja   |
 
 
 
 
 **Domeinwaarden**
 
-*typering*
+*Typering*
 
 |Waarde typering| Beschrijving|
 |---|---|
@@ -1194,18 +1002,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 |open loods|Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden|
 |parkeergarage|Een open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van motorvoertuigen|
 
+*Status* 
 
-*status*
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte opgevoerd|
 
 
 ### Verharding
@@ -1229,28 +1030,17 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Verharding"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een verharding|Ja |
-|Geometrie|De geometrische representatie van de randen van een verhardingsvlak|Ja (vlak, 2.5D)|
-|Status   | De fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt|Ja   |
-|Type verharding|De aanduiding van het soort verharding|Ja|
+|Identificatie   |Unieke aanduiding van een verharding|Ja |
+|Geometrie|Geometrische representatie van de randen van een verhardingsvlak|Ja (vlak, 2.5D)|
+|Status   | Fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt|Ja   |
+|Type verharding|Aanduiding van het soort verharding|Ja|
 
 
 
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
-*type verharding*
+*Type verharding*
 
 |Waarde Type verharding| Beschrijving   |
 |---|---|
@@ -1260,6 +1050,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | Halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond|
 | Kunststofverharding|Synthetisch vervaardigd materiaal dat als verharding dient|
 | Onverhard| Onverhard oppervlakte bestaande uit natuurlijke materialen, voorzien van een fundering|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
 
 
 ### Kunstwerk
@@ -1281,10 +1076,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van overbrugging|Ja |
-|Geometrie|De geometrische representatie van de randen van een overbrugging|Ja (vlak, 2.5D)|
-|Status   | De fase van de levenscyclus waarin de betreffende overbrugging zich bevindt|Ja   |
-|Type overbrugging|De aanduiding van het soort overbrugging|Ja|
+|Identificatie   |Unieke aanduiding van overbrugging|Ja |
+|Geometrie|Geometrische representatie van de randen van een overbrugging|Ja (vlak, 2.5D)|
+|Status   | Fase van de levenscyclus waarin de betreffende overbrugging zich bevindt|Ja   |
+|Type overbrugging|Aanduiding van het soort overbrugging|Ja|
 |Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
 | Beweegbaar |De aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
@@ -1293,19 +1088,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
-*type overbrugging* 
+*Type overbrugging* 
 
 |Waarde Type overbrugging| Beschrijving   |
 |---|---|
@@ -1316,7 +1100,7 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   |
 | overkluizing |Een civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
 
-.
+*Type beperking*
 
 |Waarde Beperking| Beschrijving   |
 |---|---|
@@ -1325,6 +1109,11 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | toegestane massa|Toegestane massa op een kunstwerk/verharding|
 | toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van de type verbinding)|
 | doorvaarhoogte |De hoogte die beschikbaar is tussen water en de constructies welke boven het water aanwezig zijn|
+
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 #### Kunstwerkdeel
@@ -1347,10 +1136,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een kunstwerkdeel|Ja |
-|Geometrie|De geometrische representatie van de randen van een kunstwerkdeel|Ja (vlak, 2.5D|
-|Status   |  De fase van de levenscyclus waarin het betreffende kunstwerkdeel zich bevindt|Ja   |
-|Type kunstwerkdeel| De aanduiding van het soort kunstwerkdeel|ja|
+|Identificatie   |Unieke aanduiding van een kunstwerkdeel|Ja |
+|Geometrie|Geometrische representatie van de randen van een kunstwerkdeel|Ja (vlak, 2.5D|
+|Status   |  Fase van de levenscyclus waarin het betreffende kunstwerkdeel zich bevindt|Ja   |
+|Type kunstwerkdeel| Aanduiding van het soort kunstwerkdeel|ja|
 
 
 **Relaties met andere objecttypen** 
@@ -1362,17 +1151,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 **Domeinwaarden**
 
-*status*
-
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
 
 *Type kunstwerkdeel*
 
@@ -1386,6 +1164,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden|
 | kolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht|
 | vuilvang | Een voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 #### Ondertunneling
@@ -1409,10 +1191,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een ondertunneling|Ja |
-|Geometrie|De geometrische representatie van de randen van een ondertunneling|Ja (vlak, 2.5D)|
-|Status   | De fase van de levenscyclus waarin de betreffende ondertunneling zich bevindt|Ja   |
-|Type ondertunneling| De aanduiding van het soort ondertunneling|Ja|
+|Identificatie   |Unieke aanduiding van een ondertunneling|Ja |
+|Geometrie|Geometrische representatie van de randen van een ondertunneling|Ja (vlak, 2.5D)|
+|Status   | Fase van de levenscyclus waarin de betreffende ondertunneling zich bevindt|Ja   |
+|Type ondertunneling| Aanduiding van het soort ondertunneling|Ja|
 |Naam| Een breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
 
@@ -1420,26 +1202,15 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
-*type ondertunneling*
+*Type ondertunneling*
 
 |Waarde Type ondertunneling| Beschrijving   |
 |---|---|
 | tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren|
 | duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt|
 
-.
+*Type beperking*
 
 |Waarde Beperking| Beschrijving   |
 |---|---|
@@ -1447,6 +1218,12 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van de type verbinding)|
 | toegestane massa|Toegestane massa op een kunstwerk/verharding|
 | toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van de type verbinding)|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
 
 
 #### Kerende kunstwerken
@@ -1468,10 +1245,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van kerende kunstwerken|Ja |
-|Geometrie|De geometrische representatie van de randen van het betreffende kunstwerk|Ja (vlak, 2.5D)|
-|Status   | De fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
-|Type kerend kunstwerk| De aanduiding van het soort kunstwerk|Ja|
+|Identificatie   |Unieke aanduiding van kerende kunstwerken|Ja |
+|Geometrie|Geometrische representatie van de randen van het betreffende kunstwerk|Ja (vlak, 2.5D)|
+|Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
+|Type kerend kunstwerk| Aanduiding van het soort kunstwerk|Ja|
 |Naam| Een breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 
 
@@ -1484,19 +1261,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
 
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
-*type kerend kunstwerk*
+*Type kerend kunstwerk*
 
 |Waarde type kerend kunstwerk| Beschrijving   |
 |---|---|
@@ -1510,6 +1277,9 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | coupure |Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
 | dijk|Een dijk is een aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
 
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 #### Overige kunstwerken
@@ -1531,10 +1301,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van overige kunstwerken|Ja |
-|Geometrie|De geometrische representatie van de randen van het betreffende kunstwerk|Ja (vlak, 2.5D)|
-|Status   | De fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
-|Type overig kunstwerk| De aanduiding van het soort kunstwerk|Ja|
+|Identificatie   |Unieke aanduiding van overige kunstwerken|Ja |
+|Geometrie|Geometrische representatie van de randen van het betreffende kunstwerk|Ja (vlak, 2.5D)|
+|Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
+|Type overig kunstwerk| Aanduiding van het soort kunstwerk|Ja|
 |Naam| Een breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 
 
@@ -1542,19 +1312,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Kunstwerk"
 
 **Domeinwaarden**
 
-*status*
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
-
-*type overig kunstwerk*
+*Type overig kunstwerk*
 
 |Waarde type overig kunstwerk| Beschrijving   |
 |---|---|
@@ -1566,6 +1325,10 @@ Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoal
 | bodemval |Sprong in de bodem van een waterloop|
 | ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft|
 | voorde |Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop|
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -1597,8 +1360,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-| Identificatie   |De unieke aanduiding van een muur|Ja |
-| Geometrie|De geometrische representatie van een muur|Ja (lijn) Nee (vlak)|
+| Identificatie   |Unieke aanduiding van een muur|Ja |
+| Geometrie|Geometrische representatie van een muur|Ja (lijn) Nee (vlak)|
 
 
 #### Omheining
@@ -1622,8 +1385,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een omheining|Ja |
-|Geometrie|De geometrische representatie van een omheining|Ja (lijn)|
+|Identificatie   |Unieke aanduiding van een omheining|Ja |
+|Geometrie|Geometrische representatie van een omheining|Ja (lijn)|
 
 
 #### Scherm
@@ -1647,11 +1410,14 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een scherm|Ja |
-|Geometrie|De geometrische representatie van een scherm|Ja (lijn)|
+|Identificatie   |Unieke aanduiding van een scherm|Ja |
+|Geometrie|Geometrische representatie van een scherm|Ja (lijn)|
 |Type scherm| *nog toevoegen* |Nee| 
 
 **Domeinwaarden**
+
+
+*Type*
 
 |Waarde Type Scherm| Beschrijving   |
 |---|---|
@@ -1681,8 +1447,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een afvalcontainer|Ja |
-|Geometrie|De geometrische representatie van de locatie van een afvalcontainer|Ja (punt)|
+|Identificatie   |Unieke aanduiding van een afvalcontainer|Ja |
+|Geometrie|Geometrische representatie van de locatie van een afvalcontainer|Ja (punt)|
 
 
 
@@ -1708,8 +1474,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een bassin|Ja |
-|Geometrie|De geometrische representatie van de locatie van een bassin|Ja (vlak)|
+|Identificatie   |Unieke aanduiding van een bassin|Ja |
+|Geometrie|Geometrische representatie van de locatie van een bassin|Ja (vlak)|
 
 #### Opslagtank
 
@@ -1731,8 +1497,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een opslagtank|Ja |
-|Geometrie|De geometrische representatie van de locatie van een opslagtank|Ja (vlak)|
+|Identificatie   |Unieke aanduiding van een opslagtank|Ja |
+|Geometrie|Geometrische representatie van de locatie van een opslagtank|Ja (vlak)|
 
 
 #### Putdeksel
@@ -1755,8 +1521,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een putdeksel|Ja |
-|Geometrie|De geometrische representatie van de ligging van de putdeksel|Ja (punt, lijn, vlak)|
+|Identificatie   |Unieke aanduiding van een putdeksel|Ja |
+|Geometrie|Geometrische representatie van de ligging van de putdeksel|Ja (punt, lijn, vlak)|
 
 
 
@@ -1780,8 +1546,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een geleider|Ja |
-|Geometrie|De geometrische representatie van de ligging van de geleider|Ja (lijn, vlak)|
+|Identificatie   |Unieke aanduiding van een geleider|Ja |
+|Geometrie|Geometrische representatie van de ligging van de geleider|Ja (lijn, vlak)|
 
 
 
@@ -1805,10 +1571,10 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een installatie|Ja |
-|Geometrie|De geometrische representatie van de ligging van de installatie of van de randen van de installatie|Ja (punt, lijn, vlak)|
+|Identificatie   |Unieke aanduiding van een installatie|Ja |
+|Geometrie|Geometrische representatie van de ligging van de installatie of van de randen van de installatie|Ja (punt, lijn, vlak)|
 
-|Type installatie| De aanduiding van het soort installatie|Ja|
+|Type installatie| Aanduiding van het soort installatie|Ja|
 
 
 **Relaties met andere objecttypen** 
@@ -1821,7 +1587,13 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 **Domeinwaarden**
 
+*Type* 
 
+|Waarde Type installatie| Beschrijving   |
+|---|---|
+|**verplicht**||
+|sirene|*nog toevoegen*|
+|verkeerslicht|*nog toevoegen*|
 |openbare verlichting|*nog toevoegen*|
 |kast|Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen|
 |**vrijwillig**||
@@ -1854,8 +1626,8 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een mast|Ja |
-|Geometrie|De geometrische representatie van de ligging van de mast of van de randen van de mast|Ja (punt, lijn, vlak)|
+|Identificatie   |Unieke aanduiding van een mast|Ja |
+|Geometrie|Geometrische representatie van de ligging van de mast of van de randen van de mast|Ja (punt, lijn, vlak)|
 
 
 
@@ -1879,9 +1651,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van straatmeubilair|Ja |
-|Geometrie|De geometrische representatie van de locatie van het straatmeubilair|Ja (punt)|
-|Type straatmeubilair|De aanduiding van het soort straatmeubilair |Nee|
+|Identificatie   |Unieke aanduiding van straatmeubilair|Ja |
+|Geometrie|Geometrische representatie van de locatie van het straatmeubilair|Ja (punt)|
+|Type straatmeubilair|Aanduiding van het soort straatmeubilair |Nee|
 
 
 
@@ -1896,7 +1668,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 
 
-*type straatmeubilair*
+*Type straatmeubilair*
 
 |Waarde Type straatmeubilair| Beschrijving   |
 |---|---|
@@ -1943,9 +1715,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een bunker|Ja |
-|Geometrie|De geometrische representatie van de randen van een bunker|Ja (vlak)|
-|Status   | De fase van de levenscyclus waarin de betreffende bunker zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een bunker|Ja |
+|Geometrie|Geometrische representatie van de randen van een bunker|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin de betreffende bunker zich bevindt|Ja   |
 
 
 
@@ -1953,17 +1725,9 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Constructie"
 
 **Domeinwaarden**
 
-*status*
+*Status* 
 
-Bij dit object kunnen de alleen de volgende domeinwaarden worden gehanteerd zoals beschreven bij de levensfasen in dit document.
-
-|Waarde Status| 
-|---|
-|Gepland|	
-|Bestaand|	
-|Verwijderd|
-|Niet gerealiseerd|
-|Ten onrechte|
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
