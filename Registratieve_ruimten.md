@@ -412,7 +412,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Registratieve ru
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een openbare ruimte  |Ja |
-|Type   |De aard van het object waaraan een openbare ruimte is gerelateerd   |Ja   |
+|Type   |Aard van het object waaraan een openbare ruimte is gerelateerd   |Ja   |
 |Formele naam | Naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja|
 |Alternatieve naam|Alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Nee|
 |Geometrie   |Geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  | Ja (2D vlak)  |
