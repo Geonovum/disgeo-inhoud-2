@@ -379,7 +379,8 @@ Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt v
 
 <div class='note'>
     voor redactie:
-    verwijzing hieronder opnemen naar nog te schrijven uitleg eerder in het document
+    
+    verwijzing hieronder opnemen naar nog te schrijven uitleg over informatieproducten eerder in het document
 </div>
 
 
