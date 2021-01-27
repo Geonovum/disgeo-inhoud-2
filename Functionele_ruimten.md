@@ -855,7 +855,7 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse "Functionele ruim
 |Identificatie   |De unieke aanduiding van recreatie|Ja |
 |Geometrie |De geometrische representatie van recreatie|Ja (vlak)|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
-|Type|Categorisering van de verschillende soorten recreatie|Nee| 
+|Type|Categorisering van de verschillende soorten recreatie|Ja| 
 |Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt|Ja   |
 
 
