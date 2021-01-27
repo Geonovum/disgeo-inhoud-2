@@ -93,41 +93,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-### Bosgebied
-
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
-
-**Definitie**
-
-| Naam  | Bosgebied  |
-|---|---|
-| Definitie | Geografische ruimte die met bos begroeid is|
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *bosgebied* zoals deze is opgenomen in de basisregistratie topografie|
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een bosgebied|Ja |
-|Naam   |Plaatselijke naam van het bosgebied zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
-|Alternatieve naam   | Alternatieve benaming van een bosgebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van het bosgebied|Ja (vlak)  |
-|Status   |Fase van de levenscyclus waarin het betreffende bosgebied zich bevindt|Ja   |
-
-
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
-
-
-
-
 ### Duingebied
 
 Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
@@ -136,11 +101,11 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 
 | Naam  | Duingebied  |
 |---|---|
-| Definitie |Geografische ruimte die heuvels van fijn zand betreffen, al dan niet begroeid met helmgras en struiken|
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+| Definitie |Verhoging of heuvel van zand of fijne losse aarde opgeworpen door wind. Duingebieden grenzen aan zeestranden en zijn al dan niet begroeid of bebouwd of bedekt door water of wegen|
+|Herkomst definitie  | Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *duingebied* zoals deze is opgenomen in de basisregistratie topografie|
-|Toelichting|   |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *duingebied* zoals deze is opgenomen in de basisregistratie topografie|
+|Toelichting| Het geografisch object Duingebied omvat uiteenlopende reële objecten water, begroeiing, verharding, constructies en bodem. Het geografisch object Duingebied is opgenomen, omdat deze voorziet in een specifieke informatiebehoefte.  |
 
 **Eigenschappen**
 
@@ -165,39 +130,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 	
 
 
-
-### Heidegebied
-
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
-
-**Definitie**
-
-| Naam  | Heidegebied  |
-|---|---|
-| Definitie | Geografische ruimte die overwegend met heide begroeid is|
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *heidegebied* zoals deze is opgenomen in de basisregistratie topografie|
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een heidegebied|Ja |
-|Naam   |Plaatselijke naam van het heidegebied zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
-|Alternatieve naam   | Alternatieve benaming van een heidegebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van het heidegebied|Ja (vlak)  |
-|Status   |Fase van delevenscyclus waarin het betreffende heidegebied zich bevindt|Ja   |
-
-
-
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
 ### Watergebied
 
@@ -415,7 +347,6 @@ Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische r
 |groeve|Opengegraven ruimte waaruit een delfstof gewonnen wordt|
 |berg|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
 |dal|Langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten|
-|tuunwal| Op elkaar gestapelde grasplaggen als scheiding tussen twee percelen|
 
 
 
