@@ -142,7 +142,7 @@ Ontwerpprincipe:
 Een object kan eerder ontstaan (bijvoorbeeld in een sectorregistratie) dan in de SOR. Een object krijgt daar een unieke sectorregistratie-identificatie. Indien een UOI-codestelsel (unique object identifier) in Nederland ingevoerd wordt krijgt dit object mogelijk wel bij ontstaan direct een UOI mee. Indien dit object, voorzien van een UOI, wordt aangeboden aan de SOR, wordt deze UOI-identificatie in de SOR overgenomen. Indien er geen sprake is van een UOI-code stelsel in Nederland, krijgt het object pas in de SOR een unieke objectidentificatie. Om interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
 
 
-### Geometrie
+### Aspecten van geometrie
 
 Opname van geometrie van alle objecten in de registratie is van essentieel belang voor het goed kunnen functioneren van een geo-basisregistratie. Met geometrie wordt daarbij expliciet bedoeld een geo-gerefereerde vastlegging van de begrenzing van een object. Met geo-gerefereerde vastlegging wordt bedoeld dat de geometrie is beschreven in de vorm van coördinaten die onderdeel uitmaken van een referentie coördinatenstelsel (zoals het RD stelsel of ETRS89). De registratie wordt daarbij direct voorbereid op 3D vastlegging van objecten.
 
