@@ -31,9 +31,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |---|---|---|
 |Identificatie   |Unieke aanduiding van het Rijk |Ja |
 |Geometrie| Geometrische representatie van de randen van het gebied dat als Rijk is benoemd|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin het Rijk zich bevindt|Ja   |
 |Landcode | Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
-
+|Status   | Fase van de levenscyclus waarin het Rijk zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -143,9 +142,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Formele naam|	Naam van een gemeente zoals formeel benoemd door het bevoegd gezag|Ja |
 |Alternatieve naam|	Alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
 |Geometrie| Geometrische representatie van de randen van het gebied dat als gemeente is benoemd|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin de gemeente zich bevindt|Ja   |
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
-
+|Status   | Fase van de levenscyclus waarin de gemeente zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
 
@@ -181,9 +179,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |---|---|---|
 |Identificatie   |Unieke aanduiding van de Nederlandse territoriale zee |Ja |
 |Geometrie| Geometrische representatie van de randen van het gebied dat als Nederlandse territoriale zee is benoemd|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt|Ja   |
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
-
+|Status   | Fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt|Ja   |
 
 
 
@@ -216,9 +213,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |---|---|---|
 |Identificatie   |Unieke aanduiding van de Nederlandse aansluitende zone |Ja |
 |Geometrie| Geometrische representatie van de randen van het gebied dat als Nederlandse aansluitende zone is benoemd|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt|Ja   |
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
-
+|Status   | Fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt|Ja   |
 
 
 
@@ -253,9 +249,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |---|---|---|
 |Identificatie   |Unieke aanduiding van de Nederlandse exclusieve economische zone |Ja |
 |Geometrie| Geometrische representatie van de randen van het gebied dat als Nederlandse exclusieve economische zone is benoemd|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt|Ja   |
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
-
+|Status   | Fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt|Ja   |
 
 
 
