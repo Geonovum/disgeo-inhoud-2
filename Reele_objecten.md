@@ -218,7 +218,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-### Onbepaald terreindeel
+#### Onbepaald terreindeel
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Bodem"
 
