@@ -1288,7 +1288,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Geometrie|Geometrische representatie van het betreffende kunstwerk|Ja (vlak, 2.5D)|
 |Type overig kunstwerk| Aanduiding van het soort kunstwerk|Ja|
 |Naam| Breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-|Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een kunstwerk zich bevindt|Ja   |
 
 
 
@@ -1326,8 +1326,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
  
-
-
 **Definitie**
 
 | Naam  | Muur |
@@ -1344,6 +1342,14 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 | Identificatie   |Unieke aanduiding van een muur|Ja |
 | Geometrie|Geometrische representatie van een muur|Ja (lijn) Nee (vlak)|
+|Status   | Fase van de levenscyclus waarin een muur zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
 
 
 #### Omheining
@@ -1369,6 +1375,14 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een omheining|Ja |
 |Geometrie|Geometrische representatie van een omheining|Ja (lijn)|
+|Status   | Fase van de levenscyclus waarin een omheining zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
 
 
 #### Scherm
@@ -1395,6 +1409,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Identificatie   |Unieke aanduiding van een scherm|Ja |
 |Geometrie|Geometrische representatie van een scherm|Ja (lijn)|
 |Type scherm| *nog toevoegen* |Nee| 
+|Status   | Fase van de levenscyclus waarin een scherm zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -1405,6 +1420,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|
 |geluid|*nog toevoegen*|
 |fijnstof|*nog toevoegen*|
+
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -1431,6 +1451,13 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een afvalcontainer|Ja |
 |Geometrie|Geometrische representatie van een afvalcontainer|Ja (punt)|
+|Status   | Fase van de levenscyclus waarin een afvalcontainer zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -1458,6 +1485,15 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een bassin|Ja |
 |Geometrie|Geometrische representatie van een bassin|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin een bassin zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
 
 #### Opslagtank
 
@@ -1481,6 +1517,14 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een opslagtank|Ja |
 |Geometrie|Geometrische representatie van een opslagtank|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin een opslagtank zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
 
 
 #### Putdeksel
@@ -1505,6 +1549,13 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een putdeksel|Ja |
 |Geometrie|Geometrische representatie van de ligging van de putdeksel|Ja (punt, lijn, vlak)|
+|Status   | Fase van de levenscyclus waarin een putdeksel zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -1530,6 +1581,13 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een geleider|Ja |
 |Geometrie|Geometrische representatie van de ligging van de geleider|Ja (lijn, vlak)|
+|Status   | Fase van de levenscyclus waarin een geleider zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -1549,6 +1607,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties  *installatie* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
 
+
+
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
@@ -1556,6 +1616,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Identificatie   |Unieke aanduiding van een installatie|Ja |
 |Geometrie|Geometrische representatie van de ligging van de installatie of van de installatie|Ja (punt, lijn, vlak)|
 |Type installatie| Aanduiding van het soort installatie|Ja|
+|Status   | Fase van de levenscyclus waarin een installatie zich bevindt|Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -1585,6 +1646,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |oplaadpunt| Systeem voor opladen van elektrische auto's |
 
 
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
 
 
 #### Mast
@@ -1609,6 +1675,13 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een mast|Ja |
 |Geometrie|Geometrische representatie van de ligging van de mast of van de mast|Ja (punt, lijn, vlak)|
+|Status   | Fase van de levenscyclus waarin een mast zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
@@ -1634,6 +1707,15 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van paal|Ja |
 |Geometrie|Geometrische representatie van de paal|Ja (punt)|
+|Status   | Fase van de levenscyclus waarin een paal zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
 
 #### Straatmeubilair
 
@@ -1657,6 +1739,15 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van straatmeubilair|Ja |
 |Geometrie|Geometrische representatie van het straatmeubilair|Ja (punt)|
+|Status   | Fase van de levenscyclus waarin het straatmeubilair zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
 
 #### Bunker
 
@@ -1680,11 +1771,13 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een bunker|Ja |
 |Geometrie|Geometrische representatie van een bunker|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin een bunker zich bevindt|Ja   |
 
+**Domeinwaarden**
 
+*Status* 
 
-d
-
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
