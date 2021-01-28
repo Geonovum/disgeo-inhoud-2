@@ -269,8 +269,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 | Definitie |Begroeiing die een dusdanige aantal bomen betreft dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen|
 | Herkomst definitie  | Gebaseerd op de definities van bos in de BGT 1.2 en van Griend en Hakhout uit IMGeo 2.2 |
 | Verplicht  | Ja, voor wat betreft loofbos, naaldbos en gemengd bos; Nee, voor wat betreft griend en hakhout |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *loofbos, naaldbos en gemengd bos* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie aangevuld met fysiek voorkomen Griend en Hakhout zoals gedefinieerd in IMGeo 2.2 De definitie van Bos laat voldoende ruimte voor plaatselijke aanwezigheid van struiken|
-| Toelichting| De combinatie van reëel object Bos en bijvoorbeeld functioneel object Park en/of sectorregistraties (bv IMNA) kan voorzien in informatiebehoefte aan specifieke bostypen zoals 'bosplantsoen'.|
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *loofbos, naaldbos en gemengd bos* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie aangevuld met fysiek voorkomen Griend en Hakhout zoals gedefinieerd in IMGeo 2.2 |
+| Toelichting| De definitie van Bos laat voldoende ruimte voor plaatselijke aanwezigheid van struiken. De combinatie van reëel object Bos en bijvoorbeeld functioneel object Park en/of sectorregistraties (bv IMNA) kan voorzien in informatiebehoefte aan specifieke bostypen zoals 'bosplantsoen'.|
 
 **Eigenschappen**
 
@@ -311,8 +311,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Herkomst definitie  | IMBOR 2020 |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *gras- en kruidachtigen*,*grasland agrarisch* en *grasland overig* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Onderscheid in gras voor agrarisch gebruik, dan wel voor natuurlijk gebruik of 'overig ' gebruik is op basis van het nieuwe reëel object Gras- en kruidachtigen niet meer te zien. In sectormodel kan onderscheid gemaakt worden obv sector specifiek kenmerken.
-De combinatie van reëel object Gras- en kruidachtigen en  functioneel object Park of Sportterrein en/of sectorregistraties (bv IMNA, gewaspecelen, IMBOR) kan voorzien in informatiebehoefte aan specifieke grastypen zoals 'gazon', agrarisch/natuurlijk gras' of 'sportveld'.| 
+|Toelichting| Onderscheid in gras voor agrarisch gebruik, dan wel voor natuurlijk gebruik of 'overig ' gebruik is op basis van het nieuwe reëel object Gras- en kruidachtigen niet meer te zien. In sectormodel kan onderscheid gemaakt worden obv sector specifiek kenmerken. De combinatie van reëel object Gras- en kruidachtigen en  functioneel object Park of Sportterrein en/of sectorregistraties (bv IMNA, gewaspecelen, IMBOR) kan voorzien in informatiebehoefte aan specifieke grastypen zoals 'gazon', agrarisch/natuurlijk gras' of 'sportveld'.| 
 
 **Eigenschappen**
 
@@ -419,7 +418,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   | Unieke aanduiding van fruit- of kweekbomen|Ja |
 |Geometrie| Geometrische representatie van fruit- of kweekbomen|Ja (vlak)|
-|Type fruit- of kweekbomen| Aanduiding van het type fruit- of kweekbomen|Nee|
+|Type fruit- of kweekbomen| Aanduiding van het type fruit- of kweekbomen|Ja|
 |Status   | Fase van de levenscyclus waarin de betreffende fruit- of kweekbomen zich bevinden|Ja   |
 
 
@@ -539,7 +538,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Landschapselement
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 BOMENRIJ
 
