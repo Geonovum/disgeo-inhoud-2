@@ -31,9 +31,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een watervlakte|Ja |
 |Geometrie|Geometrische representatie van een watervlakte|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin de watervlakte zich bevindt|Ja   |
 |Type watervlakte|Aanduiding van het soort watervlakte|Nee|
-
+|Status   | Fase van de levenscyclus waarin de watervlakte zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -79,9 +78,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een waterloop|Ja |
 |Geometrie|Geometrische representatie van een waterloop|Ja (vlak)|
-|Status   |  Fase van de levenscyclus waarin de waterloop zich bevindt|Ja   |
 |Type waterloop|Aanduiding van het soort waterloop|Nee|
 |Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
+|Status   |  Fase van de levenscyclus waarin de waterloop zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -163,9 +162,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een getijdengebied|Ja |
 |Geometrie|Geometrische representatie van een getijdengebied|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin het getijdengebied zich bevindt|Ja   |
 |Type getijdengebied|Aanduiding van het soort getijdengebied|Nee|
-
+|Status   | Fase van de levenscyclus waarin het getijdengebied zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -280,9 +278,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   | Unieke aanduiding van een bos|Ja |
 |Geometrie| Geometrische representatie van een bos|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin het betreffende bos zich bevindt|Ja   |
 |Type bos| Aanduiding van het soort bos|Ja|
-
+|Status   | Fase van de levenscyclus waarin het betreffende bos zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -1022,9 +1019,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Verharding"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een verharding|Ja |
 |Geometrie|Geometrische representatie van een verhardingsvlak|Ja (vlak, 2.5D)|
-|Status   | Fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt|Ja   |
 |Type verharding|Aanduiding van het soort verharding|Ja|
-
+|Status   | Fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -1068,11 +1064,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van overbrugging|Ja |
 |Geometrie|Geometrische representatie van een overbrugging|Ja (vlak, 2.5D)|
-|Status   | Fase van de levenscyclus waarin de betreffende overbrugging zich bevindt|Ja   |
 |Type overbrugging|Aanduiding van het soort overbrugging|Ja|
 |Naam| Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
 | Beweegbaar  |Aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
+|Status   | Fase van de levenscyclus waarin de betreffende overbrugging zich bevindt|Ja   |
 
 
 
@@ -1128,9 +1124,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een kunstwerkdeel|Ja |
 |Geometrie|Geometrische representatie van een kunstwerkdeel|Ja (vlak, 2.5D|
-|Status   |  Fase van de levenscyclus waarin het betreffende kunstwerkdeel zich bevindt|Ja   |
 |Type kunstwerkdeel| Aanduiding van het soort kunstwerkdeel|ja|
-
+|Status   |  Fase van de levenscyclus waarin het betreffende kunstwerkdeel zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
 
@@ -1183,11 +1178,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een ondertunneling|Ja |
 |Geometrie|Geometrische representatie van een ondertunneling|Ja (vlak, 2.5D)|
-|Status   | Fase van de levenscyclus waarin de betreffende ondertunneling zich bevindt|Ja   |
 |Type ondertunneling| Aanduiding van het soort ondertunneling|Ja|
 |Naam| Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
-
+|Status   | Fase van de levenscyclus waarin de betreffende ondertunneling zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -1237,10 +1231,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van kerende kunstwerken|Ja |
 |Geometrie|Geometrische representatie van het betreffende kunstwerk|Ja (vlak, 2.5D)|
-|Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
 |Type kerend kunstwerk| Aanduiding van het soort kunstwerk|Ja|
 |Naam| Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-
+|Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
 
@@ -1293,10 +1286,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van overige kunstwerken|Ja |
 |Geometrie|Geometrische representatie van het betreffende kunstwerk|Ja (vlak, 2.5D)|
-|Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
 |Type overig kunstwerk| Aanduiding van het soort kunstwerk|Ja|
 |Naam| Breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-
+|Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
 
 
 
