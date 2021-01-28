@@ -6,7 +6,7 @@
 
 ### Bebouwingskern
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type vande NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
@@ -60,7 +60,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Streek
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type vande NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
@@ -95,7 +95,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Duingebied
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type vande NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
@@ -133,7 +133,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Watergebied
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type vande NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
@@ -167,7 +167,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Eiland
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type vande NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
@@ -203,7 +203,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Polder
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type vande NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
@@ -241,7 +241,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Strand
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type vande NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
@@ -276,7 +276,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Zandverstuiving
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type vande NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
@@ -310,7 +310,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Reliëf 
 
-Dit SOR-begrip maakt onderdeel uit van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type vande NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
