@@ -6,7 +6,7 @@
 
 ### Bestuurlijk gebied
 
-Bestuurlijke gebieden zijn te zien als registratieve objecten die op basis van wet- of regelgeving als eenheid gelden van politiek/bestuurlijke verantwoordelijkheid. Dit betreft bijvoorbeeld de gebieden behorende bij de vier formele bestuurslagen uit de Grondwet (Rijk, provincie, waterschap, gemeente), maar kan ook gebieden van bestuurlijke samenwerkingsverbanden met eigen politiek/bestuurlijke verantwoordelijkheid omvatten. Een voorbeeld daarvan betreft de veiligheidsregio’s.
+Bestuurlijke gebieden zijn registratieve ruimten die op basis van wet- of regelgeving als eenheid gelden van politiek/bestuurlijke verantwoordelijkheid. Dit betreft bijvoorbeeld de gebieden behorende bij de vier formele bestuurslagen uit de Grondwet (Rijk, provincie, waterschap, gemeente), maar kan ook gebieden van bestuurlijke samenwerkingsverbanden met eigen politiek/bestuurlijke verantwoordelijkheid omvatten. Een voorbeeld daarvan betreft de veiligheidsregio’s.
 
 #### Rijk
 
@@ -18,7 +18,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Rijk |
 |---|---|
-| Definitie | Registratieve ruimte die het grondgebied van het Koninkrijk der Nederlanden betreft*|
+| Definitie | Het grondgebied van het Koninkrijk der Nederlanden |
 |Herkomst definitie  | BRK  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster|
@@ -53,7 +53,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Provincie |
 |---|---|
-| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland betreft, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet|
+| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet|
 |Herkomst definitie  | Grondwet en Provinciewet  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster|
@@ -128,7 +128,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Gemeente |
 |---|---|
-| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland betreft, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet|
+| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet|
 |Herkomst definitie  | Grondwet en Gemeentewet|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster|
@@ -209,11 +209,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Nederlandse territoriale zee |
 |---|---|
-| Definitie | Het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust, ook wel bekend als “de 12-mijlszone”.  *In het Eems-Dollard gebied is er tussen Nederland en Duitsland geen formeel grensverdrag en dus geen wederzijds bevestigde begrenzing van de territoriale zee*|
+| Definitie | Het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust dat behoort bij het Rijk|
 |Herkomst definitie  | Wet grenzen Nederlandse territoriale zee|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de territoriale zee zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie|
-|Toelichting| |
+|Toelichting|Dit gebied is ook wel bekend als “de 12-mijlszone”. In het Eems-Dollard gebied is er tussen Nederland en Duitsland geen formeel grensverdrag en dus geen wederzijds bevestigde begrenzing van de territoriale zee |
 
 **Eigenschappen**
 
@@ -243,7 +243,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Nederlandse aansluitende zone |
 |---|---|
-| Definitie | Registratieve ruimte die de Nederlandse aansluitende zone betreft buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan 24 zeemijlen vanaf de laagwaterlijn|
+| Definitie | Het gebied buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan 24 zeemijlen vanaf de laagwaterlij|
 |Herkomst definitie  | Rijkswet instelling aansluitende zone|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de aansluitende zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie|
@@ -279,7 +279,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Nederlandse exclusieve economische zone |
 |---|---|
-| Definitie | Registratieve ruimte die de Nederlandse exclusieve economische zone betreft buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan tweehonderd zeemijlen vanaf de laagwaterlijn|
+| Definitie | Het gebied buiten en grenzend aan de territoriale zee dat zich niet verder uitstrekt dan tweehonderd zeemijlen vanaf de laagwaterlijn|
 |Herkomst definitie  | Rijkswet instelling exclusieve economische zone|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de Nederlandse exclusieve economische zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie|
@@ -312,11 +312,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Nederlandse continentaal plat |
 |---|---|
-| Definitie | Het onder de Noordzee gelegen deel van de zeebodem en de ondergrond daarvan, waarop het Koninkrijk soevereine rechten heeft, en gelegen is buiten en grenzend aan de territoriale zee. *Binnen het Europese deel van het Rijk kent deze dezelfde contour als de Nederlandse Exclusieve Economische Zone* |
+| Definitie | Het onder de Noordzee gelegen deel van de zeebodem en de ondergrond daarvan, waarop het Koninkrijk soevereine rechten heeft, en gelegen is buiten en grenzend aan de territoriale zee |
 |Herkomst definitie  | Mijnwet continentaal plat |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier het Nederlandse continentaal plat zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie. |
-|Toelichting| *volgt later*|
+|Toelichting| Binnen het Europese deel van het Rijk kent deze dezelfde contour als de Nederlandse Exclusieve Economische Zone|
 
 **Eigenschappen**
 

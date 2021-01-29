@@ -80,7 +80,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 |Eigenschap   |Beschrijving   |Verplicht   |weg|baan|strook|
 |---|---|---|---|---|---|
 |Identificatie   |De unieke aanduiding van een wegverbinding|Ja | x | x | x |
-|Geometrie |De geometrische representatie van een wegverbinding|Ja (lijn), Nee (vlak)| x | x | |
+|Geometrie |De geometrische representatie van een wegverbinding|Ja (lijn), Nee (vlak)| x | x | x |
 |Type wegverbinding|Aanduiding van soort wegverbinding|Ja| x | x | x |
 |Type weg| Categorisering van de verschillende wegtypes|Ja| x |  |  |
 |Type baan| Categorisering van de verschillende baantypes|Ja|  | x | |
@@ -88,7 +88,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 |Routenummer|Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op een wegverbinding mogelijk (MV)|Ja (indien aanwezig)| x |  |  |
 |Afritnummer| Nummer toegekend aan een verbindingsbaan|Ja (indien aanwezig)|  | x |  |
 |Rijrichting| De toegestane beweegrichting van het verkeer op een weg/baan/strookverbinding | Ja| x | x | x |
-|Openbare weg|Bestaan van een beperking in het gebruik, zoals bedoeld in art. 6 van de Wegenwet| Ja (indien aanwezig in wegenlagger) | x | |  |
+|Openbare weg|Bestaan van een beperking in het gebruik, zoals bedoeld in art. 6 van de Wegenwet| Ja (indien aanwezig in wegenlegger) | x | |  |
 |Status   |De fase van de levenscyclus waarin een wegverbinding zich bevindt   |Ja (indien aanwezig in wegenlegger)   | x | x | x  |
 
 
