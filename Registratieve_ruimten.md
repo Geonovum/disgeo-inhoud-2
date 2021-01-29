@@ -22,7 +22,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Herkomst definitie  | BRK  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster|
-|Toelichting| Dit betreft in eerste instantie het Europese deel. Over het niet-Europese deel zal nog nadere besluitvorming plaatsvinden|
+|Toelichting| Dit betreft  het Europese deel van het Koninkrijk der Nederlanden|
 
 
 
