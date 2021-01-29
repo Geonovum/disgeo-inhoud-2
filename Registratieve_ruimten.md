@@ -143,7 +143,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Formele naam|	Naam van een gemeente zoals formeel benoemd door het bevoegd gezag|Ja |
 |Alternatieve naam|	Alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
 |Geometrie| Geometrische representatie van de randen van het gebied dat als gemeente is benoemd|Ja (vlak)|
-| Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 |Status   | Fase van de levenscyclus waarin een gemeente zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
