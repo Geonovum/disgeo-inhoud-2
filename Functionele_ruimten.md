@@ -89,7 +89,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 |Afritnummer| Nummer toegekend aan een verbindingsbaan|Ja (indien aanwezig)|  | x |  |
 |Rijrichting| De toegestane beweegrichting van het verkeer op een weg/baan/strookverbinding | Ja| x | x | x |
 |Openbare weg|Bestaan van een beperking in het gebruik, zoals bedoeld in art. 6 van de Wegenwet| Ja (indien aanwezig in wegenlegger) | x | |  |
-|Status   |De fase van de levenscyclus waarin een wegverbinding zich bevindt   |Ja (indien aanwezig in wegenlegger)   | x | x | x  |
+|Status   |De fase van de levenscyclus waarin een wegverbinding zich bevindt   |Ja  | x | x | x  |
 
 
 
@@ -313,7 +313,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **WATERWEGKNOOP**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Scheepvaartruimte
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Waterruimte
 
 
 
@@ -321,7 +321,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Scheepvaartruimte
 
 | Naam  | Waterwegknoop  |
 |---|---|
-| Definitie | Scheepvaartruimte die een begin-, eind- of keuzepunt voor de watergebruiker is|
+| Definitie | Waterruimte die een begin-, eind- of keuzepunt voor de watergebruiker is|
 | Herkomst definitie  | nieuw     |
 | Verplicht  | Ja  |
 | Gevolgen afbakening||
