@@ -161,7 +161,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-##### Veiligheidsregio
+#### Veiligheidsregio
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
