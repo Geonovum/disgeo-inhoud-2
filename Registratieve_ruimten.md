@@ -200,9 +200,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-#### Zeegebieden
+### Bestuurlijke gebieden op zee
 
-##### Nederlandse territoriale zee
+#### Nederlandse territoriale zee
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
@@ -236,7 +236,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 
-##### Nederlandse aansluitende zone
+#### Nederlandse aansluitende zone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
@@ -272,7 +272,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-##### Nederlandse exclusieve economische zone
+#### Nederlandse exclusieve economische zone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
@@ -305,7 +305,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-##### Nederlandse continentaal plat
+#### Nederlandse continentaal plat
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
