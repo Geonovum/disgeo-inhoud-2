@@ -63,11 +63,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van de Provincie |Ja |
+|Identificatie   |Unieke aanduiding van de provincie |Ja |
 |Provinciecode|	Codering van een provincie zoals deze door het CBS wordt gebruikt|Ja   |
 |Provincienaam|	Naam van een provincie zoals formeel benoemd door het bevoegd gezag|Ja   |
 |Geometrie| Geometrische representatie van de randen van het gebied dat als Provincie is benoemd|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin de Provincie zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een provincie zich bevindt|Ja   |
 
 
 
@@ -89,10 +89,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Waterschap (Administratief gebied)|
 |---|---|
-| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet.
-
-Het Administratief gebied betreft de geografische representatie van de verkiezingsgrenzen zoals die door de waterschappen zijn vastgelegd.
-|
+| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet. *Het Administratief gebied betreft de geografische representatie van de verkiezingsgrenzen zoals die door de waterschappen zijn vastgelegd.*|
 |Herkomst definitie  | Grondwet, Waterschapswet en INSPIRE|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen|
@@ -110,7 +107,7 @@ Het Administratief gebied betreft de geografische representatie van de verkiezin
 |Waterschapscode|	Codering van een waterschap zoals deze door het CBS wordt gebruikt|Ja   |
 |Waterschapsnaam|	Naam van een waterschap zoals formeel benoemd door het bevoegd gezag|Ja   |
 |Geometrie| Geometrische representatie van het administratieve gebied van het waterschap |Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin het waterschap zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een waterschap zich bevindt|Ja   |
 
 
 
@@ -147,7 +144,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Alternatieve naam|	Alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
 |Geometrie| Geometrische representatie van de randen van het gebied dat als gemeente is benoemd|Ja (vlak)|
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
-|Status   | Fase van de levenscyclus waarin de gemeente zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een gemeente zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
 
@@ -171,7 +168,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Veiligheidsregio |
 |---|---|
-| Definitie | afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 9 van de Wet Veiligheidsregio’s |
+| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 9 van de Wet Veiligheidsregio’s |
 |Herkomst definitie  | Wet Veiligheidsregio’s |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Veiligheidsregio’s waren tot nu toe nog geen onderdeel van een basisregistratie. |
@@ -185,7 +182,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Veiligheidsregiocode	|Codering van een veiligheidsregio zoals deze door het CBS wordt gebruikt| Ja|
 |Naam Veiligheidsregio	|Naam van een veiligheidsregio zoals formeel benoemd door het bevoegd gezag	|Ja |
 |Geometrie| Geometrische representatie van een veiligheidsregio|Ja (vlak)|
-|Status   | Fase van de levenscyclus waarin het Nederlandse continentaal plat zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een veiligheidsregio zich bevindt|Ja   |
 
 
 **Relaties met andere objecttypen** 
