@@ -1406,7 +1406,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een scherm|Ja |
 |Geometrie|Geometrische representatie van een scherm|Ja (lijn)|
-|Type scherm| *nog toevoegen* |Nee| 
+|Type scherm| Aanduiding van soort scherm |Ja| 
 |Status   | Fase van de levenscyclus waarin een scherm zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1416,8 +1416,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
 |Waarde Type Scherm| Beschrijving   |
 |---|---|
-|geluid|*nog toevoegen*|
-|fijnstof|*nog toevoegen*|
+|geluid|voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
+|fijnstof|voorziening bedoeld om verspreiding van fijnstof te verminderen|
 
 
 *Status* 
@@ -1448,7 +1448,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een afvalcontainer|Ja |
-|Geometrie|Geometrische representatie van een afvalcontainer|Ja (punt)|
+|Geometrie|Geometrische representatie van een afvalcontainer|Ja (punt) Nee (vlak)|
 |Status   | Fase van de levenscyclus waarin een afvalcontainer zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1472,9 +1472,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 | Naam  | Bassin  |
 |---|---|
 | Definitie | Constructie in de vorm van een bekken met een ondoorlaatbare bodem waarin water opgeslagen kan worden|
-|Herkomst definitie  |*nog toevoegen* |
+|Herkomst definitie  |gebaseerd op BGT 1.2 |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier het bassin als type overig bouwwerk zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie overig bouwwerk, type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1506,7 +1506,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 | Definitie | Constructie in de vorm van een bovengronds, afgesloten reservoir bestemd is voor gassen, energie of vloeistoffen|
 |Herkomst definitie  | IMGeo 2.2  |
 |Verplicht  | Nee  |
-|Gevolgen afbakening  | Het betreft hier de opslagtank als type overig bouwwerk zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie overig bouwwerk, type opslagtank zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1546,7 +1546,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een putdeksel|Ja |
-|Geometrie|Geometrische representatie van de ligging van de putdeksel|Ja (punt, lijn, vlak)|
+|Geometrie|Geometrische representatie van een putdeksel|Ja (punt, lijn, vlak)|
 |Status   | Fase van de levenscyclus waarin een putdeksel zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1601,7 +1601,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|
 | Definitie | Constructie die een technisch samenhangend systeem betreft dat een bepaald doel dient|
 |Herkomst definitie  | Gebaseerd op installatie in IMGeo 2.2  |
-|Verplicht  | Nader te bepalen  |
+|Verplicht  | Afhankelijk van type installatie|
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties  *installatie* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
 
@@ -1612,7 +1612,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een installatie|Ja |
-|Geometrie|Geometrische representatie van de ligging van de installatie of van de installatie|Ja (punt, lijn, vlak)|
+|Geometrie|Geometrische representatie van de installatie|Ja (punt, lijn, vlak)|
 |Type installatie| Aanduiding van het soort installatie|Ja|
 |Status   | Fase van de levenscyclus waarin een installatie zich bevindt|Ja   |
 
@@ -1632,9 +1632,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Waarde Type installatie| Beschrijving   |
 |---|---|
 |**verplicht**||
-|sirene|*nog toevoegen*|
-|verkeerslicht|*nog toevoegen*|
-|openbare verlichting|*nog toevoegen*|
+|sirene|Installatie welke geluiden van variabele toonhoogte kan voortbrengen met als functie waarschuwingsdoeleinden|
+|verkeerslicht|Installatie bedoeld om het verkeer te regelen|
+|openbare verlichting|Installatie bedoeld voor verlichten van de openbare ruimte|
 |kast|Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen|
 |**vrijwillig**||
 |pomp|Technische inrichting om vloeistoffen en/of gassen te verplaatsen|
@@ -1664,7 +1664,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 | Definitie | Hoge draagconstructie voor een installatie of het transport van energie en elektromagnetische straling |
 |Herkomst definitie  |  nieuw   |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *gebouwen*, *kunstwerkdelen* en *mast* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *overig bouwwerk, kunstwerkdeel en mast* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1672,7 +1672,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een mast|Ja |
-|Geometrie|Geometrische representatie van de ligging van de mast of van de mast|Ja (punt, lijn, vlak)|
+|Geometrie|Geometrische representatie van de mast|Ja (punt, lijn, vlak)|
 |Status   | Fase van de levenscyclus waarin een mast zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1693,10 +1693,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Paal  |
 |---|---|
-| Definitie | Lage draagconstructie voor onder meer installatie of bord |
-|Herkomst definitie  |  .. |
+| Definitie | Lage draagconstructie voor onder meer installaties of borden |
+|Herkomst definitie  |  nieuw |
 |Verplicht  | Nee  |
-|Gevolgen afbakening  | ...|
+|Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties palen en borden zoals deze zijn opgenomen in de basisregistratie grootschalige topografie |
 |Toelichting|  |
 
 **Eigenschappen**
@@ -1725,8 +1725,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Straatmeubilair  |
 |---|---|
-| Definitie | Constructie in de openbare ruimte niet verbonden met ondergrondse objecten|
-|Herkomst definitie  |  IMGeo 2.2  |
+| Definitie | Constructie ter inrichting van de openbare ruimte niet verbonden met ondergrondse objecten|
+|Herkomst definitie  |  Gebaseerd op IMGeo 2.2  |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een subset van de bestaande populaties *bak* en *straatmeubilair* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
