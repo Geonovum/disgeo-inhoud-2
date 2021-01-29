@@ -782,6 +782,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 **Domeinwaarden**
 
 *Bouwlaagnummer*
+
 Voor de nummering van de bouwlaag geldt:
 -	kelder = bouwlaagnummer -1
 -	begane grond = bouwlaagnummer 0
