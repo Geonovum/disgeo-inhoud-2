@@ -6,6 +6,7 @@
 
 ### Bestuurlijk gebied
 
+Bestuurlijke gebieden zijn te zien als registratieve objecten die op basis van wet- of regelgeving als eenheid gelden van politiek/bestuurlijke verantwoordelijkheid. Dit betreft bijvoorbeeld de gebieden behorende bij de vier formele bestuurslagen uit de Grondwet (Rijk, provincie, waterschap, gemeente), maar kan ook gebieden van bestuurlijke samenwerkingsverbanden met eigen politiek/bestuurlijke verantwoordelijkheid omvatten. Een voorbeeld daarvan betreft de veiligheidsregio’s.
 
 #### Rijk
 
@@ -86,13 +87,16 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 **Definitie**
 
-| Naam  | Waterschap |
+| Naam  | Waterschap (Administratief gebied)|
 |---|---|
-| Definitie | Registratieve ruimte die een afgebakend gedeelte van het grondgebied van Nederland, betreft onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet|
-|Herkomst definitie  | Grondwet en Waterschapswet|
+| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet.
+
+Het Administratief gebied betreft de geografische representatie van de verkiezingsgrenzen zoals die door de waterschappen zijn vastgelegd.
+|
+|Herkomst definitie  | Grondwet, Waterschapswet en INSPIRE|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen|
-|Toelichting|In een latere fase moet nog worden bepaald welke gebiedsbegrenzing wordt vastgelegd (de administratieve gebiedsbegrenzing of het reglementsgebied)|
+|Toelichting|*volgt later*|
 
 
 
@@ -102,10 +106,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van het waterschap |Ja |
+|Identificatie   |Unieke aanduiding van een waterschap |Ja |
 |Waterschapscode|	Codering van een waterschap zoals deze door het CBS wordt gebruikt|Ja   |
 |Waterschapsnaam|	Naam van een waterschap zoals formeel benoemd door het bevoegd gezag|Ja   |
-|Geometrie| Geometrische representatie van de randen van het gebied dat als waterschap is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het administratieve gebied van het waterschap |Ja (vlak)|
 |Status   | Fase van de levenscyclus waarin het waterschap zich bevindt|Ja   |
 
 
@@ -157,7 +161,48 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-#### Nederlandse territoriale zee
+##### Veiligheidsregio
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+
+ 
+
+**Definitie**
+
+| Naam  | Veiligheidsregio |
+|---|---|
+| Definitie | afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 9 van de Wet Veiligheidsregio’s |
+|Herkomst definitie  | Wet Veiligheidsregio’s |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Veiligheidsregio’s waren tot nu toe nog geen onderdeel van een basisregistratie. |
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een veiligheidsregio|Ja |
+|Veiligheidsregiocode	|Codering van een veiligheidsregio zoals deze door het CBS wordt gebruikt| Ja|
+|Naam Veiligheidsregio	|Naam van een veiligheidsregio zoals formeel benoemd door het bevoegd gezag	|Ja |
+|Geometrie| Geometrische representatie van een veiligheidsregio|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin het Nederlandse continentaal plat zich bevindt|Ja   |
+
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|Hoort bij 1 of meer  |Gerelateerde gemeente | Ja |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
+
+#### Zeegebieden
+
+##### Nederlandse territoriale zee
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
@@ -167,7 +212,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Nederlandse territoriale zee |
 |---|---|
-| Definitie | Registratieve ruimte die de Nederlandse territoriale zee betreft vanaf de laagwaterlijn tot 12 zeemijl uit de kust|
+| Definitie | Het gebied vanaf de laagwaterlijn tot 12 zeemijl uit de kust, ook wel bekend als “de 12-mijlszone”.  *In het Eems-Dollard gebied is er tussen Nederland en Duitsland geen formeel grensverdrag en dus geen wederzijds bevestigde begrenzing van de territoriale zee*|
 |Herkomst definitie  | Wet grenzen Nederlandse territoriale zee|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de territoriale zee zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie|
@@ -178,7 +223,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van de Nederlandse territoriale zee |Ja |
-|Geometrie| Geometrische representatie van de randen van het gebied dat als Nederlandse territoriale zee is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het gebied dat als Nederlandse territoriale zee is benoemd|Ja (vlak)|
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 |Status   | Fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt|Ja   |
 
@@ -191,7 +236,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 
-#### Nederlandse aansluitende zone
+##### Nederlandse aansluitende zone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
@@ -212,7 +257,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van de Nederlandse aansluitende zone |Ja |
-|Geometrie| Geometrische representatie van de randen van het gebied dat als Nederlandse aansluitende zone is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het gebied dat als Nederlandse aansluitende zone is benoemd|Ja (vlak)|
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 |Status   | Fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt|Ja   |
 
@@ -227,7 +272,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Nederlandse exclusieve economische zone
+##### Nederlandse exclusieve economische zone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
 
@@ -248,7 +293,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van de Nederlandse exclusieve economische zone |Ja |
-|Geometrie| Geometrische representatie van de randen van het gebied dat als Nederlandse exclusieve economische zone is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het gebied dat als Nederlandse exclusieve economische zone is benoemd|Ja (vlak)|
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 |Status   | Fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt|Ja   |
 
@@ -260,6 +305,38 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
+##### Nederlandse continentaal plat
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+
+ 
+
+**Definitie**
+
+| Naam  | Nederlandse continentaal plat |
+|---|---|
+| Definitie | Het onder de Noordzee gelegen deel van de zeebodem en de ondergrond daarvan, waarop het Koninkrijk soevereine rechten heeft, en gelegen is buiten en grenzend aan de territoriale zee. *Binnen het Europese deel van het Rijk kent deze dezelfde contour als de Nederlandse Exclusieve Economische Zone* |
+|Herkomst definitie  | Mijnwet continentaal plat |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier het Nederlandse continentaal plat zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie. |
+|Toelichting| *volgt later*|
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   | Unieke aanduiding van het Nederlandse continentaal plat|Ja |
+| Landcode | Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
+|Geometrie| Geometrische representatie van het Nederlandse continentaal plat|Ja (vlak)|
+|Status   | Fase van de levenscyclus waarin het Nederlandse continentaal plat zich bevindt|Ja   |
+
+
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
 
 ### Woonplaats
