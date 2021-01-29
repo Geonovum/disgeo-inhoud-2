@@ -702,11 +702,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 
 | Naam  | Gebouw  |
 |---|---|
-| Definitie | Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid die bedoeld is voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen|
-|Herkomst definitie  |Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen en de INSPIRE richtlijn |
+| Definitie | Overdekte en geheel of grotendeels met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen|
+|Herkomst definitie  |Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen in de INSPIRE richtlijn |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
-|Toelichting| *volgt later* |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie. De bestaande definitie van het begrip pand is uitgebreid met een aantal elementen die zijn opgenomen in de INPIRE richtlijn. |
+|Toelichting| *In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan gebouw moet worden gegeven |
 
 
 
@@ -720,24 +720,22 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Aard|Fysieke verschijningsvorm van een gebouw  |Ja|
 |Oorspronkelijk bouwjaar | Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-|Status   |Fase van de levenscyclus waarin het gebouw zich bevindt    |Ja   |
+|Status   |Fase van de levenscyclus waarin een gebouw zich bevindt    |Ja   |
 
 
 **Domeinwaarden**
 
-<div class='note'>
-    De definitieve lijst met TYPE en AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de bij de WOZ in ontwikkeling zijnde lijst met domeinwaarden voor WOZ-deelobjecten. Ook moet nog een nadere uitlijning op typeringen vanuit de BRT.next plaatsvinden. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
-</div>
 
-*Type* 
+*Typering* 
 
 |Waarde Typering|	Beschrijving|
 |---|---|
-|Woning	||
-|Bedrijf||	
+|	|   |
+|   |   |  	
 
+Voorbeelden van gebouwen zijn flatgebouwen, kerkgebouwen, kastelen en watertorens. Ook alle kassen (met uitzondering van kleine hobby-kassen) worden aangemerkt als gebouwen, ongeacht de ondergrond van de kas.
 
-*aard*
+*Aard*
 
 |Waarde Aard|	Beschrijving|
 |---|---|
@@ -747,7 +745,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 
 *Status* 
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd. De mate waarin alle genoemde statussen ook daadwerkelijk verplicht zullen worden en de regels omtrent interpretatie en overgang van statussen zullen in een later stadium nog gedetailleerder worden uitgewerkt in registratieregels.  Daarbij zal ook de aansluiting op de Omgevingswet verder worden aangescherpt. De status “in gebruik (niet ingemeten)” keert in de SOR niet als een afzonderlijke status terug. De mate waarin sprake is van definitieve geometrie zal door middel van meta-informatie bij de eigenschap geometrie worden vastgelegd.
 
 
 
@@ -763,16 +761,16 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Herkomst definitie  |Gebaseerd op de definitie van het begrip Bouwlaag (IfcBuildingStorey) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype |
-|Toelichting| *volgt later* |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan bouwlaag moet worden gegeven|
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van een Bouwlaag|Ja |
-|Geometrie |Geometrische representatie van een Bouwlaag  |Ja (2,5D)|
-|Bouwlaagnummer |Niveau waarop de bouwlaag zich bevindt|Ja|
-|Status   |Fase van de levenscyclus waarin een Bouwlaag zich bevindt   |Ja   |
+|Identificatie   |Unieke aanduiding van een bouwlaag|Ja |
+|Geometrie |Geometrische representatie van een bouwlaag  |Ja (2,5D)|
+|Bouwlaagnummer |Niveau waarop een bouwlaag zich bevindt|Ja|
+|Status   |Fase van de levenscyclus waarin een bouwlaag zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -783,10 +781,17 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 
 **Domeinwaarden**
 
+*Bouwlaagnummer*
+Voor de nummering van de bouwlaag geldt:
+-	kelder = bouwlaagnummer -1
+-	begane grond = bouwlaagnummer 0
+-	eerste verdieping = bouwlaagnummer 1
+-	tweede verdieping = bouwlaagnummer 2 
+
 
 *Status* 
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd. De mate waarin alle genoemde statussen ook daadwerkelijk verplicht zullen worden en de regels omtrent interpretatie en overgang van statussen zullen in een later stadium nog gedetailleerder worden uitgewerkt in registratieregels.  
 	
 
 
@@ -802,18 +807,18 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Herkomst definitie  |Ontleend aan NEN 2580 en aansluitend op het begrip Ruimte (IfcSpace) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype |
-|Toelichting| *volgt later* |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan ruimte moet worden gegeven |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van een Ruimte|Ja |
-|Geometrie |Geometrische representatie van een Ruimte   |Ja (2,5D)|
-|Bouwlaagnummer |Bouwlaag waarop de ruimte zich bevindt|Ja|
-|Oppervlakte| De gebruiksoppervlakte van de ruimte| Nee |
+|Identificatie   |Unieke aanduiding van een ruimte|Ja |
+|Geometrie |Geometrische representatie van een ruimte   |Ja (2,5D)|
+|Bouwlaagnummer |Bouwlaag waarop een ruimte zich bevindt|Ja|
+|Oppervlakte| Gebruiksoppervlakte van een ruimte| Nee |
 |Typering|Doel waarvoor een ruimte gebruikt wordt| Ja|
-|Status   |Fase van de levenscyclus waarin een Ruimte zich bevindt   |Ja   |
+|Status   |Fase van de levenscyclus waarin een ruimte zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -824,21 +829,26 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 
 **Domeinwaarden**
 
-<div class='note'>
-De definitieve lijst met TYPE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in BIM modellen voor de bouw worden gehanteerd. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
-</div>
+*Bouwlaagnummer*
 
-*Type* 
+Voor de nummering van de bouwlaag geldt:
+-	kelder = bouwlaagnummer -1
+-	begane grond = bouwlaagnummer 0
+-	eerste verdieping = bouwlaagnummer 1
+-	tweede verdieping = bouwlaagnummer 2
+
+
+*Typering* 
 
 |Waarde Typering|	Beschrijving|
 |---|---|
-|Woonkamer	||
-|Keuken||	
+|	|   |
+|   |   |	
 
 
 *Status* 
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd. De mate waarin alle genoemde statussen ook daadwerkelijk verplicht zullen worden en de regels omtrent interpretatie en overgang van statussen zullen in een later stadium nog gedetailleerder worden uitgewerkt in registratieregels.  
 
 
 
@@ -854,17 +864,17 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Herkomst definitie  |IMGeo 2.2|
 |Verplicht  | Deels (nog nader te bepalen welke onderdelen) |
 |Gevolgen afbakening  |Het betreft hier grotendeels de bestaande populatie van *gebouwinstallatie* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| *volgt later* |
+|Toelichting| In een later stadium zullen inwinregels worden opgesteld die de minimale omvang van de vast te leggen objecten aangeeft. Ook zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan gebouwcomponenten moet worden gegeven |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een gebouwcomponent|Ja |
-|Geometrie |Geometrische representatie van een gebouwcomponent   |Ja (1,5D of 2,5D)|
+|Geometrie |Geometrische representatie van een gebouwcomponent   |Ja (1D, 1,5D of 2,5D)|
 |Aard|Soort gebouwcomponent|Ja |
-|Bijbehorend object |Object waarbij de betreffende gebouwcomponent behoort|Ja|
-|Status   |Fase van de levenscyclus waarin de betreffende gebouwcomponent zich bevindt   |Ja   |
+|Bijbehorend object |Object waarbij een gebouwcomponent behoort|Ja|
+|Status   |Fase van de levenscyclus waarin een  gebouwcomponent zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -876,23 +886,21 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 
 **Domeinwaarden**
 
-<div class='note'>
-    De definitieve lijst met AARD zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze elders worden gehanteerd. Onderstaande domeinwaarden zijn uitsluitend voorbeelden van enkele waarschijnlijke typeringen om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
 
-</div>
-
-*Type*
+*Aard*
 
 | Waarde Aard| Beschrijving   |
 |---|---|
-|dakkapel |Uitbouw van het schuine dakvlak|
-|luifel|Afdak aangebracht aan de gevel van een pand, eventueel rustend op kolommen|
-|bordes|Verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers|
-|toegangstrap|Niet afsluitbare trap (of trappenhuis) die toegang biedt aan een gebouw|
+|Dakkapel |Uitbouw van het schuine dakvlak|
+|Afdak|Constructie aangebracht  en vast verbondenaan de gevel van een pand, gericht op beschutting tegen weersinvloeden |
+|Bordes|Verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers|
+|Toegangstrap|Buiten de gevel geplaatste trapconstructie die toegang biedt tot een gebouw en vast verbonden is met dat gebouw|
 
+Voorbeelden van een afdak zijn: luifels en, carports (die vast verbonden zijn met de gevel van een pand). Een afdak kan gedeeltelijk rusten op kolommen. Deze kolommen zijn dan echter uitsluitend ondersteunend aan de hangende hoofdconstructie.
 
+*Status* 
 
-
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd. De mate waarin alle genoemde statussen ook daadwerkelijk verplicht zullen worden en de regels omtrent interpretatie en overgang van statussen zullen in een later stadium nog gedetailleerder worden uitgewerkt in registratieregels.  
 
 #### Toegangsdeur
 
@@ -906,18 +914,18 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Herkomst definitie  |Begrip sluit aan bij het begrip Deur (IfcDoor) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
 |Verplicht  | Deels (nog nader te bepalen welke onderdelen) |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype|
-|Toelichting| *volgt later* |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan toegangsdeur moet worden gegeven |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een toegangsdeur|Ja |
-|Geometrie |Geometrische representatie van een Toegangsdeur   |Ja (1,5D)|
-|Toegangssoort|Plaats waarvan de toegangsdeur toegang geeft|Ja|
-|Gebruiksaard|Aard van gebruik van de toegangsdeur|Ja|
-|Bijbehorend object |Object waarin de betreffende toegangsdeur zich bevindt|Ja|
-|Status   |Fase van de levenscyclus waarin de betreffende toegangsdeur zich bevindt   |Ja   |
+|Geometrie |Geometrische representatie van een toegangsdeur   |Ja (1,5D)|
+|Toegangssoort|Plaats waarvan een toegangsdeur toegang geeft|Ja|
+|Gebruiksaard|Aard van gebruik van een toegangsdeur|Ja|
+|Bijbehorend object |Object waarin een toegangsdeur zich bevindt|Ja|
+|Status   |Fase van de levenscyclus waarin een toegangsdeur zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -929,25 +937,25 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 
 **Domeinwaarden**
 
-*toegangssoort*
+*Toegangssoort*
 
 | Waarde Toegangssoort| Beschrijving   |
 |---|---|
-|directe toegang vanaf eigen terrein|De toegangsdeur bevindt zich op een erf, in een tuin of een andere specifiek terrein dat behoort bij het gebouw |
-|directe toegang vanaf openbare weg|De toegangsdeur bevindt zich direct aan een voor iedereen toegankelijke weg |
-|toegang vanaf gemeenschappelijke verkeersruimte |De toegangsdeur bevindt zich aan een inpandige ruimte die bedoeld is voor verplaatsingen door een gebouw door de verschillende gebruikers van dit gebouw  |
+|Directe toegang vanaf eigen terrein|Toegangsdeur bevindt zich op een erf, in een tuin of een andere specifiek terrein dat behoort bij het gebouw |
+|Directe toegang vanaf openbare weg|Toegangsdeur bevindt zich direct aan een voor iedereen toegankelijke weg |
+|Toegang vanaf gemeenschappelijke verkeersruimte |Toegangsdeur bevindt zich aan een inpandige ruimte die bedoeld is voor verplaatsingen door een gebouw door de verschillende gebruikers van dit gebouw  |
 
-*gebruiksaard*
+*Gebruiksaard*
 
 | Waarde Gebruiksaard| Beschrijving   |
 |---|---|
-|Personen|De toegangsdeur is primair bedoeld voor toegang tot een object door personen |
-|Auto|De toegangsdeur is primair bedoeld voor toegang tot een object door voertuigen |
-|Vracht|De toegangsdeur is primair bedoeld voor toegang tot een object door vracht zonder gebruik van een voertuig|
+|Personen|Toegangsdeur is primair bedoeld voor toegang tot een object door personen |
+|Auto|Toegangsdeur is primair bedoeld voor toegang tot een object door voertuigen |
+|Vracht|Toegangsdeur is primair bedoeld voor toegang tot een object door vracht zonder gebruik van een voertuig|
 
 *Status* 
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd. De mate waarin alle genoemde statussen ook daadwerkelijk verplicht zullen worden en de regels omtrent interpretatie en overgang van statussen zullen in een later stadium nog gedetailleerder worden uitgewerkt in registratieregels.  
 
 
 #### Open bouwwerk
@@ -959,11 +967,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Open bouwwerk |
 |---|---|
-| Definitie | Constructie die een afzonderlijk staande overdekking is en rust op kolommen met één of meerder open gevels en is bedoeld voor het beschutten of stallen van objecten of voertuigen |
+| Definitie | Afzonderlijk staande overdekking rustend op een constructie met kolommen met één of meerdere open gevels bedoeld voor het beschutten of stallen van mensen, dieren, objecten en/of voer- en vaartuigen |
 |Herkomst definitie  |Gebaseerd op definities “open loods” en “overkapping” uit de gegevenscatalogus BGT|
 |Verplicht  | Ja |
 |Gevolgen afbakening  |Het betreft hier grotendeels de bestaande populatie open loodsen en overkappingen zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
-|Toelichting| *volgt later* |
+|Toelichting| In een later stadium zullen de inwinregels worden opgesteld die de minimale omvang van de vast te leggen objecten en de eventuele kolommen aangeeft. Ook zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan open bouwwerken moet worden gegeven |
 
 **Eigenschappen**
 
@@ -972,7 +980,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Identificatie   |Unieke aanduiding van een open bouwwerk|Ja |
 |Geometrie |Geometrische representatie van een open bouwwerk   |Ja (3D)|
 |typering| Soort open bouwwerk|
-|Status   |Fase van de levenscyclus waarin het betreffende open bouwwerk zich bevindt   |Ja   |
+|Status   |Fase van de levenscyclus waarin een  open bouwwerk zich bevindt   |Ja   |
 
 
 
@@ -983,13 +991,15 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
 |Waarde typering| Beschrijving|
 |---|---|
-|overkapping|Afzonderlijk staande overdekking rustend op kolommen|
-|open loods|Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden|
-|parkeergarage|Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van motorvoertuigen|
+|Overkapping|Afzonderlijk staande overdekking rustend op kolommen|
+|Open loods|Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden|
+|Parkeergarage|Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen|
+
+Voorbeelden van open bouwwerken met typering overkapping zijn: losstaande carports, buitenkeukens, open tuinhuizen en tribunes. Bij open loodsen gaat het onder meer om open frontstallen, dierenverblijven, hobbykassen en boothuizen. Parkeergarages die zich in een gebouw bevinden maken onderdeel uit van het gebouw. Parkeergarages die bestaan uit een open (staal) constructie behoren tot de open bouwwerken. Het kan daarbij zowel gaan om parkeergarages voor motorvoertuigen als grotere parkeervoorzieningen voor fietsers. 
 
 *Status* 
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd. De mate waarin alle genoemde statussen ook daadwerkelijk verplicht zullen worden en de regels omtrent interpretatie en overgang van statussen zullen in een later stadium nog gedetailleerder worden uitgewerkt in registratieregels.  
 
 
 
