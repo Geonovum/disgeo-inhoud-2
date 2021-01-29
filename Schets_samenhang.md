@@ -91,7 +91,7 @@ Dit denkraam geeft dus geen volledig overzicht van alle SOR-begrippen. De indeli
 
 Het conceptueel denkraam kan, voor die onderdelen van het model waar sprake is van een expliciete samenhang tussen verschillende begrippen, verder worden geconcretiseerd. Daar waar dit wenselijk is kan dit plaatsvinden bij de verdere uitwerking van het conceptueel model. Op dit moment is in elk geval een dergelijke uitwerking beschikbaar voor de verschillende begrippen die raken aan gebouwen: 
 
-![denkraamSOR_gebouw](media/gebouwconcepten.png)
+![denkraamSOR_gebouw](media/gebouwmodel-2021-01.png)
 
 
 ###	Beschrijving SOR-begrippen
