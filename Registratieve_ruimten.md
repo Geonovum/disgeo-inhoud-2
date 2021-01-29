@@ -22,7 +22,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Herkomst definitie  | BRK  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster|
-|Toelichting| *Dit betreft in eerste instantie het Europese deel. Over het niet-Europese deel zal nog nadere besluitvorming plaatsvinden|
+|Toelichting| Dit betreft in eerste instantie het Europese deel. Over het niet-Europese deel zal nog nadere besluitvorming plaatsvinden|
 
 
 
@@ -63,7 +63,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van de provincie |Ja |
+|Identificatie   |Unieke aanduiding van een provincie |Ja |
 |Provinciecode|	Codering van een provincie zoals deze door het CBS wordt gebruikt|Ja   |
 |Provincienaam|	Naam van een provincie zoals formeel benoemd door het bevoegd gezag|Ja   |
 |Geometrie| Geometrische representatie van de randen van het gebied dat als Provincie is benoemd|Ja (vlak)|
@@ -89,11 +89,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Naam  | Waterschap (Administratief gebied)|
 |---|---|
-| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet. *Het Administratief gebied betreft de geografische representatie van de verkiezingsgrenzen zoals die door de waterschappen zijn vastgelegd.*|
+| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam welke de waterstaatskundige verzorging van dat gebied ten doel heeft, ingesteld op basis van artikel 133 van de Grondwet en de Waterschapswet|
 |Herkomst definitie  | Grondwet, Waterschapswet en INSPIRE|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen|
-|Toelichting|*volgt later*|
+|Toelichting| Het Administratief gebied betreft de geografische representatie van de verkiezingsgrenzen zoals die door de waterschappen zijn vastgelegd|
 
 
 
@@ -106,7 +106,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Identificatie   |Unieke aanduiding van een waterschap |Ja |
 |Waterschapscode|	Codering van een waterschap zoals deze door het CBS wordt gebruikt|Ja   |
 |Waterschapsnaam|	Naam van een waterschap zoals formeel benoemd door het bevoegd gezag|Ja   |
-|Geometrie| Geometrische representatie van het administratieve gebied van het waterschap |Ja (vlak)|
+|Geometrie| Geometrische representatie van het administratieve gebied van een waterschap |Ja (vlak)|
 |Status   | Fase van de levenscyclus waarin een waterschap zich bevindt|Ja   |
 
 
@@ -138,7 +138,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van de gemeente |Ja |
+|Identificatie   |Unieke aanduiding van een gemeente |Ja |
 |Gemeentecode|	Codering van een gemeente zoals deze door het CBS wordt gebruikt|Ja |
 |Formele naam|	Naam van een gemeente zoals formeel benoemd door het bevoegd gezag|Ja |
 |Alternatieve naam|	Alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
