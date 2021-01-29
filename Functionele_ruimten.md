@@ -408,18 +408,18 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Herkomst definitie|Gebaseerd op definitie “verblijfsobject” in artikel 1 Wet basisregistratie adressen en gebouwen |
 |Verplicht  | Ja |
 |Gevolgen afbakening  | Het betreft hier in principe de bestaande populatie verblijfsobjecten zoals deze is opgenomen in de basisregistratie adressen en gebouwen |
-|Toelichting| *volgt later* |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan verblijfsobject moet worden gegeven |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Verblijfsobject  |Ja |
-|Geometrie |De geometrische representatie van een Verblijfsobject  |Ja (2,5D)|
-|Gebruiksdoel|Categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld|Ja|
-|Feitelijk gebruik|Categorisering van het feitelijke gebruik dat van het betreffende verblijfsobject wordt gemaakt|Ja|
-|Gebruiksoppervlakte|De gebruiksoppervlakte van een verblijfsobject |
-|Status   |De fase van de levenscyclus waarin het betreffende verblijfsobject zich bevindt   |Ja   |
+|Identificatie   |Unieke aanduiding van een verblijfsobject  |Ja |
+|Geometrie |Geometrische representatie van een verblijfsobject  |Ja (2,5D)|
+|Gebruiksdoel|Categorisering van de gebruiksdoelen van een verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld|Ja|
+|Feitelijk gebruik|Categorisering van het feitelijke gebruik dat van een verblijfsobject wordt gemaakt|Ja|
+|Gebruiksoppervlakte|De gebruiksoppervlakte van een verblijfsobject |Ja|
+|Status   |De fase van de levenscyclus waarin een verblijfsobject zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -435,7 +435,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde gebruiksdoel|	Beschrijving|
 |---|---|
-|woonfunctie|	Gebruiksfunctie voor het wonen|
+|Woonfunctie|	Gebruiksfunctie voor het wonen|
 |Bijeenkomstfunctie|	Gebruiksfunctie voor het samenkomen van personen voor kunst, cultuur, godsdienst, communicatie, kinderopvang, het verstrekken van consumpties voor het gebruik ter plaatse of het aanschouwen van sport|
 |Celfunctie|	Gebruiksfunctie voor dwangverblijf van personen|
 |Gezondheidszorgfunctie|	Gebruiksfunctie voor medisch onderzoek, verpleging, verzorging of behandeling|
@@ -447,67 +447,23 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Winkelfunctie|	Gebruiksfunctie voor het verhandelen van materialen, goederen of diensten|
 |Overige gebruiksfunctie|	Andere gebruiksfunctie voor activiteiten waarbij het verblijven van personen een ondergeschikte rol speelt|
 
-<div class='note'>
-    De definitieve lijst met gebruiksfuncties zal op een later moment nog worden afgestemd op de begrippen in bijlage I van het besluit bouwwerken leefomgeving (Omgevingswet)
-</div>
-
-<div class='note'>
-    De definitieve lijst voor FEITELIJK GEBRUIK zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen. Ook wordt deze lijst nog afgestemd met begrippen in de BRT.next.
-</div>
+De definitieve lijst met gebruiksfuncties zal op een later moment nog definitief worden afgestemd op de begrippen in bijlage I van het besluit bouwwerken leefomgeving (Omgevingswet)
 
 
-*feitelijk gebruik*
 
-| Waarde Feitelijk Gebruik| Beschrijving   |
+*Feitelijk gebruik*
+
+| Waarde Feitelijk gebruik| Beschrijving   |
 |---|---|
-| vrijstaande woning ||
-| 2-onder-1-kapwoning ||
-| geschakelde 2-onder-1-kapwoning ||
-| geschakelde woning ||
-| halfvrijstaande woning ||
-| tussenwoning ||
-| hoekwoning ||
-| eindwoning ||
-| galerijflat ||
-| portiekflat ||
-| corridorflat ||
-| maisonnette ||
-| benedenwoning ||
-| bovenwoning ||
-| portiekwoning ||
-| (woonwagen/stacaravan) ||
-| (woonwagenstandplaats/ stacaravanstandplaats) ||
-| (woonboot) ||
-| (ligplaats) ||
-| waterwoning ||
-| tijdelijke woning ||
-| woon-/winkelpand ||
-| (bouwkavel) ||
-| garage ||
-| (parkeerplaats) ||
-| berging ||
-| bijzonder woongebouw ||
-| detailhandel ||
-| horeca ||
-| kantoor ||
-| bedrijfsruimte ||
-| industrie ||
-| agrarisch ||
-| laboratorium ||
-| onderwijs ||
-| cultuur ||
-| medisch ||
-| overheidsfunctie ||
-| nutsvoorzieningen (energie/water) ||
-| transport  ||
-| sport en recreatie ||
-| eredienst ||
+|   |   |
+|   |   |
 
 
 
 *Status*
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd. De mate waarin alle genoemde statussen ook daadwerkelijk verplicht zullen worden en de regels omtrent interpretatie en overgang van statussen zullen in een later stadium nog gedetailleerder worden uitgewerkt in registratieregels.
+
 
 #### Gebouwzone
 
@@ -518,25 +474,25 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 | Naam  | Gebouwzone |
 |---|---|
 | Definitie | Functionele ruimte die het grootst mogelijke gedeelte van een gebouw betreft en dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
-|Herkomst definitie|Begrip gebaseerd op de functionele deelobjecten uit de WOZ en aansluitend bij het begrip Zonering (IfcZone) uit de concepten rondom Bouwwerkinformatiemodellen (BIM), waarbij Ruimten worden gezoneerd tot bijvoorbeeld verblijfsobject of gebouwzone |
+|Herkomst definitie|Begrip gebaseerd op de functionele deelobjecten uit de WOZ en aansluitend bij het begrip Zonering (IfcZone) uit de concepten rondom Bouwwerkinformatiemodellen (BIM), waarbij ruimten worden gezoneerd tot bijvoorbeeld verblijfsobject of gebouwzone |
 |Verplicht  | Ja |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype |
-|Toelichting| *volgt later* |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan gebouwzone moet worden gegeven |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een Gebouwzone  |Ja |
-|Geometrie |De geometrische representatie van een Gebouwzone   |Ja (2,5D)|
-|Geometrie oppervlakte| De geometrische representatie van de oppervlakte van een gebouwzone die betrokken wordt in de berekening van de gebruiksoppervlakte|Nee (2D)|
-|Bouwlaag|De bouwlaag waarop de gebouwzone is gelegen|Ja|
-|Bouwjaar|Jaar waarin een gebouwzone is ontstaan|Ja|
-|Type|Categorisering van het feitelijke gebruik dat van de betreffende gebouwzone wordt gemaakt|Ja|
+|Identificatie   |Unieke aanduiding van een gebouwzone  |Ja |
+|Geometrie |Geometrische representatie van een gebouwzone   |Ja (2,5D)|
+|Geometrie oppervlakte| Geometrische representatie van de oppervlakte van een gebouwzone die betrokken wordt in de berekening van de gebruiksoppervlakte|Nee (2D)|
+|Bouwlaagnummer|Bouwlaag waarop een gebouwzone is gelegen|Ja|
+|Bouwjaar|aanduiding van het jaar waarin een gebouwzone is ontstaan|Ja|
+|Type|Categorisering van het feitelijke gebruik dat van een betreffende gebouwzone wordt gemaakt|Ja|
 |Aard|Aanduiding van de fysieke constructie waarin de gebouwzone zich bevindt|Ja|
-|Gebruiksopppervlakte|De gebruiksoppervlakte van een gebouwzone|Ja|
-|Kwaliteitsindicatie|Aanduiding van de kwalitatieve staat waarin de gebouwzone zich bevindt|NTB|
-|Status   |De fase van de levenscyclus waarin de betreffende Gebouwzone zich bevindt   |Ja   |
+|Gebruiksopppervlakte|Gebruiksoppervlakte van een gebouwzone|Ja|
+|Kwaliteitsindicatie|Aanduiding van de kwalitatieve staat waarin een gebouwzone zich bevindt|NTB|
+|Status   |Fase van de levenscyclus waarin een gebouwzone zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -548,38 +504,32 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 **Domeinwaarden**
 
-<div class='note'>
-    De definitieve lijst voor TYPE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
-</div>
+*Bouwlaagnummer*
+
+Voor de nummering van de bouwlaag geldt:
+-	kelder = bouwlaagnummer -1
+-	begane grond = bouwlaagnummer 0
+-	eerste verdieping = bouwlaagnummer 1
+-	tweede verdieping = bouwlaagnummer 2
+
 
 *Type* 
 
 | Waarde Type| Beschrijving   |
 |---|---|
-|woonruimte  | | 
-|garage | | 
-|bergruimte | | 
-|kantoorruimte | | 
-|winkelruimte | | 
-|opslagruimte | | 
-|praktijkruimte | | 
-|ruimte medische zorg | | 
-|productieruimte | | 
-|bijeenkomstruimte | | 
-|verkeersruimte | | 
-|technische ruimte | | 
+|   |   |
+|   |   |
 
 
+*Aard*
 
 | Waarde Aard| Beschrijving   |
 |---|---|
-|basisconstructie |Gebouwzone is een nader type van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
-|aanbouw/opbouw |Gebouwzone betreft een later aanbouw (niet zijnde een serre) of opbouw ten opzichte van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
-|serre |Gebouwzone betreft een serre die al dan geen onderdeel uitmaakt van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
+|Basisconstructie |Gebouwzone is een nader type van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
+|Uitbouw |Gebouwzone betreft een later aanbouw (niet zijnde een serre) of opbouw ten opzichte van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
+|Serre |Gebouwzone betreft een serre die al dan geen onderdeel uitmaakt van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
 
-<div class='note'>
-    De definitieve lijst voor KWALITEITSINDICATIE zal op een later moment worden opgeleverd. Het is daarbij de bedoeling dat deze lijst aansluit op de begrippen zoals deze in het kader van de WOZ zullen worden gehanteerd. Onderstaande domeinwaarden zijn voorbeelden van typeringen zoals deze momenteel bekend zijn en uitsluitend bedoeld om een indruk te geven van het soort waarden dat hier zal worden opgenomen.
-</div>
+
 
 *kwaliteitsindicatie* 
 
@@ -591,7 +541,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Status*
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd. De mate waarin alle genoemde statussen ook daadwerkelijk verplicht zullen worden en de regels omtrent interpretatie en overgang van statussen zullen in een later stadium nog gedetailleerder worden uitgewerkt in registratieregels.
 
 
 
