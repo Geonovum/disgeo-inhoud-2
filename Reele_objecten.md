@@ -1683,7 +1683,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een mast|Ja |
-|Geometrie|Geometrische representatie van de mast|Ja (punt, multipun , lijn, vlak of multipunt of multivlak )|
+|Geometrie|Geometrische representatie van de mast|Ja (punt, multipunt , lijn, vlak of multivlak )|
 |Status   | Fase van de levenscyclus waarin een mast zich bevindt|Ja   |
 
 **Domeinwaarden**
