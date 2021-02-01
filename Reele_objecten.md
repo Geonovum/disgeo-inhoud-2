@@ -706,7 +706,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Herkomst definitie  |Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen in de INSPIRE richtlijn |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie. De bestaande definitie van het begrip pand is uitgebreid met een aantal elementen die zijn opgenomen in de INPIRE richtlijn. |
-|Toelichting| *In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan gebouw moet worden gegeven |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan gebouw moet worden gegeven |
 
 
 
@@ -897,7 +897,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Bordes|Verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers|
 |Toegangstrap|Buiten de gevel geplaatste trapconstructie die toegang biedt tot een gebouw en vast verbonden is met dat gebouw|
 
-Voorbeelden van een afdak zijn: luifels en, carports (die vast verbonden zijn met de gevel van een pand). Een afdak kan gedeeltelijk rusten op kolommen. Deze kolommen zijn dan echter uitsluitend ondersteunend aan de hangende hoofdconstructie.
+Voorbeelden van een afdak zijn: luifels en carports (die vast verbonden zijn met de gevel van een pand). Een afdak kan gedeeltelijk rusten op kolommen. Deze kolommen zijn dan echter uitsluitend ondersteunend aan de hangende hoofdconstructie.
 
 *Status* 
 

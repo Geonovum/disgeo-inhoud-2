@@ -418,8 +418,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Geometrie |Geometrische representatie van een verblijfsobject  |Ja (2,5D)|
 |Gebruiksdoel|Categorisering van de gebruiksdoelen van een verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld|Ja|
 |Feitelijk gebruik|Categorisering van het feitelijke gebruik dat van een verblijfsobject wordt gemaakt|Ja|
-|Gebruiksoppervlakte|De gebruiksoppervlakte van een verblijfsobject |Ja|
-|Status   |De fase van de levenscyclus waarin een verblijfsobject zich bevindt   |Ja   |
+|Gebruiksoppervlakte|Gebruiksoppervlakte van een verblijfsobject |Ja|
+|Status   |Fase van de levenscyclus waarin een verblijfsobject zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -459,11 +459,16 @@ De definitieve lijst met gebruiksfuncties zal op een later moment nog definitief
 |   |   |
 
 
+*Gebruiksoppervlakte*
+
+Voor de berekening van de gebruiksoppervlakte wordt gebruik gemaakt van NEN 2580
+
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd. De mate waarin alle genoemde statussen ook daadwerkelijk verplicht zullen worden en de regels omtrent interpretatie en overgang van statussen zullen in een later stadium nog gedetailleerder worden uitgewerkt in registratieregels.
 
+De status “in gebruik (niet ingemeten)” keert in de SOR niet als een afzonderlijke status terug. De mate waarin sprake is van definitieve geometrie zal door middel van meta-informatie bij de eigenschap geometrie worden vastgelegd
 
 #### Gebouwzone
 
@@ -473,7 +478,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 | Naam  | Gebouwzone |
 |---|---|
-| Definitie | Functionele ruimte die het grootst mogelijke gedeelte van een gebouw betreft en dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
+| Definitie | Grootst mogelijke gedeelte van een gebouw dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
 |Herkomst definitie|Begrip gebaseerd op de functionele deelobjecten uit de WOZ en aansluitend bij het begrip Zonering (IfcZone) uit de concepten rondom Bouwwerkinformatiemodellen (BIM), waarbij ruimten worden gezoneerd tot bijvoorbeeld verblijfsobject of gebouwzone |
 |Verplicht  | Ja |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype |
@@ -487,9 +492,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Geometrie |Geometrische representatie van een gebouwzone   |Ja (2,5D)|
 |Geometrie oppervlakte| Geometrische representatie van de oppervlakte van een gebouwzone die betrokken wordt in de berekening van de gebruiksoppervlakte|Nee (2D)|
 |Bouwlaagnummer|Bouwlaag waarop een gebouwzone is gelegen|Ja|
-|Bouwjaar|aanduiding van het jaar waarin een gebouwzone is ontstaan|Ja|
-|Type|Categorisering van het feitelijke gebruik dat van een betreffende gebouwzone wordt gemaakt|Ja|
-|Aard|Aanduiding van de fysieke constructie waarin de gebouwzone zich bevindt|Ja|
+|Bouwjaar|Aanduiding van het jaar waarin een gebouwzone is ontstaan|Ja|
+|Type|Categorisering van het feitelijke gebruik dat van een gebouwzone wordt gemaakt|Ja|
+|Aard|Aanduiding van de fysieke constructie waarin een gebouwzone zich bevindt|Ja|
 |Gebruiksopppervlakte|Gebruiksoppervlakte van een gebouwzone|Ja|
 |Kwaliteitsindicatie|Aanduiding van de kwalitatieve staat waarin een gebouwzone zich bevindt|NTB|
 |Status   |Fase van de levenscyclus waarin een gebouwzone zich bevindt   |Ja   |
@@ -537,7 +542,9 @@ Voor de nummering van de bouwlaag geldt:
 |---|---|
 |  | |
 
+*Gebruiksoppervlakte*
 
+Voor de berekening van de gebruiksoppervlakte wordt gebruik gemaakt van NEN 2580
 
 *Status*
 
