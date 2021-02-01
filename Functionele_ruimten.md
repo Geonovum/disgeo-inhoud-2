@@ -354,13 +354,13 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **WATERVERBINDING**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Scheepvaartruimte
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Waterruimte
 
 **Definitie**
 
 | Naam  | Vaarwegverbinding  |
 |---|---|
-| Definitie | Scheepvaartruimte die de verkeerskundige inrichting van een waterweg tussen twee knopen betreft|
+| Definitie | Waterruimte die de verkeerskundige inrichting van een waterweg tussen twee knopen betreft|
 |Herkomst definitie  |nieuw    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening|Het betreft hier grotendeels de bestaande populatie waterloop zoals deze is opgenomen in de basisregistratie grootschalige topografie|
