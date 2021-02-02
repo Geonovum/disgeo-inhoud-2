@@ -1088,10 +1088,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Waarde Type overbrugging| Beschrijving   |
 |---|---|
-| brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoelt voor verkeer|
+| brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoeld voor verkeer|
 | aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid|
-| viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoelt voor verkeer|
-| ecoduct |Overbruggingsconstructie over een weg of spoorweg,  bedoelt voor het passeren van dieren|
+| viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoeld voor verkeer|
+| ecoduct |Overbruggingsconstructie over een weg of spoorweg,  bedoeld voor het passeren van dieren|
 | flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   |
 | overkluizing |Civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
 
