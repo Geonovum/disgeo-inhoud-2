@@ -156,77 +156,28 @@ Ontwerpprincipe:
 
 **In de SOR worden de regels voor het gebruik van coördinaatreferentiesystemen gevolgd**
 
-Het gaat hierbij in elk geval om de volgende regels:
+Het gaat hierbij in elk geval om de volgende rege:
 
-- Iedere geometrische dataset/geometrie moet zijn voorzien van een verwijzing naar
-het coördinaatreferentiesysteem waarin de coördinaten van de geometrie zijn
-beschreven.
-- Coördinaatreferentiesystemen moeten voldoen aan NEN-EN-ISO 19111 óf
-NEN-EN-ISO 19112 en bestaan uit een horizontaal en verticaal
-coördinaatreferentiesysteem. Een coördinaatreferentiesysteem is op zijn beurt
-weer opgebouwd uit een datum (horizontaal/verticaal) en een coördinaatsysteem.
-- Binnen de Europese continentale aardschol (waartoe ook Nederland en het
-Nederlandse deel van de Noordzee behoren) geldt dat
-coördinaten herleidbaar moeten zijn tot het European Terrestrial Reference
-System 1989 (ETRS89) voor wat betreft de horizontale component. 
-De verticale component is bij voorkeur uitgedrukt ten opzichte van het Europese Verticale
-Referentie Stelsel (EVRS) dat één centimeter afwijkt van het in Nederland
-gebruikelijke NAP.
+- Iedere geometrie moet zijn voorzien van een verwijzing naar het coördinaatreferentiesysteem waarin de coördinaten van de geometrie zijn beschreven..
 
-Coördinaatreferentiesystemen die naast ETRS89/EVRS kunnen worden gebruikt zijn
-de volgende.
+Ontwerpprincipe:
 
-1. Het RD-NAP-coördinaatreferentiesysteem. Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89. 
+**Het RD-NAP-coördinaatreferentiesysteem wordt gehanteerd als coördinaatreferentiesysteem **
+
+Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89. 
  Hiervoor geldt dat de gebruikte horizontale datum Bessel 1841 is en het
  coördinaatsysteem de stereografische projectie. Als verticale datum wordt
  het NAP-vlak gebruikt. RDNAPTRANS™ is de officiële en nauwkeurige transformatie tussen het coördinatensysteem van de Rijksdriehoeksmeting (RD) en het Normaal Amsterdams Peil (NAP) enerzijds en het European Terrestrial Reference System 1989 (ETRS89) anderzijds. 
  **Aanbeveling:** 
  controleer bij transformaties tussen ETRS89 en RD coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties.;
 
-2. De UTM-projectie (zone 31/32) (op het Nederlands continentaal plat). Voor
- dit systeem geldt dat het gebruikte horizontale datum vaak ofwel het
- European Datum 1950 (ED50) of het World Geodetic System 1984 (WGS84) is. Als
- verticale datum wordt van verschillende, getijgerelateerde, verticale
- datums, waaronder het Lowest Astronomical Tide en het Mean Sea Level,
- gebruikgemaakt.
-
-3. De WGS84 / Pseudo-Mercator projectie. Voor dit systeem geldt dat het horizontale datum het World Geodetic System 1984 is. Deze projectie is de de-facto standaard voor visualisatietoepassingen op het web. 
-
-Indien andere coördinaatreferentiesystemen worden gebruikt, moet worden
-aangegeven welke coördinaatconversie en coördinaattransformatie noodzakelijk
-zijn om van de gehanteerde coördinaten te komen tot coördinaten in het ETRS89.
-
-Voor het definiëren van de coördinaatreferentiesystemen kunnen de EPSG-codes
-(European Petroleum Survey Group) worden gebruikt. 
-
-Voor de handliggende coördinaatreferentiesystemen en hun EPSG-codes zijn:
-
-- RD stelsel (2D): EPSG:28992
-
-- RD-NAP (3D): EPSG:7415
-
-- ETRS89 (2D): EPSG:4258 (lengte, breedte in graden)
-
-- ETRS89 (3D): EPSG:4937 (lengte, breedte in graden, hoogte in meters tov
- ellipsoide)
-
-- ETRS89 + EVRF2007 (3D): EPSG:7423 (lengte, breedte in graden, hoogte in
- meters tov NAP)
-
-Een gangbare methode voor het specificeren van het coördinaatreferentiesysteem in een implementatieformat is verwijzen naar de URI van het desbetreffende coördinaatreferentiesysteem in het register met coördinaatreferentiesystemen van OGC, bijvoorbeeld [http://www.opengis.net/def/crs/EPSG/0/28992](http://www.opengis.net/def/crs/EPSG/0/28992) voor RD.
-
-
-
 
 #### Coördinaten
 
-Coordinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD,NAP en ETRS89 komt dat overeen met de volgende nauwkeurigheden:
+Coordinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD en NAP  komt dat overeen met de volgende nauwkeurigheden:
 
 RD in meters 3 decimalen (1 mm);
 NAP-hoogte in meters 3 decimalen (1 mm);
-ETRS89-breedte in graden 8 decimalen (1,1 mm);
-ETRS89-lengte in graden 8 decimalen (0,7 mm);
-ETRS89-hoogte in meters 3 decimalen (1 mm).
 
 Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8 decimalen. Afronding is volgens de volgende regel:
 0.0015 -> 0.002;
@@ -238,14 +189,11 @@ Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8 decim
 
 Ontwerpprincipe: 
 
-**De SOR is 3D-voorbereid.** 
+**De SOR werkt voor alle reële objecten met een 3D dan wel 2,5D geometrische representatie. Voor sommige functionele ruimten is ook een 2,5d geometrie vereist** 
 
-Van elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie waarbij de vastlegging hiervan zodanig wordt vormgegeven dat een driedimensionale (3D) beschrijving van een object kan worden opgenomen.
+Van vrijwel elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie. Voor sommige reële objecttypen is dit een 3D geometrie voor veel andere reële objecttypen volstaat een 2,5D geometrie. Voor sommige functionele objecttypen is ook een 2,5D geometrie vereist.
 
-Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Het gaat hierbij dus om de coordinate dimension (ISO19107) en niet om de dimensie van de geometric primitive (ISO19107) die wordt gebruikt om de geometrie te representeren. Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
-
-Bij de nadere uitwerking van het informatiemodel zal worden bepaald op welke wijze het informatiemodel de geleidelijke transitie van de bestaande 2D registratie naar een 3D registratie kan ondersteunen. Daarbij kan bijvoorbeeld worden gedacht aan het voorlopig kunnen blijven vastleggen van de 2D geometrie van een gebouw (zowel grondvlakgeometrie als bovenaanzichtgeometrie) naast het mogelijk worden van een 3D vastlegging van gebouwgeometrie. Ook zal voor bepaalde objecttypen moeten worden bekeken in hoeverre de mogelijkheid moet worden geboden om 3D vastlegging van geometrie voorlopig mogelijk te maken, zonder dat dit aan alle uiteindelijk te stellen vereisten van 3D geometrie voldoet (transitie 3D-geometrie). Op een later moment zal worden bepaald voor welke objecttypen 3D vastlegging verplicht zal worden en vanaf welk moment dit het geval is.
-Voor ISO19107 zie: https://www.iso.org/standard/66175.html 
+Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
 
 
 
@@ -255,46 +203,47 @@ Er wordt hierbij verwezen naar de Simple Features, zoals vastgelegd in ISO19125 
 Voor ISO19125 zie: https://www.iso.org/standard/40114.html
 
 #### Topologie
+    
+<div class='note'>
+        
+    **Deze tekst wordt nog herzien**
 
-Ontwerpprincipe: 
+    Ontwerpprincipe: 
 
-**Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels**
+    **Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels**
 
-Ontwerpprincipe: 
+    Ontwerpprincipe: 
 
-**In de SOR wordt gewerkt met een referentielaag**
+    **In de SOR wordt gewerkt met een referentielaag**
 
-Er is sprake van een referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.
+    Er is sprake van een referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.
 
-Deze referentielaag wordt 
-- In geval van reële objecttypen volledig bedekt door objecten uit de objecttypen water, begroeiing (inclusief onbegroeid) en constructies
-    -	Hierbij sluiten de objecten  op elkaar aan volgens topologische regels, maar overlap is vooralsnog mogelijk. 
-    -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
-- In geval van functionele objecttypen NIET volledig bedekt omdat daar geen noodzaak voor is.
+    Deze referentielaag wordt 
+    - In geval van reële objecttypen volledig bedekt door objecten uit de objecttypen water, begroeiing (inclusief onbegroeid) en constructies
+        -	Hierbij sluiten de objecten  op elkaar aan volgens topologische regels, maar overlap is vooralsnog mogelijk. 
+        -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
+    - In geval van functionele objecttypen NIET volledig bedekt omdat daar geen noodzaak voor is.
 
-Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moet worden aangepast. Bij de nieuwe benadering kunnen geregistreerde objecten elkaar als gevolg van bewerkingen geometrisch gaan overlappen. Dat kan verwarring geven over wat de werkelijke grens is tussen objecten.
+    Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moet worden aangepast. Bij de nieuwe benadering kunnen geregistreerde objecten elkaar als gevolg van bewerkingen geometrisch gaan overlappen. Dat kan verwarring geven over wat de werkelijke grens is tussen objecten.
 
-Ontwerpprincipe: 
+    Ontwerpprincipe: 
 
-**In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken**
+    **In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken**
 
-- Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
+    - Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
 
+    **de tekst over relateivehoogre wordt waarschijnlijk verwijderd** 
+    
+    #### Relatieve hoogte
 
+    In een situatie waarin alle objecten een 3D-geometrie hebben is relatieve hoogte van objecten niet meer noodzakelijk. In de SOR zijn echter 2D-geometrieën verplicht en zijn 3D-geometrieën vrijwillig.
 
+    Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afspraken nodig over op welke wijze deze verticale informatie in de gegevensverzameling wordt vastgelegd.
 
+    **Niveauaanduidingen per object**
 
-
-#### Relatieve hoogte
-
-In een situatie waarin alle objecten een 3D-geometrie hebben is relatieve hoogte van objecten niet meer noodzakelijk. In de SOR zijn echter 2D-geometrieën verplicht en zijn 3D-geometrieën vrijwillig.
-
-Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afspraken nodig over op welke wijze deze verticale informatie in de gegevensverzameling wordt vastgelegd.
-
-**Niveauaanduidingen per object**
-
-Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de referentielaag bevindt (niveau 0) of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
-
+    Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de referentielaag bevindt (niveau 0) of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
+</div>
 
 #### Lineair referencing
 
