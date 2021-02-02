@@ -162,7 +162,7 @@ Het gaat hierbij in elk geval om de volgende rege:
 
 Ontwerpprincipe:
 
-**Het RD-NAP-coördinaatreferentiesysteem wordt gehanteerd als coördinaatreferentiesysteem **
+**Het RD-NAP-coördinaatreferentiesysteem wordt gehanteerd als coördinaatreferentiesysteem**
 
 Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89. 
  Hiervoor geldt dat de gebruikte horizontale datum Bessel 1841 is en het
@@ -176,12 +176,10 @@ Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89.
 
 Coordinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD en NAP  komt dat overeen met de volgende nauwkeurigheden:
 
-RD in meters 3 decimalen (1 mm);
-NAP-hoogte in meters 3 decimalen (1 mm);
-
-Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8 decimalen. Afronding is volgens de volgende regel:
-0.0015 -> 0.002;
-0.0014 -> 0.001.
+- RD in meters 3 decimalen (1 mm);
+- NAP-hoogte in meters 3 decimalen (1 mm);
+- Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 of 8 decimalen. Afronding is volgens de volgende regel:
+0.0015 -> 0.002; 0.0014 -> 0.001.
 
 
 #### 3D
@@ -205,7 +203,6 @@ Voor ISO19125 zie: https://www.iso.org/standard/40114.html
 #### Topologie
     
 <div class='note'>
-        
     **Deze tekst wordt nog herzien**
 
     Ontwerpprincipe: 
@@ -231,9 +228,13 @@ Voor ISO19125 zie: https://www.iso.org/standard/40114.html
     **In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken**
 
     - Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
+</div>
 
-    **de tekst over relateivehoogre wordt waarschijnlijk verwijderd** 
-    
+
+
+<div class='note'>
+    **De tekst over relatieve hoogte wordt waarschijnlijk verwijderd** 
+
     #### Relatieve hoogte
 
     In een situatie waarin alle objecten een 3D-geometrie hebben is relatieve hoogte van objecten niet meer noodzakelijk. In de SOR zijn echter 2D-geometrieën verplicht en zijn 3D-geometrieën vrijwillig.
