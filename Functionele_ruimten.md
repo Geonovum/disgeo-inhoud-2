@@ -599,15 +599,15 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 |Waarde type|	Beschrijving|
 |---|---|
 | Inrit| Geeft toegang tot een bestemmingsdoel|
-| Parkeervlak | Wegdeel bestemd voor het parkeren van motorvoertuigen|
-| Carpoolplaats | Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling|
-| Transferium | Voorziening voor het overstappen tussen vervoersmodaliteiten, die zodanig is gesitueerd en ingericht dat een verplaatsing met meerdere vervoersmodaliteiten aantrekkelijker is dan dezelfde verplaatsing met de auto|
+| Parkeervlak | Parkeergelegenheid bestemd voor het parkeren van één of meerdere voertuigen direct langs de doorgaande weg gelegen|
+|Parkeerplaats | Parkeergelegenheid voor het parkeren van meerdere voertuigen in de openlucht met een aparte toegang vanaf de doorgaande weg|
 | Verzorgingsplaats |  Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen|
-| OV-baan |  Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en afgescheiden is van de andere wegdelen|
-| Parkeerplaats |  Parkeergelegenheid voor meerdere voertuigen in de openlucht|
-| Benzinestation |  Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht|
+| Tankstation |  Geheel van installaties, verharding en gebouwen bedoeld voor de verkoop van brandstoffen of energie voor voertuigen |
 | Snellaadstation |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd|
-| Zone |  Verkeerskundige afbakening van een gebied|
+|Overstapplaats	|Voorziening waar men kan overstappen tussen modaliteiten of netwerken|
+|Tolplaats	| Geheel van installaties, verharding en gebouwen waar betaald moet worden voor toegang tot de weg|
+
+
 
 
 
@@ -659,8 +659,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 
 | Waarde type	|Beschrijving|
 |---|---|
-| Perron |  Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen|
-| Overweg | Gelijkvloerse kruising van een weg met een spoor voor trein, tram of metro|
+| Perron |  Verhoogde constructie langs een (spoor)rails voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen|
+| Overweg | Gelijkvloerse kruising van een weg met een (spoor)rails|
 | Spoorbaan | Gebaand gedeelte voor het verkeer over rails|
 | Emplacement | Totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen|
 
@@ -711,7 +711,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte "
 |Waarde type	|Beschrijving|
 |---|---|
 | Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden|
-| Berm | Strook grond langs een weg of spoorweg|
+| Berm | Strook grond langs een weg of spoorweg bedoeld voor het uitwijken van voertuigen, het scheiden van verkeerstromen, het plaatsen van verkeersondersteunend meubiliar, afwatering en/of het verbinden van zones met ecologische infrastructurele waarden|
 | Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer|
 | Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden| 
 | Wildrooster | Horizontaal raamwerk dat dient om wild de doorgang te beletten|
@@ -755,7 +755,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 
 |Waarde type	|Beschrijving|
 |---|---|
-| Baan voor vliegverkeer | Wegdeel uitsluitend bedoeld voor vliegverkeer|
+| Baan voor vliegverkeer | Baan uitsluitend bedoeld voor vliegverkeer|
 | Luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accommodatie voor ontvangst en vertrek van passagiers en verzending van goederen|
 
 *Status*
