@@ -290,6 +290,92 @@ Dit figuur laat de werking van linear referencing zien :
 Let op: als iets in de werkelijkheid zowel een reel voorkomen heeft als een functie, dan moet de geometrie van het functionele object afgeleid worden van het reële, ook als dit via lineair referencing wordt vastgelegd. 
 
 
+
+#### Generalisatie 
+
+*Van grootschalig (schaal 1:1.000) naar kleinschalig (1:10.000 tot 1:1.000.000)*
+
+Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste geometrische/cartografische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. Bv. objecttype Streek (nauwkeurigheid meter tot hectometer) heeft een heel ander detailniveau dan objecttype Weg of Gebouw (nauwkeurigheid centimeter tot decimeter).
+
+<div class='note'>
+    voor redactie:
+    
+    verwijzing hieronder opnemen naar nog te schrijven uitleg over informatieproducten eerder in het document
+</div>
+
+
+Uit de grootschalige SOR worden [informatieproducten](#paragraaf) samengesteld op kleinere schalen, van schaal 1 op 10.000 tot 1 op 1.000.000. Dit zijn cartografische informatieproducten (data of visualisatie). Deze informatieproducten worden geautomatiseerd met een landelijk uniform proces samengesteld (automatische generalisatie).
+
+In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd. 
+Hierbij worden de volgende begrippen gehanteerd:
+
+**cartografisch object** 
+Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie op 1 of meer schaalniveaus en van die visualisatie, hoe lang die visualisatie ook beschikbaar is.
+
+**generaliseren (van data of voor visualisatie)**
+ Dit betreft de geometrie van objecten (of op attribuutniveau)  zinvol weglaten, vereenvoudigen, verplaatsen,vergroten, symboliseren en/of aggregeren 
+
+**aggregeren**
+Dit betreft het zinvol samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn.
+
+
+*Generaliseren*
+
+Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen. Hooguit voor aanpassen van visualisatie, symbolen en voor een eenmalige actie waarbij de identificatie niet nodig is. 
+Daarom:
+1.	Is er geen noodzaak voor gegeneraliseerde data-objecttypen  
+2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties, dwz. dat bv. aggregatie relaties eenmalig zijn en niet worden bewaard.
+3.	Is er geen noodzaak voor unieke universele persistente identificatie van gegeneraliseerde objecten, er wordt geen id bewaard. 
+
+Ontwerpprincipe:
+
+**Objecttypen worden enkel en alleen op het voor de SOR meest gedetailleerde noodzakelijke niveau vastgelegd (de kleinste eenheden).**
+
+Dit detailniveau kan per objecttype verschillen. Voor met name geografische objecttypen is vaak een minder gedetailleerd niveau noodzakelijk. Denk bijvoorbeeld aan de begrenzing van een streek als de 'Utrechtse Heuvelrug' of het Continentaal Plat.
+
+
+Ontwerpprincipe:
+
+**Gegeneraliseerde data objecttypen worden niet opgenomen in de SOR. Ze kunnen wel onderdeel zijn van de informatieproducten van DiSGeo.**
+
+Ontwerpprincipe:
+
+**Cartografische objecttypen worden niet opgenomen in de SOR. Ze kunnen wel als onderdeel van de informatieproducten van DisGeo worden opgenomen**
+
+Cartografische objecten zijn voor gebruikers van belang omdat ze dan hun eigen visualisatie kunnen gebruiken. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen.
+
+Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker het object kan identificeren voor bijvoorbeeld een terugmelding. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een minder (lager) naar een meer (hoger) gedetailleerd niveau terug kunnen gaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau.
+
+*Kwaliteit*
+
+Ontwerpprincipe: 
+
+**De kwaliteit van de objecten en de bijbehorende gegevens worden in die mate geborgd dat geautomatiseerde generalisatie probleemloos kan verlopen**
+
+Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie extra handwerk nodig is om het gewenste resultaat te bereiken.
+
+Hiermee wordt concreet bedoeld:
+-	Dataobjecten moeten op het basisniveau landelijk uniform en homogeen en aaneensluitend zijn
+-	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hier één consistent systeem voor zijn en ook de implementatie moet consistent zijn
+-	Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken en consistent zijn binnen één specifieke schaal
+
+
+
+*Terugmeldingen op gegeneraliseerde objecten*
+
+Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, wordt hier vast voor deze groep een aandachtspunt gegeven: Er kunnen wel terugmeldingen zijn op gegeneraliseerde cartografische objecten, maar deze hoeven niet door te werken naar de SOR data objecten.  Deze terugmeldingen moeten altijd eerst beoordeeld worden waarbij geconstateerd wordt dat
+
+-	Of de terugmelding de generalisatie betreft en niet doorgezet hoeft te worden naar de bronhouders van de onderliggende data
+-	of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken bronhouders van de dataobjecten uit de SOR
+Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een eindgebruiker ziet de producten en moet op basis daarvan een terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, want dat is mogelijk helemaal niet aan de orde en dan zouden objecten op het hoogste detailniveau onnodig belast worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap.
+
+
+
+
+
+
+
+
 ### Netwerken
 
 In de samenhangende objectenregistratie worden vier transportnetwerken onderscheiden: wegen, spoor, water en scheepvaart. Netwerken zijn een verdere uitwerking van de virtuele objecten transportvoorzieningen in het basismodel NEN3610. En zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
@@ -342,89 +428,6 @@ Er zijn objecten die van belang zijn voor het netwerk maar die niet worden opgen
 Binnen netwerk wordt onderscheidt gemaakt naar verbindingen tussen knopen en verbindingen waarover een voertuig/weggebruiker/water/trein zich kan verplaatsen en tussen (netwerk) objecten die een logische samenhang kennen. Deze laatste categorie wordt een hyperverbinding genoemd.
 
 Een voorbeeld van een hyperverbinding is de relatie tussen een vistrap en de rivier waar de vistrap bij hoort. Ook objecten die van belang zijn voor he netwerk worden gedefinieerd met een hyperverbinding.
-
-
-
-
-
-### Generalisatie 
-
-*Van grootschalig (schaal 1:1.000) naar kleinschalig (1:10.000 tot 1:1.000.000)*
-
-Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste geometrische/cartografische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. Bv. objecttype Streek (nauwkeurigheid meter tot hectometer) heeft een heel ander detailniveau dan objecttype Weg of Gebouw (nauwkeurigheid centimeter tot decimeter).
-
-<div class='note'>
-    voor redactie:
-    
-    verwijzing hieronder opnemen naar nog te schrijven uitleg over informatieproducten eerder in het document
-</div>
-
-
-Uit de grootschalige SOR worden [informatieproducten](#paragraaf) samengesteld op kleinere schalen, van schaal 1 op 10.000 tot 1 op 1.000.000. Dit zijn cartografische informatieproducten (data of visualisatie). Deze informatieproducten worden geautomatiseerd met een landelijk uniform proces samengesteld (automatische generalisatie).
-
-In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd. 
-Hierbij worden de volgende begrippen gehanteerd:
-
-**cartografisch object** 
-Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie op 1 of meer schaalniveaus en van die visualisatie, hoe lang die visualisatie ook beschikbaar is.
-
-**generaliseren (van data of voor visualisatie)**
- Dit betreft de geometrie van objecten (of op attribuutniveau)  zinvol weglaten, vereenvoudigen, verplaatsen,vergroten, symboliseren en/of aggregeren 
-
-**aggregeren**
-Dit betreft het zinvol samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn.
-
-
-#### Generaliseren
-
-Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen. Hooguit voor aanpassen van visualisatie, symbolen en voor een eenmalige actie waarbij de identificatie niet nodig is. 
-Daarom:
-1.	Is er geen noodzaak voor gegeneraliseerde data-objecttypen  
-2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties, dwz. dat bv. aggregatie relaties eenmalig zijn en niet worden bewaard.
-3.	Is er geen noodzaak voor unieke universele persistente identificatie van gegeneraliseerde objecten, er wordt geen id bewaard. 
-
-Ontwerpprincipe:
-
-**Objecttypen worden enkel en alleen op het voor de SOR meest gedetailleerde noodzakelijke niveau vastgelegd (de kleinste eenheden).**
-
-Dit detailniveau kan per objecttype verschillen. Voor met name geografische objecttypen is vaak een minder gedetailleerd niveau noodzakelijk. Denk bijvoorbeeld aan de begrenzing van een streek als de 'Utrechtse Heuvelrug' of het Continentaal Plat.
-
-
-Ontwerpprincipe:
-
-**Gegeneraliseerde data objecttypen worden niet opgenomen in de SOR. Ze kunnen wel onderdeel zijn van de informatieproducten van DiSGeo.**
-
-Ontwerpprincipe:
-
-**Cartografische objecttypen worden niet opgenomen in de SOR. Ze kunnen wel als onderdeel van de informatieproducten van DisGeo worden opgenomen**
-
-Cartografische objecten zijn voor gebruikers van belang omdat ze dan hun eigen visualisatie kunnen gebruiken. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen.
-
-Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker het object kan identificeren voor bijvoorbeeld een terugmelding. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een minder (lager) naar een meer (hoger) gedetailleerd niveau terug kunnen gaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau.
-
-#### Kwaliteit
-
-Ontwerpprincipe: 
-
-**De kwaliteit van de objecten en de bijbehorende gegevens worden in die mate geborgd dat geautomatiseerde generalisatie probleemloos kan verlopen**
-
-Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie extra handwerk nodig is om het gewenste resultaat te bereiken.
-
-Hiermee wordt concreet bedoeld:
--	Dataobjecten moeten op het basisniveau landelijk uniform en homogeen en aaneensluitend zijn
--	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hier één consistent systeem voor zijn en ook de implementatie moet consistent zijn
--	Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken en consistent zijn binnen één specifieke schaal
-
-
-
-*Terugmeldingen op gegeneraliseerde objecten*
-
-Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, wordt hier vast voor deze groep een aandachtspunt gegeven: Er kunnen wel terugmeldingen zijn op gegeneraliseerde cartografische objecten, maar deze hoeven niet door te werken naar de SOR data objecten.  Deze terugmeldingen moeten altijd eerst beoordeeld worden waarbij geconstateerd wordt dat
-
--	Of de terugmelding de generalisatie betreft en niet doorgezet hoeft te worden naar de bronhouders van de onderliggende data
--	of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken bronhouders van de dataobjecten uit de SOR
-Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een eindgebruiker ziet de producten en moet op basis daarvan een terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, want dat is mogelijk helemaal niet aan de orde en dan zouden objecten op het hoogste detailniveau onnodig belast worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap.
-
 
 
 
@@ -561,7 +564,7 @@ Voor plaatsbepalingspunten geldt:
 - dat ze alleen worden opgenomen van coördinaten die daadwerkelijk ingewonnen zijn middels terreinbezoek (terrestrisch), laserscanning (laser), luchtfoto’s of panoramabeelden.  
 - dat ze alleen woden opgenomen voor reële objecten waarvan de grens in het terrein goed is aan te wijzen (ofwel goed idealiseerbaar). Bij niet-goed idealiseerbaar objecten is de ‘startwaarde’ van de nauwkeurigheid namelijk al dusdanig hoog dat het geen zin heeft om hier de onnauwkeurigheid van meting. Uitgangspunt is dat bronhouder deze gegevens binnen een bepaalde nauwkeurigheid inwint.
 - Coördinaten die zijn gegenereerd/afgeleid bijvoorbeeld bij het ‘verstroken’ van een cirkelboog hebben geen plaatsbepalingspunten.
-- Van de toekomstige  eometrie (planinformatie) worden geen plaatsbepalingspunten vastgelegd.
+- Van de toekomstige geometrie (planinformatie) worden geen plaatsbepalingspunten vastgelegd.
 - Functionele, registratieve en geoegrafische ruimten hebben geen plaatsbepalingspunten. 
 
 
