@@ -677,7 +677,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een boom|Ja |
-|Geometrie| Geometrische representatie van een boom|Ja (punt)|
+|Geometrie| Geometrische representatie van een boom|Ja (2,5D punt)|
 |Status   | Fase van de levenscyclus waarin de betreffende boom zich bevindt|Ja   |
 
 
@@ -1383,7 +1383,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een omheining|Ja |
-|Geometrie|Geometrische representatie van een omheining|Ja (lijn)|
+|Geometrie|Geometrische representatie van een omheining|Ja (2,5D lijn)|
 |Status   | Fase van de levenscyclus waarin een omheining zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1416,7 +1416,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een scherm|Ja |
-|Geometrie|Geometrische representatie van een scherm|Ja (lijn)|
+|Geometrie|Geometrische representatie van een scherm|Ja (2,5D lijn)|
 |Type scherm| Aanduiding van soort scherm |Ja| 
 |Status   | Fase van de levenscyclus waarin een scherm zich bevindt|Ja   |
 
@@ -1548,7 +1548,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|
 | Definitie | Afsluitende deel van een toegang tot een ingegraven constructie  of netwerk|
 |Herkomst definitie  |   Afgeleid van de definitie van een put in IMGeo 2.2 |
-|Verplicht  | Ja (punt)  |
+|Verplicht  | Ja (2,5D punt)  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van de bestaande populatie *put* en van een subset van de bestaande populatie *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
 
@@ -1715,7 +1715,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van paal|Ja |
-|Geometrie|Geometrische representatie van de paal|Ja (punt)|
+|Geometrie|Geometrische representatie van de paal|Ja (2,5D punt)|
 |Status   | Fase van de levenscyclus waarin een paal zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1747,7 +1747,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van straatmeubilair|Ja |
-|Geometrie|Geometrische representatie van het straatmeubilair|Ja (punt)|
+|Geometrie|Geometrische representatie van het straatmeubilair|Ja (2,5D punt)|
 |Status   | Fase van de levenscyclus waarin het straatmeubilair zich bevindt|Ja   |
 
 **Domeinwaarden**
