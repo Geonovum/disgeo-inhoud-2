@@ -28,7 +28,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 |Eigenschap   |Beschrijving   |Verplicht   |weg|baan|strook|
 |---|---|---|---|---|---|
 |Identificatie   |De unieke aanduiding van een wegknoop  |Ja | x | x | x |
-|Geometrie |De geometrische representatie van een knoop |Ja (punt), Nee (vlak)|x | x | x |
+|Geometrie |De geometrische representatie van een knoop |Ja (2D punt), Nee (2D vlak)|x | x | x |
 |Type keuzepunt|De aanduiding van het soort keuzepunt|Ja| x |  |  |
 |Status   |De fase van de levenscyclus waarin een wegknoop zich bevindt   |Ja |x | x | x |
 
@@ -80,7 +80,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 |Eigenschap   |Beschrijving   |Verplicht   |weg|baan|strook|
 |---|---|---|---|---|---|
 |Identificatie   |De unieke aanduiding van een wegverbinding|Ja | x | x | x |
-|Geometrie |De geometrische representatie van een wegverbinding|Ja (lijn), Nee (vlak)| x | x | x |
+|Geometrie |De geometrische representatie van een wegverbinding|Ja (2D lijn), Nee (2D vlak)| x | x | x |
 |Type wegverbinding|Aanduiding van soort wegverbinding|Ja| x | x | x |
 |Type weg| Categorisering van de verschillende wegtypes|Ja| x |  |  |
 |Type baan| Categorisering van de verschillende baantypes|Ja|  | x | |
@@ -578,7 +578,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een verkeerskundig functionele zone|Ja |
-|Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone|Ja (vlak)|
+|Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone|Ja (2D vlak)|
 |Type |Categorisering van de verschillende verkeerskundig functionele zones| Ja|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt|Ja  |
@@ -636,7 +636,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Spoorzone|Ja |
-|Geometrie |De geometrische representatie van de randen van een spoorzone|Ja (vlak) |
+|Geometrie |De geometrische representatie van de randen van een spoorzone|Ja (2D vlak) |
 |Type| Categorisering van verschillende soorten spoorzones|Ja|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt|Ja   |
@@ -688,7 +688,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte "
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Wegzone|Ja |
-|Geometrie |De geometrische representatie van de randen van een wegzone|Ja (vlak) |
+|Geometrie |De geometrische representatie van de randen van een wegzone|Ja (2D vlak) |
 |Type | Categorisering van verschillende soorten wegzones| Ja|
 |Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt|Ja   |
 
@@ -740,7 +740,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Luchtvaartzone|Ja |
-|Geometrie |De geometrische representatie van de randen van een luchtvaartzone|Ja (vlak)|
+|Geometrie |De geometrische representatie van de randen van een luchtvaartzone|Ja (2D vlak)|
 |Type| Categorisering van soort luchtvaartzone| Ja|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt|Ja   |
@@ -780,7 +780,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Begraafplaats|Ja |
-|Geometrie|De geometrische representatie van de randen van een begraafplaats|Ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een begraafplaats|Ja (2D vlak)|
 |Status   |  De fase van de levenscyclus waarin de begraafplaats zich bevindt|Ja   |
 
 
@@ -810,7 +810,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van recreatie|Ja |
-|Geometrie |De geometrische representatie van recreatie|Ja (vlak)|
+|Geometrie |De geometrische representatie van recreatie|Ja (2D vlak)|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Type|Categorisering van de verschillende soorten recreatie|Ja| 
 |Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt|Ja   |
@@ -856,7 +856,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van oever|Ja |
-|Geometrie|De geometrische representatie van de randen van de oever|Ja (vlak)|
+|Geometrie|De geometrische representatie van de oever|Ja (2D vlak)|
 |Status   | De fase van de levenscyclus waarin de betreffende oever zich bevindt|Ja   |
 
 
@@ -889,7 +889,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Complex|Ja |
-|Geometrie|De geometrische representatie van de randen van een complex|ja (vlak)|
+|Geometrie|De geometrische representatie van de randen van een complex|ja (2D vlak)|
 |Type complex|Categorisering van de verschillende complexen|ja|
 |Naam|Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   | De fase van de levenscyclus waarin de betreffende complex zich bevindt|Ja   |

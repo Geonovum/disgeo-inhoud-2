@@ -30,7 +30,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een watervlakte|Ja |
-|Geometrie|Geometrische representatie van een watervlakte|Ja (vlak)|
+|Geometrie|Geometrische representatie van een watervlakte|Ja (2,5D vlak)|
 |Type watervlakte|Aanduiding van het soort watervlakte|Nee|
 |Status   | Fase van de levenscyclus waarin de watervlakte zich bevindt|Ja   |
 
@@ -77,7 +77,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een waterloop|Ja |
-|Geometrie|Geometrische representatie van een waterloop|Ja (vlak)|
+|Geometrie|Geometrische representatie van een waterloop|Ja (2,5D vlak)|
 |Type waterloop|Aanduiding van het soort waterloop|Nee|
 |Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
 |Status   |  Fase van de levenscyclus waarin de waterloop zich bevindt|Ja   |
@@ -123,7 +123,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een bron|Ja |
-|Geometrie|Geometrische representatie van een bron|Ja (vlak)|
+|Geometrie|Geometrische representatie van een bron|Ja (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin de bron zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
@@ -161,7 +161,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een getijdengebied|Ja |
-|Geometrie|Geometrische representatie van een getijdengebied|Ja (vlak)|
+|Geometrie|Geometrische representatie van een getijdengebied|Ja (2,5D vlak)|
 |Type getijdengebied|Aanduiding van het soort getijdengebied|Nee|
 |Status   | Fase van de levenscyclus waarin het getijdengebied zich bevindt|Ja   |
 
@@ -205,7 +205,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Bodem"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van onbegroeide grond|Ja |
-|Geometrie| Geometrische representatie van onbegroeide grond|Ja (vlak)|
+|Geometrie| Geometrische representatie van onbegroeide grond|Ja (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt|Ja   |
 
 
@@ -239,7 +239,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Bodem"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een onbepaald terreindeel|Ja |
-|Geometrie|Geometrische representatie van een onbepaald terreindeel|Ja (vlak)|
+|Geometrie|Geometrische representatie van een onbepaald terreindeel|Ja (2,5D vlak)|
 |Status   |Fase van de levenscyclus waarin het betreffende onbepaalde terreindeel zich bevindt|Ja   |
 
 
@@ -277,7 +277,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   | Unieke aanduiding van een bos|Ja |
-|Geometrie| Geometrische representatie van een bos|Ja (vlak)|
+|Geometrie| Geometrische representatie van een bos|Ja (2,5D vlak)|
 |Type bos| Aanduiding van het soort bos|Ja|
 |Status   | Fase van de levenscyclus waarin het betreffende bos zich bevindt|Ja   |
 
@@ -318,7 +318,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   | Unieke aanduiding van gras- en kruidachtigen|Ja |
-|Geometrie| Geometrische representatie van veld met gras- en kruidachtigen|Ja (vlak)|
+|Geometrie| Geometrische representatie van veld met gras- en kruidachtigen|Ja (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin het betreffende veld met gras- en kruidachtigen zich bevindt|Ja   |
 
 
@@ -350,7 +350,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   | Unieke aanduiding van struiken|Ja |
-|Geometrie| Geometrische representatie van struiken|Ja (vlak)|
+|Geometrie| Geometrische representatie van struiken|Ja (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin de betreffende struiken zich bevinden|Ja   |
 
 
@@ -386,7 +386,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   | Unieke aanduiding van een bouwland|Ja |
-|Geometrie| Geometrische representatie van bouwland|Ja (vlak)|
+|Geometrie| Geometrische representatie van bouwland|Ja (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin het betreffende bouwland zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -417,7 +417,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   | Unieke aanduiding van fruit- of kweekbomen|Ja |
-|Geometrie| Geometrische representatie van fruit- of kweekbomen|Ja (vlak)|
+|Geometrie| Geometrische representatie van fruit- of kweekbomen|Ja (2,5D vlak)|
 |Type fruit- of kweekbomen| Aanduiding van het type fruit- of kweekbomen|Ja|
 |Status   | Fase van de levenscyclus waarin de betreffende fruit- of kweekbomen zich bevinden|Ja   |
 
@@ -463,7 +463,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Moeras|Ja |
-|Geometrie|Geometrische representatie van een moeras|Ja (vlak)|
+|Geometrie|Geometrische representatie van een moeras|Ja (2,5D vlak)|
 |Status   |  Fase van de levenscyclus waarin het moeras zich bevindt|Ja   |
 
 
@@ -494,7 +494,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Rietland|Ja |
-|Geometrie|Geometrische representatie van een rietland|Ja (vlak)|
+|Geometrie|Geometrische representatie van een rietland|Ja (2,5D vlak)|
 |Status   |  Fase van de levenscyclus waarin het rietland zich bevindt|Ja   |
 
 
@@ -524,7 +524,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Heide|Ja |
-|Geometrie|Geometrische representatie van een heide|Ja (vlak)|
+|Geometrie|Geometrische representatie van een heide|Ja (2,5D vlak)|
 |Status   |  Fase van de levenscyclus waarin de heide zich bevindt|Ja   |
 
 
@@ -558,7 +558,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Bomenrij|Ja |
-|Geometrie|Geometrische representatie van een bomenrij|Ja (vlak)|
+|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D vlak)|
 |Status   |  Fase van de levenscyclus waarin de bomenrij zich bevindt|Ja   |
 
 
@@ -588,7 +588,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Houtsingel|Ja |
-|Geometrie|Geometrische representatie van een houtsingel|Ja (vlak)|
+|Geometrie|Geometrische representatie van een houtsingel|Ja (2,5D vlak)|
 |Status   |  Fase van de levenscyclus waarin de houtsingel zich bevindt|Ja   |
 
 
@@ -618,7 +618,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Haag|Ja |
-|Geometrie|Geometrische representatie van een haag|Ja (vlak)|
+|Geometrie|Geometrische representatie van een haag|Ja (2,5D vlak)|
 |Status   |  Fase van de levenscyclus waarin de haag zich bevindt|Ja   |
 
 
@@ -647,7 +647,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een tuunwal|Ja |
-|Geometrie|Geometrische representatie van een tuunwal|Ja (vlak)|
+|Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D vlak)|
 |Status   |  Fase van de levenscyclus waarin de tuunwal zich bevindt|Ja   |
 
 
@@ -1350,7 +1350,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 | Identificatie   |Unieke aanduiding van een muur|Ja |
-| Geometrie|Geometrische representatie van een muur|Ja (lijn) Nee (vlak)|
+| Geometrie|Geometrische representatie van een muur|Ja (2,5D lijn) Nee (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin een muur zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1459,7 +1459,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een afvalcontainer|Ja |
-|Geometrie|Geometrische representatie van een afvalcontainer|Ja (punt) Nee (vlak)|
+|Geometrie|Geometrische representatie van een afvalcontainer|Ja (2,5D punt) Nee (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin een afvalcontainer zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1493,7 +1493,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een bassin|Ja |
-|Geometrie|Geometrische representatie van een bassin|Ja (vlak)|
+|Geometrie|Geometrische representatie van een bassin|Ja (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin een bassin zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1525,7 +1525,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een opslagtank|Ja |
-|Geometrie|Geometrische representatie van een opslagtank|Ja (vlak)|
+|Geometrie|Geometrische representatie van een opslagtank|Ja (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin een opslagtank zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1779,7 +1779,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een bunker|Ja |
-|Geometrie|Geometrische representatie van een bunker|Ja (vlak)|
+|Geometrie|Geometrische representatie van een bunker|Ja (2,5D vlak)|
 |Status   | Fase van de levenscyclus waarin een bunker zich bevindt|Ja   |
 
 **Domeinwaarden**

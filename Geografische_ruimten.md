@@ -79,7 +79,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Identificatie   |Unieke aanduiding van een streek|Ja |
 |Naam   |Plaatselijke naam van het streek zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
 |Alternatieve naam   | Alternatieve benaming van een streek zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van een streek|Ja (vlak)  |
+|Geometrie   |Geometrische representatie van een streek|Ja (2D vlak)  |
 |Status   |Fase van de levenscyclus waarin de betreffende streek zich bevindt|Ja   |
 
 
@@ -114,7 +114,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Identificatie   |Unieke aanduiding van een duingebied|Ja |
 |Naam   |Plaatselijke naam van het duingebied zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
 |Alternatieve naam   | Alternatieve benaming van een duingebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van het duingebied|Ja (vlak)  |
+|Geometrie   |Geometrische representatie van het duingebied|Ja (2D vlak)  |
 |Status   |Fase van delevenscyclus waarin het betreffende duingebied zich bevindt|Ja   |
 
 
@@ -152,7 +152,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Identificatie   |Unieke aanduiding van een watergebied|Ja |
 |Naam   |Plaatselijke naam van het watergebied zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
 |Alternatieve naam   | Alternatieve benaming van een watergebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van het watergebied|Ja (vlak)  |
+|Geometrie   |Geometrische representatie van het watergebied|Ja (2D vlak)  |
 |Status   |Fase van delevenscyclus waarin het betreffende watergebied zich bevindt|Ja   |
 
 
@@ -186,7 +186,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Identificatie   |Unieke aanduiding van een eiland|Ja |
 |Naam   |Plaatselijke naam van het eiland zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
 |Alternatieve naam   | Alternatieve benaming van een eiland zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van het eiland|Ja (vlak)  |
+|Geometrie   |Geometrische representatie van het eiland|Ja (2D vlak)  |
 |Status   |Fase van delevenscyclus waarin het betreffende eiland zich bevindt|Ja   |
 
 
@@ -222,7 +222,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Identificatie   |Unieke aanduiding van een polder|Ja |
 |Naam   |Plaatselijke naam van het polder zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
 |Alternatieve naam   | Alternatieve benaming van een polder zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van een polder|Ja (vlak)  |
+|Geometrie   |Geometrische representatie van een polder|Ja (2D vlak)  |
 |Status   |Fase van delevenscyclus waarin de betreffende polder zich bevindt|Ja   |
 
 
@@ -258,7 +258,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   | Unieke aanduiding van strand|Ja |
-|Geometrie| Geometrische representatie van een strand|Ja (vlak)|
+|Geometrie| Geometrische representatie van een strand|Ja (2D vlak)|
 |Status   | Fase van delevenscyclus waarin het betreffende strand zich bevindt|Ja   |
 
 
@@ -293,7 +293,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   | Unieke aanduiding van zandverstuiving|Ja |
-|Geometrie| Geometrische representatie van een zandverstuiving|Ja (vlak)|
+|Geometrie| Geometrische representatie van een zandverstuiving|Ja (2D vlak)|
 |Status   | Fase van delevenscyclus waarin de betreffende zandverstuiving zich bevindt|Ja   |
 
 
@@ -327,7 +327,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een reliëf|Ja |
-|Geometrie   |Geometrische representatie van het gebied dat reliëf bekend is|Ja (punt,vlak)  |
+|Geometrie   |Geometrische representatie van het gebied dat reliëf bekend is|Ja (2,5D punt,vlak)  |
 |Type |Hoofdkarakter van het reliëf|Nee |
 |Status   |Fase van delevenscyclus waarin het betreffende reliëf zich bevindt|Ja   |
 

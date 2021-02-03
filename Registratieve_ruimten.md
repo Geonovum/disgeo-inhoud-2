@@ -31,7 +31,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van het Rijk |Ja |
-|Geometrie| Geometrische representatie van de randen van het gebied dat als Rijk is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het gebied dat als Rijk is benoemd|Ja (2D vlak)|
 |Landcode | Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 |Status   | Fase van de levenscyclus waarin het Rijk zich bevindt|Ja   |
 
@@ -66,7 +66,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Identificatie   |Unieke aanduiding van een provincie |Ja |
 |Provinciecode|	Codering van een provincie zoals deze door het CBS wordt gebruikt|Ja   |
 |Provincienaam|	Naam van een provincie zoals formeel benoemd door het bevoegd gezag|Ja   |
-|Geometrie| Geometrische representatie van de randen van het gebied dat als Provincie is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het gebied dat als Provincie is benoemd|Ja (2D vlak)|
 |Status   | Fase van de levenscyclus waarin een provincie zich bevindt|Ja   |
 
 
@@ -106,7 +106,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Identificatie   |Unieke aanduiding van een waterschap |Ja |
 |Waterschapscode|	Codering van een waterschap zoals deze door het CBS wordt gebruikt|Ja   |
 |Waterschapsnaam|	Naam van een waterschap zoals formeel benoemd door het bevoegd gezag|Ja   |
-|Geometrie| Geometrische representatie van het administratieve gebied van een waterschap |Ja (vlak)|
+|Geometrie| Geometrische representatie van het administratieve gebied van een waterschap |Ja (2D vlak)|
 |Status   | Fase van de levenscyclus waarin een waterschap zich bevindt|Ja   |
 
 
@@ -142,7 +142,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Gemeentecode|	Codering van een gemeente zoals deze door het CBS wordt gebruikt|Ja |
 |Formele naam|	Naam van een gemeente zoals formeel benoemd door het bevoegd gezag|Ja |
 |Alternatieve naam|	Alternatieve benaming van een gemeente zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)|Nee |
-|Geometrie| Geometrische representatie van de randen van het gebied dat als gemeente is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het gebied dat als gemeente is benoemd|Ja (2D vlak)|
 |Status   | Fase van de levenscyclus waarin een gemeente zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
@@ -180,7 +180,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Identificatie   |Unieke aanduiding van een veiligheidsregio|Ja |
 |Veiligheidsregiocode	|Codering van een veiligheidsregio zoals deze door het CBS wordt gebruikt| Ja|
 |Naam Veiligheidsregio	|Naam van een veiligheidsregio zoals formeel benoemd door het bevoegd gezag	|Ja |
-|Geometrie| Geometrische representatie van een veiligheidsregio|Ja (vlak)|
+|Geometrie| Geometrische representatie van een veiligheidsregio|Ja (2D vlak)|
 |Status   | Fase van de levenscyclus waarin een veiligheidsregio zich bevindt|Ja   |
 
 
@@ -219,7 +219,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van de Nederlandse territoriale zee |Ja |
-|Geometrie| Geometrische representatie van het gebied dat als Nederlandse territoriale zee is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het gebied dat als Nederlandse territoriale zee is benoemd|Ja (2D vlak)|
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 |Status   | Fase van de levenscyclus waarin de Nederlandse territoriale zee zich bevindt|Ja   |
 
@@ -253,7 +253,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van de Nederlandse aansluitende zone |Ja |
-|Geometrie| Geometrische representatie van het gebied dat als Nederlandse aansluitende zone is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het gebied dat als Nederlandse aansluitende zone is benoemd|Ja (2D vlak)|
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 |Status   | Fase van de levenscyclus waarin de Nederlandse aansluitende zone zich bevindt|Ja   |
 
@@ -289,7 +289,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van de Nederlandse exclusieve economische zone |Ja |
-|Geometrie| Geometrische representatie van het gebied dat als Nederlandse exclusieve economische zone is benoemd|Ja (vlak)|
+|Geometrie| Geometrische representatie van het gebied dat als Nederlandse exclusieve economische zone is benoemd|Ja (2D vlak)|
 | Landcode |	Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
 |Status   | Fase van de levenscyclus waarin de Nederlandse exclusieve economische zone zich bevindt|Ja   |
 
@@ -323,7 +323,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |---|---|---|
 |Identificatie   | Unieke aanduiding van het Nederlandse continentaal plat|Ja |
 | Landcode | Codering van het land zoals deze door de RVIG wordt gebruikt|Ja|
-|Geometrie| Geometrische representatie van het Nederlandse continentaal plat|Ja (vlak)|
+|Geometrie| Geometrische representatie van het Nederlandse continentaal plat|Ja (2D vlak)|
 |Status   | Fase van de levenscyclus waarin het Nederlandse continentaal plat zich bevindt|Ja   |
 
 
