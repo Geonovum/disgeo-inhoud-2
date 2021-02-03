@@ -310,22 +310,26 @@ In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoem
 Hierbij worden de volgende begrippen gehanteerd:
 
 **cartografisch object** 
+
 Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie op 1 of meer schaalniveaus en van die visualisatie, hoe lang die visualisatie ook beschikbaar is.
 
 **generaliseren (van data of voor visualisatie)**
+
  Dit betreft de geometrie van objecten (of op attribuutniveau)  zinvol weglaten, vereenvoudigen, verplaatsen,vergroten, symboliseren en/of aggregeren 
 
 **aggregeren**
+
 Dit betreft het zinvol samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn.
 
 
-*Generaliseren*
+**Generaliseren**
 
 Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen. Hooguit voor aanpassen van visualisatie, symbolen en voor een eenmalige actie waarbij de identificatie niet nodig is. 
 Daarom:
 1.	Is er geen noodzaak voor gegeneraliseerde data-objecttypen  
 2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties, dwz. dat bv. aggregatie relaties eenmalig zijn en niet worden bewaard.
 3.	Is er geen noodzaak voor unieke universele persistente identificatie van gegeneraliseerde objecten, er wordt geen id bewaard. 
+
 
 Ontwerpprincipe:
 
@@ -346,7 +350,7 @@ Cartografische objecten zijn voor gebruikers van belang omdat ze dan hun eigen v
 
 Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker het object kan identificeren voor bijvoorbeeld een terugmelding. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een minder (lager) naar een meer (hoger) gedetailleerd niveau terug kunnen gaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau.
 
-*Kwaliteit*
+**Kwaliteit**
 
 Ontwerpprincipe: 
 
@@ -361,7 +365,7 @@ Hiermee wordt concreet bedoeld:
 
 
 
-*Terugmeldingen op gegeneraliseerde objecten*
+**Terugmeldingen op gegeneraliseerde objecten**
 
 Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, wordt hier vast voor deze groep een aandachtspunt gegeven: Er kunnen wel terugmeldingen zijn op gegeneraliseerde cartografische objecten, maar deze hoeven niet door te werken naar de SOR data objecten.  Deze terugmeldingen moeten altijd eerst beoordeeld worden waarbij geconstateerd wordt dat
 
