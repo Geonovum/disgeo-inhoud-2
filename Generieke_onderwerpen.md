@@ -548,29 +548,65 @@ Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronh
 
 
 
-#### Plaatsbepalingspunten
+#### Meta-gegevens over herkomst en kwaliteit
 
-Plaatsbepalingspunten (PBP's) worden gebruikt als bron en zijn daarmee een type meta-informatie (bronverwijzing) bij een specifiek object (attribuut geometrie). 
-Een plaatsbepalingspunt is een punt dat is ingemeten en in coördinaten bekend is en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing van reële objecten. 
-Plaatsbepalingspunten komen voor bij reële objecttypen. Objecten met de status 'gepland' hebben geen plaatsbepalingspunten. Het is niet voldoende om PBP's te beperken tot goed idealiseerbare reële objecttypen omdat van elk basisobject nagespeurd moet kunnen wordne wat de bron is en hoe de inwinning tot stand is gekomen. 
+In een basisregistratie is het van belang om expliciet informatie over de kwaliteit en herkomst van de geregistreerde gegevens vast te leggen. Dit als verantwoording voor het opnemen, wijzigen of beëindigen van één of meer gegevens in de registratie. Gegevens over kwaliteit en herkomst zijn meta-gegevens over de basisgegevens.
 
-Een eis daarbij is dat in de SOR bij het specifieke object/attribuut de administratieve relatie naar de gerelateerde PBP's expliciet wordt vastgelegd net zoals bij een verwijzing naar een document. Alleen dan kan sprake zijn van een beheersbare vorm van metagegevens. In de realisatie moet dit zo worden vormgegeven dat dit in de uitvoering praktisch makkelijk te hanteren is.
+Informatie over de herkomst is belangrijk voor een gebruiker om te weten of het gegeven afkomstig is van een bronhouder. Een bronhouder is een bestuursorgaan of rechtspersoon aan wie bij deze wet de verantwoordelijkheid voor het bijhouden van gegevens is opgedragen. Bronhouder dient de gegevens met de bij wet/MR vastgestelde kwaliteitseisen bij te houden. Gegevens kunnen hiermee als authentiek worden aangemerkt, en een gebruiker mag/kan er dan vanuit gaan dat het gegeven juist is. Bij gerede twijfel over de juistheid kan een gebruiker een terugmelding op het gegeven doen, zodat de bronhouder een onderzoek kan starten.
 
-Het zorgvuldig omgaan met PBP's als onderdeel van de metagegevens is nodig: 
-- Voor gebruikers is dan expliciet bekend welk(e) PBP(’s) bij welk object hoort/horen.
-- PBP’s die niet meer tot de actuele objecten behoren kunnen worden bepaald en in downloads zonder historie worden geschrapt.
-- Alleen voor objecten die goed idealiseerbaar zijn in het terrein worden voor de coördinaten die zijn ingemeten middels inwinningsmethoden fotogrammetrisch, terrestrisch, laserscanning of panoramabeelden, plaatsbepalingspunten opgenomen. De goed idealiseerbare objecten zijn de objecten met een positionele nauwkeurigheid van tenminste 30 centimeter.
-- De ligging van elk object is gedefinieerd door geometrie. Deze is vastgelegd bij een object in de vorm van een eigenschap ‘geometrie’. Deze geometrie moet overeenkomen met de geometrie van plaatsbepalingspunten van de goed idealiseerbare objecten, die deel uitmaken van de verzameling van de meetkundige afbakening.
-- Bij de objecten die op de referentielaag deel uitmaken van de groepen water + begroeiing (inclusief onbegroeid) + constructies  vormen de verbindingen tussen de coördinaten meestal een grens zonder gaten tussen twee aangrenzende objecten, maar overlap is vooralsnog mogelijk
+Een Plaatsbepalingspunt is een punt dat is ingemeten en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing (geometrie) van topografische objecten. Bij een plaatsbepalingspunt worden naast de coördinaten (X,Y,Z) van het ingemeten punt zelf, onder meer gegevens over de nauwkeurigheid, inwinningsdatum en inwinnende instantie (bronhouder/gegevensmuteerder) opgenomen.
 
-**Eisen aan plaatsbepalingspunten**
-
-- Elk plaatsbepalingspunt heeft een unieke identificatie. 
-- De ligging van elk plaatsbepalingspunt is in coördinaten bekend.
-- In de SOR moet (anders dan op dit moment in de BGT) voor de reële objecttypen een administratieve koppeling plaatsvinden van de geometrie van een object naar de desbetreffende PBP's op basis van de identificatie.
-- Van elke plaatsbepalingspunt is de nauwkeurigheid, de inwinningsdatum, de inwinnende instantie die het heeft bepaald en de inwinningsmethode bekend. 
+Voor plaatsbepalingspunten geldt:
+- Alleen van reële objecten worden plaatsbepalingspunten vastgelegd. 
+- dat ze alleen worden opgenomen van coördinaten die daadwerkelijk ingewonnen zijn middels terreinbezoek (terrestrisch), laserscanning (laser), luchtfoto’s of panoramabeelden.  
+- dat ze alleen woden opgenomen voor reële objecten waarvan de grens in het terrein goed is aan te wijzen (ofwel goed idealiseerbaar). Bij niet-goed idealiseerbaar objecten is de ‘startwaarde’ van de nauwkeurigheid namelijk al dusdanig hoog dat het geen zin heeft om hier de onnauwkeurigheid van meting. Uitgangspunt is dat bronhouder deze gegevens binnen een bepaalde nauwkeurigheid inwint.
+- Coördinaten die zijn gegenereerd/afgeleid bijvoorbeeld bij het ‘verstroken’ van een cirkelboog hebben geen plaatsbepalingspunten.
+- Van de toekomstige  eometrie (planinformatie) worden geen plaatsbepalingspunten vastgelegd.
+- Functionele, registratieve en geoegrafische ruimten hebben geen plaatsbepalingspunten. 
 
 
+In de SOR worden 
+
+1. 	Meta-gegevens over kwaliteit en herkomst vastgelegd voor 
+
+- goed-idealiseerbare reële objecten middels plaatsbepalingspunten zoals hiervoor beschreven.
+- overige reële objecten middels één meta-gegeven bij de geometrie met een aanduiding voor de gemiddelde/mediane/minimale/maximale nauwkeurigheid
+- registratieve ruimten middels een brondocument 
+- geografische ruimten middels een nader te bepalen bronverwijzing
+- functionele ruimten middels een nader te bepalen bronverwijzing
+
+2.	Meta-gegevens over kwaliteit en herkomst worden expliciet gekoppeld  aan de basisgegevens. De aanbeveling is om op te nemen bij
+
+- reële objecten:  de (relatie met ) plaatsbepalingspunten , zodat kenbaar is wat de kwaliteit en herkomst is van individuele punten in de geometrie. 
+- bij registratieve ruimten de unieke aanduiding van het brondocument 
+- bij geografische ruimten een unieke aanduiding van een nader te bepalen bronverwijzing
+- bij functionele ruimten een unieke aanduiding van een nader te bepalen bronverwijzing
+
+3.	Plaatsbepalingspunten vastgelegd met de volgende kenmerken:
+
+- Unieke aanduiding
+- Coördinaten/puntgeometrie in X,Y,Z. 
+- Nauwkeurigheid
+- Inwinnende instantie
+- Inwinningsdatum
+
+
+    
+Geometrie en topologie
+
+Alle objecten hebben een geometrische representatie. De nauwkeurigheid/kwaliteit van de geometrie wordt voor goed-idealiseerbare reële objecten beschreven middels plaatsbepalingspunten en voor niet-goed idealiseerbare objecten middels één meta-object voor de kwaliteit/herkomst. Voorwaarde is dat plaatsbepalingspunten samenvallen met de coördinaten in de objectgeometrie (zie paragraaf [Topologie](#topologie).
+
+<div class='note'>
+    Casus: Van een gebouw wordt een 3D geometrische representatie gerealiseerd.
+
+    Aanname: bij een gebouw is het mogelijk om zowel geometrie voor grondvlak, bovenaanzicht en 3D op te nemen (dus 3 attribuutvelden voor geometrie).
+
+    1)	Via combinatie geometrie grondvlak en bovenaanzicht: 
+    geometrie grondvlak en bovenaanzicht hebben PBP’s: grondvlak terrestrisch en bovenaanzicht fotogrammetrisch. De afgeleide 3D geometrie heeft geen eigen PBP’s.
+
+    2)	Via laseraltimetrie: 3D Een gebouw wordt met laseraltimetrie ingewonnen. 
+    Alle geometrie-attributen hebben PBP’s met inwinningsmethode laseraltimetrie. Ontbrekende/geconstrueerde hoekpunten (bijvoorbeeld door ontbreken van een punt als gevolg van een luifel o.i.d.) hebben geen PBP’s.
+</div>
 
 #### Verdere aandachtspunten meta-informatie
 
@@ -578,7 +614,7 @@ In het voorgaande is een eerste schets gegeven van het onderwerp meta-informatie
 
 - Meta-informatie makkelijk kunnen registreren met ondersteuning vanuit de systemen. Dit betekent bijvoorbeeld dat het eenvoudig moet zijn om metagegevens over te nemen naar andere objecten (bijvoorbeeld alle gebouwen binnen een luchtfoto de status "gecontroleerd" te geven),
 - Zo effectief en efficiënt mogelijk met tools in de systemen om metagegevens eenvoudig vast te leggen en te controleren op consistentie.
-- Niet onnodig muteren (met name van geometrie). Dit kan bijvoorbeeld door alleen het relevante object te muteren en niet gelijk de aangrenzende objecten in de omgeving ook muteren. Het zorgdragen van consistentie van de geometrie is hierbij een aandachtspunt (zie  paragraaf [Topologie](#topologie)).
+- Niet onnodig muteren (met name van geometrie). Dit kan bijvoorbeeld door alleen het relevante object te muteren en niet gelijk de aangrenzende objecten in de omgeving ook muteren. Het zorgdragen van consistentie van de geometrie is hierbij een aandachtspunt (zie paragraaf [Topologie](#topologie)).
 - Zoveel mogelijk werken met domeintabellen in de metadata. Voorbeeld bij inwinning kunnen kiezen uit b.v. terrestrisch, digitalisering, constructie. fotokartering. Dit geldt ook voor "wijze van controle".
 - De ervaring uit de BAG leert dat het opvoeren van brondocumenten een zeer tijdrovende bezigheid is met de vraag of het heeft voldaan aan haar doel. Daarom wordt alleen met formele brondocumenten gewerkt als deze om andere reden al bestaan (zoals vergunningen). In andere gevallen wordt volstaan met het gebruik van bijvoorbeeld plaatsbepalingspunten of een luchtfoto als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
 
