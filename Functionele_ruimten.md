@@ -51,6 +51,9 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 |Waarde Type verkeersgebied|Beschrijving|
 |---|---|
+|eindknoop	|Wegknoop met 1 verbinding en is het einde van een doodlopende weg|
+|grensknoop	|Wegknoop met 1 verbinding en betreft een doorgaande verbinding met het wegennetwerk van een buurland|
+|koppelknoop	|Wegknoop waar twee verschillende type wegverbindingen aan elkaar verbonden zijn|
 |kruising|Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +|
 |verkeersplein|Wegknoop waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft|
 |rotonde|Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
@@ -87,7 +90,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 |Type strook| Categorisering van de verschillende strooktypes|Nee|  | | x |
 |Routenummer|Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op een wegverbinding mogelijk (MV)|Ja (indien aanwezig)| x |  |  |
 |Afritnummer| Nummer toegekend aan een verbindingsbaan|Ja (indien aanwezig)|  | x |  |
-|Rijrichting| De toegestane beweegrichting van het verkeer op een weg/baan/strookverbinding | Ja| x | x | x |
+|Rijrichting| De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/strookverbinding | Ja| x | x | x |
 |Openbare weg|Bestaan van een beperking in het gebruik, zoals bedoeld in art. 6 van de Wegenwet| Ja (indien aanwezig in wegenlegger) | x | |  |
 |Status   |De fase van de levenscyclus waarin een wegverbinding zich bevindt   |Ja  | x | x | x  |
 
@@ -187,9 +190,10 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 
 |Waarde rijrichting|Beschrijving|
 |---|---|
-|||
-|||
+|Beide	|Beide rijrichtingen zijn op de verbinding toegestaan|
+|Eenrichting	|Eén rijrichting is op verbinding toegestaan|
 
+Toelichting: Voor het concreet aangeven van de richting van de eenrichtings-rijrichting zullen op een later moment inwinningsregels worden vastgelegd.
 
 *openbare weg*
 
