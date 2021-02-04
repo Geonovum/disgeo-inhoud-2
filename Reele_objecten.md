@@ -6,7 +6,7 @@
 
   
 
-### Water
+### Oppervlaktewater
 
 
 
@@ -66,7 +66,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 
 | Naam  | Waterloop  |
 |---|---|
-| Definitie | Langgerekte verlaging in het terrein van natuurlijke of kunstmatige oorsprong die permanent of periodiek stromend water bevat|
+| Definitie | Langgerekte verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong die permanent of periodiek water bevat|
 |Herkomst definitie  | AQUO lex    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *waterloop* en *greppel/droge sloot* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -130,8 +130,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|hoort bij|watervlakte|ja|
-|hoort bij|waterloop|ja|
+|is onderdeel van|watervlakte|ja|
+|is onderdeel van|waterloop|ja|
 
 **Domeinwaarden**
 
@@ -1140,8 +1140,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-| hoort bij | kunstwerk, type overbrugging | ja|
-| hoort bij | kunstwerk, type sluis | ja|
+| is onderdeel van| kunstwerk, type overbrugging | ja|
+| is onderdeel van | kunstwerk, type sluis | ja|
 
 **Domeinwaarden**
 
