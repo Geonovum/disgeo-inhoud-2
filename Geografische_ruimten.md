@@ -4,7 +4,10 @@
     De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
 </div>
 
-### Bebouwingskern
+### Sociaal geografische gebieden
+
+
+#### Bebouwingskern
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
@@ -12,7 +15,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 
 | Naam  | Bebouwingskern  |
 |---|---|
-| Definitie |Geografische ruimte die gekenmerkt wordt door een concentratie van gebouwen   |
+| Definitie |Geografische ruimte die gekenmerkt wordt door een concentratie van gebouwen en die vanuit besluitvorming, historie of in de volksmond bekend staat onder een bepaalde naam  |
 |Herkomst definitie  | Gebaseerd op definitie Plaats in BRT  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | In de BRT zijn al plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. Plaatsen worden in de vorm van bebouwingskernen ook opgenomen in de objectenregistratie|
@@ -58,7 +61,7 @@ Woonkernen, industriekernen, recreatiekernen, gehuchten en buurtschappen zijn in
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd.
 
 
-### Streek
+#### Streek
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
@@ -66,7 +69,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 
 | Naam  | Streek  |
 |---|---|
-| Definitie |Geografische ruimte die cultureel of landschappelijk een eenheid vormt |
+| Definitie |Geografische ruimte met een culturele samenhang die vanuit de historie of in de volksmond bekend staat onder een bepaalde naam|
 |Herkomst definitie  | Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Streek* zoals deze is opgenomen in de basisregistratie topografie|
@@ -91,9 +94,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
 
+### Landschappelijke gebieden
 
+Geografische ruimte die een fysisch-geografische samenhang vertoont
 
-### Duingebied
+#### Duingebied
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
@@ -131,7 +136,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-### Watergebied
+#### Watergebied
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
@@ -165,7 +170,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd	
 
 
-### Eiland
+#### Eiland
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
@@ -201,7 +206,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-### Polder
+#### Polder
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
@@ -239,7 +244,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-### Strand
+#### Strand
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
@@ -274,7 +279,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-### Zandverstuiving
+#### Zandverstuiving
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
