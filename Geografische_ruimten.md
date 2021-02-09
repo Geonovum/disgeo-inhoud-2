@@ -127,15 +127,15 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Waarde type	|Beschrijving|
 |---|---|
 |Berg	|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
-|Bos	|Gebied dat overwegend met bos begroeid is|
+|Bosgebied	|Gebied dat overwegend met bos begroeid is|
 |Dal	|Langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten|
-|Duin	|Gebied bestaande uit verhogingen of heuvels van zand of fijne losse aarde opgeworpen door wind. Duingebieden grenzen aan zeestranden. |
+|Duingebied	|Gebied bestaande uit verhogingen of heuvels van zand of fijne losse aarde opgeworpen door wind. Duingebieden grenzen aan zeestranden. |
 |Eiland	|Landoppervlak dat aan alle kanten omringd is door water|
 |Groeve	|Opengegraven gebied waaruit een delfstof gewonnen wordt|
-|Heide	|Gebied dat overwegend met heide begroeid is|
+|Heidegebied	|Gebied dat overwegend met heide begroeid is|
 |Polder	|Gebied dat door één of meerdere waterkeringen is omgeven en waarvan de waterstand kunstmatig geregeld kan worden|
 |Strand	|Onbegroeide zandige kustvlakte op de overgang van zee met land en welke onder invloed staat van het zeewater en de wind|
-|Water	|Gebied dat overwegend met water bedekt is|
+|Watergebied	|Gebied dat overwegend met water bedekt is|
 |Zandverstuiving	|Gebied met overwegend “levend” stuifzand, dus met zo weinig begroeiing dat het zand door de wind en het water verstoven wordt|
 
 
