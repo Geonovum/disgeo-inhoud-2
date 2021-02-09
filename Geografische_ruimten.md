@@ -113,11 +113,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een landschappelijk gebied |Ja |
-|Naam   |Plaatselijke naam van het landschappelijk gebied zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
+|Naam   |Plaatselijke naam van een landschappelijk gebied zoals deze is vastgesteld of in het plaatselijk gebruik bekend staat|Ja   |
 |Alternatieve naam   | Alternatieve benaming van een landschappelijk gebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van het landschappelijk gebied|Ja (2D vlak)  |
-|Type | Aard van het landschappelijk gebied|Ja|
-|Status   |Fase van de levenscyclus waarin het betreffende landschappelijk gebied zich bevindt|Ja   |
+|Geometrie   | Geometrische representatie van een landschappelijk gebied|Ja (2D vlak)  |
+|Type | Aard van een landschappelijk gebied|Ja|
+|Status   |Fase van de levenscyclus waarin een landschappelijk gebied zich bevindt|Ja   |
 
 
 **Domeinwaarden**
