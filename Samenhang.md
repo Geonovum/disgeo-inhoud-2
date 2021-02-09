@@ -61,12 +61,12 @@ Als de registratieve- en geografische ruimten worden geplaatst binnen de NEN 361
 
 Daarnaast kunnen de verschillende begrippen in de SOR (deels geaggregeerd) ook worden geplaatst binnen het eerder opgestelde conceptueel denkraam. De indeling in de vier kleurgroepen (bebouwing, water, groen en verharding) is hierbij uitsluitend bedoeld als een praktisch hulpmiddel om de verschillende begrippen in de SOR snel te kunnen plaatsen en niet als een overzicht voor de ordening van begrippen in relatie tot NEN 3610.  Hierbij ontstaat de volgende geactualiseerde versie van het conceptueel denkraam:
 
-  
-  
+
+. 
 
 ![denkraamSOR](media/denkraam_sor.png)
 
-  
+.
   
 
 Relaties tussen de verschillende soorten objecten in de SOR kunnen op twee manieren worden gelegd: 
@@ -74,11 +74,11 @@ Relaties tussen de verschillende soorten objecten in de SOR kunnen op twee manie
 - Een relatie kan ook gelegd worden op basis van geometrische eigenschappen van objecten. In dat geval worden relaties gelegd door ruimtelijk gerelateerde objecten geometrisch te combineren bij de het genereren van een informatieproduct op basis van de SOR of door een eindgebruiker zelf.
 Het conceptueel model zal, voor die onderdelen van het model waar sprake is van een expliciete samenhang tussen verschillende begrippen, een beschrijving geven van de relaties die er bestaan met andere begrippen. Hiermee ontstaat de mogelijkheid om objecten binnen de SOR aan elkaar te relateren of deze objecten te relateren aan objecten buiten de SOR. Een voorbeeld van een dergelijke vorm van expliciete relatering is in het conceptueel model opgenomen bij de verschillende gebouwconcepten. In onderstaand schema is daarvoor aangegeven hoe de verschillende begrippen globaal aan elkaar gerelateerd zijn.
 
-  
+.
 
 ![denkraamSOR_gebouw](media/gebouwmodel-2021-01.png)
 
-  
+
 
 ### Aansluiting sectormodellen
 
