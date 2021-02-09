@@ -171,7 +171,7 @@ Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89.
 
  **Aanbeveling:** 
 
- Controleer bij transformaties naar ETRS89-coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties.
+ Controleer bij transformaties naar ETRS89-coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties. 
  Hanteer hierbij de richtlijnen op https://www.nsgi.nl/geodetische-infrastructuur/producten/coordinatentransformatie.
 
 
