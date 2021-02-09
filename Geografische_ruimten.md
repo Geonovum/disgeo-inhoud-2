@@ -4,10 +4,9 @@
     De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
 </div>
 
-### Sociaal geografische gebieden
 
 
-#### Bebouwingskern
+### Bebouwingskern
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
@@ -61,7 +60,7 @@ Woonkernen, industriekernen, recreatiekernen, gehuchten en buurtschappen zijn in
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd.
 
 
-#### Streek
+### Streek
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
@@ -94,222 +93,56 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
 
 
-### Landschappelijke gebieden
-
-Geografische ruimte die een fysisch-geografische samenhang vertoont
-
-#### Duingebied
+### Landschappelijk gebied
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
+
 **Definitie**
 
-| Naam  | Duingebied  |
+| Naam  | Landschappelijk gebied  |
 |---|---|
-| Definitie |Verhoging of heuvel van zand of fijne losse aarde opgeworpen door wind. Duingebieden grenzen aan zeestranden en zijn al dan niet begroeid of bebouwd of bedekt door water of wegen|
+| Definitie |Geografische ruimte die een fysisch-geografische samenhang vertoont|
 |Herkomst definitie  | Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *duingebied* zoals deze is opgenomen in de basisregistratie topografie|
-|Toelichting| Het geografisch object Duingebied omvat uiteenlopende reële objecten water, begroeiing, verharding, constructies en bodem. Het geografisch object Duingebied is opgenomen, omdat deze voorziet in een specifieke informatiebehoefte.  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *geografische gebieden* zoals deze is opgenomen in de basisregistratie topografie|
+|Toelichting| Het landschappelijk gebied is al dan niet begroeid, bebouwd of bedekt door water of wegen.  |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van een duingebied|Ja |
-|Naam   |Plaatselijke naam van het duingebied zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
-|Alternatieve naam   | Alternatieve benaming van een duingebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van het duingebied|Ja (2D vlak)  |
-|Status   |Fase van delevenscyclus waarin het betreffende duingebied zich bevindt|Ja   |
-
-
+|Identificatie   |Unieke aanduiding van een landschappelijk gebied |Ja |
+|Naam   |Plaatselijke naam van het landschappelijk gebied zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
+|Alternatieve naam   | Alternatieve benaming van een landschappelijk gebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
+|Geometrie   |Geometrische representatie van het landschappelijk gebied|Ja (2D vlak)  |
+|Type | Aard van het landschappelijk gebied|Ja|
+|Status   |Fase van de levenscyclus waarin het betreffende landschappelijk gebied zich bevindt|Ja   |
 
 
 **Domeinwaarden**
+
+*Type*
+
+|Waarde type	|Beschrijving|
+|---|---|
+|Berg	|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
+|Bos	|Gebied dat overwegend met bos begroeid is|
+|Dal	|Langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten|
+|Duin	|Gebied bestaande uit verhogingen of heuvels van zand of fijne losse aarde opgeworpen door wind. Duingebieden grenzen aan zeestranden. |
+|Eiland	|Landoppervlak dat aan alle kanten omringd is door water|
+|Groeve	|Opengegraven gebied waaruit een delfstof gewonnen wordt|
+|Heide	|Gebied dat overwegend met heide begroeid is|
+|Polder	|Gebied dat door één of meerdere waterkeringen is omgeven en waarvan de waterstand kunstmatig geregeld kan worden|
+|Strand	|Onbegroeide zandige kustvlakte op de overgang van zee met land en welke onder invloed staat van het zeewater en de wind|
+|Water	|Gebied dat overwegend met water bedekt is|
+|Zandverstuiving	|Gebied met overwegend “levend” stuifzand, dus met zo weinig begroeiing dat het zand door de wind en het water verstoven wordt|
+
+
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd	
-
-
-	
-
-
-
-#### Watergebied
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
-
-**Definitie**
-
-| Naam  | Watergebied  |
-|---|---|
-| Definitie |Geografische ruimte die overwegend met water bedekt is|
-|Herkomst definitie  | Nieuw |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *watergebied* zoals deze is opgenomen in de basisregistratie topografie|
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een watergebied|Ja |
-|Naam   |Plaatselijke naam van het watergebied zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
-|Alternatieve naam   | Alternatieve benaming van een watergebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van het watergebied|Ja (2D vlak)  |
-|Status   |Fase van delevenscyclus waarin het betreffende watergebied zich bevindt|Ja   |
-
-
-
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd	
-
-
-#### Eiland
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
-
-**Definitie**
-
-| Naam  | Eiland  |
-|---|---|
-| Definitie | Geografische ruimte die omgeven is door water|
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *eiland* zoals deze is opgenomen in de basisregistratie topografie|
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een eiland|Ja |
-|Naam   |Plaatselijke naam van het eiland zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
-|Alternatieve naam   | Alternatieve benaming van een eiland zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van het eiland|Ja (2D vlak)  |
-|Status   |Fase van delevenscyclus waarin het betreffende eiland zich bevindt|Ja   |
-
-
-
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
-
-
-
-
-#### Polder
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
-
-**Definitie**
-
-| Naam  | Polder  |
-|---|---|
-| Definitie |Geografische ruimte die door waterscheidingen begrensd is of waarin de waterstand kan worden beheerst door bemaling|
-|Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Polder* zoals deze is opgenomen in de basisregistratie topografie|
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een polder|Ja |
-|Naam   |Plaatselijke naam van het polder zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
-|Alternatieve naam   | Alternatieve benaming van een polder zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
-|Geometrie   |Geometrische representatie van een polder|Ja (2D vlak)  |
-|Status   |Fase van delevenscyclus waarin de betreffende polder zich bevindt|Ja   |
-
-
-
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
-
-
-
-
-
-
-#### Strand
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
-
-**Definitie**
-
-| Naam  | Strand |
-|---|---|
-| Definitie | Geografische ruimte die een onbegroeide zandige kustvlakte op de overgang van zee met land is en onder invloed staat van het zeewater en de wind|
-|Herkomst definitie  | IMGeo 2.2|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *strand en strandwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   | Unieke aanduiding van strand|Ja |
-|Geometrie| Geometrische representatie van een strand|Ja (2D vlak)|
-|Status   | Fase van delevenscyclus waarin het betreffende strand zich bevindt|Ja   |
-
-
-
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
-
-
-
-
-
-#### Zandverstuiving
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
-
-**Definitie**
-
-| Naam  | Zandverstuiving |
-|---|---|
-| Definitie | Geografische ruimte die een zandige bodem is waarvan delen van het gebied zonder vegetatie zijn, door invloed van wind|
-|Herkomst definitie  | IMGeo 2.2|
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *zandverstuiving* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   | Unieke aanduiding van zandverstuiving|Ja |
-|Geometrie| Geometrische representatie van een zandverstuiving|Ja (2D vlak)|
-|Status   | Fase van delevenscyclus waarin de betreffende zandverstuiving zich bevindt|Ja   |
-
-
-
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van geografische ruimten zijn benoemd
-
 
 
 
