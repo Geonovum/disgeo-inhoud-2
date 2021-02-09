@@ -61,15 +61,24 @@ Als de registratieve- en geografische ruimten worden geplaatst binnen de NEN 361
 
 Daarnaast kunnen de verschillende begrippen in de SOR (deels geaggregeerd) ook worden geplaatst binnen het eerder opgestelde conceptueel denkraam. De indeling in de vier kleurgroepen (bebouwing, water, groen en verharding) is hierbij uitsluitend bedoeld als een praktisch hulpmiddel om de verschillende begrippen in de SOR snel te kunnen plaatsen en niet als een overzicht voor de ordening van begrippen in relatie tot NEN 3610.  Hierbij ontstaat de volgende geactualiseerde versie van het conceptueel denkraam:
 
+  
+  
+
 ![denkraamSOR](media/denkraam_sor.png)
 
+  
+  
+
 Relaties tussen de verschillende soorten objecten in de SOR kunnen op twee manieren worden gelegd: 
-•	Een relatie kan gelegd worden door expliciet te beschrijven dat een object zich op een bepaalde wijze verhoudt tot een ander object. Hierbij kan worden gedacht aan relaties als “ligt in” of “hoort bij”. Dit type relatie zal alleen worden gelegd tussen objecten die een logische samenhang hebben. Een voorbeeld hiervan is de relatie tussen een openbare ruimte en het wegennetwerk; op deze manier kan aangegeven worden wat de straatnaam is van een wegverbinding.
-•	Een relatie kan ook gelegd worden op basis van geometrische eigenschappen van objecten. In dat geval worden relaties gelegd door ruimtelijk gerelateerde objecten geometrisch te combineren bij de het genereren van een informatieproduct op basis van de SOR of door een eindgebruiker zelf.
+- Een relatie kan gelegd worden door expliciet te beschrijven dat een object zich op een bepaalde wijze verhoudt tot een ander object. Hierbij kan worden gedacht aan relaties als “ligt in” of “hoort bij”. Dit type relatie zal alleen worden gelegd tussen objecten die een logische samenhang hebben. Een voorbeeld hiervan is de relatie tussen een openbare ruimte en het wegennetwerk; op deze manier kan aangegeven worden wat de straatnaam is van een wegverbinding.
+- Een relatie kan ook gelegd worden op basis van geometrische eigenschappen van objecten. In dat geval worden relaties gelegd door ruimtelijk gerelateerde objecten geometrisch te combineren bij de het genereren van een informatieproduct op basis van de SOR of door een eindgebruiker zelf.
 Het conceptueel model zal, voor die onderdelen van het model waar sprake is van een expliciete samenhang tussen verschillende begrippen, een beschrijving geven van de relaties die er bestaan met andere begrippen. Hiermee ontstaat de mogelijkheid om objecten binnen de SOR aan elkaar te relateren of deze objecten te relateren aan objecten buiten de SOR. Een voorbeeld van een dergelijke vorm van expliciete relatering is in het conceptueel model opgenomen bij de verschillende gebouwconcepten. In onderstaand schema is daarvoor aangegeven hoe de verschillende begrippen globaal aan elkaar gerelateerd zijn.
+
+  
 
 ![denkraamSOR_gebouw](media/gebouwmodel-2021-01.png)
 
+  
 
 ### Aansluiting sectormodellen
 
@@ -81,7 +90,8 @@ Binnen deze domeinen worden naast algemene begrippen vaak tal van voor dat domei
 
 De grondgedachte is dat in de SOR objecten eenduidig worden afgebakend en geregistreerd die van belang zijn voor gebruik in andere registraties in verschillende overheidsdomeinen. Omdat dezelfde objecten die in de SOR worden geregistreerd ook worden gebruikt in deze andere registraties, vervult de SOR dus vooral een brugfunctie tussen de verschillende registraties waardoor het mogelijk wordt gegevens over een object integraal te kunnen gebruiken. De eigenschappen van deze in de SOR afgebakende objecten worden nadrukkelijk niet allemaal in de SOR opgenomen. Deze blijven voornamelijk geregistreerd worden in verschillende sectorregistraties en lokale registraties.
 
-In de informatiemodellen voor deze sectorregistraties zullen dus (gedeeltelijk) dezelfde objecttypen voorkomen die ook zijn opgenomen in de SOR. In het informatiemodel van de sectorregistratie is bij deze objecttypen dan ook uitsluitend vastgelegd wat er aanvullend op de reeds in de SOR opgenomen eigenschappen van deze objecten wordt vastgelegd. In de aan de gebruikers te leveren informatieproducten kunnen daarbij alle eigenschappen van een object worden getoond door het combineren van de gegevens uit zowel de SOR als de sectorregistratie (zie paragraaf 1.4).
+In de informatiemodellen voor deze sectorregistraties zullen dus (gedeeltelijk) dezelfde objecttypen voorkomen die ook zijn opgenomen in de SOR. In het informatiemodel van de sectorregistratie is bij deze objecttypen dan ook uitsluitend vastgelegd wat er aanvullend op de reeds in de SOR opgenomen eigenschappen van deze objecten wordt vastgelegd. In de aan de gebruikers te leveren informatieproducten kunnen daarbij alle eigenschappen van een object worden getoond door het combineren van de gegevens uit zowel de SOR als de sectorregistratie (zie paragraaf [Model van begrippen en informatieproducten](#model-van-begrippen-en-informatieproducten)).
+
 
 <aside class='example'>
  Bomen zullen (onder bepaalde nog uit te werken voorwaarden) in de SOR worden opgenomen. Hiervan zal in de SOR uitsluitend de ligging worden vastgelegd. Voor het beheren van de openbare ruimte is echter de vastlegging van meerdere gegevens gewenst. Deze zijn beschreven in IMBOR. Als vast te leggen eigenschappen zijn daarbij onder meer de boomgroep, de groeifase en de stamdiameter gedefinieerd. Deze aanvullend op de in de SOR opgenomen gegevens over een boom kunnen in een registratie voor groenbeheer worden vastgelegd. Daarbij wordt er dan in de groenregistratie een verwijzing aangebracht (door middel van een unieke identificatiecode) naar een in de SOR opgenomen boom. 
@@ -127,7 +137,7 @@ Bij de uitwerking van de verschillende SOR-begrippen of verzamelbegrippen wordt 
 
 In het tweede blok wordt het betreffende SOR-begrip of verzamelbegrip gedefinieerd. Hierbij wordt zoveel mogelijk aangesloten op bestaande definities. Soms moeten definities worden aangescherpt omdat deze onvoldoende onderscheidend zijn of omdat door de striktere scheiding tussen reële objecttypen en functionele objecttypen de definitie niet langer voldoet. De bron van de definitie wordt vermeld (voor zover deze beschikbaar is). Ook wordt zo nodig een toelichting gegeven en wordt indicatief beschreven hoe de objecten zich verhouden tot afbakeningen zoals deze momenteel in registraties zijn opgenomen. De opgenomen eerste indicatie van de mate waarin bepaalde SOR-begrippen verplicht in de registratie zullen worden vastgelegd, betreft een expert-inschatting. Hierover zal nog nadere besluitvorming moeten plaatsvinden.
 
-In het derde blokje wordt een overzicht gegeven van de verschillende eigenschappen die van een object zouden moeten worden vastgelegd. Een aantal eigenschappen keren bij alle beschreven SOR-begrippen terug (identificatie, geometrie en status). In hoofdstuk 3 is in algemene zin al ingegaan op deze eigenschappen. Voor verschillende SOR-begrippen is ook een voorstel opgenomen voor de vastlegging van andere eigenschappen.  De opgenomen eerste indicatie van de mate waarin bepaalde eigenschappen verplicht in de registratie zullen worden vastgelegd, betreft een expert-inschatting. Hierover zal nog nadere besluitvorming moeten plaatsvinden.
+In het derde blokje wordt een overzicht gegeven van de verschillende eigenschappen die van een object zouden moeten worden vastgelegd. Een aantal eigenschappen keren bij alle beschreven SOR-begrippen terug (identificatie, geometrie en status). In het hoofdstuk [Generieke onderwerpen](#generieke-onderwerpen) is in algemene zin al ingegaan op deze eigenschappen. Voor verschillende SOR-begrippen is ook een voorstel opgenomen voor de vastlegging van andere eigenschappen.  De opgenomen eerste indicatie van de mate waarin bepaalde eigenschappen verplicht in de registratie zullen worden vastgelegd, betreft een expert-inschatting. Hierover zal nog nadere besluitvorming moeten plaatsvinden.
 
 Bij sommige SOR-begrippen is een blokje “relaties met andere objecttypen” opgenomen. Daarin wordt beschreven als een SOR-begrip zich expliciet verhoudt tot een ander SOR-begrip. Hierbij kan worden gedacht aan relaties als “ligt in” of “hoort bij”. Deze relaties zullen in een volgende fase nog verder worden gedetailleerd. Als dit blokje niet is opgenomen, dan zijn er op dit moment geen expliciete relaties gedefinieerd.
 
