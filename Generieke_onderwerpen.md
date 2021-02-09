@@ -382,7 +382,7 @@ Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een ei
 
 ### Netwerken
 
-In de samenhangende objectenregistratie worden vier transportnetwerken onderscheiden: wegen, spoor, water en scheepvaart. Netwerken zijn een verdere uitwerking van de virtuele objecten transportvoorzieningen in het basismodel NEN3610. En zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
+In de samenhangende objectenregistratie worden twee transportnetwerken onderscheiden: wegen en spoor. Netwerken zijn een verdere uitwerking van de virtuele objecten transportvoorzieningen in het basismodel NEN3610. En zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
 
 De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerken los van elkaar te beschrijven.
 
@@ -392,7 +392,7 @@ De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze
 
 Een netwerk bestaat uit knopen en verbindingen. Een verbinding geeft de relatie aan tussen twee knopen. Een knoop is een keuzepunt. Bijvoorbeeld voor een weggebruiker. Een verbinding verbindt twee direct aanliggende keuzepunten. 
 
-Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding beschreven kan worden. Administratieve eigenschappen zoals een straatnaam worden vooral gebruikt voor locatiebepaling. Voor routering zijn eigenschappen die een voorwaarde beschrijven belangrijk om te bepalen hoe een route over het netwerk loopt. Voor wegen zijn bijvoorbeeld rijrichtingen en maximum snelheden dergelijke eigenschappen. Voor waternetwerken bijvoorbeeld een weerstandscoefficient van de bak waar het water door stroomt.
+Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding beschreven kan worden. Administratieve eigenschappen zoals een straatnaam worden vooral gebruikt voor locatiebepaling. Voor routering zijn eigenschappen die een voorwaarde beschrijven belangrijk om te bepalen hoe een route over het netwerk loopt. Voor wegen zijn bijvoorbeeld rijrichtingen en maximum snelheden dergelijke eigenschappen. 
 
 #### Een netwerk is gerelateerd aan de reële infrastructuur
 
@@ -402,10 +402,9 @@ Een netwerk heeft vanuit zichzelf geen geometrie, voor de beschrijving en positi
 
 Indien een geometrie wordt toegevoegd aan een knoop of verbinding dan ligt deze op het gerelateerde reële object.
 
-Waternetwerken zijn een uitzondering hierop. In een waternetwerk is het water niet de infrastructuur maar de voorziening waar het water in zit of doorheen stroomt. De geometrie van de bodem van een rivier wordt niet opgenomen in de SOR. Daarom worden voor waternetwerken een geometrie toegevoegd die niet verwijst naar de reële infrastructuur maar wel overeenkomt met het wateroppervlak.
 
 #### Detaillering waar nodig
-Een netwerk is te beschrijven in verschillende niveau’s van detail. Of detaillering nodig iss hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detail niveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals die gebruikt wordt voor kaarten.
+Een netwerk is te beschrijven in verschillende niveau’s van detail. Of detaillering nodig is hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detail niveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals die gebruikt wordt voor kaarten.
 
 Het detailniveau van een netwerk wordt bepaald door wat nodig is om het netwerk te kunnen beschrijven.
 Een wegennetwerk kent functioneel gezien drie niveau’s: een weg, een rijbaan en rijstrook niveau. Een eigenschap bepaalt het niveau van detail. Een straatnaam geldt voor de weg en daarmee ook voor de rijbanen en rijstroken die bij die weg behoren. Een busstrook wordt gedefinieerd op strook niveau en een busbaan op baan niveau. 
@@ -425,15 +424,11 @@ Indien een eigenschap meerdere waarden kan bevatten zonder dat er sprake is van 
 Een netwerk kent verschillende type relaties:
 Relaties die binnen het netwerk gelegd worden en relaties die met objecten gelegd worden die geen onderdeel zijn van het netwerk, maar wel van belang zijn voor het netwerk.
 
-Relaties die binnen het netwerk gelegd worden zijn onderdeel van het netwerk. Bijvoorbeeld een rijbaan die bestaat uit een aantal rijstroken of een vistrap die hoort bij de rivier (of ventweg en de bijbehorende hoofdrijbaan).
+Relaties die binnen het netwerk gelegd worden zijn onderdeel van het netwerk. Bijvoorbeeld een rijbaan die bestaat uit een aantal rijstroken of ventweg en de bijbehorende hoofdrijbaan.
 
 Er zijn objecten die van belang zijn voor het netwerk maar die niet worden opgenomen als onderdeel van het netwerk. Parkeervakken langs een verbindingen worden wel gerelateerd aan het netwerk omdat dan bekend is bij welke verbinding een parkeervak hoort, maar maken er geen onderdeel uit. Dat wil zeggen dat er geen knoop wordt geïntroduceerd op een parkeervak alsof het een doodlopende weg is.
 
-Binnen netwerk wordt onderscheidt gemaakt naar verbindingen tussen knopen en verbindingen waarover een voertuig/weggebruiker/water/trein zich kan verplaatsen en tussen (netwerk) objecten die een logische samenhang kennen. Deze laatste categorie wordt een hyperverbinding genoemd.
-
-Een voorbeeld van een hyperverbinding is de relatie tussen een vistrap en de rivier waar de vistrap bij hoort. Ook objecten die van belang zijn voor he netwerk worden gedefinieerd met een hyperverbinding.
-
-
+Binnen netwerk wordt onderscheid gemaakt naar verbindingen tussen knopen en verbindingen waarover een voertuig/weggebruiker/trein zich kan verplaatsen en tussen (netwerk) objecten die een logische samenhang kennen. Deze laatste categorie wordt een hyperverbinding genoemd.
 
 
 
