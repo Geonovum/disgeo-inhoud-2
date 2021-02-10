@@ -716,7 +716,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een gebouw|Ja |
 |Geometrie |Geometrische representatie van een gebouw   |Ja (3D)|
-|Typering|Doel waarvoor een gebouw gebruikt wordt|Ja|
+|Typering|Categorisering van een gebouw op basis van het constructief beoogde gebruik|Ja|
 |Aard|Fysieke verschijningsvorm van een gebouw  |Ja|
 |Oorspronkelijk bouwjaar | Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
@@ -737,11 +737,12 @@ Voorbeelden van gebouwen zijn flatgebouwen, kerkgebouwen, kastelen en watertoren
 
 *Aard*
 
-|Waarde Aard|	Beschrijving|
+|Waarde Aard|Beschrijving|
 |---|---|
-|Vrijstaand gebouw||	
-|Aangrenzende gelijksoortige gebouwen||	
-|Onderdeel heterogeen gebouwblok||
+|Vrijstaand	|Gebouw dat niet is verbonden met een ander gebouw|
+|Repeterend	|Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die als zodanig in één project zijn gerealiseerd|
+|Heterogeen	|Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die onafhankelijk van elkaar zijn gerealiseerd|
+
 
 *Status* 
 
@@ -818,7 +819,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Geometrie |Geometrische representatie van een ruimte   |Ja (2,5D)|
 |Bouwlaagnummer |Bouwlaag waarop een ruimte zich bevindt|Ja|
 |Oppervlakte| Gebruiksoppervlakte van een ruimte| Nee |
-|Typering|Doel waarvoor een ruimte gebruikt wordt| Ja|
+|Typering|Categorisering van een ruimte op basis van het constructief beoogde gebruik| Ja|
 |Status   |Fase van de levenscyclus waarin een ruimte zich bevindt   |Ja   |
 
 
@@ -980,7 +981,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een open bouwwerk|Ja |
 |Geometrie |Geometrische representatie van een open bouwwerk   |Ja (3D)|
-|typering| Soort open bouwwerk|
+|Typering| Soort open bouwwerk|Ja|
 |Status   |Fase van de levenscyclus waarin een  open bouwwerk zich bevindt   |Ja   |
 
 
