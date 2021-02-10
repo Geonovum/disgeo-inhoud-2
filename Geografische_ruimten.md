@@ -79,10 +79,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een streek|Ja |
-|Naam   |Plaatselijke naam van het streek zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
+|Naam   |Plaatselijke naam van een streek zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat|Ja   |
 |Alternatieve naam   | Alternatieve benaming van een streek zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
 |Geometrie   |Geometrische representatie van een streek|Ja (2D vlak)  |
-|Status   |Fase van de levenscyclus waarin de betreffende streek zich bevindt|Ja   |
+|Status   |Fase van de levenscyclus waarin een streek zich bevindt|Ja   |
 
 
 
@@ -165,9 +165,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een reliëf|Ja |
-|Geometrie   |Geometrische representatie van het gebied dat reliëf bekend is|Ja (2,5D punt,vlak)  |
+|Geometrie   |Geometrische representatie van het reliëf bekend is|Ja (2,5D punt,vlak)  |
 |Type |Hoofdkarakter van het reliëf|Nee |
-|Status   |Fase van delevenscyclus waarin het betreffende reliëf zich bevindt|Ja   |
+|Status   |Fase van de levenscyclus waarin een reliëf zich bevindt|Ja   |
 
 
 

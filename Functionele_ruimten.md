@@ -234,7 +234,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 |Identificatie   |De unieke aanduiding van een spoorwegknoop|Ja |
 |Geometrie |De geometrische representatie van een spoorwegknoop|Ja (punt)|
 |Type	|Aanduiding van het soort spoor|	Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende knoop zich bevindt|Ja   |
+|Status   |De fase van de levenscyclus waarin een spoorwegknoop zich bevindt|Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -251,7 +251,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 
 |Waarde type spoor| Beschrijving|
 |---|---|
-|Nationaal spoor	|Landelijk spoornetwerk waarmee (inter)nationaal vervoer van personen en goederen mogelijk is|
+|Nationaal spoor	|Landelijk spoornetwerk waarmee (inter-)nationaal vervoer van personen en goederen mogelijk is|
 |Lokaal spoor	|Gesloten spoornetwerk bedoeld voor en beperkt tot stedelijk/regionaal vervoer van personen|
 
 
@@ -283,7 +283,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 |Identificatie   |De unieke aanduiding van een spoorverbinding|Ja |
 |Geometrie |De geometrische representatie van een spoorverbinding|Ja (lijn)|
 |Type	|Aanduiding van het soort spoor|Ja|
-|Status   |De fase van de levenscyclus waarin de betreffende spoorverbinding zich bevindt|Ja   |
+|Status   |De fase van de levenscyclus waarin een spoorverbinding zich bevindt|Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -300,7 +300,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 
 |Waarde type spoor| Beschrijving|
 |---|---|
-|Nationaal spoor	|Landelijk spoornetwerk waarmee (inter)nationaal vervoer van personen en goederen mogelijk is|
+|Nationaal spoor	|Landelijk spoornetwerk waarmee (inter-)nationaal vervoer van personen en goederen mogelijk is|
 |Lokaal spoor	|Gesloten spoornetwerk bedoeld voor en beperkt tot stedelijk/regionaal vervoer van personen|
 
 
@@ -501,7 +501,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 |Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone|Ja (2D vlak)|
 |Type |Categorisering van de verschillende verkeerskundig functionele zones| Ja|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
-|Status   |De fase van de levenscyclus waarin de betreffende verkeerskundig functionele zone zich bevindt|Ja  |
+|Status   |De fase van de levenscyclus waarin een verkeerskundig functionele zone zich bevindt|Ja  |
 
 
 **Relaties met andere objecttypen** 
@@ -559,7 +559,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 |Geometrie |De geometrische representatie van de randen van een spoorzone|Ja (2D vlak) |
 |Type| Categorisering van verschillende soorten spoorzones|Ja|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
-|Status   |De fase van de levenscyclus waarin het betreffende spoorzone zich bevindt|Ja   |
+|Status   |De fase van de levenscyclus waarin een spoorzone zich bevindt|Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -610,7 +610,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte "
 |Identificatie   |De unieke aanduiding van Wegzone|Ja |
 |Geometrie |De geometrische representatie van de randen van een wegzone|Ja (2D vlak) |
 |Type | Categorisering van verschillende soorten wegzones| Ja|
-|Status   |De fase van de levenscyclus waarin het betreffende wegzone zich bevindt|Ja   |
+|Status   |De fase van de levenscyclus waarin een wegzone zich bevindt|Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -663,7 +663,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 |Geometrie |De geometrische representatie van de randen van een luchtvaartzone|Ja (2D vlak)|
 |Type| Categorisering van soort luchtvaartzone| Ja|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
-|Status   |De fase van de levenscyclus waarin het betreffende luchtvaartzone zich bevindt|Ja   |
+|Status   |De fase van de levenscyclus waarin een luchtvaartzone zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -680,7 +680,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 
 *Status*
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd.
+
 #### Begraafplaats
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
@@ -733,7 +734,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Geometrie |De geometrische representatie van recreatie|Ja (2D vlak)|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Type|Categorisering van de verschillende soorten recreatie|Ja| 
-|Status   |De fase van de levenscyclus waarin de betreffende recreatie zich bevindt|Ja   |
+|Status   |De fase van de levenscyclus waarin een recreatie zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -812,7 +813,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Geometrie|De geometrische representatie van de randen van een complex|ja (2D vlak)|
 |Type complex|Categorisering van de verschillende complexen|ja|
 |Naam|Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
-|Status   | De fase van de levenscyclus waarin de betreffende complex zich bevindt|Ja   |
+|Status   | De fase van de levenscyclus waarin een complex zich bevindt|Ja   |
 
 
 
