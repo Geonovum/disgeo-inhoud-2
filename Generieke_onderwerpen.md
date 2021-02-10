@@ -185,19 +185,51 @@ Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een g
 0.0015 -> 0.002; 0.0014 -> 0.001.
 
 
-#### 3D
+#### 2D, 2,5D en 3D geometrie
+
+De SOR zal structureel hoogte informatie zal gaan bevatten. Aanduidingen die daarvoor worden gebruikt zijn 2,5D en 3D. Het verschil tussen beiden kan worden geïllustreerd aan de hand van de volgende twee plaatjes:
+
+![terreinmodel](terreinmodel.png)
+
+.
+
+![3D volume model](levels-of-detail.png)
 
 
-Ontwerpprincipe: 
+Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. 
+
+Volumes kunnen open of gesloten zijn. 
+Open volumes representeren volumes met open ruimtes waar doorheen te bewegen is. Bijvoorbeeld de ruimte in een tunnel waar het verkeer zich doorheen kan bewegen. 
+Gesloten volumes representeren reële (m.a.w. reële ) objecten waar niet doorheen te bewegen is. 
+
+Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
+
+
+2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen. Dit wordt veel gebruikt om de “golvende” vorm van het aardoppervlak vast te leggen.
+3D geometrie omvat een nog uitgebreidere benadering door objecten met volumes vast te leggen. Die hebben behalve zijkanten ook boven- en onderkanten. Voor de hand liggende toepassingen zijn bij constructies, zoals bijvoorbeeld gebouwen. In een 2,5D toepassing zijn geen volumes toegestaan. Bij een 3D toepassing geldt deze beperking niet.
+
+
+Ontwerpprincipes:
+
+**Geometrie is een representatie van een object**
+
+Een object kan worden geregistreerd met of zonder geometrie. Geometrie representeert de locatie van een object en is daarmee een eigenschap van een object. 
+
+
+**Een object kan nul of meer geometrische representaties hebben.**
+
+Er zijn binnen de SOR enkele objecttypen, zoals bijv. nummeraanduiding, die geen geometrische representatie hebben.
+
+Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. 
 
 **De SOR werkt voor alle reële objecten met een 3D dan wel 2,5D geometrische representatie. Voor sommige functionele ruimten is ook een 2,5d geometrie vereist** 
 
 Van vrijwel elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie. Voor sommige reële objecttypen is dit een 3D geometrie voor veel andere reële objecttypen volstaat een 2,5D geometrie. Voor sommige functionele objecttypen is ook een 2,5D geometrie vereist.
 
+
 *reële objecten*
 
 De 3D geometrie is voorgeschreven voor : 
-
 - gebouwen
 - ondertunnelingen
 - overbruggingen
@@ -218,12 +250,28 @@ Voor geografische ruimten is 2D geometrie voorgeschreven
 Voor registratieve ruimten is 2D geometrie voorgeschreven
 
 
-Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
+
+#### Aboslute en relatieve hoogten
+
+**De SOR hanteert absolute en relatieve hoogten**
+
+Absolute hoogten zijn z-coördinaten uitgedrukt t.o.v. NAP en worden gebruikt voor geo-gerefereerde geometrieën. Elk ingewonnen punt in een geometrie heeft zijn eigen z-coördinaat.
+
+Relatieve hoogten zijn gehele getallen die de hoogten van gehele objecten ten opzichte van elkaar uitdrukken.
+
+*Referentielaag*
+
+Met de relatieve hoogte waarde “nul” wordt een referentielaag bedoeld waarin veruit de meeste objectgeometrieën voorkomen. Dit kan het maaiveld zijn, maar daarbij moet duidelijk gespecificeerd zijn wat het maaiveld is. In de praktijk blijken er vanuit verschillende perspectieven andere behoeften zijn voor wat betreft maaiveld. Andere benaderingen zijn ook mogelijk, zoals bijv. een bovenaanzicht. Voor de SOR moet één benadering worden gekozen.
+
+**De reële objecttypen in de SOR bedekken met hun geometrie in de referentielaag het volledige gebied**
+
+Er zal op een locatie in de werkelijkheid altijd bodem, water, begroeiing of constructies aanwezig zijn. Derhalve kan er uit de geometrische representaties een volledig dekkend topografisch kaartbeeld als inforamtieproduct worden opgebouwd.
 
 
-<div class='note'>
-    Hier komt nog een stukje tekst over levels of detail
-</div>
+
+
+
+
 
 
 #### Geometrie-type
