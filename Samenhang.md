@@ -44,7 +44,7 @@ In het hoofdlijnenrapport inhoud samenhangende objectenregistratie (https://docs
 
 Hierbij zijn de verschillende begrippen die binnen de samenhangende objectenregistratie zullen worden onderscheiden geordend naar de verschillende semantische hoofdklassen in NEN 3610. Deze begrippen zijn in de hierna volgende hoofdstukken verder uitgewerkt. Het gaat daarbij om een aanzienlijk aantal begrippen, waarvan een aantal ten behoeve van de overzichtelijkheid zijn samengevoegd onder een verzamelbegrip (zie verder paragraaf [Beschrijving SOR-begrippen](#beschrijving-sor-begrippen) ). De plaatsing van de verschillende begrippen binnen het conceptueel model leidt dan tot de volgende overzichtsplaten voor de begrippen die vallen onder respectievelijk de NEN 3610 hoofdklassen reële objecten, functionele ruimten en registratieve- en geografische ruimten.
 
-Als de reële objecten uit de SOR worden geplaatst binnen de hoofdklasse “reëel object” in NEN 3610, dan leidt dit tot het volgende resultaat :
+Als de reële objecten uit de SOR worden geplaatst binnen de hoofdklasse “reëel object” in NEN 3610, dan leidt dit tot het volgende resultaat:
 
 ![SOR-reele objecten](media/SOR_reele_objecten.png)
 

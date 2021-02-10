@@ -343,7 +343,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Herkomst definitie  |  BGT 1.2 |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen *struiken*  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Het reëele object Struiken omvat alle begroeiing die niet valt onder de overige reëele objecten onder Begroeiing| 
+|Toelichting| Dit omvat alle begroeiing die niet valt onder de overige reële objecten onder Begroeiing| 
 
 **Eigenschappen**
 
@@ -432,7 +432,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 | laagstam boomgaarden |Terreindeel begroeid met laagstamfruitbomen|
 | hoogstam boomgaarden |Terreindeel begroeid met hoogstamfruitbomen|
 | wijngaarden|Terreindeel begroeid met druivenstokken voor wijnbouw|
-| klein fruit |Terreindeel begroeid met heesters voor zachtfruit zoals bessen of frambozen|
+| klein fruit |Terreindeel begroeid met heesters voor zacht fruit zoals bessen of frambozen|
 | boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is|
 
 *Status* 
@@ -1092,17 +1092,17 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid|
 | viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoeld voor verkeer|
 | ecoduct |Overbruggingsconstructie over een weg of spoorweg,  bedoeld voor het passeren van dieren|
-| flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.*bestaande definitie niet consistent*   |
-| overkluizing |Civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelft, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
+| flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid |
+| overkluizing |Civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelfd, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
 
 *Type beperking*
 
 |Waarde Beperking| Beschrijving   |
 |---|---|
-| doorrijhoogte | Maximale doorrijhoogte tussen het wegdek en de constructie boven het wegdek geldend op een weg, rijbaan of rijstrook (afhankelijk van de type verbinding)|
-| doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van de type verbinding)|
+| doorrijhoogte | Maximale doorrijhoogte tussen het wegdek en de constructie boven het wegdek geldend op een weg, rijbaan of rijstrook (afhankelijk van het type verbinding)|
+| doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van het type verbinding)|
 | toegestane massa|Toegestane massa op een kunstwerk/verharding|
-| toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van de type verbinding)|
+| toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van het type verbinding)|
 | doorvaarhoogte |Hoogte die beschikbaar is tussen water en de constructies welke boven het water aanwezig zijn|
 
 
@@ -1207,10 +1207,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Waarde Beperking| Beschrijving   |
 |---|---|
-| doorrijhoogte | Maximale doorrijhoogte tussen het wegdek en de constructie boven het wegdek geldend op een weg, rijbaan of rijstrook (afhankelijk van de type verbinding)|
-| doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van de type verbinding)|
+| doorrijhoogte | Maximale doorrijhoogte tussen het wegdek en de constructie boven het wegdek geldend op een weg, rijbaan of rijstrook (afhankelijk van het type verbinding)|
+| doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van het type verbinding)|
 | toegestane massa|Toegestane massa op een kunstwerk/verharding|
-| toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van de type verbinding)|
+| toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van het type verbinding)|
 
 *Status* 
 
@@ -1283,7 +1283,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 | Naam  | Overige kunstwerken  |
 |---|---|
-| Definitie | Kunstwerk dat een civiel-technisch werk betreft voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen|
+| Definitie | Kunstwerk dat een civieltechnisch werk betreft voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen|
 |Herkomst definitie  | NEN3610 |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -1578,7 +1578,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Geleider  |
 |---|---|
-| Definitie | Constructie bedoeld voor de fysieke (be)geleiding van voer- of vaartuigen|
+| Definitie | Constructie bedoeld voor de fysieke (be-)geleiding van voer- of vaartuigen|
 |Herkomst definitie  | nieuw    |
 |Verplicht  | Nee  |
 |Gevolgen afbakening  | Het betreft hier een samenvoeging van een subset van de bestaande populaties *waterinrichtingselementen* en *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|

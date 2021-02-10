@@ -177,7 +177,7 @@ Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89.
 
 #### Coördinaten
 
-Coordinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD en NAP  komt dat overeen met de volgende nauwkeurigheden:
+Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD en NAP  komt dat overeen met de volgende nauwkeurigheden:
 
 - RD in meters 3 decimalen (1 mm);
 - NAP-hoogte in meters 3 decimalen (1 mm);
@@ -206,12 +206,12 @@ Voor overige reële objecten is 2,5D geometrie voorgeschreven
 
 *functionele ruimten* 
 
-Voor verblijfsobjecten en gebouwzones is 2,5D geometrie voorgescheven
+Voor verblijfsobjecten en gebouwzones is 2,5D geometrie voorgescheven.
 Voor overige functionele ruimten is 2D geometrie voorgeschreven
 
-*geografsiche ruimten* 
+*geografische ruimten* 
 
-Voor geografsiche ruimten is 2D geometrie voorgeschreven
+Voor geografische ruimten is 2D geometrie voorgeschreven
 
 *registratieve ruimten* 
 
@@ -256,7 +256,7 @@ Voor ISO19125 zie: https://www.iso.org/standard/40114.html
 
     Ontwerpprincipe: 
 
-    **In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale nederlandse grondgebied hoeft te bedekken**
+    **In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale Nederlandse grondgebied hoeft te bedekken**
 
     - Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
 </div>
@@ -300,14 +300,7 @@ Let op: als iets in de werkelijkheid zowel een reel voorkomen heeft als een func
 
 Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste geometrische/cartografische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. Bv. objecttype Streek (nauwkeurigheid meter tot hectometer) heeft een heel ander detailniveau dan objecttype Weg of Gebouw (nauwkeurigheid centimeter tot decimeter).
 
-<div class='note'>
-    voor redactie:
-    
-    verwijzing hieronder opnemen naar nog te schrijven uitleg over informatieproducten eerder in het document
-</div>
-
-
-Uit de grootschalige SOR worden [informatieproducten](#paragraaf) samengesteld op kleinere schalen, van schaal 1 op 10.000 tot 1 op 1.000.000. Dit zijn cartografische informatieproducten (data of visualisatie). Deze informatieproducten worden geautomatiseerd met een landelijk uniform proces samengesteld (automatische generalisatie).
+Uit de grootschalige SOR worden [informatieproducten](#model-van-begrippen-en-informatieproducten) samengesteld op kleinere schalen, van schaal 1 op 10.000 tot 1 op 1.000.000. Dit zijn cartografische informatieproducten (data of visualisatie). Deze informatieproducten worden geautomatiseerd met een landelijk uniform proces samengesteld (automatische generalisatie).
 
 In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd. 
 Hierbij worden de volgende begrippen gehanteerd:
@@ -318,7 +311,7 @@ Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt
 
 **generaliseren (van data of voor visualisatie)**
 
- Dit betreft de geometrie van objecten (of op attribuutniveau)  zinvol weglaten, vereenvoudigen, verplaatsen,vergroten, symboliseren en/of aggregeren 
+ Dit betreft de geometrie van objecten (of op attribuutniveau)  zinvol weglaten, vereenvoudigen, verplaatsen, vergroten, symboliseren en/of aggregeren 
 
 **aggregeren**
 
@@ -330,8 +323,8 @@ Dit betreft het zinvol samenvoegen van objecten tot een nieuw object (zowel op d
 Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen. Hooguit voor aanpassen van visualisatie, symbolen en voor een eenmalige actie waarbij de identificatie niet nodig is. 
 Daarom:
 1.	Is er geen noodzaak voor gegeneraliseerde data-objecttypen  
-2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties, dwz. dat bv. aggregatie relaties eenmalig zijn en niet worden bewaard.
-3.	Is er geen noodzaak voor unieke universele persistente identificatie van gegeneraliseerde objecten, er wordt geen id bewaard. 
+2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties, dat wil zeggen dat bijvoorbeeld aggregatie-relaties eenmalig zijn en niet worden bewaard.
+3.	Is er geen noodzaak voor unieke universele persistente identificatie van gegeneraliseerde objecten, er wordt geen identificatie bewaard. 
 
 
 Ontwerpprincipe:
@@ -407,10 +400,10 @@ Indien een geometrie wordt toegevoegd aan een knoop of verbinding dan ligt deze 
 
 
 #### Detaillering waar nodig
-Een netwerk is te beschrijven in verschillende niveau’s van detail. Of detaillering nodig is hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detail niveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals die gebruikt wordt voor kaarten.
+Een netwerk is te beschrijven in verschillende niveaus van detail. Of detaillering nodig is hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detail niveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals die gebruikt wordt voor kaarten.
 
 Het detailniveau van een netwerk wordt bepaald door wat nodig is om het netwerk te kunnen beschrijven.
-Een wegennetwerk kent functioneel gezien drie niveau’s: een weg, een rijbaan en rijstrook niveau. Een eigenschap bepaalt het niveau van detail. Een straatnaam geldt voor de weg en daarmee ook voor de rijbanen en rijstroken die bij die weg behoren. Een busstrook wordt gedefinieerd op strook niveau en een busbaan op baan niveau. 
+Een wegennetwerk kent functioneel gezien drie niveaus: een weg, een rijbaan en rijstrook niveau. Een eigenschap bepaalt het niveau van detail. Een straatnaam geldt voor de weg en daarmee ook voor de rijbanen en rijstroken die bij die weg behoren. Een busstrook wordt gedefinieerd op strook niveau en een busbaan op baan niveau. 
 
 #### Eigenschappen van knopen en verbindingen
 
@@ -419,7 +412,7 @@ Ontwerpprincipe:
 **Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
 
 Eigenschappen kunnen meerdere malen van waarde veranderen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor een kruising wordt teruggebracht naar 50 km/h. Als er geen dwingende reden is om de structuur van het netwerk te verstoren door een verbinding op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing. Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap van het kenmerk aangegeven door de afkorting LR.
-Indien een eigenschap meerdere waarden kan bevatten zonder dat er sprake is van een afhankelijkheid van een locatie, dan wordt dit bij het eigenschap aangegeven door de afkorting MV (meervoudig). Bijvoorbeeld als er meerdere soorten modaliteiten zijn toegestaan op een verbinding of knoop.
+Indien een eigenschap meerdere waarden kan bevatten zonder dat er sprake is van een afhankelijkheid van een locatie, dan wordt dit bij de eigenschap aangegeven door de afkorting MV (meervoudig). Bijvoorbeeld als er meerdere soorten modaliteiten zijn toegestaan op een verbinding of knoop.
 
 #### Relaties bij netwerken
 
@@ -570,10 +563,10 @@ Een Plaatsbepalingspunt is een punt dat is ingemeten en vervolgens gebruikt is b
 Voor plaatsbepalingspunten geldt:
 - Alleen van reële objecten worden plaatsbepalingspunten vastgelegd. 
 - dat ze alleen worden opgenomen van coördinaten die daadwerkelijk ingewonnen zijn middels terreinbezoek (terrestrisch), laserscanning (laser), luchtfoto’s of panoramabeelden.  
-- dat ze alleen woden opgenomen voor reële objecten waarvan de grens in het terrein goed is aan te wijzen (ofwel goed idealiseerbaar). Bij niet-goed idealiseerbaar objecten is de ‘startwaarde’ van de nauwkeurigheid namelijk al dusdanig hoog dat het geen zin heeft om hier de onnauwkeurigheid van meting. Uitgangspunt is dat bronhouder deze gegevens binnen een bepaalde nauwkeurigheid inwint.
+- dat ze alleen worden opgenomen voor reële objecten waarvan de grens in het terrein goed is aan te wijzen (ofwel goed idealiseerbaar). Bij niet-goed idealiseerbaar objecten is de ‘startwaarde’ van de nauwkeurigheid namelijk al dusdanig hoog dat het geen zin heeft om hier de onnauwkeurigheid van meting. Uitgangspunt is dat bronhouder deze gegevens binnen een bepaalde nauwkeurigheid inwint.
 - Coördinaten die zijn gegenereerd/afgeleid bijvoorbeeld bij het ‘verstroken’ van een cirkelboog hebben geen plaatsbepalingspunten.
 - Van de toekomstige geometrie (planinformatie) worden geen plaatsbepalingspunten vastgelegd.
-- Functionele, registratieve en geoegrafische ruimten hebben geen plaatsbepalingspunten. 
+- Functionele, registratieve en geografische ruimten hebben geen plaatsbepalingspunten. 
 
 
 In de SOR worden 
@@ -588,7 +581,7 @@ In de SOR worden
 
 2.	Meta-gegevens over kwaliteit en herkomst worden expliciet gekoppeld  aan de basisgegevens. De aanbeveling is om op te nemen bij
 
-- reële objecten:  de (relatie met ) plaatsbepalingspunten , zodat kenbaar is wat de kwaliteit en herkomst is van individuele punten in de geometrie. 
+- reële objecten:  de (relatie met) plaatsbepalingspunten , zodat kenbaar is wat de kwaliteit en herkomst is van individuele punten in de geometrie. 
 - bij registratieve ruimten de unieke aanduiding van het brondocument 
 - bij geografische ruimten een unieke aanduiding van een nader te bepalen bronverwijzing
 - bij functionele ruimten een unieke aanduiding van een nader te bepalen bronverwijzing
@@ -654,7 +647,7 @@ De tijdlijn registratie geldt hierbij als aanvulling op de tijdlijn geldigheid. 
 
 De tijdlijn registratie gebruikt uitsluitend het attribuut tijdstipRegistratie. Immers het gaat om het vastleggen van het moment (timestamp van de computer) waarop het betreffende attribuut is geregistreerd, zodat deze beschikbaar kwam voor gebruik. Het in de praktijk ook gebruikte attribuut eindeRegistratie wordt in dit semantisch model niet gebruikt. De beoogde computer timestamp betreft het moment van registratie, waarbij het gegeven beschikbaar komt voor de afnemers.
 
-Deze keuze betekent een wijziging in de wijze van vastlegging van tijdlijnen voor de basisregistraties imet hoofdzakelijk geometrie (BGT en BRT), Maar deze keuze is noodzakelijk om een eenduidig historiemodel te kunnen hanteren binnen de gehele samenhangende objectenregistratie. Door de wijze waarop de tijdlijn geldigheid wordt toegepast zal deze omschakeling niet veel consequenties hebben. Bijvoorbeeld geometrie die volledig wordt ontleend aan een opname (bijvoorbeeld luchtfoto) zal als beginGeldigheid (tijdlijn geldigheid) de datum van de luchtfoto krijgen, omdat de feitelijke ingangsdatum niet nauwkeuriger kan worden ingeschat. Wanneer de uit dezelfde foto gemeten geometrie echter betrekking heeft op de contouren van een gebouw, dan zal de beginGeldigheid van de geometrie gelijk zijn aan de beginGeldigheid van de overige attributen van dat gebouw "bij ingebruikname". 
+Deze keuze betekent een wijziging in de wijze van vastlegging van tijdlijnen voor de basisregistraties met hoofdzakelijk geometrie (BGT en BRT), Maar deze keuze is noodzakelijk om een eenduidig historiemodel te kunnen hanteren binnen de gehele samenhangende objectenregistratie. Door de wijze waarop de tijdlijn geldigheid wordt toegepast zal deze omschakeling niet veel consequenties hebben. Bijvoorbeeld geometrie die volledig wordt ontleend aan een opname (bijvoorbeeld luchtfoto) zal als beginGeldigheid (tijdlijn geldigheid) de datum van de luchtfoto krijgen, omdat de feitelijke ingangsdatum niet nauwkeuriger kan worden ingeschat. Wanneer de uit dezelfde foto gemeten geometrie echter betrekking heeft op de contouren van een gebouw, dan zal de beginGeldigheid van de geometrie gelijk zijn aan de beginGeldigheid van de overige attributen van dat gebouw "bij ingebruikname". 
 
 #### Toekomstmutaties
 BeginGeldigheid en ook eindGeldigheid kunnen in de toekomst liggen. Hiervoor gelden geen formele beperkingen. Natuurlijk is van de aard van de gebeurtenis afhankelijk of inderdaad een toekomstmutatie voorzien kan worden en met welke nauwkeurigheid deze voorzien kan worden. Wanneer iemand een bouwvergunning krijgt, kan voorzien worden dat dit object in de toekomst ook gerealiseerd zal worden. De datum vanaf wanneer daadwerkelijk sprake zal zijn van een "bestaand object" kan echter niet exact voorzien worden. Een inschatting van deze datum zal de basis vormen voor de tijdlijn geldigheid in de toekomst. Een besluit om met ingang van een bepaalde datum een straatnaam te wijzigen kan wel met een exacte in de toekomst gelegen datum worden geregistreerd. Wij gaan ervan uit dat er adequate voorzieningen worden gerealiseerd die bronhouders ondersteunen om te voorkomen dat voorziene wijzigingen in de toekomst ineens als de bestaande realiteit worden gezien, uitsluitend door verloop van de tijd.
@@ -663,7 +656,7 @@ Deze voorziening kan bijvoorbeeld bestaan uit een overzicht van de wijzigingen d
 Bij de registratie zijn toekomstmutaties mogelijk. Maar het registreren van toekomstmutaties is niet "de regel". Veel mutaties in de SOR worden aangebracht op basis van "constateringen" en deze worden dan dus vastgelegd met een beginGeldigheid in het verleden, bijvoorbeeld de datum van de luchtfoto waaraan de constatering wordt ontleend.
 
 #### Levensduur
-Hoewel het vastleggen van de levensduur van een object (ingangsdatumObject en einddatumObject) redundant is, omdat deze levensduur altijd afgeleid kan worden uit de tijdlijn geldigheid, wordt in het historiemodel er vanuit gegaan dat de levensduur afzonderlijk wordt geregistreerd. De ingangsdatumObject zal gelijk zijn aan de oudste beginGeldigheid voor een status "bestaand/geldig" van het betreffende object. Een gebruiker kan deze ingangsdatumObject eventueel zelf afleiden uit de tijdlijn geldigheid, maar er wordt voor gekozen om, parallel aan de registratie van geboortedatum en overlijdensdatum bij personen, de ingangsdatumObject en einddatumObject wel afzonderlijk in de registratie (of in ieder geval in de informatieproducten) op te nemen.
+Hoewel het vastleggen van de levensduur van een object (ingangsdatumObject en einddatumObject) redundant is, omdat deze levensduur altijd afgeleid kan worden uit de tijdlijn geldigheid, wordt in het historiemodel ervan uit gegaan dat de levensduur afzonderlijk wordt geregistreerd. De ingangsdatumObject zal gelijk zijn aan de oudste beginGeldigheid voor een status "bestaand/geldig" van het betreffende object. Een gebruiker kan deze ingangsdatumObject eventueel zelf afleiden uit de tijdlijn geldigheid, maar er wordt voor gekozen om, parallel aan de registratie van geboortedatum en overlijdensdatum bij personen, de ingangsdatumObject en einddatumObject wel afzonderlijk in de registratie (of in ieder geval in de informatieproducten) op te nemen.
 
 Gezien deze definitie van ingangsdatumObject kan een object dus al geregistreerd worden (tijdstipRegistratie) vóór deze ingangsdatumObject. Deze registratie van het object heeft in die periode dus betrekking op een status die overeenkomst met een "ontwerp/planfase" (zie hierna de paragraaf over Levensfasen).
 
@@ -738,7 +731,7 @@ De statussen “in aanbouw”, “bestaand” en “gesloopt” zijn de statusse
 |Ingetrokken	|Object dat door het bevoegd gezag is ingetrokken op grond van wet- of regelgeving|
 |Afgevoerd	|Object dat ten onrechte is opgevoerd in de registratie of waarvan de voorbereiding niet heeft geleid tot vaststelling|
 
-Toelichting : De statussen “vastgesteld” en “ingetrokken” zijn de statussen die behoren bij de formele levenscyclus van dit object. De statussen “ontwerp” en “afgevoerd” zijn toegevoegd om het registratieproces te ondersteunen.
+Toelichting: De statussen “vastgesteld” en “ingetrokken” zijn de statussen die behoren bij de formele levenscyclus van dit object. De statussen “ontwerp” en “afgevoerd” zijn toegevoegd om het registratieproces te ondersteunen.
 
 *Geografische ruimten*
 
@@ -747,7 +740,7 @@ Toelichting : De statussen “vastgesteld” en “ingetrokken” zijn de status
 |Ontwerp	|Object waarvan de vorming wordt voorbereid|
 |Bestaand	|Object dat als zodanig wordt onderscheiden|
 |Opgeheven	|Object dat niet langer als zodanig wordt aangemerkt|
-|Afgevoerd	|Object dat ten onrechte is opgevoerd in de registratie of waarvan de voorbereiding niet heeft geleid tot een in de registartie te onderscheiden object|
+|Afgevoerd	|Object dat ten onrechte is opgevoerd in de registratie of waarvan de voorbereiding niet heeft geleid tot een in de registratie te onderscheiden object|
 
 
 De levensfase van een object wordt in de registratie vastgelegd als de eigenschap “status” van het object.
