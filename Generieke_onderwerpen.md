@@ -169,11 +169,14 @@ Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89.
  coördinaatsysteem de stereografische projectie. Als verticale datum wordt
  het NAP-vlak gebruikt. RDNAPTRANS™ is de officiële en nauwkeurige transformatie tussen het coördinatensysteem van de Rijksdriehoeksmeting (RD) en het Normaal Amsterdams Peil (NAP) enerzijds en het European Terrestrial Reference System 1989 (ETRS89) anderzijds. 
 
+
+
+<div class='note'>
  **Aanbeveling:** 
 
  Controleer bij transformaties naar ETRS89-coördinaten of de gebruikte software de correcte transformatieprocedure heeft geïmplementeerd. In veel GIS software zijn oudere RDNAPTRANS™ procedures (ouder dan de 2018-versie) vaak niet correct geïmplementeerd, wat kan leiden tot onnauwkeurige transformaties. 
  Hanteer hierbij de richtlijnen op https://www.nsgi.nl/geodetische-infrastructuur/producten/coordinatentransformatie.
-
+</div>
 
 #### Coördinaten
 
