@@ -598,9 +598,10 @@ In de SOR worden
     
 Geometrie en topologie
 
-Alle objecten hebben een geometrische representatie. De nauwkeurigheid/kwaliteit van de geometrie wordt voor goed-idealiseerbare reële objecten beschreven middels plaatsbepalingspunten en voor niet-goed idealiseerbare objecten middels één meta-object voor de kwaliteit/herkomst. Voorwaarde is dat plaatsbepalingspunten samenvallen met de coördinaten in de objectgeometrie (zie paragraaf [Topologie](#topologie).
+Alle objecten hebben een geometrische representatie. De nauwkeurigheid/kwaliteit van de geometrie wordt voor goed-idealiseerbare reële objecten beschreven middels plaatsbepalingspunten en voor niet-goed idealiseerbare objecten middels één meta-object voor de kwaliteit/herkomst. Voorwaarde is dat plaatsbepalingspunten samenvallen met de coördinaten in de objectgeometrie (zie paragraaf [Topologie](#topologie)).
 
-<div class='note'>
+<aside class='example'>
+
     Casus: Van een gebouw wordt een 3D geometrische representatie gerealiseerd.
 
     Aanname: bij een gebouw is het mogelijk om zowel geometrie voor grondvlak, bovenaanzicht en 3D op te nemen (dus 3 attribuutvelden voor geometrie).
@@ -610,7 +611,7 @@ Alle objecten hebben een geometrische representatie. De nauwkeurigheid/kwaliteit
 
     2)	Via laseraltimetrie: 3D Een gebouw wordt met laseraltimetrie ingewonnen. 
     Alle geometrie-attributen hebben PBP’s met inwinningsmethode laseraltimetrie. Ontbrekende/geconstrueerde hoekpunten (bijvoorbeeld door ontbreken van een punt als gevolg van een luifel o.i.d.) hebben geen PBP’s.
-</div>
+</aside>
 
 #### Verdere aandachtspunten meta-informatie
 
