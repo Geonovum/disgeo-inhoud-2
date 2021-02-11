@@ -178,7 +178,8 @@ Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89.
  Hanteer hierbij de richtlijnen op https://www.nsgi.nl/geodetische-infrastructuur/producten/coordinatentransformatie.
 </div>
 
-#### Coördinaten
+
+**Coördinaten**
 
 Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD en NAP  komt dat overeen met de volgende nauwkeurigheden:
 
@@ -196,7 +197,7 @@ De SOR zal structureel hoogte informatie zal gaan bevatten. Aanduidingen die daa
 
 .
 
-![3D volume model](levels-of-detail.png)
+![3D volume model](levels_of_detail.png)
 
 
 Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. 

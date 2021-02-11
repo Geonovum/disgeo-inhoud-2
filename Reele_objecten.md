@@ -32,7 +32,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Identificatie   |Unieke aanduiding van een watervlakte|Ja |
 |Geometrie|Geometrische representatie van een watervlakte|Ja (2,5D vlak)|
 |Type watervlakte|Aanduiding van het soort watervlakte|Nee|
-|Status   | Fase van de levenscyclus waarin de watervlakte zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een watervlakte zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -80,7 +80,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Geometrie|Geometrische representatie van een waterloop|Ja (2,5D vlak)|
 |Type waterloop|Aanduiding van het soort waterloop|Nee|
 |Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
-|Status   |  Fase van de levenscyclus waarin de waterloop zich bevindt|Ja   |
+|Status   |  Fase van de levenscyclus waarin een waterloop zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -124,7 +124,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een bron|Ja |
 |Geometrie|Geometrische representatie van een bron|Ja (2,5D vlak)|
-|Status   | Fase van de levenscyclus waarin de bron zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een bron zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
 
@@ -163,7 +163,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Identificatie   |Unieke aanduiding van een getijdengebied|Ja |
 |Geometrie|Geometrische representatie van een getijdengebied|Ja (2,5D vlak)|
 |Type getijdengebied|Aanduiding van het soort getijdengebied|Nee|
-|Status   | Fase van de levenscyclus waarin het getijdengebied zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een getijdengebied zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -182,79 +182,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-### Bodem
-
-
-#### Onbegroeide grond
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Bodem"
-
-
-**Definitie**
-
-| Naam  | Onbegroeide grond |
-|---|---|
-| Definitie |Terrein waar onbegroeide grond zichtbaar is|
-| Herkomst definitie  | Gebaseerd op definitie van bodem in concept NEN3610 2020|
-| Verplicht  | Ja  |
-| Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen  type *onverhard* van wegen en terreinen in de basisregistratie grootschalige topografie|
-| Toelichting|Onbegroeide grond is grond, die niet bedekt is met enige vorm van begroeiing, constructie, water of verharding.  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van onbegroeide grond|Ja |
-|Geometrie| Geometrische representatie van onbegroeide grond|Ja (2,5D vlak)|
-|Status   | Fase van de levenscyclus waarin het betreffende stuk onbegroeide grond zich bevindt|Ja   |
-
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-
-
-#### Onbepaald terreindeel
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Bodem"
-
- 
-
-**Definitie**
-
-| Naam  | Onbepaald terreindeel  |
-|---|---|
-| Definitie | Fysiek begrensd en zichtbaar terrein dat bij een gebouw hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van bodem, begroeiing, verharding en/of water|
-|Herkomst definitie  | Gebaseerd op definitie van erf in BGT    |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| In plaats van onbepaald terreindeel kan ter plaatse ook de Reële topografie worden ingewonnen (vrijwillig)|
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een onbepaald terreindeel|Ja |
-|Geometrie|Geometrische representatie van een onbepaald terreindeel|Ja (2,5D vlak)|
-|Status   |Fase van de levenscyclus waarin het betreffende onbepaalde terreindeel zich bevindt|Ja   |
-
-
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-
-
 ### Begroeiing
-
 
 
 #### Bos
@@ -279,7 +207,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Identificatie   | Unieke aanduiding van een bos|Ja |
 |Geometrie| Geometrische representatie van een bos|Ja (2,5D vlak)|
 |Type bos| Aanduiding van het soort bos|Ja|
-|Status   | Fase van de levenscyclus waarin het betreffende bos zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een bos zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -319,7 +247,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   | Unieke aanduiding van gras- en kruidachtigen|Ja |
 |Geometrie| Geometrische representatie van veld met gras- en kruidachtigen|Ja (2,5D vlak)|
-|Status   | Fase van de levenscyclus waarin het betreffende veld met gras- en kruidachtigen zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een veld met gras- en kruidachtigen zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -351,7 +279,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   | Unieke aanduiding van struiken|Ja |
 |Geometrie| Geometrische representatie van struiken|Ja (2,5D vlak)|
-|Status   | Fase van de levenscyclus waarin de betreffende struiken zich bevinden|Ja   |
+|Status   | Fase van de levenscyclus waarin struiken zich bevinden|Ja   |
 
 
 **Domeinwaarden**
@@ -387,13 +315,45 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   | Unieke aanduiding van een bouwland|Ja |
 |Geometrie| Geometrische representatie van bouwland|Ja (2,5D vlak)|
-|Status   | Fase van de levenscyclus waarin het betreffende bouwland zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een bouwland zich bevindt|Ja   |
 
 **Domeinwaarden**
 
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+#### Onbegroeide grond
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+
+
+**Definitie**
+
+| Naam  | Onbegroeide grond |
+|---|---|
+| Definitie |Terrein waar onbegroeide grond zichtbaar is|
+| Herkomst definitie  | |
+| Verplicht  | Ja  |
+| Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen  type *onverhard* van wegen en terreinen in de basisregistratie grootschalige topografie|
+| Toelichting|Onbegroeide grond is grond, die niet bedekt is met enige vorm van begroeiing, constructie, water of verharding.  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van onbegroeide grond|Ja |
+|Geometrie| Geometrische representatie van onbegroeide grond|Ja (2,5D vlak)|
+|Status   | Fase van de levenscyclus waarin een stuk onbegroeide grond zich bevindt|Ja   |
+
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
 
 
 
@@ -419,7 +379,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Identificatie   | Unieke aanduiding van fruit- of kweekbomen|Ja |
 |Geometrie| Geometrische representatie van fruit- of kweekbomen|Ja (2,5D vlak)|
 |Type fruit- of kweekbomen| Aanduiding van het type fruit- of kweekbomen|Ja|
-|Status   | Fase van de levenscyclus waarin de betreffende fruit- of kweekbomen zich bevinden|Ja   |
+|Status   | Fase van de levenscyclus waarin fruit- of kweekbomen zich bevinden|Ja   |
 
 
 
@@ -464,7 +424,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Moeras|Ja |
 |Geometrie|Geometrische representatie van een moeras|Ja (2,5D vlak)|
-|Status   |  Fase van de levenscyclus waarin het moeras zich bevindt|Ja   |
+|Status   |  Fase van de levenscyclus waarin een moeras zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -495,7 +455,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Rietland|Ja |
 |Geometrie|Geometrische representatie van een rietland|Ja (2,5D vlak)|
-|Status   |  Fase van de levenscyclus waarin het rietland zich bevindt|Ja   |
+|Status   |  Fase van de levenscyclus waarin een rietland zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -523,9 +483,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van een Heide|Ja |
+|Identificatie   |Unieke aanduiding van een heide|Ja |
 |Geometrie|Geometrische representatie van een heide|Ja (2,5D vlak)|
-|Status   |  Fase van de levenscyclus waarin de heide zich bevindt|Ja   |
+|Status   |  Fase van de levenscyclus waarin een heide zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -559,7 +519,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Bomenrij|Ja |
 |Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D vlak)|
-|Status   |  Fase van de levenscyclus waarin de bomenrij zich bevindt|Ja   |
+|Status   |  Fase van de levenscyclus waarin een bomenrij zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -589,7 +549,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Houtsingel|Ja |
 |Geometrie|Geometrische representatie van een houtsingel|Ja (2,5D vlak)|
-|Status   |  Fase van de levenscyclus waarin de houtsingel zich bevindt|Ja   |
+|Status   |  Fase van de levenscyclus waarin een houtsingel zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -619,7 +579,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Haag|Ja |
 |Geometrie|Geometrische representatie van een haag|Ja (2,5D vlak)|
-|Status   |  Fase van de levenscyclus waarin de haag zich bevindt|Ja   |
+|Status   |  Fase van de levenscyclus waarin een haag zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -648,7 +608,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een tuunwal|Ja |
 |Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D vlak)|
-|Status   |  Fase van de levenscyclus waarin de tuunwal zich bevindt|Ja   |
+|Status   |  Fase van de levenscyclus waarin een tuunwal zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -678,7 +638,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een boom|Ja |
 |Geometrie| Geometrische representatie van een boom|Ja (2,5D punt)|
-|Status   | Fase van de levenscyclus waarin de betreffende boom zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een boom zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -876,7 +836,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Geometrie |Geometrische representatie van een gebouwcomponent   |Ja (1D, 1,5D of 2,5D)|
 |Aard|Soort gebouwcomponent|Ja |
 |Bijbehorend object |Object waarbij een gebouwcomponent behoort|Ja|
-|Status   |Fase van de levenscyclus waarin een  gebouwcomponent zich bevindt   |Ja   |
+|Status   |Fase van de levenscyclus waarin een gebouwcomponent zich bevindt   |Ja   |
 
 
 **Relaties met andere objecttypen** 
@@ -1030,7 +990,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Verharding"
 |Identificatie   |Unieke aanduiding van een verharding|Ja |
 |Geometrie|Geometrische representatie van een verhardingsvlak|Ja (vlak, 2.5D)|
 |Type verharding|Aanduiding van het soort verharding|Ja|
-|Status   | Fase van de levenscyclus waarin het betreffende verhardingsvlak zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een verhardingsvlak zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -1076,9 +1036,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Geometrie|Geometrische representatie van een overbrugging|Ja (vlak, 2.5D)|
 |Type overbrugging|Aanduiding van het soort overbrugging|Ja|
 |Naam| Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-| Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
+| Beperkingen | Verkeerskundige beperkingen die voor eenkunstwerk gelden| Ja|
 | Beweegbaar  |Aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
-|Status   | Fase van de levenscyclus waarin de betreffende overbrugging zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin een overbrugging zich bevindt|Ja   |
 
 
 
@@ -1135,7 +1095,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Identificatie   |Unieke aanduiding van een kunstwerkdeel|Ja |
 |Geometrie|Geometrische representatie van een kunstwerkdeel|Ja (vlak, 2.5D|
 |Type kunstwerkdeel| Aanduiding van het soort kunstwerkdeel|ja|
-|Status   |  Fase van de levenscyclus waarin het betreffende kunstwerkdeel zich bevindt|Ja   |
+|Status   |  Fase van de levenscyclus waarin een kunstwerkdeel zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
 
@@ -1190,8 +1150,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Geometrie|Geometrische representatie van een ondertunneling|Ja (vlak, 2.5D)|
 |Type ondertunneling| Aanduiding van het soort ondertunneling|Ja|
 |Naam| Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-| Beperkingen | Verkeerskundige beperkingen die voor het betreffende kunstwerk gelden| Ja|
-|Status   | Fase van de levenscyclus waarin de betreffende ondertunneling zich bevindt|Ja   |
+| Beperkingen | Verkeerskundige beperkingen die voor eenkunstwerk gelden| Ja|
+|Status   | Fase van de levenscyclus waarin een ondertunneling zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -1296,7 +1256,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van overige kunstwerken|Ja |
-|Geometrie|Geometrische representatie van het betreffende kunstwerk|Ja (vlak, 2.5D)|
+|Geometrie|Geometrische representatie van eenkunstwerk|Ja (vlak, 2.5D)|
 |Type overig kunstwerk| Aanduiding van het soort kunstwerk|Ja|
 |Naam| Breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |Status   | Fase van de levenscyclus waarin een kunstwerk zich bevindt|Ja   |
@@ -1750,7 +1710,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van straatmeubilair|Ja |
 |Geometrie|Geometrische representatie van het straatmeubilair|Ja (2,5D punt)|
-|Status   | Fase van de levenscyclus waarin het straatmeubilair zich bevindt|Ja   |
+|Status   | Fase van de levenscyclus waarin straatmeubilair zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -1792,4 +1752,36 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
+
+
+### Onbepaald terrein
+
+
+ 
+
+**Definitie**
+
+| Naam  | Onbepaald terrein  |
+|---|---|
+| Definitie | Fysiek begrensd en zichtbaar terrein dat bij een gebouw hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van bodem, begroeiing, verharding en/of water|
+|Herkomst definitie  | Gebaseerd op definitie van erf in BGT    |
+|Verplicht  | Ja  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting| In plaats van onbepaald terreindeel kan ter plaatse ook de Reële topografie worden ingewonnen (vrijwillig)|
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een onbepaald terrein|Ja |
+|Geometrie|Geometrische representatie van een onbepaald terrein|Ja (2,5D vlak)|
+|Status   |Fase van de levenscyclus waarin een onbepaald terrein zich bevindt|Ja   |
+
+
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 

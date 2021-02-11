@@ -758,7 +758,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-#### Oever
+#### Oeverzone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
@@ -843,7 +843,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 | Naam  | Oppervlaktewaterlichaam  |
 |---|---|
-| Definitie | Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater, met de daarin aanwezige stoffen, doorheen kan stromen.|
+| Definitie | Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater, met de daarin aanwezige stoffen, doorheen kan stromen|
 |Herkomst definitie  |    |
 |Verplicht  | Nee|
 |Gevolgen afbakening|Het bestaat (ruimtelijk)uit de optelling van de oeverzone en het oppervlaktewater|
@@ -864,6 +864,118 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
+
+#### Zuiveringscomplex
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Zuiveringscomplex  |
+|---|---|
+| Definitie | |
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening||
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een zuiveringscomplex|Ja |
+|Geometrie|De geometrische representatie van een zuiveringscomplex|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een zuiveringscomplex zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+#### Waterwingebied
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Waterwingebied  |
+|---|---|
+| Definitie | |
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening||
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een waterwingebied|Ja |
+|Geometrie|De geometrische representatie van een waterwingebied|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een waterwingebied zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+#### Waterbergingsgebied
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Waterbergingsgebied  |
+|---|---|
+| Definitie | |
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening||
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een waterbergingsgebied|Ja |
+|Geometrie|De geometrische representatie van een waterbergingsgebied|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een waterbergingsgebied zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+#### Infrastuctureel waterstaatkundig werk
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Infrastuctureel waterstaatkundig werk  |
+|---|---|
+| Definitie | |
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening||
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een infrastuctureel waterstaatkundig werk|Ja |
+|Geometrie|De geometrische representatie van een infrastuctureel waterstaatkundig werk|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een infrastuctureel waterstaatkundig werk zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 ### Overige functionele zoneringen
 
 #### Kering
