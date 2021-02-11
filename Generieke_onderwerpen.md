@@ -193,11 +193,11 @@ Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een g
 
 De SOR zal structureel hoogte informatie zal gaan bevatten. Aanduidingen die daarvoor worden gebruikt zijn 2,5D en 3D. Het verschil tussen beiden kan worden geïllustreerd aan de hand van de volgende twee plaatjes:
 
-![terreinmodel](terreinmodel.png)
+![terreinmodel](media/terreinmodel.png)
 
 .
 
-![3D volume model](levels_of_detail.png)
+![3D volume model](media/levels_of_detail.png)
 
 
 Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. 
