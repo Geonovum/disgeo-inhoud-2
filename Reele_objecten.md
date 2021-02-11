@@ -1149,16 +1149,16 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 *Type kunstwerkdeel*
 
-|Waarde Type kunstwerkdeel| Beschrijving   |
-|---|---|
-| dek |Direct door het verkeer belaste deel van de bovenbouw van de brug|
-| landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk|
-| pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken|
-| sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering|
-| pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels)|
-| sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden|
-| kolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht|
-| vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke|
+|Waarde Type kunstwerkdeel| Beschrijving   | is onderdeel van|
+|---|---|---|
+| dek |Direct door het verkeer belaste deel van de bovenbouw van de brug| overbrugging|
+| landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk|overbrugging|
+| pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken|overbrugging|
+| sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering|overbrugging|
+| pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels)|overbrugging|
+| sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden| sluis|
+| schutkolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht|sluis|
+| vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke| |
 
 *Status* 
 
@@ -1232,8 +1232,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | Definitie | Kunstwerk dat kerende functie heeft|
 |Herkomst definitie  | nieuw  |
 |Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting| De kerende functie kan wordne vastgelegd middels de functionele ruimte "Waterkering" |
 
 **Eigenschappen**
 
@@ -1269,6 +1269,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | sluis |Kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt|
 | coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
 | dijk|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
+| stormvloedkering|Keersluis die gesloten wordt bij zeer hoge buitenwaterstanden|
 
 *Status* 
 

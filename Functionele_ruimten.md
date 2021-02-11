@@ -712,13 +712,13 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-#### Recreatie
+#### Recreatiezone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
-| Naam  | Recreatie  |
+| Naam  | Recreatiezone  |
 |---|---|
 | Definitie | Functionele ruimte die in gebruik is voor openlucht recreatie|
 | Herkomst definitie  | IMGeo 2.2     |
@@ -730,11 +730,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van recreatie|Ja |
-|Geometrie |De geometrische representatie van recreatie|Ja (2D vlak)|
+|Identificatie   |De unieke aanduiding van een recreatiezone|Ja |
+|Geometrie |De geometrische representatie van een recreatiezone|Ja (2D vlak)|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
-|Type|Categorisering van de verschillende soorten recreatie|Ja| 
-|Status   |De fase van de levenscyclus waarin een recreatie zich bevindt|Ja   |
+|Type|Categorisering van de verschillende soorten zones|Ja| 
+|Status   |De fase van de levenscyclus waarin een recreatiezonezich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -764,28 +764,24 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 **Definitie**
 
-| Naam  | Oever  |
+| Naam  | Oeverzone  |
 |---|---|
 | Definitie | Functionele ruimte die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn|
 |Herkomst definitie  | BGT 1.2     |
 |Verplicht  | Ja  |
 |Gevolgen afbakening|Het betreft hier de bestaande populatie *oever, slootkant* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Slootkant is een oever|
+|Toelichting| Slootkant is een oeverzone|
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van oever|Ja |
-|Geometrie|De geometrische representatie van de oever|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin de betreffende oever zich bevindt|Ja   |
-
-
+|Identificatie   |De unieke aanduiding van een oeverzone|Ja |
+|Geometrie|De geometrische representatie van een oeverzone|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een oeverzone zich bevindt|Ja   |
 
 
 **Domeinwaarden**
-
-
 
 *Status*
 
@@ -839,6 +835,35 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
+#### Oppervlaktewaterlichaam
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Oppervlaktewaterlichaam  |
+|---|---|
+| Definitie | Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater, met de daarin aanwezige stoffen, doorheen kan stromen.|
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening|Het bestaat (ruimtelijk)uit de optelling van de oeverzone en het oppervlaktewater|
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een oppervlaktewaterlichaam|Ja |
+|Geometrie|De geometrische representatie van een oppervlaktewaterlichaam|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een oppervlaktewaterlichaam zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+
 ### Overige functionele zoneringen
 
 #### Kering
@@ -875,7 +900,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |---|---|
 |grond	|voorziening bedoeld om grond te keren|
 |water	|voorziening bedoeld om water te keren|
-|stormvloed	|Waterbouwkundige constructie die bij stormvloed of springtij moet verhinderen dat er grote hoeveelheden water de monding van een rivier instromen en stroomopwaarts tot overstromingen leiden|
+
 
 
 
