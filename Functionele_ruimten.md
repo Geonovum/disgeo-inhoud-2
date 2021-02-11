@@ -892,7 +892,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-### Beheerzone water kwaliteit
+#### Beheerzone water kwaliteit
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
@@ -949,7 +949,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-### golfbrekend voorland
+#### Golfbrekend voorland
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
@@ -978,7 +978,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-### Vaarwegzone
+#### Vaarwegzone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
@@ -1007,13 +1007,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-### Aanleg en overslag zone
-
+#### Aanleg en -
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
-| Naam  | Aanleg en overslag zone |
+| Naam  | Aanleg- en overslag zone |
 |---|---|
 | Definitie |Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor beroepsmatige aanleg van schepen, niet zijnde woonschepen, en overslag|
 |Herkomst definitie  |    |
@@ -1036,7 +1035,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-### Watersportzone
+#### Watersportzone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
@@ -1065,7 +1064,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-### Visserijzone
+#### Visserijzone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
