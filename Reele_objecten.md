@@ -32,6 +32,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Identificatie   |Unieke aanduiding van een watervlakte|Ja |
 |Geometrie|Geometrische representatie van een watervlakte|Ja (2,5D vlak)|
 |Type watervlakte|Aanduiding van het soort watervlakte|Nee|
+|Categorie | Geeft het belang van een watervlakte aan|
 |Status   | Fase van de levenscyclus waarin een watervlakte zich bevindt|Ja   |
 
 
@@ -49,6 +50,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |ven|Natuurlijk ontstaan meer op heidegrond|
 |vijver|Gegraven waterpartij, aangelegd in stedelijke omgeving of in een parklandschap|
 
+*Categorie*
+
+|Waarde Categorie| Beschrijving   |
+|---|---|
+|Primair||
+|Overig||
 
 *Status* 
 
@@ -80,6 +87,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Geometrie|Geometrische representatie van een waterloop|Ja (2,5D vlak)|
 |Type waterloop|Aanduiding van het soort waterloop|Nee|
 |Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
+|Categorie | Geeft het belang van een waterloop aan|
 |Status   |  Fase van de levenscyclus waarin een waterloop zich bevindt|Ja   |
 
 
@@ -95,6 +103,14 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |kanaal|Gegraven grote waterloop die dient voor scheepvaart en/of watertransport|
 |beek|Natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier|
 |gracht|Gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden|
+
+*Categorie*
+
+|Waarde Categorie| Beschrijving   |
+|---|---|
+|Primair||
+|Overig||
+
 
 *Status* 
 

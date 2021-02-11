@@ -821,12 +821,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type complex| Beschrijving   |
 |---|---|
-|||
 |gemaalcomplex|Alle bij een gemaal behorende gronden, inrichtingen en bouwwerken|
 |sluiscomplex|Alle bij een sluis behorende gronden, inrichtingen en bouwwerken|
 |stuwcomplex|Alle bij een stuw behorende gronden, inrichtingen en bouwwerken|
 |coupurecomplex|Alle bij een coupure behorende gronden, inrichtingen en bouwwerken|
 |aanleg- en overslagcomplex|Alle bij een haven behorende gronden, inrichtingen en bouwwerken|
+|zuiveringscomplex |Geheel van objecten tezamen dat ervoor zorgt dat drinkwater gezuiverd wordt, van organische en chemische stoffen die uit oogpunt van gezondheid en smaak ongewenst zijn ten behoeve van grond- en oppervlaktewater|
 
 
 
@@ -864,18 +864,17 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-
-#### Zuiveringscomplex
+#### Beheerzone water kwantiteit
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
-| Naam  | Zuiveringscomplex  |
+| Naam  | Beheerzone water kwantiteit  |
 |---|---|
-| Definitie | |
+| Definitie | Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om de hoeveelheid oppervlaktewater te reguleren|
 |Herkomst definitie  |    |
-|Verplicht  | Nee|
+|Verplicht  | Ja|
 |Gevolgen afbakening||
 |Toelichting| |
 
@@ -883,9 +882,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een zuiveringscomplex|Ja |
-|Geometrie|De geometrische representatie van een zuiveringscomplex|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een zuiveringscomplex zich bevindt|Ja   |
+|Identificatie   |De unieke aanduiding van een beheerzone water kwantiteit|Ja |
+|Geometrie|De geometrische representatie van een beheerzone water kwantiteit|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een beheerzone water kwantiteit zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -893,17 +892,17 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-#### Waterwingebied
+### Beheerzone water kwaliteit
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
-| Naam  | Waterwingebied  |
+| Naam  | Beheerzone water kwaliteit  |
 |---|---|
-| Definitie | |
+| Definitie | Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om  de kwaliteit van het oppervlaktewater in orde te houden|
 |Herkomst definitie  |    |
-|Verplicht  | Nee|
+|Verplicht  | Ja|
 |Gevolgen afbakening||
 |Toelichting| |
 
@@ -911,9 +910,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een waterwingebied|Ja |
-|Geometrie|De geometrische representatie van een waterwingebied|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een waterwingebied zich bevindt|Ja   |
+|Identificatie   |De unieke aanduiding van een beheerzone water kwaliteit|Ja |
+|Geometrie|De geometrische representatie van een beheerzone water kwaliteit|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een beheerzone water kwaliteit zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -921,33 +920,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-#### Waterbergingsgebied
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
-
-**Definitie**
-
-| Naam  | Waterbergingsgebied  |
-|---|---|
-| Definitie | |
-|Herkomst definitie  |    |
-|Verplicht  | Nee|
-|Gevolgen afbakening||
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een waterbergingsgebied|Ja |
-|Geometrie|De geometrische representatie van een waterbergingsgebied|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een waterbergingsgebied zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Infrastuctureel waterstaatkundig werk
 
@@ -957,7 +929,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 | Naam  | Infrastuctureel waterstaatkundig werk  |
 |---|---|
-| Definitie | |
+| Definitie |Gebied gelegen langs en/of op oppervlaktewater, primair in gebruik en beheer voor de oppervlaktewaterhuishouding (waterafvoer, wateraanvoer en waterconservering) óf een gebied gelegen langs en/of op een waterkering|
 |Herkomst definitie  |    |
 |Verplicht  | Nee|
 |Gevolgen afbakening||
@@ -976,6 +948,157 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+### golfbrekend voorland
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Golfbrekend voorland  |
+|---|---|
+| Definitie |Gebied aansluitend aan de buitenzijde van een waterkering, wat de waterkering beschermt tegen golven|
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening||
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een golfbrekend voorland|Ja |
+|Geometrie|De geometrische representatie van een golfbrekend voorland|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een golfbrekend voorland zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+
+### Vaarwegzone
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Vaarwegzone |
+|---|---|
+| Definitie |Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor transport middels scheepvaart|
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening||
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een vaarwegzone|Ja |
+|Geometrie|De geometrische representatie van een vaarwegzone|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een vaarwegzone zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+
+### Aanleg en overslag zone
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Aanleg en overslag zone |
+|---|---|
+| Definitie |Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor beroepsmatige aanleg van schepen, niet zijnde woonschepen, en overslag|
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening||
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een aanleg en overslag zone|Ja |
+|Geometrie|De geometrische representatie van een aanleg en overslag zone|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een aanleg en overslag zone zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+
+### Watersportzone
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Watersportzone |
+|---|---|
+| Definitie |Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport|
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening||
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een watersportzone|Ja |
+|Geometrie|De geometrische representatie van een watersportzone|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een watersportzone zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+
+### Visserijzone
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+
+**Definitie**
+
+| Naam  | Visserijzone |
+|---|---|
+| Definitie |Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor visserij|
+|Herkomst definitie  |    |
+|Verplicht  | Nee|
+|Gevolgen afbakening||
+|Toelichting| |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van een visserijzone|Ja |
+|Geometrie|De geometrische representatie van een visserijzone|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een visserijzone zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+
+
+
+
+
+
 ### Overige functionele zoneringen
 
 #### Kering
