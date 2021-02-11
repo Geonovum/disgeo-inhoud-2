@@ -1220,30 +1220,29 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Kerende kunstwerken
+#### Waterstaatkundig kunstwerk
 
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 **Definitie**
 
-| Naam  | Kerende kunstwerken  |
+| Naam  | Waterstaatkundig kunstwerk |
 |---|---|
 | Definitie | Kunstwerk dat kerende functie heeft|
 |Herkomst definitie  | nieuw  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| De kerende functie kan wordne vastgelegd middels de functionele ruimte "Waterkering" |
+|Toelichting| De kerende functie kan worden vastgelegd middels de functionele ruimte "kering" van het type "water" |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van kerende kunstwerken|Ja |
-|Geometrie|Geometrische representatie van het betreffende kunstwerk|Ja (vlak, 2.5D)|
-|Type kerend kunstwerk| Aanduiding van het soort kunstwerk|Ja|
-|Naam| Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-|Status   | Fase van de levenscyclus waarin het betreffende kunstwerk zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een waterstaatkundig kunstwerk|Ja |
+|Geometrie|Geometrische representatie van een waterstaatkundig kunstwerk|Ja (vlak, 2.5D)|
+|Type kerend kunstwerk| Aanduiding van het soort waterstaatkundig kunstwerk|Ja|
+|Status   | Fase van de levenscyclus waarin een waterstaatkundig kunstwerk zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
 
@@ -1256,7 +1255,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 
 
-*Type kerend kunstwerk*
+*Type waterstaatkundig kunstwerk*
 
 |Waarde type kerend kunstwerk| Beschrijving   |
 |---|---|
@@ -1270,6 +1269,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
 | dijk|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
 | stormvloedkering|Keersluis die gesloten wordt bij zeer hoge buitenwaterstanden|
+| waterstaatkundig kunstwerk| |
 
 *Status* 
 
