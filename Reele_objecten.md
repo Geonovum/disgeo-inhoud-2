@@ -1269,7 +1269,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
 | dijk|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
 | stormvloedkering|Keersluis die gesloten wordt bij zeer hoge buitenwaterstanden|
-| waterstaatkundig kunstwerk| |
+
 
 *Status* 
 
