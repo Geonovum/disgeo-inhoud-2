@@ -1052,7 +1052,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Geometrie|Geometrische representatie van een overbrugging|Ja (vlak, 2.5D)|
 |Type overbrugging|Aanduiding van het soort overbrugging|Ja|
 |Naam| Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-| Beperkingen | Verkeerskundige beperkingen die voor eenkunstwerk gelden| Ja|
 | Beweegbaar  |Aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
 |Status   | Fase van de levenscyclus waarin een overbrugging zich bevindt|Ja   |
 
@@ -1166,7 +1165,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Geometrie|Geometrische representatie van een ondertunneling|Ja (vlak, 2.5D)|
 |Type ondertunneling| Aanduiding van het soort ondertunneling|Ja|
 |Naam| Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-| Beperkingen | Verkeerskundige beperkingen die voor eenkunstwerk gelden| Ja|
 |Status   | Fase van de levenscyclus waarin een ondertunneling zich bevindt|Ja   |
 
 
@@ -1233,7 +1231,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 *Type waterstaatkundig kunstwerk*
 
-|Waarde type kerend kunstwerk| Beschrijving   |
+|Waarde type waterstaatkundig kunstwerk| Beschrijving   |
 |---|---|
 | keermuur |muur die door vorm, gewicht en fundering zonder verankering de grond keert|
 | kademuur |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton|
@@ -1245,47 +1243,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
 | dijk|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
 | stormvloedkering|Keersluis die gesloten wordt bij zeer hoge buitenwaterstanden|
-
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-#### Overige kunstwerken
-
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
-
-**Definitie**
-
-| Naam  | Overige kunstwerken  |
-|---|---|
-| Definitie | Kunstwerk dat een civieltechnisch werk betreft voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen|
-|Herkomst definitie  | NEN3610 |
-|Verplicht  | Ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van overige kunstwerken|Ja |
-|Geometrie|Geometrische representatie van eenkunstwerk|Ja (vlak, 2.5D)|
-|Type overig kunstwerk| Aanduiding van het soort kunstwerk|Ja|
-|Naam| Breed geaccepteerde benaming van een kunstwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-|Status   | Fase van de levenscyclus waarin een kunstwerk zich bevindt|Ja   |
-
-
-
-**Domeinwaarden**
-
-
-*Type overig kunstwerk*
-
-|Waarde type overig kunstwerk| Beschrijving   |
-|---|---|
 | gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|
 | bezinkbak| Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening|
 | strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier|
@@ -1298,6 +1255,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+
 
 
 
@@ -1317,8 +1277,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
 | Naam  | Muur |
 |---|---|
-| Definitie |Constructie die een relatief smal, rechtopstaand bouwwerk betreft|
-|Herkomst definitie  |Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+| Definitie |Constructie die een relatief smal, rechtopstaand bouwwerk betreft||Herkomst definitie  |Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *scheidingen, Type muur* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|   |
