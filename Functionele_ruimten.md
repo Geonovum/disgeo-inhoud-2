@@ -825,7 +825,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |sluiscomplex|Alle bij een sluis behorende gronden, inrichtingen en bouwwerken|
 |stuwcomplex|Alle bij een stuw behorende gronden, inrichtingen en bouwwerken|
 |coupurecomplex|Alle bij een coupure behorende gronden, inrichtingen en bouwwerken|
-|aanleg- en overslagcomplex|Alle bij een haven behorende gronden, inrichtingen en bouwwerken|
+|aanleg- en overslagcomplex|Alle bij een haven behorende gronden, inrichtingen en bouwwerken |
 |zuiveringscomplex |Geheel van objecten tezamen dat ervoor zorgt dat drinkwater gezuiverd wordt, van organische en chemische stoffen die uit oogpunt van gezondheid en smaak ongewenst zijn ten behoeve van grond- en oppervlaktewater|
 
 
@@ -846,7 +846,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 | Definitie | Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater, met de daarin aanwezige stoffen, doorheen kan stromen|
 |Herkomst definitie  |    |
 |Verplicht  | Nee|
-|Gevolgen afbakening|Het bestaat (ruimtelijk)uit de optelling van de oeverzone en het oppervlaktewater|
+|Gevolgen afbakening|Het bestaat (ruimtelijk) uit de optelling van de oeverzone en het oppervlaktewater|
 |Toelichting| |
 
 **Eigenschappen**
@@ -1007,7 +1007,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-#### Aanleg en -
+#### Aanleg- en overslag zone
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
