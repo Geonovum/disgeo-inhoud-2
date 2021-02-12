@@ -435,10 +435,9 @@ In de samenhangende objectenregistratie worden twee transportnetwerken ondersche
 De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerken los van elkaar te beschrijven.
 
 
-
 #### Elementen van een netwerk: knopen en verbindingen
 
-Een netwerk bestaat uit knopen en verbindingen. Een verbinding geeft de relatie aan tussen twee knopen. Een knoop is een keuzepunt. Bijvoorbeeld voor een weggebruiker. Een verbinding verbindt twee direct aanliggende keuzepunten. 
+Een netwerk bestaat uit knopen en verbindingen. Een knoop is een keuzepunt. Een verbinding geeft de relatie aan tussen twee knopen.  Bijvoorbeeld voor een weggebruiker. Een verbinding verbindt twee direct aanliggende keuzepunten. 
 
 Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding beschreven kan worden. Administratieve eigenschappen zoals een straatnaam worden vooral gebruikt voor locatiebepaling. Voor routering zijn eigenschappen die een voorwaarde beschrijven belangrijk om te bepalen hoe een route over het netwerk loopt. Voor wegen zijn bijvoorbeeld rijrichtingen en maximum snelheden dergelijke eigenschappen. 
 
@@ -446,7 +445,7 @@ Een knoop en verbinding hebben eigenschappen waarmee een knoop of verbinding bes
 
 Een transportnetwerk beschrijft de functionele inrichting van de reële infrastructuur en is daarmee onlosmakelijk mee verbonden. Bij nieuwe aanleg van infrastructuur is het functioneel ontwerp (het netwerk) de basis voor de aanleg van reële infrastructuur. 
 
-Een netwerk heeft vanuit zichzelf geen geometrie, voor de beschrijving en positionering van transportnetwerken wordt een geometrie toegevoegd en/of wordt verwezen naar de geometrie van de reële infrastructuur.
+Een netwerk heeft vanuit zichzelf geen geometrie in de fysieke werkelijkheid, voor de beschrijving en positionering van transportnetwerken wordt een geometrie toegevoegd en/of wordt verwezen naar de geometrie van de reële infrastructuur.
 
 Indien een geometrie wordt toegevoegd aan een knoop of verbinding dan ligt deze op het gerelateerde reële object.
 
