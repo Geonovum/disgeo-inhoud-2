@@ -510,9 +510,9 @@ De voor de bronhouders en gebruikers van de SOR relevante inhoudelijke meta-info
 
 2.	Alle meta-informatie die een tijdsaspect heeft (historie, levensfase) komt in de volgende paragraaf van dit document afzonderlijk aan de orde.
 
-3.	Bronverwijzing betreft aan de ene kant de formele onderbouwing van gegevens, bijvoorbeeld in de vorm van formele brondocumenten, zoals vergunningen en besluiten, maar aan de andere kant ook de meer technische bron van de gegevens, zoals plaatsbepalingspunten en indirect luchtfoto's, metingen en BIM-modellen. De plaatsbepalingspunten zijn daarmee een bijzondere vorm van bronverwijzing in het kader van de geometrie binnen de SOR. Zowel de bronverwijzing naar de praktische bronnen (luchtfoto's etc.) als naar de formele brondocumenten (vergunningen, huisnummerbesluiten) gebeurt primair door het vastleggen van de url van de vindplaats van de desbetreffende bron. Op deze manier is de vindbaarheid van de bron optimaal gewaarborgd, mits ook het beheer van deze digitale brondocumenten zorgvuldig is ingeregeld. Een ander aspect van de bronverwijzing is de vastlegging van de reden van wijziging van een attribuut. Voor de SOR wordt voorgesteld het uitgangspunt te hanteren dat bij elke wijziging van een attribuut ook een reden wordt geregistreerd. Deze verplichting vereenvoudigt bijvoorbeeld het afhandelen van terugmeldingen. De bronhouder weet dan altijd waarom het gegeven geregistreerd is. Het is aan te bevelen om "reden van wijziging" vast te leggen aan de hand van een waardelijst, waarbij wellicht bij sommige "gebeurtenissen" sprake kan zijn van een combinatie van redenen uit deze waardelijst. Een correctie is ook een in deze waardelijst op te nemen "gebeurtenis". 
+3.	Bronverwijzing betreft aan de ene kant de formele onderbouwing van gegevens, bijvoorbeeld in de vorm van formele brondocumenten, zoals vergunningen en besluiten, maar aan de andere kant ook de meer technische bron van de gegevens, zoals plaatsbepalingspunten en indirect luchtfoto's, metingen en BIM-modellen. De plaatsbepalingspunten zijn daarmee een bijzondere vorm van bronverwijzing in het kader van de geometrie binnen de SOR.     Zowel de bronverwijzing naar de praktische bronnen (luchtfoto's etc.) als naar de formele brondocumenten (vergunningen, huisnummerbesluiten) gebeurt zoveel mogelijk primair door het vastleggen van de url van de vindplaats van de desbetreffende bron. Op deze manier is de vindbaarheid van de bron optimaal gewaarborgd, mits ook het beheer van deze digitale brondocumenten zorgvuldig is ingeregeld. Een ander aspect van de bronverwijzing is de vastlegging van de reden van wijziging van een attribuut. Voor de SOR wordt voorgesteld het uitgangspunt te hanteren dat bij elke wijziging van een attribuut ook een reden wordt geregistreerd. Deze verplichting vereenvoudigt bijvoorbeeld het afhandelen van terugmeldingen. De bronhouder weet dan altijd waarom het gegeven geregistreerd is. Het is aan te bevelen om "reden van wijziging" vast te leggen aan de hand van een waardelijst, waarbij wellicht bij sommige "gebeurtenissen" sprake kan zijn van een combinatie van redenen uit deze waardelijst. Een correctie is ook een in deze waardelijst op te nemen "gebeurtenis". 
 
-Alleen in uitzonderingsgevallen is het nodig om de "reden van wijziging"  vast te leggen in de vorm van een formeel brondocument. Alleen wanneer er sprake is van een bestaand brondocument (zoals een vergunning) heeft een verwijzing naar dit formele document toegevoegde waarde. In de SOR kunnen verplichtingen tot het opstellen van brondocumenten, uitsluitend om daarmee een "reden van wijziging" als metagegeven te kunnen vastleggen, dan vervallen.
+Alleen in uitzonderingsgevallen is het nodig om de "reden van wijziging" vast te leggen in de vorm van een formeel brondocument. Alleen wanneer er sprake is van een bestaand brondocument (zoals een vergunning) heeft een verwijzing naar dit formele document toegevoegde waarde. In de SOR kunnen verplichtingen tot het opstellen van brondocumenten, uitsluitend om daarmee een "reden van wijziging" als metagegeven te kunnen vastleggen, dan vervallen.
 
 4.	Het aspect autorisaties betreft de formele voorschriften over bronhouders en afnemers. Hieronder vallen bijvoorbeeld de gebruiksautorisaties en daarmee de mate van openbaarheid. Het uitgangspunt van de SOR is dat alle gegevens als open data beschikbaar zijn. Daarbij is het aspect van gebruikersautorisaties minder relevant.
 Naast gebruikersautorisatie is ook mutatieautorisatie gewenst, zodat bekend is wie bepaalde mutaties mag aanbrengen. Daarmee is ook duidelijk waar men moet zijn bij een vraag over een waarde van een gegeven. Default is dat de bronhouder van het desbetreffende objecttype/object, maar bij uitzondering kan dat een andere partij zijn en die moet daar dan wel voor zijn geautoriseerd en dat moet vastgelegd kunnen worden op attribuutniveau.
@@ -609,12 +609,12 @@ In een basisregistratie is het van belang om expliciet informatie over de kwalit
 
 Informatie over de herkomst is belangrijk voor een gebruiker om te weten of het gegeven afkomstig is van een bronhouder. Een bronhouder is een bestuursorgaan of rechtspersoon aan wie bij deze wet de verantwoordelijkheid voor het bijhouden van gegevens is opgedragen. Bronhouder dient de gegevens met de bij wet/MR vastgestelde kwaliteitseisen bij te houden. Gegevens kunnen hiermee als authentiek worden aangemerkt, en een gebruiker mag/kan er dan vanuit gaan dat het gegeven juist is. Bij gerede twijfel over de juistheid kan een gebruiker een terugmelding op het gegeven doen, zodat de bronhouder een onderzoek kan starten.
 
-Een Plaatsbepalingspunt is een punt dat is ingemeten en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing (geometrie) van topografische objecten. Bij een plaatsbepalingspunt worden naast de coördinaten (X,Y,Z) van het ingemeten punt zelf, onder meer gegevens over de nauwkeurigheid, inwinningsdatum en inwinnende instantie (bronhouder/gegevensmuteerder) opgenomen.
+Een Plaatsbepalingspunt is een punt dat is ingemeten en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing (geometrie) van reële objecten. Bij een plaatsbepalingspunt worden naast de coördinaten (X,Y,Z) van het ingemeten punt zelf, onder meer gegevens over de nauwkeurigheid, inwinningsdatum en inwinnende instantie (bronhouder/gegevensmuteerder) opgenomen. Van plaatsbepalingspunten worden dus zelf metagegevens over kwaliteit en herkomst vastgelegd. Door andere objecten te relateren aan deze plaatsbepalingspunten wordt ook informatie vastgelegd over kwaliteit en herkomst van de geometrie van die objecten.
 
 Voor plaatsbepalingspunten geldt:
 - Alleen van reële objecten worden plaatsbepalingspunten vastgelegd. 
 - dat ze alleen worden opgenomen van coördinaten die daadwerkelijk ingewonnen zijn middels terreinbezoek (terrestrisch), laserscanning (laser), luchtfoto’s of panoramabeelden.  
-- dat ze alleen worden opgenomen voor reële objecten waarvan de grens in het terrein goed is aan te wijzen (ofwel goed idealiseerbaar). Bij niet-goed idealiseerbaar objecten is de ‘startwaarde’ van de nauwkeurigheid namelijk al dusdanig hoog dat het geen zin heeft om hier de onnauwkeurigheid van meting. Uitgangspunt is dat bronhouder deze gegevens binnen een bepaalde nauwkeurigheid inwint.
+- dat ze alleen worden opgenomen voor reële objecten waarvan de grens in het terrein goed is aan te wijzen (ofwel goed idealiseerbaar). Bij niet-goed idealiseerbare objecten is de ‘startwaarde’ van de nauwkeurigheid namelijk al dusdanig hoog dat het geen zin heeft om hier de onnauwkeurigheid van meting. Uitgangspunt is dat bronhouder deze gegevens binnen een bepaalde nauwkeurigheid inwint.
 - Coördinaten die zijn gegenereerd/afgeleid bijvoorbeeld bij het ‘verstroken’ van een cirkelboog hebben geen plaatsbepalingspunten.
 - Van de toekomstige geometrie (planinformatie) worden geen plaatsbepalingspunten vastgelegd.
 - Functionele, registratieve en geografische ruimten hebben geen plaatsbepalingspunten. 
@@ -647,26 +647,24 @@ In de SOR worden
 
 
     
-Geometrie en topologie
+*Geometrie en topologie*
 
 Alle objecten hebben een geometrische representatie. De nauwkeurigheid/kwaliteit van de geometrie wordt voor goed-idealiseerbare reële objecten beschreven middels plaatsbepalingspunten en voor niet-goed idealiseerbare objecten middels één meta-object voor de kwaliteit/herkomst. Voorwaarde is dat plaatsbepalingspunten samenvallen met de coördinaten in de objectgeometrie (zie paragraaf [Topologie](#topologie)).
 
 <aside class='example'>
-
+Voorbeelden:
     Casus: Van een gebouw wordt een 3D geometrische representatie gerealiseerd.
 
-    Aanname: bij een gebouw is het mogelijk om zowel geometrie voor grondvlak, bovenaanzicht en 3D op te nemen (dus 3 attribuutvelden voor geometrie).
+    Aanname: bij een gebouw is het mogelijk om zowel geometrie voor grondvlak, bovenaanzicht en 3D op te nemen (dus drie attribuutvelden voor geometrie bij gebouw).
 
-    1)	Via combinatie geometrie grondvlak en bovenaanzicht: 
-    geometrie grondvlak en bovenaanzicht hebben PBP’s: grondvlak terrestrisch en bovenaanzicht fotogrammetrisch. De afgeleide 3D geometrie heeft geen eigen PBP’s.
+    Voorbeeld  1)	Geometrie grondvlak en geometrie bovenaanzicht hebben Plaatsbepalingspunten. Grondvlak na terrestrisch meten en bovenaanzicht uit fotogrammetrisch meten. De uit grondvlak en bovenaanzicht afgeleide 3D geometrie heeft dan geen eigen Plaatsbepalingspunten.
 
-    2)	Via laseraltimetrie: 3D Een gebouw wordt met laseraltimetrie ingewonnen. 
-    Alle geometrie-attributen hebben PBP’s met inwinningsmethode laseraltimetrie. Ontbrekende/geconstrueerde hoekpunten (bijvoorbeeld door ontbreken van een punt als gevolg van een luifel o.i.d.) hebben geen PBP’s.
+    Voorbeeld 2)	Via laseraltimetrie: 3D Een gebouw wordt met laseraltimetrie ingewonnen. Alle geometrie-attributen hebben Plaatsbepalingspunten met inwinningsmethode laseraltimetrie. Ontbrekende/geconstrueerde hoekpunten (bijvoorbeeld door ontbreken van een punt als gevolg van een luifel o.i.d.) hebben geen Plaatsbepalingspunten.
 </aside>
 
 #### Verdere aandachtspunten meta-informatie
 
-In het voorgaande is een eerste schets gegeven van het onderwerp meta-informatie in de SOR. Bij de verdere uitwerking van het informatiemodel zal daaraan nog een verdere invulling  worden gegeven. Een aantal te maken keuzen zijn daarbij afhankelijk van besluiten die nog moeten worden genomen over onder meer de toewijzing van verantwoordelijkheden, de omgang met brondocumenten en de concreet te stellen kwaliteitseisen. Voor de verdere uitwerking worden nog een aantal aandachtspunten meegegeven:
+In het voorgaande is een eerste schets gegeven van het onderwerp meta-informatie in de SOR. Bij de verdere uitwerking van het informatiemodel zal daaraan nog een verdere invulling worden gegeven. Een aantal te maken keuzen zijn daarbij afhankelijk van besluiten die nog moeten worden genomen over onder meer de toewijzing van verantwoordelijkheden, de omgang met brondocumenten en de concreet te stellen kwaliteitseisen. Voor deze verdere uitwerking worden nog een aantal aandachtspunten meegegeven:
 
 - Meta-informatie makkelijk kunnen registreren met ondersteuning vanuit de systemen. Dit betekent bijvoorbeeld dat het eenvoudig moet zijn om metagegevens over te nemen naar andere objecten (bijvoorbeeld alle gebouwen binnen een luchtfoto de status "gecontroleerd" te geven),
 - Zo effectief en efficiënt mogelijk met tools in de systemen om metagegevens eenvoudig vast te leggen en te controleren op consistentie.
@@ -756,7 +754,7 @@ De hiervoor beschreven benadering leidt tot de volgende levensfasen die objectty
 |Bouw gepland	|Object dat nog niet is gebouwd of aangelegd maar waarvoor de voor de bouw of aanleg noodzakelijke ruimtelijke procedures zijn afgerond|
 |In aanbouw	|Object waarvan de feitelijke bouw, verbouw of aanleg is aangevangen|
 |Bestaand	|Object dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd dan wel buiten gebruik is gesteld|
-|Verbouw gepland	|Object waarvan de voor de verbouw of wijziging noodzakelijke ruimtelijke procedures zijn afgerond, maar waarvan de verbouwing of wijziging nog niet is voltooid|
+|Verbouw gepland	|Object dat nog geschikt is voor oorspronkelijk gebruik, maar waarvan de voor de verbouw of wijziging noodzakelijke ruimtelijke procedures zijn afgerond, en de verbouwing of wijziging nog niet is voltooid|
 |Sloop gepland	|Object waarvoor de voor de sloop of verwijdering noodzakelijke ruimtelijke procedures zijn afgerond|
 |Gesloopt	|Object waarvan de feitelijke sloop of verwijdering is afgerond|
 |Afgevoerd	|Object dat ten onrechte is opgevoerd in de registratie of waarvan is vastgesteld dat het ontwerp of een geplande bouw of aanleg niet heeft geleid tot een feitelijke realisatie van het object|
@@ -813,8 +811,27 @@ Toepassing van deze aanpak zou kunnen betekenen dat we de beoogde verbouwing nie
 
 Daarom wordt het in dit soort situaties (voor een "Bestaand" gebouw is een vergunning verleend voor verbouw, voor een "Bestaande" weg bestaat het ontwerp voor uitbreiding) in het informatiemodel voor de SOR mogelijk gemaakt dat op dezelfde locatie een tweede object (bijvoorbeeld gebouw of verblijfsobject of wegvak) wordt geregistreerd. Deze werkwijze komt overeen met de huidige werkwijze voor plantopografie binnen IMGeo. Dit nieuw object wordt wel gerelateerd (filiatie) aan het bestaande object waarop het plan betrekking heeft (en vice versa). De registratie van dit tweede object geschiedt verder alsof sprake is van een nieuwbouwsituatie. Echter zodra dit object gericht op een verbouwing ook daadwerkelijk de fase "Bestaand" bereikt, wordt het nieuw opgevoerde object "beëindigd" en wordt de feitelijk situatie weer opgenomen in de tijdlijn geldigheid van het oorspronkelijke object dat vanaf dat moment daadwerkelijk in verbouw is (status "In aanbouw"). Het gerelateerde object dat is gebruikt voor de registratie van deze "planfase" wordt beëindigd en blijft door de relatie vindbaar vanuit het hoofdobject om de informatie over deze planfase te kunnen blijven raadplegen. Deze filiatie in het kader van "twee levensfasen op hetzelfde moment" is overigens de enige vorm van filiatie die in de SOR wordt opgenomen.
 
+<aside class='example'>
+Enkele voorbeelden ter illustratie:
 
+Bij een “kleine” verbouwing (wel met vergunning) is een afzonderlijk gerelateerd "planobject" niet nodig. De cyclus van levensfase kan gewoon zijn:
 
+        Bestaand – verbouw gepland – bestaand
+
+Immers de definitie van “verbouw gepland” laat zien dat de verbouwing nog niet is afgerond, maar betekent tevens dat het object nog wel geschikt is voor gebruik. Bijvoorbeeld er is een vergunning verleend voor de verbouw van een woning, terwijl tijdens deze verbouwing men gewoon blijft wonen in deze woning.
+
+Als er sprake is van een “grotere” verbouwing dan zal er een periode zijn dat het object niet meer geschikt is voor gebruik. In die situatie zou je dan hebben:
+
+        Bestaand – verbouw gepland – in aanbouw  – bestaand
+
+Deze wijze van registratie is bijvoorbeeld aan de orde wanneer de nieuwe “bestaande situatie” een duidelijk voortzetting is van de oorspronkelijke situatie, zoals een kantoor dat wordt gestript, gemoderniseerd en weer als kantoor in gebruik wordt genomen.
+
+De SOR registreert alleen een extra gerelateerde "planobject", wanneer de nieuwe bestaande situatie echt afwijkend is (bijvoorbeeld ander gebruiksdoel en/of andere typering en/of sterk afwijkende geometrie).
+
+Dit "planobject" kan bijvoorbeeld worden opgevoerd met de status “Ontwerp”. Op dat moment gebeurt er nog niets met het oorspronkelijke object in de registratie. Alleen wordt het "planobject" wel gerelateerd aan het bestaande object.
+
+Wanneer het "planobject" de status “Bouw gepland” krijgt, krijgt het gerelateerde bestaande object de status “Verbouw gepland”. Daarmee is helder dat het bestaande object nog steeds geschikt is voor gebruik (en dus mogelijk in gebruik is) volgens oorspronkelijke functie. Zodra met de verbouw wordt begonnen en het bestaande object niet meer geschikt is voor gebruik (volgens de oorspronkelijke functie), wordt het gerelateerde "planobject" beëindigd en krijgt het bestaande object de status “In aanbouw”. Gezien de definitie van “In aanbouw” betekent deze status mogelijk ook "in verbouw". Dat is in dit geval de situatie, zoals bijvoorbeeld kan worden afgeleid uit het bouwjaar dat ver terug ligt in het verleden.
+</aside>
 
 
 
