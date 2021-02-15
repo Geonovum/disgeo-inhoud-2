@@ -754,7 +754,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 | Naam  | Oever |
 |---|---|
-| Definitie | Functionele ruimte die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn|
+| Definitie | Gebied op de grens van water en land waar het dynamisch samenspel van land en water plaatsvindt, lopend van waterpeil tot insteek|
 |Herkomst definitie  | BGT 1.2     |
 |Verplicht  | Ja  |
 |Gevolgen afbakening|Het betreft hier de bestaande populatie *oever, slootkant* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -1065,11 +1065,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 | Naam  | Kering |
 |---|---|
-| Definitie | Functionele ruimte die een voorziening met kerende functie betreft|
+| Definitie | Ruimte met een kerende functie|
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
 |Gevolgen afbakening|Het betreft hier de bestaande populatie functioneel gebied type kering zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|   |
+|Toelichting| Een waterkerende en / of scheidende, kunstmatige of natuurlijke hoogte of hooggelegen gronden inclusief de daarin aanwezige waterkerende elementen.  |
 
 **Eigenschappen**
 

@@ -5,18 +5,24 @@
 ### Oppervlaktewater
 
 
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
+
+*Definitie**
+
+| Naam  | Oppervlaktewater  |
+|---|---|
+| Definitie |Oppervlak permanent bedekt met water of waarvan wordt geaccepteerd dat deze met water bedekt kan worden|
 
 #### Watervlakte
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
- 
 
 **Definitie**
 
 | Naam  | Watervlakte  |
 |---|---|
-| Definitie | Verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat|
-|Herkomst definitie  | AQUO lex    |
+| Definitie | Een niet langgerekte verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat|
+|Herkomst definitie  |   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *watervlakte* en *zee* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
@@ -28,7 +34,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Identificatie   |Unieke aanduiding van een watervlakte|Ja |
 |Geometrie|Geometrische representatie van een watervlakte|Ja (2,5D vlak)|
 |Type watervlakte|Aanduiding van het soort watervlakte|Nee|
-|Categorie | Geeft het belang van een watervlakte aan|
+|Categorie | Geeft het belang van een watervlakte aan|Ja|
 |Status   | Fase van de levenscyclus waarin een watervlakte zich bevindt|Ja   |
 
 
@@ -83,7 +89,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 |Geometrie|Geometrische representatie van een waterloop|Ja (2,5D vlak)|
 |Type waterloop|Aanduiding van het soort waterloop|Nee|
 |Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
-|Categorie | Geeft het belang van een waterloop aan|
+|Categorie | Geeft het belang van een waterloop aan|Ja|
 |Status   |  Fase van de levenscyclus waarin een waterloop zich bevindt|Ja   |
 
 
@@ -1097,7 +1103,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 | Naam  |Kunstwerkdeel  |
 |---|---|
-| Definitie |  Kunstwerk dat een onderdeel van een civieltechnisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen betreft|
+| Definitie |  Onderdeel van een civieltechnisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen |
 |Herkomst definitie  | BGT 1.2  |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -1151,7 +1157,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 | Naam  | Ondertunneling  |
 |---|---|
-| Definitie | Kunstwerk dat een ondergrondse of onder water gelegen verbinding tussen twee punten, aan beide einden voorzien van een open bakconstructie betreft|
+| Definitie | Ondergrondse of onder water gelegen verbinding tussen twee punten, aan beide einden voorzien van een open bakconstructie.|
 |Herkomst definitie  | nieuw |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *tunneldelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En van *kunstwerkdelen van Type duiker* indien opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie|
@@ -1203,7 +1209,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 | Naam  | Waterstaatkundig kunstwerk |
 |---|---|
-| Definitie | Kunstwerk dat kerende functie heeft|
+| Definitie | Kunstwerk voor de beheersing van het oppervlaktewater en alles wat daarin voorkomt|
 |Herkomst definitie  | nieuw  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie zoals deze is opgenomen in de basisregistratie grootschalige topografie|
