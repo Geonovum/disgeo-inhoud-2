@@ -500,6 +500,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 | Wegverbinding|Openbare ruimte die behoort bij één wegverbinding of bij meerdere wegverbindingen met de tussenliggende knopen|
 | Waterverbinding |Openbare ruimte die behoort bij één waterverbinding of bij meerdere waterverbindingen met de tussenliggende knopen|
 
+De wijze waarop de relatie zal worden gelegd met waterverbindingen zal in een latere fase nog precies worden uitgewerkt
+
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd

@@ -857,6 +857,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |---|---|---|
 |Hoort bij|Verblijfsobject|Ja|
 |Hoort bij|Gebouw|Ja|
+|Hoort bij 2 (loopbrug) Gebouw|Ja|
 
 **Domeinwaarden**
 
@@ -866,9 +867,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 | Waarde Aard| Beschrijving   |
 |---|---|
 |Dakkapel |Uitbouw van het schuine dakvlak|
-|Afdak|Constructie aangebracht  en vast verbondenaan de gevel van een pand, gericht op beschutting tegen weersinvloeden |
+|Afdak|Constructie aangebracht  en vast verbonden aan de gevel van een pand, gericht op beschutting tegen weersinvloeden |
 |Bordes|Verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers|
 |Toegangstrap|Buiten de gevel geplaatste trapconstructie die toegang biedt tot een gebouw en vast verbonden is met dat gebouw|
+|Laadperron	|Tegen het gebouw aangebrachte constructie die is bedoeld voor het kunnen laden en lossen van voertuigen|
+|Loopbrug	|Constructie bedoeld voor het op hoogte verbinden van twee bij elkaar liggende gebouwen zodat een oversteek van het ene naar het andere gebouw kan plaatsvinden|
+
 
 Voorbeelden van een afdak zijn: luifels en carports (die vast verbonden zijn met de gevel van een pand). Een afdak kan gedeeltelijk rusten op kolommen. Deze kolommen zijn dan echter uitsluitend ondersteunend aan de hangende hoofdconstructie.
 

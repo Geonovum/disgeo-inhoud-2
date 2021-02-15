@@ -417,7 +417,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Type|Categorisering van het feitelijke gebruik dat van een gebouwzone wordt gemaakt|Ja|
 |Aard|Aanduiding van de fysieke constructie waarin een gebouwzone zich bevindt|Ja|
 |Gebruiksopppervlakte|Gebruiksoppervlakte van een gebouwzone|Ja|
-|Kwaliteitsindicatie|Aanduiding van de kwalitatieve staat waarin een gebouwzone zich bevindt|NTB|
 |Status   |Fase van de levenscyclus waarin een gebouwzone zich bevindt   |Ja   |
 
 
@@ -455,13 +454,6 @@ Voor de nummering van de bouwlaag geldt:
 |Uitbouw |Gebouwzone betreft een later aanbouw (niet zijnde een serre) of opbouw ten opzichte van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
 |Serre |Gebouwzone betreft een serre die al dan geen onderdeel uitmaakt van de oorspronkelijke constructie van het gebouw waarin de gebouwzone is gelegen|
 
-
-
-*kwaliteitsindicatie* 
-
-| Waarde Kwaliteitsindicatie| Beschrijving   |
-|---|---|
-|  | |
 
 *Gebruiksoppervlakte*
 
