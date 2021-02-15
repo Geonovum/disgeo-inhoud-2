@@ -745,40 +745,39 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde type | Beschrijving|
 |---|---|
-| 	speeltuin|Geheel van begroeiing, verharding, opstallen en speelwerktuigen, bedoeld als speelplaats voor kinderen|
-| 	park|Landschappelijk ingericht terrein, begroeid met houtachtige en kruidachtige vegetatie, verharding, objecten, waterpartijen en dergelijke, bedoeld als (grootschalige) recreatieve voorziening|
-| 	sportterrein|Terrein, mogelijk met groenvoorziening, verharding en bebouwing, bestemd voor sportbeoefening|
-| 	camping|Geheel van verharding, begroeiing en opstallen, in gebruik als terrein waar tijdelijk tenten en/of caravans kunnen worden geplaatst ten behoeve van recreatie|
-| 	bungalowpark|Geheel van verharding, begroeiing, overige opstallen en gebouwen, bedoeld als vakantie-/weekendhuisjes die niet permanent bewoond worden|
-| 	volkstuin|Terreingedeelte in gebruik als volkstuinen, inclusief bebouwing, verharding en dergelijke| 
-
+| 	speeltuin|Geheel van speelwerktuigen, begroeiing, verharding en gebouwen, bedoeld als speelplaats voor kinderen|
+| 	park|Landschappelijk ingericht terrein, met begroeiing, verharding, water en gebouwen, bedoeld als recreatieve voorziening|
+| 	sportterrein|Geheel van begroeiing, verharding en gebouwen bestemd voor sportbeoefening|
+| 	camping|Geheel van begroeiing, verharding en gebouwen, bedoeld voor tijdelijk verblijf in kampeermiddel|
+| 	bungalowpark|Geheel van begroeiing, verharding en gebouwen, bedoeld voor niet-permanente bewoning|
+| 	volkstuin|Geheel van begroeiing, verharding en gebouwen in gebruik als particuliere tuinen die niet bij de woning liggen | 
 
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-#### Oeverzone
+#### Oever
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
 
 **Definitie**
 
-| Naam  | Oeverzone  |
+| Naam  | Oever |
 |---|---|
 | Definitie | Functionele ruimte die in direct contact staat met water, inclusief het gebied tussen de hoogwaterlijn en laagwaterlijn|
 |Herkomst definitie  | BGT 1.2     |
 |Verplicht  | Ja  |
 |Gevolgen afbakening|Het betreft hier de bestaande populatie *oever, slootkant* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Slootkant is een oeverzone|
+|Toelichting| Slootkant is een oever|
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een oeverzone|Ja |
-|Geometrie|De geometrische representatie van een oeverzone|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een oeverzone zich bevindt|Ja   |
+|Identificatie   |De unieke aanduiding van een oever|Ja |
+|Geometrie|De geometrische representatie van een oever|Ja (2D vlak)|
+|Status   | De fase van de levenscyclus waarin een oever zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -821,12 +820,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type complex| Beschrijving   |
 |---|---|
-|gemaalcomplex|Alle bij een gemaal behorende gronden, inrichtingen en bouwwerken|
-|sluiscomplex|Alle bij een sluis behorende gronden, inrichtingen en bouwwerken|
-|stuwcomplex|Alle bij een stuw behorende gronden, inrichtingen en bouwwerken|
-|coupurecomplex|Alle bij een coupure behorende gronden, inrichtingen en bouwwerken|
-|aanleg- en overslagcomplex|Alle bij een haven behorende gronden, inrichtingen en bouwwerken |
-|zuiveringscomplex |Geheel van objecten tezamen dat ervoor zorgt dat drinkwater gezuiverd wordt, van organische en chemische stoffen die uit oogpunt van gezondheid en smaak ongewenst zijn ten behoeve van grond- en oppervlaktewater|
+|gemaalcomplex|Alle bij een gemaal behorend water, begroeiing, verharding en gebouwen|
+|sluiscomplex|Alle bij een sluis behorend water, begroeiing, verharding en gebouwen|
+|stuwcomplex|Alle bij een stuw behorend water, begroeiing, verharding en gebouwen|
+|coupurecomplex|Alle bij een coupure behorende begroeiing, verharding en gebouwen|
+|havencomplex|Alle bij een haven behorend water, begroeiing, verharding en gebouwen|
+|zuiveringscomplex |Geheel van gebouwen, constructies, verharding en begroeiing dat ervoor zorgt dat drinkwater gezuiverd wordt|
 
 
 
@@ -843,10 +842,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 | Naam  | Oppervlaktewaterlichaam  |
 |---|---|
-| Definitie | Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater, met de daarin aanwezige stoffen, doorheen kan stromen|
-|Herkomst definitie  |    |
+| Definitie | Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater doorheen kan stromen|
+|Herkomst definitie  |  Nieuw  |
 |Verplicht  | Nee|
-|Gevolgen afbakening|Het bestaat (ruimtelijk) uit de optelling van de oeverzone en het oppervlaktewater|
+|Gevolgen afbakening|Het bestaat (ruimtelijk) uit de optelling van de oever en het oppervlaktewater|
 |Toelichting| |
 
 **Eigenschappen**
@@ -1007,34 +1006,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-#### Aanleg- en overslag zone
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
-
-**Definitie**
-
-| Naam  | Aanleg- en overslag zone |
-|---|---|
-| Definitie |Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor beroepsmatige aanleg van schepen, niet zijnde woonschepen, en overslag|
-|Herkomst definitie  |    |
-|Verplicht  | Nee|
-|Gevolgen afbakening||
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een aanleg en overslag zone|Ja |
-|Geometrie|De geometrische representatie van een aanleg en overslag zone|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een aanleg en overslag zone zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
-
-
 #### Watersportzone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
@@ -1095,14 +1066,9 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-
-
-
-### Overige functionele zoneringen
-
 #### Kering
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
 
  
 
@@ -1113,7 +1079,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 | Definitie | Functionele ruimte die een voorziening met kerende functie betreft|
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
-|Gevolgen afbakening||
+|Gevolgen afbakening|Het betreft hier de bestaande populatie functioneel gebied type kering zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|   |
 
 **Eigenschappen**
@@ -1121,7 +1087,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Kering|Ja |
-|Geometrie|De geometrische representatie van de kerende voorziening|Ja (lijn, vlak)|
+|Geometrie|De geometrische representatie van de kerende voorziening|Ja (lijn, 2D-vlak)|
 |Type kering|Categorisering van de verschillende type keringen|Ja|
 |Status   | De fase van de levenscyclus waarin de kerende voorziening zich bevindt|Ja   |
 
@@ -1154,8 +1120,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 | Definitie |Functionele ruimte die een voorziening betreft om bepaalde effecten van omgevingsfactoren te verminderen|
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
-|Gevolgen afbakening||
-|Toelichting| *volgt later*  |
+|Gevolgen afbakening|Het betreft hier de functionele vertaling van de bestaande populatie scheiding type geluidscherm zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|  |
 
 **Eigenschappen**
 
@@ -1197,8 +1163,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 | Definitie |Functionele ruimte die een voorziening betreft om vallen te voorkomen|
 |Herkomst definitie  |nieuw|
 |Verplicht  | nee  |
-|Gevolgen afbakening||
-|Toelichting| *volgt later*  |
+|Gevolgen afbakening| Het betreft hier de functionele vertaling van de bestaande populatie weginrichtings-element type balustrade zoals deze is opgenomen in de basisregistratie grootschalige topografie |
+|Toelichting|  |
 
 **Eigenschappen**
 
@@ -1231,8 +1197,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 | Definitie |Functionele ruimte die een voorziening betreft om terrein af te scheiden|
 |Herkomst definitie  |nieuw|
 |Verplicht  | nee  |
-|Gevolgen afbakening||
-|Toelichting| *volgt later*  |
+|Gevolgen afbakening|Het betreft hier de functionele vertaling van de bestaande populatie scheiding type muur, hek en raster zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|   |
 
 **Eigenschappen**
 
