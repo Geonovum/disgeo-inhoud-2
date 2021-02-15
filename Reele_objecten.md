@@ -857,7 +857,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |---|---|---|
 |Hoort bij|Verblijfsobject|Ja|
 |Hoort bij|Gebouw|Ja|
-|Hoort bij 2 (loopbrug) Gebouw|Ja|
+|Hoort bij 2 (loopbrug) | Gebouw|Ja|
 
 **Domeinwaarden**
 
