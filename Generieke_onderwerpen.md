@@ -315,20 +315,6 @@ Voor ISO19125 zie: https://www.iso.org/standard/40114.html
 
 
 
-<div class='note'>
-    **De tekst over relatieve hoogte wordt waarschijnlijk verwijderd** 
-
-    #### Relatieve hoogte
-
-    In een situatie waarin alle objecten een 3D-geometrie hebben is relatieve hoogte van objecten niet meer noodzakelijk. In de SOR zijn echter 2D-geometrieën verplicht en zijn 3D-geometrieën vrijwillig.
-
-    Objecten kunnen elkaar in verticale zin overlappen in de ruimte. Daarvoor zijn afspraken nodig over op welke wijze deze verticale informatie in de gegevensverzameling wordt vastgelegd.
-
-    **Niveauaanduidingen per object**
-
-    Het is noodzakelijk om de relatieve hoogteligging van objecten ten opzichte van elkaar vast te leggen. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op de referentielaag bevindt (niveau 0) of op een onder- of bovenliggend niveau. Het niveau wordt vastgelegd met het attribuut ‘relatieveHoogteligging’. Het niveaugetal geeft geen informatie over de absolute hoogte van een object.
-</div>
-
 #### Lineair referencing
 
 De Lineair Referencing Methode (LRM) gebruiken we om het lokaliseren van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van het netwerk te verstoren door verder op te knippen. Dus een methode waarbij administratief wordt aangegeven vanwaar een verandering geldt: bv. vanaf 200 meter van af start verbinding geldt een toegestane snelheid van 70 km/h. 

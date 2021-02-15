@@ -1,10 +1,11 @@
 ## Functionele ruimten
  
- <div class='note'>
-    De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
-</div>
 
 ### Transportruimten
+
+ <div class='note'>
+    Op dit moment zijn de transportruimten WEG en SPOORWEG uitgewerkt. Er is nog onvoldoende duidelijkheid over transport van en over water. Deze zijn in dit document niet opgenomen maar kunnen hier later mogelijk aan worden toegevoegd conform de algemene principes over netwerken.
+</div>
 
  
 #### Weg
@@ -474,10 +475,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Functionele zoneringen
 
-<div class='note'>
-    Functionele zoneringen worden op een later moment gecompleteerd met functionele zones uit BRT.Next.
-</div>
-
 
 #### Verkeerskundig functionele zone
 
@@ -498,7 +495,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van een verkeerskundig functionele zone|Ja |
-|Geometrie |De geometrische representatie van de randen van een verkeerskundig functionele zone|Ja (2D vlak)|
+|Geometrie |De geometrische representatie van een verkeerskundig functionele zone|Ja (2D vlak)|
 |Type |Categorisering van de verschillende verkeerskundig functionele zones| Ja|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin een verkeerskundig functionele zone zich bevindt|Ja  |
@@ -556,7 +553,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Spoorzone|Ja |
-|Geometrie |De geometrische representatie van de randen van een spoorzone|Ja (2D vlak) |
+|Geometrie |De geometrische representatie van een spoorzone|Ja (2D vlak) |
 |Type| Categorisering van verschillende soorten spoorzones|Ja|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin een spoorzone zich bevindt|Ja   |
@@ -608,7 +605,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte "
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Wegzone|Ja |
-|Geometrie |De geometrische representatie van de randen van een wegzone|Ja (2D vlak) |
+|Geometrie |De geometrische representatie van een wegzone|Ja (2D vlak) |
 |Type | Categorisering van verschillende soorten wegzones| Ja|
 |Status   |De fase van de levenscyclus waarin een wegzone zich bevindt|Ja   |
 
@@ -660,7 +657,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Luchtvaartzone|Ja |
-|Geometrie |De geometrische representatie van de randen van een luchtvaartzone|Ja (2D vlak)|
+|Geometrie |De geometrische representatie van een luchtvaartzone|Ja (2D vlak)|
 |Type| Categorisering van soort luchtvaartzone| Ja|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin een luchtvaartzone zich bevindt|Ja   |
@@ -701,7 +698,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Begraafplaats|Ja |
-|Geometrie|De geometrische representatie van de randen van een begraafplaats|Ja (2D vlak)|
+|Geometrie|De geometrische representatie van een begraafplaats|Ja (2D vlak)|
 |Status   |  De fase van de levenscyclus waarin de begraafplaats zich bevindt|Ja   |
 
 
@@ -805,7 +802,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Complex|Ja |
-|Geometrie|De geometrische representatie van de randen van een complex|ja (2D vlak)|
+|Geometrie|De geometrische representatie van een complex|ja (2D vlak)|
 |Type complex|Categorisering van de verschillende complexen|ja|
 |Naam|Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   | De fase van de levenscyclus waarin een complex zich bevindt|Ja   |

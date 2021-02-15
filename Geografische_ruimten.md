@@ -1,10 +1,5 @@
 ## Geografische ruimten
 
- <div class='note'>
-    De typering is in deze fase van het traject vooral bedoeld om een eerste indruk te geven van de richting waarin de inhoud van de samenhangende objectenregistratie zich beweegt. Typeringen kunnen nog wijzigen in het nog op te stellen informatiemodel van de samenhangende objectenregistratie.
-</div>
-
-
 
 ### Bebouwingskern
 
