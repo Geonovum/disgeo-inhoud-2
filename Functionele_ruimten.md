@@ -470,13 +470,13 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Verkeerskundig functionele zone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
 
 **Definitie**
 
 | Naam  | Verkeerskundig functionele zone |
 |---|---|
-| Definitie | Transportruimte die een verkeerskundige functie kent|
+| Definitie | Functionele ruimte die een verkeerskundige functie kent|
 |Herkomst definitie  | nieuw |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier deels de bestaande populaties van de verschillende typeringen zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
@@ -515,25 +515,73 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
 | Snellaadstation |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd|
 |Overstapplaats	|Voorziening waar men kan overstappen tussen modaliteiten of netwerken|
 |Tolplaats	| Geheel van installaties, verharding en gebouwen waar betaald moet worden voor toegang tot de weg|
+| Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer|
 
-
-
-
+Toelichting: Nog bekeken wordt hoe snellaadstation als een subtype van tankstation gepositioneerd wordt.
 
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
+#### Wegzone
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
+
+**Definitie**
+
+| Naam  | Wegzone  |
+|---|---|
+| Definitie | Functionele ruimte die in gebruik is voor weginrichting|
+|Herkomst definitie  | nieuw |
+|Verplicht  | Ja (deels)  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type wegzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |De unieke aanduiding van Wegzone|Ja |
+|Geometrie |De geometrische representatie van een wegzone|Ja (2D vlak) |
+|Type | Categorisering van verschillende soorten wegzones| Ja|
+|Status   |De fase van de levenscyclus waarin een wegzone zich bevindt|Ja   |
+
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|hyperverbinding |wegverbinding |ja|
+|hyperverbinding |knoop |ja|
+
+
+**Domeinwaarden**
+
+
+*Type*
+
+|Waarde type	|Beschrijving|
+|---|---|
+| Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden|
+| Berm | Strook grond langs een weg of spoorweg bedoeld voor het uitwijken van voertuigen, het scheiden van verkeerstromen, het plaatsen van verkeersondersteunend meubiliar, afwatering en/of het verbinden van zones met ecologische infrastructurele waarden|
+| Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden| 
+| Wildrooster | Horizontaal raamwerk dat dient om wild de doorgang te beletten|
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+
 #### Spoorzone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
 
 **Definitie**
 
 | Naam  | Spoorzone |
 |---|---|
-| Definitie | Spoorverkeerruimte die in gebruik is voor spoorwegen|
+| Definitie | Functionele ruimte die in gebruik is voor spoorwegen|
 |Herkomst definitie  | nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type spoorzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
@@ -563,7 +611,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 **Domeinwaarden**
 
 
-
 *Type*
 
 | Waarde type	|Beschrijving|
@@ -578,66 +625,16 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-#### Wegzone
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte "
-
-**Definitie**
-
-| Naam  | Wegzone  |
-|---|---|
-| Definitie | Wegverkeerruimte die in gebruik is voor weginrichting|
-|Herkomst definitie  | nieuw |
-|Verplicht  | Ja (deels)  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type wegzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van Wegzone|Ja |
-|Geometrie |De geometrische representatie van een wegzone|Ja (2D vlak) |
-|Type | Categorisering van verschillende soorten wegzones| Ja|
-|Status   |De fase van de levenscyclus waarin een wegzone zich bevindt|Ja   |
-
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|hyperverbinding |wegverbinding |ja|
-|hyperverbinding |knoop |ja|
-
-
-**Domeinwaarden**
-
-
-
-
-*type*
-
-|Waarde type	|Beschrijving|
-|---|---|
-| Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden|
-| Berm | Strook grond langs een weg of spoorweg bedoeld voor het uitwijken van voertuigen, het scheiden van verkeerstromen, het plaatsen van verkeersondersteunend meubiliar, afwatering en/of het verbinden van zones met ecologische infrastructurele waarden|
-| Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer|
-| Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden| 
-| Wildrooster | Horizontaal raamwerk dat dient om wild de doorgang te beletten|
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Luchtvaartzone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Transportruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
 
 **Definitie**
 
 | Naam  | Luchtvaartzone |
 |---|---|
-| Definitie | Transportruimte die in gebruik is voor luchtvaart|
+| Definitie | Functionele ruimte die in gebruik is voor luchtvaart|
 |Herkomst definitie  | nieuw|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type luchtvaartzones zoals deze zijn opgenomen in de basisregistratie (grootschalige) topografie|
@@ -673,13 +670,13 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Begraafplaats
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
 
 **Definitie**
 
 | Naam  | Begraafplaats |
 |---|---|
-| Definitie |Besloten functionele ruimte waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard|
+| Definitie |Besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen van gecremeerde lichamen bewaard.|
 |Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier deels de bestaande populatie *begraafplaats*  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -691,6 +688,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |---|---|---|
 |Identificatie   |De unieke aanduiding van Begraafplaats|Ja |
 |Geometrie|De geometrische representatie van een begraafplaats|Ja (2D vlak)|
+|Naam	|Breed geaccepteerde benaming van een begraafplaats zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat	|Nee|
 |Status   |  De fase van de levenscyclus waarin de begraafplaats zich bevindt|Ja   |
 
 
@@ -723,7 +721,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Geometrie |De geometrische representatie van een recreatiezone|Ja (2D vlak)|
 |Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Type|Categorisering van de verschillende soorten zones|Ja| 
-|Status   |De fase van de levenscyclus waarin een recreatiezonezich bevindt|Ja   |
+|Status   |De fase van de levenscyclus waarin een recreatiezone zich bevindt|Ja   |
 
 
 **Domeinwaarden**
@@ -783,7 +781,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 | Naam  | Complex  |
 |---|---|
-| Definitie |  Functionele ruimte die een verzameling van één of meer bouwwerken, gronden en inrichtingen betreft die samen een functionele eenheid vormen, en die een aantal voorzieningen kunnen delen|
+| Definitie |  Functionele ruimte die een verzameling van één of meer gebouwen, constructies, verharding, water en begroeiing betreft die samen een eenheid vormen|
 |Herkomst definitie  |  nieuw   |
 |Verplicht  | Ja  |
 |Gevolgen afbakening||
@@ -804,7 +802,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 **Domeinwaarden**
 
 
-
 *Type complex*
 
 |Waarde Type complex| Beschrijving   |
@@ -822,236 +819,114 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-
-#### Oppervlaktewaterlichaam
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+#### Infrastructureel waterstaatswerk
 
 **Definitie**
 
-| Naam  | Oppervlaktewaterlichaam  |
-|---|---|
-| Definitie | Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater doorheen kan stromen|
-|Herkomst definitie  |  Nieuw  |
-|Verplicht  | Nee|
-|Gevolgen afbakening|Het bestaat (ruimtelijk) uit de optelling van de oever en het oppervlaktewater|
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een oppervlaktewaterlichaam|Ja |
-|Geometrie|De geometrische representatie van een oppervlaktewaterlichaam|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een oppervlaktewaterlichaam zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
-
-
-#### Beheerzone water kwantiteit
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
-
-**Definitie**
-
-| Naam  | Beheerzone water kwantiteit  |
-|---|---|
-| Definitie | Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om de hoeveelheid oppervlaktewater te reguleren|
-|Herkomst definitie  |    |
-|Verplicht  | Ja|
-|Gevolgen afbakening||
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een beheerzone water kwantiteit|Ja |
-|Geometrie|De geometrische representatie van een beheerzone water kwantiteit|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een beheerzone water kwantiteit zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
-
-#### Beheerzone water kwaliteit
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
-
-**Definitie**
-
-| Naam  | Beheerzone water kwaliteit  |
-|---|---|
-| Definitie | Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om  de kwaliteit van het oppervlaktewater in orde te houden|
-|Herkomst definitie  |    |
-|Verplicht  | Ja|
-|Gevolgen afbakening||
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een beheerzone water kwaliteit|Ja |
-|Geometrie|De geometrische representatie van een beheerzone water kwaliteit|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een beheerzone water kwaliteit zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
-
-
-#### Infrastuctureel waterstaatkundig werk
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
-
-**Definitie**
-
-| Naam  | Infrastuctureel waterstaatkundig werk  |
+| Naam  | Infrastructureel waterstaatswerk |
 |---|---|
 | Definitie |Gebied gelegen langs en/of op oppervlaktewater, primair in gebruik en beheer voor de oppervlaktewaterhuishouding (waterafvoer, wateraanvoer en waterconservering) óf een gebied gelegen langs en/of op een waterkering|
-|Herkomst definitie  |    |
-|Verplicht  | Nee|
+|Herkomst definitie  ||
+|Verplicht  | Nee |
 |Gevolgen afbakening||
-|Toelichting| |
+|Toelichting|   |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een infrastuctureel waterstaatkundig werk|Ja |
-|Geometrie|De geometrische representatie van een infrastuctureel waterstaatkundig werk|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een infrastuctureel waterstaatkundig werk zich bevindt|Ja   |
+|Identificatie   |De unieke aanduiding van een infrastructureel waterstaatswerk|Ja |
+|Geometrie|De geometrische representatie van een infrastructureel waterstaatswerk|Ja (lijn, 2D-vlak)|
+|Type |Typering van een infrastructureel waterstaatswerk |Ja|
+|Status   | De fase van de levenscyclus waarin een infrastructureel waterstaatswerk zich bevindt|Ja   |
 
 **Domeinwaarden**
+
+*Type*
+
+|Waarde Type | Beschrijving   | Verplicht|
+|---|---|---|
+|Oppervlaktewaterlichaam| Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater doorheen kan stromen |Nee|
+|Waterbergingsgebied |Gebied, niet zijnde een oppervlaktewaterlichaam of onderdeel daarvan, dat dient ter verruiming van de bergingscapaciteit van een of meer watersystemen  |Nee|
+|Golfbrekend voorland|Gebied aansluitend aan de buitenzijde van een waterkering, wat de waterkering beschermt tegen golven   |Nee|
+
+
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-#### Golfbrekend voorland
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+### Gebruiksgebied oppervlaktewater
 
 **Definitie**
 
-| Naam  | Golfbrekend voorland  |
+| Naam  | Gebruiksgebied oppervlaktewater |
 |---|---|
-| Definitie |Gebied aansluitend aan de buitenzijde van een waterkering, wat de waterkering beschermt tegen golven|
-|Herkomst definitie  |    |
-|Verplicht  | Nee|
+| Definitie | Begrensd en benoemd oppervlaktewatergebied dat een bepaald gebruik kent.|
+|Herkomst definitie  ||
+|Verplicht  | Nee |
 |Gevolgen afbakening||
-|Toelichting| |
+|Toelichting|   |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een golfbrekend voorland|Ja |
-|Geometrie|De geometrische representatie van een golfbrekend voorland|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een golfbrekend voorland zich bevindt|Ja   |
+|Identificatie   |De unieke aanduiding van een gebruiksgebied oppervlaktewater|Ja |
+|Geometrie|De geometrische representatie van een gebruiksgebied oppervlaktewater|Ja (lijn, 2D-vlak)|
+|Type |Typering van een gebruiksgebied oppervlaktewater |Ja|
+|Status   | De fase van de levenscyclus waarin een gebruiksgebied oppervlaktewater zich bevindt|Ja   |
 
 **Domeinwaarden**
+
+*Type*
+
+|Waarde Type | Beschrijving   | Verplicht|
+|---|---|---|
+|Watersport zone| Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport |Nee|
+|Vaarwegzone| Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor transport middels scheepvaart |Nee|
+|Visserij zone|egrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor visserij  |Nee|
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-#### Vaarwegzone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+### Beheergebied oppervlaktewater
 
 **Definitie**
 
-| Naam  | Vaarwegzone |
+| Naam  | Beheergebied oppervlaktewater |
 |---|---|
-| Definitie |Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor transport middels scheepvaart|
-|Herkomst definitie  |    |
-|Verplicht  | Nee|
+| Definitie | Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om het oppervlaktewater te laten voldoen aan de beoogde toestand|
+|Herkomst definitie  ||
+|Verplicht  | Nee |
 |Gevolgen afbakening||
-|Toelichting| |
+|Toelichting|   |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een vaarwegzone|Ja |
-|Geometrie|De geometrische representatie van een vaarwegzone|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een vaarwegzone zich bevindt|Ja   |
+|Identificatie   |De unieke aanduiding van een beheergebied oppervlaktewater|Ja |
+|Geometrie|De geometrische representatie van een beheergebied oppervlaktewater|Ja (lijn, 2D-vlak)|
+|Type |Typering van een beheergebied oppervlaktewater |Ja|
+|Status   | De fase van de levenscyclus waarin een beheergebied oppervlaktewater zich bevindt|Ja   |
 
 **Domeinwaarden**
 
-*Status*
+*Type*
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
-
-
-#### Watersportzone
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
-
-**Definitie**
-
-| Naam  | Watersportzone |
-|---|---|
-| Definitie |Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport|
-|Herkomst definitie  |    |
-|Verplicht  | Nee|
-|Gevolgen afbakening||
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
+|Waarde Type | Beschrijving   | Verplicht|
 |---|---|---|
-|Identificatie   |De unieke aanduiding van een watersportzone|Ja |
-|Geometrie|De geometrische representatie van een watersportzone|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een watersportzone zich bevindt|Ja   |
-
-**Domeinwaarden**
+|Beheergebied waterkwantiteit| Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om de hoeveelheid oppervlaktewater te reguleren |Nee|
+|Beheergebied waterkwaliteit| Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om  de kwaliteit van het oppervlaktewater in orde te houden |Nee|
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
-
-
-#### Visserijzone
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
-
-**Definitie**
-
-| Naam  | Visserijzone |
-|---|---|
-| Definitie |Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor visserij|
-|Herkomst definitie  |    |
-|Verplicht  | Nee|
-|Gevolgen afbakening||
-|Toelichting| |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een visserijzone|Ja |
-|Geometrie|De geometrische representatie van een visserijzone|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een visserijzone zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
-
 
 
 
@@ -1065,7 +940,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 | Naam  | Kering |
 |---|---|
-| Definitie | Ruimte met een kerende functie|
+| Definitie | Voorziening met een kerende functie|
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
 |Gevolgen afbakening|Het betreft hier de bestaande populatie functioneel gebied type kering zoals deze is opgenomen in de basisregistratie grootschalige topografie|
