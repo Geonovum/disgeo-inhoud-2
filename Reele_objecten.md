@@ -15,7 +15,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 
 #### Watervlakte
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
+Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 **Definitie**
 
@@ -67,7 +67,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Waterloop
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
+Dit SOR-begrip is een nader type van Oppervlaktewater.
 
  
 
@@ -122,7 +122,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Bron
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
+Dit SOR-begrip is een nader type van Oppervlaktewater.
 
  
 
@@ -160,7 +160,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Getijdengebied
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
+Dit SOR-begrip is een nader type van Oppervlaktewater.
 
  
 
