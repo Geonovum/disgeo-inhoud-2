@@ -857,7 +857,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-### Gebruiksgebied oppervlaktewater
+#### Gebruiksgebied oppervlaktewater
 
 **Definitie**
 
@@ -894,7 +894,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-### Beheergebied oppervlaktewater
+#### Beheergebied oppervlaktewater
 
 **Definitie**
 
