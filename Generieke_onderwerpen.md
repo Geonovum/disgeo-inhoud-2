@@ -593,17 +593,17 @@ Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronh
 
 In een basisregistratie is het van belang om expliciet informatie over de kwaliteit en herkomst van de geregistreerde gegevens vast te leggen. Dit als verantwoording voor het opnemen, wijzigen of beëindigen van één of meer gegevens in de registratie. Gegevens over kwaliteit en herkomst zijn meta-gegevens over de basisgegevens.
 
-Informatie over de herkomst is belangrijk voor een gebruiker om te weten of het gegeven afkomstig is van een bronhouder. Een bronhouder is een bestuursorgaan of rechtspersoon aan wie bij deze wet de verantwoordelijkheid voor het bijhouden van gegevens is opgedragen. Bronhouder dient de gegevens met de bij wet/MR vastgestelde kwaliteitseisen bij te houden. Gegevens kunnen hiermee als authentiek worden aangemerkt, en een gebruiker mag/kan er dan vanuit gaan dat het gegeven juist is. Bij gerede twijfel over de juistheid kan een gebruiker een terugmelding op het gegeven doen, zodat de bronhouder een onderzoek kan starten.
+Informatie over de herkomst is belangrijk voor een gebruiker om te weten of het gegeven afkomstig is van een bronhouder. Een bronhouder is een bestuursorgaan of rechtspersoon aan wie bij deze wet de verantwoordelijkheid voor het bijhouden van gegevens is opgedragen. Bronhouder dient de gegevens met de bij wetgeving vastgestelde kwaliteitseisen bij te houden. Gegevens kunnen hiermee als authentiek worden aangemerkt, en een gebruiker mag/kan er dan vanuit gaan dat het gegeven juist is. Bij gerede twijfel over de juistheid kan een gebruiker een terugmelding op het gegeven doen, zodat de bronhouder een onderzoek kan starten.
 
 Een Plaatsbepalingspunt is een punt dat is ingemeten en vervolgens gebruikt is bij en onderdeel uitmaakt van de begrenzing (geometrie) van reële objecten. Bij een plaatsbepalingspunt worden naast de coördinaten (X,Y,Z) van het ingemeten punt zelf, onder meer gegevens over de nauwkeurigheid, inwinningsdatum en inwinnende instantie (bronhouder/gegevensmuteerder) opgenomen. Van plaatsbepalingspunten worden dus zelf metagegevens over kwaliteit en herkomst vastgelegd. Door andere objecten te relateren aan deze plaatsbepalingspunten wordt ook informatie vastgelegd over kwaliteit en herkomst van de geometrie van die objecten.
 
-Voor plaatsbepalingspunten geldt:
-- Alleen van reële objecten worden plaatsbepalingspunten vastgelegd. 
-- dat ze alleen worden opgenomen van coördinaten die daadwerkelijk ingewonnen zijn middels terreinbezoek (terrestrisch), laserscanning (laser), luchtfoto’s of panoramabeelden.  
-- dat ze alleen worden opgenomen voor reële objecten waarvan de grens in het terrein goed is aan te wijzen (ofwel goed idealiseerbaar). Bij niet-goed idealiseerbare objecten is de ‘startwaarde’ van de nauwkeurigheid namelijk al dusdanig hoog dat het geen zin heeft om hier de onnauwkeurigheid van meting. Uitgangspunt is dat bronhouder deze gegevens binnen een bepaalde nauwkeurigheid inwint.
-- Coördinaten die zijn gegenereerd/afgeleid bijvoorbeeld bij het ‘verstroken’ van een cirkelboog hebben geen plaatsbepalingspunten.
-- Van de toekomstige geometrie (planinformatie) worden geen plaatsbepalingspunten vastgelegd.
-- Functionele, registratieve en geografische ruimten hebben geen plaatsbepalingspunten. 
+Voor plaatsbepalingspunten geldt dat:
+- alleen van reële objecten plaatsbepalingspunten worden vastgelegd. 
+- plaatsbepalingspunten alleen worden opgenomen van coördinaten die daadwerkelijk ingewonnen zijn middels terreinbezoek (terrestrisch), laserscanning (laser), luchtfoto’s of panoramabeelden.  
+- plaatsbepalingspunten alleen worden opgenomen voor reële objecten waarvan de grens in het terrein goed is aan te wijzen (ofwel goed idealiseerbaar). Bij niet-goed idealiseerbare objecten is de ‘startwaarde’ van de nauwkeurigheid namelijk al dusdanig hoog dat het geen zin heeft om hier de onnauwkeurigheid van meting. Uitgangspunt is dat bronhouder deze gegevens binnen een bepaalde nauwkeurigheid inwint.
+- coördinaten die zijn gegenereerd/afgeleid bijvoorbeeld bij het ‘verstroken’ van een cirkelboog  geen plaatsbepalingspunten hebben.
+- van de toekomstige geometrie (planinformatie)  geen plaatsbepalingspunten worden vastgelegd.
+- functionele, registratieve en geografische ruimten  geen plaatsbepalingspunten hebben. 
 
 
 In de SOR worden 
@@ -810,9 +810,9 @@ Als er sprake is van een “grotere” verbouwing dan zal er een periode zijn da
 
         Bestaand – verbouw gepland – in aanbouw  – bestaand
 
-Deze wijze van registratie is bijvoorbeeld aan de orde wanneer de nieuwe “bestaande situatie” een duidelijk voortzetting is van de oorspronkelijke situatie, zoals een kantoor dat wordt gestript, gemoderniseerd en weer als kantoor in gebruik wordt genomen.
+Deze wijze van registratie is bijvoorbeeld aan de orde wanneer de nieuwe “bestaande situatie” een duidelijke voortzetting is van de oorspronkelijke situatie, zoals een kantoor dat wordt gestript, gemoderniseerd en weer als kantoor in gebruik wordt genomen.
 
-De SOR registreert alleen een extra gerelateerde "planobject", wanneer de nieuwe bestaande situatie echt afwijkend is (bijvoorbeeld ander gebruiksdoel en/of andere typering en/of sterk afwijkende geometrie).
+De SOR registreert alleen een extra gerelateerd "planobject", wanneer de nieuwe bestaande situatie echt afwijkend is (bijvoorbeeld ander gebruiksdoel en/of andere typering en/of sterk afwijkende geometrie).
 
 Dit "planobject" kan bijvoorbeeld worden opgevoerd met de status “Ontwerp”. Op dat moment gebeurt er nog niets met het oorspronkelijke object in de registratie. Alleen wordt het "planobject" wel gerelateerd aan het bestaande object.
 
