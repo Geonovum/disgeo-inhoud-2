@@ -1077,16 +1077,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid |
 | overkluizing |Civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelfd, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
 
-*Type beperking*
-
-|Waarde Beperking| Beschrijving   |
-|---|---|
-| doorrijhoogte | Maximale doorrijhoogte tussen het wegdek en de constructie boven het wegdek geldend op een weg, rijbaan of rijstrook (afhankelijk van het type verbinding)|
-| doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van het type verbinding)|
-| toegestane massa|Toegestane massa op een kunstwerk/verharding|
-| toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van het type verbinding)|
-| doorvaarhoogte |Hoogte die beschikbaar is tussen water en de constructies welke boven het water aanwezig zijn|
-
 
 *Status* 
 
