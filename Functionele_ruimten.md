@@ -516,6 +516,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Overstapplaats	|Voorziening waar men kan overstappen tussen modaliteiten of netwerken|
 |Tolplaats	| Geheel van installaties, verharding en gebouwen waar betaald moet worden voor toegang tot de weg|
 | Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer|
+| Woonerf |Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie | 
 
 Toelichting: Nog bekeken wordt hoe snellaadstation als een subtype van tankstation gepositioneerd wordt.
 
@@ -923,10 +924,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |De unieke aanduiding van Kering|Ja |
-|Geometrie|De geometrische representatie van de kerende voorziening|Ja (lijn, 2D-vlak)|
-|Type kering|Categorisering van de verschillende type keringen|Ja|
-|Status   | De fase van de levenscyclus waarin de kerende voorziening zich bevindt|Ja   |
+|Identificatie   | Unieke aanduiding van een kering|Ja |
+|Geometrie|De geometrische representatie van een kering|Ja (lijn, 2D-vlak)|
+|Type kering|Typering van een kering|Ja|
+|Status   | De fase van de levenscyclus waarin een kering zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -976,8 +977,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type reducering| Beschrijving   |
 |---|---|
-|geluid|	voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
-|fijnstof|	voorziening bedoeld om verspreiding van fijnstof te verminderen	|
+|geluid| Voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
+|fijnstof|Voorziening bedoeld om verspreiding van fijnstof te verminderen	|
 
 
 
