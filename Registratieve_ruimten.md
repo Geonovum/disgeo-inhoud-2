@@ -194,7 +194,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van registratieve ruimten zijn benoemd
 
-### Bestuurlijke gebieden op zee
+### Bestuurlijk gebied op zee
 
 #### Nederlandse territoriale zee
 

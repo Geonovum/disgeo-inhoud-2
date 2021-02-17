@@ -744,34 +744,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-#### Oever
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
-
-**Definitie**
-
-| Naam  | Oever |
-|---|---|
-| Definitie | Gebied op de grens van water en land waar het dynamisch samenspel van land en water plaatsvindt, lopend van waterpeil tot insteek|
-|Herkomst definitie  | BGT 1.2     |
-|Verplicht  | Ja  |
-|Gevolgen afbakening|Het betreft hier de bestaande populatie *oever, slootkant* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Slootkant is een oever|
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |De unieke aanduiding van een oever|Ja |
-|Geometrie|De geometrische representatie van een oever|Ja (2D vlak)|
-|Status   | De fase van de levenscyclus waarin een oever zich bevindt|Ja   |
-
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 #### Complex
 
@@ -846,6 +818,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 |Waarde Type | Beschrijving   | Verplicht|
 |---|---|---|
+|Oeverzone | Gebied op de grens van water en land waar het dynamisch samenspel van land en water plaatsvindt, lopend van waterpeil tot insteek| Ja|
 |Oppervlaktewaterlichaam| Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater doorheen kan stromen |Nee|
 |Waterbergingsgebied |Gebied, niet zijnde een oppervlaktewaterlichaam of onderdeel daarvan, dat dient ter verruiming van de bergingscapaciteit van een of meer watersystemen  |Nee|
 |Golfbrekend voorland|Gebied aansluitend aan de buitenzijde van een waterkering, wat de waterkering beschermt tegen golven   |Nee|
