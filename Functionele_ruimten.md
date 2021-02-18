@@ -677,7 +677,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 | Naam  | Begraafplaats |
 |---|---|
-| Definitie |Besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen van gecremeerde lichamen bewaard.|
+| Definitie |Besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen met as van gecremeerde lichamen bewaard.|
 |Herkomst definitie  | IMGeo 2.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier deels de bestaande populatie *begraafplaats*  zoals deze is opgenomen in de basisregistratie grootschalige topografie|

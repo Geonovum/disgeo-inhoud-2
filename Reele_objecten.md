@@ -1,6 +1,4 @@
-## Reele objecten
-
- 
+## Reele objecten 
 
 ### Oppervlaktewater
 
@@ -1617,9 +1615,19 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een mast|Ja |
 |Geometrie|Geometrische representatie van de mast|Ja (punt, multipunt , lijn, vlak of multivlak )|
+|Type mast 	|Aanduiding van het soort mast|	Ja|
 |Status   | Fase van de levenscyclus waarin een mast zich bevindt|Ja   |
 
 **Domeinwaarden**
+
+*Type*
+
+| Waarde Type  | Beschrijving  |
+|---|---|
+|open 	|Open constructie van de mast|
+|gesloten	|Gesloten constructie van de mast|
+
+
 
 *Status* 
 
@@ -1681,9 +1689,21 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van straatmeubilair|Ja |
 |Geometrie|Geometrische representatie van het straatmeubilair|Ja (2,5D punt)|
+|Type straatmeubilair 	|Aanduiding van het soort straatmeubilair	|Nee|
 |Status   | Fase van de levenscyclus waarin straatmeubilair zich bevindt|Ja   |
 
 **Domeinwaarden**
+
+*Type*
+
+| Waarde Type  | Beschrijving  |
+|---|---|
+|Bank 	|Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen)|
+|Fietsen parkeerplaats|	Voorziening in de openbare ruimte voor het stallen van fietsen|
+|Speelvoorziening	|Aard en nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als speelmateriaal voor kinderen|
+|Abri	|Overdekte wachtplaats voor passagiers van het openbaar vervoer|
+
+
 
 *Status* 
 
