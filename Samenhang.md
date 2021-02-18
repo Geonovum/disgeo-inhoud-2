@@ -44,19 +44,6 @@ In het hoofdlijnenrapport inhoud samenhangende objectenregistratie (https://docs
 
 Hierbij zijn de verschillende begrippen die binnen de samenhangende objectenregistratie zullen worden onderscheiden geordend naar de verschillende semantische hoofdklassen in NEN 3610. Deze begrippen zijn in de hierna volgende hoofdstukken verder uitgewerkt. Het gaat daarbij om een aanzienlijk aantal begrippen, waarvan een aantal ten behoeve van de overzichtelijkheid zijn samengevoegd onder een verzamelbegrip (zie verder paragraaf [Beschrijving SOR-begrippen](#beschrijving-sor-begrippen) ). De plaatsing van de verschillende begrippen binnen het conceptueel model leidt dan tot de volgende overzichtsplaten voor de begrippen die vallen onder respectievelijk de NEN 3610 hoofdklassen reële objecten, functionele ruimten en registratieve- en geografische ruimten.
 
-Als de reële objecten uit de SOR worden geplaatst binnen de hoofdklasse “reëel object” in NEN 3610, dan leidt dit tot het volgende resultaat:
-
-![SOR-reele objecten](media/SOR_reele_objecten.png)
-
-
-Plaatsing van de functionele ruimten uit de SOR binnen de hoofdklasse “functionele ruimte” in NEN 3610 leidt tot het volgende resultaat:
-
-![SOR-functionele ruimten](media/SOR_functionele_ruimten.png)
-
-
-Als de registratieve- en geografische ruimten worden geplaatst binnen de NEN 3610 hoofdklassen, dan levert dit het volgende resultaat:
-
-![SOR-registratieve en geografische ruimten](media/SOR_registratieve_en_geografische_ruimten.png)
 
 
 Daarnaast kunnen de verschillende begrippen in de SOR (deels geaggregeerd) ook worden geplaatst binnen het eerder opgestelde conceptueel denkraam. De indeling in de vier kleurgroepen (bebouwing, water, groen en verharding) is hierbij uitsluitend bedoeld als een praktisch hulpmiddel om de verschillende begrippen in de SOR snel te kunnen plaatsen en niet als een overzicht voor de ordening van begrippen in relatie tot NEN 3610.  Hierbij ontstaat de volgende geactualiseerde versie van het conceptueel denkraam:
@@ -73,24 +60,30 @@ Relaties tussen de verschillende soorten objecten in de SOR kunnen op twee manie
 - Een relatie kan gelegd worden door expliciet te beschrijven dat een object zich op een bepaalde wijze verhoudt tot een ander object. Hierbij kan worden gedacht aan relaties als “ligt in” of “hoort bij”. Dit type relatie zal alleen worden gelegd tussen objecten die een logische samenhang hebben. Een voorbeeld hiervan is de relatie tussen een openbare ruimte en het wegennetwerk; op deze manier kan aangegeven worden wat de straatnaam is van een wegverbinding.
 - Een relatie kan ook gelegd worden op basis van geometrische eigenschappen van objecten. In dat geval worden relaties gelegd door ruimtelijk gerelateerde objecten geometrisch te combineren bij de het genereren van een informatieproduct op basis van de SOR of door een eindgebruiker zelf.
 
-Het conceptueel model zal, voor die onderdelen van het model waar sprake is van een expliciete samenhang tussen verschillende begrippen, een beschrijving geven van de relaties die er bestaan met andere begrippen. Hiermee ontstaat de mogelijkheid om objecten binnen de SOR aan elkaar te relateren of deze objecten te relateren aan objecten buiten de SOR. Een voorbeeld van een dergelijke vorm van expliciete relatering is in het conceptueel model opgenomen bij de verschillende gebouwconcepten. In onderstaand schema is daarvoor aangegeven hoe de verschillende begrippen globaal aan elkaar gerelateerd zijn.
+Het conceptueel model zal, voor die onderdelen van het model waar sprake is van een expliciete samenhang tussen verschillende begrippen, een beschrijving geven van de relaties die er bestaan met andere begrippen. Hiermee ontstaat de mogelijkheid om objecten binnen de SOR aan elkaar te relateren of deze objecten te relateren aan objecten buiten de SOR. Een voorbeeld van een dergelijke vorm van expliciete relatering is in het conceptueel model opgenomen bij de verschillende gebouwconcepten. In onderstaande schema's is daarvoor aangegeven hoe de verschillende begrippen globaal aan elkaar gerelateerd zijn.
 
-.
+De samenhang rond gebouwen:
 
 ![denkraamSOR_gebouw](media/gebouwmodel-2021-01.png)
 
-.
+
+De samenhang rond groen:
 
 ![denkraamSOR_groen](media/groenmodel-2021-01.png)
 
-.
+
+De samenhang rond water:
+
 ![denkraamSOR_water](media/watermodel-2021-01.png)
 
-.
+
+De samenhang rond verhading en netwerken:
 
 
 ![denkraamSOR_grijs](media/grijsmodel-2021-1)
 
+
+De samenhang rond registratieve ruimten en sommige geografische ruimten
 
 
 ![denkraamSOR_registratief](media/registratiefmodel-2021-01.png)
