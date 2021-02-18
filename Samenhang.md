@@ -80,11 +80,11 @@ De samenhang rond water:
 De samenhang rond verharding en netwerken:
 
 
-![denkraamSOR_grijs](media/grijsmodel-2021-1)
+![denkraamSOR_grijs](media/grijsmodel-2021-01)
 
 De samenhang rond kunstwerken:
 
-![denkraamSOR_kunstwerk](media/kunstwerkmodel-2021-1)
+![denkraamSOR_kunstwerk](media/kunstwerkmodel-2021-01)
 
 
 De samenhang rond registratieve ruimten en sommige geografische ruimten
