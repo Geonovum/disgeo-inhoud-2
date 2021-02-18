@@ -16,7 +16,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 
 **Definitie**
 
-| Naam  | Knoop  |
+| Naam  | Wegknoop  |
 |---|---|
 | Definitie |  Wegverkeerruimte die een begin-, eind- of keuzepunt is voor de weggebruiker/voertuig|
 | Herkomst definitie  | Nieuw    |
@@ -29,7 +29,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 |Eigenschap   |Beschrijving   |Verplicht   |weg|baan|strook|
 |---|---|---|---|---|---|
 |Identificatie   |Unieke aanduiding van een wegknoop  |Ja | x | x | x |
-|Geometrie |Geometrische representatie van een knoop |Ja (2D punt), Nee (2D vlak)|x | x | x |
+|Geometrie |Geometrische representatie van een wegknoop |Ja (2D punt), Nee (2D vlak)|x | x | x |
 |Type keuzepunt|De aanduiding van het soort keuzepunt|Ja| x |  |  |
 |Status   |De fase van de levenscyclus waarin een wegknoop zich bevindt   |Ja |x | x | x |
 
@@ -498,7 +498,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |hyperverbinding |wegverbinding |ja|
-|hyperverbinding |knoop |ja|
+|hyperverbinding |wegknoop |ja|
 
 **Domeinwaarden**
 
@@ -545,7 +545,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |---|---|---|
 |Identificatie   |Unieke aanduiding van Wegzone|Ja |
 |Geometrie |Geometrische representatie van een wegzone|Ja (2D vlak) |
-|Type | Categorisering van verschillende soorten wegzones| Ja|
+|Type | Typering van een wegzones| Ja|
 |Status   |De fase van de levenscyclus waarin een wegzone zich bevindt|Ja   |
 
 
@@ -554,7 +554,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |hyperverbinding |wegverbinding |ja|
-|hyperverbinding |knoop |ja|
+|hyperverbinding |wegknoop |ja|
 
 
 **Domeinwaarden**
@@ -593,10 +593,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van Spoorzone|Ja |
+|Identificatie   |Unieke aanduiding van spoorzone|Ja |
 |Geometrie |Geometrische representatie van een spoorzone|Ja (2D vlak) |
-|Type| Categorisering van verschillende soorten spoorzones|Ja|
-|Naam|Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
+|Type| Typering van een spoorzone|Ja|
+|Naam|Breed geaccepteerde benaming van een spoorzone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin een spoorzone zich bevindt|Ja   |
 
 
@@ -606,7 +606,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 |---|---|---|
 |hyperverbinding |wegverbinding |ja|
 |hyperverbinding |spoorverbinding |ja|
-|hyperverbinding |knoop |ja|
+|hyperverbinding |spoorknoop |ja|
 
 
 **Domeinwaarden**

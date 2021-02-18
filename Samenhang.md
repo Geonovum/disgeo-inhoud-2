@@ -79,9 +79,15 @@ Het conceptueel model zal, voor die onderdelen van het model waar sprake is van 
 
 ![denkraamSOR_gebouw](media/gebouwmodel-2021-01.png)
 
+.
 
+![denkraamSOR_groen](media/groenmodel-2021-01.png)
 
 .
+
+![denkraamSOR_grijs](media/grijsmodel-2021-1)
+
+
 
 ![denkraamSOR_registratief](media/registratiefmodel-2021-01.png)
 
