@@ -81,6 +81,13 @@ Het conceptueel model zal, voor die onderdelen van het model waar sprake is van 
 
 
 
+.
+
+![denkraamSOR_groen](media/groenmodel-2021-01.png)
+
+
+
+
 ### Aansluiting sectormodellen
 
 Dit conceptueel model beschrijft de inhoud van de samenhangende objectenregistratie. In die registratie wordt niet meer detail opgenomen dan nodig, zijn begrippen opgenomen die herkenbaar zijn voor niet-gespecialiseerde gebruikers en die eenvoudig zijn vast te stellen door de bronhouders. Het gaat bovendien om begrippen die van belang zijn voor meerdere domeinen van overheidshandelen. Domeinen moeten daarbij ruim worden opgevat. Het kan zowel gaan om domeinen van bedrijfsvoering (zoals belastingen, beheer openbare ruimte en ruimtelijke ordening) als van specifieke ruimtelijke objecten (zoals water, gebouwen of ondergrond). 
