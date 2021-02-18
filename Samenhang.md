@@ -84,6 +84,10 @@ Het conceptueel model zal, voor die onderdelen van het model waar sprake is van 
 ![denkraamSOR_groen](media/groenmodel-2021-01.png)
 
 .
+![denkraamSOR_water](media/watermodel-2021-01.png)
+
+.
+
 
 ![denkraamSOR_grijs](media/grijsmodel-2021-1)
 
