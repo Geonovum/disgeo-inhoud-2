@@ -708,9 +708,9 @@ Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te 
 -	op talud
 
 
-*) mast typen vervallen, mast blijft in SOR
-**) paal typen vervallen, paal blijft in SOR
-***) straatmeubilair merendeel van typen vervallen, straatmeubilair blijft in SOR
+'*)'   - mast typen vervallen, mast blijft in SOR
+'**)'  - paal typen vervallen, paal blijft in SOR
+'***)' - straatmeubilair merendeel van typen vervallen, straatmeubilair blijft in SOR
 
       
 
