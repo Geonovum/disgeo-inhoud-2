@@ -177,9 +177,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |wal|Langgerekte ophoging in het terrein met een hoogte tussen 0,50 en 1,00 meter| 
 |steile rand|Steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling|
 |holle weg|Weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie|
-|groeve|Opengegraven ruimte waaruit een delfstof gewonnen wordt|
-|berg|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
-|dal|Langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten|
 
 
 

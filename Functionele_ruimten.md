@@ -687,7 +687,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van Begraafplaats|Ja |
+|Identificatie   |Unieke aanduiding van een begraafplaats|Ja |
 |Geometrie|Geometrische representatie van een begraafplaats|Ja (2D vlak)|
 |Naam	|Breed geaccepteerde benaming van een begraafplaats zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat	|Nee|
 |Status   |  De fase van de levenscyclus waarin de begraafplaats zich bevindt|Ja   |

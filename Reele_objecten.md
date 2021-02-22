@@ -16,7 +16,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 **Definitie**
-
 | Naam  | Watervlakte  |
 |---|---|
 | Definitie | Een niet langgerekte verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat|
@@ -212,7 +211,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|
 | Definitie |Begroeiing die een dusdanige aantal bomen betreft dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen|
 | Herkomst definitie  | Gebaseerd op de definities van bos in de BGT 1.2 en van Griend en Hakhout uit IMGeo 2.2 |
-| Verplicht  | Ja, voor wat betreft loofbos, naaldbos en gemengd bos; Nee, voor wat betreft griend en hakhout |
+| Verplicht  | Ja (grotendeels)|
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *loofbos, naaldbos en gemengd bos* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie aangevuld met fysiek voorkomen Griend en Hakhout zoals gedefinieerd in IMGeo 2.2 |
 | Toelichting| De definitie van Bos laat voldoende ruimte voor plaatselijke aanwezigheid van struiken. De combinatie van reëel object Bos en bijvoorbeeld functioneel object Park en/of sectorregistraties (bv IMNA) kan voorzien in informatiebehoefte aan specifieke bostypen zoals 'bosplantsoen'.|
 
@@ -229,13 +228,16 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 *Type*
 
-|Waarde Type bos| Beschrijving   |
-|---|---|
-| Loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| 
-| Naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| 
-| Gemengd bos | Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen|  
-| Griend en hakhout	| Vrijwillig te registreren terrein begroeid met loofbomen, in een dicht groeiverband die periodiek wordt ingekort|
- 
+|Waarde Type bos| Beschrijving   |Verplicht |
+|---|---|---|
+| Loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
+| Naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
+| Gemengd bos | Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen|  Ja|
+| Griend en hakhout	|Terrein begroeid met loofbomen, in een dicht groeiverband die periodiek wordt ingekort| Nee|
+
+Toelichting: Nog bekeken wordt hoe griend en hakhout als een subtype van loofbos gepositioneerd wordt.
+
+
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
@@ -255,7 +257,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Herkomst definitie  | IMBOR 2020 |
 |Verplicht  | ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *gras- en kruidachtigen*,*grasland agrarisch* en *grasland overig* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Onderscheid in gras voor agrarisch gebruik, dan wel voor natuurlijk gebruik of 'overig ' gebruik is op basis van het nieuwe reëel object Gras- en kruidachtigen niet meer te zien. In sectormodel kan onderscheid gemaakt worden obv sector specifiek kenmerken. De combinatie van reëel object Gras- en kruidachtigen en  functioneel object Park of Sportterrein en/of sectorregistraties (bv IMNA, gewaspecelen, IMBOR) kan voorzien in informatiebehoefte aan specifieke grastypen zoals 'gazon', agrarisch/natuurlijk gras' of 'sportveld'.| 
+|Toelichting| Onderscheid in gras voor agrarisch gebruik, dan wel voor natuurlijk gebruik of 'overig' gebruik is op basis van het nieuwe reëel object Gras- en kruidachtigen niet meer te zien. In sectormodel kan onderscheid gemaakt worden obv sector specifiek kenmerken. De combinatie van reëel object Gras- en kruidachtigen en  functioneel object Park of Sportterrein en/of sectorregistraties (bv IMNA, gewaspecelen, IMBOR) kan voorzien in informatiebehoefte aan specifieke grastypen zoals 'gazon', agrarisch/natuurlijk gras' of 'sportveld'.| 
 
 **Eigenschappen**
 
@@ -349,11 +351,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Onbegroeide grond |
 |---|---|
-| Definitie |Terrein waar onbegroeide grond zichtbaar is|
+| Definitie |Oppervlakte waar onbegroeide grond zichtbaar is|
 | Herkomst definitie  | |
 | Verplicht  | Ja  |
-| Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen  type *onverhard* van wegen en terreinen in de basisregistratie grootschalige topografie|
-| Toelichting|Onbegroeide grond is grond, die niet bedekt is met enige vorm van begroeiing, constructie, water of verharding.  |
+| Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen type onverhard van terreinen in de basisregistratie grootschalige topografie|
+| Toelichting| Onbegroeide grond is grond, die niet bedekt is met enige vorm van begroeiing, constructie, water of verharding.  |
 
 **Eigenschappen**
 
@@ -405,10 +407,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Waarde Type fruit- of kweekbomen| Beschrijving   |
 |---|---|
-| laagstam boomgaarden |Terreindeel begroeid met laagstamfruitbomen|
-| hoogstam boomgaarden |Terreindeel begroeid met hoogstamfruitbomen|
-| wijngaarden|Terreindeel begroeid met druivenstokken voor wijnbouw|
-| klein fruit |Terreindeel begroeid met heesters voor zacht fruit zoals bessen of frambozen|
+| laagstam boomgaarden |Terrein begroeid met laagstamfruitbomen|
+| hoogstam boomgaarden |Terrein begroeid met hoogstamfruitbomen|
+| wijngaarden|Terrein begroeid met druivenstokken voor wijnbouw|
+| klein fruit |Terrein begroeid met heesters voor zacht fruit zoals bessen of frambozen|
 | boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is|
 
 *Status* 
@@ -428,7 +430,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Moeras |
 |---|---|
-| Definitie | Terreindeel met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing. |
+| Definitie | Terrein met moerasvegetatie in stilstaand water van geringe diepte zonder merkbare toe- of afvloeiing. |
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *moeras*  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -459,7 +461,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Rietland |
 |---|---|
-| Definitie |Terreindeel overwegend begroeid met rietvegetatie|
+| Definitie |Terrein overwegend begroeid met rietvegetatie|
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *rietland*  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -489,7 +491,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 | Naam  | Heide |
 |---|---|
-| Definitie | Terreindeel overwegend begroeid met heide en heideachtige vegetaties|
+| Definitie | Terrein overwegend begroeid met heide en heideachtige vegetaties|
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *heide*  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -515,7 +517,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 #### Landschapselement
 
 
-BOMENRIJ
+**BOMENRIJ**
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
@@ -527,14 +529,14 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *bomenrij*  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Reëel object Bomenrij wordt net als Houtsingel en Haag opgenomen vanwege het landschappelijke belang van dit object. Het verschil tussen object Bomenrij en Houtsingel is de aanwezigheid van ondergroei van struiken in de Houtsingel en de afwezigheid daarvan in de Bomenrij. Het verschil tussen reëel object Bomenrij en Bos is dat de Bomenrij rijvormig is en dus een beperkte breedte heeft, terwijl het Bos breder is en eventueel ondergroei van struiken bevat. De aan- of afwezigheid van een aarden wal onder de bomenrij is buiten de definitie gelaten. In de specifieke informatiebehoefte aan Bomenrijen mét wallichaam kan worden voorzien door het reëel object Bomenrij te combineren met gegevens uit AHN |
+|Toelichting| Bomenrij wordt net als Houtsingel en Haag opgenomen vanwege het landschappelijke belang van dit object. Het verschil tussen objecttype Bomenrij en Houtsingel is de aanwezigheid van ondergroei van struiken in de Houtsingel en de afwezigheid daarvan in de Bomenrij. Het verschil tussen Bomenrij en Bos is dat de Bomenrij rijvormig is en dus een beperkte breedte heeft, terwijl het Bos breder is en eventueel ondergroei van struiken bevat. De aan- of afwezigheid van een aarden wal onder de bomenrij is buiten de definitie gelaten. In de specifieke informatiebehoefte aan Bomenrijen mét wallichaam kan worden voorzien door de Bomenrij te combineren met gegevens uit AHN |
 
 **Eigenschappen**
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van een Bomenrij|Ja |
-|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D vlak)|
+|Identificatie   |Unieke aanduiding van een bomenrij|Ja |
+|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn)|
 |Status   |  Fase van de levenscyclus waarin een bomenrij zich bevindt|Ja   |
 
 
@@ -545,7 +547,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-HOUTSINGEL
+**HOUTSINGEL**
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
@@ -557,7 +559,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *houtwal*  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Reëel object Houtsingel wordt net als Bomenrij en Haag opgenomen vanwege het landschappelijke belang van dit object. Het verschil tussen object Houtsingel en Bomenrij is de aanwezigheid van ondergroei van struiken in de Houtsingel en de afwezigheid daarvan in de Bomenrij. Het verschil tussen reëel object Houtsingel en Bos is dat de Houtsingel rijvormig is en dus een beperkte breedte heeft, terwijl het Bos breder is.  In de specifieke informatiebehoefte aan Houtsingels mét wallichaam kan worden voorzien door het reëel object Houtsingel te combineren met gegevens uit AHN. |
+|Toelichting| Houtsingel wordt net als Bomenrij en Haag opgenomen vanwege het landschappelijke belang van dit object. Het verschil tussen Houtsingel en Bomenrij is de aanwezigheid van ondergroei van struiken in de Houtsingel en de afwezigheid daarvan in de Bomenrij. Het verschil tussen Houtsingel en Bos is dat de Houtsingel rijvormig is en dus een beperkte breedte heeft, terwijl het Bos breder is. In de specifieke informatiebehoefte aan Houtsingels mét wallichaam kan worden voorzien door de Houtsingel te combineren met gegevens uit AHN. |
 
 **Eigenschappen**
 
@@ -575,7 +577,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-HAAG
+**HAAG**
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
@@ -587,7 +589,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Herkomst definitie  | BGT 1.2    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *haag*  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Reëel object Haag wordt net als Bomenrij en Houtsingel opgenomen vanwege het landschappelijke belang van dit object. Het object Haag onderscheidt zich van de objecten Houtsingel en Bomenrij door de afwezigheid van bomen. |
+|Toelichting| Haag wordt net als Bomenrij en Houtsingel opgenomen vanwege het landschappelijke belang van dit object. Haag onderscheidt zich van de objecten Houtsingel en Bomenrij door de afwezigheid van bomen. |
 
 **Eigenschappen**
 
@@ -604,7 +606,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
-TUUNWAL
+**TUUNWAL**
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
@@ -646,7 +648,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |Herkomst definitie  | IMGeo 2.2 |
 |Verplicht  | nee  |
 |Gevolgen afbakening  | nieuw object  |
-|Toelichting| Reëel object Boom is opgenomen in het vrijwillige deel van de SOR, omdat verschillende organisaties uiteenlopende belangen hebben bij de registratie van bomen en omdat een eenduidige definitie van het object Boom nauwelijks is vast te stellen. |
+|Toelichting| Boom is opgenomen in het vrijwillige deel van de SOR, omdat verschillende organisaties uiteenlopende belangen hebben bij de registratie van bomen en omdat een eenduidige definitie van een Boom nauwelijks is vast te stellen. |
 
 **Eigenschappen**
 
