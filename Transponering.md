@@ -111,7 +111,7 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Onbegroeid terreindeel** | Fysiek voorkomen:   |                        |                                            |
-|                            | erf                 |                        | onbepaald terreindeel                      |
+|                            | erf                 |                        | onbepaald terrein                     |
 |                            | gesloten verharding | asfalt                 | verharding: asfaltverharding               |
 |                            |                     | cementbeton            | verharding: betonverharding                |
 |                            |                     | kunststof              | verharding: kunststofverharding            |

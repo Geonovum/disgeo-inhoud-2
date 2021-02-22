@@ -1172,7 +1172,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Waarde Type ondertunneling| Beschrijving   |
 |---|---|
 | tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren|
-| duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terreindeel en de bodem van de waterloop onderbreekt|
+| duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de waterloop onderbreekt|
 
 *Type beperking*
 
@@ -1765,7 +1765,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |Herkomst definitie  | Gebaseerd op definitie van erf in BGT    |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| In plaats van onbepaald terreindeel kan ter plaatse ook de Reële topografie worden ingewonnen (vrijwillig)|
+|Toelichting| In plaats van onbepaald terrein kan ter plaatse ook de reële topografie wel nader worden ingewonnen (vrijwillig)|
 
 **Eigenschappen**
 
