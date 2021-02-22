@@ -6,9 +6,16 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 
 ### BGT en IMGeo
 
+**Wegdeel**
+
+In de SOR worden geen wegdelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. In de SOR worden functie en fysiek voorkomen van wegdelen gescheiden in functionele ruimten en verharding. 
+Bij verharding komen de plus classificaties van het fysieke voorkomen niet terug in de SOR m.u.v. asfalt- en betonverharding. 
+De functies van wegdelen worden in de SOR grotendeels opgenomen in het wegennetwerk als wegverbinding. Daarnaast komen enkele functies van wegdelen in de SOR terug als functionele zonering. De plus classificatie calamiteitendoorsteek komt niet terug in de SOR
+
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Wegdeel**               | Functie:               |                        |                                                                                         |
+| **Wegdeel**               | **Functie**               |                        |                                                                                         |
 |                           | OV-baan                |                        | verkeerskundig functionele zone: type OV-baan                                           |
 |                           | overweg                |                        | spoorzone: type overweg                                                                 |
 |                           | spoorbaan              |                        | spoorzone: type spoorbaan                                                               |
@@ -33,7 +40,7 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                           | inrit                  |                        | verkeerskundig functionele zone: type inrit                                             |
 |                           | woonerf                |                        | *vervalt waarschijnlijk, wordt vervangen door netwerk en eigenschappen van het netwerk* |
 |                           |                        |                        |                                                                                         |
-| **Wegdeel**               | Fysiek voorkomen:      |                        |                                                                                         |
+| **Wegdeel**               | **Fysiek voorkomen**      |                        |                                                                                         |
 |                           | gesloten verharding    | asfalt                 | verharding: asfaltverharding                                                            |
 |                           |                        | cementbeton            | verharding: betonverharding                                                             |
 |                           | open verharding        | betonstraatstenen      | verharding: elementenverharding                                                         |
@@ -50,13 +57,21 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                           |                        | zand                   | verharding: onverhard of onbegroeide grond                                              |
 |                           |                        |                        |                                                                                         |
 
+**Ondersteunend wegdeel**
+
+In de SOR worden geen ondersteunende wegdelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. In de SOR worden functie en fysiek voorkomen van ondersteunende wegdelen gescheiden in functionele ruimten en verharding of begroeiing. 
+Bij verharding komen de plus classificaties van het fysieke voorkomen niet terug in de SOR m.u.v. asfalt- en betonverharding. Bij begroeiing komen de BGT- en de plus classificaties van het fysieke voorkomen niet terug, maar worden vervangen door struiken of gras- en kruidachtigen.
+Beide functies van ondersteunend wegdeel komen in de SOR terug als een type bij functionele ruimte wegzone. 
+
+
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Ondersteunend wegdeel** | Functie:               |                        |                                                                                         |
+| **Ondersteunend wegdeel** | **Functie**               |                        |                                                                                         |
 |                           | verkeerseiland         |                        | wegzone: type verkeerseiland                                                            |
 |                           | berm                   |                        | wegzone: type berm                                                                      |
 |                           |                        |                        |                                                                                         |
-| **Ondersteunend wegdeel** | Fysiek voorkomen:      |                        |                                                                                         |
+| **Ondersteunend wegdeel** | **Fysiek voorkomen**     |                        |                                                                                         |
 |                           | gesloten verharding    | asfalt                 | verharding: asfaltverharding                                                            |
 |                           |                        | cementbeton            | verharding: betonverharding                                                             |
 |                           | open verharding        | betonstraatstenen      | verharding: elementenverharding                                                         |
@@ -79,13 +94,17 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                           |                        | bodembedekkers         | struiken                                                                                |
 |                           |                        |                        |                                                                                         |
 
+**Spoor**
+Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De functies (trein, sneltram, tram) vervallen. Er komen twee nieuwe type spoorverbinding voor terug: nationaal spoor en lokaal spoor. 
+
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Spoor**                 | Functie:               |                        |                                                                                         |
 |                           | trein                  |                        | spoorweg: type spoorverbinding                                                          |
 |                           | sneltram               |                        | spoorweg: type spoorverbinding                                                          |
 |                           | tram                   |                        | spoorweg: type spoorverbinding                                                          |
-|                           | Niet BGT               | (haven)kraan           | *nog onbekend*                                                                          |
+
 
 .
 
@@ -112,6 +131,8 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                            |                     | zandverstuiving        | geografisch object: type zandverstuiving   |
 |                            |                     |                        |                                            |
 |                            |                     |                        |                                            |
+
+.
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -175,6 +196,8 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 | **Pand**            | Grondvlaksituatie van BAG-pand  |            | Gebouw                                                      |
 |                     |                                 |            |                                                             |
 
+.
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Overig bouwwerk** | Type:                           |            |                                                             |
@@ -189,6 +212,8 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                     | Niet BGT                        | voedersilo | Depot: type voedersilo                                      |
 |                     | Niet BGT                        | schuur     | gebouw, met typering                                        |
 |                     |                                 |            |                                                             |
+
+.
 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
@@ -223,10 +248,14 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                       |                   | pyloon                       | kunstwerkdeel: type pyloon        |
 |                       |                   |                              |                                   |
 
+.
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Tunneldeel**        | Tunneldeel        |                              | ondertunneling: type tunnel       |
 |                       |                   |                              |                                   |
+
+.
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -249,7 +278,23 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                       | Niet BGT          | voorde                       | overig kunstwerk: type voorde     |
 
 
-.
+**Functioneel gebied**
+
+Het type kering (BGT classificatie) komt in de SOR terug als functionele zonering kering van type water.
+De volgende typen van functionele gebieden (plus classificaties) komen niet terug in de SOR
+•	bedrijvigheid
+•	natuur en landschap
+•	landbouw
+•	bewoning
+•	infrastructuur verkeer en vervoer
+•	waterbergingsgebied
+•	infrastructuur waterstaatswerken
+•	maatschappelijke en/of publieksvoorziening
+•	functioneel beheer
+•	functioneel beheer: hondenuitlaatplaats
+De andere typen van functionele gebieden (plus classificaties) komen terug in SOR als een type van functionele zonering. Waarbij type carpoolplaats in de SOR een parkeerplaats wordt en benzinestation in de SOR een tankstation wordt.
+
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -279,7 +324,10 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                        | Niet BGT | verzorgingsplaats                          | verkeerskundig functionele zone: type verzorgingsplaats |
 
 
-.
+**Bak**
+
+In de SOR worden geen bakken opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De bakken uit de BGT|IMGeo 2.2 kunnen in de SOR als straatmeubilair worden opgenomen, echter zonder nadere typering. Bakken van type afval apart plaats en container komen in de SOR terug als een nieuw begrip afvalcontainer. 
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -291,6 +339,11 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | zand- / zoutbak               | straatmeubilair                           |
 |                                | Niet BGT | container                     | bak: container                            |
 |                                |          |                               |                                           |
+
+**Bord**
+
+In de SOR worden geen borden opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. Dit betekent dat de verschillende typeringen niet meer terugkomen in de SOR, maar als deze borden aan een paal bevestigd waren kan de locatie van de paal worden opgenomen in de SOR als paal.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -307,6 +360,12 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | dynamische snelheidsindicator | paal                                      |
 |                                |          |                               |                                           |
 
+
+**Gebouwinstallatie**
+
+De BGT|IMGeo gebouwinstallaties worden in de SOR opgenomen als eigenschap Aard bij gebouwcomponent. De luifel wordt opgenomen als afdak.
+
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Gebouwinstallatie**          |          | Type:                         |                                           |
@@ -315,12 +374,21 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | toegangstrap                  | gebouwcomponent: aard toegangstrap        |
 |                                |          |                               |                                           |
 
+
+**Installatie**
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Installatie**                |          | Type:                         |                                           |
 |                                | Niet BGT | pomp                          | Installatie: type pomp                    |
 |                                | Niet BGT | zonnepaneel                   | Installatie: type zonnepanelen            |
 |                                |          |                               |                                           |
+
+
+**Kast**
+
+In de SOR worden geen kasten opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De kasten uit de BGT|IMGeo 2.2 worden in de SOR als installatie van type kast opgenomen, echter zonder nadere typering.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -336,6 +404,12 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | GMS kast                      | kast: type verkeer                        |
 |                                |          |                               |                                           |
 
+
+**Mast**
+
+In de SOR zijn masten constructies van het type open of gesloten constructie en worden masten niet zoals in de BGT|IMGeo getypeerd naar de functie. Dit betekent dat de verschillende typeringen niet meer terugkomen in de SOR, maar de constructie mast wel.
+
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Mast**                       |          | Type:                         |                                           |
@@ -345,6 +419,11 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | zendmast                      | mast: type zendmast                       |
 |                                | Niet BGT | radarmast                     | mast: type radarmast                      |
 |                                |          |                               |                                           |
+
+**Paal**
+
+In de SOR worden palen zoals in BGT|IMGeo 2.2 zijn opgenomen, opgenomen als paal zonder nadere typering.  De BGT|IMGeo palen van type lichtmast, verkeersregelinstallatiepaal en sirene komen in de SOR terug als installaties.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -366,6 +445,12 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | sirene                        | mast: type sirene                         |
 |                                |          |                               |                                           |
 
+**Put**
+
+In de SOR worden putten opgenomen als putdeksel, echter zonder nadere typering.
+
+
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Put**                        |          | Type:                         |                                           |
@@ -377,6 +462,12 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | kolk                          | putdeksel: riolering                      |
 |                                | Niet BGT | waterleidingput               | putdeksel: waterleiding                   |
 |                                |          |                               |                                           |
+
+**Sensor**
+
+In de SOR worden geen sensoren opgenomen.
+
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -393,6 +484,11 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | GMS sensor                    | sensor: GMS sensor                        |
 |                                | Niet BGT | radar detector                | paal                                      |
 |                                |          |                               |                                           |
+
+**Straatmeubilair**
+
+In de SOR wordt alleen straatmeubilair van type: abri, bank, fietsparkeerplaats, fontein, herdenkingsmonument, kunstobject, openbaar toilet, picknicktafel en speelvoorziening opgenomen. Het overige straatmeubilair kan zonder nadere typering worden opgenomen in de SOR.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -417,6 +513,11 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | herdenkingsmonument           | straatmeubilair                           |
 |                                |          |                               |                                           |
 
+**Waterinrichtings-element**
+
+In de SOR worden geen waterinrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De waterinrichtingselementen van het type remmingswerk en geleidewerk komen in de SOR als geleider. Het waterinrichtingselement vuilvang komt in de SOR als kunstwerkdeel van type vuilvang. De waterinrichtingselementen van type betonning, meerpaal en hoogtemerk komen niet terug.
+
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Waterinrichtings-element**   |          | Type:                         |                                           |
@@ -427,6 +528,12 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | meerpaal                      | paal                                      |
 |                                | Niet BGT | hoogtemerk                    | *vervalt waarschijnlijk*                  |
 |                                |          |                               |                                           |
+
+
+**Weginrichtings-element**
+
+In de SOR worden geen weginrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De typen molgoot, wegmarkering, rooster, boomspiegel, verblindingswering komen niet terug in de SOR. Het weginrichtingselement van het type geleideconstructie komt in de SOR als geleider. Lijnafwatering komt terug als putdeksel, wildrooster komt terug als functionele wegzone, type wildrooster, balustrade komt terug als hek met functie valbescherming.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -441,6 +548,8 @@ Daarnaast zijn er nog andere bronnen waarvandaan elementen in de SOR worden over
 |                                | Niet BGT | boomspiegel                   | *vervalt waarschijnlijk*                  |
 |                                | Niet BGT | verblindingswering            | geleider: verblindingswering              |
 |                                |          |                               |                                           |
+
+**Vegetatieobject**
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
