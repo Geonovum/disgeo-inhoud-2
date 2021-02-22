@@ -1701,7 +1701,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Abri	|Overdekte wachtplaats voor passagiers van het openbaar vervoer|
 |Bank 	|Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen)|
 |Fietsen parkeerplaats|	Voorziening in de openbare ruimte voor het stallen van fietsen|
-|Fntein	|Natuurlijke of kunstmatige installatie die water spuit|
+|Fontein	|Natuurlijke of kunstmatige installatie die water spuit|
 |Herdenkingsmonument	|Langs de weg of elders in het terrein aangelegd object ter herdenking van personen of evenementen|
 |Kunstobject	|Object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt|
 |Openbaar toilet	|Voor mensen bedoeld toilet niet zijnde een gebouw, langs de openbare weg|
