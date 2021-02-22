@@ -567,34 +567,41 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 
 ### Niet opnemen in SOR
 
-
-Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te nemen in de SOR: 
--	fauna voorziening
--	bedrijvigheid
--	natuur en landschap
--	landbouw
--	bewoning
--	infrastructuur verkeer en vervoer
--   opstelpunt open water
--   zuiveringscomplex 
--   waterwingebied
--   waterbergingsgebied
--	infrastructuur waterstaatswerken
--	maatschappelijke en/of publieksvoorziening
--	functioneel beheer
--	functioneel beheer: hondenuitlaatplaats
--	drinkbak
--	detectielus
--	hoogtemerk
--	molgoot
--	wegmarkering
--	rooster
--	boomspiegel
--	stadsdeel
-
+Voorstel om de volgende, in BGT|IMGeo 2.2 opgenomen typeringen, niet meer op te nemen in de SOR:
+-	wegdeel, functie calamiteitendoorsteek
+-	overig bouwwerk, type voedersilo
+-	kunstwerkdeel, type fauna voorziening
+-	functioneel gebied, type bedrijvigheid
+-	functioneel gebied, type natuur en landschap
+-	functioneel gebied, type landbouw
+-	functioneel gebied, type bewoning
+-	functioneel gebied, type infrastructuur verkeer en vervoer
+-	functioneel gebied, type waterbergingsgebied
+-	functioneel gebied, type infrastructuur waterstaatswerken
+-	functioneel gebied, type maatschappelijke en/of publieksvoorziening
+-	functioneel gebied, type functioneel beheer
+-	functioneel gebied, type functioneel beheer: hondenuitlaatplaats
+-	bak, type drinkbak
+-	bord, alle typen
+-	mast, alle typen *)
+-	paal, alle typen **)
+-	sensor, alle typen
+-	straatmeubilair, alle typen ***)
+-	waterinrichtings-element, type betonning
+-	waterinrichtings-element, type meerpaal
+-	waterinrichtings-element, type hoogtemerk
+-	weginrichtings-element, type molgoot
+-	weginrichtings-element, type wegmarkering
+-	weginrichtings-element, type rooster
+-	weginrichtings-element, type boomspiegel
+-	weginrichtings-element, type verblindingswering
 -	kruinlijn
 -	op talud
 
+
+*) mast typen vervallen, mast blijft in SOR
+**) paal typen vervallen, paal blijft in SOR
+***) straatmeubilair merendeel van typen vervallen, straatmeubilair blijft in SOR
 
       
 
