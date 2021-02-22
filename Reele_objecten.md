@@ -422,7 +422,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-MOERAS
+**MOERAS**
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
@@ -453,7 +453,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-RIETLAND
+**RIETLAND**
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
@@ -483,7 +483,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-HEIDE
+**HEIDE**
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
