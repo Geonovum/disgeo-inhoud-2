@@ -191,68 +191,29 @@ Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een g
 
 #### 2D, 2,5D en 3D geometrie
 
-De SOR zal structureel hoogte informatie zal gaan bevatten. Aanduidingen die daarvoor worden gebruikt zijn 2,5D en 3D. Het verschil tussen beiden kan worden geïllustreerd aan de hand van de volgende twee plaatjes:
+Geometrie is in de SOR een eigenschap van een object en representeert de locatie van een object. Er is één uitzondering in de SOR: Nummeraanduiding, deze heeft geen eigenschap geometrie.
+
+De SOR zal structureel hoogte informatie zal gaan bevatten. Aanduidingen die daarvoor worden gebruikt worden zijn 3D of 2,5D geometrie. Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y en z coördinaten). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
+
+2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen. Dit wordt veel gebruikt om de “golvende” vorm van het aardoppervlak vast te leggen.
+
 
 ![terreinmodel](media/terreinmodel.png)
 
-.
+3D geometrie is een uitbreiding op 2,5D geometrie door objecten met volumes vast te leggen. Deze volumes kunnen open of gesloten zijn. Bij open volumes kun je door het volume heen bewegen (bijvoorbeeld een weg door een tunnel).
 
-![3D volume model](media/levels_of_detail.png)
+Ontwerpprincipe:
+De SOR kent voor alle reële objecten een 2,5D geometrie en voor enkele specifiek benoemde reële objecten een 3D geometrie.
 
+Voor bijna alle reële objecttypen volstaat een 2,5D geometrie. Voor enkele reële objecttypen volstaat een 2,5D geometrie niet en nemen we in de SOR een 3D geometrie op.
 
-Afhankelijk van het type object, kan de 3D geometrie gerepresenteerd worden met (multi-)punten, -lijnen, -vlakken of -volumes die in drie dimensies (x,y,z) worden vastgelegd. 
+Ontwerpprincipe:
+De SOR kent voor alle functionele ruimten een 2D geometrie, behalve voor functionele gebouwobjecten die kennen een 2,5D geometrie.
 
-Volumes kunnen open of gesloten zijn. 
-Open volumes representeren volumes met open ruimtes waar doorheen te bewegen is. Bijvoorbeeld de ruimte in een tunnel waar het verkeer zich doorheen kan bewegen. 
-Gesloten volumes representeren reële (m.a.w. reële ) objecten waar niet doorheen te bewegen is. 
+Voor functionele objecttypen volstaat een 2D geometrie, door het leggen van een relatie met een reëel object, kan voor een functioneel object hoogte informatie worden afgeleid. 
 
-Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y,z) en een 2D geometrie, wanneer deze in een twee dimensionale ruimte wordt vastgelegd (x,y). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
-
-
-2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen. Dit wordt veel gebruikt om de “golvende” vorm van het aardoppervlak vast te leggen.
-3D geometrie omvat een nog uitgebreidere benadering door objecten met volumes vast te leggen. Die hebben behalve zijkanten ook boven- en onderkanten. Voor de hand liggende toepassingen zijn bij constructies, zoals bijvoorbeeld gebouwen. In een 2,5D toepassing zijn geen volumes toegestaan. Bij een 3D toepassing geldt deze beperking niet.
-
-
-Ontwerpprincipes:
-
-**Geometrie is een representatie van een object**
-
-Een object kan worden geregistreerd met of zonder geometrie. Geometrie representeert de locatie van een object en is daarmee een eigenschap van een object. 
-
-
-**Een object kan nul of meer geometrische representaties hebben.**
-
-Er zijn binnen de SOR enkele objecttypen, zoals bijv. nummeraanduiding, die geen geometrische representatie hebben.
-
-Eén object kan meerdere geometrische representaties hebben, die het object in verschillende mate van detaillering beschrijven. 
-
-**De SOR werkt voor alle reële objecten met een 3D dan wel 2,5D geometrische representatie. Voor sommige functionele ruimten is ook een 2,5d geometrie vereist** 
-
-Van vrijwel elk objecttype in de SOR wordt minimaal als eigenschap vastgelegd wat het geometrisch voorkomen is van een object in de registratie. Voor sommige reële objecttypen is dit een 3D geometrie voor veel andere reële objecttypen volstaat een 2,5D geometrie. Voor sommige functionele objecttypen is ook een 2,5D geometrie vereist.
-
-
-*reële objecten*
-
-De 3D geometrie is voorgeschreven voor : 
-- gebouwen
-- ondertunnelingen
-- overbruggingen
-
-Voor overige reële objecten is 2,5D geometrie voorgeschreven
-
-*functionele ruimten* 
-
-Voor verblijfsobjecten en gebouwzones is 2,5D geometrie voorgescheven.
-Voor overige functionele ruimten is 2D geometrie voorgeschreven
-
-*geografische ruimten* 
-
-Voor geografische ruimten is 2D geometrie voorgeschreven
-
-*registratieve ruimten* 
-
-Voor registratieve ruimten is 2D geometrie voorgeschreven
-
+Ontwerpprincipe:
+De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie.
 
 
 #### Aboslute en relatieve hoogten
