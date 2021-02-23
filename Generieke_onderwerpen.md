@@ -189,7 +189,7 @@ Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een g
 0.0015 -> 0.002; 0.0014 -> 0.001.
 
 
-#### 2D, 2,5D en 3D geometrie
+#### Geometrie
 
 Geometrie is in de SOR een eigenschap van een object en representeert de locatie van een object. Er is één uitzondering in de SOR: Nummeraanduiding, deze heeft geen eigenschap geometrie.
 
