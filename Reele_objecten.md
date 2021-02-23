@@ -1181,7 +1181,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | dijk|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
 | stormvloedkering|Keersluis die gesloten wordt bij zeer hoge buitenwaterstanden|
 | gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|
-| bezinkbak| Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening|
 | strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier|
 | steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen|
 | vispassage |Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland|
@@ -1343,18 +1342,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een scherm|Ja |
 |Geometrie|Geometrische representatie van een scherm|Ja (2,5D lijn)|
-|Type scherm| Aanduiding van soort scherm |Ja| 
 |Status   | Fase van de levenscyclus waarin een scherm zich bevindt|Ja   |
 
 **Domeinwaarden**
 
-
-*Type*
-
-|Waarde Type Scherm| Beschrijving   |
-|---|---|
-|geluid|voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
-|fijnstof|voorziening bedoeld om verspreiding van fijnstof te verminderen|
 
 
 *Status* 
@@ -1462,6 +1453,37 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
+#### Bezinkbak
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+
+ 
+
+**Definitie**
+
+| Naam  | Bezinkbak  |
+|---|---|
+| Definitie |  Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening|
+|Herkomst definitie  | BGT 1.2  |
+|Verplicht  | JA  |
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie overig bouwwerk, type bezinkbak  zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een bezinkbak|Ja |
+|Geometrie|Geometrische representatie van een bezinkbak|Ja (2,5D vlak)|
+|Status   | Fase van de levenscyclus waarin een bezinkbak zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
 #### Putdeksel
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
@@ -1515,7 +1537,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een geleider|Ja |
-|Geometrie|Geometrische representatie van de ligging van de geleider|Ja (lijn, vlak)|
+|Geometrie|Geometrische representatie van de ligging van de geleider|Ja (punt, lijn, vlak)|
 |Status   | Fase van de levenscyclus waarin een geleider zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1539,7 +1561,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 | Definitie | Constructie die een technisch samenhangend systeem betreft dat een bepaald doel dient|
 |Herkomst definitie  | Gebaseerd op installatie in IMGeo 2.2  |
 |Verplicht  | Afhankelijk van type installatie|
-|Gevolgen afbakening  | Het betreft hier de bestaande populaties  *installatie* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie  *installatie* en onderdelen van de bestaande populaties *paal, kast en overig bouwwerk*  zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
 
 
@@ -1571,7 +1593,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |**verplicht**||
 |sirene|Installatie welke geluiden van variabele toonhoogte kan voortbrengen met als functie waarschuwingsdoeleinden|
 |verkeerslicht|Installatie bedoeld om het verkeer te regelen|
-|openbare verlichting|Installatie bedoeld voor verlichten van de openbare ruimte|
+|verlichtingsarmatuur|Installatie bedoeld voor verlichten van de openbare ruimte|
 |kast|Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen|
 |**vrijwillig**||
 |pomp|Technische inrichting om vloeistoffen en/of gassen te verplaatsen|

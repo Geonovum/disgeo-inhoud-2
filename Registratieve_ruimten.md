@@ -355,7 +355,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Identificatie   |Unieke aanduiding van een woonplaats, zoals opgenomen in de landelijke woonplaatsentabel  |Ja |
 |Formele naam  |Benaming van een door het gemeentebestuur aangewezen woonplaats   |Ja   |
 |Alternatieve naam | Alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries)| Nee |
-|Geometrie   |Geometrische representatie van de randen van het gebied dat als woonplaats is benoemd   |Ja (2D vlak)  |
+|Geometrie   |Geometrische representatie van een woonplaats |Ja (2D vlak)  |
 |Status   |Fase van de levenscyclus waarin een woonplaats zich bevindt    |Ja   |
 
 
@@ -397,7 +397,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Identificatie   |Unieke aanduiding van een wijk  |Ja |
 |Wijkcode   |Codering van een wijk zoals deze door het CBS wordt gebruikt   |Ja   |
 |Wijknaam   |Naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit   |Ja   |
-|Geometrie   |Geometrische representatie van de randen van het gebied dat als wijk is benoemd   |Ja (2D vlak)  |
+|Geometrie   |Geometrische representatie van een wijk   |Ja (2D vlak)  |
 |Status   |Fase van de levenscyclus waarin een wijk zich bevindt    |Ja   |
 
 
@@ -440,7 +440,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Identificatie   |Unieke aanduiding van een buurt   |Ja |
 |Buurtcode   |Codering van een buurt zoals deze door het CBS wordt gebruikt    |Ja   |
 |Buurtnaam   |Naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit    |Ja   |
-|Geometrie   |Geometrische representatie van de randen van het gebied dat als buurt is benoemd    |Ja (2D vlak) |
+|Geometrie   |Geometrische representatie van een buurt   |Ja (2D vlak) |
 |Status   |Fase van de levenscyclus waarin een buurt zich bevindt   |Ja   |
 
 
@@ -481,7 +481,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Type   |Aard van het object waaraan een openbare ruimte is gerelateerd   |Ja   |
 |Formele naam | Naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja|
 |Alternatieve naam|Alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Nee|
-|Geometrie   |Geometrische representatie van de randen van het gebied dat als openbare ruimte is benoemd  | Ja (2D vlak)  |
+|Geometrie   |Geometrische representatie van een openbare ruimte   | Ja (2D vlak)  |
 |Status   |Fase van de levenscyclus waarin een openbare ruimte zich bevindt    |Ja   |
 
 
@@ -581,7 +581,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een benoemde plaats  |Ja |
-|Geometrie| Geometrische representatie van de randen van het gebied dat als benoemde plaats is benoemd|Ja (2D vlak) |
+|Geometrie| Geometrische representatie van een benoemde plaats |Ja (2D vlak) |
 |Type benoemde plaats| Aard van het object dat op de benoemde plaats is of kan worden geplaatst|Ja|
 |Status   |Fase van de levenscyclus waarin een benoemde plaats zich bevindt    |Ja  |
 
