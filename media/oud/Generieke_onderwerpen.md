@@ -203,17 +203,20 @@ De SOR zal structureel hoogte informatie zal gaan bevatten. Aanduidingen die daa
 3D geometrie is een uitbreiding op 2,5D geometrie door objecten met volumes vast te leggen. Deze volumes kunnen open of gesloten zijn. Bij open volumes kun je door het volume heen bewegen (bijvoorbeeld een weg door een tunnel).
 
 Ontwerpprincipe:
-De SOR kent voor alle reële objecten een 2,5D geometrie en voor enkele specifiek benoemde reële objecten een 3D geometrie.
+
+**De SOR kent voor alle reële objecten een 2,5D geometrie en voor enkele specifiek benoemde reële objecten een 3D geometrie.**
 
 Voor bijna alle reële objecttypen volstaat een 2,5D geometrie. Voor enkele reële objecttypen volstaat een 2,5D geometrie niet en nemen we in de SOR een 3D geometrie op.
 
 Ontwerpprincipe:
-De SOR kent voor alle functionele ruimten een 2D geometrie, behalve voor functionele gebouwobjecten die kennen een 2,5D geometrie.
+
+**De SOR kent voor alle functionele ruimten een 2D geometrie, behalve voor functionele gebouwobjecten die kennen een 2,5D geometrie.**
 
 Voor functionele objecttypen volstaat een 2D geometrie, door het leggen van een relatie met een reëel object, kan voor een functioneel object hoogte informatie worden afgeleid. 
 
 Ontwerpprincipe:
-De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie.
+
+**De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie.**
 
 
 #### Aboslute en relatieve hoogten
