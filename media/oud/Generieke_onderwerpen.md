@@ -213,6 +213,7 @@ Ontwerpprincipe:
 **De SOR kent voor alle functionele ruimten een 2D geometrie, behalve voor functionele gebouwobjecten die kennen een 2,5D geometrie.**
 
 Voor functionele objecttypen volstaat een 2D geometrie, door het leggen van een relatie met een reëel object, kan voor een functioneel object hoogte informatie worden afgeleid. 
+Functionele gebouwobjecten zijn een uitzondering omdat deze zich in een 3D volume (het gebouw) bevinden op hoogte.
 
 Ontwerpprincipe:
 
