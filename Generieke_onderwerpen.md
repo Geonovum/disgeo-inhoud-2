@@ -191,7 +191,8 @@ Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een g
 
 #### Geometrie
 
-Geometrie is in de SOR een eigenschap van een object en representeert de locatie van een object. Er is één uitzondering in de SOR: Nummeraanduiding, deze heeft geen eigenschap geometrie.
+Geometrie is in de SOR een eigenschap van een object en representeert de locatie van een object. Er is één uitzondering in de SOR: Nummeraanduiding, deze heeft geen eigenschap geometrie. Voor geometrie-typen wordt hierbij verwezen naar de Simple Features, zoals vastgelegd in ISO19125 en OGC 06-103r4 OpenGIS® Implementation Standard for Geographic information - Simple feature access - Part 1: Common architecture
+Voor ISO19125 zie: https://www.iso.org/standard/40114.html.
 
 De SOR zal structureel hoogte informatie zal gaan bevatten. Aanduidingen die daarvoor worden gebruikt worden zijn 3D of 2,5D geometrie. Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y en z coördinaten). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
 
@@ -238,14 +239,6 @@ Er zal op een locatie in de werkelijkheid altijd bodem, water, begroeiing of con
 
 
 
-
-
-
-
-#### Geometrie-type
-
-Er wordt hierbij verwezen naar de Simple Features, zoals vastgelegd in ISO19125 en OGC 06-103r4 OpenGIS® Implementation Standard for Geographic information - Simple feature access - Part 1: Common architecture
-Voor ISO19125 zie: https://www.iso.org/standard/40114.html
 
 #### Topologie
     
