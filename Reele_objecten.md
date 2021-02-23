@@ -1084,58 +1084,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-#### Kunstwerkdeel
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
-
- 
-
-**Definitie**
-
-| Naam  |Kunstwerkdeel  |
-|---|---|
-| Definitie |  Onderdeel van een civieltechnisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen |
-|Herkomst definitie  | BGT 1.2  |
-|Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een kunstwerkdeel|Ja |
-|Geometrie|Geometrische representatie van een kunstwerkdeel|Ja (vlak, 2.5D|
-|Type kunstwerkdeel| Aanduiding van het soort kunstwerkdeel|ja|
-|Status   |  Fase van de levenscyclus waarin een kunstwerkdeel zich bevindt|Ja   |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-| is onderdeel van| kunstwerk, type overbrugging | ja|
-| is onderdeel van | kunstwerk, type sluis | ja|
-
-**Domeinwaarden**
-
-
-*Type kunstwerkdeel*
-
-|Waarde Type kunstwerkdeel| Beschrijving   | is onderdeel van|
-|---|---|---|
-| dek |Direct door het verkeer belaste deel van de bovenbouw van de brug| overbrugging|
-| landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk|overbrugging|
-| pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken|overbrugging|
-| sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering|overbrugging|
-| pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels)|overbrugging|
-| sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden| sluis|
-| schutkolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht|sluis|
-| vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke| |
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
 
 #### Ondertunneling
 
@@ -1246,6 +1194,58 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
+
+#### Kunstwerkdeel
+
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
+
+ 
+
+**Definitie**
+
+| Naam  |Kunstwerkdeel  |
+|---|---|
+| Definitie |  Onderdeel van een civieltechnisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen |
+|Herkomst definitie  | BGT 1.2  |
+|Verplicht  | ja  |
+|Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie  *overbruggingsdelen, Type overbruggingsdeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een kunstwerkdeel|Ja |
+|Geometrie|Geometrische representatie van een kunstwerkdeel|Ja (vlak, 2.5D|
+|Type kunstwerkdeel| Aanduiding van het soort kunstwerkdeel|ja|
+|Status   |  Fase van de levenscyclus waarin een kunstwerkdeel zich bevindt|Ja   |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| is onderdeel van| kunstwerk, type overbrugging | ja|
+| is onderdeel van | kunstwerk, type sluis | ja|
+
+**Domeinwaarden**
+
+
+*Type kunstwerkdeel*
+
+|Waarde Type kunstwerkdeel| Beschrijving   | is onderdeel van|
+|---|---|---|
+| dek |Direct door het verkeer belaste deel van de bovenbouw van de brug| overbrugging|
+| landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk|overbrugging|
+| pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken|overbrugging|
+| sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering|overbrugging|
+| pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels)|overbrugging|
+| sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden| sluis|
+| schutkolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht|sluis|
+| vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke| |
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 
