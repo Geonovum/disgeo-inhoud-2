@@ -16,6 +16,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
 Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 **Definitie**
+
 | Naam  | Watervlakte  |
 |---|---|
 | Definitie | Een niet langgerekte verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat|
@@ -1174,14 +1175,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren|
 | duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de waterloop onderbreekt|
 
-*Type beperking*
-
-|Waarde Beperking| Beschrijving   |
-|---|---|
-| doorrijhoogte | Maximale doorrijhoogte tussen het wegdek en de constructie boven het wegdek geldend op een weg, rijbaan of rijstrook (afhankelijk van het type verbinding)|
-| doorrijbreedte| Maximale doorrijbreedte tussen de dichtstbij gelegen objecten aan weerszijden van de weg, rijbaan, rijstrook(afhankelijk van het type verbinding)|
-| toegestane massa|Toegestane massa op een kunstwerk/verharding|
-| toegestane lengte|Toegestane lengte op een locatie van de weg, rijbaan, rijstrook (afhankelijk van het type verbinding)|
 
 *Status* 
 
