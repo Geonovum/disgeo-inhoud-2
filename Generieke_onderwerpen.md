@@ -233,7 +233,7 @@ Met de relatieve hoogte waarde “nul” wordt een referentielaag bedoeld waarin
 
 **De reële objecttypen in de SOR bedekken met hun geometrie in de referentielaag het volledige gebied**
 
-Er zal op een locatie in de werkelijkheid altijd bodem, water, begroeiing of constructies aanwezig zijn. Derhalve kan er uit de geometrische representaties een volledig dekkend topografisch kaartbeeld als inforamtieproduct worden opgebouwd.
+Er zal op een locatie in de werkelijkheid altijd water, begroeiing of constructies aanwezig zijn. Derhalve kan er uit de geometrische representaties een volledig dekkend topografisch kaartbeeld als informatieproduct worden opgebouwd.
 
 
 
