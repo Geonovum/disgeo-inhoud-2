@@ -154,7 +154,7 @@ Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geome
 
 Ontwerpprincipe:
 
-**In de SOR worden de regels voor het gebruik van coördinaatreferentiesystemen gevolgd**
+**In de SOR worden de regels uit NEN 3610 voor het gebruik van coördinaatreferentiesystemen gevolgd**
 
 Het gaat hierbij in elk geval om de volgende regel:
 
