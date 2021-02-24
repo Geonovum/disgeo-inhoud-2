@@ -185,8 +185,7 @@ Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een g
 
 - RD in meters 3 decimalen (1 mm);
 - NAP-hoogte in meters 3 decimalen (1 mm);
-- Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 decimalen. Afronding is volgens de volgende regel:
-0.0015 -> 0.002; 0.0014 -> 0.001.
+- Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 decimalen. Afronding is volgens de volgende regel: 0.0015 -> 0.002; 0.0014 -> 0.001.
 
 
 #### Geometrie
