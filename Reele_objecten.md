@@ -32,7 +32,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |Identificatie   |Unieke aanduiding van een watervlakte|Ja |
 |Geometrie|Geometrische representatie van een watervlakte|Ja (2,5D vlak)|
 |Type watervlakte|Aanduiding van het soort watervlakte|Nee|
-|Categorie | Geeft het belang van een watervlakte aan|Ja|
+|Primair | Geeft het belang van een watervlakte aan|Ja|
 |Status   | Fase van de levenscyclus waarin een watervlakte zich bevindt|Ja   |
 
 
@@ -87,7 +87,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |Geometrie|Geometrische representatie van een waterloop|Ja (2,5D vlak)|
 |Type waterloop|Aanduiding van het soort waterloop|Nee|
 |Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
-|Categorie | Geeft het belang van een waterloop aan|Ja|
+|Primair | De primaire watergangen zijn de hoofdverbindingen in het watersysteem.|Ja|
 |Status   |  Fase van de levenscyclus waarin een waterloop zich bevindt|Ja   |
 
 
