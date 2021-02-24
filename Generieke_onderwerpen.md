@@ -219,7 +219,7 @@ Ontwerpprincipe:
 **De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie.**
 
 
-#### Aboslute en relatieve hoogten
+#### Absolute en relatieve hoogten
 
 **De SOR hanteert absolute en relatieve hoogten**
 
