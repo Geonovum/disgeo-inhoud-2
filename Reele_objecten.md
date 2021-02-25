@@ -395,10 +395,8 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 |Waarde Type | Beschrijving Type |
 |---|---|
-| Laagstam boomgaarden |Terrein begroeid met laagstamfruitbomen|
+| Fruitkwekerij met lage opstand|Terrein begroeid met laagstamfruitbomen, druivenstokken of begroeid met heesters voor zachtfruit zoals bessen of frambozen|
 | Hoogstam boomgaarden |Terrein begroeid met hoogstamfruitbomen|
-| Wijngaarden|Terrein begroeid met druivenstokken voor wijnbouw|
-| Klein fruit |Terrein begroeid met heesters voor zacht fruit zoals bessen of frambozen|
 | Boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is|
 
 *Status* 
@@ -524,9 +522,10 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een bomenrij|Ja |
-|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn)|
+|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn of 2,5D vlak)|
 |Status   |  Fase van de levenscyclus waarin een bomenrij zich bevindt|Ja   |
 
+Opmerking: De inwinningsregels van  Bomenrij worden nog verder uitgewerkt. Samenhang en overlap met objecttype Boom is daarbij een aandachtspunt, evenals de relatie met IMBOR en andere sectorale registraties.
 
 **Domeinwaarden**
 
@@ -554,8 +553,10 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Houtsingel|Ja |
-|Geometrie|Geometrische representatie van een houtsingel|Ja (2,5D vlak)|
+|Geometrie|Geometrische representatie van een houtsingel|Ja (2,5D lijn)|
 |Status   |  Fase van de levenscyclus waarin een houtsingel zich bevindt|Ja   |
+
+Opmerking: De inwinningsregels van Houtsingel worden nog verder uitgewerkt. Samenhang en overlap met objecttype Boom is daarbij een aandachtspunt, evenals de relatie met IMBOR en andere sectorale registraties.
 
 
 **Domeinwaarden**
@@ -584,7 +585,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een Haag|Ja |
-|Geometrie|Geometrische representatie van een haag|Ja (2,5D vlak)|
+|Geometrie|Geometrische representatie van een haag|Ja (2,5D lijn of 2,5D vlak)|
 |Status   |  Fase van de levenscyclus waarin een haag zich bevindt|Ja   |
 
 
@@ -632,11 +633,12 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 | Naam  | Boom |
 |---|---|
-| Definitie | Solitaire boom die geen onderdeel uitmaakt van bos, bomenrij of houtsingel|
-|Herkomst definitie  | IMGeo 2.2 |
+| Definitie | Een overblijvende plant met verhoute stam en kroon|
+|Herkomst definitie  |  |
 |Verplicht  | nee  |
 |Gevolgen afbakening  | nieuw object  |
 |Toelichting| Boom is opgenomen in het vrijwillige deel van de SOR, omdat verschillende organisaties uiteenlopende belangen hebben bij de registratie van bomen en omdat een eenduidige definitie van een Boom nauwelijks is vast te stellen. |
+
 
 **Eigenschappen**
 
@@ -645,6 +647,8 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Identificatie   |Unieke aanduiding van een boom|Ja |
 |Geometrie| Geometrische representatie van een boom|Ja (2,5D punt)|
 |Status   | Fase van de levenscyclus waarin een boom zich bevindt|Ja   |
+
+Opmerking: De inwinningsregels van Boom worden nog verder uitgewerkt. Samenhang en overlap met objecttypen die uit één of meerdere bomen zijn opgebouwd, is daarbij een aandachtspunt, evenals de relatie met IMBOR.
 
 
 **Domeinwaarden**
