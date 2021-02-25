@@ -50,7 +50,7 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 *Type*
 
-|Waarde Type verkeersgebied|Beschrijving|
+|Waarde Type |Beschrijving Type|
 |---|---|
 |Eindknoop	|Wegknoop met 1 verbinding en is het einde van een doodlopende weg|
 |Grensknoop	|Wegknoop met 1 verbinding en betreft een doorgaande verbinding met het wegennetwerk van een buurland|
@@ -115,7 +115,7 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 *Type wegverbinding*
 
-|Waarde type wegverbinding|	Beschrijving|
+|Waarde Type|	Beschrijving Type| 
 |---|---|
 |Weg	|Voorziening die bestaat uit banen die een functie vervullen ten behoeve van het afwikkelen van het verkeer|
 |Baan	|Aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers|
@@ -124,7 +124,7 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 *Type weg*
 
-|Waarde type weg	|Beschrijving|
+|Waarde Type	|Beschrijving Type|
 |---|---|
 |Autosnelweg|	Conflictvrije weg (ongelijkvloerse kruisingen) aangeduid met bord G1 (RVV) bestemd voor snel gemotoriseerd verkeer|
 |Autoweg	|Weg aangeduid door bord G3 (RVV) die alleen voor snel gemotoriseerd (min 50km/uur) verkeer toegankelijk is|
@@ -143,7 +143,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 
 *Type baan*
 
-|Waarde type baan	|Beschrijving|
+|Waarde Type	|Beschrijving Type|
 |---|---|
 |Hoofdrijbaan	|Verkeer dragende baan bestemd voor doorgaand verkeer|
 |Busbaan	|Vrij liggende baan bestemd voor autobussen ten behoeve van het openbaar vervoer en andere erop toegelaten motorvoertuigen|
@@ -159,7 +159,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 
 *Type strook*
 
-|Waarde type strook	|Beschrijving|
+|Waarde Type|Beschrijving Type|
 |---|---|
 |Rijstrook |	Strook waar voertuigen over rijden|
 |Vluchtstrook|	Strook langs autosnelwegen waar weggebruikers naar kunnen uitwijken in geval van nood of pech|
@@ -189,7 +189,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 
 *Type rijrichting*
 
-|Waarde rijrichting|Beschrijving|
+|Waarde Type|Beschrijving Type|
 |---|---|
 |Beide	|Beide rijrichtingen zijn op de verbinding toegestaan|
 |Eenrichting	|Eén rijrichting is op verbinding toegestaan|
@@ -250,7 +250,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 
 *Type*
 
-|Waarde type spoor| Beschrijving|
+|Waarde Type| Beschrijving Type|
 |---|---|
 |Nationaal spoor	|Landelijk spoornetwerk waarmee (inter-)nationaal vervoer van personen en goederen mogelijk is|
 |Lokaal spoor	|Gesloten spoornetwerk bedoeld voor en beperkt tot stedelijk/regionaal vervoer van personen|
@@ -299,7 +299,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 
 *Type*
 
-|Waarde type spoor| Beschrijving|
+|Waarde Type| Beschrijving Type|
 |---|---|
 |Nationaal spoor	|Landelijk spoornetwerk waarmee (inter-)nationaal vervoer van personen en goederen mogelijk is|
 |Lokaal spoor	|Gesloten spoornetwerk bedoeld voor en beperkt tot stedelijk/regionaal vervoer van personen|
@@ -354,7 +354,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Gebruiksdoel*
 
-|Waarde gebruiksdoel|	Beschrijving|
+|Waarde Type|	Beschrijving Type|
 |---|---|
 |Woonfunctie|	Gebruiksfunctie voor het wonen|
 |Bijeenkomstfunctie|	Gebruiksfunctie voor het samenkomen van personen voor kunst, cultuur, godsdienst, communicatie, kinderopvang, het verstrekken van consumpties voor het gebruik ter plaatse of het aanschouwen van sport|
@@ -505,7 +505,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Type* 
 
-|Waarde type|	Beschrijving|
+|Waarde Type|	Beschrijving Type |
 |---|---|
 | Inrit| Geeft toegang tot een bestemmingsdoel|
 | Parkeervlak | Parkeergelegenheid bestemd voor het parkeren van één of meerdere voertuigen direct langs de doorgaande weg gelegen|
@@ -562,7 +562,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Type*
 
-|Waarde type	|Beschrijving|
+|Waarde Type	|Beschrijving Type|
 |---|---|
 | Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden|
 | Berm | Strook grond langs een weg of spoorweg bedoeld voor het uitwijken van voertuigen, het scheiden van verkeerstromen, het plaatsen van verkeersondersteunend meubiliar, afwatering en/of het verbinden van zones met ecologische infrastructurele waarden|
@@ -660,7 +660,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Type*
 
-|Waarde type	|Beschrijving|
+|Waarde Type	|Beschrijving Type|
 |---|---|
 | Baan voor vliegverkeer | Baan uitsluitend bedoeld voor vliegverkeer|
 | Luchthaven | Vliegveld voor verkeersvliegtuigen met groot, effen terrein met al dan niet verharde banen, waar vliegtuigen kunnen opstijgen en landen, eventueel met accommodatie voor ontvangst en vertrek van passagiers en verzending van goederen|
@@ -731,7 +731,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Type*
 
-|Waarde type | Beschrijving|
+|Waarde Type | Beschrijving Type|
 |---|---|
 | 	Speeltuin|Geheel van speelwerktuigen, begroeiing, verharding en gebouwen, bedoeld als speelplaats voor kinderen|
 | 	Park|Landschappelijk ingericht terrein, met begroeiing, verharding, water en gebouwen, bedoeld als recreatieve voorziening|
@@ -777,7 +777,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Type complex*
 
-|Waarde Type complex| Beschrijving   |
+|Waarde Type | Beschrijving Type |
 |---|---|
 |Gemaalcomplex|Alle bij een gemaal behorend water, begroeiing, verharding en gebouwen|
 |Sluiscomplex|Alle bij een sluis behorend water, begroeiing, verharding en gebouwen|
@@ -817,7 +817,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 *Type*
 
-|Waarde Type | Beschrijving   | Verplicht|
+|Waarde Type | Beschrijving Type | Verplicht|
 |---|---|---|
 |Oeverzone | Gebied op de grens van water en land waar het dynamisch samenspel van land en water plaatsvindt, lopend van waterpeil tot insteek| Ja|
 |Oppervlaktewaterlichaam| Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater doorheen kan stromen |Nee|
@@ -856,7 +856,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 *Type*
 
-|Waarde Type | Beschrijving   | Verplicht|
+|Waarde Type | Beschrijving Type  | Verplicht|
 |---|---|---|
 |Watersport zone| Begrensd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport |Nee|
 |Vaarwegzone| Begrensd  oppervlaktewatergebied dat gebruikt wordt voor transport middels scheepvaart |Nee|
@@ -899,7 +899,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Kering*
 
-|Waarde type kering| Beschrijving   |
+|Waarde Type| Beschrijving Type  |
 |---|---|
 |Grond	|voorziening bedoeld om grond te keren|
 |Water	|voorziening bedoeld om water te keren|
@@ -940,7 +940,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Type reducering* 
 
-|Waarde Type reducering| Beschrijving   |
+|Waarde Type | Beschrijving Type  |
 |---|---|
 |Geluid| Voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
 |Fijnstof|Voorziening bedoeld om verspreiding van fijnstof te verminderen	|
