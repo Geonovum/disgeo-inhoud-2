@@ -31,7 +31,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een watervlakte|Ja |
 |Geometrie|Geometrische representatie van een watervlakte|Ja (2,5D vlak)|
-|Type watervlakte|Aanduiding van het soort watervlakte|Nee|
+|Type |Aanduiding van het soort watervlakte|Nee|
 |Primair | Deze watervlakte is een hoofdverbinding in het watersysteem|Ja|
 |Status   | Fase van de levenscyclus waarin een watervlakte zich bevindt|Ja   |
 
@@ -40,9 +40,9 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 
 
-*Type watervlakte*
+*Type *
 
-|Waarde Type watervlakte| Beschrijving   |
+|Waarde Type | Beschrijving Type |
 |---|---|
 |Zee|Uitgestrekt oppervlak zout water|
 |Meer|Watervlakte (meestal zoet) die op natuurlijke wijze dan wel door menselijk ingrijpen (ingraving of afsluiting) is ontstaan|
@@ -79,7 +79,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een waterloop|Ja |
 |Geometrie|Geometrische representatie van een waterloop|Ja (2,5D vlak)|
-|Type waterloop|Aanduiding van het soort waterloop|Nee|
+|Type |Aanduiding van het soort waterloop|Nee|
 |Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
 |Primair | Deze waterloop is een hoofdverbinding in het watersysteem|Ja|
 |Status   |  Fase van de levenscyclus waarin een waterloop zich bevindt|Ja   |
@@ -88,9 +88,9 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 **Domeinwaarden**
 
 
-*Type waterloop*
+*Type *
 
-|Waarde Type waterloop| Beschrijving   |
+|Waarde Type | Beschrijving Type   |
 |---|---|
 |Rivier|Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier|
 |Sloot|Waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil|
@@ -174,7 +174,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 *Type*
 
-|Waarde Type getijdengebied| Beschrijving   |
+|Waarde Type | Beschrijving Type |
 |---|---|
 |Slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt|
 |Schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is|
@@ -209,14 +209,14 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 |---|---|---|
 |Identificatie   | Unieke aanduiding van een bos|Ja |
 |Geometrie| Geometrische representatie van een bos|Ja (2,5D vlak)|
-|Type bos| Aanduiding van het soort bos|Ja|
+|Type | Aanduiding van het soort bos|Ja|
 |Status   | Fase van de levenscyclus waarin een bos zich bevindt|Ja   |
 
 **Domeinwaarden**
 
 *Type*
 
-|Waarde Type bos| Beschrijving   |Verplicht |
+|Waarde Type | Beschrijving Type  |Verplicht |
 |---|---|---|
 | Loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
 | Naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
@@ -393,7 +393,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 *Type* 
 
-|Waarde Type fruit- of kweekbomen| Beschrijving   |
+|Waarde Type | Beschrijving Type |
 |---|---|
 | Laagstam boomgaarden |Terrein begroeid met laagstamfruitbomen|
 | Hoogstam boomgaarden |Terrein begroeid met hoogstamfruitbomen|
@@ -682,7 +682,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een gebouw|Ja |
 |Geometrie |Geometrische representatie van een gebouw   |Ja (3D)|
-|Typering|Categorisering van een gebouw op basis van het constructief beoogde gebruik|Ja|
+|Type|Categorisering van een gebouw op basis van het constructief beoogde gebruik|Ja|
 |Aard|Fysieke verschijningsvorm van een gebouw  |Ja|
 |Oorspronkelijk bouwjaar | Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd|Ja|
 |Naam| Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
@@ -692,9 +692,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 **Domeinwaarden**
 
 
-*Typering* 
+*Type* 
 
-|Waarde Typering|	Beschrijving|
+|Waarde Type|	Beschrijving Type|
 |---|---|
 |	|   |
 |   |   |  	
@@ -703,7 +703,7 @@ Voorbeelden van gebouwen zijn flatgebouwen, kerkgebouwen, kastelen en watertoren
 
 *Aard*
 
-|Waarde Aard|Beschrijving|
+|Waarde Aard|Beschrijving Aard|
 |---|---|
 |Vrijstaand	|Gebouw dat niet is verbonden met een ander gebouw|
 |Repeterend	|Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die als zodanig in één project zijn gerealiseerd|
@@ -785,7 +785,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
 |Geometrie |Geometrische representatie van een ruimte   |Ja (2,5D)|
 |Bouwlaagnummer |Bouwlaag waarop een ruimte zich bevindt|Ja|
 |Oppervlakte| Gebruiksoppervlakte van een ruimte| Nee |
-|Typering|Categorisering van een ruimte op basis van het constructief beoogde gebruik| Ja|
+|Type|Categorisering van een ruimte op basis van het constructief beoogde gebruik| Ja|
 |Status   |Fase van de levenscyclus waarin een ruimte zich bevindt   |Ja   |
 
 
@@ -806,9 +806,9 @@ Voor de nummering van de bouwlaag geldt:
 -	tweede verdieping = bouwlaagnummer 2
 
 
-*Typering* 
+*Type* 
 
-|Waarde Typering|	Beschrijving|
+|Waarde Type|	Beschrijving|
 |---|---|
 |	|   |
 |   |   |	
@@ -951,7 +951,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een open bouwwerk|Ja |
 |Geometrie |Geometrische representatie van een open bouwwerk   |Ja (3D)|
-|Typering| Soort open bouwwerk|Ja|
+|Type| Soort open bouwwerk|Ja|
 |Status   |Fase van de levenscyclus waarin een  open bouwwerk zich bevindt   |Ja   |
 
 
@@ -959,9 +959,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
 **Domeinwaarden**
 
-*Typering*
+*Type*
 
-|Waarde typering| Beschrijving|
+|Waarde Type| Beschrijving Type|
 |---|---|
 |Overkapping|Afzonderlijk staande overdekking rustend op kolommen|
 |Open loods|Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of werkplaats of als tijdelijk onderdak voor andere doeleinden|
@@ -999,16 +999,16 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Verharding"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een verharding|Ja |
 |Geometrie|Geometrische representatie van een verhardingsvlak|Ja (vlak, 2.5D)|
-|Type verharding|Aanduiding van het soort verharding|Ja|
+|Type |Aanduiding van het soort verharding|Ja|
 |Status   | Fase van de levenscyclus waarin een verhardingsvlak zich bevindt|Ja   |
 
 
 **Domeinwaarden**
 
 
-*Type verharding*
+*Type *
 
-|Waarde Type verharding| Beschrijving   |
+|Waarde Type | Beschrijving Type   |
 |---|---|
 | Asfaltverharding|Gesloten verharding bestaande uit asfaltbeton of andere met bitumen gebonden materialen|
 | Betonverharding |Gesloten verharding bestaande uit gewapend of ongewapend beton|
@@ -1044,7 +1044,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van overbrugging|Ja |
 |Geometrie|Geometrische representatie van een overbrugging|Ja (vlak, 2.5D)|
-|Type overbrugging|Aanduiding van het soort overbrugging|Ja|
+|Type |Aanduiding van het soort overbrugging|Ja|
 |Naam| Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 | Beweegbaar  |Aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
 |Status   | Fase van de levenscyclus waarin een overbrugging zich bevindt|Ja   |
@@ -1054,9 +1054,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 **Domeinwaarden**
 
 
-*Type overbrugging* 
+*Type * 
 
-|Waarde Type overbrugging| Beschrijving   |
+|Waarde Type | Beschrijving Type  |
 |---|---|
 | Brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoeld voor verkeer|
 | Aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid|
@@ -1095,7 +1095,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een ondertunneling|Ja |
 |Geometrie|Geometrische representatie van een ondertunneling|Ja (vlak, 2.5D)|
-|Type ondertunneling| Aanduiding van het soort ondertunneling|Ja|
+|Type | Aanduiding van het soort ondertunneling|Ja|
 |Naam| Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |Status   | Fase van de levenscyclus waarin een ondertunneling zich bevindt|Ja   |
 
@@ -1103,9 +1103,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 **Domeinwaarden**
 
 
-*Type ondertunneling*
+*Type *
 
-|Waarde Type ondertunneling| Beschrijving   |
+|Waarde Type | Beschrijving Type |
 |---|---|
 | Tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren|
 | Duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de waterloop onderbreekt|
@@ -1139,7 +1139,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een waterstaatkundig kunstwerk|Ja |
 |Geometrie|Geometrische representatie van een waterstaatkundig kunstwerk|Ja (vlak, 2.5D)|
-|Type kerend kunstwerk| Aanduiding van het soort waterstaatkundig kunstwerk|Ja|
+|Type | Aanduiding van het soort waterstaatkundig kunstwerk|Ja|
 |Status   | Fase van de levenscyclus waarin een waterstaatkundig kunstwerk zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
@@ -1153,9 +1153,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 
 
-*Type waterstaatkundig kunstwerk*
+*Type*
 
-|Waarde type waterstaatkundig kunstwerk| Beschrijving   |
+|Waarde Type| Beschrijving Type  |
 |---|---|
 | Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|
 | Walbescherming |Nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur|
@@ -1202,7 +1202,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een kunstwerkdeel|Ja |
 |Geometrie|Geometrische representatie van een kunstwerkdeel|Ja (vlak, 2.5D|
-|Type kunstwerkdeel| Aanduiding van het soort kunstwerkdeel|ja|
+|Type | Aanduiding van het soort kunstwerkdeel|ja|
 |Status   |  Fase van de levenscyclus waarin een kunstwerkdeel zich bevindt|Ja   |
 
 **Relaties met andere objecttypen** 
@@ -1215,9 +1215,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 **Domeinwaarden**
 
 
-*Type kunstwerkdeel*
+*Type*
 
-|Waarde Type kunstwerkdeel| Beschrijving   | is onderdeel van|
+|Waarde Type | Beschrijving Type  | is onderdeel van|
 |---|---|---|
 | Dek |Direct door het verkeer belaste deel van de bovenbouw van de brug| overbrugging|
 | Landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk|overbrugging|
@@ -1565,7 +1565,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een installatie|Ja |
 |Geometrie|Geometrische representatie van de installatie|Ja (punt, lijn, vlak)|
-|Type installatie| Aanduiding van het soort installatie|Ja|
+|Type | Aanduiding van het soort installatie|Ja|
 |Status   | Fase van de levenscyclus waarin een installatie zich bevindt|Ja   |
 
 
@@ -1581,7 +1581,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 
 *Type* 
 
-|Waarde Type installatie| Beschrijving   |
+|Waarde Type | Beschrijving Type  |
 |---|---|
 |**verplicht**||
 |Sirene|Installatie welke geluiden van variabele toonhoogte kan voortbrengen met als functie waarschuwingsdoeleinden|
