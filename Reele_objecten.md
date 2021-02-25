@@ -31,8 +31,8 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een watervlakte|Ja |
 |Geometrie|Geometrische representatie van een watervlakte|Ja (2,5D vlak)|
-|Type |Aanduiding van het soort watervlakte|Nee|
-|Primair | Deze watervlakte is een hoofdverbinding in het watersysteem|Ja|
+|Type |Typering van een watervlakte|Nee|
+|Indicatie Primair | Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem|Ja|
 |Status   | Fase van de levenscyclus waarin een watervlakte zich bevindt|Ja   |
 
 
@@ -81,7 +81,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |Geometrie|Geometrische representatie van een waterloop|Ja (2,5D vlak)|
 |Type |Aanduiding van het soort waterloop|Nee|
 |Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
-|Primair | Deze waterloop is een hoofdverbinding in het watersysteem|Ja|
+|Indicatie Primair | Deze waterloop is al dan niet een hoofdverbinding in het watersysteem|Ja|
 |Status   |  Fase van de levenscyclus waarin een waterloop zich bevindt|Ja   |
 
 
@@ -165,7 +165,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een getijdengebied|Ja |
 |Geometrie|Geometrische representatie van een getijdengebied|Ja (2,5D vlak)|
-|Type getijdengebied|Aanduiding van het soort getijdengebied|Nee|
+|Type |Aanduiding van het soort getijdengebied|Nee|
 |Status   | Fase van de levenscyclus waarin een getijdengebied zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -382,9 +382,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   | Unieke aanduiding van fruit- of kweekbomen|Ja |
+|Identificatie   | Unieke aanduiding van fruit- of |Ja |
 |Geometrie| Geometrische representatie van fruit- of kweekbomen|Ja (2,5D vlak)|
-|Type fruit- of kweekbomen| Aanduiding van het type fruit- of kweekbomen|Ja|
+|Type | Typering van fruit- of kweekbomen|Ja|
 |Status   | Fase van de levenscyclus waarin fruit- of kweekbomen zich bevinden|Ja   |
 
 
@@ -808,7 +808,7 @@ Voor de nummering van de bouwlaag geldt:
 
 *Type* 
 
-|Waarde Type|	Beschrijving|
+|Waarde Type|	Beschrijving Type |
 |---|---|
 |	|   |
 |   |   |	
@@ -1262,7 +1262,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 | Identificatie   |Unieke aanduiding van een muur|Ja |
 | Geometrie|Geometrische representatie van een muur|Ja (2,5D lijn) Nee (2,5D vlak)|
-| Valbescherming| Muur bedoeld om vallen te voorkomen |	Nee|
+| Indicatie Valbescherming| Muur die al dan niet bedoeld is om vallen te voorkomen |	Nee|
 | Status   | Fase van de levenscyclus waarin een muur zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1303,7 +1303,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een omheining|Ja |
 |Geometrie|Geometrische representatie van een omheining|Ja (2,5D lijn)|
-| Valbescherming| Omheining bedoeld om vallen te voorkomen |	Nee|
+| Indicatie Valbescherming| Omheining die al dan niet bedoeld is m vallen te voorkomen |	Nee|
 |Status   | Fase van de levenscyclus waarin een omheining zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1627,18 +1627,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een mast|Ja |
 |Geometrie|Geometrische representatie van de mast|Ja (punt, multipunt , lijn, vlak of multivlak )|
-|Type mast 	|Aanduiding van het soort mast|	Ja|
+|Indicatie Open  	|Geeft aan of een mast al dan niet open is|	Ja|
 |Status   | Fase van de levenscyclus waarin een mast zich bevindt|Ja   |
 
 **Domeinwaarden**
-
-*Type*
-
-| Waarde Type  | Beschrijving  |
-|---|---|
-|Open 	|Open constructie van de mast|
-|Gesloten	|Gesloten constructie van de mast|
-
 
 
 *Status* 
@@ -1701,14 +1693,14 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van straatmeubilair|Ja |
 |Geometrie|Geometrische representatie van het straatmeubilair|Ja (2,5D punt)|
-|Type straatmeubilair 	|Aanduiding van het soort straatmeubilair	|Nee|
+|Type  	|Typering van straatmeubilair	|Nee|
 |Status   | Fase van de levenscyclus waarin straatmeubilair zich bevindt|Ja   |
 
 **Domeinwaarden**
 
 *Type*
 
-| Waarde Type  | Beschrijving   |
+| Waarde Type  | Beschrijving Type  |
 |---|---|
 |Abri	|Overdekte wachtplaats voor passagiers van het openbaar vervoer|
 |Bank 	|Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen)|
