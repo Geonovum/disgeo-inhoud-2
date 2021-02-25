@@ -37,7 +37,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 
 *Type* 
 
-| Waarde  | Beschrijving Type  |
+| Waarde Type | Beschrijving Type  |
 |---|---|
 |Woonkern  | Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen    |
 |Industriekern  |Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten   |
@@ -119,7 +119,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 
 *Type*
 
-|Waarde type	|Beschrijving|
+|Waarde Type	|Beschrijving Type |
 |---|---|
 |Berg	|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
 |Bosgebied	|Gebied dat overwegend met bos begroeid is|
@@ -141,13 +141,13 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-### Reliëf 
+### Reliëfzone
 
 Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
 
 **Definitie**
 
-| Naam  | Reliëf  |
+| Naam  | Reliëfzone |
 |---|---|
 | Definitie | Geografische ruimte die tot doel heeft hoogteverschillen in het landschap te representeren|
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1) |
@@ -159,10 +159,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van een reliëf|Ja |
-|Geometrie   |Geometrische representatie van het reliëf bekend is|Ja (2,5D punt,vlak)  |
-|Type |Hoofdkarakter van het reliëf|Nee |
-|Status   |Fase van de levenscyclus waarin een reliëf zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een reliëfzone|Ja |
+|Geometrie   |Geometrische representatie van het reliëfzone bekend is|Ja (2D punt,vlak)  |
+|Type |Hoofdkarakter van het reliëfzone|Nee |
+|Status   |Fase van de levenscyclus waarin een reliëfzone zich bevindt|Ja   |
 
 
 
@@ -170,13 +170,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 
 *Type* 
 
-| waarde | Beschrijving Type  |
+| Waarde Type | Beschrijving Type  |
 |---|---|
-|terp|Verhoging in het landschap oorspronkelijk bedoelt om de daarop gevestigde bebouwing te beschermen tegen het water| 
-|grafheuvel|Voorhistorische begraafplaats in de vorm van een heuvel|
-|wal|Langgerekte ophoging in het terrein met een hoogte tussen 0,50 en 1,00 meter| 
-|steile rand|Steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling|
-|holle weg|Weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie|
+|Terp|Verhoging in het landschap oorspronkelijk bedoelt om de daarop gevestigde bebouwing te beschermen tegen het water| 
+|Grafheuvel|Voorhistorische begraafplaats in de vorm van een heuvel|
+|Steile rand|Steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling|
+|Holle weg|Weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie|
 
 
 
