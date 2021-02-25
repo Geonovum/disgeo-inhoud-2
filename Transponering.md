@@ -599,7 +599,11 @@ In de SOR worden geen vegetatieobjecten opgenomen zoals in BGT|IMGeo 2.2 zijn op
 | **Vegetatieobject**            |          | Type:                         |                                           |
 |                                | Niet BGT | boom                          | boom                                      |
 |                                | Niet BGT | haag                          | haag                                      |
-|                                |          |                               |                                           |
+|                                |          |             
+
+
+.
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Buurt**                      | Niet BGT |                               | registratief objecttype: buurt            |
