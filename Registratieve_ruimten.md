@@ -495,7 +495,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 *Type* 
 
-| Waarde Type | Beschrijving   |
+| Waarde Type | Beschrijving  Type  |
 |---|---|
 | Wegverbinding|Openbare ruimte die behoort bij één wegverbinding of bij meerdere wegverbindingen met de tussenliggende knopen|
 | Waterverbinding |Openbare ruimte die behoort bij één waterverbinding of bij meerdere waterverbindingen met de tussenliggende knopen|
@@ -549,7 +549,7 @@ Toelichting: De woonplaats behorende bij de nummeraanduiding prevaleert boven de
 
 *Type* 
 
-| Waarde Type | Beschrijving   |
+| Waarde Type | Beschrijving  Type |
 |---|---|
 | Verblijfsobject |Nummeraanduiding is bedoeld voor een verblijfsobject |
 | Benoemde plaats |Nummeraanduiding is bedoeld voor een benoemde plaats |
@@ -591,7 +591,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 *Type*
 
-| Waarde Type benoemde plaats| Beschrijving   |
+| Waarde Type | Beschrijving Type  |
 |---|---|
 |Mobiele object|Constructief zelfstandig object dat in zijn geheel of delen kan worden verplaatst|
 |Drijvend object|Constructief zelfstandig object dat met het water kan meebewegen|
