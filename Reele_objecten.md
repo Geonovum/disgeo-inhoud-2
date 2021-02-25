@@ -1201,7 +1201,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een kunstwerkdeel|Ja |
-|Geometrie|Geometrische representatie van een kunstwerkdeel|Ja (vlak, 2.5D|
+|Geometrie|Geometrische representatie van een kunstwerkdeel|Ja (vlak, 2.5D)|
 |Type | Aanduiding van het soort kunstwerkdeel|ja|
 |Status   |  Fase van de levenscyclus waarin een kunstwerkdeel zich bevindt|Ja   |
 
