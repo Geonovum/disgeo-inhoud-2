@@ -3,7 +3,7 @@
 ### Oppervlaktewater
 
     
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Water"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Water 
 
 *Definitie**
 
@@ -190,7 +190,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Bos
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 
 **Definitie**
@@ -234,7 +234,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ####    Gras- en kruidachtigen
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 
 **Definitie**
@@ -266,7 +266,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ####  Struiken
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 
 **Definitie**
@@ -302,7 +302,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 
 **Definitie**
@@ -312,7 +312,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
 | Bouwland | Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen|
 |Herkomst definitie  | Definitie gebaseerd op bouwland in de BGT 1.2 |
 |Verplicht  | ja  |
-|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object "Braakliggend" wordt voor zover het landbouwgrond betreft ook in dit objecttype *Bouwland* opgenomen|
+|Gevolgen afbakening  | Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object  Braakliggend  wordt voor zover het landbouwgrond betreft ook in dit objecttype *Bouwland* opgenomen|
 |Toelichting| Kan tijdelijk zonder gewas zijn of braak liggen|
 
 **Eigenschappen**
@@ -332,7 +332,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Onbegroeide grond
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 
 **Definitie**
@@ -365,7 +365,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ####    Fruit- of kweekbomen
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 
 **Definitie**
@@ -412,7 +412,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **MOERAS**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 **Definitie**
 
@@ -443,7 +443,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **RIETLAND**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 **Definitie**
 
@@ -473,7 +473,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **HEIDE**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 **Definitie**
 
@@ -507,7 +507,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **BOMENRIJ**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 **Definitie**
 
@@ -537,7 +537,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **HOUTSINGEL**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 **Definitie**
 
@@ -567,7 +567,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **HAAG**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 **Definitie**
 
@@ -596,7 +596,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **TUUNWAL**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 **Definitie**
 
@@ -625,7 +625,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Boom
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Begroeiing"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 
 **Definitie**
@@ -662,7 +662,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Gebouw
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw 
 
 **Definitie**
 
@@ -718,7 +718,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Bouwlaag
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw 
 
 **Definitie**
 
@@ -765,7 +765,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Ruimte
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw 
 
 **Definitie**
 
@@ -822,7 +822,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Gebouwcomponent
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw 
 
 **Definitie**
 
@@ -876,7 +876,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Toegangsdeur
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Gebouw"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw 
 
 **Definitie**
 
@@ -933,7 +933,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 #### Open bouwwerk
 
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
 **Definitie**
 
@@ -979,7 +979,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 ### Verharding
 
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Verharding"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Verharding 
 
  
 
@@ -1026,7 +1026,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 ### Kunstwerk
 #### Overbrugging
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk 
 
 **Definitie**
 
@@ -1075,7 +1075,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 #### Ondertunneling
 
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk 
 
  
 
@@ -1121,7 +1121,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 #### Waterstaatkundig kunstwerk
 
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk 
 
 **Definitie**
 
@@ -1131,7 +1131,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 |Herkomst definitie  | nieuw  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| De kerende functie kan worden vastgelegd middels de functionele ruimte "kering" van het type "water" |
+|Toelichting| De kerende functie kan worden vastgelegd middels de functionele ruimte  kering  van het type  water  |
 
 **Eigenschappen**
 
@@ -1182,7 +1182,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Kunstwerkdeel
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk 
 
  
 
@@ -1244,7 +1244,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 #### Muur
   
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 **Definitie**
@@ -1283,7 +1283,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 #### Omheining
 
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1317,7 +1317,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 #### Scherm
   
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1352,7 +1352,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Afvalcontainer
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1386,7 +1386,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Bassin
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1418,7 +1418,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Opslagtank
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1450,7 +1450,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Bezinkbak
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1481,7 +1481,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Putdeksel
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1514,7 +1514,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Geleider
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
  
 
 **Definitie**
@@ -1545,7 +1545,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Installatie
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1607,7 +1607,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Mast
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1641,7 +1641,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Paal
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1673,7 +1673,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Straatmeubilair
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 
@@ -1722,7 +1722,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Bunker
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
 

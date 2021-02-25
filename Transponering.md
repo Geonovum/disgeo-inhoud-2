@@ -95,7 +95,7 @@ Beide functies van ondersteunend wegdeel komen in de SOR terug als een type bij 
 |                           |                        |                        |                                                                                         |
 
 **Spoor**
-Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De functies (trein, sneltram, tram) vervallen. Er komen twee nieuwe type spoorverbinding voor terug: nationaal spoor en lokaal spoor. 
+Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De functies (trein, sneltram, tram) vervallen. Er komen twee nieuwe type spoorverbinding voor terug: nationaal spoor en lokaal spoor. De plus classificatie havenkraan komt niet terug in de SOR.
 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
