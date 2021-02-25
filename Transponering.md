@@ -106,7 +106,10 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |                           | tram                   |                        | spoorweg: type spoorverbinding                                                          |
 
 
-.
+**Onbegroeid terreindeel**
+
+In de SOR worden geen onbegroeide terreindelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. In de SOR wordt fysiek voorkomen erf een onbepaald terrein, en de overige fysieke voorkomens komen terug als verharding, begroeiing of landschappelijk gebied. 
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -132,7 +135,11 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |                            |                     |                        |                                            |
 |                            |                     |                        |                                            |
 
-.
+
+**Begroeid terreindeel**
+
+In de SOR worden geen begroeide terreindelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. In de SOR komen de fysieke voorkomens terug als begroeiing. Het fysieke voorkomen groenvoorziening komt in de SOR niet terug, maar wordt opgenomen als struiken of gras- en kruidachtigen.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -166,7 +173,12 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |                            |                     | heesters               | struiken                                   |
 |                            |                     | bodembedekkers         | struiken                                   |
 
-.
+
+**Waterdeel**
+
+Het waterdeel uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als oppervlaktewater. Het type greppel/droge sloot komt in de SOR terug als eigenschap watervoerend bij waterloop type sloot. De plus classificatie ‘meer, plas, ven, vijver’ wordt in de SOR uitgesplitst in aparte typen. De plus classificatie haven komt niet terug als watervlakte, maar als functionele ruimte complex, type havencomplex.
+
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -184,19 +196,31 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |                             |                     |                         |                                                          |
 
 
+**Ondersteunend waterdeel**
+
+In de SOR worden geen ondersteunende waterdelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. In de SOR worden functie en fysiek gescheiden. Dit betekent dat oever/slootkant een functionele ruimte oeverzone wordt en in het reële deel van de SOR wordt opgenomen of de oever verharding of begroeiing betreft. Slik komt in de SOR bij oppervlaktewater terug als getijdengebied van type slik.
+
+
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Ondersteunend waterdeel** | oever/slootkant     |                         | oever                                                    |
 |                             | slik                |                         | getijdengebied: type slik                                |
 
-.
+
+**Pand**
+
+Het pand uit BGT|IMGeo 2.2 is in de SOR opgenomen als 3D object gebouw.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Pand**            | Grondvlaksituatie van BAG-pand  |            | Gebouw                                                      |
 |                     |                                 |            |                                                             |
 
-.
+**Overig Bouwwerk**
+
+In de SOR worden geen overige bouwwerken opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. Alle objecten m.u.v. de plus classificatie voedersilo komen terug als object in de SOR. Overkapping en open loods zijn open bouwwerken in de SOR. Plus classificatie schuur komt terug als typering bij gebouw. Opslagtank, bezinkbak, bassin en bunker komen één op één in de SOR terug. Windturbine komt terug als installatie van type windturbine, en de winturbinemast komt in de SOR bij mast. Lage trafo is in de SOR een installatie van type kast. 
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -213,7 +237,11 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |                     | Niet BGT                        | schuur     | gebouw, met typering                                        |
 |                     |                                 |            |                                                             |
 
-.
+
+**Scheiding**
+
+In de SOR worden geen scheidingen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. In de SOR worden functie en fysiek gescheiden, dit betekent voor scheidingen dat deze in de SOR zijn opgenomen als een reëel object met een functionele zonering kering, reducering of afscheiding. In de SOR geen onderscheid tussen hek en raster, deze komen in de SOR terug als omheining.
+
 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
@@ -229,7 +257,10 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |               | Niet BGT       | faunaraster | raster                                                     |
 
 
-.
+**Overbruggingsdeel**
+
+In de SOR komt overbruggingsdeel zoals in BGT|IMGeo 2.2 is opgenomen terug als overbrugging (de plus classificaties Hoort bij type overbrugging) en als kunstwerkdeel (de plus classificaties Type overbruggingsdeel).
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -248,14 +279,23 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |                       |                   | pyloon                       | kunstwerkdeel: type pyloon        |
 |                       |                   |                              |                                   |
 
-.
+
+**Tunneldeel**
+
+Het tunneldeel uit BGT|IMGeo 2.2 is in de SOR opgenomen als ondertunneling van type tunnel.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Tunneldeel**        | Tunneldeel        |                              | ondertunneling: type tunnel       |
 |                       |                   |                              |                                   |
 
-.
+
+
+**Kunstwerkdeel**
+
+In de SOR worden geen kunstwerkdelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. (Voor het kunstwerkdeel in de SOR zie bij overbruggingsdeel.) M.u.v. de plus classificatie faunavoorziening komen de kunstwerkdelen uit BGT|IMGeo wel terug in de SOR. Voor perron geldt dat dit in de SOR verharding is met functie perron.  De overige kunstwerkdelen komen in de SOR terug als reële objecten waterstaatkundig kunstwerk, overbrugging, ondertunneling of mast.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
@@ -515,7 +555,7 @@ In de SOR wordt alleen straatmeubilair van type: abri, bank, fietsparkeerplaats,
 
 **Waterinrichtings-element**
 
-In de SOR worden geen waterinrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De waterinrichtingselementen van het type remmingswerk en geleidewerk komen in de SOR als geleider. Het waterinrichtingselement vuilvang komt in de SOR als kunstwerkdeel van type vuilvang. De waterinrichtingselementen van type betonning, meerpaal en hoogtemerk komen niet terug.
+In de SOR worden geen waterinrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De waterinrichtingselementen van het type remmingswerk en geleidewerk komen in de SOR als geleider. Het waterinrichtingselement vuilvang komt in de SOR als waterstaatkundig kunstwerk van het type vuilvang. De waterinrichtingselementen van type betonning, meerpaal en hoogtemerk komen niet terug.
 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
@@ -532,7 +572,7 @@ In de SOR worden geen waterinrichtings-elementen opgenomen zoals in BGT|IMGeo 2.
 
 **Weginrichtings-element**
 
-In de SOR worden geen weginrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De typen molgoot, wegmarkering, rooster, boomspiegel, verblindingswering komen niet terug in de SOR. Het weginrichtingselement van het type geleideconstructie komt in de SOR als geleider. Lijnafwatering komt terug als putdeksel, wildrooster komt terug als functionele wegzone, type wildrooster, balustrade komt terug als hek met functie valbescherming.
+In de SOR worden geen weginrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De typen molgoot, wegmarkering, rooster, boomspiegel, verblindingswering komen niet terug in de SOR. Het weginrichtingselement van het type geleideconstructie komt in de SOR als geleider. Lijnafwatering komt terug als putdeksel, wildrooster komt terug als functionele wegzone, type wildrooster, balustrade komt terug als omheining met eigenschap valbescherming.
 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
@@ -550,6 +590,9 @@ In de SOR worden geen weginrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 
 |                                |          |                               |                                           |
 
 **Vegetatieobject**
+ 
+In de SOR worden geen vegetatieobjecten opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. Boom en haag zijn opgenomen als aparte objecten bij begroeiing.
+
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
