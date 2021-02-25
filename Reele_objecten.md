@@ -32,7 +32,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |Identificatie   |Unieke aanduiding van een watervlakte|Ja |
 |Geometrie|Geometrische representatie van een watervlakte|Ja (2,5D vlak)|
 |Type watervlakte|Aanduiding van het soort watervlakte|Nee|
-|Primair | Geeft het belang van een watervlakte aan|Ja|
+|Primair | Deze watervlakte is een hoofdverbinding in het watersysteem|Ja|
 |Status   | Fase van de levenscyclus waarin een watervlakte zich bevindt|Ja   |
 
 
@@ -50,12 +50,6 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |ven|Natuurlijk ontstaan meer op heidegrond|
 |vijver|Gegraven waterpartij, aangelegd in stedelijke omgeving of in een parklandschap|
 
-*Categorie*
-
-|Waarde Categorie| Beschrijving   |
-|---|---|
-|Primair||
-|Overig||
 
 *Status* 
 
@@ -87,7 +81,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |Geometrie|Geometrische representatie van een waterloop|Ja (2,5D vlak)|
 |Type waterloop|Aanduiding van het soort waterloop|Nee|
 |Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
-|Primair | De primaire watergangen zijn de hoofdverbindingen in het watersysteem.|Ja|
+|Primair | Deze waterloop is een hoofdverbinding in het watersysteem|Ja|
 |Status   |  Fase van de levenscyclus waarin een waterloop zich bevindt|Ja   |
 
 
@@ -103,13 +97,6 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |kanaal|Gegraven grote waterloop die dient voor scheepvaart en/of watertransport|
 |beek|Natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier|
 |gracht|Gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden|
-
-*Categorie*
-
-|Waarde Categorie| Beschrijving   |
-|---|---|
-|Primair||
-|Overig||
 
 
 *Status* 
@@ -1170,8 +1157,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 
 |Waarde type waterstaatkundig kunstwerk| Beschrijving   |
 |---|---|
-| keermuur |muur die door vorm, gewicht en fundering zonder verankering de grond keert|
-| kademuur |Grondkerende constructie tegen afkalving van de walkant, in de vorm van een verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton|
 | damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|
 | walbescherming |Nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur|
 | schot|Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen|
@@ -1187,6 +1172,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | bodemval |Sprong in de bodem van een waterloop|
 | ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft|
 | voorde |Doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop|
+| vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke| |
 
 *Status* 
 
@@ -1240,7 +1226,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 | pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels)|overbrugging|
 | sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden| sluis|
 | schutkolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht|sluis|
-| vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke| |
+
 
 *Status* 
 
@@ -1283,6 +1269,13 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+| heeft mogelijk een functie| kering| Ja|
+
 
 
 
