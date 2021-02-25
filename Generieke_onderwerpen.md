@@ -144,13 +144,44 @@ Een object kan eerder ontstaan (bijvoorbeeld in een sectorregistratie) dan in de
 
 ### Aspecten van geometrie
 
-Opname van geometrie van (vrijwel) alle objecten in de registratie is van essentieel belang voor het goed kunnen functioneren van een geo-basisregistratie. Met geometrie wordt daarbij expliciet bedoeld een geo-gerefereerde vastlegging van een object. Met geo-gerefereerde vastlegging wordt bedoeld dat de geometrie is beschreven in de vorm van coördinaten die onderdeel uitmaken van een referentie coördinatenstelsel. 
+#### Geometrie
 
-Hierbij kan de wijze van vastlegging verschillen voor de diverse objecttypen. Sommige objecttypen zullen worden vastgelegd in de vorm van 3D volumes. Andere objecttypen als vlakken al dan niet met een bepaalde hoogteligging. Voor bepaalde objecten met een minimale omvang kan ook geometrische vastlegging in de vorm van een enkel coördinatendrietal (x, y en z) worden vastgelegd (puntobject). 
+In het conceptueel model voor de SOR staan de verschillende begrippen (soorten geo-objecten) die we willen onderscheiden centraal. Deze begrippen worden daarbij nadrukkelijk los gezien van hetgeen in informatieproducten aan gebruikers kan worden getoond in de vorm van onder meer kaartproducten (zie paragraaf 1.4). Deze benadering heeft ook gevolgen voor de wijze waarop in het conceptueel model wordt omgegaan met geometrie. 
 
-Speciale aandacht vraagt het geometrisch voorkomen van netwerken. Aan deze geometrie worden nadere eisen gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende reële objecten). Ook worden bij dit soort objecten deels ook andere benaderingen gekozen voor het bepalen van de positie op een netwerk (zoals lineair referencing). Daarnaast wordt er in de verdere uitwerking ook nog aandacht besteed aan andere wijzen van vastlegging van de locatie van objecten. Denk hierbij onder meer aan bouwlagen.
+In plaats van uit te gaan van bestaande principes als topologisch sluitende geometrie op maaiveldniveau, wordt in dit conceptueel model gestart vanuit het definiëren van relevante geo-objecten. Geo-objecten worden daarbij gezien als een abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. Dit laatste leggen we vast in een coördinaatreferentiesysteem. Voor het scherp kunnen afbakenen van objecten is van belang dat eerst wordt vastgesteld welke objecten we willen kunnen onderscheiden. 
 
-#### Coördinaatreferentiesysteem 
+Voor reële objecten wordt daarvoor bepaald welke fenomenen we in de 3D werkelijkheid aantreffen (“waar we ons hoofd tegen kunnen stoten”) en hoe we dat als abstractie willen begrenzen. Dit bepaalt de definitie van een begrip. Vervolgens kan worden vastgesteld hoe verschillende fenomenen zich ten opzichte van elkaar verhouden. Dit bepaalt de relaties die er kunnen bestaan tussen verschillende begrippen. Hierbij kan worden gedacht aan relaties als “ligt bovenop”, “ligt naast” of “is gelegen in”. Tenslotte kan aan de hand van gebruikersbehoeften worden bepaald in hoeverre een fenomeen in de werkelijkheid als abstractie moet worden beschouwd als een volume (3D), een vlak op hoogte (2,5D) of een vlak. Dit bepaalt de geometrische beschrijving van het object.
+
+Geometrie wordt hierbij in de SOR vastgelegd als een eigenschap van een object en representeert daarmee de locatie van een object. Er is één uitzondering in de SOR: alleen nummeraanduiding heeft via het genummerde object een ligging en heeft daarmee geen eigenschap geometrie. Voor de vastlegging van geometrie in de vorm van geometrie-typen wordt verwezen naar de Simple Features, zoals vastgelegd in ISO19125 en OGC 06-103r4 OpenGIS® Implementation Standard for Geographic information - Simple feature access - Part 1: Common architecture Voor ISO19125 zie: https://www.iso.org/standard/40114.html.
+
+Bij het vertalen van de fenomenen in de werkelijkheid naar abstracties in de vorm van begrippen, is vastgesteld dat er vanuit het beoogde gebruik behoefte bestaat om veel fenomenen te beschouwen als volume (3D) of een vlak op hoogte (2,5D). Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in absolute zin in een drie dimensionale ruimte wordt vastgelegd (dus met x,y en z coördinaten voor elk vastgelegd punt in een geometrie). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie. Relatieve hoogteliggingen kunnen zo nodig ten behoeve van informatieproducten worden afgeleid.
+
+2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen. Dit wordt veel gebruikt om de “golvende” vorm van het aardoppervlak vast te leggen.
+
+
+![terreinmodel](media/terreinmodel.png)
+
+3D geometrie is een uitbreiding op 2,5D geometrie door objecten met volumes vast te leggen. Deze volumes kunnen open of gesloten zijn. Bij open volumes kun je door het volume heen bewegen (bijvoorbeeld een weg door een tunnel).
+De mate waarin er behoefte bestaat fenomenen te beschouwen als 2D, 2,5D of 3D abstracties verschilt voor de in het conceptueel model onderscheiden hoofdtypen (zie voor een uitwerking van deze hoofdtypen de beschrijving in hoofdstuk [samenhang](#samenhang)).
+
+Ontwerpprincipe:
+
+**De SOR kent voor alle reële objecten een 2,5D geometrie en voor enkele specifiek benoemde reële objecten een 3D geometrie**
+
+Voor bijna alle reële objecttypen volstaat een 2,5D geometrie. Voor enkele reële objecttypen volstaat vanuit het gebruik een 2,5D geometrie niet en nemen we in de SOR een 3D geometrie op.
+
+Ontwerpprincipe
+
+**De SOR kent voor alle functionele ruimten een 2D geometrie en voor de functionele gebouwobjecten een 2,5D geometrie**
+
+Voor functionele objecttypen volstaat in de regel een 2D geometrie. Door het leggen van een relatie met een reëel object, kan voor een functioneel object zo nodig hoogte informatie worden afgeleid. Functionele gebouwobjecten zijn een uitzondering. Dit zijn vlakken op hoogte die zich in een 3D volume (het gebouw) bevinden.
+
+Ontwerpprincipe:
+
+**De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie**
+
+
+#### Coördinaatreferentiesysteem
 
 Ontwerpprincipe:
 
@@ -179,7 +210,6 @@ Het RD-stelsel is gedefinieerd ten opzichte van het ETRS89.
 </div>
 
 
-**Coördinaten**
 
 Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een getalsnauwkeurigheid van 1 mm of het equivalent daarvan in graden. Voor RD en NAP  komt dat overeen met de volgende nauwkeurigheden:
 
@@ -187,182 +217,98 @@ Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een g
 - NAP-hoogte in meters 3 decimalen (1 mm);
 - Alles wat nauwkeuriger is wordt afgerond op deze nauwkeurigheid van 3 decimalen. Afronding is volgens de volgende regel: 0.0015 -> 0.002; 0.0014 -> 0.001.
 
-
-#### Geometrie
-
-Geometrie is in de SOR een eigenschap van een object en representeert de locatie van een object. Er is één uitzondering in de SOR: Nummeraanduiding, deze heeft geen eigenschap geometrie. Voor geometrie-typen wordt hierbij verwezen naar de Simple Features, zoals vastgelegd in ISO19125 en OGC 06-103r4 OpenGIS® Implementation Standard for Geographic information - Simple feature access - Part 1: Common architecture
-Voor ISO19125 zie: https://www.iso.org/standard/40114.html.
-
-De SOR zal structureel hoogte informatie zal gaan bevatten. Aanduidingen die daarvoor worden gebruikt worden zijn 3D of 2,5D geometrie. Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in een drie dimensionale ruimte wordt vastgelegd (dus met x,y en z coördinaten). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie.
-
-2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen. Dit wordt veel gebruikt om de “golvende” vorm van het aardoppervlak vast te leggen.
-
-
-![terreinmodel](media/terreinmodel.png)
-
-3D geometrie is een uitbreiding op 2,5D geometrie door objecten met volumes vast te leggen. Deze volumes kunnen open of gesloten zijn. Bij open volumes kun je door het volume heen bewegen (bijvoorbeeld een weg door een tunnel).
-
-Ontwerpprincipe:
-
-**De SOR kent voor alle reële objecten een 2,5D geometrie en voor enkele specifiek benoemde reële objecten een 3D geometrie.**
-
-Voor bijna alle reële objecttypen volstaat een 2,5D geometrie. Voor enkele reële objecttypen volstaat een 2,5D geometrie niet en nemen we in de SOR een 3D geometrie op.
-
-Ontwerpprincipe:
-
-**De SOR kent voor alle functionele ruimten een 2D geometrie, behalve voor functionele gebouwobjecten die kennen een 2,5D geometrie.**
-
-Voor functionele objecttypen volstaat een 2D geometrie, door het leggen van een relatie met een reëel object, kan voor een functioneel object hoogte informatie worden afgeleid. Functionele gebouwobjecten zijn een uitzondering omdat deze zich in een 3D volume (het gebouw) bevinden op hoogte.
-
-Ontwerpprincipe:
-
-**De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie.**
-
-
-#### Absolute en relatieve hoogten
-
-**De SOR hanteert absolute en relatieve hoogten**
-
-Absolute hoogten zijn z-coördinaten uitgedrukt t.o.v. NAP en worden gebruikt voor geo-gerefereerde geometrieën. Elk ingewonnen punt in een geometrie heeft zijn eigen z-coördinaat.
-
-Relatieve hoogten zijn gehele getallen die de hoogten van gehele objecten ten opzichte van elkaar uitdrukken.
-
-*Referentielaag*
-
-Met de relatieve hoogte waarde “nul” wordt een referentielaag bedoeld waarin veruit de meeste objectgeometrieën voorkomen. Dit kan het maaiveld zijn, maar daarbij moet duidelijk gespecificeerd zijn wat het maaiveld is. In de praktijk blijken er vanuit verschillende perspectieven andere behoeften zijn voor wat betreft maaiveld. Andere benaderingen zijn ook mogelijk, zoals bijv. een bovenaanzicht. Voor de SOR moet één benadering worden gekozen.
-
-**De reële objecttypen in de SOR bedekken met hun geometrie in de referentielaag het volledige gebied**
-
-Er zal op een locatie in de werkelijkheid altijd water, begroeiing of constructies aanwezig zijn. Derhalve kan er uit de geometrische representaties een volledig dekkend topografisch kaartbeeld als informatieproduct worden opgebouwd.
-
-
-
-
-
 #### Topologie
-    
-De SOR legt de 3D werkelijkheid vast middels een combinatie van 2,5D en 3D geometrieën. Uit die vastlegging kunnen meerdere informatieproducten worden afgeleid, zoals een kaart (bovenaanzicht) of een 3D model.
 
-Hier volgen de basisprincipes voor reële objecten welke worden geregistreerd in de SOR:
+In dit conceptueel model worden primair de begrippen gedefinieerd die moeten worden onderscheiden, de relaties beschreven die er tussen deze begrippen bestaan en vastgelegd in hoeverre deze begrippen dan als 2D, 2,5D of 3D in de registratie zouden moeten worden beschreven. De vertaling hiervan naar inwin-instructies (wat wordt er wel en wat wordt er niet meegenomen als onderdeel van de geometrie van het object) en de eisen die gesteld moeten worden aan geometrische consistentie (zoals topologie-regels) moeten hieraan volgend zijn. Voor de nadere invulling daarvan is een belangrijk verschil ten opzichte van de huidige situatie dat het hanteren van een 3D abstractie van de werkelijkheid leidt tot andere en meer complexere relaties tussen objecten. 
 
-Ontwerpprincipe
+Het begrip maaiveld als een referentielaag (met de relatieve hoogte waarde “nul”) waarin veruit de meeste objectgeometrieën voorkomen, wordt hierbij minder relevant. In de praktijk blijken er vanuit verschillende perspectieven namelijk andere behoeften te zijn voor wat betreft maaiveld. Het is belangrijker om ervoor te zorgen dat objecten die zich in de werkelijkheid op een bepaalde wijze tot elkaar verhouden (bijvoorbeeld een verharding ligt boven op een overbrugging) ook in de registratie op deze wijze tot elkaar verhouden (bijvoorbeeld dat uit de z-coördinaten van de verharding en de overbrugging blijkt dat de verharding bovenop de overbrugging ligt). De exacte uitwerking van deze relaties in topologie-regels zal later in het traject verder worden uitgewerkt. Daarnaast is het van belang dat er op elke fysieke locatie in de werkelijkheid (elke x,y-coördinaat) altijd een reëel object aanwezig is (water, begroeiing, constructies of onbegroeide grond).
 
-**Het totaal van de SOR geometrieën dekt heel Nederland af.**
+Ontwerpprincipe:
 
-Het bovenaanzicht van alle vastgelegde geometrieën bedekt heel Nederland. Daarbij blijven geen gaten over waar niks is geregistreerd. Er is immers in de werkelijkheid op elke plek (x,y locatie) altijd iets aanwezig; een constructie, begroeiing, water of bodem.
+**De reële objecten in de SOR bedekken met hun x,y geometrie het volledige grondgebied van Nederland**
 
-Ontwerpprincipe
+Het bovenaanzicht van alle vastgelegde geometrieën van reële objecten bedekt dus heel Nederland. Daarbij blijven er geen gaten over waar geen objecten zijn opgenomen. Hiermee kan er uit de geometrische representaties een volledig dekkend topografisch kaartbeeld als informatieproduct worden opgebouwd.
 
-**Geometrieën van objecten kunnen boven elkaar liggen.**
+Ontwerpprincipe:
 
-De werkelijkheid is 3D. Objecten kunnen zich in de werkelijkheid boven elkaar bevinden. Denk bijv. aan een stuk verharding dat op een brug ligt, waarbij de brug op zich zijn beurt boven water bevindt. Wanneer de hierbij horende vastgelegde geometrieën middels een bovenaanzicht bekeken worden, zullen deze elkaar overlappen. Andere aanzichten laten zien dat de geometrieën boven elkaar liggen.
+**Geometrieën van objecten kunnen boven elkaar liggen**
 
-Ontwerpprincipe
+Uit de hiervoor beschreven benadering volgt dat objecten die zich in de werkelijkheid boven elkaar bevinden, ook in de registratie als boven elkaar liggende objecten zijn opgenomen. Denk bijvoorbeeld aan een stuk verharding dat op een brug ligt, waarbij de brug zich op zijn beurt weer boven water bevindt. Wanneer de hierbij behorende vastgelegde geometrieën middels een bovenaanzicht bekeken worden, zullen deze elkaar overlappen. Vanuit andere aanzichten zal blijken dat deze geometrieën boven elkaar liggen. De keuze van een aanzicht is in de SOR niet bepalend voor de vastlegging, maar de aanleiding voor de ontwikkeling van specifieke informatieproducten.
 
-**Geometrieën van objecten kunnen elkaar uitsluiten.**
-In de 3D werkelijkheid sluiten twee reële objecten elkaar altijd uit. In een registratie kan ervoor gekozen worden dat de vastgelegde geometrieën van deze objecten elkaar moeten uitsluiten.
-Voor de SOR zal later uitgewerkt worden voor de geometrieën van welke objecttypen dit zal worden afgedwongen.
+Ontwerpprincipe:
 
-De bovenstaande principes kunnen ook van toepassing zijn bij virtuele objecten. De principes zijn van toepassing per specifieke verzameling objecttypen. Zo’n verzameling kan alle reële objecten omvatten, maar bijvoorbeeld ook de meer specifieke verzameling gemeenten waarvan de grenzen precies op elkaar moeten aansluiten.
+**Geometrieën van objecten kunnen elkaar uitsluiten**
 
+In de 3D werkelijkheid sluiten twee reële objecten elkaar altijd uit. In een registratie kan ervoor gekozen worden dat de vastgelegde geometrieën van deze objecten elkaar moeten uitsluiten. Voor de SOR zal later uitgewerkt worden voor welke geometrieën van welke objecttypen dit zal worden afgedwongen.
 
+De bovenstaande principes kunnen ook van toepassing zijn voor specifieke verzamelingen van bij functionele ruimten en registratieve- en geografische ruimten. Denk hierbij aan de verzameling van gemeenten waarvan de grenzen precies op elkaar moeten aansluiten.
+Speciale aandacht vraagt de beschrijving van topologie-regels van netwerken. Aan deze geometrie worden nadere eisen gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende reële objecten).
 
+#### Generalisatie
 
-#### Lineair referencing
+Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste geometrische/cartografische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. Het objecttype streek (nauwkeurigheid meter tot hectometer) heeft bijvoorbeeld een heel ander detailniveau dan het objecttype weg of gebouw (nauwkeurigheid centimeter tot decimeter).
 
-De Lineair Referencing Methode (LRM) gebruiken we om het lokaliseren van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van het netwerk te verstoren door verder op te knippen. Dus een methode waarbij administratief wordt aangegeven vanwaar een verandering geldt: bv. vanaf 200 meter van af start verbinding geldt een toegestane snelheid van 70 km/h. 
-
-lineair referencing wordt door Inspire geadviseerd:
-
-![requirement inspire](media/inspire_lrm1.png) 
-
-Dit figuur laat de werking van linear referencing zien :
-
-
-![lineair referencing](media/inspire_lrm2.png)
-
-Let op: als iets in de werkelijkheid zowel een reel voorkomen heeft als een functie, dan moet de geometrie van het functionele object afgeleid worden van het reële, ook als dit via lineair referencing wordt vastgelegd. 
-
-
-
-#### Generalisatie 
-
-*Van grootschalig (schaal 1:1.000) naar kleinschalig (1:10.000 tot 1:1.000.000)*
-
-Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste geometrische/cartografische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. Bv. objecttype Streek (nauwkeurigheid meter tot hectometer) heeft een heel ander detailniveau dan objecttype Weg of Gebouw (nauwkeurigheid centimeter tot decimeter).
-
-Uit de grootschalige SOR worden [informatieproducten](#model-van-begrippen-en-informatieproducten) samengesteld op kleinere schalen, van schaal 1 op 10.000 tot 1 op 1.000.000. Dit zijn cartografische informatieproducten (data of visualisatie). Deze informatieproducten worden geautomatiseerd met een landelijk uniform proces samengesteld (automatische generalisatie).
-
-In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd. 
-Hierbij worden de volgende begrippen gehanteerd:
+Uit de grootschalige SOR (“schaal 1:1.000”) worden informatieproducten samengesteld op kleinere schalen (van schaal 1 op 10.000 tot 1 op 1.000.000). Dit zijn cartografische informatieproducten (data of visualisatie). Deze informatieproducten worden geautomatiseerd met een landelijk uniform proces samengesteld (automatische generalisatie). In deze context worden de volgende begrippen gehanteerd: 
 
 **cartografisch object** 
 
-Een object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie op 1 of meer schaalniveaus en van die visualisatie, hoe lang die visualisatie ook beschikbaar is.
+Object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie op 1 of meer schaalniveaus en van die visualisatie, hoe lang die visualisatie ook beschikbaar is
 
 **generaliseren (van data of voor visualisatie)**
 
- Dit betreft de geometrie van objecten (of op attribuutniveau)  zinvol weglaten, vereenvoudigen, verplaatsen, vergroten, symboliseren en/of aggregeren 
+Het zinvol weglaten, vereenvoudigen, verplaatsen, vergroten, symboliseren en/of aggregeren van de geometrie van objecten (of op attribuutniveau).
 
 **aggregeren**
 
-Dit betreft het zinvol samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau). Aggregeren kan daarmee ook een aspect van generaliseren zijn.
+Het zinvol samenvoegen van objecten tot een nieuw object (zowel op dataniveau als cartografisch niveau); aggregeren kan daarmee ook een aspect van generaliseren zijn.
 
+Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen. Hooguit voor het aanpassen van visualisatie, symbolen en voor een eenmalige actie waarbij de identificatie niet nodig is. Daarom: 
+1.	Is er geen noodzaak voor gegeneraliseerde data-objecttypen 
+2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties, dat wil zeggen dat bijvoorbeeld aggregatie-relaties eenmalig zijn en niet worden bewaard
+3.	Is er geen noodzaak voor unieke universele persistente identificatie van gegeneraliseerde objecten (er wordt geen identificatie bewaard) 
 
-**Generaliseren**
-
-Uit eerdere consultaties blijkt dat gebruikers geen data-analyses doen op basis van afgeleide kaartschalen. Hooguit voor aanpassen van visualisatie, symbolen en voor een eenmalige actie waarbij de identificatie niet nodig is. 
-Daarom:
-1.	Is er geen noodzaak voor gegeneraliseerde data-objecttypen  
-2.	Zijn cartografische objecttypen voldoende zonder (complexe) afstemmingsrelaties, dat wil zeggen dat bijvoorbeeld aggregatie-relaties eenmalig zijn en niet worden bewaard.
-3.	Is er geen noodzaak voor unieke universele persistente identificatie van gegeneraliseerde objecten, er wordt geen identificatie bewaard. 
-
+In deze paragraaf worden op een generiek niveau ontwerpprincipes hiervoor benoemd.
 
 Ontwerpprincipe:
 
-**Objecttypen worden enkel en alleen op het voor de SOR meest gedetailleerde noodzakelijke niveau vastgelegd (de kleinste eenheden).**
+**Objecttypen worden enkel en alleen op het voor de SOR meest gedetailleerde noodzakelijke niveau vastgelegd (de kleinste eenheden)**
 
 Dit detailniveau kan per objecttype verschillen. Voor met name geografische objecttypen is vaak een minder gedetailleerd niveau noodzakelijk. Denk bijvoorbeeld aan de begrenzing van een streek als de 'Utrechtse Heuvelrug' of het Continentaal Plat.
 
+Ontwerpprincipe:
+
+**Gegeneraliseerde data objecttypen worden niet opgenomen in de SOR. Ze kunnen wel onderdeel zijn van informatieproducten**
 
 Ontwerpprincipe:
 
-**Gegeneraliseerde data objecttypen worden niet opgenomen in de SOR. Ze kunnen wel onderdeel zijn van de informatieproducten van DiSGeo.**
+**Cartografische objecttypen worden niet opgenomen in de SOR. Ze kunnen wel onderdeel zijn van informatieproducten**
 
-Ontwerpprincipe:
+Cartografische objecten zijn voor gebruikers van belang omdat ze dan hun eigen visualisatie kunnen gebruiken. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in informatieproducten worden opgenomen.
 
-**Cartografische objecttypen worden niet opgenomen in de SOR. Ze kunnen wel als onderdeel van de informatieproducten van DisGeo worden opgenomen**
-
-Cartografische objecten zijn voor gebruikers van belang omdat ze dan hun eigen visualisatie kunnen gebruiken. Deze kunnen op basis van de objecten uit de SOR worden gegenereerd (veelal door generalisatie en/of aggregatie) en in producten van DisGeo worden opgenomen.
-
-Voor cartografische objecten geldt dat er een eigen tijdelijke identificatie aan wordt toegevoegd zodat de gebruiker het object kan identificeren voor bijvoorbeeld een terugmelding. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met de stelling dat we niet van een minder (lager) naar een meer (hoger) gedetailleerd niveau terug kunnen gaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau.
-
-**Kwaliteit**
+Voor cartografische objecten geldt dat hieraan een eigen tijdelijke identificatie wordt toegevoegd zodat de gebruiker het object kan identificeren voor bijvoorbeeld een terugmelding. Deze identificatie wordt echter niet bewaard. Omdat de identificatie niet wordt bewaard is een eigen levensloop niet aan de orde. Omdat de identificatie niet wordt bewaard is een relatie naar de basisobjecten waaruit ze zijn ontstaan ook niet aan de orde. Dit ligt in lijn met het uitgangspunt dat we niet van een minder (lager) naar een meer (hoger) gedetailleerd niveau terug kunnen gaan. Als het wenselijk is kunnen ten dienste van gebruikers in de producten geometrieën op een lager detailniveau worden aangeboden die gebaseerd zijn op geometrieën van onderliggende basisobjecten op een hoger detailniveau.
 
 Ontwerpprincipe: 
 
 **De kwaliteit van de objecten en de bijbehorende gegevens worden in die mate geborgd dat geautomatiseerde generalisatie probleemloos kan verlopen**
 
-Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie extra handwerk nodig is om het gewenste resultaat te bereiken.
+Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie extra handwerk nodig is om het gewenste resultaat te bereiken. Hiermee wordt concreet bedoeld:
+- Dataobjecten moeten op het basisniveau landelijk uniform, homogeen en aaneensluitend zijn
+- Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels, hetgeen leidt tot één consistent systeem met een consistente implementatie
+- Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken en consistent zijn binnen één specifieke schaal
 
-Hiermee wordt concreet bedoeld:
--	Dataobjecten moeten op het basisniveau landelijk uniform en homogeen en aaneensluitend zijn
--	Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels. Er moet hier één consistent systeem voor zijn en ook de implementatie moet consistent zijn
--	Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken en consistent zijn binnen één specifieke schaal
+Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, vragen terugmeldingen op gegeneraliseerde cartografische objecten om een specifieke beoordeling (door bijvoorbeeld een behandelaar of door artificiële intelligentie):
+- als de terugmelding de generalisatie betreft hoeft deze niet doorgezet te worden naar de bronhouders van de onderliggende data
+- als de terugmelding de data betreft dan moet deze worden doorgezet aan de betrokken bronhouders van de dataobjecten uit de SOR
 
+#### Lineair referencing
 
+Bij netwerken worden andere benaderingen gekozen voor het bepalen van de positie op een netwerk De Lineair Referencing Methode (LRM) gebruiken we om het lokaliseren van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van het netwerk te verstoren door deze verder op te knippen. Het is dus een methode waarbij administratief wordt aangegeven vanaf waar een verandering geldt: bijvoorbeeld vanaf 200 meter vanaf de start van de verbinding geldt een toegestane snelheid van 70 km/h. Lineair referencing wordt ook door Inspire geadviseerd:
 
-**Terugmeldingen op gegeneraliseerde objecten**
+![requirement inspire](media/inspire_lrm1.png) 
 
-Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, wordt hier vast voor deze groep een aandachtspunt gegeven: Er kunnen wel terugmeldingen zijn op gegeneraliseerde cartografische objecten, maar deze hoeven niet door te werken naar de SOR data objecten.  Deze terugmeldingen moeten altijd eerst beoordeeld worden waarbij geconstateerd wordt dat
+De volgende figuur laat de werking van linear referencing zien, waarbij het belangrijk is om te realiseren dat als iets in de werkelijkheid zowel een reëel voorkomen heeft als een functie heeft, dat dan de geometrie van het functionele object afgeleid moet worden van het reële (ook als dit via lineair referencing wordt vastgelegd):
 
--	Of de terugmelding de generalisatie betreft en niet doorgezet hoeft te worden naar de bronhouders van de onderliggende data
--	of de terugmelding de data betreft en wordt toegewezen aan geselecteerde betrokken bronhouders van de dataobjecten uit de SOR
-Afhankelijk van de situatie hanteren we een van beide mogelijkheden, want een eindgebruiker ziet de producten en moet op basis daarvan een terugmelding kunnen doen. Deze kan niet 1 op 1 worden doorgezet naar alle onderliggende dataobjecten op het hoogste detailniveau, want dat is mogelijk helemaal niet aan de orde en dan zouden objecten op het hoogste detailniveau onnodig belast worden met terugmeldingen. Een beoordeling door een behandelaar of door artificiële intelligentie is daarom een belangrijke tussenstap.
-
-
-
-
+![lineair referencing](media/inspire_lrm2.png)
 
 
 
