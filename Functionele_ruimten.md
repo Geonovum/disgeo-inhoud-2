@@ -296,7 +296,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 | hyperverbinding | gerelateerde functionele zone | Ja|
 
 **Domeinwaarden**
-
+ 
 *Type*
 
 |Waarde Type| Beschrijving Type|
@@ -952,40 +952,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-#### Valbescherming
-
-
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
-
- 
-
-**Definitie**
-
-| Naam  | Valbescherming |
-|---|---|
-| Definitie |Functionele ruimte die een voorziening betreft om vallen te voorkomen|
-|Herkomst definitie  |nieuw|
-|Verplicht  | nee  |
-|Gevolgen afbakening| Het betreft hier de functionele vertaling van de bestaande populatie weginrichtings-element type balustrade zoals deze is opgenomen in de basisregistratie grootschalige topografie |
-|Toelichting|  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van valbescherming|Ja |
-|Geometrie|Geometrische representatie de valbescherming|Ja (lijn)|
-|Status   |  De fase van de levenscyclus waarin de valbescherming zich bevindt|Ja   |
-
-
-
-**Domeinwaarden**
-
-
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
 #### Afscheiding 

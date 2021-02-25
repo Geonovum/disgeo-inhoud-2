@@ -1262,7 +1262,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 | Identificatie   |Unieke aanduiding van een muur|Ja |
 | Geometrie|Geometrische representatie van een muur|Ja (2,5D lijn) Nee (2,5D vlak)|
-|Status   | Fase van de levenscyclus waarin een muur zich bevindt|Ja   |
+| Valbescherming| Muur bedoeld om vallen te voorkomen |	Nee|
+| Status   | Fase van de levenscyclus waarin een muur zich bevindt|Ja   |
 
 **Domeinwaarden**
 
@@ -1277,7 +1278,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 | heeft mogelijk een functie| kering| Ja|
 
 
-
+ 
 
 #### Omheining
 
@@ -1302,6 +1303,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Constructie"
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een omheining|Ja |
 |Geometrie|Geometrische representatie van een omheining|Ja (2,5D lijn)|
+| Valbescherming| Omheining bedoeld om vallen te voorkomen |	Nee|
 |Status   | Fase van de levenscyclus waarin een omheining zich bevindt|Ja   |
 
 **Domeinwaarden**
