@@ -241,33 +241,30 @@ Er zal op een locatie in de werkelijkheid altijd water, begroeiing of constructi
 
 #### Topologie
     
-<div class='note'>
-    **Deze tekst wordt nog herzien**
+De SOR legt de 3D werkelijkheid vast middels een combinatie van 2,5D en 3D geometrieën. Uit die vastlegging kunnen meerdere informatieproducten worden afgeleid, zoals een kaart (bovenaanzicht) of een 3D model.
 
-    Ontwerpprincipe: 
+Hier volgen de basisprincipes voor reële objecten welke worden geregistreerd in de SOR:
 
-    **Nen3610 doet geen uitspraken over topologie, voor de SOR van DisGeo gelden wel topologische regels**
+Ontwerpprincipe
 
-    Ontwerpprincipe: 
+**Het totaal van de SOR geometrieën dekt heel Nederland af.**
 
-    **In de SOR wordt gewerkt met een referentielaag**
+Het bovenaanzicht van alle vastgelegde geometrieën bedekt heel Nederland. Daarbij blijven geen gaten over waar niks is geregistreerd. Er is immers in de werkelijkheid op elke plek (x,y locatie) altijd iets aanwezig; een constructie, begroeiing, water of bodem.
 
-    Er is sprake van een referentielaag op het Nederlandse Grondgebied ten opzichte waarvan andere objecten kunnen worden gepositioneerd. Deze laag werd voorheen als ‘maaiveld’ aangeduid. Maar deze term is niet scherp genoeg omdat deze vanuit verschillende thema’s anders wordt bekeken.
+Ontwerpprincipe
 
-    Deze referentielaag wordt 
-    - In geval van reële objecttypen volledig bedekt door objecten uit de objecttypen water, begroeiing (inclusief onbegroeid) en constructies
-        -	Hierbij sluiten de objecten  op elkaar aan volgens topologische regels, maar overlap is vooralsnog mogelijk. 
-        -	Door deze werkwijze wordt de complexiteit van de topologie sterk gereduceerd ten opzichte van de huidige situatie in de BGT
-    - In geval van functionele objecttypen NIET volledig bedekt omdat daar geen noodzaak voor is.
+**Geometrieën van objecten kunnen boven elkaar liggen.**
 
-    Hier is sprake van een andere benadering dan bij de BGT gebruikelijk is. Bij de BGT hebben alle vlakobjecten op de referentielaag een rol in het opdelen van de referentielaag. Dit geeft bij het beheer van de BGT veel extra werk, omdat als een aangrenzend object zelfs maar een tussenpunt in de geometrie krijgt, het aanpalende object ook moet worden aangepast. Bij de nieuwe benadering kunnen geregistreerde objecten elkaar als gevolg van bewerkingen geometrisch gaan overlappen. Dat kan verwarring geven over wat de werkelijke grens is tussen objecten.
+De werkelijkheid is 3D. Objecten kunnen zich in de werkelijkheid boven elkaar bevinden. Denk bijv. aan een stuk verharding dat op een brug ligt, waarbij de brug op zich zijn beurt boven water bevindt. Wanneer de hierbij horende vastgelegde geometrieën middels een bovenaanzicht bekeken worden, zullen deze elkaar overlappen. Andere aanzichten laten zien dat de geometrieën boven elkaar liggen.
 
-    Ontwerpprincipe: 
+Ontwerpprincipe
 
-    **In geval van nadere benoemde registratieve objecttypen is er sprake van een topologisch aaneengesloten situatie die echter niet het totale Nederlandse grondgebied hoeft te bedekken**
+**Geometrieën van objecten kunnen elkaar uitsluiten.**
+In de 3D werkelijkheid sluiten twee reële objecten elkaar altijd uit. In een registratie kan ervoor gekozen worden dat de vastgelegde geometrieën van deze objecten elkaar moeten uitsluiten.
+Voor de SOR zal later uitgewerkt worden voor de geometrieën van welke objecttypen dit zal worden afgedwongen.
 
-    - Voorbeeld: de gemeentelijke indeling van Nederland is een topologisch aaneengesloten verzameling van objecten die zich echter niet uitstrekt tot het continentale plat.
-</div>
+De bovenstaande principes kunnen ook van toepassing zijn bij virtuele objecten. De principes zijn van toepassing per specifieke verzameling objecttypen. Zo’n verzameling kan alle reële objecten omvatten, maar bijvoorbeeld ook de meer specifieke verzameling gemeenten waarvan de grenzen precies op elkaar moeten aansluiten.
+
 
 
 
