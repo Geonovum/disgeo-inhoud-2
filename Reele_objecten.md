@@ -40,7 +40,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 
 
-*Type *
+*Type*
 
 |Waarde Type | Beschrijving Type |
 |---|---|
@@ -88,7 +88,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 **Domeinwaarden**
 
 
-*Type *
+*Type*
 
 |Waarde Type | Beschrijving Type   |
 |---|---|
@@ -1006,7 +1006,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Verharding"
 **Domeinwaarden**
 
 
-*Type *
+*Type*
 
 |Waarde Type | Beschrijving Type   |
 |---|---|
@@ -1054,7 +1054,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 **Domeinwaarden**
 
 
-*Type * 
+*Type* 
 
 |Waarde Type | Beschrijving Type  |
 |---|---|
@@ -1103,7 +1103,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Kunstwerk"
 **Domeinwaarden**
 
 
-*Type *
+*Type*
 
 |Waarde Type | Beschrijving Type |
 |---|---|
