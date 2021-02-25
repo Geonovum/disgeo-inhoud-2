@@ -52,13 +52,13 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 |Waarde Type verkeersgebied|Beschrijving|
 |---|---|
-|eindknoop	|Wegknoop met 1 verbinding en is het einde van een doodlopende weg|
-|grensknoop	|Wegknoop met 1 verbinding en betreft een doorgaande verbinding met het wegennetwerk van een buurland|
-|koppelknoop	|Wegknoop waar twee verschillende type wegverbindingen aan elkaar verbonden zijn|
-|kruising|Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +|
-|verkeersplein|Wegknoop waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft|
-|rotonde|Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
-|knooppunt|Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is|
+|Eindknoop	|Wegknoop met 1 verbinding en is het einde van een doodlopende weg|
+|Grensknoop	|Wegknoop met 1 verbinding en betreft een doorgaande verbinding met het wegennetwerk van een buurland|
+|Koppelknoop	|Wegknoop waar twee verschillende type wegverbindingen aan elkaar verbonden zijn|
+|Kruising|Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +|
+|Verkeersplein|Wegknoop waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft|
+|Rotonde|Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
+|Knooppunt|Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is|
 
 
 *Status*
@@ -733,12 +733,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde type | Beschrijving|
 |---|---|
-| 	speeltuin|Geheel van speelwerktuigen, begroeiing, verharding en gebouwen, bedoeld als speelplaats voor kinderen|
-| 	park|Landschappelijk ingericht terrein, met begroeiing, verharding, water en gebouwen, bedoeld als recreatieve voorziening|
-| 	sportterrein|Geheel van begroeiing, verharding en gebouwen bestemd voor sportbeoefening|
-| 	camping|Geheel van begroeiing, verharding en gebouwen, bedoeld voor tijdelijk verblijf in kampeermiddel|
-| 	bungalowpark|Geheel van begroeiing, verharding en gebouwen, bedoeld voor niet-permanente bewoning|
-| 	volkstuin|Geheel van begroeiing, verharding en gebouwen in gebruik als particuliere tuinen die niet bij de woning liggen | 
+| 	Speeltuin|Geheel van speelwerktuigen, begroeiing, verharding en gebouwen, bedoeld als speelplaats voor kinderen|
+| 	Park|Landschappelijk ingericht terrein, met begroeiing, verharding, water en gebouwen, bedoeld als recreatieve voorziening|
+| 	Sportterrein|Geheel van begroeiing, verharding en gebouwen bestemd voor sportbeoefening|
+| 	Camping|Geheel van begroeiing, verharding en gebouwen, bedoeld voor tijdelijk verblijf in kampeermiddel|
+| 	Bungalowpark|Geheel van begroeiing, verharding en gebouwen, bedoeld voor niet-permanente bewoning|
+| 	Volkstuin|Geheel van begroeiing, verharding en gebouwen in gebruik als particuliere tuinen die niet bij de woning liggen | 
 
 
 *Status*
@@ -779,12 +779,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type complex| Beschrijving   |
 |---|---|
-|gemaalcomplex|Alle bij een gemaal behorend water, begroeiing, verharding en gebouwen|
-|sluiscomplex|Alle bij een sluis behorend water, begroeiing, verharding en gebouwen|
-|stuwcomplex|Alle bij een stuw behorend water, begroeiing, verharding en gebouwen|
-|coupurecomplex|Alle bij een coupure behorende begroeiing, verharding en gebouwen|
-|havencomplex|Alle bij een haven behorend water, begroeiing, verharding en gebouwen|
-|zuiveringscomplex |Geheel van gebouwen, constructies, verharding en begroeiing dat ervoor zorgt dat drinkwater gezuiverd wordt|
+|Gemaalcomplex|Alle bij een gemaal behorend water, begroeiing, verharding en gebouwen|
+|Sluiscomplex|Alle bij een sluis behorend water, begroeiing, verharding en gebouwen|
+|Stuwcomplex|Alle bij een stuw behorend water, begroeiing, verharding en gebouwen|
+|Coupurecomplex|Alle bij een coupure behorende begroeiing, verharding en gebouwen|
+|Havencomplex|Alle bij een haven behorend water, begroeiing, verharding en gebouwen|
+|Zuiveringscomplex |Geheel van gebouwen, constructies, verharding en begroeiing dat ervoor zorgt dat drinkwater gezuiverd wordt|
 
 
 
@@ -901,8 +901,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde type kering| Beschrijving   |
 |---|---|
-|grond	|voorziening bedoeld om grond te keren|
-|water	|voorziening bedoeld om water te keren|
+|Grond	|voorziening bedoeld om grond te keren|
+|Water	|voorziening bedoeld om water te keren|
 
 
 
@@ -942,8 +942,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type reducering| Beschrijving   |
 |---|---|
-|geluid| Voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
-|fijnstof|Voorziening bedoeld om verspreiding van fijnstof te verminderen	|
+|Geluid| Voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
+|Fijnstof|Voorziening bedoeld om verspreiding van fijnstof te verminderen	|
 
 
 
