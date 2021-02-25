@@ -860,7 +860,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |---|---|---|
 |Watersport zone| Begrensd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport |Nee|
 |Vaarwegzone| Begrensd  oppervlaktewatergebied dat gebruikt wordt voor transport middels scheepvaart |Nee|
-|Visserij zone|Begrensd oppervlaktewatergebied dat gebruikt wordt voor visserij  |Nee|
+|Visserij zone|Begrensd oppervlaktewatergebied dat gebruikt wordt voor professionele visserij  |Nee|
 
 *Status*
 
