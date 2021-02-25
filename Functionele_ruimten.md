@@ -163,15 +163,15 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |---|---|
 |Rijstrook |	Strook waar voertuigen over rijden|
 |Vluchtstrook|	Strook langs autosnelwegen waar weggebruikers naar kunnen uitwijken in geval van nood of pech|
-|Spitsstrook |	Een extra rijstrook op een rijbaan van een autosnelweg|
+|Spitsstrook |	Extra rijstrook op een rijbaan van een autosnelweg|
 |Redresseerstrook	|Strook langs de buitenste rijstroken van een rijbaan met als doel om uit de koers geraakte voertuigen op te vangen en terug op koers te brengen|
 |Invoegstrook |	Rijstrook die naar de hoofdrijbaan leidt|
-|Uitvoegstrook |	Een rijstrook met beperkte lengte waarop bestuurders snelheid kunnen minderen om uit te voegen|
-|Weefstrook |	Een combinatie van een invoegstrook en uitvoegstrook|
-|Bufferstrook |	Een extra rijstrook die kan worden opengesteld om te voorkomen dat een file vóór een knelpunt zo lang wordt dat hij andere verkeersstromen gaat blokkeren|
+|Uitvoegstrook |	Rijstrook met beperkte lengte waarop bestuurders snelheid kunnen minderen om uit te voegen|
+|Weefstrook |	Combinatie van een invoegstrook en uitvoegstrook|
+|Bufferstrook |	Extra rijstrook die kan worden opengesteld om te voorkomen dat een file vóór een knelpunt zo lang wordt dat hij andere verkeersstromen gaat blokkeren|
 |Plusstrook |	Smalle strook aan de linkerzijde van een rijbaan met dynamische openstelling|
-|Wisselstrook |	Een rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting|
-|Passeerstrook|	Een lokale wegverbreding op smalle wegen buiten de bebouwde kom waar langzaam verkeer gepasseerd kan worden|
+|Wisselstrook |	Rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting|
+|Passeerstrook|	Lokale wegverbreding op smalle wegen buiten de bebouwde kom waar langzaam verkeer gepasseerd kan worden|
 |Opstelstrook |Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om naar de gewenste richting (linksaf, rechtdoor, rechtsaf) af te slaan|
 |Opstelstrook linksaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om linksaf te slaan|
 |Opstelstrook opgeblazen fietsopstelstrook	|Infrastructurele voorziening nabij kruisingen waar fietsers zich voor het andere verkeer opstellen om linksaf te slaan|
