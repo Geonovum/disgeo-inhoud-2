@@ -837,7 +837,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 | Naam  | Gebruiksgebied oppervlaktewater |
 |---|---|
-| Definitie | Begrensd en benoemd oppervlaktewatergebied dat een bepaald gebruik kent.|
+| Definitie | Begrensd oppervlaktewatergebied dat een bepaald gebruik kent.|
 |Herkomst definitie  ||
 |Verplicht  | Nee |
 |Gevolgen afbakening||
@@ -858,49 +858,14 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 |Waarde Type | Beschrijving   | Verplicht|
 |---|---|---|
-|Watersport zone| Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport |Nee|
-|Vaarwegzone| Begrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor transport middels scheepvaart |Nee|
-|Visserij zone|egrensd en benoemd oppervlaktewatergebied dat gebruikt wordt voor visserij  |Nee|
+|Watersport zone| Begrensd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport |Nee|
+|Vaarwegzone| Begrensd  oppervlaktewatergebied dat gebruikt wordt voor transport middels scheepvaart |Nee|
+|Visserij zone|Begrensd oppervlaktewatergebied dat gebruikt wordt voor visserij  |Nee|
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-
-
-#### Beheergebied oppervlaktewater
-
-**Definitie**
-
-| Naam  | Beheergebied oppervlaktewater |
-|---|---|
-| Definitie | Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om het oppervlaktewater te laten voldoen aan de beoogde toestand|
-|Herkomst definitie  ||
-|Verplicht  | Nee |
-|Gevolgen afbakening||
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een beheergebied oppervlaktewater|Ja |
-|Geometrie|Geometrische representatie van een beheergebied oppervlaktewater|Ja (lijn, 2D-vlak)|
-|Type |Typering van een beheergebied oppervlaktewater |Ja|
-|Status   | De fase van de levenscyclus waarin een beheergebied oppervlaktewater zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Type*
-
-|Waarde Type | Beschrijving   | Verplicht|
-|---|---|---|
-|Beheergebied waterkwantiteit| Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om de hoeveelheid oppervlaktewater te reguleren |Nee|
-|Beheergebied waterkwaliteit| Gebied waarin activiteiten worden uitgevoerd die tot doel hebben om  de kwaliteit van het oppervlaktewater in orde te houden |Nee|
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
 
