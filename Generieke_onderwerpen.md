@@ -146,7 +146,7 @@ Een object kan eerder ontstaan (bijvoorbeeld in een sectorregistratie) dan in de
 
 #### Geometrie
 
-In het conceptueel model voor de SOR staan de verschillende begrippen (soorten geo-objecten) die we willen onderscheiden centraal. Deze begrippen worden daarbij nadrukkelijk los gezien van hetgeen in informatieproducten aan gebruikers kan worden getoond in de vorm van onder meer kaartproducten (zie paragraaf 1.4). Deze benadering heeft ook gevolgen voor de wijze waarop in het conceptueel model wordt omgegaan met geometrie. 
+In het conceptueel model voor de SOR staan de verschillende begrippen (soorten geo-objecten) die we willen onderscheiden centraal. Deze begrippen worden daarbij nadrukkelijk los gezien van hetgeen in informatieproducten aan gebruikers kan worden getoond in de vorm van onder meer kaartproducten (zie paragraaf [Model van begrippen en informatieproducten](#model-van-begrippen-en-informatieproducten)). Deze benadering heeft ook gevolgen voor de wijze waarop in het conceptueel model wordt omgegaan met geometrie. 
 
 In plaats van uit te gaan van bestaande principes als topologisch sluitende geometrie op maaiveldniveau, wordt in dit conceptueel model gestart vanuit het definiëren van relevante geo-objecten. Geo-objecten worden daarbij gezien als een abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. Dit laatste leggen we vast in een coördinaatreferentiesysteem. Voor het scherp kunnen afbakenen van objecten is van belang dat eerst wordt vastgesteld welke objecten we willen kunnen onderscheiden. 
 
@@ -174,12 +174,13 @@ Ontwerpprincipe
 
 **De SOR kent voor alle functionele ruimten een 2D geometrie en voor de functionele gebouwobjecten een 2,5D geometrie**
 
-Voor functionele objecttypen volstaat in de regel een 2D geometrie. Door het leggen van een relatie met een reëel object, kan voor een functioneel object zo nodig hoogte informatie worden afgeleid. Functionele gebouwobjecten zijn een uitzondering. Dit zijn vlakken op hoogte die zich in een 3D volume (het gebouw) bevinden.
+Voor functionele ruimten volstaat in de regel een 2D geometrie. Door het leggen van een relatie met een reëel object, kan voor een functioneel object zo nodig hoogte informatie worden afgeleid. Functionele gebouwobjecten zijn een uitzondering. Dit zijn vlakken op hoogte die zich in een 3D volume (het gebouw) bevinden.
 
 Ontwerpprincipe:
 
 **De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie**
 
+Voor registratieve en geografische ruimten volstaat op basis van de bekende gebruiksbehoeften een 2D geometrie.
 
 #### Coördinaatreferentiesysteem
 
@@ -221,13 +222,13 @@ Coördinaten opgenomen bij een geometrie worden standaard uitgewisseld met een g
 
 In dit conceptueel model worden primair de begrippen gedefinieerd die moeten worden onderscheiden, de relaties beschreven die er tussen deze begrippen bestaan en vastgelegd in hoeverre deze begrippen dan als 2D, 2,5D of 3D in de registratie zouden moeten worden beschreven. De vertaling hiervan naar inwin-instructies (wat wordt er wel en wat wordt er niet meegenomen als onderdeel van de geometrie van het object) en de eisen die gesteld moeten worden aan geometrische consistentie (zoals topologie-regels) moeten hieraan volgend zijn. Voor de nadere invulling daarvan is een belangrijk verschil ten opzichte van de huidige situatie dat het hanteren van een 3D abstractie van de werkelijkheid leidt tot andere en meer complexere relaties tussen objecten. 
 
-Het begrip maaiveld als een referentielaag (met de relatieve hoogte waarde “nul”) waarin veruit de meeste objectgeometrieën voorkomen, wordt hierbij minder relevant. In de praktijk blijken er vanuit verschillende perspectieven namelijk andere behoeften te zijn voor wat betreft maaiveld. Het is belangrijker om ervoor te zorgen dat objecten die zich in de werkelijkheid op een bepaalde wijze tot elkaar verhouden (bijvoorbeeld een verharding ligt boven op een overbrugging) ook in de registratie op deze wijze tot elkaar verhouden (bijvoorbeeld dat uit de z-coördinaten van de verharding en de overbrugging blijkt dat de verharding bovenop de overbrugging ligt). De exacte uitwerking van deze relaties in topologie-regels zal later in het traject verder worden uitgewerkt. Daarnaast is het van belang dat er op elke fysieke locatie in de werkelijkheid (elke x,y-coördinaat) altijd een reëel object aanwezig is (water, begroeiing, constructies of onbegroeide grond).
+Het begrip maaiveld als een referentielaag (met de relatieve hoogte waarde “nul”) waarin veruit de meeste objectgeometrieën voorkomen, wordt hierbij minder relevant. In de praktijk blijken er vanuit verschillende perspectieven namelijk andere behoeften te zijn voor wat betreft maaiveld. Het is belangrijker om ervoor te zorgen dat objecten die zich in de werkelijkheid op een bepaalde wijze tot elkaar verhouden (bijvoorbeeld een verharding ligt boven op een overbrugging) ook in de registratie op deze wijze tot elkaar verhouden (bijvoorbeeld dat uit de z-coördinaten van de verharding en de overbrugging blijkt dat de verharding bovenop de overbrugging ligt). De exacte uitwerking van deze relaties in topologie-regels zal later in het traject verder worden uitgewerkt. Daarnaast is het van belang dat er op elke fysieke locatie in de werkelijkheid (elke x,y-coördinaat) altijd tenminste een reëel object aanwezig is (water, begroeiing, gebouw, verharding, kunstwerk, constructies of onbepaald terrein).
 
 Ontwerpprincipe:
 
 **De reële objecten in de SOR bedekken met hun x,y geometrie het volledige grondgebied van Nederland**
 
-Het bovenaanzicht van alle vastgelegde geometrieën van reële objecten bedekt dus heel Nederland. Daarbij blijven er geen gaten over waar geen objecten zijn opgenomen. Hiermee kan er uit de geometrische representaties een volledig dekkend topografisch kaartbeeld als informatieproduct worden opgebouwd.
+Het bovenaanzicht van alle vastgelegde geometrieën van reële objecten bedekt dus heel Nederland. Daarbij blijven er geen gaten over waar geen objecten zijn opgenomen. Hiermee kan er uit de geometrische representaties een volledig dekkend topografisch kaartbeeld als informatieproduct worden opgebouwd. De exacte vertaling van de eis dat er geen gaten mogen bestaan naar gedetailleerde topologie-regels zal later in het traject verder worden uitgewerkt.
 
 Ontwerpprincipe:
 
@@ -239,16 +240,17 @@ Ontwerpprincipe:
 
 **Geometrieën van objecten kunnen elkaar uitsluiten**
 
-In de 3D werkelijkheid sluiten twee reële objecten elkaar altijd uit. In een registratie kan ervoor gekozen worden dat de vastgelegde geometrieën van deze objecten elkaar moeten uitsluiten. Voor de SOR zal later uitgewerkt worden voor welke geometrieën van welke objecttypen dit zal worden afgedwongen.
+In de 3D werkelijkheid sluiten twee reële objecten elkaar altijd uit. In een registratie kan ervoor gekozen worden dat de vastgelegde geometrieën van deze objecten elkaar moeten uitsluiten. Voor de SOR zal later uitgewerkt worden voor welke geometrieën van welke objecttypen dit zal worden afgedwongen. Daarbij zal een vertaling plaatsvinden van de eis dat objecten die in de werkelijkheid op elkaar aansluiten ook in de registratie op hun begrenzing exact op elkaar aansluiten (in zowel horizontale vlakken als verticale vlakken en dus nadrukkelijk in drie dimensies).
 
-De bovenstaande principes kunnen ook van toepassing zijn voor specifieke verzamelingen van bij functionele ruimten en registratieve- en geografische ruimten. Denk hierbij aan de verzameling van gemeenten waarvan de grenzen precies op elkaar moeten aansluiten.
-Speciale aandacht vraagt de beschrijving van topologie-regels van netwerken. Aan deze geometrie worden nadere eisen gesteld (zoals een eis dat het netwerk zich moet bevinden binnen de contouren van de bijbehorende reële objecten).
+De bovenstaande principes kunnen ook van toepassing zijn voor specifieke verzamelingen van  functionele ruimten en registratieve- en geografische ruimten. Denk hierbij aan de verzameling van gemeenten waarvan de grenzen precies op elkaar moeten aansluiten.
+
+Tussen verzamelingen kunnen ook topologieregels gelden. Bijvoorbeeld bij netwerken. Aan deze geometrie kunnen eisen worden gesteld in relatie tot reële objecten (zoals een eis dat de netwerkgeometrie zich moet bevinden binnen de contouren van de bijbehorende reële objecten).
 
 #### Generalisatie
 
 Bij de uitwerking van de inhoud van de samenhangende objectenregistratie wordt voor de verschillende objecttypen bepaald wat de kleinste geometrische/cartografische eenheid is die nog van belang is voor meerdere gebruikers van de registratie. Dit detailniveau bepaalt daarmee wat voor het betreffende gedeelte van de samenhangende objectenregistratie de kleinste bouwsteen vormt. Het objecttype streek (nauwkeurigheid meter tot hectometer) heeft bijvoorbeeld een heel ander detailniveau dan het objecttype weg of gebouw (nauwkeurigheid centimeter tot decimeter).
 
-Uit de grootschalige SOR (“schaal 1:1.000”) worden informatieproducten samengesteld op kleinere schalen (van schaal 1 op 10.000 tot 1 op 1.000.000). Dit zijn cartografische informatieproducten (data of visualisatie). Deze informatieproducten worden geautomatiseerd met een landelijk uniform proces samengesteld (automatische generalisatie). In deze context worden de volgende begrippen gehanteerd: 
+Uit de SOR worden [informatieproducten](#model-van-begrippen-en-informatieproducten) samengesteld op zowel grotere schalen (schaal 1:1.000) als kleinere schalen (van schaal 1 op 10.000 tot 1 op 1.000.000). Dit zijn cartografische informatieproducten (data of visualisatie). De kleinschalige informatieproducten worden geautomatiseerd met een landelijk uniform proces samengesteld (automatische generalisatie). In deze context worden de volgende begrippen gehanteerd: 
 
 **cartografisch object** 
 
@@ -306,11 +308,11 @@ Bij netwerken worden andere benaderingen gekozen voor het bepalen van de positie
 
 ![requirement inspire](media/inspire_lrm1.png) 
 
-De volgende figuur laat de werking van linear referencing zien, waarbij het belangrijk is om te realiseren dat als iets in de werkelijkheid zowel een reëel voorkomen heeft als een functie heeft, dat dan de geometrie van het functionele object afgeleid moet worden van het reële (ook als dit via lineair referencing wordt vastgelegd):
+De volgende figuur laat de werking van linear referencing zien, waarbij het principe wordt geïllustreerd dat wijzigingen in verbindingskenmerken van toepassing zijn vanaf een bepaald punt op het netwerk:
 
 ![lineair referencing](media/inspire_lrm2.png)
 
-
+Hierbij is het belangrijk om jezelf te realiseren dat als iets in de werkelijkheid zowel een reëel voorkomen als een functie heeft, dat dan de geometrie van het functionele object afgeleid moet worden van het reële (ook als dit via lineair referencing wordt vastgelegd).
 
 
 ### Netwerken
