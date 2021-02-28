@@ -507,15 +507,15 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type|	Beschrijving Type |
 |---|---|
-| Inrit| Geeft toegang tot een bestemmingsdoel|
-| Parkeervlak | Parkeergelegenheid bestemd voor het parkeren van één of meerdere voertuigen direct langs de doorgaande weg gelegen|
-|Parkeerplaats | Parkeergelegenheid voor het parkeren van meerdere voertuigen in de openlucht met een aparte toegang vanaf de doorgaande weg|
-| Verzorgingsplaats |  Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen|
-| Tankstation |  Geheel van installaties, verharding en gebouwen bedoeld voor de verkoop van brandstoffen of energie voor voertuigen |
-| Snellaadstation |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd|
-|Overstapplaats	|Voorziening waar men kan overstappen tussen modaliteiten of netwerken|
-|Tolplaats	| Geheel van installaties, verharding en gebouwen waar betaald moet worden voor toegang tot de weg|
 | Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer|
+| Inrit| Geeft toegang tot een bestemmingsdoel|
+|Overstapplaats	|Voorziening waar men kan overstappen tussen modaliteiten of netwerken|
+| Parkeerplaats | Parkeergelegenheid voor het parkeren van meerdere voertuigen in de openlucht met een aparte toegang vanaf de doorgaande weg|
+| Parkeervlak | Parkeergelegenheid bestemd voor het parkeren van één of meerdere voertuigen direct langs de doorgaande weg gelegen|
+| Snellaadstation |  Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd|
+| Tankstation |  Geheel van installaties, verharding en gebouwen bedoeld voor de verkoop van brandstoffen of energie voor voertuigen |
+|Tolplaats	| Geheel van installaties, verharding en gebouwen waar betaald moet worden voor toegang tot de weg|
+| Verzorgingsplaats |  Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen|
 | Woonerf |Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie | 
 
 Toelichting: Nog bekeken wordt hoe snellaadstation als een subtype van tankstation gepositioneerd wordt.

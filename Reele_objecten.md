@@ -1,4 +1,4 @@
-## Reele objecten 
+## Reële objecten 
 
 ### Oppervlaktewater
 
@@ -290,7 +290,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 **Domeinwaarden**
 
-**Status* 
+*Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
@@ -1590,16 +1590,16 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Waarde Type | Beschrijving Type  |
 |---|---|
 |**verplicht**||
+|Kast|Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen|
 |Sirene|Installatie welke geluiden van variabele toonhoogte kan voortbrengen met als functie waarschuwingsdoeleinden|
 |Verkeerslicht|Installatie bedoeld om het verkeer te regelen|
 |Verlichtingsarmatuur|Installatie bedoeld voor verlichten van de openbare ruimte|
-|Kast|Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen|
+|Windturbine|Turbine waarin winddruk omgezet wordt in mechanische energie|
 |**vrijwillig**||
+|Lift| Installatie gericht op het verticaal vervoeren van personen en goederen|
+|Oplaadpunt| Systeem voor opladen van elektrische auto's |
 |Pomp|Technische inrichting om vloeistoffen en/of gassen te verplaatsen|
 |Zonnepanelen| Installatie om zonne-energie om te zetten in energie |
-|Lift| Installatie gericht op het verticaal vervoeren van personen en goederen|
-|Windturbine|Turbine waarin winddruk omgezet wordt in mechanische energie|
-|Oplaadpunt| Systeem voor opladen van elektrische auto's |
 
 
 *Status* 
