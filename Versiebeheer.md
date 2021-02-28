@@ -4,7 +4,6 @@ Deze versie van dit document is tot stand gekomen onder begeleiding van de werkg
 
 | Naam                      | Organisatie    | 
 |---------------------------|----------------|
-| Martijn Odijk             | Ministerie BZK       | 
 | Koos Boersma	            | Informatiehuis Water|
 | Annemiek Droogh           | Waarderingskamer |
 | Stefan van Gerwen	        | Provincie Noord Brabant|
@@ -12,6 +11,7 @@ Deze versie van dit document is tot stand gekomen onder begeleiding van de werkg
 | Dick Krijtenburg	        | Geonovum|
 | Paul Peter Kuiper         | Kadaster|
 | Sandra Leijten	        | VNG Realisatie|
+| Martijn Odijk             | Ministerie BZK    | 
 | Marcel Rietdijk	        | VNG Realisatie |
 | Eric van der Ster         | Ministerie I&W |
 | Richard Witmer	        | Kadaster|
