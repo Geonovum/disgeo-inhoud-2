@@ -44,11 +44,11 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 |Waarde Type | Beschrijving Type |
 |---|---|
-|Zee|Uitgestrekt oppervlak zout water|
 |Meer|Watervlakte (meestal zoet) die op natuurlijke wijze dan wel door menselijk ingrijpen (ingraving of afsluiting) is ontstaan|
 |Plas|Waterpartij, ontstaan door de winning van delfstoffen in dagbouw, die in contact staat met de vrije grondwaterspiegel|
 |Ven|Natuurlijk ontstaan meer op heidegrond|
 |Vijver|Gegraven waterpartij, aangelegd in stedelijke omgeving of in een parklandschap|
+|Zee|Uitgestrekt oppervlak zout water|
 
 
 *Status* 
@@ -92,11 +92,12 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 |Waarde Type | Beschrijving Type     |
 |---|---|
-|Rivier|Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier|
-|Sloot|Waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil|
-|Kanaal|Gegraven grote waterloop die dient voor scheepvaart en/of watertransport|
 |Beek|Natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier|
 |Gracht|Gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden|
+|Kanaal|Gegraven grote waterloop die dient voor scheepvaart en/of watertransport|
+|Rivier|Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier|
+|Sloot|Waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil|
+
 
 
 *Status* 
@@ -176,8 +177,9 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 |Waarde Type | Beschrijving Type |
 |---|---|
-|Slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt|
 |Schor|Buitendijks aangeslibd land, dat bij gewone vloed niet meer onderloopt en doorgaans begroeid is|
+|Slik|Buitendijks aangeslibde, onbegroeide grond die bij vrijwel elk hoogwater onderloopt|
+
 
 *Status* 
 
@@ -218,10 +220,10 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 |Waarde Type | Beschrijving Type    |Verplicht |
 |---|---|---|
-| Loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
-| Naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
 | Gemengd bos | Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen|    Ja|
 | Griend en hakhout	|Terrein begroeid met loofbomen, in een dicht groeiverband die periodiek wordt ingekort| Nee|
+| Loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
+| Naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
 
 Toelichting: Nog bekeken wordt hoe griend en hakhout als een subtype van loofbos gepositioneerd wordt.
 
@@ -395,9 +397,10 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 |Waarde Type | Beschrijving Type |
 |---|---|
+| Boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is|
 | Fruitkwekerij met lage opstand|Terrein begroeid met laagstamfruitbomen, druivenstokken of begroeid met heesters voor zachtfruit zoals bessen of frambozen|
 | Hoogstam boomgaarden |Terrein begroeid met hoogstamfruitbomen|
-| Boomkwekerij |Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is|
+
 
 *Status* 
 
@@ -769,9 +772,9 @@ Op een later moment zal nog worden bepaald in hoeverre het wenselijk en mogelijk
 
 |Waarde Aard|Beschrijving Aard|
 |---|---|
-|Vrijstaand	|Gebouw dat niet is verbonden met een ander gebouw|
-|Repeterend	|Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die als zodanig in één project zijn gerealiseerd|
 |Heterogeen	|Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die onafhankelijk van elkaar zijn gerealiseerd|
+|Repeterend	|Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die als zodanig in één project zijn gerealiseerd|
+|Vrijstaand	|Gebouw dat niet is verbonden met een ander gebouw|
 
 
 *Status* 
@@ -941,12 +944,12 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 
 | Waarde Aard| Beschrijving     |
 |---|---|
-|Dakkapel |Uitbouw van het schuine dakvlak|
 |Afdak|Constructie aangebracht    en vast verbonden aan de gevel van een pand, gericht op beschutting tegen weersinvloeden |
 |Bordes|Verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers|
-|Toegangstrap|Buiten de gevel geplaatste trapconstructie die toegang biedt tot een gebouw en vast verbonden is met dat gebouw|
+|Dakkapel |Uitbouw van het schuine dakvlak|
 |Laadperron	|Tegen het gebouw aangebrachte constructie die is bedoeld voor het kunnen laden en lossen van voertuigen|
 |Loopbrug	|Constructie bedoeld voor het op hoogte verbinden van twee bij elkaar liggende gebouwen zodat een oversteek van het ene naar het andere gebouw kan plaatsvinden|
+|Toegangstrap|Buiten de gevel geplaatste trapconstructie die toegang biedt tot een gebouw en vast verbonden is met dat gebouw|
 
 
 Voorbeelden van een afdak zijn: luifels en carports (die vast verbonden zijn met de gevel van een pand). Een afdak kan gedeeltelijk rusten op kolommen. Deze kolommen zijn dan echter uitsluitend ondersteunend aan de hangende hoofdconstructie.
@@ -1002,8 +1005,8 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 
 | Waarde Gebruiksaard| Beschrijving     |
 |---|---|
-|Personen|Toegangsdeur is primair bedoeld voor toegang tot een object door personen |
 |Auto|Toegangsdeur is primair bedoeld voor toegang tot een object door voertuigen |
+|Personen|Toegangsdeur is primair bedoeld voor toegang tot een object door personen |
 |Vracht|Toegangsdeur is primair bedoeld voor toegang tot een object door vracht zonder gebruik van een voertuig|
 
 *Status* 
@@ -1140,12 +1143,12 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 
 |Waarde Type | Beschrijving Type    |
 |---|---|
-| Brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoeld voor verkeer|
 | Aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid|
-| Viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoeld voor verkeer|
+| Brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoeld voor verkeer|
 | Ecoduct |Overbruggingsconstructie over een weg of spoorweg,    bedoeld voor het passeren van dieren|
 | Flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid |
 | Overkluizing |Civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelfd, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
+| Viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoeld voor verkeer|
 
 
 *Status* 
@@ -1189,9 +1192,8 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 
 |Waarde Type | Beschrijving Type |
 |---|---|
-| Tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren|
 | Duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de waterloop onderbreekt|
-
+| Tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren|
 
 *Status* 
 
@@ -1239,22 +1241,22 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 
 |Waarde Type| Beschrijving Type    |
 |---|---|
-| Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|
-| Walbescherming |Nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur|
-| Schot|Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen|
-| Stuw |Vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen    |
-| Sluis |Kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt|
-| Coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
-| Dijk|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
-| Stormvloedkering|Keersluis die gesloten wordt bij zeer hoge buitenwaterstanden|
-| Gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|
-| Strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier|
-| Steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen|
-| Vispassage |Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland|
 | Bodemval |Sprong in de bodem van een waterloop|
+| Coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
+| Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|
+| Dijk|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
+| Gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|
 | Ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft|
+| Schot|Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen|
+| Sluis |Kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt|
+| Steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen|
+| Stormvloedkering|Keersluis die gesloten wordt bij zeer hoge buitenwaterstanden|
+| Strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier|
+| Stuw |Vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen    |
+| Vispassage |Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland|
 | Voorde |Doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop|
-| Vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke| |
+| Vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke|
+| Walbescherming |Nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur| 
 
 *Status* 
 
@@ -1304,10 +1306,11 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 | Dek |Direct door het verkeer belaste deel van de bovenbouw van de brug| overbrugging|
 | Landhoofd |Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk|overbrugging|
 | Pijler |Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken|overbrugging|
-| Sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering|overbrugging|
 | Pyloon |Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels)|overbrugging|
-| Sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden| sluis|
 | Schutkolk |Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht|sluis|
+| Sloof |Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering|overbrugging|
+| Sluisdeur |Beweegbare deur die wordt toegepast bij (hoog)waterkeringen en sluizen om het niveauverschil aan beide zijden in stand te houden| sluis|
+
 
 
 *Status* 

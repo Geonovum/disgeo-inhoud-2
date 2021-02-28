@@ -39,9 +39,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 
 | Waarde Type | Beschrijving Type  |
 |---|---|
-|Woonkern  | Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen    |
 |Industriekern  |Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten   |
 |Recreatiekern  |Bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor (verblijfs)recreatie  |
+|Woonkern  | Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen    |
 |Gehucht  |Kleine bebouwingskern die bestaat uit een concentratie van aaneengesloten bebouwing    |
 |Buurtschap  |Lintbebouwing of verspreid staande bebouwing in landelijk gebied met een zekere mate van sociale samenhang die gezamenlijk een bebouwingskern vormen |
 |Deelkern  |Ruimtelijk van omliggende bebouwing te onderscheiden historische bebouwingskern, die is gelegen binnen een andere bebouwingskern   |
@@ -172,10 +172,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 
 | Waarde Type | Beschrijving Type  |
 |---|---|
-|Terp|Verhoging in het landschap oorspronkelijk bedoelt om de daarop gevestigde bebouwing te beschermen tegen het water| 
+
 |Grafheuvel|Voorhistorische begraafplaats in de vorm van een heuvel|
-|Steile rand|Steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling|
 |Holle weg|Weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie|
+|Steile rand|Steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling|
+|Terp|Verhoging in het landschap oorspronkelijk bedoelt om de daarop gevestigde bebouwing te beschermen tegen het water| 
 
 
 

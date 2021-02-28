@@ -497,8 +497,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Waarde Type | Beschrijving  Type  |
 |---|---|
-| Wegverbinding|Openbare ruimte die behoort bij één wegverbinding of bij meerdere wegverbindingen met de tussenliggende knopen|
 | Waterverbinding |Openbare ruimte die behoort bij één waterverbinding of bij meerdere waterverbindingen met de tussenliggende knopen|
+| Wegverbinding|Openbare ruimte die behoort bij één wegverbinding of bij meerdere wegverbindingen met de tussenliggende knopen|
+
 
 De wijze waarop de relatie zal worden gelegd met waterverbindingen zal in een latere fase nog precies worden uitgewerkt
 
@@ -551,8 +552,9 @@ Toelichting: De woonplaats behorende bij de nummeraanduiding prevaleert boven de
 
 | Waarde Type | Beschrijving  Type |
 |---|---|
-| Verblijfsobject |Nummeraanduiding is bedoeld voor een verblijfsobject |
 | Benoemde plaats |Nummeraanduiding is bedoeld voor een benoemde plaats |
+| Verblijfsobject |Nummeraanduiding is bedoeld voor een verblijfsobject |
+
 
 
 *Status* 
@@ -593,8 +595,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 
 | Waarde Type | Beschrijving Type  |
 |---|---|
-|Mobiele object|Constructief zelfstandig object dat in zijn geheel of delen kan worden verplaatst|
 |Drijvend object|Constructief zelfstandig object dat met het water kan meebewegen|
+|Mobiele object|Constructief zelfstandig object dat in zijn geheel of delen kan worden verplaatst|
 |Onbemensd tankstation|Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor voertuigen, waarbij zich geen bij deze installaties betrokken gebouw bevindt|
 
 *Status* 

@@ -55,10 +55,11 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Eindknoop	|Wegknoop met 1 verbinding en is het einde van een doodlopende weg|
 |Grensknoop	|Wegknoop met 1 verbinding en betreft een doorgaande verbinding met het wegennetwerk van een buurland|
 |Koppelknoop	|Wegknoop waar twee verschillende type wegverbindingen aan elkaar verbonden zijn|
-|Kruising|Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +|
-|Verkeersplein|Wegknoop waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft|
-|Rotonde|Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
 |Knooppunt|Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is|
+|Kruising|Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +|
+|Rotonde|Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
+|Verkeersplein|Wegknoop waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft|
+
 
 
 *Status*
@@ -117,9 +118,9 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 |Waarde Type|	Beschrijving Type| 
 |---|---|
-|Weg	|Voorziening die bestaat uit banen die een functie vervullen ten behoeve van het afwikkelen van het verkeer|
 |Baan	|Aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers|
 |Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan|
+|Weg	|Voorziening die bestaat uit banen die een functie vervullen ten behoeve van het afwikkelen van het verkeer|
 
 
 *Type weg*
@@ -252,8 +253,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte
 
 |Waarde Type| Beschrijving Type|
 |---|---|
-|Nationaal spoor	|Landelijk spoornetwerk waarmee (inter-)nationaal vervoer van personen en goederen mogelijk is|
 |Lokaal spoor	|Gesloten spoornetwerk bedoeld voor en beperkt tot stedelijk/regionaal vervoer van personen|
+|Nationaal spoor	|Landelijk spoornetwerk waarmee (inter-)nationaal vervoer van personen en goederen mogelijk is|
 
 
 
@@ -679,9 +680,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type	|Beschrijving Type|
 |---|---|
-| Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden|
 | Berm | Strook grond langs een weg of spoorweg bedoeld voor het uitwijken van voertuigen, het scheiden van verkeerstromen, het plaatsen van verkeersondersteunend meubiliar, afwatering en/of het verbinden van zones met ecologische infrastructurele waarden|
 | Verkeersdrempel | Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden| 
+| Verkeerseiland | Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden|
 | Wildrooster | Horizontaal raamwerk dat dient om wild de doorgang te beletten|
 
 *Status*
@@ -729,12 +730,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 *Type*
 
-| Waarde type	|Beschrijving|
+| Waarde Type	|Beschrijving Type|
 |---|---|
-| Perron |  Verhoogde constructie langs een (spoor)rails voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen|
-| Overweg | Gelijkvloerse kruising van een weg met een (spoor)rails|
-| Spoorbaan | Gebaand gedeelte voor het verkeer over rails|
 | Emplacement | Totaal aan sporen op een terrein ten behoeve van het rangeren en stallen van treinen|
+| Overweg | Gelijkvloerse kruising van een weg met een (spoor)rails|
+| Perron |  Verhoogde constructie langs een (spoor)rails voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen|
+| Spoorbaan | Gebaand gedeelte voor het verkeer over rails|
 
 
 *Status*
@@ -848,11 +849,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type | Beschrijving Type|
 |---|---|
-| 	Speeltuin|Geheel van speelwerktuigen, begroeiing, verharding en gebouwen, bedoeld als speelplaats voor kinderen|
-| 	Park|Landschappelijk ingericht terrein, met begroeiing, verharding, water en gebouwen, bedoeld als recreatieve voorziening|
-| 	Sportterrein|Geheel van begroeiing, verharding en gebouwen bestemd voor sportbeoefening|
-| 	Camping|Geheel van begroeiing, verharding en gebouwen, bedoeld voor tijdelijk verblijf in kampeermiddel|
 | 	Bungalowpark|Geheel van begroeiing, verharding en gebouwen, bedoeld voor niet-permanente bewoning|
+| 	Camping|Geheel van begroeiing, verharding en gebouwen, bedoeld voor tijdelijk verblijf in kampeermiddel|
+| 	Park|Landschappelijk ingericht terrein, met begroeiing, verharding, water en gebouwen, bedoeld als recreatieve voorziening|
+| 	Speeltuin|Geheel van speelwerktuigen, begroeiing, verharding en gebouwen, bedoeld als speelplaats voor kinderen|
+| 	Sportterrein|Geheel van begroeiing, verharding en gebouwen bestemd voor sportbeoefening|
 | 	Volkstuin|Geheel van begroeiing, verharding en gebouwen in gebruik als particuliere tuinen die niet bij de woning liggen | 
 
 
@@ -894,11 +895,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type | Beschrijving Type |
 |---|---|
+|Coupurecomplex|Alle bij een coupure behorende begroeiing, verharding en gebouwen|
 |Gemaalcomplex|Alle bij een gemaal behorend water, begroeiing, verharding en gebouwen|
+|Havencomplex|Alle bij een haven behorend water, begroeiing, verharding en gebouwen|
 |Sluiscomplex|Alle bij een sluis behorend water, begroeiing, verharding en gebouwen|
 |Stuwcomplex|Alle bij een stuw behorend water, begroeiing, verharding en gebouwen|
-|Coupurecomplex|Alle bij een coupure behorende begroeiing, verharding en gebouwen|
-|Havencomplex|Alle bij een haven behorend water, begroeiing, verharding en gebouwen|
 |Zuiveringscomplex |Geheel van gebouwen, constructies, verharding en begroeiing dat ervoor zorgt dat drinkwater gezuiverd wordt|
 
 
@@ -934,10 +935,11 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 |Waarde Type | Beschrijving Type | Verplicht|
 |---|---|---|
+|Golfbrekend voorland|Gebied aansluitend aan de buitenzijde van een waterkering, wat de waterkering beschermt tegen golven   |Nee|
 |Oeverzone | Gebied op de grens van water en land waar het dynamisch samenspel van land en water plaatsvindt, lopend van waterpeil tot insteek| Ja|
 |Oppervlaktewaterlichaam| Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater doorheen kan stromen |Nee|
 |Waterbergingsgebied |Gebied, niet zijnde een oppervlaktewaterlichaam of onderdeel daarvan, dat dient ter verruiming van de bergingscapaciteit van een of meer watersystemen  |Nee|
-|Golfbrekend voorland|Gebied aansluitend aan de buitenzijde van een waterkering, wat de waterkering beschermt tegen golven   |Nee|
+
 
 
 
@@ -973,9 +975,9 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 |Waarde Type | Beschrijving Type  | Verplicht|
 |---|---|---|
-|Watersport zone| Begrensd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport |Nee|
 |Vaarwegzone| Begrensd  oppervlaktewatergebied dat gebruikt wordt voor transport middels scheepvaart |Nee|
 |Visserij zone|Begrensd oppervlaktewatergebied dat gebruikt wordt voor professionele visserij  |Nee|
+|Watersport zone| Begrensd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport |Nee|
 
 *Status*
 
@@ -1057,8 +1059,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 |Waarde Type | Beschrijving Type  |
 |---|---|
-|Geluid| Voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
 |Fijnstof|Voorziening bedoeld om verspreiding van fijnstof te verminderen	|
+|Geluid| Voorziening bedoeld om geluidshinder in de buitenlucht te verminderen|
+
 
 
 
