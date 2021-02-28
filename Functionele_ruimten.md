@@ -374,10 +374,102 @@ De definitieve lijst met gebruiksfuncties zal op een later moment nog definitief
 
 *Feitelijk gebruik*
 
-| Waarde Feitelijk gebruik| Beschrijving   |
-|---|---|
-|   |   |
-|   |   |
+|     Waarde Type    |     Beschrijving   Type    |
+|-|-|
+|     Agrarisch   bedrijf    |     Bedrijfsmatige activiteiten gericht op het voortbrengen van producten door middel van het   telen van gewassen of het houden van vee    |
+|     Agrarisch   dierenverblijf    |     Bedrijfsmatige  ctiviteiten gericht op het houden van vee ten behoeve van  het verkrijgen van melk, eieren of vlees    |
+|     Bijeenkomsten    |     Activiteiten waarin grotere groepen bijeen worden gebracht voor communicatieve doeleinden    |
+|     Cellen    |     Dwangverblijf van personen    |
+|     Detailhandel    |     Bedrijfsmatige levering van fysieke goederen voor persoonlijk gebruik aan consumenten    |
+|     Dienstverlening    |     Levering van niet-fysieke goederen door een persoon , instantie of onderneming aan een andere partij    |
+|     Energievoorziening    |     Levering van  elektriciteit en warmte aan consumenten en bedrijven    |
+|     Groothandel    |     Bedrijfsmatige levering van fysieke goederen aan bedrijfsmatige afnemers    |
+|     Horeca    |     Verstrekken van logies en/of bereide maaltijden, snacks en dranken aan gasten voor onmiddellijke consumptie    |
+|     Industrie    |     Met een hoge graad van mechanisering en automatisering produceren  van materiële goederen of artikelen    |
+|     Kantoor    |     Uitoefening van een bedrijf, beroep of dienst waarin geen product wordt vervaardigd maar uitsluitend dienstverlening wordt bedreven    |
+|     Kunst    |     Activiteiten waarin met behulp van vaardigheden en verbeelding unieke creatieve producten worden gecreëerd    |
+|     Onderwijs    |     Activiteiten gericht op het overbrengen van kennis, vaardigheden en attitudes met vooraf vastgelegde doelen    |
+|     Opslag    |     Activiteiten gericht op het voor kortere of langere tijd bewaren van goederen    |
+|     Productverwerking    |     Activiteiten gericht op het verwerken van een product tot een ander product    |
+|     Recreatie    |     Uitoefening  van vormen van vrijetijdsbesteding die   in hoofdzaak geen lichamelijke beweging omvatten    |
+|     Religie    |     Activiteiten   verbonden aan zingeving of het zoeken naar betekenisvolle verbindingen,   waarbij meestal een hogere macht, opperwezen of god centraal staat    |
+|     Sport    |     Activiteiten   gericht op lichamelijke oefeningen en ontspanning waarbij vaardigheid, kracht   en inzicht vereist worden    |
+|     Techniek    |     Activiteiten   waarin de ontwikkeling of het gebruik van apparaten, machines en andere   complexe voorwerpen centraal staat    |
+|     Tuinbouw    |     Op   commerciële basis op intensieve wijze telen van groenten, paddenstoelen,   fruit, bloemen, planten, bomen, bollen of zaden    |
+|     Voertuigen    |     Bedrijfsmatige   stalling of opstelpunt van voertuigen    |
+|     Wonen    |     Permanent verblijf van personen voor niet bedrijfsmatige activiteiten    |
+|     Zorgverlening    |     Bieden van lichamelijke of geestelijke hulp of aandacht    |
+
+
+Bij alle andere verblijfsobjecten wordt uitsluitend een nadere typering aangebracht als het verblijfsobject voldoet aan de definitie van één van de hieronder genoemde subtyperingen:
+
+|     Waarde Type    |     Beschrijving   Type    |
+|-|-|
+|     **Agrarisch bedrijf**    |          |
+|     Akkerbouw    |     Economische activiteiten waarbij het natuurlijke milieu wordt aangepast ten behoeve van de productie van planten voor menselijk of dierlijk gebruik    |
+|     Visteelt    |     Vorm van aquacultuur, waarbij vissen op een commerciële manier worden gekweekt voor consumptie    |
+|     Veehouderij    |     Bedrijfsmatige activiteiten gericht op het houden van vee ten behoeve van het verkrijgen van melk, eieren of vlees    |
+|     **Dienstverlening**    |          |
+|     Bibliotheek    |     Bewaarplaats voor boeken en andere media waarbij deze al dan niet aan het publiek worden uitgeleend   of ter inzage aangeboden    |
+|     Buurtgebouw    |     Activiteitencentrum in een wijk, buurt of dorp waar activiteiten plaatsvinden van en voor de   bewoners hiervan    |
+|     Crematorium    |     Verbranding van lichamen van overledenen in een speciale oven    |
+|     Gemeentekantoor    |     Directe dienstverlening vanuit een gemeente aan inwoners en bedrijven    |
+|     Laboratorium    |     Natuurwetenschappelijke   werkplaats voor het maken of onderzoeken van stoffen    |
+|     Paleis    |     Ambtsverblijf   dat een openbare of ceremoniële functie heeft    |
+|     Politiebureau    |     Dienstverlening   door de politie aan de samenleving    |
+|     Rechtbank    |     Locatie van   waaruit recht gesproken wordt    |
+|     Tol    |     Tolheffing   ten behoeve van het gebruik van verkeers- of waterwegen    |
+|     Verkeerstoren    |     Punt van   waaruit verkeersregulatie te land, ter zee of in de lucht plaatsvindt    |
+|     Wasstraat    |     Dienstverlening   in de vorm van mechanische reiniging van de buitenzijde van voertuigen    |
+|     **Horeca**   |          |
+|     Hotel    |     Dienstverlening   gericht op het met een commercieel oogmerk aanbieden van overnachtingen    |
+|     Strandpaviljoen    |     Verstrekken   van bereide maaltijden, snacks en dranken aan gasten voor onmiddellijke   consumptie vanuit een op het strand gelegen voorziening    |
+|     **Industrie**    |          |
+|     Werf    |     Werkplaats   waar schepen worden gebouwd of hersteld    |
+|     **Kunst **   |          |
+|     Bioscoop    |     Publieke uitgaansgelegenheid   die speciaal is bedoeld voor het bekijken van films    |
+|     Podiumkunst    |     Publieke   uitgaansgelegenheid bedoeld voor vormen van kunst die uitgevoerd worden op   een podium in de aanwezigheid van publiek    |
+|     Museum    |     Activiteiten   gericht op het bijeenbrengen en (ten minste voor een gedeelte) voortdurend   voor het publiek uitstallen van materiële en immateriële getuigenissen van de   mens en zijn omgeving    |
+|     **Opslag**    |          |
+|     Distributiecentrum    |     Activiteiten   gericht op het vanaf een geconcentreerde locatie verspreiden van goederen   door een bedrijf    |
+|     Koelcel    |     Activiteiten   gericht op het opzettelijk gekoeld houden ten behoeve van de opslag van   producten    |
+|     Magazijn    |     Tijdelijke   opslag van goederen    |
+|     Munitiedepot    |     Opslagplaats   voor munitie en explosieven    |
+|     **Recreatie**    |          |
+|     Clubgebouw    |     Activiteiten   gericht op het ten behoeve van leden of andere deelnemers aan een groep   verzorgen van ontspannende activiteiten of samenkomsten    |
+|     Recreatiewoning    |     Tijdelijke   bewoning ten behoeve van vrijetijdsbesteding    |
+|     **Sport**    |          |
+|     Manege    |     Beoefening   van het paardrijden in een besloten omgeving    |
+|     Zwembad    |     Openbaar   toegankelijke zwemactiviteiten    |
+|     **Techniek**    |          |
+|     Brugwachtershuis    |     Activiteiten   gericht op het bedienen van de technische voorzieningen die behoren bij een   brug die geopend kan worden    |
+|     Gasverdeelstation    |     Drukverlaging   van aardgas in een netwerk ten behoeve van toevoer  in een lokaal net    |
+|     Observatorium    |     Waarnemingen   in de ruimte    |
+|     Peilmeetstation    |     Meting   van  landelijke of regionale   waterstanden via het Monitoring Systeem Water met behulp van een Digitaal   Niveau Meter (DNM)    |
+|     Pompstation    |     Op- of   doorpompen van vloeistoffen door middel van een installatie    |
+|     Radarpost    |     Waarnemingen   met behulp van radar om vliegtuigen en scheepsbewegingen te observeren    |
+|     Rioolgemaal    |     Activiteiten   gericht op het binnen een rioolstelsel naar een hoger peil brengen of over   langere afstand transporteren van afvalwater    |
+|     Telecommunicatie    |     Activiteiten   gericht op het in stand houden van voorzieningen die benodigd zijn voor het   op afstand met behulp van elektronische middelen kunnen communiceren    |
+|     Transformatorstation    |     Transformeren   van elektrische wisselspanning van hoge naar lage spanning en andersom    |
+|     **Wonen**    |          |
+|     2-onder-1-kapwoning    |     Eengezinswoning   waarvan het hoofdgebouw is verbonden met het hoofdgebouw van één andere   gelijksoortige en gelijkvormige woning (niet zijnde een tussenwoning)    |
+|     Benedenwoning    |     Etagewoning   of flatwoning op de begane grond met een voordeur die op straat uitkomt    |
+|     Bovenwoning    |     Etagewoning   of flatwoning op een etage die bereikbaar is via een binnentrap met een   mogelijk gemeenschappelijke voordeur die op straat uitkomt of een eigen   voordeur heeft die niet in een portiek uitkomt    |
+|     Corridorflatwoning    |     Flatwoning   waarbij de voordeur uitkomt op een centraal binnen de bouwmassa per etage   gelegen loopgang dan wel op een centrale hal op de etage    |
+|     Eindwoning    |     Eengezinswoning   die grenst aan een aanliggende woning en die    ligt op het begin of einde van de reeks woningen zonder (extra) bij de   woning behorende grond aan de zijkant van de woning    |
+|     Galerijflatwoning    |     Flatwoning   waarbij de voordeur uitkomt op een aan de buitenkant gelegen loopgang    |
+|     Geschakelde   woning    |     Eengezinswoning   waarbij de muren of muren van aanbouwen gedeeltelijk aan (aanbouwen van)   andere woningen grenzen    |
+|     Geschakelde 2-onder-1-kapwoning    |     2-onder-1-kapwoning   waarbij de muren van aanbouwen gedeeltelijk aan (aanbouwen van) andere   woningen grenzen    |
+|     Maisonnette    |     Specifiek   type flatwoning waarbij de woning zelf twee of meer bouwlagen heeft en de   voordeur uitkomt op een gemeenschappelijke loopgang, op een gemeenschappelijk   afsluitbaar trappenhuis, een centrale hal of gesloten portiek    |
+|     Personeelshuisvesting    |     Woonruimte   die specifiek bedoeld is voor het onderbrengen van personeel van een bepaalde   organisatie    |
+|     Portiekwoning    |     Etagewoning   waarbij de voordeur uitkomt in een open portiek    |
+|     Tussenwoning    |     Eengezinswoning   waarbij de tussenmuren aan andere panden grenzen en waarbij de woningen ten   opzichte van elkaar in een gelijk vlak of lijn liggen    |
+|     Vrijstaande   woning    |     Eengezinswoning   die los staat van (eventueel) aanwezige andere objecten    |
+|     **Zorgverlening**    |          |
+|     Ziekenhuis    |     Onderzoek,   behandeling en verpleging van patiënten in het kader van professionele   gezondheidszorg    |
+
+
+Op een later moment zal nog worden bepaald in hoeverre het wenselijk en mogelijk is alle verblijfsobjecten van een eenduidige subtypering te voorzien. Ook zal nogmaals worden beoordeeld in hoeverre de verschillende begrippen op een juiste wijze zijn opgenomen als functioneel gedeelte van een gebouw of dat vastlegging hiervan ook op een andere wijze kan vormgegeven. De opgenomen definities konden slechts beperkt op bestaande definities worden gebaseerd. De verschillende definities moeten dan ook worden gelezen als een eerste aanzet en zullen op een later moment mogelijk nog verder worden aangescherpt.
 
 
 *Gebruiksoppervlakte*
@@ -440,10 +532,33 @@ Voor de nummering van de bouwlaag geldt:
 
 *Type* 
 
-| Waarde Type| Beschrijving   |
-|---|---|
-|   |   |
-|   |   |
+|     Waarde Type    |     Beschrijving   Type    |
+|-|-|
+|     Agrarisch   bedrijf    |     Bedrijfsmatige   activiteiten gericht op het voortbrengen van producten door middel van het   telen van gewassen of het houden van vee    |
+|     Bijeenkomsten    |     Activiteiten   waarin grotere groepen bijeen worden gebracht voor communicatieve doeleinden    |
+|     Cellen    |     Dwangverblijf   van personen    |
+|     Detailhandel    |     Bedrijfsmatige   levering van fysieke goederen voor persoonlijk gebruik aan consumenten    |
+|     Dienstverlening    |     Levering van   niet-fysieke goederen door een persoon , instantie of onderneming aan een   andere partij    |
+|     Energievoorziening    |     Levering van   elektriciteit en warmte aan consumenten en bedrijven    |
+|     Groothandel    |     Bedrijfsmatige   levering van fysieke goederen aan bedrijfsmatige afnemers    |
+|     Horeca    |     Verstrekken   van logies en/of bereide maaltijden, snacks en dranken aan gasten voor   onmiddellijke consumptie    |
+|     Industrie    |     Met een hoge   graad van mechanisering en automatisering produceren  van materiële goederen of artikelen    |
+|     Kantoor    |     Uitoefening   van een bedrijf, beroep of dienst waarin geen product wordt vervaardigd maar   uitsluitend dienstverlening wordt bedreven    |
+|     Kunst    |     Activiteiten   waarin met behulp van vaardigheden en verbeelding unieke creatieve producten worden   gecreëerd    |
+|     Onderwijs    |     Activiteiten   gericht op het overbrengen van kennis, vaardigheden en attitudes met vooraf   vastgelegde doelen    |
+|     Opslag    |     Activiteiten   gericht op het voor kortere of langere tijd bewaren van goederen    |
+|     Productverwerking    |     Activiteiten   gericht op het verwerken van een product tot een ander product    |
+|     Recreatie    |     Uitoefening   van  vormen van vrijetijdsbesteding die   in hoofdzaak geen lichamelijke beweging omvatten    |
+|     Religie    |     Activiteiten   verbonden aan zingeving of het zoeken naar betekenisvolle verbindingen,   waarbij meestal een hogere macht, opperwezen of god centraal staat    |
+|     Sport    |     Activiteiten   gericht op lichamelijke oefeningen en ontspanning waarbij vaardigheid, kracht   en inzicht vereist worden    |
+|     Techniek    |     Activiteiten   waarin de ontwikkeling of het gebruik van apparaten, machines en andere   complexe voorwerpen centraal staat    |
+|     Tuinbouw    |     Op commerciële   basis op intensieve wijze telen van groenten, paddenstoelen, fruit, bloemen,   planten, bomen, bollen of zaden    |
+|     Voertuigen    |     Bedrijfsmatige   stalling of opstelpunt van voertuigen    |
+|     Wonen    |     Permanent   verblijf van personen voor niet bedrijfsmatige activiteiten    |
+|     Zorgverlening    |     Bieden van   lichamelijke of geestelijke hulp of aandacht    |
+
+Op een later moment zullen de verschillende definities mogelijk nog verder worden aangescherpt.
+
 
 
 *Aard*
