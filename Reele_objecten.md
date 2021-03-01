@@ -1502,6 +1502,10 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|---|
 |Bassin	 |Open reservoir in de vorm van een bekken met een ondoorlaatbare bodem waarin water opgeslagen kan worden| Ja|
 |Bezinkbak	 |Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening | Ja|
+|Dok | Bassin waar schepen kunnen worden geladen of gelost onafhankelijk van het getij| Nee|
+|Zwembad | Bassin openbaar toegankelijk bedoeld om in te zwemmen | Nee|
+
+
 
 
 
