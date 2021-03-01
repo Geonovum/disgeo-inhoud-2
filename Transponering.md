@@ -517,7 +517,7 @@ In de SOR worden geen sensoren opgenomen.
 | **Sensor**                     |          | Type:                         |                                           |
 |                                | Niet BGT | camera                        | *vervalt*                                      |
 |                                | Niet BGT | debietmeter                   | *vervalt*                                       |
-|                                | Niet BGT | hoogtedetectieapparaat        | s*vervalt*             |
+|                                | Niet BGT | hoogtedetectieapparaat        | *vervalt*             |
 |                                | Niet BGT | detectielus                   | *vervalt*                  |
 |                                | Niet BGT | weerstation                   | *vervalt*                                       |
 |                                | Niet BGT | flitser                       | *vervalt*                                       |
@@ -537,7 +537,7 @@ In de SOR wordt alleen straatmeubilair van type: abri, bank, fietsparkeerplaats,
 |-----------------|----------------------|-----------------|---------------|
 | **Straatmeubilair**            |          | Type:                         |                                           |
 |                                | Niet BGT | abri                          | straatmeubilair: type abri                         |
-|                                | Niet BGT | bolder                        | paal                                      |
+|                                | Niet BGT | bolder                        | *vervalt*                                      |
 |                                | Niet BGT | brievenbus                    | straatmeubilair                           |
 |                                | Niet BGT | fietsenrek                    | straatmeubilair: type fietsen parkeerplaats                           |
 |                                | Niet BGT | kunstobject                   | straatmeubilair: type kunstobject                           |
@@ -551,7 +551,7 @@ In de SOR wordt alleen straatmeubilair van type: abri, bank, fietsparkeerplaats,
 |                                | Niet BGT | lichtpunt                     | straatmeubilair: type verlichtingsarmatuur                           |
 |                                | Niet BGT | parkeerbeugel                 | straatmeubilair                           |
 |                                | Niet BGT | betaalautomaat                | straatmeubilair                           |
-|                                | Niet BGT | reclamezuil                   | paal                                      |
+|                                | Niet BGT | reclamezuil                   | straatmeubilair                                      |
 |                                | Niet BGT | fietsenkluis                  | straatmeubilair: type fietsen parkeerplaats                             |
 |                                | Niet BGT | herdenkingsmonument           | straatmeubilair: type herdenkingsmonument                           |
 |                                |          |                               |                                           |
