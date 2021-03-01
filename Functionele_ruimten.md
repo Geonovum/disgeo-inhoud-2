@@ -93,7 +93,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
 |Routenummer|Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op een wegverbinding mogelijk (MV)|Ja (indien aanwezig)| x |  |  |
 |Afritnummer| Nummer toegekend aan een verbindingsbaan|Ja (indien aanwezig)|  | x |  |
 |Rijrichting| De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/strookverbinding | Ja| x | x | x |
-|Openbare weg|Bestaan van een beperking in het gebruik, zoals bedoeld in art. 6 van de Wegenwet| Ja (indien aanwezig in wegenlegger) | x | |  |
+|Indicatie openbare weg|Deze wegverbinding is al dan niet een openbare weg| Ja (indien aanwezig in wegenlegger) | x | |  |
 |Status   |De fase van de levenscyclus waarin een wegverbinding zich bevindt   |Ja  | x | x | x  |
 
 
@@ -196,13 +196,6 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |Eenrichting	|Eén rijrichting is op verbinding toegestaan|
 
 Toelichting: Voor het concreet aangeven van de richting van de eenrichtings-rijrichting zullen op een later moment inwinningsregels worden vastgelegd.
-
-*openbare weg*
-
-|Waarde Openbare weg|Beschrijving|
-|---|---|
-|Ja|In de vastgestelde wegenlegger benoemde weg, waar geen beperking in het gebruik geldt|
-|Nee|In de vastgestelde wegenlegger benoemde weg, waar een beperking in gebruik geldt.|
 
 
 *Status*

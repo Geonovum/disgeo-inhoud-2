@@ -220,12 +220,13 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 |Waarde Type | Beschrijving Type    |Verplicht |
 |---|---|---|
+|Bosplantsoen| Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant. De beplanting kan open of gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.|
 | Gemengd bos | Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen|    Ja|
 | Griend en hakhout	|Terrein begroeid met loofbomen, in een dicht groeiverband die periodiek wordt ingekort| Nee|
 | Loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
 | Naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
 
-Toelichting: Nog bekeken wordt hoe griend en hakhout als een subtype van loofbos gepositioneerd wordt.
+Toelichting: Nog bekeken wordt hoe bosplantsoen en griend en hakhout als een subtype van loofbos gepositioneerd worden.
 
 
 *Status* 
@@ -278,7 +279,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 | Definitie |Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten, niet zijnde bomen of bos, niet zijnde gras- en kruidachtigen|     
 |Herkomst definitie    |    BGT 1.2 |
 |Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen *struiken*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen *struiken en groenvoorziening*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting| Dit omvat alle begroeiing die niet valt onder de overige reële objecten onder Begroeiing| 
 
 **Eigenschappen**
@@ -1338,7 +1339,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|
 | Definitie |Constructie die een relatief smal, rechtopstaand bouwwerk betreft||Herkomst definitie    |Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie    *scheidingen, Type muur* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie *scheidingen, type muur en type kademuur, en kunstwerkdeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|     |
 
 **Eigenschappen**
@@ -1361,6 +1362,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |Relatiesoort     |Relatierol |Verplicht|
 |---|---|---|
 | heeft mogelijk een functie| kering| Ja|
+| heeft mogelijk een functie| afscheiding|Ja|
 
 
  
@@ -1469,31 +1471,39 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Bassin
+#### Reservoir
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
- 
+ **Definitie**
 
-**Definitie**
-
-| Naam    | Bassin    |
+| Naam    | Reservoir    |
 |---|---|
-| Definitie | Constructie in de vorm van een bekken met een ondoorlaatbare bodem waarin water opgeslagen kan worden|
-|Herkomst definitie    |gebaseerd op BGT 1.2 |
-|Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie overig bouwwerk, type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+| Definitie | Constructie voor het (tijdelijk) bergen van water|
+|Herkomst definitie    |gebaseerd op IMBOR 2020 |
+|Verplicht    | Nee    |
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie *overig bouwwerk, type bezinkbak en type bassin* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|    |
 
 **Eigenschappen**
 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
-|Identificatie     |Unieke aanduiding van een bassin|Ja |
-|Geometrie|Geometrische representatie van een bassin|Ja (2,5D vlak)|
-|Status     | Fase van de levenscyclus waarin een bassin zich bevindt|Ja     |
+|Identificatie     |Unieke aanduiding van een reservoir|Ja |
+|Geometrie|Geometrische representatie van een reservoir|Ja (2,5D vlak)|
+|Type | Typering van het reservoir |Nee|
+|Status     | Fase van de levenscyclus waarin een reservoir zich bevindt|Ja     |
 
 **Domeinwaarden**
+
+*Type*
+
+|Waarde Type     |Beschrijving  Type   |Verplicht     |
+|---|---|---|
+|Bassin	 |Open reservoir in de vorm van een bekken met een ondoorlaatbare bodem waarin water opgeslagen kan worden| Ja|
+|Bezinkbak	 |Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening | Ja|
+
+
 
 *Status* 
 
@@ -1533,35 +1543,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Bezinkbak
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
-
- 
-
-**Definitie**
-
-| Naam    | Bezinkbak    |
-|---|---|
-| Definitie |    Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening|
-|Herkomst definitie    | BGT 1.2    |
-|Verplicht    | JA    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie overig bouwwerk, type bezinkbak    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|    |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van een bezinkbak|Ja |
-|Geometrie|Geometrische representatie van een bezinkbak|Ja (2,5D vlak)|
-|Status     | Fase van de levenscyclus waarin een bezinkbak zich bevindt|Ja     |
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 #### Putdeksel
@@ -1672,7 +1653,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|
 |**verplicht**||
 |Kast|Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen|
-|Sirene|Installatie welke geluiden van variabele toonhoogte kan voortbrengen met als functie waarschuwingsdoeleinden|
+|Sirene|Installatie welke geluiden van variabele toonhoogte kan voortbrengen om de bevolking te waarschuwen voor gevaarlijke situaties|
 |Verkeerslicht|Installatie bedoeld om het verkeer te regelen|
 |Verlichtingsarmatuur|Installatie bedoeld voor verlichten van de openbare ruimte|
 |Windturbine|Turbine waarin winddruk omgezet wordt in mechanische energie|
@@ -1788,6 +1769,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 | Waarde Type    | Beschrijving Type    |
 |---|---|
 |Abri	|Overdekte wachtplaats voor passagiers van het openbaar vervoer|
+|Afvalbak| Bak of korf in de openbare ruimte met een permanent karakter; bedoeld voor het verzamelen van (meestal los) afval|
 |Bank 	|Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen)|
 |Fietsen parkeerplaats|	Voorziening in de openbare ruimte voor het stallen van fietsen|
 |Fontein	|Natuurlijke of kunstmatige installatie die water spuit|
