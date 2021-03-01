@@ -943,10 +943,9 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |---|---|---|
 |Golfbrekend voorland|Gebied aansluitend aan de buitenzijde van een waterkering, wat de waterkering beschermt tegen golven   |Nee|
 |Oeverzone | Gebied op de grens van water en land waar het dynamisch samenspel van land en water plaatsvindt, lopend van waterpeil tot insteek| Ja|
-|Oppervlaktewaterlichaam| Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater doorheen kan stromen |Nee|
 |Waterbergingsgebied |Gebied, niet zijnde een oppervlaktewaterlichaam of onderdeel daarvan, dat dient ter verruiming van de bergingscapaciteit van een of meer watersystemen  |Nee|
 
-
+Toelichting: Oppervlaktewaterlichaam is volgens de kaderrichtlijn water een objecttype waar wettelijke verplichtingen mee samenhangen. De SOR kan gegevens over deze objecten leveren middels een informatieproduct, waarbij de oeverzone en het oppervlaktewater zijn opgeteld tot het oppervlaktewaterlichaam. De oever zone en de typen oppervlaktewater zijn basis objecten die in de SOR conform het conceptuele model worden geregistreerd. 
 
 
 *Status*
