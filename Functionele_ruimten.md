@@ -371,7 +371,6 @@ De definitieve lijst met gebruiksfuncties zal op een later moment nog definitief
 |     Waarde Type    |     Beschrijving   Type    |
 |-|-|
 |     Agrarisch   bedrijf    |     Bedrijfsmatige activiteiten gericht op het voortbrengen van producten door middel van het   telen van gewassen of het houden van vee    |
-|     Agrarisch   dierenverblijf    |     Bedrijfsmatige  ctiviteiten gericht op het houden van vee ten behoeve van  het verkrijgen van melk, eieren of vlees    |
 |     Bijeenkomsten    |     Activiteiten waarin grotere groepen bijeen worden gebracht voor communicatieve doeleinden    |
 |     Cellen    |     Dwangverblijf van personen    |
 |     Detailhandel    |     Bedrijfsmatige levering van fysieke goederen voor persoonlijk gebruik aan consumenten    |
@@ -394,10 +393,24 @@ De definitieve lijst met gebruiksfuncties zal op een later moment nog definitief
 |     Wonen    |     Permanent verblijf van personen voor niet bedrijfsmatige activiteiten    |
 |     Zorgverlening    |     Bieden van lichamelijke of geestelijke hulp of aandacht    |
 
+Met de bovenstaande typering worden alle verblijfsobjecten van een typering voorzien. Als nadere invulling van “het uitklapmodel” (zie paragraaf 4,3) moeten verblijfsobject met de typering groothandel en voertuigen daarnaast altijd worden voorzien van een nadere typering:
+
+|     Waarde Subtype    |     Beschrijving Subtype    |
+|-|-|
+|     **Groothandel**    |          |
+|     Grossier    |     Activiteiten   gericht op het in grote partijen inkopen van goederen en deze als   tussenhandelaar doorverkopen aan detailhandel of andere professionele   grootverbruikers    |
+|     Veiling    |     Activiteiten   gericht op het op grote schaal openbaar verkopen van goederen    |
+|     **Voertuigen**    |          |
+|     Ambulancepost    |     Opstelpunt   voor voertuigen om medische hulpverleners te vervoeren naar een plaats waar   behoefte is aan spoedeisende hulp of om slachtoffers of patiënten te   vervoeren naar een ziekenhuis    |
+|     Brandweerkazerne    |     Opstelpunt   van materieel en manschappen ten behoeve van brandbestrijding    |
+|     Metrostation    |     Gebruiksgebied   dat bedoeld is voor het in- en uitstappen in metrovoertuigen    |
+|     Parkeergarage    |     Openbare voorziening   voor het parkeren van voertuigen    |
+|     Remise    |     Stallingsplaats   voor trams en bussen in de nacht en andere tijdstippen dat ze niet nodig zijn   voor het vervoer van reizigers    |
+|     Station    |     Gebruiksgebied   dat bedoeld is voor het in- en uitstappen in treinen    |
 
 Bij alle andere verblijfsobjecten wordt uitsluitend een nadere typering aangebracht als het verblijfsobject voldoet aan de definitie van één van de hieronder genoemde subtyperingen:
 
-|     Waarde Type    |     Beschrijving   Type    |
+|     Waarde Subtype    |     Beschrijving   Subtype    |
 |-|-|
 |     **Agrarisch bedrijf**    |          |
 |     Akkerbouw    |     Economische activiteiten waarbij het natuurlijke milieu wordt aangepast ten behoeve van de productie van planten voor menselijk of dierlijk gebruik    |

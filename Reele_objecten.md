@@ -719,7 +719,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 
 Met de bovenstaande typering worden alle gebouwen van een typering voorzien. Als nadere invulling van “het uitklapmodel” (zie paragraaf [Aansluiting sectormodellen](#aansluiting-sectormodellen)) moeten gebouwen met de typering bijgebouw, gebedsgebouw en vestingsgebouw daarnaast altijd worden voorzien van een nadere typering:
 
-|Waarde Aard|Beschrijving Aard|
+|Waarde Subtype|Beschrijving Subtype|
 |---|---|
 |**Bijgebouw**||
 |Garage	|Bijgebouw met een constructie gericht op het kunnen stallen van    motorvoertuigen op meer dan twee wielen ter ondersteuning van een woonfunctie |
