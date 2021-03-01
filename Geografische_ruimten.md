@@ -172,7 +172,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 
 | Waarde Type | Beschrijving Type  |
 |---|---|
-
 |Grafheuvel|Voorhistorische begraafplaats in de vorm van een heuvel|
 |Holle weg|Weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie|
 |Steile rand|Steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling|

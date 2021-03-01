@@ -643,7 +643,7 @@ De transponering vanuit de BRT zal op een later moment worden toegevoegd op basi
 
 Hier worden de begrippen aangeduid die nieuw zijn ten opzichte van de begrippen uit de basisregistraties waauit de SOR is doorontwikkeld. Het gaat daarbij om dingen in de werkelijkheid die voorheen in de basisregistraties nog niet waren opgenomen. 
 
-Het gaat NIET om dingen in de werkelijkheid die al waren opgenomen maar die nu van een ándere begripsnaam zijn voorzien. Deze worden in de voorgaande paragrafen van dit hoofdstuk al geduid.
+Het gaat *NIET* om dingen in de werkelijkheid die al waren opgenomen maar die nu van een ándere begripsnaam zijn voorzien. Deze worden in de voorgaande paragrafen van dit hoofdstuk al geduid.
 
 Deze opsomming verwijst naar begrippen uit de index van het document. Indien een begrip een verbijzondering is van een begrip uit de index, wordt dit aangegeven door de naam uit de index gevolgd door een dubbele punt en de naam van het begrip.
 
@@ -662,11 +662,8 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 - Kunstwerkdeel: schutkolk
 - Waterstaatkundig kunstwerk
 - Waterstaatkundig kunstwerk: schot
-- Waterstaatkundig kunstwerk: dijk
+- Waterstaatkundig kunstwerk: dijklichaam
 - Waterstaatkundig kunstwerk: stormvloedkering
-- Omheining
-- Scherm
-- Overige constructies: afvalcontainer
 - Installatie: sirene
 - Installatie: verkeerslicht
 - Installatie: openbare verlichting
@@ -674,7 +671,6 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 - Installatie: oplaadpunt
 - Mast: open
 - Mast: gesloten
-- Onbepaald terrein
 
 #### Functionele ruimten
 
@@ -690,32 +686,42 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 - Luchtvaartzone: luchthaven
 - Complex
 - Reducering
-- Valbescherming
-- Afscheiding
+
+
 
 #### Registratieve ruimten
 
+- Wijk
+- Buurt
+Bestuuriljk gebied
 - Rijk
 - Provincie
 - Waterschap
 - Gemeente
+- Veiligheidsregio
+Bestuuriljk gebied op zee
 - Nederlandse territoriale zee
 - Nederlandse aansluitende zone
 - Nederlandse exclusieve economische zone
-- Wijk
-- Buurt
+- Nederlands continentaal plat
+
 
 #### Geografische ruimten
 
 - Bebouwdingskern
 - Streek
+- Berg 
 - Bosgebied
+- Dal
 - Duingebied
-- Heidegebied
-- Watergebied
 - Eiland
+- Groeve
+- Heidegebied
 - Polder
-- Relief
+- Strand
+- Watergebied
+- Zandverstuiving
+- Reliëfzone
 
 
 
