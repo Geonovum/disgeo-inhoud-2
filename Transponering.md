@@ -708,21 +708,22 @@ Bestuuriljk gebied op zee
 
 #### Geografische ruimten
 
-- Bebouwdingskern
+- Bebouwingskern
 - Streek
-- Berg 
-- Bosgebied
-- Dal
-- Duingebied
-- Eiland
-- Groeve
-- Heidegebied
-- Polder
-- Strand
-- Watergebied
-- Zandverstuiving
-- Reliëfzone
-
+- Landschappelijk gebied: Berg 
+- Landschappelijk gebied: Bosgebied
+- Landschappelijk gebied: Dal
+- Landschappelijk gebied: Duingebied
+- Landschappelijk gebied: Eiland
+- Landschappelijk gebied: Groeve
+- Landschappelijk gebied: Heidegebied
+- Landschappelijk gebied: Polder
+- Landschappelijk gebied: Strand
+- Landschappelijk gebied: Watergebied
+- Reliëfzone: Grafheuvekl
+- Reliëfzone: Holle weg
+- Reliëfzone: Steile rand
+- Reliëfzone: Terp
 
 
 ### Niet opnemen in SOR
