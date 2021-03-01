@@ -1132,7 +1132,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 |Geometrie|Geometrische representatie van een overbrugging|Ja (vlak, 2.5D)|
 |Type |Aanduiding van het soort overbrugging|Ja|
 |Naam| Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
-| Beweegbaar    |Aanduiding of overbrugging beweegbaar is (open en dicht kan) |Ja|
+| Indicatie beweegbaar    |Deze overbrugging is al dan niet beweegbaar is (kan open en dicht) |Ja|
 |Status     | Fase van de levenscyclus waarin een overbrugging zich bevindt|Ja     |
 
 

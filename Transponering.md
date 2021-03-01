@@ -102,8 +102,10 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |-----------------|----------------------|-----------------|---------------|
 | **Spoor**                 | Functie:               |                        |                                                                                         |
 |                           | trein                  |                        | spoorverbinding: type nationaal spoor                                                         |
-|                           | sneltram               |                        | sspoorverbinding: type lokaal spoor                                                         |
-|                           | tram                   |                        | sspoorverbinding: type lokaal spoor                                                       |
+|                           | sneltram               |                        | spoorverbinding: type lokaal spoor                                                         |
+|                           | tram                   |                        | spoorverbinding: type lokaal spoor                                                       |
+|                           | (haven)kraan                  |                        | *vervalt*                                                        |
+
 
 
 **Onbegroeid terreindeel**
@@ -204,13 +206,13 @@ In de SOR worden geen ondersteunende waterdelen opgenomen zoals in BGT|IMGeo 2.2
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Ondersteunend waterdeel** | oever/slootkant     |                         | oever                                                    |
+| **Ondersteunend waterdeel** | oever/slootkant     |                         | infrastructureel waterstaatswerk: oeverzone                                                    |
 |                             | slik                |                         | getijdengebied: type slik                                |
 
 
 **Pand**
 
-Het pand uit BGT|IMGeo 2.2 is in de SOR opgenomen als 3D object gebouw.
+Het pand uit BGT|IMGeo 2.2 is in de SOR opgenomen als  reël object gebouw.
 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
@@ -228,14 +230,14 @@ In de SOR worden geen overige bouwwerken opgenomen zoals in BGT|IMGeo 2.2 zijn o
 | **Overig bouwwerk** | Type:                           |            |                                                             |
 |                     | overkapping (maaiveldgeometrie) |            | open bouwwerk: type overkapping                             |
 |                     | open loods                      |            | open bouwwerk: type open loods                              |
-|                     | opslagtank                      |            | Depot: type opslagtank                                      |
-|                     | bezinkbak                       |            | overig kunstwerk: type bezinkbak                            |
-|                     | windturbine                     |            | mast: type windturbinemast en installatie: type windturbine |
-|                     | lage trafo                      |            | Kast: type electra                                          |
-|                     | bassin                          |            | bak: type bassin                                            |
-|                     | Niet BGT                        | bunker     | bunker                                                      |
-|                     | Niet BGT                        | voedersilo | Depot: type voedersilo                                      |
-|                     | Niet BGT                        | schuur     | gebouw, met typering                                        |
+|                     | opslagtank                      |            | opslagtank                                      |
+|                     | bezinkbak                       |            | reservoir: type bezinkbak                            |
+|                     | windturbine                     |            | mast en installatie: type windturbinem  |
+|                     | lage trafo                      |            | installatie: type kast                                          |
+|                     | bassin                          |            | reservoir: type bassin                                            |
+|                     | Niet BGT                        | bunker     | gebouw: type vestingsgebouw, bunker                                                      |
+|                     | Niet BGT                        | voedersilo     | *vervalt*                                                      |
+|                     | Niet BGT                        | schuur     | gebouw: type bijgebouw, schuur                                       |
 |                     |                                 |            |                                                             |
 
 
@@ -247,15 +249,15 @@ In de SOR worden geen scheidingen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenome
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Scheiding** | Type:          |             | Ondergebracht bij functie: afscheiding, kering, reducering |
+| **Scheiding** | Type:          |             |  |
 |               | muur           |             | muur                                                       |
-|               | Kademuur       |             | kerend kunstwerk: type kademuur                            |
-|               | damwand        |             | kerend kunstwerk: type damwand                             |
+|               | Kademuur       |             | muur                            |
+|               | damwand        |             | muur                            |
 |               | geluidsscherm  |             | scherm                                                     |
-|               | walbescherming |             | kerend kunstwerk: type walbescherming                      |
-|               | hek            |             | hek                                                        |
-|               | Niet BGT       | draadraster | raster                                                     |
-|               | Niet BGT       | faunaraster | raster                                                     |
+|               | walbescherming |             | waterstaatkundig kunstwerk: type walbescherming                      |
+|               | hek            |             | omheining                                                        |
+|               | Niet BGT       | draadraster | omheining                                                     |
+|               | Niet BGT       | faunaraster | omheining                                                     |
 
 
 **Overbruggingsdeel**
@@ -265,7 +267,7 @@ In de SOR komt overbruggingsdeel zoals in BGT|IMGeo 2.2 is opgenomen terug als o
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Overbruggingsdeel** | overbruggingsdeel | Hoort bij type overbrugging: | overbrugging                      |
+| **Overbruggingsdeel** | overbruggingsdeel | Hoort bij type overbrugging: |                       |
 |                       |                   | brug                         | overbrugging: type brug           |
 |                       |                   | aquaduct                     | overbrugging: type aquaduct       |
 |                       |                   | viaduct                      | overbrugging: type viaduct        |
@@ -301,22 +303,22 @@ In de SOR worden geen kunstwerkdelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgen
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Kunstwerkdeel**     | Type:             |                              |                                   |
-|                       | hoogspanningsmast |                              | mast: type hoogspanningsmast      |
-|                       | gemaal            |                              | overig kunstwerk: type gemaal     |
+|                       | hoogspanningsmast |                              | mast     |
+|                       | gemaal            |                              | waterstaatkundig kunstwerk: type gemaal     |
 |                       | perron            |                              | spoorzone: type perron            |
-|                       | sluis             |                              | kerend kunstwerk: type sluis      |
-|                       | strekdam          |                              | overig kunstwerk: type strekdam   |
-|                       | steiger           |                              | overig kunstwerk: type steiger    |
-|                       | stuw              |                              | kerend kunstwerk: type stuw       |
-|                       | Niet BGT          | keermuur                     | kerend kunstwerk: type keermuur   |
+|                       | sluis             |                              | waterstaatkundig kunstwerk: type sluis      |
+|                       | strekdam          |                              | waterstaatkundig kunstwerk: type strekdam   |
+|                       | steiger           |                              | waterstaatkundig kunstwerk: type steiger    |
+|                       | stuw              |                              | waterstaatkundig kunstwerk: type stuw       |
+|                       | Niet BGT          | keermuur                     | muur   |
 |                       | Niet BGT          | overkluizing                 | overbrugging: type overkluizing   |
 |                       | Niet BGT          | duiker                       | ondertunneling: type duiker       |
-|                       | Niet BGT          | faunavoorziening             | *vervalt waarschijnlijk*          |
-|                       | Niet BGT          | vispassage                   | overig kunstwerk: type vispassage |
-|                       | Niet BGT          | bodemval                     | overig kunstwerk: type bodemval   |
-|                       | Niet BGT          | coupure                      | overig kunstwerk: type coupure    |
-|                       | Niet BGT          | ponton                       | overig kunstwerk: type ponton     |
-|                       | Niet BGT          | voorde                       | overig kunstwerk: type voorde     |
+|                       | Niet BGT          | faunavoorziening             | *vervalt*          |
+|                       | Niet BGT          | vispassage                   | waterstaatkundig kunstwerk: type vispassage |
+|                       | Niet BGT          | bodemval                     | waterstaatkundig kunstwerk: type bodemval   |
+|                       | Niet BGT          | coupure                      | waterstaatkundig kunstwerk: type coupure    |
+|                       | Niet BGT          | ponton                       | waterstaatkundig kunstwerk: type ponton     |
+|                       | Niet BGT          | voorde                       | waterstaatkundig kunstwerk: type voorde     |
 
 
 **Functioneel gebied**
@@ -340,28 +342,28 @@ De andere typen van functionele gebieden (plus classificaties) komen terug in SO
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Functioneel Gebied** | Type:    |                                            |                                                         |
-|                        | kering   |                                            | kering                                                  |
-|                        | Niet BGT | bedrijvigheid                              | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | natuur en landschap                        | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | landbouw                                   | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | bewoning                                   | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | infrastructuur verkeer en vervoer          | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | infrastructuur waterstaatswerken           | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | waterbergingsgebied                        | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | maatschappelijke en/of publieksvoorziening | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | recreatie                                  | recreatie                                               |
+|                        | kering   |                                            | dijklichaam                                                  |
+|                        | Niet BGT | bedrijvigheid                              | *vervalt*                                |
+|                        | Niet BGT | natuur en landschap                        | *vervalt*                                |
+|                        | Niet BGT | landbouw                                   | *vervalt*                                |
+|                        | Niet BGT | bewoning                                   | *vervalt*                                |
+|                        | Niet BGT | infrastructuur verkeer en vervoer          | *vervalt*                                |
+|                        | Niet BGT | infrastructuur waterstaatswerken           | *vervalt*                                |
+|                        | Niet BGT | waterbergingsgebied                        | Infrastructureel waterstaatswerk: type waterbergingsgebied                             |
+|                        | Niet BGT | maatschappelijke en/of publieksvoorziening | *vervalt*                                |
+|                        | Niet BGT | recreatie                                  | recreatiezone                                               |
 |                        | Niet BGT | begraafplaats                              | begraafplaats                                           |
-|                        | Niet BGT | functioneel beheer                         | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | functioneel beheer: hondenuitlaatplaats    | *vervalt waarschijnlijk*                                |
-|                        | Niet BGT | recreatie: speeltuin                       | recreatie: speeltuin                                    |
-|                        | Niet BGT | recreatie: park                            | recreatie: park                                         |
-|                        | Niet BGT | recreatie: sportterrein                    | recreatie: sportterrein                                 |
-|                        | Niet BGT | recreatie: camping                         | recreatie: camping                                      |
-|                        | Niet BGT | recreatie: bungalowpark                    | recreatie: bungalowpark                                 |
-|                        | Niet BGT | recreatie: volkstuin                       | recreatie: volkstuin                                    |
-|                        | Niet BGT | bushalte                                   | wegzone: type halteplaats                               |
-|                        | Niet BGT | carpoolplaats                              | verkeerskundig functionele zone: type carpoolplaats     |
-|                        | Niet BGT | benzinestation                             | verkeerskundig functionele zone: type benzinestation    |
+|                        | Niet BGT | functioneel beheer                         | *vervalt*                                |
+|                        | Niet BGT | functioneel beheer: hondenuitlaatplaats    | *vervalt*                                |
+|                        | Niet BGT | recreatie: speeltuin                       | recreatiezone: speeltuin                                    |
+|                        | Niet BGT | recreatie: park                            | recreatiezone: park                                         |
+|                        | Niet BGT | recreatie: sportterrein                    | recreatiezone: sportterrein                                 |
+|                        | Niet BGT | recreatie: camping                         | recreatiezone: camping                                      |
+|                        | Niet BGT | recreatie: bungalowpark                    | recreatiezone: bungalowpark                                 |
+|                        | Niet BGT | recreatie: volkstuin                       | recreatiezone: volkstuin                                    |
+|                        | Niet BGT | bushalte                                   | verkeerskundig functionele zone: type halteplaats                              |
+|                        | Niet BGT | carpoolplaats                              | verkeerskundig functionele zone: type parkeerplaats     |
+|                        | Niet BGT | benzinestation                             | verkeerskundig functionele zone: type tankstation    |
 |                        | Niet BGT | verzorgingsplaats                          | verkeerskundig functionele zone: type verzorgingsplaats |
 
 
@@ -373,12 +375,12 @@ In de SOR worden geen bakken opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Bak**                        |          | Type:                         | andere definitie                          |
-|                                | Niet BGT | afval apart plaats            | bak: afval apart plaats                   |
-|                                | Niet BGT | afvalbak                      | straatmeubilair                           |
+|                                | Niet BGT | afval apart plaats            | afvalcontainer                   |
+|                                | Niet BGT | afvalbak                      | straatmeubilair, type afvalbak                           |
 |                                | Niet BGT | drinkbak                      | *vervalt waarschijnlijk*                  |
 |                                | Niet BGT | bloembak                      | straatmeubilair                           |
 |                                | Niet BGT | zand- / zoutbak               | straatmeubilair                           |
-|                                | Niet BGT | container                     | bak: container                            |
+|                                | Niet BGT | container                     | afvalcontainer                            |
 |                                |          |                               |                                           |
 
 **Bord**
@@ -389,16 +391,16 @@ In de SOR worden geen borden opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. Di
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Bord**                       |          | Type:                         |                                           |
-|                                | Niet BGT | informatiebord                | paal                                      |
-|                                | Niet BGT | plaatsnaambord                | paal                                      |
-|                                | Niet BGT | straatnaambord                | paal                                      |
-|                                | Niet BGT | verkeersbord                  | paal                                      |
-|                                | Niet BGT | scheepvaartbord               | paal                                      |
-|                                | Niet BGT | verklikker transportleiding   | paal                                      |
-|                                | Niet BGT | reclamebord                   | paal                                      |
-|                                | Niet BGT | wegwijzer                     | paal                                      |
-|                                | Niet BGT | waarschuwingshek              | hek                                       |
-|                                | Niet BGT | dynamische snelheidsindicator | paal                                      |
+|                                | Niet BGT | informatiebord                | *vervalt*                                      |
+|                                | Niet BGT | plaatsnaambord                | *vervalt*                                        |
+|                                | Niet BGT | straatnaambord                | *vervalt*                                        |
+|                                | Niet BGT | verkeersbord                  | *vervalt*                                        |
+|                                | Niet BGT | scheepvaartbord               | *vervalt*                                        |
+|                                | Niet BGT | verklikker transportleiding   | *vervalt*                                        |
+|                                | Niet BGT | reclamebord                   | *vervalt*                                        |
+|                                | Niet BGT | wegwijzer                     | *vervalt*                                        |
+|                                | Niet BGT | waarschuwingshek              | *vervalt*                                         |
+|                                | Niet BGT | dynamische snelheidsindicator | *vervalt*                                        |
 |                                |          |                               |                                           |
 
 
@@ -411,7 +413,7 @@ De BGT|IMGeo gebouwinstallaties worden in de SOR opgenomen als eigenschap Aard b
 |-----------------|----------------------|-----------------|---------------|
 | **Gebouwinstallatie**          |          | Type:                         |                                           |
 |                                | Niet BGT | bordes                        | gebouwcomponent: aard bordes              |
-|                                | Niet BGT | luifel                        | gebouwcomponent: aard luifel              |
+|                                | Niet BGT | luifel                        | gebouwcomponent: aard afdak              |
 |                                | Niet BGT | toegangstrap                  | gebouwcomponent: aard toegangstrap        |
 |                                |          |                               |                                           |
 
@@ -434,15 +436,15 @@ In de SOR worden geen kasten opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Kast**                       |          | Type:                         |                                           |
-|                                | Niet BGT | CAI-kast                      | kast: type telecom                        |
-|                                | Niet BGT | elektrakast                   | kast: type elektra (inclusief lage trafo) |
-|                                | Niet BGT | gaskast                       | kast: type gas                            |
-|                                | Niet BGT | telecom kast                  | kast: type telecom                        |
-|                                | Niet BGT | rioolkast                     | kast: type riool                          |
-|                                | Niet BGT | openbare verlichtingkast      | kast: type openbare verlichting           |
-|                                | Niet BGT | verkeersregelinstallatiekast  | kast: type verkeer                        |
-|                                | Niet BGT | telkast                       | kast: type verkeer                        |
-|                                | Niet BGT | GMS kast                      | kast: type verkeer                        |
+|                                | Niet BGT | CAI-kast                      | installatie: type kast                      |
+|                                | Niet BGT | elektrakast                   | installatie: type kast |
+|                                | Niet BGT | gaskast                       | installatie: type kast                       |
+|                                | Niet BGT | telecom kast                  | installatie: type kast                       |
+|                                | Niet BGT | rioolkast                     | installatie: type kast                         |
+|                                | Niet BGT | openbare verlichtingkast      | installatie: type kast           |
+|                                | Niet BGT | verkeersregelinstallatiekast  | installatie: type kast                       |
+|                                | Niet BGT | telkast                       | installatie: type kast                       |
+|                                | Niet BGT | GMS kast                      | installatie: type kast                   |
 |                                |          |                               |                                           |
 
 
@@ -454,11 +456,11 @@ In de SOR zijn masten constructies van het type open of gesloten constructie en 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Mast**                       |          | Type:                         |                                           |
-|                                | Niet BGT | bovenleidingmast              | mast: type bovenleidingmast               |
-|                                | Niet BGT | laagspanningsmast             | mast: type laagspanningsmast              |
-|                                | Niet BGT | straalzender                  | mast: type straalzender                   |
-|                                | Niet BGT | zendmast                      | mast: type zendmast                       |
-|                                | Niet BGT | radarmast                     | mast: type radarmast                      |
+|                                | Niet BGT | bovenleidingmast              | mast              |
+|                                | Niet BGT | laagspanningsmast             | mast            |
+|                                | Niet BGT | straalzender                  | *vervalt*                  |
+|                                | Niet BGT | zendmast                      | *vervalt*                         |
+|                                | Niet BGT | radarmast                     | *vervalt*                       |
 |                                |          |                               |                                           |
 
 **Paal**
@@ -469,21 +471,21 @@ In de SOR worden palen zoals in BGT|IMGeo 2.2 zijn opgenomen, opgenomen als paal
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Paal**                       |          | Type:                         |                                           |
-|                                | Niet BGT | lichtmast                     | paal                                      |
-|                                | Niet BGT | telpaal                       | paal                                      |
+|                                | Niet BGT | lichtmast                     | paal en installatie: type verlichtingsarmatuur                                      |
+|                                | Niet BGT | telpaal                       | *vervalt*                                      |
 |                                | Niet BGT | portaal                       | paal                                      |
 |                                | Niet BGT | verkeersregelinstallatiepaal  | paal                                      |
 |                                | Niet BGT | verkeersbordpaal              | paal                                      |
-|                                | Niet BGT | poller                        | straatmeubiliar                           |
+|                                | Niet BGT | poller                        | *vervalt*                         |
 |                                | Niet BGT | haltepaal                     | paal                                      |
-|                                | Niet BGT | vlaggenmast                   | paal                                      |
-|                                | Niet BGT | afsluitpaal                   | paal                                      |
-|                                | Niet BGT | praatpaal                     | paal                                      |
-|                                | Niet BGT | hectometerpaal                | paal                                      |
-|                                | Niet BGT | dijkpaal                      | paal                                      |
-|                                | Niet BGT | drukknoppaal                  | paal                                      |
-|                                | Niet BGT | grensmarkering                | paal                                      |
-|                                | Niet BGT | sirene                        | mast: type sirene                         |
+|                                | Niet BGT | vlaggenmast                   | *vervalt*                                      |
+|                                | Niet BGT | afsluitpaal                   | *vervalt*                                      |
+|                                | Niet BGT | praatpaal                     | *vervalt*                                      |
+|                                | Niet BGT | hectometerpaal                | *vervalt*                                      |
+|                                | Niet BGT | dijkpaal                      | *vervalt*                                      |
+|                                | Niet BGT | drukknoppaal                  | *vervalt*                                      |
+|                                | Niet BGT | grensmarkering                | *vervalt*                                      |
+|                                | Niet BGT | sirene                        | installatie: type sirene                         |
 |                                |          |                               |                                           |
 
 **Put**
@@ -495,13 +497,13 @@ In de SOR worden putten opgenomen als putdeksel, echter zonder nadere typering.
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Put**                        |          | Type:                         |                                           |
-|                                | Niet BGT | benzine- / olieput            | putdeksel: benzine- / olie                |
-|                                | Niet BGT | brandkraan / -put             | putdeksel: brandkraan                     |
-|                                | Niet BGT | drainageput                   | putdeksel: riolering                      |
-|                                | Niet BGT | gasput                        | putdeksel: gas                            |
-|                                | Niet BGT | inspectie- / rioolput         | putdeksel: riolering                      |
-|                                | Niet BGT | kolk                          | putdeksel: riolering                      |
-|                                | Niet BGT | waterleidingput               | putdeksel: waterleiding                   |
+|                                | Niet BGT | benzine- / olieput            | putdeksel               |
+|                                | Niet BGT | brandkraan / -put             | putdeksel           |
+|                                | Niet BGT | drainageput                   | putdeksel                   |
+|                                | Niet BGT | gasput                        | putdeksel             |
+|                                | Niet BGT | inspectie- / rioolput         | putdeksel                     |
+|                                | Niet BGT | kolk                          | pputdeksel                   |
+|                                | Niet BGT | waterleidingput               | putdeksel                 |
 |                                |          |                               |                                           |
 
 **Sensor**
@@ -513,17 +515,17 @@ In de SOR worden geen sensoren opgenomen.
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Sensor**                     |          | Type:                         |                                           |
-|                                | Niet BGT | camera                        | paal                                      |
-|                                | Niet BGT | debietmeter                   | paal                                      |
-|                                | Niet BGT | hoogtedetectieapparaat        | sensor: hoogtedetectieapparaat            |
-|                                | Niet BGT | detectielus                   | *vervalt waarschijnlijk*                  |
-|                                | Niet BGT | weerstation                   | paal                                      |
-|                                | Niet BGT | flitser                       | paal                                      |
-|                                | Niet BGT | waterstandmeter               | paal                                      |
-|                                | Niet BGT | windmeter                     | paal                                      |
-|                                | Niet BGT | lichtcel                      | paal                                      |
-|                                | Niet BGT | GMS sensor                    | sensor: GMS sensor                        |
-|                                | Niet BGT | radar detector                | paal                                      |
+|                                | Niet BGT | camera                        | *vervalt*                                      |
+|                                | Niet BGT | debietmeter                   | *vervalt*                                       |
+|                                | Niet BGT | hoogtedetectieapparaat        | s*vervalt*             |
+|                                | Niet BGT | detectielus                   | *vervalt*                  |
+|                                | Niet BGT | weerstation                   | *vervalt*                                       |
+|                                | Niet BGT | flitser                       | *vervalt*                                       |
+|                                | Niet BGT | waterstandmeter               | *vervalt*                                       |
+|                                | Niet BGT | windmeter                     | *vervalt*                                       |
+|                                | Niet BGT | lichtcel                      | *vervalt*                                       |
+|                                | Niet BGT | GMS sensor                    | *vervalt*                      |
+|                                | Niet BGT | radar detector                | *vervalt*                                       |
 |                                |          |                               |                                           |
 
 **Straatmeubilair**
@@ -534,24 +536,24 @@ In de SOR wordt alleen straatmeubilair van type: abri, bank, fietsparkeerplaats,
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Straatmeubilair**            |          | Type:                         |                                           |
-|                                | Niet BGT | abri                          | straatmeubilair                           |
+|                                | Niet BGT | abri                          | straatmeubilair: type abri                         |
 |                                | Niet BGT | bolder                        | paal                                      |
 |                                | Niet BGT | brievenbus                    | straatmeubilair                           |
-|                                | Niet BGT | fietsenrek                    | straatmeubilair                           |
-|                                | Niet BGT | kunstobject                   | straatmeubilair                           |
-|                                | Niet BGT | openbaar toilet               | straatmeubilair                           |
+|                                | Niet BGT | fietsenrek                    | straatmeubilair: type fietsen parkeerplaats                           |
+|                                | Niet BGT | kunstobject                   | straatmeubilair: type kunstobject                           |
+|                                | Niet BGT | openbaar toilet               | straatmeubilair: type openbaar toilet                           |
 |                                | Niet BGT | slagboom                      | straatmeubilair                           |
-|                                | Niet BGT | speelvoorziening              | straatmeubilair                           |
+|                                | Niet BGT | speelvoorziening              | straatmeubilair: type speelvoorziening                           |
 |                                | Niet BGT | telefooncel                   | straatmeubilair                           |
-|                                | Niet BGT | bank                          | straatmeubilair                           |
-|                                | Niet BGT | picknicktafel                 | straatmeubilair                           |
-|                                | Niet BGT | fontein                       | straatmeubilair                           |
-|                                | Niet BGT | lichtpunt                     | straatmeubilair                           |
+|                                | Niet BGT | bank                          | straatmeubilair: type bank                           |
+|                                | Niet BGT | picknicktafel                 | straatmeubilair: type picknicktafel                          |
+|                                | Niet BGT | fontein                       | straatmeubilair: type fontein                           |
+|                                | Niet BGT | lichtpunt                     | straatmeubilair: type verlichtingsarmatuur                           |
 |                                | Niet BGT | parkeerbeugel                 | straatmeubilair                           |
 |                                | Niet BGT | betaalautomaat                | straatmeubilair                           |
 |                                | Niet BGT | reclamezuil                   | paal                                      |
-|                                | Niet BGT | fietsenkluis                  | straatmeubilair                           |
-|                                | Niet BGT | herdenkingsmonument           | straatmeubilair                           |
+|                                | Niet BGT | fietsenkluis                  | straatmeubilair: type fietsen parkeerplaats                             |
+|                                | Niet BGT | herdenkingsmonument           | straatmeubilair: type herdenkingsmonument                           |
 |                                |          |                               |                                           |
 
 **Waterinrichtings-element**
@@ -562,12 +564,12 @@ In de SOR worden geen waterinrichtings-elementen opgenomen zoals in BGT|IMGeo 2.
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Waterinrichtings-element**   |          | Type:                         |                                           |
-|                                | Niet BGT | remmingswerk                  | geleider: remmingswerk                    |
-|                                | Niet BGT | betonning                     | paal                                      |
-|                                | Niet BGT | geleidewerk                   | geleider: geleidewerk                     |
-|                                | Niet BGT | vuilvang                      | kunstwerkdeel: type vuilvang              |
-|                                | Niet BGT | meerpaal                      | paal                                      |
-|                                | Niet BGT | hoogtemerk                    | *vervalt waarschijnlijk*                  |
+|                                | Niet BGT | remmingswerk                  | geleider                 |
+|                                | Niet BGT | betonning                     | *vervalt*                                      |
+|                                | Niet BGT | geleidewerk                   | geleider                     |
+|                                | Niet BGT | vuilvang                      | waterstaatkundig kunstwerk: type vuilvang              |
+|                                | Niet BGT | meerpaal                      | *vervalt*                                      |
+|                                | Niet BGT | hoogtemerk                    | *vervalt*                  |
 |                                |          |                               |                                           |
 
 
@@ -579,15 +581,15 @@ In de SOR worden geen weginrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Weginrichtings-element**     |          | Type:                         |                                           |
-|                                | Niet BGT | molgoot                       | *vervalt waarschijnlijk*                  |
-|                                | Niet BGT | lijnafwatering                | putdeksel: riolering                      |
-|                                | Niet BGT | wegmarkering                  | *vervalt waarschijnlijk*                  |
+|                                | Niet BGT | molgoot                       | *vervalt*                  |
+|                                | Niet BGT | lijnafwatering                | putdeksel                   |
+|                                | Niet BGT | wegmarkering                  | *vervalt*                  |
 |                                | Niet BGT | wildrooster                   | functionele wegzone:  type wildrooster    |
-|                                | Niet BGT | rooster                       | *vervalt waarschijnlijk*                  |
-|                                | Niet BGulT | geleideconstructie            | geleider: geleideconstructie              |
-|                                | Niet BGT | balustrade                    | gesplitst: hek en functie: valbescherming |
-|                                | Niet BGT | boomspiegel                   | *vervalt waarschijnlijk*                  |
-|                                | Niet BGT | verblindingswering            | geleider: verblindingswering              |
+|                                | Niet BGT | rooster                       | *vervalt*                  |
+|                                | Niet BGT | geleideconstructie            | geleider            |
+|                                | Niet BGT | balustrade                    | omheining |
+|                                | Niet BGT | boomspiegel                   | *vervalt*                  |
+|                                | Niet BGT | verblindingswering            | *vervalt*               |
 |                                |          |                               |                                           |
 
 **Vegetatieobject**
@@ -603,22 +605,22 @@ In de SOR worden geen vegetatieobjecten opgenomen zoals in BGT|IMGeo 2.2 zijn op
 |                                |          |             
 
 
-.
+**Registratieve ruimte**
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Buurt**                      | Niet BGT |                               | registratief objecttype: buurt            |
-| **Openbare Ruimte**            | Niet BGT |                               | registratief objecttype: openbare ruimte  |
-| **Stadsdeel**                  | Niet BGT |                               | *vervalt waarschijnlijk*                  |
-| **Waterschap**                 | Niet BGT |                               | registratief objecttype: waterschap       |
-| **Wijk**                       | Niet BGT |                               | registratief objecttype: wijk             |
+| **Buurt**                      | Niet BGT |                               | Buurt            |
+| **Openbare Ruimte**            | Niet BGT |                               | Openbare ruimte  |
+| **Stadsdeel**                  | Niet BGT |                               | Bebouwingskern: type stadsdeel                  |
+| **Waterschap**                 | Niet BGT |                               | Waterschap       |
+| **Wijk**                       | Niet BGT |                               | Wijk             |
 |                                |          |                               |                                           |
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| kruinlijn: lijn                |          |                               | *vervalt waarschijnlijk als eigenschap*   |
-| op talud: ja/nee               |          |                               | *vervalt waarschijnlijk als eigenschap*   |
-| Overbrugging is beweegbaar J/N |          |                               | eigenschap bij overbrugging               |
+| kruinlijn: lijn                |          |                               | *vervalt*  |
+| op talud: ja/nee               |          |                               | *vervalt* |
+| Overbrugging is beweegbaar J/N |          |                               | eigenschap van overbrugging               |
 
 
 
