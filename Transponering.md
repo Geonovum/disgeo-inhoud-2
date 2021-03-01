@@ -641,9 +641,9 @@ De transponering vanuit de BRT zal op een later moment worden toegevoegd op basi
 
 ### Nieuw in de SOR
 
-Hier worden de begrippen aangeduid die nieuw zijn ten opzichte van de begrippen uit de basisregistraties waauit de SOR is doorontwikkeld. Het gaat daarbij om dingen in de werkelijkheid die voorheen in de basisregistraties nog niet waren opgenomen. Het gaat NIET om dingen in de werkelijkheid die al waren opgenomne maar die nu van een andere begripsnaam zijn voorzien. Deze worden in de voorgaande paragrafen van dit hoofdstuk al geduid.
+Hier worden de begrippen aangeduid die nieuw zijn ten opzichte van de begrippen uit de basisregistraties waauit de SOR is doorontwikkeld. Het gaat daarbij om dingen in de werkelijkheid die voorheen in de basisregistraties nog niet waren opgenomen. Het gaat NIET om dingen in de werkelijkheid die al waren opgenomen maar die nu van een andere begripsnaam zijn voorzien. Deze worden in de voorgaande paragrafen van dit hoofdstuk al geduid.
 
-Deze opsomming verwijst naar begrippen uit de index van het document. Indien een begrip een verbijzondering is van een begrip uit de index, wordt dit aangegeven door de naam uit de index gevolgd door een dubbelep punt en de naam van het begrip.
+Deze opsomming verwijst naar begrippen uit de index van het document. Indien een begrip een verbijzondering is van een begrip uit de index, wordt dit aangegeven door de naam uit de index gevolgd door een dubbele punt en de naam van het begrip.
 
 #### Reële objecten
 
