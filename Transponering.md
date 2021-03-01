@@ -15,47 +15,47 @@ De functies van wegdelen worden in de SOR grotendeels opgenomen in het wegennetw
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Wegdeel**               | **Functie**               |                        |                                                                                         |
-|                           | OV-baan                |                        | verkeerskundig functionele zone: type OV-baan                                           |
-|                           | overweg                |                        | spoorzone: type overweg                                                                 |
-|                           | spoorbaan              |                        | spoorzone: type spoorbaan                                                               |
-|                           | baan voor vliegverkeer |                        | luchtvaartzone: type baan voor vliegverkeer                                             |
-|                           | rijbaan autosnelweg    |                        | wegverbinding: type autosnelweg                                                         |
-|                           | rijbaan autosnelweg    | verbindingsweg         | wegverbinding: type verbindingsbaan                                                     |
-|                           | rijbaan autosnelweg    | calamiteitendoorsteek  | *nog onbekend*                                                                          |
-|                           | rijbaan autoweg        |                        | wegverbinding: type autoweg                                                             |
-|                           | rijbaan autoweg        | verbindingsweg         | wegverbinding: type verbindingsbaan                                                     |
-|                           | rijbaan autoweg        | calamiteitendoorsteek  | *nog onbekend*                                                                          |
-|                           | rijbaan regionale weg  |                        | wegverbinding: type gebiedsontsluitingsweg                                              |
-|                           | rijbaan regionale weg  | verbindingsweg         | wegverbinding: type verbindingsbaan                                                     |
-|                           | rijbaan regionale weg  | verkeersdrempel        | wegzone: type verkeersdrempel                                                           |
-|                           | rijbaan lokale weg     |                        | wegverbinding: type erftoegangsweg                                                      |
-|                           | rijbaan lokale weg     | verkeersdrempel        | wegzone: type verkeersdrempel                                                           |
-|                           | fietspad               |                        | wegverbinding: type fietspad                                                            |
-|                           | voetpad                |                        | wegverbinding: type voetpad                                                             |
-|                           | voetpad op trap        |                        | wegverbinding: type voetpad                                                             |
-|                           | ruiterpad              |                        | wegverbinding: type ruiterpad                                                           |
-|                           | parkeervlak            |                        | verkeerskundig functionele zone: type parkeervlak                                       |
-|                           | voetgangersgebied      |                        | *vervalt waarschijnlijk, wordt vervangen door netwerk en eigenschappen van het netwerk* |
-|                           | inrit                  |                        | verkeerskundig functionele zone: type inrit                                             |
-|                           | woonerf                |                        | *vervalt waarschijnlijk, wordt vervangen door netwerk en eigenschappen van het netwerk* |
-|                           |                        |                        |                                                                                         |
-| **Wegdeel**               | **Fysiek voorkomen**      |                        |                                                                                         |
-|                           | gesloten verharding    | asfalt                 | verharding: asfaltverharding                                                            |
-|                           |                        | cementbeton            | verharding: betonverharding                                                             |
-|                           | open verharding        | betonstraatstenen      | verharding: elementenverharding                                                         |
-|                           |                        | gebakken klinkers      | verharding: elementenverharding                                                         |
-|                           |                        | tegels                 | verharding: elementenverharding                                                         |
-|                           |                        | sierbestrating         | verharding: elementenverharding                                                         |
-|                           |                        | beton element          | verharding: elementenverharding                                                         |
-|                           | half verhard           | grasklinkers           | verharding: halfverharding                                                              |
-|                           |                        | schelpen               | verharding: halfverharding                                                              |
-|                           |                        | puin                   | verharding: halfverharding                                                              |
-|                           |                        | grind                  | verharding: halfverharding                                                              |
-|                           |                        | gravel                 | verharding: halfverharding                                                              |
-|                           | onverhard              | boomschors             | verharding: halfverharding                                                              |
-|                           |                        | zand                   | verharding: onverhard of onbegroeide grond                                              |
-|                           |                        |                        |                                                                                         |
+| **Wegdeel** | **Functie**  |   |   |
+|   | OV-baan |   | wegverbinding: type busbaan |
+|   | overweg |   | spoorzone: type overweg |
+|   | spoorbaan |   | spoorzone: type spoorbaan |
+|   | baan voor vliegverkeer |   | luchtvaartzone: type baan voor vliegverkeer |
+|   | rijbaan autosnelweg |   | wegverbinding: type autosnelweg |
+|   | rijbaan autosnelweg | verbindingsweg | wegverbinding: type verbindingsbaan |
+|   | rijbaan autosnelweg | calamiteitendoorsteek |   |
+|   | rijbaan autoweg |   | wegverbinding: type autoweg |
+|   | rijbaan autoweg | verbindingsweg | wegverbinding: type verbindingsbaan |
+|   | rijbaan autoweg | calamiteitendoorsteek |   |
+|   | rijbaan regionale weg |   | wegverbinding: type gebiedsontsluitingsweg open / gesloten |
+|   | rijbaan regionale weg | verbindingsweg | wegverbinding: type verbindingsbaan |
+|   | rijbaan regionale weg | verkeersdrempel | wegzone: type verkeersdrempel |
+|   | rijbaan lokale weg |   | wegverbinding: type erftoegangsweg |
+|   | rijbaan lokale weg | verkeersdrempel | wegzone: type verkeersdrempel |
+|   | fietspad |   | wegverbinding: type fietspad |
+|   | voetpad |   | wegverbinding: type voetpad |
+|   | voetpad op trap |   | wegverbinding: type voetpad |
+|   | ruiterpad |   | wegverbinding: type ruiterpad |
+|   | parkeervlak |   | verkeerskundig functionele zone: type parkeervlak |
+|   | voetgangersgebied |   | wegverbinding: type voetgangerszone |
+|   | inrit |   | verkeerskundig functionele zone: type inrit |
+|   | woonerf |   | verkeerskundig functionele zone: type woonerf |
+|   |   |   |   |
+| Wegdeel | Fysiek voorkomen: |   |   |
+|   | gesloten verharding | asfalt | verharding: asfaltverharding |
+|   |   | cementbeton | verharding: betonverharding |
+|   | open verharding | betonstraatstenen | verharding: elementenverharding |
+|   |   | gebakken klinkers | verharding: elementenverharding |
+|   |   | tegels | verharding: elementenverharding |
+|   |   | sierbestrating | verharding: elementenverharding |
+|   |   | beton element | verharding: elementenverharding |
+|   | half verhard | grasklinkers | verharding: halfverharding |
+|   |   | schelpen | verharding: halfverharding |
+|   |   | puin | verharding: halfverharding |
+|   |   | grind | verharding: halfverharding |
+|   |   | gravel | verharding: halfverharding |
+|   | onverhard | boomschors | verharding: halfverharding |
+|   |   | zand | verharding: onverhard |
+
 
 **Ondersteunend wegdeel**
 
@@ -67,32 +67,32 @@ Beide functies van ondersteunend wegdeel komen in de SOR terug als een type bij 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Ondersteunend wegdeel** | **Functie**               |                        |                                                                                         |
-|                           | verkeerseiland         |                        | wegzone: type verkeerseiland                                                            |
-|                           | berm                   |                        | wegzone: type berm                                                                      |
-|                           |                        |                        |                                                                                         |
-| **Ondersteunend wegdeel** | **Fysiek voorkomen**     |                        |                                                                                         |
-|                           | gesloten verharding    | asfalt                 | verharding: asfaltverharding                                                            |
-|                           |                        | cementbeton            | verharding: betonverharding                                                             |
-|                           | open verharding        | betonstraatstenen      | verharding: elementenverharding                                                         |
-|                           |                        | gebakken klinkers      | verharding: elementenverharding                                                         |
-|                           |                        | tegels                 | verharding: elementenverharding                                                         |
-|                           |                        | sierbestrating         | verharding: elementenverharding                                                         |
-|                           |                        | beton element          | verharding: elementenverharding                                                         |
-|                           | half verhard           | grasklinkers           | verharding: halfverharding                                                              |
-|                           |                        | schelpen               | verharding: halfverharding                                                              |
-|                           |                        | puin                   | verharding: halfverharding                                                              |
-|                           |                        | grind                  | verharding: halfverharding                                                              |
-|                           |                        | gravel                 | verharding: halfverharding                                                              |
-|                           | onverhard              | boomschors             | verharding: halfverharding                                                              |
-|                           |                        | zand                   | verharding: onverhard of onbegroeide grond                                              |
-|                           | groenvoorziening       | bosplantsoen           | struiken                                                                                |
-|                           |                        | gras- en kruidachtigen | gras- en kruidachtigen                                                                  |
-|                           |                        | planten                | struiken                                                                                |
-|                           |                        | struikrozen            | struiken                                                                                |
-|                           |                        | heesters               | struiken                                                                                |
-|                           |                        | bodembedekkers         | struiken                                                                                |
-|                           |                        |                        |                                                                                         |
+| **Ondersteunend wegdeel** | **Functie**   |   |   |
+|   | verkeerseiland |   | wegzone: type verkeerseiland |
+|   | berm |   | wegzone: type berm |
+|   |   |   |   |
+| Ondersteunend wegdeel | Fysiek voorkomen: |   |   |
+|   | gesloten verharding | asfalt | verharding: asfaltverharding |
+|   |   | cementbeton | verharding: betonverharding |
+|   | open verharding | betonstraatstenen | verharding: elementenverharding |
+|   |   | gebakken klinkers | verharding: elementenverharding |
+|   |   | tegels | verharding: elementenverharding |
+|   |   | sierbestrating | verharding: elementenverharding |
+|   |   | beton element | verharding: elementenverharding |
+|   | half verhard | grasklinkers | verharding: halfverharding |
+|   |   | schelpen | verharding: halfverharding |
+|   |   | puin | verharding: halfverharding |
+|   |   | grind | verharding: halfverharding |
+|   |   | gravel | verharding: halfverharding |
+|   | onverhard | boomschors | verharding: halfverharding |
+|   |   | zand | verharding: onverhard |
+|   | groenvoorziening | bosplantsoen | bos: type bosplantsoen |
+|   |   | gras- en kruidachtigen | gras- en kruidachtigen |
+|   |   | planten | struiken |
+|   |   | struikrozen | struiken |
+|   |   | heesters | struiken |
+|   |   | bodembedekkers | struiken |
+
 
 **Spoor**
 Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De functies (trein, sneltram, tram) vervallen. Er komen twee nieuwe type spoorverbinding voor terug: nationaal spoor en lokaal spoor. De plus classificatie havenkraan komt niet terug in de SOR.
@@ -101,9 +101,9 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Spoor**                 | Functie:               |                        |                                                                                         |
-|                           | trein                  |                        | spoorweg: type spoorverbinding                                                          |
-|                           | sneltram               |                        | spoorweg: type spoorverbinding                                                          |
-|                           | tram                   |                        | spoorweg: type spoorverbinding                                                          |
+|                           | trein                  |                        | spoorverbinding: type nationaal spoor                                                         |
+|                           | sneltram               |                        | sspoorverbinding: type lokaal spoor                                                         |
+|                           | tram                   |                        | sspoorverbinding: type lokaal spoor                                                       |
 
 
 **Onbegroeid terreindeel**
@@ -129,9 +129,9 @@ In de SOR worden geen onbegroeide terreindelen opgenomen zoals in BGT|IMGeo 2.2 
 |                            |                     | grind                  | verharding: halfverharding                 |
 |                            |                     | gravel                 | verharding: halfverharding                 |
 |                            | onverhard           | boomschors             | verharding: halfverharding                 |
-|                            |                     | zand                   | verharding: onverhard of onbegroeide grond |
-|                            | zand                | strand en strandwal    | geografisch object: type strand            |
-|                            |                     | zandverstuiving        | geografisch object: type zandverstuiving   |
+|                            |                     | zand                   | begroeiing: onbegroeide grondd |
+|                            | zand                | strand en strandwal    | landschappelijk gebied: type strand            |
+|                            |                     | zandverstuiving        | landschappelijk gebied: type zandverstuiving  |
 |                            |                     |                        |                                            |
 |                            |                     |                        |                                            |
 
@@ -144,34 +144,35 @@ In de SOR worden geen begroeide terreindelen opgenomen zoals in BGT|IMGeo 2.2 zi
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Begroeid terreindeel**   | Fysiek voorkomen:   |                        |                                            |
-|                            | loofbos             | griend en hakhout      | bos: type loofbos                          |
-|                            | gemengd bos         |                        | bos: type gemengd bos                      |
-|                            | naaldbos            |                        | bos: type naaldbos                         |
-|                            | heide               |                        | heide                                      |
-|                            | struiken            |                        | struiken                                   |
-|                            | houtwal             |                        | houtsingel                                 |
-|                            | duin                | open duinvegetatie     | duin                                       |
-|                            |                     | gesloten duinvegetatie | duin                                       |
-|                            | grasland overig     |                        | gras- en kruidachtigen                     |
-|                            | moeras              |                        | moeras                                     |
-|                            | rietland            |                        | rietland                                   |
-|                            | kwelder             |                        | getijdengebied: type schor                 |
-|                            | fruitteelt          | laagstam boomgaarden   | fruit- en kweekboom                        |
-|                            |                     | hoogstam boomgaarden   | fruit- en kweekboom                        |
-|                            |                     | wijngaarden            | fruit- en kweekboom                        |
-|                            |                     | klein fruit            | fruit- en kweekboom                        |
-|                            | boomteelt           |                        | fruit- en kweekboom                        |
-|                            | bouwland            | akkerbouw              | bouwland                                      |
-|                            |                     | braakliggend           | bouwland                                      |
-|                            |                     | vollegrondsteelt       | bouwland                                      |
-|                            |                     | bollenteelt            | bouwland                                      |
-|                            | grasland agrarisch  |                        | gras- en kruidachtigen                     |
-|                            | groenvoorziening    | bosplantsoen           | struiken                                   |
-|                            |                     | gras- en kruidachtigen | gras- en kruidachtigen                     |
-|                            |                     | planten                | struiken                                   |
-|                            |                     | struikrozen            | struiken                                   |
-|                            |                     | heesters               | struiken                                   |
-|                            |                     | bodembedekkers         | struiken                                   |
+|   | loofbos |   | bos: type loofbos |
+|   | loofbos | griend en hakhout | bos: type griend en hakhout |
+|   | gemengd bos |   | bos: type gemengd bos |
+|   | naaldbos |   | bos: type naaldbos |
+|   | heide |   | heide |
+|   | struiken |   | struiken |
+|   | houtwal |   | houtsingel |
+|   | duin | open duinvegetatie | gras- en kruidachtigen of struiken of onbegroeide grond |
+|   |   | gesloten duinvegetatie | gras- en kruidachtigen of struiken of onbegroeide grond |
+|   | grasland overig |   | gras- en kruidachtigen |
+|   | moeras |   | moeras |
+|   | rietland |   | rietland |
+|   | kwelder |   | getijdengebied: type schor |
+|   | fruitteelt | laagstam boomgaarden | fruit- en kweekboom: fruitkwekerij met lage opstand |
+|   |   | hoogstam boomgaarden | fruit- en kweekboom: hoogstam boomgaarden |
+|   |   | wijngaarden | fruit- en kweekboom: fruitkwekerij met lage opstand |
+|   |   | klein fruit | fruit- en kweekboom: fruitkwekerij met lage opstand |
+|   | boomteelt |   | fruit- en kweekboom: boomkwekerij |
+|   | bouwland | akkerbouw | bouwland |
+|   |   | braakliggend | bouwland |
+|   |   | vollegrondsteelt | bouwland |
+|   |   | bollenteelt | bouwland |
+|   | grasland agrarisch |   | gras- en kruidachtigen |
+|   | groenvoorziening | bosplantsoen | bos: type bosplantsoen |
+|   |   | gras- en kruidachtigen | gras- en kruidachtigen |
+|   |   | planten | struiken |
+|   |   | struikrozen | struiken |
+|   |   | heesters | struiken |
+|   |   | bodembedekkers | struiken |
 
 
 **Waterdeel**
@@ -190,9 +191,9 @@ Het waterdeel uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als oppervlaktewater. 
 |                             |                     | beek                    | waterloop: type beek                                     |
 |                             |                     | gracht                  | waterloop: type gracht                                   |
 |                             |                     | bron                    | bron                                                     |
-|                             | watervlakte         | haven                   | functionele zone: havencomplex : aanleg en overslag      |
+|                             | watervlakte         | haven                   | complex: type havencomplex      |
 |                             |                     | meer, plas, ven, vijver | watervlakte: type meer, type plas, type ven, type vijver |
-|                             | greppel/droge sloot |                         | *vervalt waarschijnlijk, wordt eigenschap bij waterloop* |
+|                             | greppel/droge sloot |                         | waterloop: type sloot |
 |                             |                     |                         |                                                          |
 
 

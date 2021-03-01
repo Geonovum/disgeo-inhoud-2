@@ -393,7 +393,7 @@ De definitieve lijst met gebruiksfuncties zal op een later moment nog definitief
 |     Wonen    |     Permanent verblijf van personen voor niet bedrijfsmatige activiteiten    |
 |     Zorgverlening    |     Bieden van lichamelijke of geestelijke hulp of aandacht    |
 
-Met de bovenstaande typering worden alle verblijfsobjecten van een typering voorzien. Als nadere invulling van “het uitklapmodel” (zie paragraaf 4,3) moeten verblijfsobject met de typering groothandel en voertuigen daarnaast altijd worden voorzien van een nadere typering:
+Met de bovenstaande typering worden alle verblijfsobjecten van een typering voorzien. Als nadere invulling van “het uitklapmodel” (zie paragraaf [Aansluiting sectormodellen](#aansluiting-sectormodellen)) moeten verblijfsobject met de typering groothandel en voertuigen daarnaast altijd worden voorzien van een nadere typering:
 
 |     Waarde Subtype    |     Beschrijving Subtype    |
 |-|-|
