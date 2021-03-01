@@ -1241,7 +1241,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 *Type*
 
 |Waarde Type| Beschrijving Type    | Verplicht|
-|---|---|===|
+|---|---|---|
 | Bodemval |Sprong in de bodem van een waterloop| Nee|
 | Coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|Nee|
 | Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|Ja|

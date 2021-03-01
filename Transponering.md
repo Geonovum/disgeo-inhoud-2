@@ -39,7 +39,8 @@ De functies van wegdelen worden in de SOR grotendeels opgenomen in het wegennetw
 |   | voetgangersgebied |   | wegverbinding: type voetgangerszone |
 |   | inrit |   | verkeerskundig functionele zone: type inrit |
 |   | woonerf |   | verkeerskundig functionele zone: type woonerf |
-|   |   |   |   |
+|     |     |     |   |
+|     |    |     |     |
 | Wegdeel | Fysiek voorkomen: |   |   |
 |   | gesloten verharding | asfalt | verharding: asfaltverharding |
 |   |   | cementbeton | verharding: betonverharding |
@@ -325,16 +326,17 @@ In de SOR worden geen kunstwerkdelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgen
 
 Het type kering (BGT classificatie) komt in de SOR terug als functionele zonering kering van type water.
 De volgende typen van functionele gebieden (plus classificaties) komen niet terug in de SOR
-•	bedrijvigheid
-•	natuur en landschap
-•	landbouw
-•	bewoning
-•	infrastructuur verkeer en vervoer
-•	waterbergingsgebied
-•	infrastructuur waterstaatswerken
-•	maatschappelijke en/of publieksvoorziening
-•	functioneel beheer
-•	functioneel beheer: hondenuitlaatplaats
+- bedrijvigheid
+- natuur en landschap
+- landbouw
+- bewoning
+- infrastructuur verkeer en vervoer
+- waterbergingsgebied
+- infrastructuur waterstaatswerken
+- maatschappelijke en/of publieksvoorziening
+- functioneel beheer
+- functioneel beheer: hondenuitlaatplaats
+
 De andere typen van functionele gebieden (plus classificaties) komen terug in SOR als een type van functionele zonering. Waarbij type carpoolplaats in de SOR een parkeerplaats wordt en benzinestation in de SOR een tankstation wordt.
 
 
@@ -698,12 +700,14 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 
 - Wijk
 - Buurt
+
 Bestuuriljk gebied
 - Rijk
 - Provincie
 - Waterschap
 - Gemeente
 - Veiligheidsregio
+
 Bestuuriljk gebied op zee
 - Nederlandse territoriale zee
 - Nederlandse aansluitende zone
@@ -725,7 +729,7 @@ Bestuuriljk gebied op zee
 - Landschappelijk gebied: Polder
 - Landschappelijk gebied: Strand
 - Landschappelijk gebied: Watergebied
-- Reliëfzone: Grafheuvekl
+- Reliëfzone: Grafheuvel
 - Reliëfzone: Holle weg
 - Reliëfzone: Steile rand
 - Reliëfzone: Terp
