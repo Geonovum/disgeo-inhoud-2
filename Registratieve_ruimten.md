@@ -596,7 +596,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruim
 | Waarde Type | Beschrijving Type  |
 |---|---|
 |Drijvend object|Constructief zelfstandig object dat met het water kan meebewegen|
-|Mobiele object|Constructief zelfstandig object dat in zijn geheel of delen kan worden verplaatst|
+|Mobiel object|Constructief zelfstandig object dat in zijn geheel of delen kan worden verplaatst|
 |Onbemensd tankstation|Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor voertuigen, waarbij zich geen bij deze installaties betrokken gebouw bevindt|
 
 *Status* 

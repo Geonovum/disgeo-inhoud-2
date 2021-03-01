@@ -626,15 +626,17 @@ In de SOR worden geen vegetatieobjecten opgenomen zoals in BGT|IMGeo 2.2 zijn op
 
 ### BAG
 
+In de SOR worden BAG-objecten opgenomen als registratieve ruimten, met uitzondering van het BAG-pand, dit wordt in de SOR opgenomen als een reëel object gebouw. De lig- en standplaats worden samengevoegd tot benoemde plaats en worden onderscheiden door een aparte typering.
+
 |BAG object | SOR-begrip in dit document|
 |---|---|
-|woonplaats	|registratief object; woonplaats|
-|openbare ruimte|	registratief object; openbare ruimte|
-|nummeraanduiding|	registratief object; nummeraanduiding|
-|pand	|fysiek object; gebouw|
-|ligplaats|	registratief object; benoemde plaats|
-|standplaats|	registratief object; benoemde plaats|
-|verblijfsobject|	functioneel object; verblijfsobject|
+|woonplaats	|woonplaats|
+|openbare ruimte|	 openbare ruimte|
+|nummeraanduiding| nummeraanduiding|
+|pand	| gebouw|
+|ligplaats|	benoemde plaats: type drijvend object|
+|standplaats| benoemde plaats: type mobiel object|
+|verblijfsobject|	verblijfsobject|
 
 
 ### BRT
