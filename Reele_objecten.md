@@ -247,7 +247,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Herkomst definitie    | IMBOR 2020 |
 |Verplicht    | ja    |
 |Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *gras- en kruidachtigen*,*grasland agrarisch* en *grasland overig* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Onderscheid in gras voor agrarisch gebruik, dan wel voor natuurlijk gebruik of 'overig' gebruik is op basis van het nieuwe reëel object Gras- en kruidachtigen niet meer te zien. In sectormodel kan onderscheid gemaakt worden obv sector specifiek kenmerken. De combinatie van reëel object Gras- en kruidachtigen en    functioneel object Park of Sportterrein en/of sectorregistraties (bv IMNA, gewaspecelen, IMBOR) kan voorzien in informatiebehoefte aan specifieke grastypen zoals 'gazon', agrarisch/natuurlijk gras' of 'sportveld'.| 
+|Toelichting| Onderscheid in gras voor agrarisch gebruik, dan wel voor natuurlijk gebruik of 'overig' gebruik is op basis van het nieuwe reëel object Gras- en kruidachtigen niet meer te zien. In sectormodel kan onderscheid gemaakt worden obv sector specifiek kenmerken. De combinatie van reëel object Gras- en kruidachtigen en    functioneel object Park of Sportterrein en/of sectorregistraties (bv IMNA, gewaspercelen, IMBOR) kan voorzien in informatiebehoefte aan specifieke grastypen zoals 'gazon', agrarisch/natuurlijk gras' of 'sportveld'.| 
 
 **Eigenschappen**
 
@@ -1244,7 +1244,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 | Bodemval |Sprong in de bodem van een waterloop|
 | Coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|
 | Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|
-| Dijk|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
+| Dijklichaam|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|
 | Gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|
 | Ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft|
 | Schot|Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen|

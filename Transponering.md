@@ -161,10 +161,10 @@ In de SOR worden geen begroeide terreindelen opgenomen zoals in BGT|IMGeo 2.2 zi
 |                            |                     | wijngaarden            | fruit- en kweekboom                        |
 |                            |                     | klein fruit            | fruit- en kweekboom                        |
 |                            | boomteelt           |                        | fruit- en kweekboom                        |
-|                            | bouwland            | akkerbouw              | gewas                                      |
-|                            |                     | braakliggend           | gewas                                      |
-|                            |                     | vollegrondsteelt       | gewas                                      |
-|                            |                     | bollenteelt            | gewas                                      |
+|                            | bouwland            | akkerbouw              | bouwland                                      |
+|                            |                     | braakliggend           | bouwland                                      |
+|                            |                     | vollegrondsteelt       | bouwland                                      |
+|                            |                     | bollenteelt            | bouwland                                      |
 |                            | grasland agrarisch  |                        | gras- en kruidachtigen                     |
 |                            | groenvoorziening    | bosplantsoen           | struiken                                   |
 |                            |                     | gras- en kruidachtigen | gras- en kruidachtigen                     |
@@ -641,17 +641,16 @@ De transponering vanuit de BRT zal op een later moment worden toegevoegd op basi
 
 ### Nieuw in de SOR
 
-Hier worden de begrippen aangeduid die nieuw zijn ten opzichte van de begrippen uit de basisregistraties waauit de SOR is doorontwikkeld. Het gaat daarbij om dingen in de werkelijkheid die voorheen in de basisregistraties nog niet waren opgenomen. Het gaat NIET om dingen in de werkelijkheid die al waren opgenomen maar die nu van een andere begripsnaam zijn voorzien. Deze worden in de voorgaande paragrafen van dit hoofdstuk al geduid.
+Hier worden de begrippen aangeduid die nieuw zijn ten opzichte van de begrippen uit de basisregistraties waauit de SOR is doorontwikkeld. Het gaat daarbij om dingen in de werkelijkheid die voorheen in de basisregistraties nog niet waren opgenomen. 
+
+Het gaat NIET om dingen in de werkelijkheid die al waren opgenomen maar die nu van een ándere begripsnaam zijn voorzien. Deze worden in de voorgaande paragrafen van dit hoofdstuk al geduid.
 
 Deze opsomming verwijst naar begrippen uit de index van het document. Indien een begrip een verbijzondering is van een begrip uit de index, wordt dit aangegeven door de naam uit de index gevolgd door een dubbele punt en de naam van het begrip.
 
 #### Reële objecten
 
-- Onbegroeide grond
-- Bouwland
 - Landschapselement : Bomenrij
 - Landschapselement : Tuunwal
-- Gebouw *(voorheen pand)*
 - Bouwlaag
 - Ruimte
 - Gebouwcomponent: dakkapel
@@ -661,7 +660,6 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 - Open bouwwerk: parkeergarage
 - Kunstwerkdeel: sluisdeur
 - Kunstwerkdeel: schutkolk
-- Kunstwerrkdeel: vuilvang
 - Waterstaatkundig kunstwerk
 - Waterstaatkundig kunstwerk: schot
 - Waterstaatkundig kunstwerk: dijk
