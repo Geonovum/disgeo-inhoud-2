@@ -524,7 +524,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |Hoort bij|gebouwzone| verblijfsobject|
-|Ligt op |gebouwzone|Bouwlaag|
+|Ligt op |gebouwzone|bouwlaag|
 
 **Domeinwaarden**
 
