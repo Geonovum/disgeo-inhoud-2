@@ -914,13 +914,41 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
-#### Infrastructureel waterstaatswerk
+#### Oeverzone
 
 **Definitie**
 
-| Naam  | Infrastructureel waterstaatswerk |
+| Naam  | Oeverzone |
 |---|---|
-| Definitie |Gebied gelegen langs en/of op oppervlaktewater, primair in gebruik en beheer voor de oppervlaktewaterhuishouding (waterafvoer, wateraanvoer en waterconservering) óf een gebied gelegen langs en/of op een waterkering|
+| Definitie |Gebied op de grens van water en land waar het dynamisch samenspel van land en water plaatsvindt, lopend van waterpeil tot insteek|
+|Herkomst definitie  ||
+|Verplicht  | Ja |
+|Gevolgen afbakening||
+|Toelichting|   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een oeverzone|Ja |
+|Geometrie|Geometrische representatie van een oeverzone|Ja (lijn, 2D-vlak)|
+|Type |Typering van een oeverzone |Ja|
+|Status   | De fase van de levenscyclus waarin een oeverzone zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+#### Waterbergingsgebied
+
+**Definitie**
+
+| Naam  | Waterbergingsgebied |
+|---|---|
+| Definitie | Gebied, niet zijnde een oppervlaktewaterlichaam of onderdeel daarvan, dat dient ter verruiming van de bergingscapaciteit van een of meer watersystemen |
 |Herkomst definitie  ||
 |Verplicht  | Nee |
 |Gevolgen afbakening||
@@ -930,27 +958,20 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van een infrastructureel waterstaatswerk|Ja |
-|Geometrie|Geometrische representatie van een infrastructureel waterstaatswerk|Ja (lijn, 2D-vlak)|
-|Type |Typering van een infrastructureel waterstaatswerk |Ja|
-|Status   | De fase van de levenscyclus waarin een infrastructureel waterstaatswerk zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een waterbergingsgebied|Ja |
+|Geometrie|Geometrische representatie van een waterbergingsgebied|Ja (lijn, 2D-vlak)|
+|Type |Typering van een oeverzone |Ja|
+|Status   | De fase van de levenscyclus waarin een waterbergingsgebied zich bevindt|Ja   |
 
 **Domeinwaarden**
-
-*Type*
-
-|Waarde Type | Beschrijving Type | Verplicht|
-|---|---|---|
-|Golfbrekend voorland|Gebied aansluitend aan de buitenzijde van een waterkering, wat de waterkering beschermt tegen golven   |Nee|
-|Oeverzone | Gebied op de grens van water en land waar het dynamisch samenspel van land en water plaatsvindt, lopend van waterpeil tot insteek| Ja|
-|Waterbergingsgebied |Gebied, niet zijnde een oppervlaktewaterlichaam of onderdeel daarvan, dat dient ter verruiming van de bergingscapaciteit van een of meer watersystemen  |Nee|
-
-Toelichting: Oppervlaktewaterlichaam is volgens de kaderrichtlijn water een objecttype waar wettelijke verplichtingen mee samenhangen. De SOR kan gegevens over deze objecten leveren middels een informatieproduct, waarbij de oeverzone en het oppervlaktewater zijn opgeteld tot het oppervlaktewaterlichaam. De oever zone en de typen oppervlaktewater zijn basis objecten die in de SOR conform het conceptuele model worden geregistreerd. 
 
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+
+
 
 
 #### Gebruiksgebied oppervlaktewater
