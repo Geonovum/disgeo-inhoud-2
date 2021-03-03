@@ -8,7 +8,7 @@ Bestuurlijke gebieden zijn registratieve ruimten die op basis van wet- of regelg
 
 #### Rijk
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
  
 
@@ -43,7 +43,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Provincie
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
  
 
@@ -79,7 +79,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Waterschap
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
  
 
@@ -118,7 +118,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Gemeente
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
  
 
@@ -157,7 +157,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Veiligheidsregio
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
  
 
@@ -198,7 +198,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Nederlandse territoriale zee
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
  
 
@@ -232,7 +232,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Nederlandse aansluitende zone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
  
 
@@ -268,7 +268,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Nederlandse exclusieve economische zone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
  
 
@@ -301,7 +301,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Nederlandse continentaal plat
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
  
 
@@ -335,7 +335,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Woonplaats
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
 
 **Definitie**
@@ -377,7 +377,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Wijk
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
 **Definitie**
 
@@ -420,7 +420,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Buurt
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
 **Definitie**
 
@@ -460,7 +460,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Openbare ruimte
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
 **Definitie**
 
@@ -512,7 +512,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Nummeraanduiding
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
 **Definitie**
 
@@ -566,7 +566,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Benoemde plaats
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Registratieve ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimte
 
 **Definitie**
 

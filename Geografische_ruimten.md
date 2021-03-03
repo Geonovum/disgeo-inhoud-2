@@ -3,7 +3,7 @@
 
 ### Bebouwingskern
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 
 **Definitie**
 
@@ -57,7 +57,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Streek
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 
 **Definitie**
 
@@ -90,7 +90,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Landschappelijk gebied
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 
 
 **Definitie**
@@ -131,7 +131,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische rui
 |Polder	|Gebied dat door één of meerdere waterkeringen is omgeven en waarvan de waterstand kunstmatig geregeld kan worden|
 |Strand	|Onbegroeide zandige kustvlakte op de overgang van zee met land en welke onder invloed staat van het zeewater en de wind|
 |Watergebied	|Gebied dat overwegend met water bedekt is|
-|Zandverstuiving	|Gebied met overwegend “levend” stuifzand, dus met zo weinig begroeiing dat het zand door de wind en het water verstoven wordt|
+|Zandverstuiving	|Gebied met overwegend levend stuifzand, dus met zo weinig begroeiing dat het zand door de wind en het water verstoven wordt|
 
 
 
@@ -143,7 +143,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 ### Reliëfzone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse “Geografische ruimte”
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 
 **Definitie**
 

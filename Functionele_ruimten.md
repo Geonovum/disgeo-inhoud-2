@@ -12,7 +12,7 @@
 
 **WEGKNOOP**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Wegverkeerruimte
 
 **Definitie**
 
@@ -68,7 +68,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **WEGVERBINDING**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Wegverkeerruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Wegverkeerruimte
 
 **Definitie**
 
@@ -209,7 +209,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **SPOORWEGKNOOP**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Spoorverkeerruimte
 
 
 **Definitie**
@@ -259,7 +259,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 **SPOORVERBINDING**
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Spoorverkeerruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Spoorverkeerruimte
 
 **Definitie**
 
@@ -312,7 +312,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 #### Verblijfsobject
 
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte 
 
 
 **Definitie**
@@ -492,7 +492,7 @@ De status “in gebruik (niet ingemeten)” keert in de SOR niet als een afzonde
 
 #### Gebouwzone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte 
 
 **Definitie**
 
@@ -592,7 +592,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Verkeerskundig functionele zone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
 **Definitie**
 
@@ -649,7 +649,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Wegzone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
 **Definitie**
 
@@ -698,7 +698,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Spoorzone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
 **Definitie**
 
@@ -751,7 +751,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Luchtvaartzone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
 **Definitie**
 
@@ -793,7 +793,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Begraafplaats
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
 **Definitie**
 
@@ -824,7 +824,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Recreatiezone
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte 
 
 **Definitie**
 
@@ -870,7 +870,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Complex
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte 
 
 **Definitie**
 
@@ -1014,7 +1014,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Kering
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte"
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
  
 
@@ -1057,7 +1057,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Reducering
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte 
 
 **Definitie**
 
@@ -1100,7 +1100,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Afscheiding 
 
-Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse "Functionele ruimte "
+Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte 
 
 
 **Definitie**
