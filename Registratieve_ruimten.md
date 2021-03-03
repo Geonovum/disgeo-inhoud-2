@@ -481,7 +481,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimt
 |Type   |Aard van het object waaraan een openbare ruimte is gerelateerd   |Ja   |
 |Formele naam | Naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit | Ja|
 |Alternatieve naam|Alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries) | Nee|
-|Geometrie   |Geometrische representatie van een openbare ruimte   | Ja (2D vlak)  |
+|Geometrie   |Geometrische representatie van een openbare ruimte zoals opgenomen in een daartoe strekkend gemeentelijk besluit	  | Nee (2D vlak)  |
 |Status   |Fase van de levenscyclus waarin een openbare ruimte zich bevindt    |Ja   |
 
 
