@@ -207,7 +207,7 @@ In de SOR worden geen ondersteunende waterdelen opgenomen zoals in BGT|IMGeo 2.2
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Ondersteunend waterdeel** | oever/slootkant     |                         | infrastructureel waterstaatswerk: oeverzone                                                    |
+| **Ondersteunend waterdeel** | oever/slootkant     |                         |  oeverzone                                                    |
 |                             | slik                |                         | getijdengebied: type slik                                |
 
 
@@ -351,7 +351,7 @@ De andere typen van functionele gebieden (plus classificaties) komen terug in SO
 |                        | Niet BGT | bewoning                                   | *vervalt*                                |
 |                        | Niet BGT | infrastructuur verkeer en vervoer          | *vervalt*                                |
 |                        | Niet BGT | infrastructuur waterstaatswerken           | *vervalt*                                |
-|                        | Niet BGT | waterbergingsgebied                        | Infrastructureel waterstaatswerk: type waterbergingsgebied                             |
+|                        | Niet BGT | waterbergingsgebied                        | waterbergingsgebied                             |
 |                        | Niet BGT | maatschappelijke en/of publieksvoorziening | *vervalt*                                |
 |                        | Niet BGT | recreatie                                  | recreatiezone                                               |
 |                        | Niet BGT | begraafplaats                              | begraafplaats                                           |
