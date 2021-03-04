@@ -46,7 +46,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |---|---|
 |Meer|Watervlakte (meestal zoet) die op natuurlijke wijze dan wel door menselijk ingrijpen (ingraving of afsluiting) is ontstaan|
 |Plas|Waterpartij, ontstaan door de winning van delfstoffen in dagbouw, die in contact staat met de vrije grondwaterspiegel|
-|Ven|Natuurlijk ontstaan meer op heidegrond|
+|Ven|Natuurlijk ontstaan meer op zandgrond|
 |Vijver|Gegraven waterpartij, aangelegd in stedelijke omgeving of in een parklandschap|
 |Zee|Uitgestrekt oppervlak zout water|
 
@@ -118,7 +118,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |---|---|
 | Definitie | Grondwater dat op natuurlijke wijze uit het aardoppervlak tevoorschijn komt|
 |Herkomst definitie    | IMGeo 2.2     |
-|Verplicht    | Ja    |
+|Verplicht    | Nee    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie *waterloop; Type bron*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|    |
 
@@ -1223,7 +1223,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
 |Identificatie     |Unieke aanduiding van een waterstaatkundig kunstwerk|Ja |
-|Geometrie|Geometrische representatie van een waterstaatkundig kunstwerk|Ja (vlak, 2.5D)|
+|Geometrie|Geometrische representatie van een waterstaatkundig kunstwerk|Ja (2.5D vlak)|
 |Type | Aanduiding van het soort waterstaatkundig kunstwerk|Ja|
 |Status     | Fase van de levenscyclus waarin een waterstaatkundig kunstwerk zich bevindt|Ja     |
 
@@ -1247,6 +1247,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 | Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|Ja|
 | Dijklichaam|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|Ja|
 | Gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|Ja|
+| Krib | Kunstmatig lichaam van aarde, steen, turf of rijshout (en tegenwoordig beton of staal), om water te keren of te leiden|Ja|
 | Ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft|Nee|
 | Schot|Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen|Nee|
 | Sluis |Kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt|Ja|
