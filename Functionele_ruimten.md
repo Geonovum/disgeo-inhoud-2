@@ -974,11 +974,11 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### gebruikszone oppervlaktewater
+#### Gebruikszone oppervlaktewater
 
 **Definitie**
 
-| Naam  | gebruikszone oppervlaktewater |
+| Naam  | Gebruikszone oppervlaktewater |
 |---|---|
 | Definitie | Begrensd oppervlaktewatergebied dat een bepaald gebruik kent.|
 |Herkomst definitie  ||
