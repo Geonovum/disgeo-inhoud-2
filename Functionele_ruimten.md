@@ -974,11 +974,11 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Gebruiksgebied oppervlaktewater
+#### Gebruikzone oppervlaktewater
 
 **Definitie**
 
-| Naam  | Gebruiksgebied oppervlaktewater |
+| Naam  | Gebruikzone oppervlaktewater |
 |---|---|
 | Definitie | Begrensd oppervlaktewatergebied dat een bepaald gebruik kent.|
 |Herkomst definitie  ||
@@ -990,10 +990,10 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van een gebruiksgebied oppervlaktewater|Ja |
-|Geometrie|Geometrische representatie van een gebruiksgebied oppervlaktewater|Ja (lijn, 2D-vlak)|
-|Type |Typering van een gebruiksgebied oppervlaktewater |Ja|
-|Status   | De fase van de levenscyclus waarin een gebruiksgebied oppervlaktewater zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een gebruikzone oppervlaktewater|Ja |
+|Geometrie|Geometrische representatie van een gebruikzone oppervlaktewater|Ja (lijn, 2D-vlak)|
+|Type |Typering van een gebruikzone oppervlaktewater |Ja|
+|Status   | De fase van de levenscyclus waarin een gebruikzone oppervlaktewater zich bevindt|Ja   |
 
 **Domeinwaarden**
 
