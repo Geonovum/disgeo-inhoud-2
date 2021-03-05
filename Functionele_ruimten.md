@@ -118,9 +118,10 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 |Waarde Type|	Beschrijving Type| 
 |---|---|
+|Weg	|Voorziening die bestaat uit banen die een functie vervullen ten behoeve van het afwikkelen van het verkeer|
 |Baan	|Aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers|
 |Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan|
-|Weg	|Voorziening die bestaat uit banen die een functie vervullen ten behoeve van het afwikkelen van het verkeer|
+
 
 
 *Type weg*
