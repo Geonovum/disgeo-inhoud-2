@@ -20,9 +20,9 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 | Naam    | Watervlakte    |
 |---|---|
 | Definitie | Een niet langgerekte verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong, die permanent of periodiek water bevat|
-|Herkomst definitie    |     |
+|Herkomst definitie    | gebaseerd op Aquo-standaard    |
 |Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie *watervlakte* en *zee* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie *watervlakte* en *zee* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|    |
 
 **Eigenschappen**
@@ -93,9 +93,9 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |Waarde Type | Beschrijving Type     |
 |---|---|
 |Beek|Natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier|
-|Gracht|Gracht is een gegraven greppel met water, die hoofdzakelijk voorkomt in oude steden|
+|Gracht|Gegraven waterloop die hoofdzakelijk voorkomt in oude steden|
 |Kanaal|Gegraven grote waterloop die dient voor scheepvaart en/of watertransport|
-|Rivier|Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken. Zulk een natuurlijke afvloeiing heet een rivier|
+|Rivier|Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken|
 |Sloot|Waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil|
 
 
@@ -343,7 +343,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 | Naam    | Onbegroeide grond |
 |---|---|
 | Definitie |Oppervlakte waar onbegroeide grond zichtbaar is|
-| Herkomst definitie    | |
+| Herkomst definitie    | Nieuw |
 | Verplicht    | Ja    |
 | Gevolgen afbakening    | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen type onverhard van terreinen in de basisregistratie grootschalige topografie|
 | Toelichting| Onbegroeide grond is grond, die niet bedekt is met enige vorm van begroeiing, constructie, water of verharding.    |
@@ -385,7 +385,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
-|Identificatie     | Unieke aanduiding van fruit- of |Ja |
+|Identificatie     | Unieke aanduiding van fruit- of kweekbomen |Ja |
 |Geometrie| Geometrische representatie van fruit- of kweekbomen|Ja (2,5D vlak)|
 |Type | Typering van fruit- of kweekbomen|Ja|
 |Status     | Fase van de levenscyclus waarin fruit- of kweekbomen zich bevinden|Ja     |
@@ -608,7 +608,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 | Naam    | Tuunwal |
 |---|---|
 | Definitie | Gestapelde grasplaggen op de scheiding tussen twee percelen|
-|Herkomst definitie    | Nieuwe |
+|Herkomst definitie    | Nieuw |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft een nieuw op te nemen objecttype|
 |Toelichting| Tuunwallen wijken duidelijk af van vegetatieve perceelsscheiding (heg, haag, bomenrij en houtsingel) en ook van de verschillende afscheidingen |
@@ -638,9 +638,9 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 | Naam    | Boom |
 |---|---|
 | Definitie | Een overblijvende plant met verhoute stam en kroon|
-|Herkomst definitie    |    |
+|Herkomst definitie    | Wikipedia    |
 |Verplicht    | nee    |
-|Gevolgen afbakening    | nieuw object    |
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie boom zoals deze is opgenomen in de basisregistratie grootschalige topografie    |
 |Toelichting| Boom is opgenomen in het vrijwillige deel van de SOR, omdat verschillende organisaties uiteenlopende belangen hebben bij de registratie van bomen en omdat een eenduidige definitie van een Boom nauwelijks is vast te stellen. |
 
 
@@ -1074,7 +1074,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Verharding
 | Naam    | Verharding |
 |---|---|
 | Definitie |Oppervlak, dat door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakt is, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal|
-|Herkomst definitie    | concept NEN3610-2020    |
+|Herkomst definitie    |  NEN3610   |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier een selectie van de bestaande populatie fysieke voorkomen van *wegdelen*, *ondersteunende wegdelen* en *onbegroeide terreindelen* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting| Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het Type verharding waarmee het vlak overwegend is bedekt|
@@ -1193,7 +1193,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 
 |Waarde Type | Beschrijving Type |
 |---|---|
-| Duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaand, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de waterloop onderbreekt|
+| Duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaat, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de waterloop onderbreekt|
 | Tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren|
 
 *Status* 
@@ -1215,7 +1215,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 | Definitie | Kunstwerk voor de beheersing van het oppervlaktewater en alles wat daarin voorkomt|
 |Herkomst definitie    | nieuw    |
 |Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie kunstwerkdeel zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting| De kerende functie kan worden vastgelegd middels de functionele ruimte    kering    van het type    water    |
 
 **Eigenschappen**
@@ -1245,7 +1245,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 | Bodemval |Sprong in de bodem van een waterloop| Nee|
 | Coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|Nee|
 | Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|Ja|
-| Dijklichaam|Aangelegde waterkering, die het achterliggende land beschermt tegen overstromingen|Ja|
+| Dijklichaam|Aangelegde waterkering van grond, die het achterliggende land beschermt tegen overstromingen|Ja|
 | Gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|Ja|
 | Krib | Kunstmatig lichaam van aarde, steen, turf of rijshout (en tegenwoordig beton of staal), om water te keren of te leiden|Ja|
 | Ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft|Nee|
@@ -1340,7 +1340,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|
 | Definitie |Constructie die een relatief smal, rechtopstaand bouwwerk betreft||Herkomst definitie    |Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie *scheidingen, type muur en type kademuur, en kunstwerkdeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie *scheidingen, type muur en type kademuur, en kunstwerkdeel, type keermuur* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|     |
 
 **Eigenschappen**
@@ -1391,15 +1391,22 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|---|
 |Identificatie     |Unieke aanduiding van een omheining|Ja |
 |Geometrie|Geometrische representatie van een omheining|Ja (2,5D lijn)|
-| Indicatie Valbescherming| Omheining die al dan niet bedoeld is m vallen te voorkomen |	Nee|
+| Indicatie Valbescherming| Omheining die al dan niet bedoeld is om vallen te voorkomen |	Nee|
 |Status     | Fase van de levenscyclus waarin een omheining zich bevindt|Ja     |
+
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort     |Relatierol |Verplicht|
+|---|---|---|
+| heeft mogelijk een functie| afscheiding  | Ja|
+
 
 **Domeinwaarden**
 
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
 
 
 #### Scherm
@@ -1426,6 +1433,12 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Identificatie     |Unieke aanduiding van een scherm|Ja |
 |Geometrie|Geometrische representatie van een scherm|Ja (2,5D lijn)|
 |Status     | Fase van de levenscyclus waarin een scherm zich bevindt|Ja     |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort     |Relatierol |Verplicht|
+|---|---|---|
+| heeft mogelijk een functie| reducering |Ja|
 
 **Domeinwaarden**
 
@@ -1562,7 +1575,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|
 | Definitie | Afsluitende deel van een toegang tot een ingegraven constructie    of netwerk|
 |Herkomst definitie    |     Afgeleid van de definitie van een put in IMGeo 2.2 |
-|Verplicht    | Ja (2,5D punt)    |
+|Verplicht    | Ja     |
 |Gevolgen afbakening    | Het betreft hier een samenvoeging van de bestaande populatie *put* en van een subset van de bestaande populatie *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|    |
 
@@ -1571,7 +1584,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
 |Identificatie     |Unieke aanduiding van een putdeksel|Ja |
-|Geometrie|Geometrische representatie van een putdeksel|Ja (punt, lijn, vlak)|
+|Geometrie|Geometrische representatie van een putdeksel|Ja (2,5D punt)|
 |Status     | Fase van de levenscyclus waarin een putdeksel zich bevindt|Ja     |
 
 **Domeinwaarden**
@@ -1603,7 +1616,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
 |Identificatie     |Unieke aanduiding van een geleider|Ja |
-|Geometrie|Geometrische representatie van de ligging van de geleider|Ja (punt, lijn, vlak)|
+|Geometrie|Geometrische representatie van de ligging van de geleider|Ja (2,5D punt, lijn, vlak)|
 |Status     | Fase van de levenscyclus waarin een geleider zich bevindt|Ja     |
 
 **Domeinwaarden**
@@ -1626,7 +1639,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|
 | Definitie | Constructie die een technisch samenhangend systeem betreft dat een bepaald doel dient|
 |Herkomst definitie    | Gebaseerd op installatie in IMGeo 2.2    |
-|Verplicht    | Afhankelijk van type installatie|
+|Verplicht    | Ja|
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie    *installatie* en onderdelen van de bestaande populaties *paal, kast en overig bouwwerk*    zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|    |
 
@@ -1637,7 +1650,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
 |Identificatie     |Unieke aanduiding van een installatie|Ja |
-|Geometrie|Geometrische representatie van de installatie|Ja (punt, lijn, vlak)|
+|Geometrie|Geometrische representatie van de installatie|Ja (2,5D punt, lijn, vlak)|
 |Type | Aanduiding van het soort installatie|Ja|
 |Status     | Fase van de levenscyclus waarin een installatie zich bevindt|Ja     |
 
@@ -1659,7 +1672,6 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |**verplicht**||
 |Kast|Constructie met een permanent karakter dat dient om iets in te bergen en te beschermen|
 |Sirene|Installatie welke geluiden van variabele toonhoogte kan voortbrengen om de bevolking te waarschuwen voor gevaarlijke situaties|
-|Verkeerslicht|Installatie bedoeld om het verkeer te regelen|
 |Verlichtingsarmatuur|Installatie bedoeld voor verlichten van de openbare ruimte|
 |Windturbine|Turbine waarin winddruk omgezet wordt in mechanische energie|
 |**vrijwillig**||
@@ -1697,7 +1709,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
 |Identificatie     |Unieke aanduiding van een mast|Ja |
-|Geometrie|Geometrische representatie van de mast|Ja (punt, multipunt , lijn, vlak of multivlak )|
+|Geometrie|Geometrische representatie van de mast|Ja (2,5D punt, multipunt , lijn, vlak of multivlak )|
 |Indicatie Open    	|Geeft aan of een mast al dan niet open is|	Ja|
 |Status     | Fase van de levenscyclus waarin een mast zich bevindt|Ja     |
 

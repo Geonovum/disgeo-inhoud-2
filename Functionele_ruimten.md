@@ -41,7 +41,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Wegverkeerruimte
 |---|---|---|
 | ligt aan 1 of meer | gerelateerde wegverbinding(en) |Ja|
 | heeft 0 of 1| openbare ruimte | Ja (indien aanwezig) |
-| ligt op 1 of meer| gerelateerde reële object | Ja |
+| ligt op 1 of meer| gerelateerde reële objecten | Ja (LR,MV) |
 | hyperverbinding | gerelateerde functionele zone | Ja|
 
 Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigenschappen aan het wegennetwerk te relateren.
@@ -106,7 +106,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Wegverkeerruimte
 |---|---|---|
 | hoort bij 1 of 2 | gerelateerde kno(o)p(en) |ja|
 | heeft 0 of meer | gerelateerde openbare ruimte(n)| ja (LR) |
-| ligt op 1 of meer | gerelateerde reële object(en)| ja |
+| ligt op 1 of meer | gerelateerde reële objecten| ja (LR,MV) |
 | hyperverbinding | gerelateerde functionele zone | Ja|
 
 
@@ -228,7 +228,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Spoorverkeerruimte
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een spoorwegknoop|Ja |
 |Geometrie |Geometrische representatie van een spoorwegknoop|Ja (punt)|
-|Type	|Aanduiding van het soort spoor|	Ja|
 |Status   |De fase van de levenscyclus waarin een spoorwegknoop zich bevindt|Ja   |
 
 
@@ -242,12 +241,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Spoorverkeerruimte
 
 **Domeinwaarden**
 
-*Type*
-
-|Waarde Type| Beschrijving Type|
-|---|---|
-|Lokaal spoor	|Gesloten spoornetwerk bedoeld voor en beperkt tot stedelijk/regionaal vervoer van personen|
-|Nationaal spoor	|Landelijk spoornetwerk waarmee (inter-)nationaal vervoer van personen en goederen mogelijk is|
 
 
 
@@ -657,7 +650,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 |---|---|
 | Definitie | Functionele ruimte die in gebruik is voor weginrichting|
 |Herkomst definitie  | nieuw |
-|Verplicht  | Ja (deels)  |
+|Verplicht  | Ja   |
 |Gevolgen afbakening  | Het betreft hier de bestaande populaties van de verschillende type wegzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|  |
 
@@ -670,13 +663,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 |Type | Typering van een wegzones| Ja|
 |Status   |De fase van de levenscyclus waarin een wegzone zich bevindt|Ja   |
 
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|hyperverbinding |wegverbinding |ja|
-|hyperverbinding |wegknoop |ja|
 
 
 **Domeinwaarden**
@@ -721,14 +707,6 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 |Naam|Breed geaccepteerde benaming van een spoorzone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee |
 |Status   |De fase van de levenscyclus waarin een spoorzone zich bevindt|Ja   |
 
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort   |Relatierol |Verplicht|
-|---|---|---|
-|hyperverbinding |wegverbinding |ja|
-|hyperverbinding |spoorverbinding |ja|
-|hyperverbinding |spoorknoop |ja|
 
 
 **Domeinwaarden**
@@ -921,7 +899,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 | Naam  | Oeverzone |
 |---|---|
 | Definitie |Gebied op de grens van water en land waar het dynamisch samenspel van land en water plaatsvindt, lopend van waterpeil tot insteek|
-|Herkomst definitie  ||
+|Herkomst definitie  |nieuw|
 |Verplicht  | Ja |
 |Gevolgen afbakening||
 |Toelichting|   |
@@ -932,7 +910,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een oeverzone|Ja |
 |Geometrie|Geometrische representatie van een oeverzone|Ja (lijn, 2D-vlak)|
-|Type |Typering van een oeverzone |Ja|
 |Status   | De fase van de levenscyclus waarin een oeverzone zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -949,7 +926,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 | Naam  | Waterbergingsgebied |
 |---|---|
 | Definitie | Gebied, niet zijnde een oppervlaktewaterlichaam of onderdeel daarvan, dat dient ter verruiming van de bergingscapaciteit van een of meer watersystemen |
-|Herkomst definitie  ||
+|Herkomst definitie  |Waterwet|
 |Verplicht  | Nee |
 |Gevolgen afbakening||
 |Toelichting|   |
@@ -960,7 +937,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een waterbergingsgebied|Ja |
 |Geometrie|Geometrische representatie van een waterbergingsgebied|Ja (lijn, 2D-vlak)|
-|Type |Typering van een oeverzone |Ja|
 |Status   | De fase van de levenscyclus waarin een waterbergingsgebied zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -980,8 +956,8 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 | Naam  | Gebruikszone oppervlaktewater |
 |---|---|
-| Definitie | Begrensd oppervlaktewatergebied dat een bepaald gebruik kent.|
-|Herkomst definitie  ||
+| Definitie | Begrensd oppervlaktewatergebied dat een bepaald gebruik kent|
+|Herkomst definitie  |nieuw|
 |Verplicht  | Nee |
 |Gevolgen afbakening||
 |Toelichting|   |
@@ -1026,7 +1002,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
 |Gevolgen afbakening|Het betreft hier de bestaande populatie functioneel gebied type kering zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Een waterkerende en / of scheidende, kunstmatige of natuurlijke hoogte of hooggelegen gronden inclusief de daarin aanwezige waterkerende elementen.  |
+|Toelichting| Een waterkerende en/of scheidende, kunstmatige of natuurlijke hoogte of hooggelegen gronden inclusief de daarin aanwezige waterkerende elementen.  |
 
 **Eigenschappen**
 
@@ -1063,7 +1039,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
 | Naam  | Reducering |
 |---|---|
-| Definitie |Functionele ruimte die een voorziening betreft om bepaalde effecten van omgevingsfactoren te verminderen|
+| Definitie | Voorziening om bepaalde effecten van omgevingsfactoren te verminderen|
 |Herkomst definitie  |nieuw|
 |Verplicht  | ja  |
 |Gevolgen afbakening|Het betreft hier de functionele vertaling van de bestaande populatie scheiding type geluidscherm zoals deze is opgenomen in de basisregistratie grootschalige topografie|

@@ -588,6 +588,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimt
 |Status   |Fase van de levenscyclus waarin een benoemde plaats zich bevindt    |Ja  |
 
 
+**Relaties met andere objecttypen** 
+
+|Relatiesoort   |Relatierol |Verplicht|
+|---|---|---|
+|heeft een | Nummeraanduiding |Ja|
+
 
 **Domeinwaarden**
 
