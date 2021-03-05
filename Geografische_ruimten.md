@@ -165,7 +165,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 |Status   |Fase van de levenscyclus waarin een reliëfzone zich bevindt|Ja   |
 
 
-
+ 
 **Domeinwaarden**
 
 *Type* 
@@ -174,10 +174,10 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 |---|---|
 |Grafheuvel|Voorhistorische begraafplaats in de vorm van een heuvel|
 |Holle weg|Weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie|
-|Steile rand|Steile rand in het terrein, ontstaan door het afspoelen van materiaal vanaf een helling|
+|Steilrand|Abrupte scheiding tussen een hooggelegen en laaggelegen gebied in het landschap, al dan niet begroeid, gevormd door diverse geologische en antropogene processen zoals riviererosie, afzettingen, vergraving en bodembewegingen|
 |Terp|Verhoging in het landschap oorspronkelijk bedoelt om de daarop gevestigde bebouwing te beschermen tegen het water| 
 
-
+Toelichting: Een graft en grotere esranden worden opgevat als steilrand. 
 
 *Status*
 

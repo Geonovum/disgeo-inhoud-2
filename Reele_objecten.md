@@ -276,7 +276,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 | Naam    | Struiken |
 |---|---|
-| Definitie |Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten, niet zijnde bomen of bos, niet zijnde gras- en kruidachtigen|     
+| Definitie |Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten|     
 |Herkomst definitie    |    BGT 1.2 |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen *struiken en groenvoorziening*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -529,7 +529,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn of 2,5D vlak)|
 |Status     |    Fase van de levenscyclus waarin een bomenrij zich bevindt|Ja     |
 
-Opmerking: De inwinningsregels van    Bomenrij worden nog verder uitgewerkt. Samenhang en overlap met objecttype Boom is daarbij een aandachtspunt, evenals de relatie met IMBOR en andere sectorale registraties.
+Opmerking: Inwinnings/afbakeningsregels betreffende de geometrie en de relatie en definitie tussen bomen, houtsingel, bomenrij, danwel bos zullen nog duidelijk afgesproken worden.
 
 **Domeinwaarden**
 
@@ -560,7 +560,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Geometrie|Geometrische representatie van een houtsingel|Ja (2,5D lijn)|
 |Status     |    Fase van de levenscyclus waarin een houtsingel zich bevindt|Ja     |
 
-Opmerking: De inwinningsregels van Houtsingel worden nog verder uitgewerkt. Samenhang en overlap met objecttype Boom is daarbij een aandachtspunt, evenals de relatie met IMBOR en andere sectorale registraties.
+Opmerking: Inwinnings/afbakeningsregels betreffende de geometrie en de relatie en definitie tussen bomen, houtsingel, bomenrij, danwel bos zullen nog duidelijk afgesproken worden.
 
 
 **Domeinwaarden**
@@ -592,6 +592,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Geometrie|Geometrische representatie van een haag|Ja (2,5D lijn of 2,5D vlak)|
 |Status     |    Fase van de levenscyclus waarin een haag zich bevindt|Ja     |
 
+Opmerking: Inwinnings/afbakeningsregels betreffende de geometrie en de relatie en definitie tussen bomen, houtsingel, bomenrij, danwel bos zullen nog duidelijk afgesproken worden.
 
 **Domeinwaarden**
 
@@ -652,7 +653,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Geometrie| Geometrische representatie van een boom|Ja (2,5D punt)|
 |Status     | Fase van de levenscyclus waarin een boom zich bevindt|Ja     |
 
-Opmerking: De inwinningsregels van Boom worden nog verder uitgewerkt. Samenhang en overlap met objecttypen die uit één of meerdere bomen zijn opgebouwd, is daarbij een aandachtspunt, evenals de relatie met IMBOR.
+Opmerking: Inwinnings/afbakeningsregels betreffende de geometrie en de relatie en definitie tussen bomen, houtsingel, bomenrij, danwel bos zullen nog duidelijk afgesproken worden.
 
 
 **Domeinwaarden**
@@ -1815,14 +1816,14 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 | Naam    | Onbepaald terrein    |
 |---|---|
-| Definitie | Fysiek begrensd en zichtbaar terrein dat bij een gebouw hoort, dat niet nader wordt ingewonnen en dat bestaat uit een mengvorm van bodem, begroeiing, verharding en/of water|
+| Definitie | Fysiek begrensd en zichtbaar terrein dat bij een gebouw hoort, dat niet verder wordt gedetailleerd in andere reële objecten en dat bestaat uit een mengvorm van bodem, begroeiing, verharding en/of water|
 |Herkomst definitie    | Gebaseerd op definitie van erf in BGT |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| In plaats van onbepaald terrein kan ter plaatse ook de reële topografie wel nader worden ingewonnen (vrijwillig)|
+|Toelichting| Onbepaalde terreinen bevatten reële objecten die buiten de grenzen van het onbepaalde terrein wel worden geregistreerd, maar daarbinnen niet. In de praktijk betreffen dit bijvoorbeeld erven. In de afbaklening van dit object moet een maximale oppervlakte aan deze onbepaalde grond-objecten worden gesteld.|
 
 **Eigenschappen**
-
+ 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
 |Identificatie     |Unieke aanduiding van een onbepaald terrein|Ja |
