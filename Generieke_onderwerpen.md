@@ -18,14 +18,14 @@ In NEN3610 wordt over het ID het volgende gesteld. Binnen de ‘digitale ruimte�
 
 Ontwerpprincipe: 
 
-**De identificatie voor alle objecten is betekenisloos**
+**De objectidentificatie voor alle objecten is betekenisloos**
 
 Van belang is dat de objectidentificatie niet betekenisvol geïnterpreteerd mag worden. 
 
 
 Ontwerpprincipe: 
 
-**De opbouw voor alle objecten is gelijk**
+**De opbouw van de objectidentificatie voor alle objecten is gelijk**
 
 Voor alle objecten in de SOR wordt dezelfde opbouw en toekenning van een objectidentificatie toegepast.
 De opbouw van de identificatiecode wordt op dit moment onderzocht in het externe project Regie Op Bouwgegevens (Unique Object Identifier, UOI). In fase 1 van dit project is een 0.8-versie van de UOI beschreven (
@@ -253,7 +253,7 @@ Uit de SOR worden [informatieproducten](#model-van-begrippen-en-informatieproduc
 
 **cartografisch object** 
 
-Object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie op 1 of meer schaalniveaus en van die visualisatie, hoe lang die visualisatie ook beschikbaar is
+Object wat voor visualisatie (op een of meer schaalniveaus) wordt aangemaakt en in dat kader een tijdelijk karakter heeft, wat verbonden is met die specifieke versie op 1 of meer schaalniveaus en van die visualisatie, hoe lang die visualisatie ook beschikbaar is.
 
 **generaliseren (van data of voor visualisatie)**
 
@@ -295,7 +295,7 @@ Ontwerpprincipe:
 Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie extra handwerk nodig is om het gewenste resultaat te bereiken. Hiermee wordt concreet bedoeld:
 - Dataobjecten moeten op het basisniveau landelijk uniform, homogeen en aaneensluitend zijn
 - Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels, hetgeen leidt tot één consistent systeem met een consistente implementatie
-- Objecten op verschillende relatieve hoogteniveaus moeten goed op elkaar aansluiten waar ze elkaar raken en consistent zijn binnen één specifieke schaal
+- Objecten op verschillende hoogten moeten goed op elkaar aansluiten waar ze elkaar raken en consistent zijn binnen één specifieke schaal
 
 Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, vragen terugmeldingen op gegeneraliseerde cartografische objecten om een specifieke beoordeling (door bijvoorbeeld een behandelaar of door artificiële intelligentie):
 - als de terugmelding de generalisatie betreft hoeft deze niet doorgezet te worden naar de bronhouders van de onderliggende data
@@ -303,7 +303,7 @@ Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, vragen te
 
 #### Lineair referencing
 
-Bij netwerken worden andere benaderingen gekozen voor het bepalen van de positie op een netwerk De Lineair Referencing Methode (LRM) gebruiken we om het lokaliseren van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van het netwerk te verstoren door deze verder op te knippen. Het is dus een methode waarbij administratief wordt aangegeven vanaf waar een verandering geldt: bijvoorbeeld vanaf 200 meter vanaf de start van de verbinding geldt een toegestane snelheid van 70 km/h. Lineair referencing wordt ook door Inspire geadviseerd:
+Bij netwerken worden andere benaderingen gekozen voor het bepalen van de positie op een netwerk De Lineair Referencing Methode (LRM) gebruiken we de locatie van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van het netwerk te verstoren door deze verder op te knippen. Het is dus een methode waarbij administratief wordt aangegeven vanaf waar een verandering geldt: bijvoorbeeld vanaf 200 meter vanaf de start van de verbinding geldt een toegestane snelheid van 70 km/h. Lineair referencing wordt ook door Inspire geadviseerd:
 
 ![requirement inspire](media/inspire_lrm1.png) 
 
@@ -316,7 +316,7 @@ Hierbij is het belangrijk om jezelf te realiseren dat als iets in de werkelijkhe
 
 ### Netwerken
 
-In de samenhangende objectenregistratie worden twee transportnetwerken onderscheiden: wegen en spoor. Netwerken zijn een verdere uitwerking van de virtuele objecten transportvoorzieningen in het basismodel NEN3610. En zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
+In de samenhangende objectenregistratie worden twee transportnetwerken onderscheiden: wegen en spoorwegen. Netwerken zijn een verdere uitwerking van de virtuele objecten transportruimten in het basismodel NEN3610. En zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
 
 De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerken los van elkaar te beschrijven.
 
@@ -333,10 +333,18 @@ Een transportnetwerk beschrijft de functionele inrichting van de reële infrastr
 
 Een netwerk heeft vanuit zichzelf geen geometrie in de fysieke werkelijkheid, voor de beschrijving en positionering van transportnetwerken wordt een geometrie toegevoegd en/of wordt verwezen naar de geometrie van de reële infrastructuur.
 
-Indien een geometrie wordt toegevoegd aan een knoop of verbinding dan ligt deze op het gerelateerde reële object.
+Ontwerpprincipe:
+
+**Knopen en verbindingen bevinden zich binnen de contouren van de bijbehorende reële objecten.**
+
 
 
 #### Detaillering waar nodig
+
+Ontwerpprincipe:
+
+**In de SOR wordt minimaal weg- en baan niveau opgenomen van het wegennetwerk. Strookniveau wordt opgenomen als dit nodig is om het netwerk te kunnen beschrijven.**
+
 Een netwerk is te beschrijven in verschillende niveaus van detail. Of detaillering nodig is hangt van de informatiebehoefte af. De transportnetwerken in de SOR kunnen dus een verschillend detail niveau hebben. Detailniveau van netwerken is niet per definitie hetzelfde als een schaalniveau zoals die gebruikt wordt voor kaarten.
 
 Het detailniveau van een netwerk wordt bepaald door wat nodig is om het netwerk te kunnen beschrijven.
@@ -349,7 +357,7 @@ Ontwerpprincipe:
 **Eigenschappen van verbindingen die niet voor de hele verbinding gelden worden vastgelegd met lineair referencing.**
 
 Eigenschappen kunnen meerdere malen van waarde veranderen langs een verbinding. Bijvoorbeeld als de straatnaam wijzigt bij het passeren van de gemeente- of woonplaatsgrens. Of als de snelheid op een provinciale weg vlak voor een kruising wordt teruggebracht naar 50 km/h. Als er geen dwingende reden is om de structuur van het netwerk te verstoren door een verbinding op te knippen, worden de eigenschappen bij een verbinding vastgelegd met de methode van lineair referencing. Lineair referencing is een methode waarbij administratief wordt aangegeven bij een verbinding waar op de verbinding een verandering van een bepaalde eigenschap plaatsvindt. Bij de beschrijving van de objecten in dit document is dit bij de eigenschap van het kenmerk aangegeven door de afkorting LR.
-Indien een eigenschap meerdere waarden kan bevatten zonder dat er sprake is van een afhankelijkheid van een locatie, dan wordt dit bij de eigenschap aangegeven door de afkorting MV (meervoudig). Bijvoorbeeld als er meerdere soorten modaliteiten zijn toegestaan op een verbinding of knoop.
+Indien een eigenschap meerdere waarden kan bevatten zonder dat er sprake is van een afhankelijkheid van een locatie, dan wordt dit bij de eigenschap aangegeven door de afkorting MV (meervoudig). Bijvoorbeeld als er meerdere routenummers voorkomen op een verbinding.
 
 #### Relaties bij netwerken
 
@@ -361,7 +369,7 @@ Relaties die binnen het netwerk gelegd worden zijn onderdeel van het netwerk. Bi
 
 Er zijn objecten die van belang zijn voor het netwerk maar die niet worden opgenomen als onderdeel van het netwerk. Parkeervakken langs een verbindingen worden wel gerelateerd aan het netwerk omdat dan bekend is bij welke verbinding een parkeervak hoort, maar maken er geen onderdeel uit. Dat wil zeggen dat er geen knoop wordt geïntroduceerd op een parkeervak alsof het een doodlopende weg is.
 
-Binnen netwerk wordt onderscheid gemaakt naar verbindingen tussen knopen en verbindingen waarover een voertuig/weggebruiker/trein zich kan verplaatsen en tussen (netwerk) objecten die een logische samenhang kennen. Deze laatste categorie wordt een hyperverbinding genoemd.
+Binnen een netwerk wordt onderscheid gemaakt naar verbindingen tussen knopen, verbindingen waarover een voertuig/weggebruiker/trein zich kan verplaatsen en verbindingen tussen (netwerk-)objecten die een logische samenhang kennen. Deze laatste categorie verbindingen wordt een hyperverbinding genoemd.
 
 
 
