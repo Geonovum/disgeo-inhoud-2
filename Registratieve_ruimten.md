@@ -498,7 +498,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimt
 | Waarde Type | Beschrijving  Type  |
 |---|---|
 | Waterverbinding |Openbare ruimte die behoort bij één waterverbinding of bij meerdere waterverbindingen met de tussenliggende knopen|
+| Wegknoop | openbare ruimte die behoort bij één wegknoop |
 | Wegverbinding|Openbare ruimte die behoort bij één wegverbinding of bij meerdere wegverbindingen met de tussenliggende knopen|
+
 
 
 De wijze waarop de relatie zal worden gelegd met waterverbindingen zal in een latere fase nog precies worden uitgewerkt
