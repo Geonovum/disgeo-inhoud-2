@@ -911,7 +911,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een oeverzone|Ja |
 |Geometrie|Geometrische representatie van een oeverzone|Ja (lijn, 2D-vlak)|
-|Indicatie natuurvriendelijk oever| Deze overzone is al dan niet een door de mens ingericht gebied langs oppervlaktewater waarbij de ontwikkeling van natuur, landschap en ecologie expliciet wordt gestimuleerd|
+|Indicatie natuurvriendelijke oever| Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlaktewater waarbij de ontwikkeling van natuur, landschap en ecologie expliciet wordt gestimuleerd|
 |Status   | De fase van de levenscyclus waarin een oeverzone zich bevindt|Ja   |
 
 **Domeinwaarden**
