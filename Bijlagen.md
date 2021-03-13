@@ -30,7 +30,7 @@
 - Disgeo rapport SOR werkgroep Water, versie 0.1
 - Notitie uitwerking historiemodel voor SOR, versie 0.6
 - Notitie uitwerking metainformatie voor SOR, v07
-- Notitie uitwerking object identieficatie voor SOR, versie 0.5
+- Notitie uitwerking object identificatie voor SOR, versie 0.5
 - Notitie uitwerking mate van detail voor SOR, versie 0.5
 - Notitie uitwerking maaiveld-opdelend voor SOR, versie 0.1
 - SOR scheidingen versie 0.2

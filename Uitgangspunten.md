@@ -64,19 +64,23 @@ Ontwerpprincipe:
 
 De scope van de samenhangende objectenregistratie is in eerste instantie beperkt tot de bovengrond en de ondergrondse delen van objecttypen die ook in het terrein zichtbaar zijn. Bij dit laatste kan worden gedacht aan de ondergrondse delen van gebouwen en kunstwerken, parkeergarages en metrostations (zoals deze ook opgenomen worden in de BAG). Maar er kan ook worden gedacht aan bakken (zoals de bak waarin het ondergrondse gedeelte van een afvalcontainer zich bevindt). Daarnaast worden enkele objecttypen uit de BGT die daarin op een ander niveau zijn gepositioneerd ook in de scope van de samenhangende objectenregistratie betrokken. Het gaat daarbij met name om tunneldelen (voor spoor- en wegverbindingen) en duikers. Het tweede gedeelte van de formulering richt zich daarop.
 
-Deze afbakening van de scope is een afgeleide van de wens om tot een helder en beheersbaar transitietraject te komen. Het ook opnemen van ondergrondse objecten in de SOR, zoals leidingnetwerken of de verschillende objecttypen die thans worden opgenomen in de Basisregistratie Ondergrond (BRO), zou op dit moment leiden tot een aanzienlijk hogere complexiteit. Ook specifieke ondergrondse objecten als niet gesprongen explosieven, archeologische vindplaatsen en in de grond achtergebleven oude funderingen en wrakken maken geen onderdeel uit van de SOR. Dit neemt niet weg dat opname van ondergrondse objecten in de toekomst niet wordt uitgesloten. Het model van de registratie is zodanig opgezet dat op termijn ook ondergrondse objecten in de registratie kunnen worden opgenomen. Deze opname zou in de loop van de tijd ook gefaseerd kunnen plaatsvinden.
+Deze afbakening van de scope is een afgeleide van de wens om tot een helder en beheersbaar transitietraject te komen. Het ook opnemen van ondergrondse objecten in de SOR, zoals leidingnetwerken of de verschillende objecttypen die thans worden opgenomen in de Basisregistratie Ondergrond (BRO), zou op dit moment leiden tot een aanzienlijk hogere complexiteit. Ook specifieke ondergrondse objecten als niet gesprongen explosieven, archeologische vindplaatsen en in de grond achtergebleven oude funderingen en wrakken maken geen onderdeel uit van de SOR. Dit neemt niet weg dat opname van ondergrondse objecten in de toekomst niet wordt uitgesloten. Het model van de registratie is zodanig opgezet dat op termijn ook ondergrondse objecten in de registratie kunnen worden opgenomen. Deze opname zou in de loop van de tijd ook gefaseerd kunnen plaatsvinden. 
+
+Het opgenomen ontwerpprincipe richt zich dus primair op het realiseren van een praktische scope en niet op een principiële scope.”
 
 #### Grondgebied Nederland
 
 Ontwerpprincipe:
 
-**In de SOR worden uitsluitend objecten opgenomen die gelegen zijn binnen het grondgebied van Nederland.**
+**In de SOR worden uitsluitend objecten opgenomen die gelegen zijn binnen het Europees gedeelte van het grondgebied van Nederland.**
 
 De genoemde scope is met name van belang voor het bepalen van hetgeen voor bepaalde soorten objecten als grondgebiedsdekkend moet worden beschouwd. Hierbij kan er een onderscheid bestaan voor verschillende soorten objecten. 
 
 Op dit moment wordt daarbij primair de lijn gevolgd, zoals deze ook wordt gevolgd in het kader van de BAG en de BGT. Deze beperken zich tot het Europese grondgebied van het Koninkrijk der Nederlanden inclusief de daarbij behorende territoriale wateren. Een uitzondering hierop betreft de exclaves van het Koninkrijk België op het Nederlandse grondgebied (Baarle Hertog). Ook objecten in deze exclaves worden in de samenhangende objectenregistratie opgenomen. De scope van de samenhangende objectenregistratie wordt voor sommige soorten objecten uitgebreid met het continentaal plat. Hierdoor ontstaat de mogelijkheid om zich daar bevindende objecten (zoals windturbines) op te nemen in de registratie.
 
-Op een later moment zal het ministerie van BZK nog een afzonderlijk besluit nemen over de vraag in hoeverre de samenhangende objectenregistratie zich ook zal uitstrekken tot het grondgebied van de bijzondere Nederlandse gemeenten (BES-eilanden) en de andere overzeese koninkrijksdelen. Het informatiemodel zal zodanig moeten worden opgezet dat deze uitbreiding mogelijk is.
+Op een later moment zal het ministerie van BZK nog een afzonderlijk besluit nemen over de vraag in hoeverre de samenhangende objectenregistratie zich ook zal uitstrekken tot het grondgebied van de bijzondere Nederlandse gemeenten (BES-eilanden) en de andere overzeese koninkrijksdelen. Het informatiemodel zal zodanig moeten worden opgezet dat deze uitbreiding mogelijk is. 
+
+Het opgenomen ontwerpprincipe richt zich dus primair op het realiseren van een praktische scope en niet op een principiële scope.”
 
 
 ### Uitgangspunten structuur

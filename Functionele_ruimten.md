@@ -427,7 +427,7 @@ Bij alle andere verblijfsobjecten wordt uitsluitend een nadere typering aangebra
 |     Strandpaviljoen    |     Verstrekken   van bereide maaltijden, snacks en dranken aan gasten voor onmiddellijke   consumptie vanuit een op het strand gelegen voorziening    |
 |     **Industrie**    |          |
 |     Werf    |     Werkplaats   waar schepen worden gebouwd of hersteld    |
-|     **Kunst **   |          |
+|     **Kunst**   |          |
 |     Bioscoop    |     Publieke uitgaansgelegenheid   die speciaal is bedoeld voor het bekijken van films    |
 |     Podiumkunst    |     Publieke   uitgaansgelegenheid bedoeld voor vormen van kunst die uitgevoerd worden op   een podium in de aanwezigheid van publiek    |
 |     Museum    |     Activiteiten   gericht op het bijeenbrengen en (ten minste voor een gedeelte) voortdurend   voor het publiek uitstallen van materiële en immateriële getuigenissen van de   mens en zijn omgeving    |
