@@ -1101,7 +1101,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Verharding
 | Elementenverharding|Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn|
 | Halfverharding|Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond|
 | Kunststofverharding|Verharding bestaande uit een synthetisch vervaardigd materiaal|
-| Onverhard| Verharding met een vorm van natuurlijk fundament en een bovenlaag bestaande uit natuurlijke materialen met een onverhard karakter|
+| Onverhard| Verharding bestaande uit natuurlijke materialen met een onverhard karakter|
 
 *Status* 
 
