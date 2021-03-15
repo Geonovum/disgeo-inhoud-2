@@ -92,6 +92,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Wegverkeerruimte
 |Type strook| Categorisering van de verschillende strooktypes|Nee|  | | x |
 |Routenummer|Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op een wegverbinding mogelijk (MV)|Ja (indien aanwezig)| x |  |  |
 |Afritnummer| Nummer toegekend aan een verbindingsbaan|Ja (indien aanwezig)|  | x |  |
+|Hectometerpunt|Locatieaanduiding op regelmatige afstand langs de wegverbinding |Ja (LR, MV) (indien aanwezig)|  | x |  |
 |Rijrichting| De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/strookverbinding | Ja| x | x | x |
 |Indicatie openbare weg|Deze wegverbinding is al dan niet een openbare weg| Ja (indien aanwezig in wegenlegger) | x | |  |
 |Status   |De fase van de levenscyclus waarin een wegverbinding zich bevindt   |Ja  | x | x | x  |

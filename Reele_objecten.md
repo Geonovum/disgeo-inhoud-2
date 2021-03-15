@@ -202,7 +202,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 | Definitie |Begroeiing die een dusdanige aantal bomen betreft dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen|
 | Herkomst definitie    | Gebaseerd op de definities van bos in de BGT 1.2 en van Griend en Hakhout uit IMGeo 2.2 |
 | Verplicht    | Ja (grotendeels)|
-|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *loofbos, naaldbos en gemengd bos* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie aangevuld met fysiek voorkomen Griend en Hakhout zoals gedefinieerd in IMGeo 2.2 |
+|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *loofbos, naaldbos en gemengd bos en groenvoorziening van type bosplantsoen* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.|
 | Toelichting| De definitie van Bos laat voldoende ruimte voor plaatselijke aanwezigheid van struiken. De combinatie van reëel object Bos en bijvoorbeeld functioneel object Park en/of sectorregistraties (bv IMNA) kan voorzien in informatiebehoefte aan specifieke bostypen zoals 'bosplantsoen'.|
 
 **Eigenschappen**
@@ -220,13 +220,12 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 |Waarde Type | Beschrijving Type    |Verplicht |
 |---|---|---|
-|Bosplantsoen| Opgaande beplanting van houtachtige gewassen die struikvormend en/of boomvormend zijn. De soorten zijn als bosplantsoen opgekweekt en aangeplant. De beplanting kan open of gesloten zijn en bestaat vaak uit inheemse soorten. Onderscheidt zich van heesters omdat de sierkenmerken niet voorop staan.|
 | Gemengd bos | Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen|    Ja|
 | Griend en hakhout	|Terrein begroeid met loofbomen, in een dicht groeiverband die periodiek wordt ingekort| Nee|
 | Loofbos |Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
 | Naaldbos | Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen| Ja|
 
-Toelichting: Nog bekeken wordt hoe bosplantsoen en griend en hakhout als een subtype van loofbos gepositioneerd worden.
+Toelichting: Nog bekeken wordt hoe griend en hakhout als een subtype van loofbos gepositioneerd wordt.
 
 
 *Status* 
