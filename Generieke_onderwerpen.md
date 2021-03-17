@@ -303,7 +303,7 @@ Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, vragen te
 
 #### Lineair referencing
 
-Bij netwerken worden andere benaderingen gekozen voor het bepalen van de positie op een netwerk De Lineair Referencing Methode (LRM) gebruiken we de locatie van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van het netwerk te verstoren door deze verder op te knippen. Het is dus een methode waarbij administratief wordt aangegeven vanaf waar een verandering geldt: bijvoorbeeld vanaf 200 meter vanaf de start van de verbinding geldt een toegestane snelheid van 70 km/h. Lineair referencing wordt ook door Inspire geadviseerd:
+Bij netwerken worden andere benaderingen gekozen voor het bepalen van de positie op een netwerk. De Lineair Referencing Methode (LRM) gebruiken we om de locatie van veranderingen in de verbindingskenmerken vast te leggen als er geen dringende reden is om de structuur van het netwerk te verstoren door deze verder op te knippen. Het is dus een methode waarbij administratief wordt aangegeven vanaf waar een verandering geldt: bijvoorbeeld vanaf 200 meter vanaf de start van de verbinding geldt een toegestane snelheid van 70 km/h. Lineair referencing wordt ook door Inspire geadviseerd:
 
 ![requirement inspire](media/inspire_lrm1.png) 
 
