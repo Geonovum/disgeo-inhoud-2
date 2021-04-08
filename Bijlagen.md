@@ -41,3 +41,7 @@
 - SOR Naamgeving en openbare ruimte, v0.97
 - SOR Ondergrondse delen, v0.3
 
+###  TIJDELIJK - gemelde aanpassingen uit consultatie
+
+- open bouwwerk - gevolgen afbakening  - verwijzing naar BAG verwijderen
+- 
