@@ -45,3 +45,4 @@
 
 - open bouwwerk - gevolgen afbakening  - verwijzing naar BAG verwijderen
 - nieuw in de SOR - reele objecten - verkeerslicht - staat er ten onrechte in
+- GEDAAN aanpassen plaat Overige Constructies
