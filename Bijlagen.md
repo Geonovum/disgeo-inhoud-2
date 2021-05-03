@@ -46,3 +46,4 @@
 - open bouwwerk - gevolgen afbakening  - verwijzing naar BAG verwijderen
 - nieuw in de SOR - reele objecten - verkeerslicht - staat er ten onrechte in
 - GEDAAN aanpassen plaat Overige Constructies
+- Generieke onderwerpen Geometrie - de zin *2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen.* uitbreiden met *waarbij op elke coördinaat (x, y) binnen een 2.5D representatie slechts een enkele hoogte waarde (z) mogelijk is*
