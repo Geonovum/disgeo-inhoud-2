@@ -4,23 +4,25 @@
 
 | Afkorting |   Beschrijving                                                |
 |---|---|
-|DiSGeo     | Doorontwikkeling in Samenhang van de Geo-basisregistraties  |
-|SOR        | Samenhangende ObjectenRegistratie                           |
-|NEN3610    | Basismodel voor geo-informatiemodellen|
+|AHN        | Actueel Hoogtebestand Nederland|
 |BAG        | Basisregistratie Adressen en Gebouwen |
 |BGT        | Basisregistratie Grootschalige Topografie |
-|BRT        | Basisregistratie Topografie  |
-|BRT.next   | nieuwe vorm van Basisregistratie Topografie  |
-|WOZ        | Basisregistratie Waardering Onroerende Zaken  |
 |BOR        | Beheer van de Openbare Ruimte|
-|AHN        | Actueel Hoogtebestand Nederland|
-|PBP        | Plaatsbepalingspunt|
+|BRT        | Basisregistratie Topografie  |
+|BRT.Next   | nieuwe vorm van Basisregistratie Topografie  |
+|CRS        | Coördinaatreferentiesysteem               |
+|DiSGeo     | Doorontwikkeling in Samenhang van de Geo-basisregistraties  |
+|ETRS89     | European Terrestrial Reference System 1989|
 |LoD        | Level of Detail  | 
 |LR         | Lineair Referencing|
-|UOI        | Unieke Object Identificatie|
-|RD         | Coördinatensysteem van de Rijksdriehoeksmeting|
 |NAP        | Normaal Amsterdams Peil|
-|ETRS89     | European Terrestrial Reference System 1989|
+|NEN3610    | Basismodel voor geo-informatiemodellen|
+|PBP        | Plaatsbepalingspunt|
+|RD         | Coördinatensysteem van de Rijksdriehoeksmeting|
+|SOR        | Samenhangende ObjectenRegistratie                           |
+|UOI        | Unieke Object Identificatie|
+|WOZ        | Basisregistratie Waardering Onroerende Zaken  |
+
 
 
 ### Gebruikte werkdocumenten
@@ -43,7 +45,20 @@
 
 ###  TIJDELIJK - gemelde aanpassingen uit consultatie
 
-- open bouwwerk - gevolgen afbakening  - verwijzing naar BAG verwijderen
+**GEDAAN**
+- aanpassen plaat Overige Constructies
+- laatse tekstblok bij lineair referencing verwijderen ('iets in de werkelijkheid')
+- dok - uit reservoir en direct onder overige constructies plaatsen
+- zwembad - uit reservoir en direct onder overige constructries plaatsen
+- opslagtank - definitie uitbreiden met (niet zijnde water)
+- kering type grond hernoemen naar kering type grondkering
+- kering type water hernoemen naar kering type waterkering
+- bij bronverwijzing de link met waardelijst verwijderen
 - nieuw in de SOR - reele objecten - verkeerslicht - staat er ten onrechte in
-- GEDAAN aanpassen plaat Overige Constructies
+- open bouwwerk - gevolgen afbakening  - verwijzing naar BAG verwijderen
 - Generieke onderwerpen Geometrie - de zin *2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen.* uitbreiden met *waarbij op elke coördinaat (x, y) binnen een 2.5D representatie slechts een enkele hoogte waarde (z) mogelijk is*
+- geometrie : bij 2,5D : In de SOR wordt alleen de objectbegrenzing als geometrie opgenomen. Een golvend oppervlak kan in een informatieproduct worden aangeboden door de geometrie van het object in de SOR te combineren met data uit het AHN. 
+
+**TE DOEN**
+- de term 'objecttype'vervangen door 'begrip'
+- reservoir - typering er uit halen

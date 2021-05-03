@@ -1023,8 +1023,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
 |Waarde Type| Beschrijving Type  |
 |---|---|
-|Grond	|voorziening bedoeld om grond te keren|
-|Water	|voorziening bedoeld om water te keren|
+|Grondkering	|voorziening bedoeld om grond te keren|
+|Waterkering	|voorziening bedoeld om water te keren|
 
 
 

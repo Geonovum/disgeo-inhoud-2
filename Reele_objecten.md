@@ -1027,7 +1027,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 | Definitie | Afzonderlijk staande overdekking rustend op een constructie met kolommen met één of meerdere open gevels bedoeld voor het beschutten of stallen van mensen, dieren, objecten en/of voer- en vaartuigen |
 |Herkomst definitie    |Gebaseerd op definities “open loods” en “overkapping” uit de gegevenscatalogus BGT|
 |Verplicht    | Ja |
-|Gevolgen afbakening    |Het betreft hier grotendeels de bestaande populatie open loodsen en overkappingen zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie |
+|Gevolgen afbakening    |Het betreft hier grotendeels de bestaande populatie open loodsen en overkappingen zoals deze is opgenomen in de basisregistratie grootschalige topografie |
 |Toelichting| In een later stadium zullen de inwinregels worden opgesteld die de minimale omvang van de vast te leggen objecten en de eventuele kolommen aangeeft. Ook zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan open bouwwerken moet worden gegeven |
 
 **Eigenschappen**
@@ -1327,130 +1327,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 ### Overige constructies
 
 
-
-#### Muur
-    
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
-
- 
-**Definitie**
-
-| Naam    | Muur |
-|---|---|
-| Definitie |Constructie die een relatief smal, rechtopstaand bouwwerk betreft||Herkomst definitie    |Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
-|Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie *scheidingen, type muur en type kademuur, en kunstwerkdeel, type keermuur* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|     |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-| Identificatie     |Unieke aanduiding van een muur|Ja |
-| Geometrie|Geometrische representatie van een muur|Ja (2,5D lijn) Nee (2,5D vlak)|
-| Indicatie Valbescherming| Muur die al dan niet bedoeld is om vallen te voorkomen |	Nee|
-| Status     | Fase van de levenscyclus waarin een muur zich bevindt|Ja     |
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort     |Relatierol |Verplicht|
-|---|---|---|
-| heeft mogelijk een functie| kering| Ja|
-| heeft mogelijk een functie| afscheiding|Ja|
-
-
- 
-
-#### Omheining
-
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
-
- 
-
-**Definitie**
-
-| Naam    | Omheining |
-|---|---|
-| Definitie | Kunstmatige verticale constructie die bedoeld is om de toegang tot een gebied te weren|
-|Herkomst definitie    |nieuw|
-|Verplicht    | Nee |
-|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie    *scheidingen, Type hek en Type draadraster, faunaraster* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|    |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van een omheining|Ja |
-|Geometrie|Geometrische representatie van een omheining|Ja (2,5D lijn)|
-| Indicatie Valbescherming| Omheining die al dan niet bedoeld is om vallen te voorkomen |	Nee|
-|Status     | Fase van de levenscyclus waarin een omheining zich bevindt|Ja     |
-
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort     |Relatierol |Verplicht|
-|---|---|---|
-| heeft mogelijk een functie| afscheiding  | Ja|
-
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-#### Scherm
-    
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
-
- 
-
-**Definitie**
-
-| Naam    | Scherm |
-|---|---|
-| Definitie |Lineaire constructie specifiek bedoeld om te reduceren|
-|Herkomst definitie    |nieuw|
-|Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie    *scheidingen, Type geluidscherm* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|    |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van een scherm|Ja |
-|Geometrie|Geometrische representatie van een scherm|Ja (2,5D lijn)|
-|Status     | Fase van de levenscyclus waarin een scherm zich bevindt|Ja     |
-
-**Relaties met andere objecttypen** 
-
-|Relatiesoort     |Relatierol |Verplicht|
-|---|---|---|
-| heeft mogelijk een functie| reducering |Ja|
-
-**Domeinwaarden**
-
-
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-
-
 #### Afvalcontainer
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
@@ -1482,117 +1358,35 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-
-
-
-#### Reservoir
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
-
- **Definitie**
-
-| Naam    | Reservoir    |
-|---|---|
-| Definitie | Constructie voor het (tijdelijk) bergen van water|
-|Herkomst definitie    |gebaseerd op IMBOR 2020 |
-|Verplicht    | Nee    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie *overig bouwwerk, type bezinkbak en type bassin* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|    |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van een reservoir|Ja |
-|Geometrie|Geometrische representatie van een reservoir|Ja (2,5D vlak)|
-|Type | Typering van het reservoir |Nee|
-|Status     | Fase van de levenscyclus waarin een reservoir zich bevindt|Ja     |
-
-**Domeinwaarden**
-
-*Type*
-
-|Waarde Type     |Beschrijving  Type   |Verplicht     |
-|---|---|---|
-|Bassin	 |Open reservoir in de vorm van een bekken met een ondoorlaatbare bodem waarin water opgeslagen kan worden| Ja|
-|Bezinkbak	 |Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening | Ja|
-|Dok | Bassin waar schepen kunnen worden geladen of gelost onafhankelijk van het getij| Nee|
-|Zwembad | Bassin openbaar toegankelijk bedoeld om in te zwemmen | Nee|
-
-
-
-
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-
-#### Opslagtank
+#### Dok
+    
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
 
  
-
 **Definitie**
 
-| Naam    | Opslagtank    |
+
+ Naam    | Dok  |
 |---|---|
-| Definitie | Constructie in de vorm van een bovengronds, afgesloten reservoir bestemd is voor gassen, energie of vloeistoffen|
-|Herkomst definitie    | IMGeo 2.2    |
-|Verplicht    | Nee    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie overig bouwwerk, type opslagtank zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|    |
+| Definitie | Bassin waar schepen kunnen worden geladen of gelost onafhankelijk van het getij| 
+| Herkomst definitie| |**nog invullen**|
+|Verplicht    | Nee  |
+|Gevolgen afbakening    |  |
+|Toelichting|     |
 
 **Eigenschappen**
 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
-|Identificatie     |Unieke aanduiding van een opslagtank|Ja |
-|Geometrie|Geometrische representatie van een opslagtank|Ja (2,5D vlak)|
-|Status     | Fase van de levenscyclus waarin een opslagtank zich bevindt|Ja     |
+| Identificatie     |Unieke aanduiding van een dok|Ja |
+| Geometrie|Geometrische representatie van een dok| Ja (2,5D vlak)|
+| Status     | Fase van de levenscyclus waarin een dok zich bevindt|Ja     |
 
-**Domeinwaarden**
 
 *Status* 
 
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-
-
-
-#### Putdeksel
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
-
- 
-
-**Definitie**
-
-| Naam    | Putdeksel    |
-|---|---|
-| Definitie | Afsluitende deel van een toegang tot een ingegraven constructie    of netwerk|
-|Herkomst definitie    |     Afgeleid van de definitie van een put in IMGeo 2.2 |
-|Verplicht    | Ja     |
-|Gevolgen afbakening    | Het betreft hier een samenvoeging van de bestaande populatie *put* en van een subset van de bestaande populatie *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|    |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van een putdeksel|Ja |
-|Geometrie|Geometrische representatie van een putdeksel|Ja (2,5D punt)|
-|Status     | Fase van de levenscyclus waarin een putdeksel zich bevindt|Ja     |
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd.
 
 
 
@@ -1722,6 +1516,123 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
+#### Muur
+    
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
+
+ 
+**Definitie**
+
+| Naam    | Muur |
+|---|---|
+| Definitie |Constructie die een relatief smal, rechtopstaand bouwwerk betreft|
+|Herkomst definitie    |Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
+|Verplicht    | Ja    |
+|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie *scheidingen, type muur en type kademuur, en kunstwerkdeel, type keermuur* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|     |
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+| Identificatie     |Unieke aanduiding van een muur|Ja |
+| Geometrie|Geometrische representatie van een muur|Ja (2,5D lijn) Nee (2,5D vlak)|
+| Indicatie Valbescherming| Muur die al dan niet bedoeld is om vallen te voorkomen |	Nee|
+| Status     | Fase van de levenscyclus waarin een muur zich bevindt|Ja     |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort     |Relatierol |Verplicht|
+|---|---|---|
+| heeft mogelijk een functie| kering| Ja|
+| heeft mogelijk een functie| afscheiding|Ja|
+
+
+
+
+ 
+
+#### Omheining
+
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
+
+ 
+
+**Definitie**
+
+| Naam    | Omheining |
+|---|---|
+| Definitie | Kunstmatige verticale constructie die bedoeld is om de toegang tot een gebied te weren|
+|Herkomst definitie    |nieuw|
+|Verplicht    | Nee |
+|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie    *scheidingen, Type hek en Type draadraster, faunaraster* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|    |
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+|Identificatie     |Unieke aanduiding van een omheining|Ja |
+|Geometrie|Geometrische representatie van een omheining|Ja (2,5D lijn)|
+| Indicatie Valbescherming| Omheining die al dan niet bedoeld is om vallen te voorkomen |	Nee|
+|Status     | Fase van de levenscyclus waarin een omheining zich bevindt|Ja     |
+
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort     |Relatierol |Verplicht|
+|---|---|---|
+| heeft mogelijk een functie| afscheiding  | Ja|
+
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+
+#### Opslagtank
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
+
+ 
+
+**Definitie**
+
+| Naam    | Opslagtank    |
+|---|---|
+| Definitie | Constructie in de vorm van een bovengronds, afgesloten reservoir bestemd is voor gassen, energie of vloeistoffen (niet zijnde water)|
+|Herkomst definitie    | IMGeo 2.2    |
+|Verplicht    | Nee    |
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie overig bouwwerk, type opslagtank zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|    |
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+|Identificatie     |Unieke aanduiding van een opslagtank|Ja |
+|Geometrie|Geometrische representatie van een opslagtank|Ja (2,5D vlak)|
+|Status     | Fase van de levenscyclus waarin een opslagtank zich bevindt|Ja     |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+
 #### Paal
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
@@ -1747,6 +1658,123 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Status     | Fase van de levenscyclus waarin een paal zich bevindt|Ja     |
 
 **Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+
+
+#### Putdeksel
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
+
+ 
+
+**Definitie**
+
+| Naam    | Putdeksel    |
+|---|---|
+| Definitie | Afsluitende deel van een toegang tot een ingegraven constructie    of netwerk|
+|Herkomst definitie    |     Afgeleid van de definitie van een put in IMGeo 2.2 |
+|Verplicht    | Ja     |
+|Gevolgen afbakening    | Het betreft hier een samenvoeging van de bestaande populatie *put* en van een subset van de bestaande populatie *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|    |
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+|Identificatie     |Unieke aanduiding van een putdeksel|Ja |
+|Geometrie|Geometrische representatie van een putdeksel|Ja (2,5D punt)|
+|Status     | Fase van de levenscyclus waarin een putdeksel zich bevindt|Ja     |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+
+
+
+
+#### Reservoir
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
+
+ **Definitie**
+
+| Naam    | Reservoir    |
+|---|---|
+| Definitie | Constructie voor het (tijdelijk) bergen van water|
+|Herkomst definitie    |gebaseerd op IMBOR 2020 |
+|Verplicht    | Nee    |
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie *overig bouwwerk, type bezinkbak en type bassin* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|    |
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+|Identificatie     |Unieke aanduiding van een reservoir|Ja |
+|Geometrie|Geometrische representatie van een reservoir|Ja (2,5D vlak)|
+|Type | Typering van het reservoir |Nee|
+|Status     | Fase van de levenscyclus waarin een reservoir zich bevindt|Ja     |
+
+**Domeinwaarden**
+
+*Type*
+
+|Waarde Type     |Beschrijving  Type   |Verplicht     |
+|---|---|---|
+|Bassin	 |Open reservoir in de vorm van een bekken met een ondoorlaatbare bodem waarin water opgeslagen kan worden| Ja|
+|Bezinkbak	 |Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening | Ja|
+
+
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+
+#### Scherm
+    
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
+
+ 
+
+**Definitie**
+
+| Naam    | Scherm |
+|---|---|
+| Definitie |Lineaire constructie specifiek bedoeld om te reduceren|
+|Herkomst definitie    |nieuw|
+|Verplicht    | Ja    |
+|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie    *scheidingen, Type geluidscherm* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting|    |
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+|Identificatie     |Unieke aanduiding van een scherm|Ja |
+|Geometrie|Geometrische representatie van een scherm|Ja (2,5D lijn)|
+|Status     | Fase van de levenscyclus waarin een scherm zich bevindt|Ja     |
+
+**Relaties met andere objecttypen** 
+
+|Relatiesoort     |Relatierol |Verplicht|
+|---|---|---|
+| heeft mogelijk een functie| reducering |Ja|
+
+**Domeinwaarden**
+
+
 
 *Status* 
 
@@ -1802,6 +1830,39 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
+
+
+
+
+#### Zwembad
+    
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
+
+ 
+**Definitie**
+
+
+ Naam    | Zwembad  |
+|---|---|
+| Definitie | Bassin openbaar toegankelijk bedoeld om in te zwemmen | 
+| Herkomst definitie| |**nog invullen**|
+|Verplicht    | Nee  |
+|Gevolgen afbakening    |  |
+|Toelichting|     |
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+| Identificatie     |Unieke aanduiding van een zwembad|Ja |
+| Geometrie|Geometrische representatie van een zwembad| Ja (2,5D vlak)|
+| Status     | Fase van de levenscyclus waarin een zwembad zich bevindt|Ja     |
+
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd.
 
 
 

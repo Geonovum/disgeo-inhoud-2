@@ -155,7 +155,8 @@ Geometrie wordt hierbij in de SOR vastgelegd als een eigenschap van een object e
 
 Bij het vertalen van de fenomenen in de werkelijkheid naar abstracties in de vorm van begrippen, is vastgesteld dat er vanuit het beoogde gebruik behoefte bestaat om veel fenomenen te beschouwen als volume (3D) of een vlak op hoogte (2,5D). Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in absolute zin in een drie dimensionale ruimte wordt vastgelegd (dus met x,y en z coördinaten voor elk vastgelegd punt in een geometrie). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie. Relatieve hoogteliggingen kunnen zo nodig ten behoeve van informatieproducten worden afgeleid.
 
-2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen. Dit wordt veel gebruikt om de “golvende” vorm van het aardoppervlak vast te leggen.
+2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen waarbij op elke coördinaat (x, y) binnen een 2.5D representatie slechts een enkele hoogte waarde (z) mogelijk is. In de SOR wordt alleen de objectbegrenzing als geometrie opgenomen. 
+Een golvend oppervlak kan in een informatieproduct worden aangeboden door de geometrie van het object in de SOR te combineren met data uit het AHN. 
 
 
 ![terreinmodel](media/terreinmodel.png)
@@ -311,7 +312,6 @@ De volgende figuur laat de werking van linear referencing zien, waarbij het prin
 
 ![lineair referencing](media/inspire_lrm2.png)
 
-Hierbij is het belangrijk om jezelf te realiseren dat als iets in de werkelijkheid zowel een reëel voorkomen als een functie heeft, dat dan de geometrie van het functionele object afgeleid moet worden van het reële (ook als dit via lineair referencing wordt vastgelegd).
 
 
 ### Netwerken
@@ -469,7 +469,7 @@ Naast deze meta-informatie die in het informatiemodel zelf wordt vastgelegd, spe
 #### Registeren metagegevens per object
 Per object worden de volgende metagegevens vastgelegd:
 
--	Bronverwijzing: Bij alle objecten wordt vastgelegd de wijziging op grond waarvan het betreffende object in de registratie is opgenomen (of is beëindigd) aan de hand van een waardelijst. Mogelijk "gebeurtenissen" op deze waardelijst zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.).
+-	Bronverwijzing: Bij alle objecten wordt vastgelegd de wijziging op grond waarvan het betreffende object in de registratie is opgenomen (of is beëindigd). Mogelijke "gebeurtenissen"  zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.).
 
 Afhankelijk van de achtergrond van het opvoeren of beëindigen van een object in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 

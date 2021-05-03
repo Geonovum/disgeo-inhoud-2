@@ -673,7 +673,6 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 - Waterstaatkundig kunstwerk: dijklichaam
 - Waterstaatkundig kunstwerk: stormvloedkering
 - Installatie: sirene
-- Installatie: verkeerslicht
 - Installatie: openbare verlichting
 - Installatie: lift
 - Installatie: oplaadpunt
