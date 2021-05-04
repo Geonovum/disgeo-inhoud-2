@@ -11,9 +11,9 @@ Bij de opbouw van de objectidentificatie worden de volgende Ontwerpprincipes geh
 
 Ontwerpprincipe: 
 
-**De huidige wijze van objectidentificatie van NEN3610 wordt gehanteerd want de SOR conformeert zich aan de NEN3610-norm**
+**De huidige wijze van objectidentificatie van NEN 3610 wordt gehanteerd want de SOR conformeert zich aan de NEN 3610-norm**
 
-In NEN3610 wordt over het ID het volgende gesteld. Binnen de ‘digitale ruimte’ moeten objecten uniek identificeerbaar zijn. De objectidentificatie is de pointer naar het informatie-object. Als men het over het informatie-object met een bepaalde identificatie heeft (of er naar verwijst) dan wil men zeker weten dat daadwerkelijk dat ene object wordt bedoeld en niet dat men er meerdere ‘terugkrijgt’. Belangrijk is ook om duidelijk te hebben wat de ‘digitale ruimte’ is. Er wordt mee bedoeld de ruimte waarin digitale objecten gezamenlijk voor kunnen komen. Dus in principe de ruimte waarin je informatie met elkaar uitwisselt of deelt.
+ NEN 3610 eist dat objecten uniek identificeerbaar zijn. De identificatie is de pointer naar het object. Als men het over het object met een bepaalde identificatie heeft (of er naar verwijst) dan wil men zeker weten dat daadwerkelijk dat ene object wordt bedoeld en niet dat men er meerdere ‘terugkrijgt’. 
 
 
 Ontwerpprincipe: 
@@ -42,7 +42,7 @@ Ontwerpprincipe:
 
 We willen zeker weten dat we in tijd en ruimte het over hetzelfde object in de SOR hebben. De objectidentificatie moet daarom uniek zijn.
 Ontwerpprincipe: een identificatie wordt mondiaal uniek gemaakt door er de landcode aan toe te voegen
-Dit is conform de identificatie in NEN3610.
+Dit is conform de identificatie in NEN 3610.
 
 
 **HANTEERBAARHEID**
@@ -294,13 +294,13 @@ Ontwerpprincipe:
 **De kwaliteit van de objecten en de bijbehorende gegevens worden in die mate geborgd dat geautomatiseerde generalisatie probleemloos kan verlopen**
 
 Als dit principe wordt gevolgd, wordt daarmee voorkomen dat bij generalisatie extra handwerk nodig is om het gewenste resultaat te bereiken. Hiermee wordt concreet bedoeld:
-- Dataobjecten moeten op het basisniveau landelijk uniform, homogeen en aaneensluitend zijn
+- Objecten moeten landelijk uniform, homogeen en een topologsich aaneensluitende geometrie hebben
 - Dit moet nader uitgewerkt worden in de informatiemodellering en in de eisen aan de inwinningsregels, hetgeen leidt tot één consistent systeem met een consistente implementatie
 - Objecten op verschillende hoogten moeten goed op elkaar aansluiten waar ze elkaar raken en consistent zijn binnen één specifieke schaal
 
 Omdat gegeneraliseerde objecten geen deel uit zullen maken van de SOR, vragen terugmeldingen op gegeneraliseerde cartografische objecten om een specifieke beoordeling (door bijvoorbeeld een behandelaar of door artificiële intelligentie):
 - als de terugmelding de generalisatie betreft hoeft deze niet doorgezet te worden naar de bronhouders van de onderliggende data
-- als de terugmelding de data betreft dan moet deze worden doorgezet aan de betrokken bronhouders van de dataobjecten uit de SOR
+- als de terugmelding de data betreft dan moet deze worden doorgezet aan de betrokken bronhouders van de objecten uit de SOR
 
 #### Lineair referencing
 
@@ -316,7 +316,7 @@ De volgende figuur laat de werking van linear referencing zien, waarbij het prin
 
 ### Netwerken
 
-In de samenhangende objectenregistratie worden twee transportnetwerken onderscheiden: wegen en spoorwegen. Netwerken zijn een verdere uitwerking van de virtuele objecten transportruimten in het basismodel NEN3610. En zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
+In de samenhangende objectenregistratie worden twee transportnetwerken onderscheiden: wegen en spoorwegen. Netwerken zijn een verdere uitwerking van de virtuele objecten transportruimten in het basismodel NEN 3610. En zijn in de SOR opgenomen om functionele eigenschappen te kunnen registreren en om als basis kunnen dienen voor routeringsvraagstukken.
 
 De structuur van een netwerk kenmerkt zich door knopen en verbindingen. De wijze van beschrijven van de structuur is voor alle netwerken hetzelfde. In generieke zin zouden alle netwerken als één geheel kunnen worden beschreven. De netwerken zijn immers ook onderling verbonden. Echter de inhoud verschilt dermate dat het vanuit beheer- en bruikbaarheid praktischer is om de netwerken los van elkaar te beschrijven.
 
@@ -473,7 +473,7 @@ Per object worden de volgende metagegevens vastgelegd:
 
 Afhankelijk van de achtergrond van het opvoeren of beëindigen van een object in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 
--	In het kader van de autorisatie kan per object vastgelegd worden wie de verantwoordelijke bronhouder is. Dat kan bijvoorbeeld de aanduiding zijn welke gemeente verantwoordelijk is voor het bijhouden van het betreffende object. Of dit relevant is en op welke wijze de verantwoordelijke bronhouder wordt geregistreerd, wordt gespecificeerd in het informatiemodel. Ook kan er sprake zijn van het vastleggen van specifieke gebruiksautorisaties (bijvoorbeeld specifieke/militaire objecten die niet openbaar zijn). Of dit aan de orde is, wordt ook gespecificeerd in het informatiemodel. 
+-	In het kader van de autorisatie kan per object vastgelegd worden wie de verantwoordelijke bronhouder is. Dat kan bijvoorbeeld de aanduiding zijn welke gemeente verantwoordelijk is voor het bijhouden van het betreffende object. Of dit relevant is en op welke wijze de verantwoordelijke bronhouder wordt geregistreerd, wordt later gespecificeerd. Ook kan er sprake zijn van het vastleggen van specifieke gebruiksautorisaties (bijvoorbeeld specifieke/militaire objecten die niet openbaar zijn). Of dit aan de orde is, wordt later gespecificeerd. 
 
 -	De metagegevens over kwaliteit en status worden in de SOR in beginsel op het niveau van de afzonderlijke attributen vastgelegd. Natuurlijk kunnen deze metagegevens betrekking hebben op alle attributen van het object (bijvoorbeeld het object met alle attributen is voor het laatst op 14-09-2020 gecontroleerd of alle attributen staan in onderzoek in verband met een terugmelding).
 
@@ -487,7 +487,7 @@ Per attribuut worden de volgende metagegevens vastgelegd:
 Afhankelijk van de achtergrond van het opvoeren of wijzigen van een attribuut in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 Bij het attribuut geometrie kan ook sprake zijn van een bronverwijzing naar een plaatsbepalingspunt (zie paragraaf [Meta-gegevens over herkomst en kwaliteit](#meta-gegevens-over-herkomst-en-kwaliteit)).
 
--   In het kader van de autorisatie kan eventueel per attribuut vastgelegd worden wie de verantwoordelijke bronhouder is, wanneer dit een ander is dan de bronhouder voor het object. Of dit relevant is en op welke wijze de verantwoordelijke bronhouder wordt geregistreerd, wordt gespecificeerd in het informatiemodel. Ook kan er sprake zijn van het vastleggen van specifieke gebruiksautorisaties (bijvoorbeeld specifieke attributen die niet openbaar zijn). Of dit aan de orde is, wordt ook gespecificeerd in het informatiemodel.
+-   In het kader van de autorisatie kan eventueel per attribuut vastgelegd worden wie de verantwoordelijke bronhouder is, wanneer dit een ander is dan de bronhouder voor het object. Of dit relevant is en op welke wijze de verantwoordelijke bronhouder wordt geregistreerd, wordt later gespecificeerd. Ook kan er sprake zijn van het vastleggen van specifieke gebruiksautorisaties (bijvoorbeeld specifieke attributen die niet openbaar zijn). Of dit aan de orde is, wordt later gespecificeerd.
 
 Een bijzonder aandachtspunt betreft het vastleggen van de verantwoordelijk bronhouder van geometrie, wanneer dit (vlak)geometrie betreft die (verplicht) aansluit op vlakgeometrie in beheer bij een andere bronhouder. Zie verder paragraaf [Topologie](#topologie).
 	

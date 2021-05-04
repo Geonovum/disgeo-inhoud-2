@@ -149,7 +149,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 
 | Naam  | Reliëfzone |
 |---|---|
-| Definitie | Geografische ruimte die tot doel heeft hoogteverschillen in het landschap te representeren|
+| Definitie | Geografische ruimte die een hoogteverschil in het landschap aanduidt|
 |Herkomst definitie  | Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1) |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de bestaande populatie *reliëf* zoals deze is opgenomen in de basisregistratie  topografie|

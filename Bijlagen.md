@@ -16,7 +16,7 @@
 |LoD        | Level of Detail  | 
 |LR         | Lineair Referencing|
 |NAP        | Normaal Amsterdams Peil|
-|NEN3610    | Basismodel voor geo-informatiemodellen|
+|NEN 3610    | Basismodel voor geo-informatiemodellen|
 |PBP        | Plaatsbepalingspunt|
 |RD         | Coördinatensysteem van de Rijksdriehoeksmeting|
 |SOR        | Samenhangende ObjectenRegistratie                           |
@@ -49,7 +49,7 @@
 - aanpassen plaat Overige Constructies
 - laatse tekstblok bij lineair referencing verwijderen ('iets in de werkelijkheid')
 - dok - uit reservoir en direct onder overige constructies plaatsen
-- zwembad - uit reservoir en direct onder overige constructries plaatsen
+- zwembad - uit reservoir en direct onder overige constructies plaatsen
 - opslagtank - definitie uitbreiden met (niet zijnde water)
 - kering type grond hernoemen naar kering type grondkering
 - kering type water hernoemen naar kering type waterkering
@@ -58,7 +58,14 @@
 - open bouwwerk - gevolgen afbakening  - verwijzing naar BAG verwijderen
 - Generieke onderwerpen Geometrie - de zin *2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen.* uitbreiden met *waarbij op elke coördinaat (x, y) binnen een 2.5D representatie slechts een enkele hoogte waarde (z) mogelijk is*
 - geometrie : bij 2,5D : In de SOR wordt alleen de objectbegrenzing als geometrie opgenomen. Een golvend oppervlak kan in een informatieproduct worden aangeboden door de geometrie van het object in de SOR te combineren met data uit het AHN. 
+- term informatie-object vervangen door object
+- reservoir - typering er uit halen
 
 **TE DOEN**
 - de term 'objecttype'vervangen door 'begrip'
-- reservoir - typering er uit halen
+- bij relaties aangeven dat deze niet uitsluitend zijn. er kunnen relaties voorkomen die niet genoemd zijn. Bv een haag kan een afscheiding zijn maar hoeft niet. 
+- Haag naar functionele zone
+- Houtsingel naar functionele zone
+- bomenrij naar functionele zone
+- Begrip landschapselement laten vervallen, klinkt verwarrend
+- 

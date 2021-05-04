@@ -9,7 +9,7 @@ Het conceptueel model voor de samenhangende objectenregistratie is daarnaast zod
 In de volgende hoofdstukken is daarom telkens aangegeven hoe SOR-begrippen zich verhouden tot de semantische hoofdklassen uit het vernieuwde basismodel geo-informatie. In enkele gevallen betekent dit dat de SOR-begrippen hetzelfde zijn als de semantische hoofdklassen uit het vernieuwde basismodel geo-informatie. In andere gevallen zijn de SOR-begrippen een verbijzondering van deze semantische hoofdklassen. Hierbij is uitgegaan van de versie van het nieuwe basismodel geo-informatie zoals deze in januari 2021 beschikbaar was. Daarin is het volgende semantische model opgenomen:
  
 
-![semantisch model NEN3610](media/Semantisch_model_NEN3610.png)
+![semantisch model NEN 3610](media/Semantisch_model_NEN 3610.png)
 
 
 De verschillende in dit semantische model opgenomen hoofdklassen worden daarbij als volgt gedefinieerd:

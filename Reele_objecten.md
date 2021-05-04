@@ -1721,19 +1721,9 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|---|
 |Identificatie     |Unieke aanduiding van een reservoir|Ja |
 |Geometrie|Geometrische representatie van een reservoir|Ja (2,5D vlak)|
-|Type | Typering van het reservoir |Nee|
 |Status     | Fase van de levenscyclus waarin een reservoir zich bevindt|Ja     |
 
 **Domeinwaarden**
-
-*Type*
-
-|Waarde Type     |Beschrijving  Type   |Verplicht     |
-|---|---|---|
-|Bassin	 |Open reservoir in de vorm van een bekken met een ondoorlaatbare bodem waarin water opgeslagen kan worden| Ja|
-|Bezinkbak	 |Gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening | Ja|
-
-
 
 *Status* 
 
