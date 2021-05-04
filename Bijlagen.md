@@ -64,7 +64,7 @@
 **TE DOEN**
 - de term 'objecttype'vervangen door 'begrip'
 - bij relaties aangeven dat deze niet uitsluitend zijn. er kunnen relaties voorkomen die niet genoemd zijn. Bv een haag kan een afscheiding zijn maar hoeft niet. 
-- Haag naar functionele zone
+- Haag naar kenmer bij sruiken : 'indicatie haagvormend'
 - Houtsingel naar functionele zone
 - bomenrij naar functionele zone
 - Begrip landschapselement laten vervallen, klinkt verwarrend
