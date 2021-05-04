@@ -65,13 +65,20 @@
 - opslagtank - enkele aanpassingen 
 - herdenkingsmonument  - aanpassing
 - onbepaald terrein - enkele aanpassingen 
+- geleider wordt geleideconstructie + toelichting
+- bos - aanpassing
+- Begrip landschapselement naar functionele ruimte
+- Houtsingel naar landschapselement in functionele ruimte
+- bomenrij naar landschapselement in functionele ruimte
+- tuunwal naar landschapselement in functionele ruimte
+- Haag naar kenmerk bij sruiken : 'indicatie haag'
+- bouwland wordt ladbouwgrond
 
 
 **TE DOEN**
 - de term 'objecttype'vervangen door 'begrip'
 - bij relaties aangeven dat deze niet uitsluitend zijn. er kunnen relaties voorkomen die niet genoemd zijn. Bv een haag kan een afscheiding zijn maar hoeft niet. 
-- Haag naar kenmer bij sruiken : 'indicatie haagvormend'
-- Houtsingel naar functionele zone
-- bomenrij naar functionele zone
-- Begrip landschapselement laten vervallen, klinkt verwarrend
+
+
+
 - 

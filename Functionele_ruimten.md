@@ -955,6 +955,8 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Gebruikszone oppervlaktewater
 
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
+
 **Definitie**
 
 | Naam  | Gebruikszone oppervlaktewater |
@@ -983,6 +985,45 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |Vaarwegzone| Begrensd  oppervlaktewatergebied dat gebruikt wordt voor transport middels scheepvaart |Nee|
 |Visserij zone|Begrensd oppervlaktewatergebied dat gebruikt wordt voor professionele visserij  |Nee|
 |Watersport zone| Begrensd oppervlaktewatergebied dat gebruikt wordt voor recreatieve watersport |Nee|
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+
+
+#### Landschapselement
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
+
+**Definitie**
+
+| Naam  | Landschapselement |
+|---|---|
+| Definitie | Een onderdeel van het landschap dat als een vrij homogeen deel van het totale beeld wordt ervaren|
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja |
+|Gevolgen afbakening||
+|Toelichting|   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een landschapselement|Ja |
+|Geometrie|Geometrische representatie van een landschapselement|Ja (2,5D lijn)|
+|Type |Typering van een landschapselement|Nee|
+|Status   | De fase van de levenscyclus waarin een landschapselement zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Type*
+
+|Waarde Type | Beschrijving Type  | 
+|---|---|
+|Houtsingel| Een geheel of gedeeltelijk aan de natuur overgelaten erfafscheiding, vaak ook tussen weilanden en akkers, die kan bestaan uit bomen en-of struiken|
+|Bomenrij|Een geheel of gedeeltelijk aan de natuur overgelaten erfafscheiding, vaak ook tussen weilanden en akkers, die bestaat uit bomen  |Nee|
+|WTuunwal|Gestapelde grasplaggen op de scheiding tussen twee percelen  |Nee|
 
 *Status*
 

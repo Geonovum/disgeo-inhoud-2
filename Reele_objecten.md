@@ -203,7 +203,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 | Herkomst definitie    | Gebaseerd op de definities van bos in de BGT 1.2 en van Griend en Hakhout uit IMGeo 2.2 |
 | Verplicht    | Ja (grotendeels)|
 |Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *loofbos, naaldbos en gemengd bos en groenvoorziening van type bosplantsoen* van *begroeid terreindeel* zoals deze is opgenomen in de basisregistratie grootschalige topografie.|
-| Toelichting| De definitie van Bos laat voldoende ruimte voor plaatselijke aanwezigheid van struiken. De combinatie van reëel object Bos en bijvoorbeeld functioneel object Park en/of sectorregistraties (bv IMNA) kan voorzien in informatiebehoefte aan specifieke bostypen zoals 'bosplantsoen'.|
+| Toelichting| De definitie van Bos laat voldoende ruimte voor plaatselijke aanwezigheid van struiken. |
 
 **Eigenschappen**
 
@@ -287,6 +287,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |---|---|---|
 |Identificatie     | Unieke aanduiding van struiken|Ja |
 |Geometrie| Geometrische representatie van struiken|Ja (2,5D vlak)|
+|Indicatie haag | Geeft aan of struiken als een haag onderhouden worden|Ja|
 |Status     | Fase van de levenscyclus waarin struiken zich bevinden|Ja     |
 
 
@@ -309,21 +310,21 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 **Definitie**
 
-| Naam    | Bouwland    |
+| Naam    | Landbouwgrond    |
 |---|---|
-| Bouwland | Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen|
+| Landbouwgrond | Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen|
 |Herkomst definitie    | Definitie gebaseerd op bouwland in de BGT 1.2 |
 |Verplicht    | ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object    Braakliggend    wordt voor zover het landbouwgrond betreft ook in dit objecttype *Bouwland* opgenomen|
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object    Braakliggend    wordt voor zover het landbouwgrond betreft ook in dit objecttype Landbouwgrond opgenomen|
 |Toelichting| Kan tijdelijk zonder gewas zijn of braak liggen|
 
 **Eigenschappen**
 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
-|Identificatie     | Unieke aanduiding van een bouwland|Ja |
-|Geometrie| Geometrische representatie van bouwland|Ja (2,5D vlak)|
-|Status     | Fase van de levenscyclus waarin een bouwland zich bevindt|Ja     |
+|Identificatie     | Unieke aanduiding van een terrein landbouwgrond|Ja |
+|Geometrie| Geometrische representatie van een terrein landbouwgrond|Ja (2,5D vlak)|
+|Status     | Fase van de levenscyclus waarin een terrein landbouwgrond zich bevindt|Ja     |
 
 **Domeinwaarden**
 
@@ -503,7 +504,6 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Landschapselement
 
 
 **BOMENRIJ**
@@ -537,96 +537,6 @@ Opmerking: Inwinnings/afbakeningsregels betreffende de geometrie en de relatie e
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-**HOUTSINGEL**
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
-
-**Definitie**
-
-| Naam    | Houtsingel |
-|---|---|
-| Definitie |Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken|
-|Herkomst definitie    | BGT 1.2 |
-|Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie *houtwal*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Houtsingel wordt net als Bomenrij en Haag opgenomen vanwege het landschappelijke belang van dit object. Het verschil tussen Houtsingel en Bomenrij is de aanwezigheid van ondergroei van struiken in de Houtsingel en de afwezigheid daarvan in de Bomenrij. Het verschil tussen Houtsingel en Bos is dat de Houtsingel rijvormig is en dus een beperkte breedte heeft, terwijl het Bos breder is. In de specifieke informatiebehoefte aan Houtsingels mét wallichaam kan worden voorzien door de Houtsingel te combineren met gegevens uit AHN. |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van een Houtsingel|Ja |
-|Geometrie|Geometrische representatie van een houtsingel|Ja (2,5D lijn)|
-|Status     |    Fase van de levenscyclus waarin een houtsingel zich bevindt|Ja     |
-
-Opmerking: Inwinnings/afbakeningsregels betreffende de geometrie en de relatie en definitie tussen bomen, houtsingel, bomenrij, danwel bos zullen nog duidelijk afgesproken worden.
-
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-**HAAG**
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
-
-**Definitie**
-
-| Naam    | Haag |
-|---|---|
-| Definitie | Rijvormige afscheiding van beperkte breedte bestaande uit aangeplante aaneengesloten struiken|
-|Herkomst definitie    | BGT 1.2 |
-|Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie *haag*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Haag wordt net als Bomenrij en Houtsingel opgenomen vanwege het landschappelijke belang van dit object. Haag onderscheidt zich van de objecten Houtsingel en Bomenrij door de afwezigheid van bomen. |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van een Haag|Ja |
-|Geometrie|Geometrische representatie van een haag|Ja (2,5D lijn of 2,5D vlak)|
-|Status     |    Fase van de levenscyclus waarin een haag zich bevindt|Ja     |
-
-Opmerking: Inwinnings/afbakeningsregels betreffende de geometrie en de relatie en definitie tussen bomen, houtsingel, bomenrij, danwel bos zullen nog duidelijk afgesproken worden.
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-**TUUNWAL**
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
-
-**Definitie**
-
-| Naam    | Tuunwal |
-|---|---|
-| Definitie | Gestapelde grasplaggen op de scheiding tussen twee percelen|
-|Herkomst definitie    | Nieuw |
-|Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft een nieuw op te nemen objecttype|
-|Toelichting| Tuunwallen wijken duidelijk af van vegetatieve perceelsscheiding (heg, haag, bomenrij en houtsingel) en ook van de verschillende afscheidingen |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van een tuunwal|Ja |
-|Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D vlak)|
-|Status     |    Fase van de levenscyclus waarin een tuunwal zich bevindt|Ja     |
-
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 #### Boom
 
@@ -1383,6 +1293,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 | Geometrie|Geometrische representatie van een dok| Ja (2,5D vlak)|
 | Status     | Fase van de levenscyclus waarin een dok zich bevindt|Ja     |
 
+**Domeinwaarden**
 
 *Status* 
 
@@ -1390,28 +1301,28 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Geleider
+#### Geleideconstructie
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie 
  
 
 **Definitie**
 
-| Naam    | Geleider    |
+| Naam    | Geleideconstructie    |
 |---|---|
 | Definitie | Constructie bedoeld voor de fysieke (be-)geleiding van voer- of vaartuigen|
 |Herkomst definitie    | nieuw |
 |Verplicht    | Nee    |
-|Gevolgen afbakening    | Het betreft hier een samenvoeging van een subset van de bestaande populaties *waterinrichtingselementen* en *weginrichtingselementen* zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening    | Het SOR-begrip geleideconstructie omvat meer dan het gelijknamige BGT|IMGeo objecttype weginrichtingselement; geleideconstructie.|
 |Toelichting|    |
 
 **Eigenschappen**
 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
-|Identificatie     |Unieke aanduiding van een geleider|Ja |
-|Geometrie|Geometrische representatie van de ligging van de geleider|Ja (2,5D punt, lijn, vlak)|
-|Status     | Fase van de levenscyclus waarin een geleider zich bevindt|Ja     |
+|Identificatie     |Unieke aanduiding van een geleideconstructie|Ja |
+|Geometrie|Geometrische representatie van de ligging van de geleideconstructie|Ja (2,5D punt, lijn, vlak)|
+|Status     | Fase van de levenscyclus waarin een geleideconstructie zich bevindt|Ja     |
 
 **Domeinwaarden**
 
@@ -1833,13 +1744,13 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 **Definitie**
 
 
- Naam    | Zwembad  |
+| Naam    | Zwembad  |
 |---|---|
-| Definitie | Constrcutie bedoeld om in te zwemmen | 
+| Definitie | Constructie bedoeld om in te zwemmen | 
 | Herkomst definitie| |nieuw|
-|Verplicht    | Ja  |
-|Gevolgen afbakening    | Het betreft hier deels de bestaande populatie overig bouwwerk type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie |
-|Toelichting|     |
+| Verplicht    | Ja  |
+| Gevolgen afbakening    | Het betreft hier deels de bestaande populatie overig bouwwerk type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie |
+| Toelichting|     |
 
 **Eigenschappen**
 
