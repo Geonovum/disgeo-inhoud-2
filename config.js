@@ -57,7 +57,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown"     
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2021-03-17",  	    // Format is "YYYY-MM-DD"
+  //publishDate: "2021-03-17",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
   github: "https://github.com/geonovum/disgeo-inhoud-2",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
