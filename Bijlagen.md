@@ -60,6 +60,12 @@
 - geometrie : bij 2,5D : In de SOR wordt alleen de objectbegrenzing als geometrie opgenomen. Een golvend oppervlak kan in een informatieproduct worden aangeboden door de geometrie van het object in de SOR te combineren met data uit het AHN. 
 - term informatie-object vervangen door object
 - reservoir - typering er uit halen
+- boom - enkele aanpassingen
+- afvalcontainer - aanpasing
+- opslagtank - enkele aanpassingen 
+- herdenkingsmonument  - aanpassing
+- onbepaald terrein - enkele aanpassingen 
+
 
 **TE DOEN**
 - de term 'objecttype'vervangen door 'begrip'

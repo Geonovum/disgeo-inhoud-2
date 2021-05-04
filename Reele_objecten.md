@@ -639,9 +639,9 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |---|---|
 | Definitie | Een overblijvende plant met verhoute stam en kroon|
 |Herkomst definitie    | Wikipedia    |
-|Verplicht    | nee    |
+|Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie boom zoals deze is opgenomen in de basisregistratie grootschalige topografie    |
-|Toelichting| Boom is opgenomen in het vrijwillige deel van de SOR, omdat verschillende organisaties uiteenlopende belangen hebben bij de registratie van bomen en omdat een eenduidige definitie van een Boom nauwelijks is vast te stellen. |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven welke bomen verplicht in de registratie worden opgenomen |
 
 
 **Eigenschappen**
@@ -1337,7 +1337,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 
 | Naam    | Afvalcontainer    |
 |---|---|
-| Definitie | Constructie met een permanent karakter die dient om iets in te bergen of te verzamelen|
+| Definitie | Constructie met een permanent karakter voor het inzamelen van afval|
 |Herkomst definitie    | Gebaseerd op IMGeo 2.2    |
 |Verplicht    | Nee    |
 |Gevolgen afbakening    | Het betreft hier een subset van de bestaande populatie *bak* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -1369,10 +1369,10 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 
  Naam    | Dok  |
 |---|---|
-| Definitie | Bassin waar schepen kunnen worden geladen of gelost onafhankelijk van het getij| 
-| Herkomst definitie| |**nog invullen**|
-|Verplicht    | Nee  |
-|Gevolgen afbakening    |  |
+| Definitie | Constructie bedoeld om schepen uit het water te halen en vervolgens weer in het water te laten| 
+| Herkomst definitie| |Wikipedia|
+|Verplicht    | Ja  |
+|Gevolgen afbakening    | Het betreft hier deels de bestaande populatie overig bouwwerk type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie |
 |Toelichting|     |
 
 **Eigenschappen**
@@ -1611,9 +1611,9 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 
 | Naam    | Opslagtank    |
 |---|---|
-| Definitie | Constructie in de vorm van een bovengronds, afgesloten reservoir bestemd is voor gassen, energie of vloeistoffen (niet zijnde water)|
+| Definitie | Constructie voor de opslag van vloeistoffen (niet zijnde water), gassen of energie|
 |Herkomst definitie    | IMGeo 2.2    |
-|Verplicht    | Nee    |
+|Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie overig bouwwerk, type opslagtank zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|    |
 
@@ -1808,7 +1808,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Bank 	|Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen)|
 |Fietsen parkeerplaats|	Voorziening in de openbare ruimte voor het stallen van fietsen|
 |Fontein	|Natuurlijke of kunstmatige installatie die water spuit|
-|Herdenkingsmonument	|Langs de weg of elders in het terrein aangelegd object ter herdenking van personen of evenementen|
+|Herdenkingsmonument	|Langs de weg of elders in het terrein aangelegd object ter herdenking van personen of gebeurtenissen|
 |Kunstobject	|Object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt|
 |Openbaar toilet	|Voor mensen bedoeld toilet niet zijnde een gebouw, langs de openbare weg|
 |Picknicktafel	|Tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen)|
@@ -1835,10 +1835,10 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 
  Naam    | Zwembad  |
 |---|---|
-| Definitie | Bassin openbaar toegankelijk bedoeld om in te zwemmen | 
-| Herkomst definitie| |**nog invullen**|
-|Verplicht    | Nee  |
-|Gevolgen afbakening    |  |
+| Definitie | Constrcutie bedoeld om in te zwemmen | 
+| Herkomst definitie| |nieuw|
+|Verplicht    | Ja  |
+|Gevolgen afbakening    | Het betreft hier deels de bestaande populatie overig bouwwerk type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie |
 |Toelichting|     |
 
 **Eigenschappen**
@@ -1866,11 +1866,11 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 | Naam    | Onbepaald terrein    |
 |---|---|
-| Definitie | Fysiek begrensd en zichtbaar terrein dat bij een gebouw hoort, dat niet verder wordt gedetailleerd in andere reële objecten en dat bestaat uit een mengvorm van bodem, begroeiing, verharding en/of water|
+| Definitie | Fysiek begrensd en zichtbaar terrein dat bij een gebouw hoort, dat niet verder wordt gedetailleerd in andere reële objecten en dat bestaat uit een mengvorm van verharding, water, begroeiing en/of constructies|
 |Herkomst definitie    | Gebaseerd op definitie van erf in BGT |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie *Erf* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Onbepaalde terreinen bevatten reële objecten die buiten de grenzen van het onbepaalde terrein wel worden geregistreerd, maar daarbinnen niet. In de praktijk betreffen dit bijvoorbeeld erven. In de afbaklening van dit object moet een maximale oppervlakte aan deze onbepaalde grond-objecten worden gesteld.|
+|Toelichting| In plaats van onbepaald terrein kan ter plaatse ook de reële topografie worden ingewonnen (vrijwillig).|
 
 **Eigenschappen**
  
