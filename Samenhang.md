@@ -28,11 +28,12 @@ De verschillende in dit semantische model opgenomen hoofdklassen worden daarbij 
 |Leiding|	Een geheel van geleiders of ruimte welke voorzien zijn van één ommanteling en bestemd is voor transport van materie, data of energie|
 |**Virtuele ruimte**|	Geo-object waarvan geen tastbaar, zichtbaar en begrensd fenomeen in de werkelijkheid aanwezig is, maar die slechts in abstracte en/of geregistreerde vorm bestaat|
 |Functionele ruimte|	Ruimte met een specifieke functie|
-|Transportruimte|	Natuurlijke of aangelegde transportlijnen of verbindingen met knooppunten waarlangs stromen zich verplaatsen|
-|Wegverkeerruimte|	Transportruimte voor voertuigen die zich over wegen verplaatsen|
-|Scheepvaartruimte|	Transportruimte voor voertuigen die zich over water verplaatsen|
-|Spoorverkeerruimte|	Transportruimte voor voertuigen die zich over rails verplaatsen|
-|Waterruimte	|Transportruimte waardoor water zich verplaatst|
+|Transportruimte|	Natuurlijke of aangelegde transportlijnen of verbindingen met knooppunten waarlangs stromen zich kunnen verplaatsen|
+|Verkeerruimte| Verkeerruimte voor verkeer over land, water of door de lucht|
+|Wegverkeerruimte|	Verkeerruimte voor voertuigen die zich over wegen verplaatsen|
+|Scheepvaartruimte|	Verkeerruimte voor voertuigen die zich over water verplaatsen|
+|Spoorverkeerruimte|	Verkeerruimte voor voertuigen die zich over rails verplaatsen|
+|Waterverplaatsingsruimte	|Transportruimte waardoor water zich verplaatst|
 |Registratieve ruimte|	Op basis van wet- of regelgeving afgebakende ruimte die als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering|
 |Geografische ruimte|	Ruimte die bekend staat onder een vanuit de historie of in in de volksmond bekende benaming of een fysisch-geografische samenhang kent|
 |Juridische ruimte| Ruimte waar een juridisch instrument beleid of regelgeving toepast|

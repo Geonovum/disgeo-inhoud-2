@@ -81,6 +81,7 @@
 - landschapselement  als element er uit sub elementyen naar hoger niveau
 - Berg, Dal en Groeve van landschappelijk gebied naar Reliefzone
 - bomenrij stond er dubbel in, verijderd bij de reele objecten
+- NEN 3610 plaat is geactualiseerd en  bijbehorende teksten in Samenhang en Functionele Ruimten
 
 
 

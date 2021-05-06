@@ -4,7 +4,7 @@
 ### Transportruimten
 
  <div class='note'>
-    Op dit moment zijn de transportruimten WEG en SPOORWEG uitgewerkt. Er is nog onvoldoende duidelijkheid over transport van en over water. Deze zijn in dit document niet opgenomen maar kunnen hier later mogelijk aan worden toegevoegd conform de algemene principes over netwerken.
+    Op dit moment zijn de verkeerruimten Wegverkeerruimte en Spoorverkeerruimte uitgewerkt. Er is nog onvoldoende duidelijkheid over Scheepvaartruimte en Waterverplaatsingsruimte. Deze zijn in dit document niet opgenomen maar kunnen hier later mogelijk aan worden toegevoegd conform de algemene principes over netwerken.
 </div>
 
  
