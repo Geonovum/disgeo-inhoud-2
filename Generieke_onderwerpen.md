@@ -159,8 +159,6 @@ Bij het vertalen van de fenomenen in de werkelijkheid naar abstracties in de vor
 Een golvend oppervlak kan in een informatieproduct worden aangeboden door de geometrie van het object in de SOR te combineren met data uit het AHN. 
 
 
-![terreinmodel](media/terreinmodel.png)
-
 3D geometrie is een uitbreiding op 2,5D geometrie door objecten met volumes vast te leggen. Deze volumes kunnen open of gesloten zijn. Bij open volumes kun je door het volume heen bewegen (bijvoorbeeld een weg door een tunnel).
 De mate waarin er behoefte bestaat fenomenen te beschouwen als 2D, 2,5D of 3D abstracties verschilt voor de in het conceptueel model onderscheiden hoofdtypen (zie voor een uitwerking van deze hoofdtypen de beschrijving in hoofdstuk [samenhang](#samenhang)).
 

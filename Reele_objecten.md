@@ -300,9 +300,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Bouwland
-
-
+#### Landbouwgrond
 
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
@@ -408,11 +406,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-#### Natuurlijk groen 
-
-
-
-**MOERAS**
+#### Moeras
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
@@ -443,7 +437,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-**RIETLAND**
+#### Rietland
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
@@ -473,7 +467,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-**HEIDE**
+#### Heide
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
@@ -481,7 +475,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 | Naam    | Heide |
 |---|---|
-| Definitie | Terrein overwegend begroeid met heide en heideachtige vegetaties|
+| Definitie | Terrein begroeid met heide en heideachtige vegetaties|
 |Herkomst definitie    | BGT 1.2 |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie *heide*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
@@ -503,38 +497,6 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-
-
-
-**BOMENRIJ**
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
-
-**Definitie**
-
-| Naam    | Bomenrij |
-|---|---|
-| Definitie | Opgaande rijvormige begroeiing van bomen zonder ondergroei van struiken|
-|Herkomst definitie    | BGT 1.2 |
-|Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie *bomenrij*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Bomenrij wordt net als Houtsingel en Haag opgenomen vanwege het landschappelijke belang van dit object. Het verschil tussen objecttype Bomenrij en Houtsingel is de aanwezigheid van ondergroei van struiken in de Houtsingel en de afwezigheid daarvan in de Bomenrij. Het verschil tussen Bomenrij en Bos is dat de Bomenrij rijvormig is en dus een beperkte breedte heeft, terwijl het Bos breder is en eventueel ondergroei van struiken bevat. De aan- of afwezigheid van een aarden wal onder de bomenrij is buiten de definitie gelaten. In de specifieke informatiebehoefte aan Bomenrijen mét wallichaam kan worden voorzien door de Bomenrij te combineren met gegevens uit AHN |
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van een bomenrij|Ja |
-|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn of 2,5D vlak)|
-|Status     |    Fase van de levenscyclus waarin een bomenrij zich bevindt|Ja     |
-
-Opmerking: Inwinnings/afbakeningsregels betreffende de geometrie en de relatie en definitie tussen bomen, houtsingel, bomenrij, danwel bos zullen nog duidelijk afgesproken worden.
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 

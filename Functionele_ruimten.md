@@ -992,15 +992,15 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Landschapselement
+#### Houtsingel
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
 
 **Definitie**
 
-| Naam  | Landschapselement |
+| Naam  | Houtsingel |
 |---|---|
-| Definitie | Een onderdeel van het landschap dat als een vrij homogeen deel van het totale beeld wordt ervaren|
+| Definitie |  Een geheel of gedeeltelijk aan de natuur overgelaten erfafscheiding, vaak ook tussen weilanden en akkers, die kan bestaan uit bomen en-of struiken|
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja |
 |Gevolgen afbakening||
@@ -1010,26 +1010,74 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
 
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie   |Unieke aanduiding van een landschapselement|Ja |
-|Geometrie|Geometrische representatie van een landschapselement|Ja (2,5D lijn)|
-|Type |Typering van een landschapselement|Nee|
-|Status   | De fase van de levenscyclus waarin een landschapselement zich bevindt|Ja   |
+|Identificatie   |Unieke aanduiding van een houtsingel|Ja |
+|Geometrie|Geometrische representatie van een Houtsingel|Ja (2,5D lijn)|
+|Status   | De fase van de levenscyclus waarin een Houtsingel zich bevindt|Ja   |
 
 **Domeinwaarden**
-
-*Type*
-
-|Waarde Type | Beschrijving Type  | 
-|---|---|
-|Houtsingel| Een geheel of gedeeltelijk aan de natuur overgelaten erfafscheiding, vaak ook tussen weilanden en akkers, die kan bestaan uit bomen en-of struiken|
-|Bomenrij|Een geheel of gedeeltelijk aan de natuur overgelaten erfafscheiding, vaak ook tussen weilanden en akkers, die bestaat uit bomen  |Nee|
-|WTuunwal|Gestapelde grasplaggen op de scheiding tussen twee percelen  |Nee|
 
 *Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
+#### Bomenrij
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
+
+**Definitie**
+
+| Naam  | Bomenrij |
+|---|---|
+| Definitie | Een geheel of gedeeltelijk aan de natuur overgelaten erfafscheiding, vaak ook tussen weilanden en akkers, die bestaat uit bomen |
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja |
+|Gevolgen afbakening||
+|Toelichting|   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een bomenrij|Ja |
+|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn)|
+|Status   | De fase van de levenscyclus waarin een |Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn)|
+ zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
+#### Tuunwal
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
+
+**Definitie**
+
+| Naam  | Tuunwal |
+|---|---|
+| Definitie | Gestapelde grasplaggen op de scheiding tussen twee percelen |
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja |
+|Gevolgen afbakening||
+|Toelichting|   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een tuunwal|Ja |
+|Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D lijn)|
+|Status   | De fase van de levenscyclus waarin een tuunwal zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
 #### Kering

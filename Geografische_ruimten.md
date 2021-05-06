@@ -101,7 +101,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 |Herkomst definitie  | Gebaseerd op Basisregistratie Topografie: Catalogus en Productspecificaties (versie 1.2.0.1)|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier grotendeels de bestaande populatie *geografische gebieden* zoals deze is opgenomen in de basisregistratie topografie|
-|Toelichting| Het landschappelijk gebied is al dan niet begroeid, bebouwd of bedekt door water of wegen.  |
+|Toelichting| Het landschappelijk gebied is al dan niet begroeid, bebouwd of bedekt door water of wegen, waarbij de typering leidend is |
 
 **Eigenschappen**
 
@@ -121,12 +121,9 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 
 |Waarde Type	|Beschrijving Type |
 |---|---|
-|Berg	|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
 |Bosgebied	|Gebied dat overwegend met bos begroeid is|
-|Dal	|Langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten|
-|Duingebied	|Gebied bestaande uit verhogingen of heuvels van zand of fijne losse aarde opgeworpen door wind. Duingebieden grenzen aan zeestranden. |
+|Duingebied	|Gebied bestaande uit verhogingen of heuvels van zand of fijne losse aarde opgeworpen door wind. Duingebieden grenzen aan zeestranden |
 |Eiland	|Landoppervlak dat aan alle kanten omringd is door water|
-|Groeve	|Opengegraven gebied waaruit een delfstof gewonnen wordt|
 |Heidegebied	|Gebied dat overwegend met heide begroeid is|
 |Polder	|Gebied dat door één of meerdere waterkeringen is omgeven en waarvan de waterstand kunstmatig geregeld kan worden|
 |Strand	|Onbegroeide zandige kustvlakte op de overgang van zee met land en welke onder invloed staat van het zeewater en de wind|
@@ -160,7 +157,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een reliëfzone|Ja |
-|Geometrie   |Geometrische representatie van het reliëfzone bekend is|Ja (2D punt,vlak)  |
+|Geometrie   |Geometrische representatie van het reliëfzone bekend is|Ja (2D punt,lijn,vlak)  |
 |Type |Hoofdkarakter van het reliëfzone|Nee |
 |Status   |Fase van de levenscyclus waarin een reliëfzone zich bevindt|Ja   |
 
@@ -172,8 +169,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 
 | Waarde Type | Beschrijving Type  |
 |---|---|
+|Berg	|Min of meer op zichzelf staande sterke verheffing van het aardoppervlak|
+|Dal	|Langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten|
 |Grafheuvel|Voorhistorische begraafplaats in de vorm van een heuvel|
 |Holle weg|Weg die zo diep is uitgesleten dat hij tussen twee hellingen ligt als gevolg van eeuwenlang gebruik en erosie|
+|Groeve	|Opengegraven gebied waaruit een delfstof gewonnen wordt|
 |Steilrand|Abrupte scheiding tussen een hooggelegen en laaggelegen gebied in het landschap, al dan niet begroeid, gevormd door diverse geologische en antropogene processen zoals riviererosie, afzettingen, vergraving en bodembewegingen|
 |Terp|Verhoging in het landschap oorspronkelijk bedoelt om de daarop gevestigde bebouwing te beschermen tegen het water| 
 

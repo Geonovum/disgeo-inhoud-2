@@ -47,7 +47,7 @@
 
 **GEDAAN**
 - aanpassen plaat Overige Constructies
-- laatse tekstblok bij lineair referencing verwijderen ('iets in de werkelijkheid')
+- laatste tekstblok bij lineair referencing verwijderen ('iets in de werkelijkheid')
 - dok - uit reservoir en direct onder overige constructies plaatsen
 - zwembad - uit reservoir en direct onder overige constructies plaatsen
 - opslagtank - definitie uitbreiden met (niet zijnde water)
@@ -61,23 +61,33 @@
 - term informatie-object vervangen door object
 - reservoir - typering er uit halen
 - boom - enkele aanpassingen
-- afvalcontainer - aanpasing
+- afvalcontainer - aanpassing
 - opslagtank - enkele aanpassingen 
 - herdenkingsmonument  - aanpassing
 - onbepaald terrein - enkele aanpassingen 
 - geleider wordt geleideconstructie + toelichting
 - bos - aanpassing
-- Begrip landschapselement naar functionele ruimte
+- begrip landschapselement naar functionele ruimte
 - Houtsingel naar landschapselement in functionele ruimte
 - bomenrij naar landschapselement in functionele ruimte
 - tuunwal naar landschapselement in functionele ruimte
-- Haag naar kenmerk bij sruiken : 'indicatie haag'
-- bouwland wordt ladbouwgrond
+- haag naar kenmerk bij struiken : 'indicatie haag'
+- bouwland wordt landbouwgrond
+- geometrie - plaat terreinmodel er uit omdat deze onterecht aangeeft dat een golvend oppervlak wordt vastgelegd.
+- reliefzone - geometrie ook lijn toegevoegd
+- landschappelijk gebied - toelichting uitgebreid
+- heide - 'overwegend' uit definitie anders overlap met definitie heidegebied
+- natuurlijk groen als element er uit, sub elementen naar hoger niveau
+- landschapselement  als element er uit sub elementyen naar hoger niveau
+- Berg, Dal en Groeve van landschappelijk gebied naar Reliefzone
+- bomenrij stond er dubbel in, verijderd bij de reele objecten
+
 
 
 **TE DOEN**
 - de term 'objecttype'vervangen door 'begrip'
 - bij relaties aangeven dat deze niet uitsluitend zijn. er kunnen relaties voorkomen die niet genoemd zijn. Bv een haag kan een afscheiding zijn maar hoeft niet. 
+- 
 
 
 
