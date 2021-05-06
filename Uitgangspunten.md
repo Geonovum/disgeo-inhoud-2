@@ -151,7 +151,7 @@ Ontwerpprincipe:
 
 Elk object in de registratie zal altijd moeten worden gekarakteriseerd als een bepaald type object. In het informatiemodel zal daarom moeten worden geborgd dat deze typering is vast te stellen. Dat kan in de verdere uitwerking op twee manieren worden vormgegeven. De eerste manier is via de objecttypenaam. Uit de definitie van het betreffende objecttype volgt dan expliciet wat voor soort object het betreft. Een voorbeeld hiervan zou een objecttype “abri” zijn. Wat voor soort object het betreft kan ook worden vastgelegd door het registreren van een typering als eigenschap van het objecttype. In hetzelfde voorbeeld zou “abri” dan een van de typeringen kunnen zijn die kan worden toegekend aan een objecttype “straatmeubilair”. Op welke wijze typeringen worden opgenomen is afhankelijk van de keuzen die worden gemaakt rondom bepaalde groepen van objecten. In paragraaf [Beschrijvingswijze](#beschrijvingswijze) wordt dit uitgangspunt verder uitgewerkt.
 
-#### Geometrie
+#### Geometrisch
 
 Ontwerpprincipe:
 

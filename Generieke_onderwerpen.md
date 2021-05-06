@@ -176,9 +176,21 @@ Voor functionele ruimten volstaat in de regel een 2D geometrie. Door het leggen 
 
 Ontwerpprincipe:
 
+**Functionele ruimten zijn niet landsdekkend en mogen elkaar overlappen**
+
+Functionele ruimten zijn niet landsdekkend. Dit betekent dat functionele ruimten het grondgebied van Nederland niet voor 100% bedekken. Functionele ruimten die onder een verschillend begrip vallen mogen elkaar overlappen en er mogen gaten voorkomen. 
+
+Ontwerpprincipe:
+
 **De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie**
 
 Voor registratieve en geografische ruimten volstaat op basis van de bekende gebruiksbehoeften een 2D geometrie.
+
+Ontwerpprincipe:
+
+**Geografische ruimten zijn niet landsdekkend en mogen elkaar overlappen**
+
+Geografische ruimten zijn niet landsdekkend. Dit betekent dat geografische ruimten het grondgebied van Nederland niet voor 100% bedekken. Geografische ruimten die onder een verschillend begrip vallen mogen elkaar bovendien overlappen en er mogen gaten voorkomen.
 
 #### Coördinaatreferentiesysteem
 
