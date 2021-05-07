@@ -88,6 +88,7 @@
 - topologie ontwerpprincipe geografische ruimte toegevoegd
 - hst 2 paragraaf geometrie vernoemd in geometrisch omdat paragraaf geometrie ook in hst 3 voorkomt
 - 6.1.1 - netwerkdefinities aangescherpt 
+- oeverzone - enkele aanpassingen
 
 
 
