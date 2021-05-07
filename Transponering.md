@@ -253,7 +253,7 @@ In de SOR worden geen scheidingen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenome
 | **Scheiding** | Type:          |             |  |
 |               | muur           |             | muur                                                       |
 |               | Kademuur       |             | muur                            |
-|               | damwand        |             | muur                            |
+|               | damwand        |             | waterstaatkundig kunstwerk: type damwand        |
 |               | geluidsscherm  |             | scherm                                                     |
 |               | walbescherming |             | waterstaatkundig kunstwerk: type walbescherming                      |
 |               | hek            |             | omheining                                                        |
