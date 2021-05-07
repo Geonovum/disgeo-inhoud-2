@@ -118,78 +118,78 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 
 *Type wegverbinding*
 
-|Waarde Type|	Beschrijving Type| Toelichting |
-|---|---|---|
-|Weg	|Voorziening die bestaat uit banen die een functie vervullen ten behoeve van het afwikkelen van het verkeer|Een (onverharde/verharde) voorziening die bedoeld is voor het afwikkelen van het verkeer. |
-|Baan	|Aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers||
-|Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan||
+|Waarde Type|	Beschrijving Type|
+|---|---|
+|Weg	|Een (onverharde/verharde) voorziening die bedoeld is voor het afwikkelen van het verkeer|
+|Baan	|Aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers|
+|Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan|
 
 
 
 *Type weg*
 
-|Waarde Type	|Beschrijving Type| Toelichting |
-|---|---|===|
-|Autosnelweg|	Conflictvrije weg (ongelijkvloerse kruisingen) aangeduid met bord G1 (RVV) bestemd voor snel gemotoriseerd verkeer||
-|Autoweg	|Weg aangeduid door bord G3 (RVV) die alleen voor snel gemotoriseerd (min 50km/uur) verkeer toegankelijk is||
-|Gebiedsontsluitingsweg gesloten|	Verbindt een auto(snel)weg met een erftoegangsweg waar geen land- en bosbouwverkeer is toegestaan||
-|Gebiedsontsluitingsweg open|	Verbindt een auto(snel)weg met een erftoegangsweg waar wel land- en bosbouwverkeer is toegestaan||
-|Erftoegangsweg|Weg met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en zonder gescheiden fietspaden|erftoegangswegen bieden directe toegang tot verblijfsgebieden op de plaats van herkomst en bestemming. Verblijven staat hier centraal en het autoverkeer dient zich aan te passen (met name door lage rijsnelheden) aan de ‘verblijvers’ zoals fietsers en voetgangers|
-|Fietsstraat|	Straat die ingericht is als fietsroute waar auto’s zijn toegestaan||
-|Fiets/bromfietspad|	Vrij liggend pad (zonder naast/parallel liggende weg) dat voor zowel bromfietsers als fietsers verplicht is|solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G12a (RVV) waar fietsers, snorfietsers en bromfietsers gebruik van dienen te maken.|
-|Fietspad|	Vrij liggend pad (zonder naast/parallel liggende weg) dat is gereserveerd voor het fietsverkeer en snorfietsen|solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G12 of G13 (RVV) waar fietsers en snorfietsers gebruik van dienen te maken (indien aangeduid met bord G12) of waar fietsers gebruik van mogen maken (indien aangeduid met bord G13)|
-|Voetpad|	Ven vrij liggend pad (zonder naast/parallel liggende weg) dat uitsluitend bedoeld is voor voetgangers |solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G7 (RVV) waarvan voetgangers gebruik dienen te maken|
-|Voetgangerszone| Wegverbinding die bedoeld is voor voetgangers met uitzondering van fietsers en bestemmingsverkeer en, tussen bepaalde tijden, andere verkeersgebruikers||
-|Ruiterpad	|Vrij liggend (zonder naast/parallel liggende weg) zandpad waarover ruiters mogen rijden|solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G9 (RVV) waarvan ruiters gebruik dienen te maken|
-|Veerverbinding	|Geregelde verbinding per vaartuig bestemd voor (on)bepaald hoofdverkeersgebruik||
+|Waarde Type	|Beschrijving Type|
+|---|---|
+|Autosnelweg|	Conflictvrije weg (ongelijkvloerse kruisingen) aangeduid met bord G1 (RVV) bestemd voor snel gemotoriseerd verkeer|
+|Autoweg	|Weg aangeduid door bord G3 (RVV) die alleen voor snel gemotoriseerd (min 50km/uur) verkeer toegankelijk is|
+|Gebiedsontsluitingsweg gesloten|	Verbindt een auto(snel)weg met een erftoegangsweg waar geen land- en bosbouwverkeer is toegestaan|
+|Gebiedsontsluitingsweg open|	Verbindt een auto(snel)weg met een erftoegangsweg waar wel land- en bosbouwverkeer is toegestaan|
+|Erftoegangsweg|Weg biedt directe toegang tot verblijfsgebieden op de plaats van herkomst en bestemming. Verblijven staat hier centraal en het autoverkeer dient zich aan te passen (met name door lage rijsnelheden) aan de ‘verblijvers’ zoals fietsers en voetgangers|
+|Fietsstraat|	Straat die ingericht is als fietsroute waar auto’s zijn toegestaan|
+|Fiets/bromfietspad| Solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G12a (RVV) waar fietsers, snorfietsers en bromfietsers gebruik van dienen te maken|
+|Fietspad|Solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G12 of G13 (RVV) waar fietsers en snorfietsers gebruik van dienen te maken (indien aangeduid met bord G12) of waar fietsers gebruik van mogen maken (indien aangeduid met bord G13)|
+|Voetpad|	Solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G7 (RVV) waarvan voetgangers gebruik dienen te maken|
+|Voetgangerszone| Wegverbinding die bedoeld is voor voetgangers met uitzondering van fietsers en bestemmingsverkeer en, tussen bepaalde tijden, andere verkeersgebruikers|
+|Ruiterpad	|Solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G9 (RVV) waarvan ruiters gebruik dienen te maken|
+|Veerverbinding	|Geregelde verbinding per vaartuig bestemd voor (on)bepaald hoofdverkeersgebruik|
 
 Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgangerszone of ruiterpad indien er geen andere baan is die onderdeel uitmaakt van de weg. Het is dus een “vrij liggend” pad.
 
 *Type baan*
 
-|Waarde Type	|Beschrijving Type|Toelichting|
-|---|---|---|
-|Hoofdrijbaan	|Verkeer dragende baan bestemd voor doorgaand verkeer||
-|Busbaan	|Vrij liggende baan bestemd voor autobussen ten behoeve van het openbaar vervoer en andere erop toegelaten motorvoertuigen|Busbaan (letterlijk RVV): rijbaan waarop het woord «BUS» of «LIJNBUS» is aangebracht|
-|Verbindingsbaan	|Verkeer dragende baan die de verbinding verzorgt tussen ongelijkvloers samenkomende wegen of tussen niet samenkomende wegen, en die voorzien is van hectometerborden||
-|Rotondebaan	|Hoofdrijbaan op een rotonde||
-|Verkeerspleinbaan	|Hoofdrijbaan op een verkeersplein	|Hoofdrijbaan op een verkeersplein|
-|Verzorgingsbaan	|Verkeer dragende baan op een parkeer- of verzorgingsplaats voor rustend verkeer||
-|Fietspad	|Baan aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, die is gereserveerd voor het fietsverkeer en snorfietsen|Baan aangeduid door bord G12a (RVV), aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, waar fietsers, snorfietsers en bromfietsers gebruik van dienen te maken|
-|Voetpad	|Baan aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden die bedoeld is voor voetgangers||
-|Ruiterpad	|Speciaal zandpad aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, waarover ruiters kunnen rijden||
-|Fietsveer	|Geregelde verbinding per vaartuig bestemd voor het fietsverkeer en snorfietsen||
-|Voetveer	|Geregelde verbinding per vaartuig bestemd voor voetgangers||
-|Veerverbinding 	|Geregelde verbinding per vaartuig bestemd voor onbepaalde hoofdverkeersgebruik||
+|Waarde Type	|Beschrijving Type|
+|---|---|
+|Hoofdrijbaan	|Verkeer dragende baan bestemd voor doorgaand verkeer|
+|Busbaan	|Rijbaan waarop het woord «BUS» of «LIJNBUS» is aangebracht (herkomst RVV)|
+|Verbindingsbaan	|Verkeer dragende baan die de verbinding verzorgt tussen ongelijkvloers samenkomende wegen of tussen niet samenkomende wegen, en die voorzien is van hectometerborden|
+|Rotondebaan	|Hoofdrijbaan op een rotonde|
+|Verkeerspleinbaan	|Hoofdrijbaan op een verkeersplein	|
+|Verzorgingsbaan	|Verkeer dragende baan op een parkeer- of verzorgingsplaats voor rustend verkeer|
+|Fietspad	|Baan aangeduid door bord G12a (RVV), aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, waar fietsers, snorfietsers en bromfietsers gebruik van dienen te maken|
+|Voetpad	|Baan aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden die bedoeld is voor voetgangers|
+|Ruiterpad	|Speciaal zandpad aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, waarover ruiters kunnen rijden|
+|Fietsveer	|Geregelde verbinding per vaartuig bestemd voor het fietsverkeer en snorfietsen|
+|Voetveer	|Geregelde verbinding per vaartuig bestemd voor voetgangers|
+|Veerverbinding 	|Geregelde verbinding per vaartuig bestemd voor onbepaalde hoofdverkeersgebruik|
 
 *Type strook*
 
-|Waarde Type|Beschrijving Type|Toelichting|
-|---|---|---|
-|Rijstrook |	Strook waar voertuigen over rijden||
-|Vluchtstrook|	Strook langs autosnelwegen waar weggebruikers naar kunnen uitwijken in geval van nood of pech|door een doorgetrokken streep van de rijbaan van de autosnelweg of autoweg afgescheiden weggedeelte, dat bestemd is voor gebruik in noodgevallen, behoudens voor de duur van openstelling als spitsstrook|
-|Spitsstrook |	Extra rijstrook op een rijbaan van een autosnelweg|de vluchtstrook die als rijstrook is aangewezen blijkens bord C23-01. |
-|Redresseerstrook	|Strook langs de buitenste rijstroken van een rijbaan met als doel om uit de koers geraakte voertuigen op te vangen en terug op koers te brengen||
-|Invoegstrook |	Rijstrook die naar de hoofdrijbaan leidt|door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat is bestemd voor bestuurders die de doorgaande rijbaan oprijden;|
-|Uitvoegstrook |	Rijstrook met beperkte lengte waarop bestuurders snelheid kunnen minderen om uit te voegen|door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat is bestemd voor bestuurders die de doorgaande rijbaan verlaten (RVV-uitrijstrook)|
-|Weefstrook |	Combinatie van een invoegstrook en uitvoegstrook|rijstrook die behoort tot die rijstroken rechts van de blokmarkering gelegen in een weefvak (zie blz. 167 Richtlijnen Ontwerp Autosnelwegen|
-|Bufferstrook |	Extra rijstrook die kan worden opengesteld om te voorkomen dat een file vóór een knelpunt zo lang wordt dat hij andere verkeersstromen gaat blokkeren||
-|Plusstrook |	Smalle strook aan de linkerzijde van een rijbaan met dynamische openstelling||
-|Wisselstrook |	Rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting||
-|Passeerstrook|	Lokale wegverbreding op smalle wegen buiten de bebouwde kom waar langzaam verkeer gepasseerd kan worden||
-|Opstelstrook |Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om naar de gewenste richting (linksaf, rechtdoor, rechtsaf) af te slaan||
-|Opstelstrook linksaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om linksaf te slaan||
-|Opstelstrook opgeblazen fietsopstelstrook	|Infrastructurele voorziening nabij kruisingen waar fietsers zich voor het andere verkeer opstellen om linksaf te slaan||
-|Opstelstrook rechtdoor	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtdoor te gaan||
-|Opstelstrook rechtdoor+linksaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om linksaf te slaan of rechtdoor te gaan||
-|Opstelstrook rechtdoor+rechtsaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtsaf te slaan of rechtdoor te gaan||
-|Opstelstrook rechtsaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtsaf te slaan||
-|Vrachtwagenstrook	|Strook specifiek bestemd voor vrachtverkeer en meestal ook bussen||
-|Klimstrook |	Strook waarbij trager rijdend verkeer (zoals vrachtwagens) en het overige sneller rijdende verkeer gescheiden wordt bij het beklimmen van een heuvel of berg||
-|Busstrook	|Strook waar alleen bussen (hulpdiensten en trams) mogen rijden|Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan waarop het woord «BUS» of «LIJNBUS» is aangebracht|
-|Fietsstrook |	Strook die uitsluitend voor fietsers is gereserveerd met fietssymbool|Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan waarop afbeeldingen van een fiets zijn aangebracht;|
-|Fietssuggestiestrook |	Strook die voor fietsers is gereserveerd zonder fietssymbool||
-|Voetgangersstrook	|Strook bestemd voor voetgangers als onderdeel van een baan||
+|Waarde Type|Beschrijving Type|
+|---|---|
+|Rijstrook |	Strook waar voertuigen over rijden|
+|Vluchtstrook|	Door een doorgetrokken streep van de rijbaan van de autosnelweg of autoweg afgescheiden weggedeelte, dat bestemd is voor gebruik in noodgevallen, behoudens voor de duur van openstelling als spitsstrook|
+|Spitsstrook |	Vluchtstrook die als rijstrook is aangewezen blijkens bord C23-01. |
+|Redresseerstrook	|Strook langs de buitenste rijstroken van een rijbaan met als doel om uit de koers geraakte voertuigen op te vangen en terug op koers te brengen|
+|Invoegstrook |Door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat is bestemd voor bestuurders die de doorgaande rijbaan oprijden;|
+|Uitvoegstrook |Door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat is bestemd voor bestuurders die de doorgaande rijbaan verlaten (RVV-uitrijstrook)|
+|Weefstrook |	Rijstrook die behoort tot die rijstroken rechts van de blokmarkering gelegen in een weefvak (zie blz. 167 Richtlijnen Ontwerp Autosnelwegen|
+|Bufferstrook |	Extra rijstrook die kan worden opengesteld om te voorkomen dat een file vóór een knelpunt zo lang wordt dat hij andere verkeersstromen gaat blokkeren|
+|Plusstrook |	Smalle strook aan de linkerzijde van een rijbaan met dynamische openstelling|
+|Wisselstrook |	Rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting|
+|Passeerstrook|	Lokale wegverbreding op smalle wegen buiten de bebouwde kom waar langzaam verkeer gepasseerd kan worden|
+|Opstelstrook |Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om naar de gewenste richting (linksaf, rechtdoor, rechtsaf) af te slaan|
+|Opstelstrook linksaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om linksaf te slaan|
+|Opstelstrook opgeblazen fietsopstelstrook	|Infrastructurele voorziening nabij kruisingen waar fietsers zich voor het andere verkeer opstellen om linksaf te slaan|
+|Opstelstrook rechtdoor	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtdoor te gaan|
+|Opstelstrook rechtdoor+linksaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om linksaf te slaan of rechtdoor te gaan|
+|Opstelstrook rechtdoor+rechtsaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtsaf te slaan of rechtdoor te gaan|
+|Opstelstrook rechtsaf	|Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtsaf te slaan|
+|Vrachtwagenstrook	|Strook specifiek bestemd voor vrachtverkeer en meestal ook bussen|
+|Klimstrook |	Strook waarbij trager rijdend verkeer (zoals vrachtwagens) en het overige sneller rijdende verkeer gescheiden wordt bij het beklimmen van een heuvel of berg|
+|Busstrook	|Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan waarop het woord «BUS» of «LIJNBUS» is aangebracht|
+|Fietsstrook |	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan waarop afbeeldingen van een fiets zijn aangebracht|
+|Fietssuggestiestrook |	Strook die voor fietsers is gereserveerd zonder fietssymbool|
+|Voetgangersstrook	|Strook bestemd voor voetgangers als onderdeel van een baan|
 
 
 *Type rijrichting*

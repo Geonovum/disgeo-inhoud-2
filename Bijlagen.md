@@ -84,9 +84,10 @@
 - NEN 3610 plaat is geactualiseerd en  bijbehorende teksten in Samenhang en Functionele Ruimten
 - plaat groen is geactualiseerd
 - 6.1.1 tabellen wegverbininig uitgebreid met toelichting
-- topologie ontwerpprinicpe functionele ruimte toegevoegd
-- topologie ontwerpprinciepe geografische ruimte toegevoegd
-- hst 2 paragraaf geoemtrie vernoemd in geometrisch omdat paragraaf geometrie ook in hst 3 voorkomt
+- topologie ontwerpprincipe functionele ruimte toegevoegd
+- topologie ontwerpprincipe geografische ruimte toegevoegd
+- hst 2 paragraaf geometrie vernoemd in geometrisch omdat paragraaf geometrie ook in hst 3 voorkomt
+- 6.1.1 - netwerkdefinities aangescherpt 
 
 
 
