@@ -149,8 +149,11 @@ Geometrie wordt hierbij in de SOR vastgelegd als een eigenschap van een object e
 
 Bij het vertalen van de fenomenen in de werkelijkheid naar abstracties in de vorm van begrippen, is vastgesteld dat er vanuit het beoogde gebruik behoefte bestaat om veel fenomenen te beschouwen als volume (3D) of een vlak op hoogte (2,5D). Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in absolute zin in een drie dimensionale ruimte wordt vastgelegd (dus met x,y en z coördinaten voor elk vastgelegd punt in een geometrie). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie. Relatieve hoogteliggingen kunnen zo nodig ten behoeve van informatieproducten worden afgeleid.
 
-2,5D geometrie is een uitbreiding op 2D geometrie door aan elke coördinaat een hoogte (z-waarde) toe te voegen waarbij op elke coördinaat (x, y) binnen een 2.5D representatie slechts een enkele hoogte waarde (z) mogelijk is. In de SOR wordt alleen de objectbegrenzing als geometrie opgenomen. 
-Een golvend oppervlak kan in een informatieproduct worden aangeboden door de geometrie van het object in de SOR te combineren met data uit het AHN. 
+2,5D geometrie is een uitbreiding op 2D geometrie door aan elke vastgelegde coördinaat een absolute hoogte (z-waarde) toe te voegen waarbij op elke coördinaat (x, y) binnen een 2.5D representatie slechts een enkele hoogte waarde (z) mogelijk is. 
+In het vervolgtraject wordt nader uitgewerkt hoe een golvend oppervlak wordt opgebouwd.
+
+
+![terreinmodel](media/terreinmodel.png)
 
 
 3D geometrie is een uitbreiding op 2,5D geometrie door objecten met volumes vast te leggen. Deze volumes kunnen open of gesloten zijn. Bij open volumes kun je door het volume heen bewegen (bijvoorbeeld een weg door een tunnel).
