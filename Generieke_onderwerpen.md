@@ -2,7 +2,7 @@
  
 ### Identificatie van objecten
 
-Aan elk object wordt een uniek objectnummer (objectidentificatie, afgekort als **UOI**) toegekend. Zolang het object bestaat, mag deze identificatie niet veranderen. De objectidentificatie moet uniek, betekenisloos, permanent en overal geldig (systeemonafhankelijk) zijn. 
+Aan elk object wordt een uniek objectnummer (objectidentificatie) toegekend. Zolang het object bestaat, mag deze identificatie niet veranderen. De objectidentificatie moet uniek, betekenisloos, permanent en overal geldig (systeemonafhankelijk) zijn. 
 
  
 
@@ -57,7 +57,7 @@ De objectidentificatie van de SOR is bedoeld om in het kader van interoperabilit
 
 Ontwerpprincipe: 
 
-**Een objectidentificatie van de SOR kent een functionele versie**
+**De SOR kent een functionele objectidentificatie**
 
 De SOR kent een functionele objectidentificatie. De functionele objectidentificatie is systeem (implementatie) onafhankelijk. 
 
@@ -133,12 +133,6 @@ Ontwerpprincipe:
 **Een objectidentificatie wordt toegekend aan een object in de SOR zodra er voor het eerst in de SOR iets over dit object wordt geregistreerd**
 
 Vanwege de eis van persistentie moet de uitgifte van de objectidentificatie direct worden gedaan bij welke registratie van een gegeven en welk moment in de tijdslijn van een object dan ook.
-
-Ontwerpprincipe: 
-
-**Indien uitgifte van de identificatie aan een object eerder plaats vindt dan het object in de SOR ontstaat neemt de SOR deze identificatie over**
-
-Een object kan eerder ontstaan (bijvoorbeeld in een sectorregistratie) dan in de SOR. Een object krijgt daar een unieke sectorregistratie-identificatie. Indien een UOI-codestelsel (unique object identifier) in Nederland ingevoerd wordt krijgt dit object mogelijk wel bij ontstaan direct een UOI mee. Indien dit object, voorzien van een UOI, wordt aangeboden aan de SOR, wordt deze UOI-identificatie in de SOR overgenomen. Indien er geen sprake is van een UOI-code stelsel in Nederland, krijgt het object pas in de SOR een unieke objectidentificatie. Om interoperabiliteit te borgen zal de sector op hetzelfde object ook de identificatie van het object in de SOR op moeten nemen. 
 
 
 ### Aspecten van geometrie
@@ -607,7 +601,7 @@ Deze keuze betekent een wijziging in de wijze van vastlegging van tijdlijnen voo
 BeginGeldigheid en ook eindGeldigheid kunnen in de toekomst liggen. Hiervoor gelden geen formele beperkingen. Natuurlijk is van de aard van de gebeurtenis afhankelijk of inderdaad een toekomstmutatie voorzien kan worden en met welke nauwkeurigheid deze voorzien kan worden. Wanneer iemand een bouwvergunning krijgt, kan voorzien worden dat dit object in de toekomst ook gerealiseerd zal worden. De datum vanaf wanneer daadwerkelijk sprake zal zijn van een "bestaand object" kan echter niet exact voorzien worden. Een inschatting van deze datum zal de basis vormen voor de tijdlijn geldigheid in de toekomst. Een besluit om met ingang van een bepaalde datum een straatnaam te wijzigen kan wel met een exacte in de toekomst gelegen datum worden geregistreerd. Wij gaan ervan uit dat er adequate voorzieningen worden gerealiseerd die bronhouders ondersteunen om te voorkomen dat voorziene wijzigingen in de toekomst ineens als de bestaande realiteit worden gezien, uitsluitend door verloop van de tijd.
 Deze voorziening kan bijvoorbeeld bestaan uit een overzicht van de wijzigingen die in de loop van de komende week/maand de "actuele" situatie gaan worden, omdat de geregistreerde beginGeldigheid ligt in die periode van een week/maand. De bronhouder kan dan of de geregistreerde beginGeldigheid naar verder in de toekomst schuiven op basis van een nadere inschatting van het moment van realiseren of kan constateren dat inderdaad in die periode sprake is van een zodanige wijziging in de "werkelijkheid" dat de geregistreerde "toekomstmutatie" inderdaad in die periode de "werkelijkheid" wordt.
 
-Bij de registratie zijn toekomstmutaties mogelijk. Maar het registreren van toekomstmutaties is niet "de regel". Veel mutaties in de SOR worden aangebracht op basis van "constateringen" en deze worden dan dus vastgelegd met een beginGeldigheid in het verleden, bijvoorbeeld de datum van de luchtfoto waaraan de constatering wordt ontleend.
+Bij de registratie zijn toekomstmutaties mogelijk. Maar het registreren van toekomstmutaties is niet "de regel". Veel mutaties in de SOR worden aangebracht op basis van "constateringen" en deze worden dan dus vastgelegd met een beginGeldigheid in het verleden, bijvoorbeeld de datum van de luchtfoto waaraan de constatering wordt ontleend. Bij de verdere uitwerking in registratievoorschriften zal nog worden bepaald in welke gevallen en op welke wijze toekomstige gegevens zullen worden opgenomen.
 
 #### Levensduur
 Hoewel het vastleggen van de levensduur van een object (ingangsdatumObject en einddatumObject) redundant is, omdat deze levensduur altijd afgeleid kan worden uit de tijdlijn geldigheid, wordt in het historiemodel ervan uit gegaan dat de levensduur afzonderlijk wordt geregistreerd. De ingangsdatumObject zal gelijk zijn aan de oudste beginGeldigheid voor een status "bestaand/geldig" van het betreffende object. Een gebruiker kan deze ingangsdatumObject eventueel zelf afleiden uit de tijdlijn geldigheid, maar er wordt voor gekozen om, parallel aan de registratie van geboortedatum en overlijdensdatum bij personen, de ingangsdatumObject en einddatumObject wel afzonderlijk in de registratie (of in ieder geval in de informatieproducten) op te nemen.
@@ -645,7 +639,7 @@ Op 15-2-2022 worden er luchtfoto's gevlogen die in maart worden uitgewerkt. De g
 Om het tijdreizen voor alle gebruikers begrijpelijk en ook flexibel te maken, wordt in de samenhangende objectenregistratie ook gewerkt met levensfasen (statussen) van objecten. Dit heeft te maken met het feit dat bij het tijdreizen in de registratie niet alle gebruikers dezelfde wensen hebben. Bij bijvoorbeeld het raadplegen van de "actuele" situatie in het kader van calamiteiten is alleen relevant wat er ook daadwerkelijk aan objecten aanwezig is (inclusief objecten "In aanbouw"). Maar voor andere werkprocessen zoals vergunningverlening zal men ook willen zien welke objecten in ontwerp of planning zijn.
 
 
-Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo’n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In de samenhangende objectenregistratie komen vier soorten objecttypen voor: reële objecttypen, functionele ruimten, registratieve ruimten en geografische ruimten. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen. Voor de meeste objecttypen van een bepaald soort objecttype zullen de statussen die het object in principe kan aannemen dan ook allemaal gelijk zijn, omdat deze in de regel voortvloeien uit de aard van het soort objecttype. Zo kan een object dat administratief wordt gevormd nooit een status “in aanbouw” kennen. Genuanceerde verschillen worden daarbij niet doorvertaald naar specifieke benamingen van statussen. Voor elk specifiek objecttype moet in de verdere uitwerking van de registratieregels later worden bepaald welke (combinatie van) statuswaarden een verplicht karakter hebben en hoe de statuswaarden moeten worden toegepast.
+Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo’n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In de samenhangende objectenregistratie komen vier soorten objecttypen voor: reële objecttypen, functionele ruimten, registratieve ruimten en geografische ruimten. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen. Voor de meeste objecttypen van een bepaald soort objecttype zullen de statussen die het object in principe kan aannemen dan ook allemaal gelijk zijn, omdat deze in de regel voortvloeien uit de aard van het soort objecttype. Zo kan een object dat administratief wordt gevormd nooit een status “in aanbouw” kennen. Genuanceerde verschillen worden daarbij niet doorvertaald naar specifieke benamingen van statussen. Voor elk specifiek objecttype moet in de verdere uitwerking van de registratieregels later worden bepaald welke (combinatie van) statuswaarden een verplicht karakter hebben en hoe de statuswaarden moeten worden toegepast. Dat betekent dat niet alle statuswaarden bij alle objecttypen zullen worden toegepast.
 
 De levensfase waarin een object zich bevindt kan op twee manieren worden bezien. De eerste is door als de levensfase van een object te zien de feitelijke status van het object in de “echte” werkelijkheid. De tweede manier is de levensfase te beschouwen als de status die het object volgens de bronhouder heeft (gebaseerd op verzamelde informatie vanuit onder meer inwinningsprocessen). Omdat het praktisch gezien onmogelijk is om altijd de feitelijke status van een object te kennen, leggen we in de registratie de veronderstelde status vast en borgen we door een afsprakenstelsel dat deze status zo dicht mogelijk blijft aansluiten op de feitelijke status in de werkelijkheid. De indeling en definities van de verschillende statussen van de levensfasen die hierna zijn opgenomen moeten dan ook worden gezien als registratieve statussen in de context van bijhoudingsprocessen, waarvoor het ook noodzakelijk is statussen te registreren die in de “echte” werkelijkheid nog niet of niet meer zichtbaar zijn.
 De hiervoor beschreven benadering leidt tot de volgende levensfasen die objecttypen kunnen aannemen.
@@ -660,6 +654,7 @@ De hiervoor beschreven benadering leidt tot de volgende levensfasen die objectty
 |Bestaand	|Object dat in gebruik is genomen of als gebruiksgereed kan worden beschouwd dan wel buiten gebruik is gesteld|
 |Verbouw gepland	|Object dat nog geschikt is voor oorspronkelijk gebruik, maar waarvan de voor de verbouw of wijziging noodzakelijke ruimtelijke procedures zijn afgerond, en de verbouwing of wijziging nog niet is voltooid|
 |Sloop gepland	|Object waarvoor de voor de sloop of verwijdering noodzakelijke ruimtelijke procedures zijn afgerond|
+|In Sloop | Object waarvan een langdurig slooptraject is aangevangen|
 |Gesloopt	|Object waarvan de feitelijke sloop of verwijdering is afgerond|
 |Afgevoerd	|Object dat ten onrechte is opgevoerd in de registratie of waarvan is vastgesteld dat het ontwerp of een geplande bouw of aanleg niet heeft geleid tot een feitelijke realisatie van het object|
 
@@ -672,7 +667,7 @@ De statussen “in aanbouw”, “bestaand” en “gesloopt” zijn de statusse
 |Ontwerp	|Object dat zich in de schets- of ontwerpfase bevindt|
 |In voorbereiding	|Gevormd object waarvan de voor vervulling van de functie noodzakelijke reële objecten nog niet gereed zijn|
 |Bestaand	|Object dat geschikt is om zijn functie te vervullen|
-|Onbeschikbaar	|Object dat niet geschikt is om zijn functie te vervullen|
+|Onbruikbaar	|Object dat niet geschikt is om zijn functie te vervullen|
 |Opgeheven	|Object dat is opgeheven|
 |Afgevoerd	|Object dat ten onrechte is opgevoerd in de registratie of waarvan is vastgesteld dat het ontwerp niet heeft geleid tot de feitelijke vorming van het object|
 

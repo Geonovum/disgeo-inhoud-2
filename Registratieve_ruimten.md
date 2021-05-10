@@ -51,11 +51,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimt
 
 | Naam  | Provincie |
 |---|---|
-| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de provinciewet|
+| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 en 124 van de Grondwet, artikel 2:1 Burgerlijk Wetboek en artikel 13 van de Wet algemene regels herindeling|
 |Herkomst definitie  | Grondwet en Provinciewet  |
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster|
-|Toelichting| |
+|Toelichting| Het gaat bij dit begrip nadrukkelijk om het grondgebied en niet om de juridische entiteit (bevoegd gezag). Een provincie valt altijd volledig binnen het Europese deel van het Koninkrijk der Nederlanden. De geometrie van alle provincies moeten het Europese deel van het grondgebied van Nederland op land volledig bedekken. Provincies mogen niet overlappen.|
 
 **Eigenschappen**
 
@@ -91,7 +91,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimt
 |Herkomst definitie  | Grondwet, Waterschapswet en INSPIRE|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen|
-|Toelichting| Het Administratief gebied betreft de geografische representatie van de verkiezingsgrenzen zoals die door de waterschappen zijn vastgelegd|
+|Toelichting| Het Administratief gebied betreft de geografische representatie van de verkiezingsgrenzen zoals die door de waterschappen zijn vastgelegd. Het gaat bij dit begrip nadrukkelijk om het grondgebied en niet om de juridische entiteit (bevoegd gezag).|
 
 
 
@@ -126,11 +126,12 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimt
 
 | Naam  | Gemeente |
 |---|---|
-| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 van de Grondwet en de Gemeentewet|
+| Definitie | Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 en 124 van de Grondwet, artikel 2:1 Burgerlijk Wetboek en artikel 3 van de Wet algemene regels herindeling|
 |Herkomst definitie  | Grondwet en Gemeentewet|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster|
-|Toelichting| |
+|Toelichting| Het gaat bij dit begrip nadrukkelijk om het grondgebied en niet om de juridische entiteit (bevoegd gezag). Een gemeente valt altijd volledig binnen een provincie. De geometrie van alle gemeenten in een provincie moeten de provincie volledig bedekken. Provincies mogen niet overlappen. Bij de verdere uitwerking zal er nader aandacht worden geschonken aan eventueel bestaande verschillen tussen de gemeentegrenzen en de gemeentegrenzen op
+basis van kadastrale percelen|
 
 **Eigenschappen**
 
@@ -594,7 +595,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimt
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|heeft een | Nummeraanduiding |Ja|
+|heeft één of meerdere | Nummeraanduiding |Ja|
 
 
 **Domeinwaarden**
@@ -604,7 +605,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimt
 | Waarde Type | Beschrijving Type  |
 |---|---|
 |Drijvend object|Constructief zelfstandig object dat met het water kan meebewegen|
-|Mobiel object|Constructief zelfstandig object dat in zijn geheel of delen kan worden verplaatst|
+|Mobiel object|Constructief zelfstandig object dat in zijn geheel kan worden verplaatst|
 |Onbemensd tankstation|Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor voertuigen, waarbij zich geen bij deze installaties betrokken gebouw bevindt|
 
 *Status* 

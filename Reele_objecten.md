@@ -586,7 +586,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 |Recreatiegebouw	|Gebouw met een constructie die het mogelijk maakt dat daarbinnen activiteiten kunnen plaatsvinden gericht op of ondersteunend aan sport, cultuur of ontspanning|
 |Toren	|Gebouw met een constructie waarbij de verhouding van de hoogte ten opzichte van lengte en breedte karakteristiek is voor de verschijningsvorm|
 |Vestingsgebouw	|Gebouw met een constructie die het mogelijk maakt om aanvallen van buiten het gebouw te kunnen weerstaan|
-|Woongebouw	|Gebouw met een constructie die uitsluitend geschikt voor bewoning|
+|Woongebouw	|Gebouw met een constructie die primair geschikt voor bewoning|
 
 
 Met de bovenstaande typering worden alle gebouwen van een typering voorzien. Als nadere invulling van “het uitklapmodel” (zie paragraaf [Aansluiting sectormodellen](#aansluiting-sectormodellen)) moeten gebouwen met de typering bijgebouw, gebedsgebouw en vestingsgebouw daarnaast altijd worden voorzien van een nadere typering:
@@ -600,8 +600,9 @@ Met de bovenstaande typering worden alle gebouwen van een typering voorzien. Als
 |Kapel	|Klein gebedsgebouw dat is vormgegeven om te kunnen fungeren voor individuele bezinning|
 |Kerkgebouw	|Gebedsgebouw met een constructie gericht op het houden van christelijke erediensten|
 |Klooster	|Gebedsgebouw bedoeld voor huisvesting en eventueel het voorzien in levensonderhoud van een geloofsgemeenschap|
-|Moskee	|Gebedsgebouw met een constructie gericht op islamtische geloofsuitoefening|
+|Moskee	|Gebedsgebouw met een constructie gericht op islamitische geloofsuitoefening|
 |Synagoge	|Gebedsgebouw met een constructie gericht op joodse geloofsuitoefening|
+|Tempel| Gebedsgebouw met een constructie gericht op niet-abrahamitische geloofsuitoefening|
 |**Vestingsgebouw**	 ||
 |Bunker	|Van oorsprong versterkt militair gebouw gericht op het schuilen tegen beschietingen en bombardementen|
 |Fort	|Naar alle zijden tegen vijandelijke aanvallen verdedigbaar militair gebouw dat van oorsprong is ingericht om een eenheid militairen te herbergen|
@@ -620,10 +621,10 @@ Bij alle andere gebouwen wordt uitsluitend een nadere typering aangebracht als h
 |    Loods |    Groot en hoog     gebouw met veelal grote inrijdeuren bedoeld voor het opslaan van handels- of     industriële goederen |
 |    Molen |    Bedrijfsgebouw     dat gekenmerkt wordt door het in een aan het gebouw aanwezig zijn    van een draaiend mechaniek waarbij wind     wordt omgezet in rotatie-energie van de op het gebouw aanwezige wieken |
 |    Stal |    Bedrijfsgebouw     met een constructie gericht op het daarbinnen onderbrengen van vee |
-|    Voertuigenstalling |    Gebouw met     een constructie gericht op het kunnen stallen van    bedrijfsmatige motorvoertuigen |
+|    Voertuigenstalling |    GGebouw met een constructie gericht op het bedrijfsmatig kunnen stallen van voertuigen |
 |    **Doelgroepengebouw**     |        |
 |    Gevangenis |    Gebouw dat     zodanig constructief is vormgegeven dat daarbinnen personen in verzekerde     bewaring kunnen worden gesteld om een gevangenisstraf uit te zitten |
-|    Kazerne |    Gebouw met     een constructie gericht op het kunnen huisvesten van soldaten |
+|    Kazerne |    Gebouw met     een constructie gericht op het kunnen huisvesten van militairen |
 |    **Installatiegebouw** |        |
 |    Energiecentrale |    Gebouw met     een constructie die het mogelijk maakt om daarbinnen centraal energie op te     wekken |
 |    Gemaalgebouw |    Gebouw dat is     ingericht om de installaties te herbergen die nodig zijn voor het van een     lager naar een hoger niveau brengen van water |
@@ -634,9 +635,7 @@ Bij alle andere gebouwen wordt uitsluitend een nadere typering aangebracht als h
 |    Klokkentoren |    Toren bedoeld     voor de ophanging van een uurwerk en/of klokkenspel |
 |    Vuurtoren |    Toren bedoeld     als drager van een ter oriëntatie van schepen dienend licht |
 |    Watertoren |    Toren die     oorspronkelijk is bedoeld voor de opslag van drinkwater in een bovenin het     gebouw gelegen waterreservoir |
-|    **Woongebouw**     |        |
-|    Corridorflat |    Flatgebouw     waarbij de voordeur van de inliggende woonruimten uitkomen op een centraal     binnen de bouwmassa per etage gelegen loopgang dan wel op een centrale hal op     de etage |
-|    Portiekflat |    Flatgebouw     waarbij de voordeur van de inliggende woonruimten uitkomen op een     gemeenschappelijk afsluitbaar trappenhuis, een centrale hal of een gesloten     portiek |
+
 
 Op een later moment zal nog worden bepaald in hoeverre het wenselijk en mogelijk is alle gebouwen van een eenduidige subtypering te voorzien. De opgenomen definities konden slechts gedeeltelijk op bestaande definities worden gebaseerd. De verschillende definities zullen op een later moment daarom mogelijk nog verder worden aangescherpt.
 
@@ -691,11 +690,13 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 *Bouwlaagnummer*
 
 Voor de nummering van de bouwlaag geldt:
--	kelder = bouwlaagnummer -1
--	begane grond = bouwlaagnummer 0
--	eerste verdieping = bouwlaagnummer 1
--	tweede verdieping = bouwlaagnummer 2 
+-	Kelder = bouwlaagnummer -1
+-   Tweede kelder laag = bouwlaagnummer -2
+-	Begane grond = bouwlaagnummer 0
+-	Eerste verdieping = bouwlaagnummer 1
+-	Tweede verdieping = bouwlaagnummer 2 
 
+Toelichting: Op een later moment zal nog worden uitgewerkt op welke wijze de nummering van halve verdiepingen zal worden vastgelegd. In de registratievoorschriften zullen daarnaast afspraken worden opgenomen over het niveau dat als begane grond wordt gehanteerd als een gebouw meerdere toegangen op verschillende bouwlagen kent.
 
 *Status* 
 
@@ -715,7 +716,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 |Herkomst definitie    |Ontleend aan NEN 2580 en aansluitend op het begrip Ruimte (IfcSpace) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)|
 |Verplicht    | Nee    |
 |Gevolgen afbakening    | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype |
-|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan ruimte moet worden gegeven |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan ruimte moet worden gegeven. Ook zal dan gedetailleerder worden vastgelegd welke ruimten in de registratie zouden kunnen worden opgenomen. Hierbij gaat de gedachte primair uit naar ruimten in multifunctionele complexe gebouwen met meerdere ruimten met verschillende functies. Het is niet de bedoeling om landelijk alle ruimten in woningen in de registratie op te gaan nemen.|
 
 **Eigenschappen**
 
@@ -740,10 +741,13 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 *Bouwlaagnummer*
 
 Voor de nummering van de bouwlaag geldt:
--	kelder = bouwlaagnummer -1
--	begane grond = bouwlaagnummer 0
--	eerste verdieping = bouwlaagnummer 1
--	tweede verdieping = bouwlaagnummer 2
+-	Kelder = bouwlaagnummer -1
+-   Tweede kelder laag = bouwlaagnummer -2
+-	Begane grond = bouwlaagnummer 0
+-	Eerste verdieping = bouwlaagnummer 1
+-	Tweede verdieping = bouwlaagnummer 2
+
+Toelichting: Op een later moment zal nog worden uitgewerkt op welke wijze de nummering van halve verdiepingen zal worden vastgelegd. In de registratievoorschriften zullen daarnaast afspraken worden opgenomen over het niveau dat als begane grond wordt gehanteerd als een gebouw meerdere toegangen op verschillende bouwlagen kent.
 
 
 *Type* 
@@ -817,7 +821,8 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 
 | Waarde Aard| Beschrijving     |
 |---|---|
-|Afdak|Constructie aangebracht    en vast verbonden aan de gevel van een pand, gericht op beschutting tegen weersinvloeden |
+|Afdak|Constructie aangebracht en vast verbonden aan de gevel van een pand, gericht op beschutting tegen weersinvloeden |
+|Balkon|Open uitbouw die niet gelijkvloers aan de gevel is aangebracht en waarvan het bovenvlak vanuit het gebouw toegankelijk is|
 |Bordes|Verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers|
 |Dakkapel |Uitbouw van het schuine dakvlak|
 |Laadperron	|Tegen het gebouw aangebrachte constructie die is bedoeld voor het kunnen laden en lossen van voertuigen|
@@ -1275,8 +1280,8 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 | Definitie | Constructie bedoeld voor de fysieke (be-)geleiding van voer- of vaartuigen|
 |Herkomst definitie    | nieuw |
 |Verplicht    | Nee    |
-|Gevolgen afbakening    | Het SOR-begrip geleideconstructie omvat meer dan het gelijknamige BGT|IMGeo objecttype weginrichtingselement; geleideconstructie.|
-|Toelichting|    |
+|Gevolgen afbakening    | |
+|Toelichting|Het SOR-begrip geleideconstructie omvat meer dan het gelijknamige BGT/IMGeo objecttype weginrichtingselement: geleideconstructie   |
 
 **Eigenschappen**
 

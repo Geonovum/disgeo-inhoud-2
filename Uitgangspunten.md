@@ -141,7 +141,7 @@ Ontwerpprincipe:
 
 **Elk object in de SOR wordt voorzien van een unieke identificatiecode die gedurende de gehele levensloop van een object ongewijzigd blijft .**
 
-Elk object in de registratie wordt voorzien van een unieke identificatiecode. Deze identificatiecode maakt het mogelijk om andere gegevens te koppelen aan het betreffende object. Hiervoor is het van belang dat de identificatiecode van een object gedurende de gehele levensloop van een object hetzelfde blijft. Een object blijft op deze wijze voor de gebruiker van de gegevens over het object herkenbaar. Mocht het desalniettemin noodzakelijk zijn wijzigingen aan te brengen in identificatiecodes van objecten, dan zal minimaal moeten worden geborgd dat de oude identificatiecodes gedurende een geruime tijd behouden blijven, om gebruikers de overgang naar de nieuwe identificatiecodes zorgvuldig te laten uitvoeren. In paragraaf [Identificatie van objecten](#identificatie-van-objecten) wordt dit uitgangspunt verder uitgewerkt.
+Elk object in de registratie wordt voorzien van een unieke identificatiecode. Deze identificatiecode maakt het mogelijk om andere gegevens te koppelen aan het betreffende object. Hiervoor is het van belang dat de identificatiecode van een object gedurende de gehele levensloop van een object hetzelfde blijft. Een object blijft op deze wijze voor de gebruiker van de gegevens over het object herkenbaar. In paragraaf [Identificatie van objecten](#identificatie-van-objecten) wordt dit uitgangspunt verder uitgewerkt.
 
 #### Typering
 

@@ -134,7 +134,7 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Autoweg	|Weg aangeduid door bord G3 (RVV) die alleen voor snel gemotoriseerd (min 50km/uur) verkeer toegankelijk is|
 |Gebiedsontsluitingsweg gesloten|	Verbindt een auto(snel)weg met een erftoegangsweg waar geen land- en bosbouwverkeer is toegestaan|
 |Gebiedsontsluitingsweg open|	Verbindt een auto(snel)weg met een erftoegangsweg waar wel land- en bosbouwverkeer is toegestaan|
-|Erftoegangsweg|Weg biedt directe toegang tot verblijfsgebieden op de plaats van herkomst en bestemming. Verblijven staat hier centraal en het autoverkeer dient zich aan te passen (met name door lage rijsnelheden) aan de ‘verblijvers’ zoals fietsers en voetgangers|
+|Erftoegangsweg|Weg met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en zonder gescheiden fietspaden. Weg biedt directe toegang tot verblijfsgebieden op de plaats van herkomst en bestemming. Verblijven staat hier centraal en het autoverkeer dient zich aan te passen (met name door lage rijsnelheden) aan de ‘verblijvers’ zoals fietsers en voetgangers|
 |Fietsstraat|	Straat die ingericht is als fietsroute waar auto’s zijn toegestaan|
 |Fiets/bromfietspad| Solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G12a (RVV) waar fietsers, snorfietsers en bromfietsers gebruik van dienen te maken|
 |Fietspad|Solitair pad (zonder naast/parallel liggende weg) aangeduid door bord G12 of G13 (RVV) waar fietsers en snorfietsers gebruik van dienen te maken (indien aangeduid met bord G12) of waar fietsers gebruik van mogen maken (indien aangeduid met bord G13)|
@@ -339,7 +339,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
 |Hoort bij 1 of meer|Gebouw| Ja |
-|Heeft een |Nummeraanduiding| Ja |
+|Heeft één of meerdere |Nummeraanduiding| Ja |
 
 **Domeinwaarden**
 
@@ -385,10 +385,9 @@ De definitieve lijst met gebruiksfuncties zal op een later moment nog definitief
 |     Religie    |     Activiteiten   verbonden aan zingeving of het zoeken naar betekenisvolle verbindingen,   waarbij meestal een hogere macht, opperwezen of god centraal staat    |
 |     Sport    |     Activiteiten   gericht op lichamelijke oefeningen en ontspanning waarbij vaardigheid, kracht   en inzicht vereist worden    |
 |     Techniek    |     Activiteiten   waarin de ontwikkeling of het gebruik van apparaten, machines en andere   complexe voorwerpen centraal staat    |
-|     Tuinbouw    |     Op   commerciële basis op intensieve wijze telen van groenten, paddenstoelen,   fruit, bloemen, planten, bomen, bollen of zaden    |
 |     Voertuigen    |     Bedrijfsmatige   stalling of opstelpunt van voertuigen    |
 |     Wonen    |     Permanent verblijf van personen voor niet bedrijfsmatige activiteiten    |
-|     Zorgverlening    |     Bieden van lichamelijke of geestelijke hulp of aandacht    |
+|     Zorg   |     Bieden van lichamelijke of geestelijke hulp of aandacht    |
 
 Met de bovenstaande typering worden alle verblijfsobjecten van een typering voorzien. Als nadere invulling van “het uitklapmodel” (zie paragraaf [Aansluiting sectormodellen](#aansluiting-sectormodellen)) moeten verblijfsobject met de typering groothandel en voertuigen daarnaast altijd worden voorzien van een nadere typering:
 
@@ -411,7 +410,8 @@ Bij alle andere verblijfsobjecten wordt uitsluitend een nadere typering aangebra
 |-|-|
 |     **Agrarisch bedrijf**    |          |
 |     Akkerbouw    |     Economische activiteiten waarbij het natuurlijke milieu wordt aangepast ten behoeve van de productie van planten voor menselijk of dierlijk gebruik    |
-|     Visteelt    |     Vorm van aquacultuur, waarbij vissen op een commerciële manier worden gekweekt voor consumptie    |
+|     Tuinbouw    |     Op   commerciële basis op intensieve wijze telen van groenten, paddenstoelen,   fruit, bloemen, planten, bomen, bollen of zaden    |
+|     Viskwekerij   |     Vorm van aquacultuur, waarbij vissen op een commerciële manier worden gekweekt voor consumptie    |
 |     Veehouderij    |     Bedrijfsmatige activiteiten gericht op het houden van vee ten behoeve van het verkrijgen van melk, eieren of vlees    |
 |     **Dienstverlening**    |          |
 |     Bibliotheek    |     Bewaarplaats voor boeken en andere media waarbij deze al dan niet aan het publiek worden uitgeleend   of ter inzage aangeboden    |
@@ -441,7 +441,6 @@ Bij alle andere verblijfsobjecten wordt uitsluitend een nadere typering aangebra
 |     Munitiedepot    |     Opslagplaats   voor munitie en explosieven    |
 |     **Recreatie**    |          |
 |     Clubgebouw    |     Activiteiten   gericht op het ten behoeve van leden of andere deelnemers aan een groep   verzorgen van ontspannende activiteiten of samenkomsten    |
-|     Recreatiewoning    |     Tijdelijke   bewoning ten behoeve van vrijetijdsbesteding    |
 |     **Sport**    |          |
 |     Manege    |     Beoefening   van het paardrijden in een besloten omgeving    |
 |     Zwembad    |     Openbaar   toegankelijke zwemactiviteiten    |
@@ -466,10 +465,12 @@ Bij alle andere verblijfsobjecten wordt uitsluitend een nadere typering aangebra
 |     Geschakelde 2-onder-1-kapwoning    |     2-onder-1-kapwoning   waarbij de muren van aanbouwen gedeeltelijk aan (aanbouwen van) andere   woningen grenzen    |
 |     Maisonnette    |     Specifiek   type flatwoning waarbij de woning zelf twee of meer bouwlagen heeft en de   voordeur uitkomt op een gemeenschappelijke loopgang, op een gemeenschappelijk   afsluitbaar trappenhuis, een centrale hal of gesloten portiek    |
 |     Personeelshuisvesting    |     Woonruimte   die specifiek bedoeld is voor het onderbrengen van personeel van een bepaalde   organisatie    |
+|Portiekflatwoning| Flatwoning waarbij de voordeur uitkomt op een gemeenschappelijk afsluitbaar trappenhuis, een centrale hal of een gesloten portiek |
 |     Portiekwoning    |     Etagewoning   waarbij de voordeur uitkomt in een open portiek    |
 |     Tussenwoning    |     Eengezinswoning   waarbij de tussenmuren aan andere panden grenzen en waarbij de woningen ten   opzichte van elkaar in een gelijk vlak of lijn liggen    |
 |     Vrijstaande   woning    |     Eengezinswoning   die los staat van (eventueel) aanwezige andere objecten    |
-|     **Zorgverlening**    |          |
+|     **Zorg**    |    
+| Institutioneel huishouden|Bedrijfsmatige huishoudelijke verzorging van een groep personen | 
 |     Ziekenhuis    |     Onderzoek,   behandeling en verpleging van patiënten in het kader van professionele   gezondheidszorg    |
 
 
@@ -528,10 +529,13 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 *Bouwlaagnummer*
 
 Voor de nummering van de bouwlaag geldt:
--	kelder = bouwlaagnummer -1
--	begane grond = bouwlaagnummer 0
--	eerste verdieping = bouwlaagnummer 1
--	tweede verdieping = bouwlaagnummer 2
+-	Kelder = bouwlaagnummer -1
+-   Tweede kelder laag = bouwlaagnummer -2
+-	Begane grond = bouwlaagnummer 0
+-	Eerste verdieping = bouwlaagnummer 1
+-	Tweede verdieping = bouwlaagnummer 2
+
+Toelichting: Op een later moment zal nog worden uitgewerkt op welke wijze de nummering van halve verdiepingen zal worden vastgelegd. In de registratievoorschriften zullen daarnaast afspraken worden opgenomen over het niveau dat als begane grond wordt gehanteerd als een gebouw meerdere toegangen op verschillende bouwlagen kent.
 
 
 *Type* 
@@ -559,7 +563,7 @@ Voor de nummering van de bouwlaag geldt:
 |     Tuinbouw    |     Op commerciële   basis op intensieve wijze telen van groenten, paddenstoelen, fruit, bloemen,   planten, bomen, bollen of zaden    |
 |     Voertuigen    |     Bedrijfsmatige   stalling of opstelpunt van voertuigen    |
 |     Wonen    |     Permanent   verblijf van personen voor niet bedrijfsmatige activiteiten    |
-|     Zorgverlening    |     Bieden van   lichamelijke of geestelijke hulp of aandacht    |
+|     Zorg   |     Bieden van   lichamelijke of geestelijke hulp of aandacht    |
 
 Op een later moment zullen de verschillende definities mogelijk nog verder worden aangescherpt.
 
