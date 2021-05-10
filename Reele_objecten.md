@@ -621,7 +621,7 @@ Bij alle andere gebouwen wordt uitsluitend een nadere typering aangebracht als h
 |    Loods |    Groot en hoog     gebouw met veelal grote inrijdeuren bedoeld voor het opslaan van handels- of     industriële goederen |
 |    Molen |    Bedrijfsgebouw     dat gekenmerkt wordt door het in een aan het gebouw aanwezig zijn    van een draaiend mechaniek waarbij wind     wordt omgezet in rotatie-energie van de op het gebouw aanwezige wieken |
 |    Stal |    Bedrijfsgebouw     met een constructie gericht op het daarbinnen onderbrengen van vee |
-|    Voertuigenstalling |    GGebouw met een constructie gericht op het bedrijfsmatig kunnen stallen van voertuigen |
+|    Voertuigenstalling |    Gebouw met een constructie gericht op het bedrijfsmatig kunnen stallen van voertuigen |
 |    **Doelgroepengebouw**     |        |
 |    Gevangenis |    Gebouw dat     zodanig constructief is vormgegeven dat daarbinnen personen in verzekerde     bewaring kunnen worden gesteld om een gevangenisstraf uit te zitten |
 |    Kazerne |    Gebouw met     een constructie gericht op het kunnen huisvesten van militairen |
@@ -690,8 +690,8 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 *Bouwlaagnummer*
 
 Voor de nummering van de bouwlaag geldt:
--	Kelder = bouwlaagnummer -1
 -   Tweede kelder laag = bouwlaagnummer -2
+-	Kelder = bouwlaagnummer -1
 -	Begane grond = bouwlaagnummer 0
 -	Eerste verdieping = bouwlaagnummer 1
 -	Tweede verdieping = bouwlaagnummer 2 
@@ -741,8 +741,8 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 *Bouwlaagnummer*
 
 Voor de nummering van de bouwlaag geldt:
--	Kelder = bouwlaagnummer -1
 -   Tweede kelder laag = bouwlaagnummer -2
+-	Kelder = bouwlaagnummer -1
 -	Begane grond = bouwlaagnummer 0
 -	Eerste verdieping = bouwlaagnummer 1
 -	Tweede verdieping = bouwlaagnummer 2

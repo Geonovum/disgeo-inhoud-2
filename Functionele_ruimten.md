@@ -529,8 +529,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 *Bouwlaagnummer*
 
 Voor de nummering van de bouwlaag geldt:
--	Kelder = bouwlaagnummer -1
 -   Tweede kelder laag = bouwlaagnummer -2
+-	Kelder = bouwlaagnummer -1
 -	Begane grond = bouwlaagnummer 0
 -	Eerste verdieping = bouwlaagnummer 1
 -	Tweede verdieping = bouwlaagnummer 2

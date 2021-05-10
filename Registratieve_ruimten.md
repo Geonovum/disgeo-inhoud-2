@@ -130,8 +130,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Registratieve ruimt
 |Herkomst definitie  | Grondwet en Gemeentewet|
 |Verplicht  | Ja  |
 |Gevolgen afbakening  | Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster|
-|Toelichting| Het gaat bij dit begrip nadrukkelijk om het grondgebied en niet om de juridische entiteit (bevoegd gezag). Een gemeente valt altijd volledig binnen een provincie. De geometrie van alle gemeenten in een provincie moeten de provincie volledig bedekken. Provincies mogen niet overlappen. Bij de verdere uitwerking zal er nader aandacht worden geschonken aan eventueel bestaande verschillen tussen de gemeentegrenzen en de gemeentegrenzen op
-basis van kadastrale percelen|
+|Toelichting| Het gaat bij dit begrip nadrukkelijk om het grondgebied en niet om de juridische entiteit (bevoegd gezag). Een gemeente valt altijd volledig binnen een provincie. De geometrie van alle gemeenten in een provincie moeten de provincie volledig bedekken. Provincies mogen niet overlappen. Bij de verdere uitwerking zal er nader aandacht worden geschonken aan eventueel bestaande verschillen tussen de gemeentegrenzen en de gemeentegrenzen op basis van kadastrale percelen|
 
 **Eigenschappen**
 
