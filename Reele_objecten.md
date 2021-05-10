@@ -300,7 +300,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Landbouwgrond
+#### Akkerland
 
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
@@ -308,21 +308,21 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 **Definitie**
 
-| Naam    | Landbouwgrond    |
+| Naam    | Akkerland    |
 |---|---|
 | Landbouwgrond | Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen|
 |Herkomst definitie    | Definitie gebaseerd op bouwland in de BGT 1.2 |
 |Verplicht    | ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object    Braakliggend    wordt voor zover het landbouwgrond betreft ook in dit objecttype Landbouwgrond opgenomen|
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object    Braakliggend    wordt voor zover het landbouwgrond betreft ook in dit objecttype akkerland opgenomen|
 |Toelichting| Kan tijdelijk zonder gewas zijn of braak liggen|
 
 **Eigenschappen**
 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
-|Identificatie     | Unieke aanduiding van een terrein landbouwgrond|Ja |
-|Geometrie| Geometrische representatie van een terrein landbouwgrond|Ja (2,5D vlak)|
-|Status     | Fase van de levenscyclus waarin een terrein landbouwgrond zich bevindt|Ja     |
+|Identificatie     | Unieke aanduiding van een terrein akkerland|Ja |
+|Geometrie| Geometrische representatie van een terrein akkerland|Ja (2,5D vlak)|
+|Status     | Fase van de levenscyclus waarin een terrein akkerland zich bevindt|Ja     |
 
 **Domeinwaarden**
 
@@ -1244,7 +1244,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 **Definitie**
 
 
- Naam    | Dok  |
+| Naam    | Dok  |
 |---|---|
 | Definitie | Constructie bedoeld om schepen uit het water te halen en vervolgens weer in het water te laten| 
 | Herkomst definitie| |Wikipedia|

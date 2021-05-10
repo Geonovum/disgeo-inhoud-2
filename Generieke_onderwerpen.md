@@ -168,23 +168,6 @@ Ontwerpprincipe
 
 Voor functionele ruimten volstaat in de regel een 2D geometrie. Door het leggen van een relatie met een reëel object, kan voor een functioneel object zo nodig hoogte informatie worden afgeleid. Functionele gebouwobjecten zijn een uitzondering. Dit zijn vlakken op hoogte die zich in een 3D volume (het gebouw) bevinden.
 
-Ontwerpprincipe:
-
-**Functionele ruimten zijn niet landsdekkend en mogen elkaar overlappen**
-
-Functionele ruimten zijn niet landsdekkend. Dit betekent dat functionele ruimten het grondgebied van Nederland niet voor 100% bedekken. Functionele ruimten die onder een verschillend begrip vallen mogen elkaar overlappen en er mogen gaten voorkomen. 
-
-Ontwerpprincipe:
-
-**De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie**
-
-Voor registratieve en geografische ruimten volstaat op basis van de bekende gebruiksbehoeften een 2D geometrie.
-
-Ontwerpprincipe:
-
-**Geografische ruimten zijn niet landsdekkend en mogen elkaar overlappen**
-
-Geografische ruimten zijn niet landsdekkend. Dit betekent dat geografische ruimten het grondgebied van Nederland niet voor 100% bedekken. Geografische ruimten die onder een verschillend begrip vallen mogen elkaar bovendien overlappen en er mogen gaten voorkomen.
 
 #### Coördinaatreferentiesysteem
 
@@ -228,17 +211,20 @@ In dit conceptueel model worden primair de begrippen gedefinieerd die moeten wor
 
 Het begrip maaiveld als een referentielaag (met de relatieve hoogte waarde “nul”) waarin veruit de meeste objectgeometrieën voorkomen, wordt hierbij minder relevant. In de praktijk blijken er vanuit verschillende perspectieven namelijk andere behoeften te zijn voor wat betreft maaiveld. Het is belangrijker om ervoor te zorgen dat objecten die zich in de werkelijkheid op een bepaalde wijze tot elkaar verhouden (bijvoorbeeld een verharding ligt boven op een overbrugging) ook in de registratie op deze wijze tot elkaar verhouden (bijvoorbeeld dat uit de z-coördinaten van de verharding en de overbrugging blijkt dat de verharding bovenop de overbrugging ligt). De exacte uitwerking van deze relaties in topologie-regels zal later in het traject verder worden uitgewerkt. Daarnaast is het van belang dat er op elke fysieke locatie in de werkelijkheid (elke x,y-coördinaat) altijd tenminste een reëel object aanwezig is (water, begroeiing, gebouw, verharding, kunstwerk, constructies of onbepaald terrein).
 
+
 Ontwerpprincipe:
 
 **De reële objecten in de SOR bedekken met hun x,y geometrie het volledige grondgebied van Nederland**
 
 Het bovenaanzicht van alle vastgelegde geometrieën van reële objecten bedekt dus heel Nederland. Daarbij blijven er geen gaten over waar geen objecten zijn opgenomen. Hiermee kan er uit de geometrische representaties een volledig dekkend topografisch kaartbeeld als informatieproduct worden opgebouwd. De exacte vertaling van de eis dat er geen gaten mogen bestaan naar gedetailleerde topologie-regels zal later in het traject verder worden uitgewerkt.
 
+
 Ontwerpprincipe:
 
 **Geometrieën van objecten kunnen boven elkaar liggen**
 
 Uit de hiervoor beschreven benadering volgt dat objecten die zich in de werkelijkheid boven elkaar bevinden, ook in de registratie als boven elkaar liggende objecten zijn opgenomen. Denk bijvoorbeeld aan een stuk verharding dat op een brug ligt, waarbij de brug zich op zijn beurt weer boven water bevindt. Wanneer de hierbij behorende vastgelegde geometrieën middels een bovenaanzicht bekeken worden, zullen deze elkaar overlappen. Vanuit andere aanzichten zal blijken dat deze geometrieën boven elkaar liggen. De keuze van een aanzicht is in de SOR niet bepalend voor de vastlegging, maar de aanleiding voor de ontwikkeling van specifieke informatieproducten.
+
 
 Ontwerpprincipe:
 
@@ -249,6 +235,27 @@ In de 3D werkelijkheid sluiten twee reële objecten elkaar altijd uit. In een re
 De bovenstaande principes kunnen ook van toepassing zijn voor specifieke verzamelingen van  functionele ruimten en registratieve- en geografische ruimten. Denk hierbij aan de verzameling van gemeenten waarvan de grenzen precies op elkaar moeten aansluiten.
 
 Tussen verzamelingen kunnen ook topologieregels gelden. Bijvoorbeeld bij netwerken. Aan deze geometrie kunnen eisen worden gesteld in relatie tot reële objecten (zoals een eis dat de netwerkgeometrie zich moet bevinden binnen de contouren van de bijbehorende reële objecten).
+
+
+Ontwerpprincipe:
+
+**Functionele ruimten zijn niet landsdekkend en mogen elkaar overlappen**
+
+Functionele ruimten zijn niet landsdekkend. Dit betekent dat functionele ruimten het grondgebied van Nederland niet voor 100% bedekken. Functionele ruimten die onder een verschillend begrip vallen mogen elkaar overlappen en er mogen gaten voorkomen. 
+
+
+Ontwerpprincipe:
+
+**De SOR kent voor alle registratieve en geografische ruimten een 2D geometrie**
+
+Voor registratieve en geografische ruimten volstaat op basis van de bekende gebruiksbehoeften een 2D geometrie.
+
+
+Ontwerpprincipe:
+
+**Geografische ruimten zijn niet landsdekkend en mogen elkaar overlappen**
+
+Geografische ruimten zijn niet landsdekkend. Dit betekent dat geografische ruimten het grondgebied van Nederland niet voor 100% bedekken. Geografische ruimten die onder een verschillend begrip vallen mogen elkaar bovendien overlappen en er mogen gaten voorkomen.
 
 #### Generalisatie
 
@@ -473,7 +480,7 @@ Naast deze meta-informatie die in het informatiemodel zelf wordt vastgelegd, spe
 #### Registeren metagegevens per object
 Per object worden de volgende metagegevens vastgelegd:
 
--	Bronverwijzing: Bij alle objecten wordt vastgelegd de wijziging op grond waarvan het betreffende object in de registratie is opgenomen (of is beëindigd). Mogelijke "gebeurtenissen"  zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.).
+-	Bronverwijzing: Bij alle objecten wordt vastgelegd de wijziging op grond waarvan het betreffende object in de registratie is opgenomen (of is beëindigd). Mogelijke "gebeurtenissen" worden zoveel mogelijk gestandaardiseerd en zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.).
 
 Afhankelijk van de achtergrond van het opvoeren of beëindigen van een object in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 
@@ -486,7 +493,7 @@ Naast de genoemde metagegevens die gericht zijn op zowel gebruikers als bronhoud
 #### Registreren metagegevens per attribuut
 Per attribuut worden de volgende metagegevens vastgelegd:
 
--   Bronverwijzing: Bij alle attributen wordt vastgelegd de wijziging op grond waarvan het betreffende attribuut (wijziging van een attribuut) in de registratie is opgenomen. Mogelijk "gebeurtenissen" zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.). 
+-   Bronverwijzing: Bij alle attributen wordt vastgelegd de wijziging op grond waarvan het betreffende attribuut (wijziging van een attribuut) in de registratie is opgenomen. Mogelijke "gebeurtenissen" worden zoveel mogelijk gestandaardiseerd en zijn bijvoorbeeld "verlenen vergunning", constatering in luchtfoto", "onderzoek terugmelding", etc.). 
 -   Bronverwijzing: bij 3D-geometrie wordt vastgelegd hoe deze tot stand is gekomen, bijvoorbeeld door post-processing, door 3D inwinning of anders.
 Afhankelijk van de achtergrond van het opvoeren of wijzigen van een attribuut in de registratie wordt (indien dit in het informatiemodel is gespecificeerd) een verwijzing opgenomen naar een bron(document). Dit kan een formeel document zijn, zoals een vergunning, maar ook bijvoorbeeld plaatsbepalingspunten of een BIM.
 Bij het attribuut geometrie kan ook sprake zijn van een bronverwijzing naar een plaatsbepalingspunt (zie paragraaf [Meta-gegevens over herkomst en kwaliteit](#meta-gegevens-over-herkomst-en-kwaliteit)).

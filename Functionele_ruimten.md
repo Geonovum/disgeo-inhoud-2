@@ -496,7 +496,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
 | Naam  | Gebouwzone |
 |---|---|
-| Definitie | Grootst mogelijke gedeelte van een gebouw dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw en een verblijfsobject, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
+| Definitie | Grootst mogelijke gedeelte van een gebouw dat in zijn geheel is gelegen op een bouwlaag en binnen de afbakening van een gebouw, waaraan eenduidig een bouwjaar kan worden toegekend, en dat qua constructie en gebruiksmogelijkheden voldoende uniform is|
 |Herkomst definitie|Begrip gebaseerd op de functionele deelobjecten uit de WOZ en aansluitend bij het begrip Zonering (IfcZone) uit de concepten rondom Bouwwerkinformatiemodellen (BIM), waarbij ruimten worden gezoneerd tot bijvoorbeeld verblijfsobject of gebouwzone |
 |Verplicht  | Ja |
 |Gevolgen afbakening  | Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype |
@@ -521,8 +521,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 
 |Relatiesoort   |Relatierol |Verplicht|
 |---|---|---|
-|Hoort bij|gebouwzone| verblijfsobject|
-|Ligt op |gebouwzone|bouwlaag|
+|Hoort bij|verblijfsobject| Nee|
+|Ligt op |bouwlaag| Ja|
 
 **Domeinwaarden**
 
