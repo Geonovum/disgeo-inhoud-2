@@ -1281,7 +1281,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Herkomst definitie    | nieuw |
 |Verplicht    | Nee    |
 |Gevolgen afbakening    | |
-|Toelichting|Het SOR-begrip geleideconstructie omvat meer dan het gelijknamige BGT/IMGeo objecttype weginrichtingselement: geleideconstructie   |
+|Toelichting|Het SOR-begrip geleideconstructie omvat meer dan het gelijknamige BGT/IMGeo objecttype weginrichtingselement; geleideconstructie. |
 
 **Eigenschappen**
 

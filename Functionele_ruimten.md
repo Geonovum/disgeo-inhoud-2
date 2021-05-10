@@ -172,7 +172,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |Redresseerstrook	|Strook langs de buitenste rijstroken van een rijbaan met als doel om uit de koers geraakte voertuigen op te vangen en terug op koers te brengen|
 |Invoegstrook |Door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat is bestemd voor bestuurders die de doorgaande rijbaan oprijden;|
 |Uitvoegstrook |Door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat is bestemd voor bestuurders die de doorgaande rijbaan verlaten (RVV-uitrijstrook)|
-|Weefstrook |	Rijstrook die behoort tot die rijstroken rechts van de blokmarkering gelegen in een weefvak (zie blz. 167 Richtlijnen Ontwerp Autosnelwegen|
+|Weefstrook |	Strook bedoeld voor het afwikkelen en uitwisselen van rijdend verkeer afkomstig van verschillende rijbanen en gaande naar verschillende rijbanen|
 |Bufferstrook |	Extra rijstrook die kan worden opengesteld om te voorkomen dat een file vóór een knelpunt zo lang wordt dat hij andere verkeersstromen gaat blokkeren|
 |Plusstrook |	Smalle strook aan de linkerzijde van een rijbaan met dynamische openstelling|
 |Wisselstrook |	Rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting|
@@ -199,7 +199,7 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |Beide	|Beide rijrichtingen zijn op de verbinding toegestaan|
 |Eenrichting	|Eén rijrichting is op verbinding toegestaan|
 
-Toelichting: Voor het concreet aangeven van de richting van de eenrichtings-rijrichting zullen op een later moment inwinningsregels worden vastgelegd.
+Toelichting: Voor het concreet aangeven van de richting van de eenrichtings-rijrichting zullen op een later moment registratieregels worden vastgelegd.
 
 
 *Status*
