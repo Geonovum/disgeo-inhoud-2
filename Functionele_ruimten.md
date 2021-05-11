@@ -1017,7 +1017,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een houtsingel|Ja |
-|Geometrie|Geometrische representatie van een Houtsingel|Ja (2,5D lijn)|
+|Geometrie|Geometrische representatie van een Houtsingel|Ja (2,5D lijn, vlak)|
 |Status   | De fase van de levenscyclus waarin een Houtsingel zich bevindt|Ja   |
 
 **Domeinwaarden**
@@ -1075,7 +1075,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een tuunwal|Ja |
-|Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D lijn)|
+|Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D lijn, vlak)|
 |Status   | De fase van de levenscyclus waarin een tuunwal zich bevindt|Ja   |
 
 **Domeinwaarden**
