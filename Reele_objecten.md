@@ -1489,7 +1489,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 
 | Naam    | Opslagtank    |
 |---|---|
-| Definitie | Constructie voor de opslag van vloeistoffen (niet zijnde water), gassen of energie|
+| Definitie | Constructie in de vorm van een bovengronds, afgesloten reservoir bestemd is voor gassen, energie of vloeistoffen|
 |Herkomst definitie    | IMGeo 2.2    |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie overig bouwwerk, type opslagtank zoals deze is opgenomen in de basisregistratie grootschalige topografie|
