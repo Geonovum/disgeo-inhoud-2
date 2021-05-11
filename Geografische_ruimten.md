@@ -123,9 +123,11 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 |Waarde Type	|Beschrijving Type |
 |---|---|
 |Bosgebied	|Gebied dat overwegend met bos begroeid is|
+|Cultuurlandschap| Gebied dat overwegend een agrarisch gebruik kent |
 |Duingebied	|Gebied bestaande uit verhogingen of heuvels van zand of fijne losse aarde opgeworpen door wind. Duingebieden grenzen aan zeestranden |
 |Eiland	|Landoppervlak dat aan alle kanten omringd is door water|
 |Heidegebied	|Gebied dat overwegend met heide begroeid is|
+|Landgoed | Aaneengesloten en samenhangend gebied met akkerlanden, graslanden, bossen en of tuinen en gebouwen |
 |Polder	|Gebied dat door één of meerdere waterkeringen is omgeven en waarvan de waterstand kunstmatig geregeld kan worden|
 |Strand	|Onbegroeide zandige kustvlakte op de overgang van zee met land en welke onder invloed staat van het zeewater en de wind|
 |Watergebied	|Gebied dat overwegend met water bedekt is|
