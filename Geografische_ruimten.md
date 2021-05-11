@@ -158,6 +158,8 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Geografische ruimte
 |Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
 |Identificatie   |Unieke aanduiding van een reliëfzone|Ja |
+|Naam   |Plaatselijke naam van een reliëfzone zoals deze is vastgesteld of in het plaatselijk gebruik bekend staat|Nee  |
+|Alternatieve naam   | Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)|Nee   |
 |Geometrie   |Geometrische representatie van het reliëfzone bekend is|Ja (2D punt,lijn,vlak)  |
 |Type |Hoofdkarakter van het reliëfzone|Nee |
 |Status   |Fase van de levenscyclus waarin een reliëfzone zich bevindt|Ja   |
