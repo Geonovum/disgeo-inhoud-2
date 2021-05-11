@@ -310,7 +310,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 | Naam    | Akkerland    |
 |---|---|
-| Landbouwgrond | Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen|
+| Akkerland | Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen|
 |Herkomst definitie    | Definitie gebaseerd op bouwland in de BGT 1.2 |
 |Verplicht    | ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object    Braakliggend    wordt voor zover het landbouwgrond betreft ook in dit objecttype akkerland opgenomen|
@@ -340,11 +340,11 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 
 | Naam    | Onbegroeide grond |
 |---|---|
-| Definitie |Oppervlakte waar onbegroeide grond zichtbaar is|
+| Definitie |Oppervlakte die niet bedekt is met enige vorm van begroeiing, water, verharding, gebouwen of andere constructies|
 | Herkomst definitie    | Nieuw |
 | Verplicht    | Ja    |
 | Gevolgen afbakening    | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen type onverhard van terreinen in de basisregistratie grootschalige topografie|
-| Toelichting| Onbegroeide grond is grond, die niet bedekt is met enige vorm van begroeiing, constructie, water of verharding.    |
+| Toelichting| Onbegroeide grond is bewust niet bedekt|
 
 **Eigenschappen**
 
