@@ -137,8 +137,8 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Erftoegangsweg|Weg met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en zonder gescheiden fietspaden. Weg biedt directe toegang tot verblijfsgebieden op de plaats van herkomst en bestemming. Verblijven staat hier centraal en het autoverkeer dient zich aan te passen (met name door lage rijsnelheden) aan de ‘verblijvers’ zoals fietsers en voetgangers||
 |Fietsstraat|	Straat die ingericht is als fietsroute waar auto’s zijn toegestaan||
 |Fiets/bromfietspad| Vrij liggend pad (zonder naast/parallel liggende weg) waar fietsers, snorfietsers en bromfietsers gebruik van dienen te maken|G12a|
-|Fietspad|Vrij liggend pad (zonder naast/parallel liggende weg) |G12 of G13|
-|Voetpad|	Vrij liggend pad (zonder naast/parallel liggende weg) |G7|
+|Fietspad|Vrij liggend pad (zonder naast/parallel liggende weg) waar fietsers en snorfietsers gebruik van dienen te maken of waar fietsers gebruik van mogen maken|G12 of G13|
+|Voetpad|	Vrij liggend pad (zonder naast/parallel liggende weg) waarvan voetgangers gebruik dienen te maken |G7|
 |Voetgangerszone| Wegverbinding die bedoeld is voor voetgangers met uitzondering van fietsers en bestemmingsverkeer en, tussen bepaalde tijden, andere verkeersgebruikers||
 |Ruiterpad	|Vrij liggend pad (zonder naast/parallel liggende weg) waarvan ruiters gebruik dienen te maken||
 |Veerverbinding	|Geregelde verbinding per vaartuig bestemd voor (on)bepaald hoofdverkeersgebruik|G9|
