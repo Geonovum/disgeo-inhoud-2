@@ -49,7 +49,7 @@ Dit is conform de identificatie in NEN 3610.
 
 Ontwerpprincipe: 
 
-**Een objectidentificatie in de SOR is machineleesbaar bedoeld en niet mensleesbaar**
+**Een objectidentificatie in de SOR is machineleesbaar bedoeld**
 
 De objectidentificatie van de SOR is bedoeld om in het kader van interoperabiliteit te gebruiken bij het volledig geautomatiseerd relaties bevragen tussen verschillende datasets.
 
@@ -69,11 +69,6 @@ De technische objectidentificatie is de toepassing van de functionele identifica
 
 **SAMENHANG**
 
-Ontwerpprincipe: 
-
-**Samenhang faciliteren van de koppeling tussen sectorale identificaties (interne ID) en de objectidentificatie in de SOR (externe ID)**
-
-Sectorregistraties kennen vaak hun eigen identificatie. Er zal gefaciliteerd moeten worden dat bij de objecten in de sectorregistraties de objectidentificaties van de SOR-objecten worden vastgelegd. De informatie die in de sector opgeslagen is daarmee te ontsluiten op basis van de SOR-objectidentificatie
 
 Ontwerpprincipe: 
 
@@ -91,29 +86,12 @@ Ontwerpprincipe:
 
 De objectidentificatie van een object in de SOR moet persistent zijn over de levensloop van dat object, zodat altijd duidelijk is welk object het betreft, ook als het object inmiddels is gesloopt.
 
-**FILIATIE (AFKOMST/OVERGANG)** 
-
-Ontwerpprincipe: 
-
-**Het moet mogelijk zijn om de afkomst van een object na te gaan door de relatie vast te leggen met het object / de objecten waaruit een object is ontstaan**
-
-Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn ontstaan door samenvoeging of splitsing van andere objecten. Op een bepaald moment in de tijd bestond het specifieke object wellicht nog niet, maar wel een voorouder van dit object.
-
-Ontwerpprincipe: 
-
-**Het moet mogelijk zijn om de overgang van een object na te gaan door de relatie vast te leggen met het object / de objecten waarin een object is overgegaan**
-
-Dit is bedoeld om tijdreizen optimaal te ondersteunen. Objecten kunnen zijn overgegaan in andere objecten door samenvoeging of splitsing. Op een bepaald moment in de tijd bestaat het specifieke object wellicht niet meer, maar wel mogelijk een afstammeling van dit object.
-
-
 **LEVENSLOOP** 
 
 
 Ontwerpprincipe: 
 
 **De levensloop van een object, met een unieke objectidentificatie, begint in de samenhangende objectenregistratie**
-
-In het eerder genoemde externe project Regie Op Bouwgegevens (UOI) zal onderzocht worden of er eerder behoefte is aan identificatiecodes, dan dat deze in de SOR ontstaan.
 
 Ontwerpprincipe: 
 
@@ -708,41 +686,9 @@ De verbetering (inmeten) van geometrie van een object wordt ten opzichte van bes
 
 **Twee levensfasen op hetzelfde moment**
 
-In de regel zal een object op enig moment in de tijd zich bevinden in één levensfase. Wanneer met de bouw van een woning wordt gestart, gaat het object over van de levensfase (status) "Bouw gepland" naar de fase "In aanbouw". Dat sluit allemaal aan bij het werken met een eenduidige tijdlijn geldigheid.
+HIER KOMT EEN NIEUWE TEKST
 
-In deze tijdlijn geldigheid kunnen ook toekomstmutaties worden geregistreerd. Bij het registreren van een bouwvergunning kan ook gelijk worden geregistreerd op welk moment in de toekomst deze woning bijvoorbeeld de fase "Bestaand" zal bereiken (dat komt overeen met de werkwijze dat nu in de BAG op het moment van registratie van de vergunning ook het bouwjaar wordt geregistreerd).
-
-Het slechts kunnen registreren van één levensfase (samenhangend met de kenmerken van het object die behoren bij die levensfase) op enig moment op de tijdlijn geldigheid knelt echter wanneer er sprake is van een bestaand object (levensfase Bestaand), waarbij ook sprake is van een planfase voor bijvoorbeeld een verbouwing ("Verbouw gepland).
-
-Dit kan worden geïllustreerd aan de hand van het voorbeeld van een school die momenteel als school in gebruik is, maar die na het lopende schooljaar verbouwd zal worden tot een woning. Wanneer in de loop van het schooljaar de bouwvergunning wordt verleend voor deze verbouwing, dan wordt volgens het huidige historiemodel van de BAG direct de registratie aangepast. Raadplegen van de actualiteit levert dan op dat sprake is van een woning, terwijl de situatie "in gebruik" nog betrekking heeft op een school met leerlingen.
-Toepassing van deze aanpak zou kunnen betekenen dat we de beoogde verbouwing niet registreren met beginGeldigheid het moment van verstrekken van de vergunning, maar met het verwachte moment van verbouwing (bijvoorbeeld aanstaande september). Bij die werkwijze kunnen we echter nog niet vastleggen dat op dit moment al sprake is van een verleende vergunning, terwijl je dat wel zou doen, wanneer sprake zou zijn van een nieuwbouwwoning.
-
-
-Daarom wordt het in dit soort situaties (voor een "Bestaand" gebouw is een vergunning verleend voor verbouw, voor een "Bestaande" weg bestaat het ontwerp voor uitbreiding) in het informatiemodel voor de SOR mogelijk gemaakt dat op dezelfde locatie een tweede object (bijvoorbeeld gebouw of verblijfsobject of wegvak) wordt geregistreerd. Deze werkwijze komt overeen met de huidige werkwijze voor plantopografie binnen IMGeo. Dit nieuw object wordt wel gerelateerd (filiatie) aan het bestaande object waarop het plan betrekking heeft (en vice versa). De registratie van dit tweede object geschiedt verder alsof sprake is van een nieuwbouwsituatie. Echter zodra dit object gericht op een verbouwing ook daadwerkelijk de fase "Bestaand" bereikt, wordt het nieuw opgevoerde object "beëindigd" en wordt de feitelijk situatie weer opgenomen in de tijdlijn geldigheid van het oorspronkelijke object dat vanaf dat moment daadwerkelijk in verbouw is (status "In aanbouw"). Het gerelateerde object dat is gebruikt voor de registratie van deze "planfase" wordt beëindigd en blijft door de relatie vindbaar vanuit het hoofdobject om de informatie over deze planfase te kunnen blijven raadplegen. Deze filiatie in het kader van "twee levensfasen op hetzelfde moment" is overigens de enige vorm van filiatie die in de SOR wordt opgenomen.
-
-<aside class='example'>
-Enkele voorbeelden ter illustratie:
-
-Bij een “kleine” verbouwing (wel met vergunning) is een afzonderlijk gerelateerd "planobject" niet nodig. De cyclus van levensfase kan gewoon zijn:
-
-        Bestaand – verbouw gepland – bestaand
-
-Immers de definitie van “verbouw gepland” laat zien dat de verbouwing nog niet is afgerond, maar betekent tevens dat het object nog wel geschikt is voor gebruik. Bijvoorbeeld er is een vergunning verleend voor de verbouw van een woning, terwijl tijdens deze verbouwing men gewoon blijft wonen in deze woning.
-
-Als er sprake is van een “grotere” verbouwing dan zal er een periode zijn dat het object niet meer geschikt is voor gebruik. In die situatie zou je dan hebben:
-
-        Bestaand – verbouw gepland – in aanbouw  – bestaand
-
-Deze wijze van registratie is bijvoorbeeld aan de orde wanneer de nieuwe “bestaande situatie” een duidelijke voortzetting is van de oorspronkelijke situatie, zoals een kantoor dat wordt gestript, gemoderniseerd en weer als kantoor in gebruik wordt genomen.
-
-De SOR registreert alleen een extra gerelateerd "planobject", wanneer de nieuwe bestaande situatie echt afwijkend is (bijvoorbeeld ander gebruiksdoel en/of andere typering en/of sterk afwijkende geometrie).
-
-Dit "planobject" kan bijvoorbeeld worden opgevoerd met de status “Ontwerp”. Op dat moment gebeurt er nog niets met het oorspronkelijke object in de registratie. Alleen wordt het "planobject" wel gerelateerd aan het bestaande object.
-
-Wanneer het "planobject" de status “Bouw gepland” krijgt, krijgt het gerelateerde bestaande object de status “Verbouw gepland”. Daarmee is helder dat het bestaande object nog steeds geschikt is voor gebruik (en dus mogelijk in gebruik is) volgens oorspronkelijke functie. Zodra met de verbouw wordt begonnen en het bestaande object niet meer geschikt is voor gebruik (volgens de oorspronkelijke functie), wordt het gerelateerde "planobject" beëindigd en krijgt het bestaande object de status “In aanbouw”. Gezien de definitie van “In aanbouw” betekent deze status mogelijk ook "in verbouw". Dat is in dit geval de situatie, zoals bijvoorbeeld kan worden afgeleid uit het bouwjaar dat ver terug ligt in het verleden.
-</aside>
-
-
+AANSLUITEND KOMT HIER EEN KORTE SUBPARAGRAAF OVER FILIATIE
 
 
 
