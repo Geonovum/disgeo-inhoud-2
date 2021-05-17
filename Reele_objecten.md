@@ -478,7 +478,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 | Definitie | Terrein begroeid met heide en heideachtige vegetaties|
 |Herkomst definitie    | BGT 1.2 |
 |Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie *heide*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie *heide* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|Het reëel object Heide is opgenomen om de kenmerkende begroeiing weer te geven ten behoeve van navigatie en toegankelijkheid. Deze gebieden kenmerken zich door een heel eigen verschijningsvorm, waarbinnen de begroeiing plaatselijk en tijdelijk kan veranderen, maar waar onderhoud gericht is op behoud van de typische verschijningsvorm van heide    |
 
 **Eigenschappen**
@@ -497,7 +497,92 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
+#### Bomenrij
 
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
+
+**Definitie**
+
+| Naam  | Bomenrij |
+|---|---|
+| Definitie | Opgaande rijvorimige begroeiing van bomen zonder ondergroei van struiken |
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja |
+|Gevolgen afbakening|Het betreft een nieuw op te nemen objecttype|
+|Toelichting| Bomenrij wordt opgenomen vanwege het landschappelijke belang van dit object.   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een bomenrij|Ja |
+|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn of vlak)|
+|Status   | De fase van de levenscyclus waarin een bomenrij zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+#### Houtsingel
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
+
+**Definitie**
+
+| Naam  | Houtsingel |
+|---|---|
+| Definitie |  opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken|
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja |
+|Gevolgen afbakening| Het betreft hier de bestaande populatie *houtwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting| Houtsingel wordt opgenomen vanwege het landschappelijke belang van dit object.   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een houtsingel|Ja |
+|Geometrie|Geometrische representatie van een Houtsingel|Ja (2,5D lijn of vlak)|
+|Status   | De fase van de levenscyclus waarin een Houtsingel zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+#### Tuunwal
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
+
+**Definitie**
+
+| Naam  | Tuunwal |
+|---|---|
+| Definitie | Gestapelde grasplaggen op de scheiding tussen twee percelen |
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja |
+|Gevolgen afbakening|Het betreft een nieuw op te nemen objecttype|
+|Toelichting|  Tuunwal wordt opgenomen vanwege het landschappelijke belang van dit object. Tuunwallen wijken duidelijk af van vegetatieve perceelsscheiding (heg, haag, bomenrij en houtsingel) en ook van de verschillende afscheidingen |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een tuunwal|Ja |
+|Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D lijn of vlak)|
+|Status   | De fase van de levenscyclus waarin een tuunwal zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
 #### Boom
