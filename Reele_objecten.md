@@ -534,7 +534,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
 
 | Naam  | Houtsingel |
 |---|---|
-| Definitie |  opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken|
+| Definitie |  Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken|
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja |
 |Gevolgen afbakening| Het betreft hier de bestaande populatie *houtwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
