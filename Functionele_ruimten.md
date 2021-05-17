@@ -910,7 +910,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja |
 |Gevolgen afbakening|Het betreft hier de bestaande populatie ondersteunend waterdeel, type *oever, slootkant* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan oeverzone moet worden gegeven. Ook zal dan gedetailleerder worden vastgelegd welke oeverzones in de registratie worden opgenomen. Het is niet de bedoeling om alle waterkanten verplicht te voorzien van een oeverzone.   |
+|Toelichting|In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan oeverzone moet worden gegeven. Ook zal dan gedetailleerder worden vastgelegd welke oeverzones in de registratie worden opgenomen. Het is niet de bedoeling om alle waterkanten verplicht te voorzien van een oeverzone.  Het betreft het gedeelte van de oever dat bij het voorgeschreven waterpeil droog ligt. |
 
 **Eigenschappen**
 
