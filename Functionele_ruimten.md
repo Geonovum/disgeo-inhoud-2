@@ -998,92 +998,10 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Houtsingel
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
-
-**Definitie**
-
-| Naam  | Houtsingel |
-|---|---|
-| Definitie |  Een geheel of gedeeltelijk aan de natuur overgelaten erfafscheiding, vaak ook tussen weilanden en akkers, die kan bestaan uit bomen en-of struiken|
-|Herkomst definitie  |nieuw|
-|Verplicht  | Ja |
-|Gevolgen afbakening||
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een houtsingel|Ja |
-|Geometrie|Geometrische representatie van een Houtsingel|Ja (2,5D lijn, vlak)|
-|Status   | De fase van de levenscyclus waarin een Houtsingel zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
-#### Bomenrij
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
-
-**Definitie**
-
-| Naam  | Bomenrij |
-|---|---|
-| Definitie | Een geheel of gedeeltelijk aan de natuur overgelaten erfafscheiding, vaak ook tussen weilanden en akkers, die bestaat uit bomen |
-|Herkomst definitie  |nieuw|
-|Verplicht  | Ja |
-|Gevolgen afbakening||
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een bomenrij|Ja |
-|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn)|
-|Status   | De fase van de levenscyclus waarin een |Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn)|
- zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
-
-#### Tuunwal
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
-
-**Definitie**
-
-| Naam  | Tuunwal |
-|---|---|
-| Definitie | Gestapelde grasplaggen op de scheiding tussen twee percelen |
-|Herkomst definitie  |nieuw|
-|Verplicht  | Ja |
-|Gevolgen afbakening||
-|Toelichting|   |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een tuunwal|Ja |
-|Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D lijn, vlak)|
-|Status   | De fase van de levenscyclus waarin een tuunwal zich bevindt|Ja   |
-
-**Domeinwaarden**
 
 
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
 #### Kering
