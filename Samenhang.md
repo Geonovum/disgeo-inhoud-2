@@ -66,7 +66,7 @@ De samenhang rond gebouwen:
 
 De samenhang rond groen:
 
-![denkraamSOR_groen](media/groenmodel-2021-01.png)
+![denkraamSOR_groen](media/groenmodel-2021-02.png)
 
 
 De samenhang rond water:
