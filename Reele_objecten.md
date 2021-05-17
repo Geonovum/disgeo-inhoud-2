@@ -914,6 +914,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Identificatie     |Unieke aanduiding van een open bouwwerk|Ja |
 |Geometrie |Geometrische representatie van een open bouwwerk     |Ja (3D)|
 |Type| Soort open bouwwerk|Ja|
+|Naam| Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |Status     |Fase van de levenscyclus waarin een    open bouwwerk zich bevindt     |Ja     |
 
 
@@ -1489,7 +1490,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 
 | Naam    | Opslagtank    |
 |---|---|
-| Definitie | Constructie in de vorm van een bovengronds, afgesloten reservoir bestemd is voor gassen, energie of vloeistoffen|
+| Definitie | Constructie in de vorm van een bovengronds, afgesloten reservoir bestemd voor gassen, energie of vloeistoffen|
 |Herkomst definitie    | IMGeo 2.2    |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie overig bouwwerk, type opslagtank zoals deze is opgenomen in de basisregistratie grootschalige topografie|
