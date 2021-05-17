@@ -23,7 +23,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |Herkomst definitie    | gebaseerd op Aquo-standaard    |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie *watervlakte* en *zee* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|    |
+|Toelichting| Het betreft hier enkel het aanwezige water bij het voorgeschreven waterpeil. Het bij dit waterpeil droog liggende gedeelte van de oever valt niet binnen de afbakening van dit object.    |
 
 **Eigenschappen**
 
@@ -57,7 +57,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 
 
-#### Waterloop
+#### Watergang
 
 Dit SOR-begrip is een nader type van Oppervlaktewater.
 
@@ -65,24 +65,24 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 **Definitie**
 
-| Naam    | Waterloop    |
+| Naam    | Watergang    |
 |---|---|
 | Definitie | Langgerekte verlaging in het aardoppervlak van natuurlijke of kunstmatige oorsprong die permanent of periodiek water bevat|
 |Herkomst definitie    | AQUO lex |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie *waterloop* en *greppel/droge sloot* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting|    |
+|Toelichting| Het betreft hier enkel het aanwezige water bij het voorgeschreven waterpeil. Het bij dit waterpeil droog liggende gedeelte van de oever valt niet binnen de afbakening van dit object.   |
 
 **Eigenschappen**
 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
-|Identificatie     |Unieke aanduiding van een waterloop|Ja |
-|Geometrie|Geometrische representatie van een waterloop|Ja (2,5D vlak)|
-|Type |Aanduiding van het soort waterloop|Nee|
-|Watervoerend | Aanduiding of de waterloop wel of geen water bevat| Ja|
-|Indicatie Primair | Deze waterloop is al dan niet een hoofdverbinding in het watersysteem|Ja|
-|Status     |    Fase van de levenscyclus waarin een waterloop zich bevindt|Ja     |
+|Identificatie     |Unieke aanduiding van een watergang|Ja |
+|Geometrie|Geometrische representatie van een watergang|Ja (2,5D vlak)|
+|Type |Aanduiding van het soort watergang|Nee|
+|Watervoerend | Aanduiding of de watergang wel of geen water bevat| Ja|
+|Indicatie Primair | Deze watergang is al dan niet een hoofdverbinding in het watersysteem|Ja|
+|Status     |    Fase van de levenscyclus waarin een watergang zich bevindt|Ja     |
 
 
 **Domeinwaarden**
@@ -1072,7 +1072,10 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 |Waarde Type | Beschrijving Type |
 |---|---|
 | Duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaat, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de waterloop onderbreekt|
+| Hevel | Kokervormige constructie met een verhoogd middengedeelte dat twee wederzijds gelegen wateren met elkaar verbindt.|
+| Sifon | Kokervormige constructie met een verlaagd middengedeelte dat geheel met water is gevuld en die twee waterlopen met elkaar verbindt.|
 | Tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren|
+
 
 *Status* 
 
@@ -1122,6 +1125,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 |---|---|---|
 | Bodemval |Sprong in de bodem van een waterloop| Nee|
 | Coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|Nee|
+| Dam | Dwars door een water gelegen afsluiting, bedoeld om water te keren of te beheersen.| Ja|
 | Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|Ja|
 | Dijklichaam|Aangelegde waterkering van grond, die het achterliggende land beschermt tegen overstromingen|Ja|
 | Gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|Ja|
@@ -1130,7 +1134,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 | Schot|Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen|Nee|
 | Sluis |Kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt|Ja|
 | Steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen|Ja|
-| Stormvloedkering|Keersluis die gesloten wordt bij zeer hoge buitenwaterstanden|Ja|
+| Stormvloedkering|Waterkerende constructie die gesloten wordt bij zeer hoge buitenwaterstanden|Ja|
 | Strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier|
 | Stuw |Vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen    |Ja|
 | Vispassage |Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland|Nee|
