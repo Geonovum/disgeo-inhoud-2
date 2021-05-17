@@ -127,7 +127,7 @@ Geometrie wordt hierbij in de SOR vastgelegd als een eigenschap van een object e
 
 Bij het vertalen van de fenomenen in de werkelijkheid naar abstracties in de vorm van begrippen, is vastgesteld dat er vanuit het beoogde gebruik behoefte bestaat om veel fenomenen te beschouwen als volume (3D) of een vlak op hoogte (2,5D). Een geometrie wordt geacht een 3D of 2,5D geometrie te zijn, wanneer deze in absolute zin in een drie dimensionale ruimte wordt vastgelegd (dus met x,y en z coördinaten voor elk vastgelegd punt in een geometrie). Indirecte beschrijvingen van 3D (middels het vastleggen van beschrijvende eigenschappen als Hoogte of Relatieve hoogteligging in combinatie met een 2D geometrie) vallen niet onder de noemer 3D geometrie. Relatieve hoogteliggingen kunnen zo nodig ten behoeve van informatieproducten worden afgeleid.
 
-2,5D geometrie is een uitbreiding op 2D geometrie door aan elke vastgelegde coördinaat een absolute hoogte (z-waarde) toe te voegen waarbij op elke coördinaat (x, y) binnen een 2.5D representatie slechts een enkele hoogte waarde (z) mogelijk is. 
+2,5D geometrie is een uitbreiding op 2D geometrie door aan elke vastgelegde coördinaat een absolute hoogte (z-waarde) toe te voegen. Volumes als geometrietype vormen geen onderdeel van de 2,5D geometrie. 
 In het vervolgtraject wordt nader uitgewerkt hoe een golvend oppervlak wordt opgebouwd.
 
 
@@ -556,7 +556,7 @@ In het voorgaande is een eerste schets gegeven van het onderwerp meta-informatie
 - Zo effectief en efficiënt mogelijk met tools in de systemen om metagegevens eenvoudig vast te leggen en te controleren op consistentie.
 - Niet onnodig muteren (met name van geometrie). Dit kan bijvoorbeeld door alleen het relevante object te muteren en niet gelijk de aangrenzende objecten in de omgeving ook muteren. Het zorgdragen van consistentie van de geometrie is hierbij een aandachtspunt (zie paragraaf [Topologie](#topologie)).
 - Zoveel mogelijk werken met domeintabellen in de metadata. Voorbeeld bij inwinning kunnen kiezen uit b.v. terrestrisch, digitalisering, constructie. fotokartering. Dit geldt ook voor "wijze van controle".
-- De ervaring uit de BAG leert dat het opvoeren van brondocumenten een zeer tijdrovende bezigheid is met de vraag of het heeft voldaan aan haar doel. Daarom wordt alleen met formele brondocumenten gewerkt als deze om andere reden al bestaan (zoals vergunningen). In andere gevallen wordt volstaan met het gebruik van bijvoorbeeld plaatsbepalingspunten of een luchtfoto als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
+- Het werken met formele brondocumenten is een belangrijk aspect van een basisregistratie waar de herkomst van gegevens naspeurbaar moet zijn. Deze formele brondocumenten worden voor die gegevens gehanteerd waarvoor ze voorhanden zijn (zoals vergunningen). De SOR bevat ook gegevens waarvoor dergelijke formele brondocumenten niet nodig zijn. In die gevallen wordt volstaan met het gebruik van bijvoorbeeld plaatsbepalingspunten of een luchtfoto als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
 
 
 ### Historie
