@@ -92,11 +92,11 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 
 |Waarde Type | Beschrijving Type     |
 |---|---|
-|Beek|Natuurlijke smalle waterloop zonder getij, die veelal doorwaadbaar is en afwatert op een rivier|
-|Gracht|Gegraven waterloop die hoofdzakelijk voorkomt in oude steden|
-|Kanaal|Gegraven grote waterloop die dient voor scheepvaart en/of watertransport|
-|Rivier|Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een waterloop en stroomt naar laaggelegen streken|
-|Sloot|Waterloop van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil|
+|Beek|Natuurlijke smalle watergang zonder getij, die veelal doorwaadbaar is en afwatert op een rivier|
+|Gracht|Gegraven watergang die hoofdzakelijk voorkomt in oude steden|
+|Kanaal|Gegraven grote watergang die dient voor scheepvaart en/of watertransport|
+|Rivier|Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een watergang en stroomt naar laaggelegen streken|
+|Sloot|watergang van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil|
 
 
 
@@ -135,7 +135,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |Relatiesoort     |Relatierol |Verplicht|
 |---|---|---|
 |is onderdeel van|watervlakte|ja|
-|is onderdeel van|waterloop|ja|
+|is onderdeel van|watergang|ja|
 
 **Domeinwaarden**
 
@@ -1023,10 +1023,10 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 |Waarde Type | Beschrijving Type    |
 |---|---|
 | Aquaduct |Overbruggingsconstructie waarmee een watergang door een bakvormige constructie over een weg, een spoorweg, een andere watergang, een leiding of een terrein wordt geleid|
-| Brug |Overbruggingsconstructie over een watervlakte of waterloop, bedoeld voor verkeer|
+| Brug |Overbruggingsconstructie over een watervlakte of watergang, bedoeld voor verkeer|
 | Ecoduct |Overbruggingsconstructie over een weg of spoorweg,    bedoeld voor het passeren van dieren|
 | Flyover|Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid |
-| Overkluizing |Civieltechnisch kunstwerk waarmee een weg, een plein of een waterloop (kruiselings) wordt overwelfd, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
+| Overkluizing |Civieltechnisch kunstwerk waarmee een weg, een plein of een watergang (kruiselings) wordt overwelfd, waarbij het dek meestal niet uitsluitend uit een pad of weg bestaat|
 | Viaduct |Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoeld voor verkeer|
 
 
@@ -1071,9 +1071,9 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 
 |Waarde Type | Beschrijving Type |
 |---|---|
-| Duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaat, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de waterloop onderbreekt|
+| Duiker |Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaat, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de watergang onderbreekt|
 | Hevel | Kokervormige constructie met een verhoogd middengedeelte dat twee wederzijds gelegen wateren met elkaar verbindt.|
-| Sifon | Kokervormige constructie met een verlaagd middengedeelte dat geheel met water is gevuld en die twee waterlopen met elkaar verbindt.|
+| Sifon | Kokervormige constructie met een verlaagd middengedeelte dat geheel met water is gevuld en die twee watergangen met elkaar verbindt.|
 | Tunnel |Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren|
 
 
@@ -1123,7 +1123,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 
 |Waarde Type| Beschrijving Type    | Verplicht|
 |---|---|---|
-| Bodemval |Sprong in de bodem van een waterloop| Nee|
+| Bodemval |Sprong in de bodem van een watergang| Nee|
 | Coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|Nee|
 | Dam | Dwars door een water gelegen afsluiting, bedoeld om water te keren of te beheersen.| Ja|
 | Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|Ja|
@@ -1138,8 +1138,8 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 | Strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier|
 | Stuw |Vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen    |Ja|
 | Vispassage |Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland|Nee|
-| Voorde |Doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop|Nee|
-| Vuilvang | Voorziening om de waterloop dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke|Ja|
+| Voorde |Doorwaadbare, doorgaans verharde, plaats in de watergang, die dient voor de oversteek van die watergang|Nee|
+| Vuilvang | Voorziening om de watergang dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke|Ja|
 | Walbescherming |Nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur| Ja|
 
 *Status* 
