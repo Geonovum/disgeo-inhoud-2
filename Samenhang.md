@@ -86,7 +86,7 @@ De samenhang rond kunstwerken:
 
 De samenhang rond overige constructies:
 
-![denkraamSOR_kunstwerk](media/overigeconstructiesmodel-2021-01.png)
+![denkraamSOR_kunstwerk](media/overigeconstructiesmodel-2021-02.png)
 
 
 De samenhang rond registratieve ruimten en sommige geografische ruimten
