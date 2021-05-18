@@ -14,7 +14,6 @@ De functies van wegdelen worden in de SOR grotendeels opgenomen in het wegennetw
 
 | Object    | BGT classificatie (verplicht) | Plus classificatie (optioneel) | SOR-begrip in dit document                                        |
 |-----------|-------------------------------|--------------------------------|-------------------------------------------------------------------|
-| Transport |                               |                                |                                                                   |
 | **Wegdeel**   | Functie:                    |                                |                                                                   |
 |           | OV-baan                       |                                | wegverbinding: type busbaan                                       |
 |           | overweg                       |                                | spoorzone: type overweg                                           |
@@ -369,7 +368,7 @@ In de SOR worden geen bakken opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
-| **Bak**                        |          | Type:                         | andere definitie                          |
+| **Bak**                        |          | Type:                         |                         |
 |                                | Niet BGT | afval apart plaats            | afvalcontainer                   |
 |                                | Niet BGT | afvalbak                      | straatmeubilair, type afvalbak                           |
 |                                | Niet BGT | drinkbak                      | *vervalt*                  |
@@ -497,7 +496,7 @@ In de SOR worden putten opgenomen als putdeksel, echter zonder nadere typering.
 |                                | Niet BGT | drainageput                   | putdeksel                   |
 |                                | Niet BGT | gasput                        | putdeksel             |
 |                                | Niet BGT | inspectie- / rioolput         | putdeksel                     |
-|                                | Niet BGT | kolk                          | pputdeksel                   |
+|                                | Niet BGT | kolk                          | putdeksel                   |
 |                                | Niet BGT | waterleidingput               | putdeksel                 |
 |                                |          |                               |                                           |
 
