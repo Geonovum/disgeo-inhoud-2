@@ -651,8 +651,8 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 
 #### Reële objecten
 
-- Landschapselement : Bomenrij
-- Landschapselement : Tuunwal
+- Bomenrij
+- Tuunwal
 - Bouwlaag
 - Ruimte
 - Gebouwcomponent: dakkapel
@@ -663,15 +663,15 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 - Kunstwerkdeel: sluisdeur
 - Kunstwerkdeel: schutkolk
 - Waterstaatkundig kunstwerk
+- Waterstaatkundig kunstwerk: dam
 - Waterstaatkundig kunstwerk: schot
 - Waterstaatkundig kunstwerk: dijklichaam
 - Waterstaatkundig kunstwerk: stormvloedkering
 - Installatie: sirene
-- Installatie: openbare verlichting
+- Installatie: verlichtingsarmatuur
 - Installatie: lift
 - Installatie: oplaadpunt
-- Mast: open
-- Mast: gesloten
+
 
 #### Functionele ruimten
 
@@ -713,18 +713,21 @@ Bestuuriljk gebied op zee
 
 - Bebouwingskern
 - Streek
-- Landschappelijk gebied: Berg 
 - Landschappelijk gebied: Bosgebied
-- Landschappelijk gebied: Dal
+- Landschappelijk gebied: Cultuurlandschap
 - Landschappelijk gebied: Duingebied
 - Landschappelijk gebied: Eiland
-- Landschappelijk gebied: Groeve
 - Landschappelijk gebied: Heidegebied
+- Landschappelijk gebied: Landgoed
 - Landschappelijk gebied: Polder
 - Landschappelijk gebied: Strand
 - Landschappelijk gebied: Watergebied
+- Landschappelijk gebied: Zandverstuiving
+- Reliëfzone: Berg
+- Reliëfzone: Dal
 - Reliëfzone: Grafheuvel
 - Reliëfzone: Holle weg
+- Reliëfzone: Groeve
 - Reliëfzone: Steilrand
 - Reliëfzone: Terp
 
