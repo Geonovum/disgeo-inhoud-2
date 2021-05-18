@@ -634,7 +634,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 | Naam    | Gebouw    |
 |---|---|
 | Definitie | Overdekte en geheel of grotendeels met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen|
-|Herkomst definitie    |Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen in de INSPIRE richtlijn |
+|Herkomst definitie    |Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen en de INSPIRE richtlijn |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie. De bestaande definitie van het begrip pand is uitgebreid met een aantal elementen die zijn opgenomen in de INSPIRE richtlijn. |
 |Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan gebouw moet worden gegeven |
