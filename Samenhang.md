@@ -77,7 +77,7 @@ De samenhang rond water:
 De samenhang rond verharding en netwerken:
 
 
-![denkraamSOR_grijs](media/grijsmodel-2021-01.png)
+![denkraamSOR_grijs](media/grijsmodel-2021-02.png)
 
 De samenhang rond kunstwerken:
 
