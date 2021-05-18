@@ -96,7 +96,7 @@ Dit SOR-begrip is een nader type van Oppervlaktewater.
 |Gracht|Gegraven watergang die hoofdzakelijk voorkomt in oude steden|
 |Kanaal|Gegraven grote watergang die dient voor scheepvaart en/of watertransport|
 |Rivier|Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een watergang en stroomt naar laaggelegen streken|
-|Sloot|watergang van beperkte breedte die stilstaand of langzaam stromend water bevat , welke is aangelegd met als doel het beheersen van het waterpeil|
+|Sloot|Watergang van beperkte breedte die stilstaand of langzaam stromend water bevat, en die is aangelegd met als doel het beheersen van het waterpeil|
 
 
 
@@ -999,7 +999,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |Identificatie     |Unieke aanduiding van een open bouwwerk|Ja |
 |Geometrie |Geometrische representatie van een open bouwwerk     |Ja (3D)|
 |Type| Soort open bouwwerk|Ja|
-|Naam| Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
+|Naam| Breed geaccepteerde benaming van een open bouwwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat| Nee|
 |Status     |Fase van de levenscyclus waarin een    open bouwwerk zich bevindt     |Ja     |
 
 
@@ -1220,7 +1220,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 | Sluis |Kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt|Ja|
 | Steiger |Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen|Ja|
 | Stormvloedkering|Waterkerende constructie die gesloten wordt bij zeer hoge buitenwaterstanden|Ja|
-| Strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier|
+| Strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier| Ja|
 | Stuw |Vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen    |Ja|
 | Vispassage |Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland|Nee|
 | Voorde |Doorwaadbare, doorgaans verharde, plaats in de watergang, die dient voor de oversteek van die watergang|Nee|
