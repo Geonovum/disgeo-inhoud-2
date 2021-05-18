@@ -56,7 +56,6 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Eindknoop	|Wegknoop met 1 verbinding en is het einde van een doodlopende weg|
 |Grensknoop	|Wegknoop met 1 verbinding en betreft een doorgaande verbinding met het wegennetwerk van een buurland|
 |Koppelknoop	|Wegknoop waar twee verschillende type wegverbindingen aan elkaar verbonden zijn|
-|Knooppunt|Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is|
 |Kruising|Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +|
 |Rotonde|Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.  |
 |Verkeersplein|Wegknoop waar wegen uit tenminste 3 richtingen samenkomen in de vorm van een rond plein, waar het rijverkeer met een verplichte, rondgaande rijrichting wordt afgewikkeld waarbij het verkeer op het plein geen voorrang heeft|
@@ -632,6 +631,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Functionele ruimte
 |---|---|
 | Halteplaats | Het geheel van voorzieningen bedoeld als stopplaats voor voertuigen van het openbaar vervoer|
 | Inrit| Geeft toegang tot een bestemmingsdoel|
+|Knooppunt|Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is|
 |Overstapplaats	|Voorziening waar men kan overstappen tussen modaliteiten of netwerken|
 | Parkeerplaats | Parkeergelegenheid voor het parkeren van meerdere voertuigen in de openlucht met een aparte toegang vanaf de doorgaande weg|
 | Parkeervlak | Parkeergelegenheid bestemd voor het parkeren van één of meerdere voertuigen direct langs de doorgaande weg gelegen|
