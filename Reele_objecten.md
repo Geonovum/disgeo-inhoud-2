@@ -2,18 +2,9 @@
 
 ### Oppervlaktewater
 
- 
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Oppervlaktewater 
-
-*Definitie**
-
-| Naam    | Oppervlaktewater    |
-|---|---|
-| Definitie |Oppervlak permanent bedekt met water of waarvan wordt geaccepteerd dat deze met water bedekt kan worden|
-
 #### Watervlakte
 
-Dit SOR-begrip is een nader type van Oppervlaktewater.
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Oppervlaktewater.
 
 **Definitie**
 
@@ -59,10 +50,8 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Watergang
 
-Dit SOR-begrip is een nader type van Oppervlaktewater.
-
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Oppervlaktewater.
  
-
 **Definitie**
 
 | Naam    | Watergang    |
@@ -108,8 +97,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Bron
 
-Dit SOR-begrip is een nader type van Oppervlaktewater.
-
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Oppervlaktewater.
  
 
 **Definitie**
@@ -146,8 +134,7 @@ Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) 
 
 #### Getijdengebied
 
-Dit SOR-begrip is een nader type van Oppervlaktewater.
-
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Oppervlaktewater.
  
 
 **Definitie**
