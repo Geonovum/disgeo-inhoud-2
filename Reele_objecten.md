@@ -3,7 +3,7 @@
 ### Oppervlaktewater
 
  
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Water 
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Oppervlaktewater 
 
 *Definitie**
 
