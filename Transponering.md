@@ -65,35 +65,34 @@ In de SOR worden geen ondersteunende wegdelen opgenomen zoals in BGT|IMGeo 2.2 z
 Bij verharding komen de plus classificaties van het fysieke voorkomen niet terug in de SOR met uitzondering van asfalt- en betonverharding. Bij begroeiing komen de BGT- en de plus classificaties van het fysieke voorkomen niet terug, maar worden vervangen door struiken of gras- en kruidachtigen.
 Beide functies van ondersteunend wegdeel komen in de SOR terug als een type bij functionele ruimte wegzone. 
 
+| Object                | BGT classificatie (verplicht) | Plus classificatie (optioneel) | SOR-begrip in dit document      |
+|-----------------------|-------------------------------|--------------------------------|---------------------------------|
+| **Ondersteunend wegdeel** | Functie:                      |                                |                                 |
+|                       | verkeerseiland                |                                | wegzone: type verkeerseiland    |
+|                       | berm                          |                                | wegzone: type berm              |
+|                       |                               |                                |                                 |
+| **Ondersteunend wegdeel** | Fysiek voorkomen:             |                                |                                 |
+|                       | gesloten verharding           | asfalt                         | verharding: asfaltverharding    |
+|                       |                               | cementbeton                    | verharding: betonverharding     |
+|                       | open verharding               | betonstraatstenen              | verharding: elementenverharding |
+|                       |                               | gebakken klinkers              | verharding: elementenverharding |
+|                       |                               | tegels                         | verharding: elementenverharding |
+|                       |                               | sierbestrating                 | verharding: elementenverharding |
+|                       |                               | beton element                  | verharding: elementenverharding |
+|                       | half verhard                  | grasklinkers                   | verharding: halfverharding      |
+|                       |                               | schelpen                       | verharding: halfverharding      |
+|                       |                               | puin                           | verharding: halfverharding      |
+|                       |                               | grind                          | verharding: halfverharding      |
+|                       |                               | gravel                         | verharding: halfverharding      |
+|                       | onverhard                     | boomschors                     | verharding: halfverharding      |
+|                       |                               | zand                           | verharding: onverhard           |
+|                       | groenvoorziening              | bosplantsoen                   | bos                             |
+|                       |                               | gras- en kruidachtigen         | gras- en kruidachtigen          |
+|                       |                               | planten                        | struiken                        |
+|                       |                               | struikrozen                    | struiken                        |
+|                       |                               | heesters                       | struiken                        |
+|                       |                               | bodembedekkers                 | struiken                        |
 
-
-|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
-|-----------------|----------------------|-----------------|---------------|
-| **Ondersteunend wegdeel** | **Functie**   |   |   |
-|   | verkeerseiland |   | wegzone: type verkeerseiland |
-|   | berm |   | wegzone: type berm |
-|   |   |   |   |
-| Ondersteunend wegdeel | Fysiek voorkomen: |   |   |
-|   | gesloten verharding | asfalt | verharding: asfaltverharding |
-|   |   | cementbeton | verharding: betonverharding |
-|   | open verharding | betonstraatstenen | verharding: elementenverharding |
-|   |   | gebakken klinkers | verharding: elementenverharding |
-|   |   | tegels | verharding: elementenverharding |
-|   |   | sierbestrating | verharding: elementenverharding |
-|   |   | beton element | verharding: elementenverharding |
-|   | half verhard | grasklinkers | verharding: halfverharding |
-|   |   | schelpen | verharding: halfverharding |
-|   |   | puin | verharding: halfverharding |
-|   |   | grind | verharding: halfverharding |
-|   |   | gravel | verharding: halfverharding |
-|   | onverhard | boomschors | verharding: halfverharding |
-|   |   | zand | verharding: onverhard |
-|   | groenvoorziening | bosplantsoen | bos: type bosplantsoen |
-|   |   | gras- en kruidachtigen | gras- en kruidachtigen |
-|   |   | planten | struiken |
-|   |   | struikrozen | struiken |
-|   |   | heesters | struiken |
-|   |   | bodembedekkers | struiken |
 
 
 **Spoor**
@@ -114,91 +113,86 @@ Het spoor uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als spoorwegennetwerk. De 
 
 In de SOR worden geen onbegroeide terreindelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. In de SOR wordt fysiek voorkomen erf een onbepaald terrein, en de overige fysieke voorkomens komen terug als verharding, begroeiing of landschappelijk gebied. 
 
+| Object                 | BGT classificatie (verplicht) | Plus classificatie (optioneel) | SOR-begrip in dit document      |
+|------------------------|-------------------------------|--------------------------------|---------------------------------|
+| **Onbegroeid terreindeel** | Fysiek voorkomen:             |                                |                                 |
+|                        | erf                           |                                | onbepaald terrein               |
+|                        | gesloten verharding           | asfalt                         | verharding: asfaltverharding    |
+|                        |                               | cementbeton                    | verharding: betonverharding     |
+|                        |                               | kunststof                      | verharding: kunststofverharding |
+|                        | open verharding               | betonstraatstenen              | verharding: elementenverharding |
+|                        |                               | gebakken klinkers              | verharding: elementenverharding |
+|                        |                               | tegels                         | verharding: elementenverharding |
+|                        |                               | sierbestrating                 | verharding: elementenverharding |
+|                        |                               | beton element                  | verharding: elementenverharding |
+|                        | half verhard                  | grasklinkers                   | verharding: halfverharding      |
+|                        |                               | schelpen                       | verharding: halfverharding      |
+|                        |                               | puin                           | verharding: halfverharding      |
+|                        |                               | grind                          | verharding: halfverharding      |
+|                        |                               | gravel                         | verharding: halfverharding      |
+|                        | onverhard                     | boomschors                     | verharding: halfverharding      |
+|                        |                               | zand                           | verharding: onverhard           |
+|                        | zand                          | strand en strandwal            | onbegroeide grond               |
+|                        |                               | zandverstuiving                | onbegroeide grond               |
 
-|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
-|-----------------|----------------------|-----------------|---------------|
-| **Onbegroeid terreindeel** | **Fysiek voorkomen**   |                        |                                            |
-|                            | erf                 |                        | onbepaald terrein                     |
-|                            | gesloten verharding | asfalt                 | verharding: asfaltverharding               |
-|                            |                     | cementbeton            | verharding: betonverharding                |
-|                            |                     | kunststof              | verharding: kunststofverharding            |
-|                            | open verharding     | betonstraatstenen      | verharding: elementenverharding            |
-|                            |                     | gebakken klinkers      | verharding: elementenverharding            |
-|                            |                     | tegels                 | verharding: elementenverharding            |
-|                            |                     | sierbestrating         | verharding: elementenverharding            |
-|                            |                     | beton element          | verharding: elementenverharding            |
-|                            | half verhard        | grasklinkers           | verharding: halfverharding                 |
-|                            |                     | schelpen               | verharding: halfverharding                 |
-|                            |                     | puin                   | verharding: halfverharding                 |
-|                            |                     | grind                  | verharding: halfverharding                 |
-|                            |                     | gravel                 | verharding: halfverharding                 |
-|                            | onverhard           | boomschors             | verharding: halfverharding                 |
-|                            |                     | zand                   | begroeiing: onbegroeide grond |
-|                            | zand                | strand en strandwal    | landschappelijk gebied: type strand            |
-|                            |                     | zandverstuiving        | landschappelijk gebied: type zandverstuiving  |
-|                            |                     |                        |                                            |
-|                            |                     |                        |                                            |
 
 
 **Begroeid terreindeel**
 
 In de SOR worden geen begroeide terreindelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. In de SOR komen de fysieke voorkomens terug als begroeiing. Het fysieke voorkomen groenvoorziening komt in de SOR niet terug, maar wordt opgenomen als struiken of gras- en kruidachtigen.
 
+| Object               | BGT classificatie (verplicht) | Plus classificatie (optioneel) | SOR-begrip in dit document                              |
+|----------------------|-------------------------------|--------------------------------|---------------------------------------------------------|
+| **Begroeid terreindeel** | Fysiek voorkomen:             |                                |                                                         |
+|                      | loofbos                       |                                | bos: type loofbos                                       |
+|                      | loofbos                       | griend en hakhout              | bos: type griend en hakhout                             |
+|                      | gemengd bos                   |                                | bos: type gemengd bos                                   |
+|                      | naaldbos                      |                                | bos: type naaldbos                                      |
+|                      | heide                         |                                | heide                                                   |
+|                      | struiken                      |                                | struiken                                                |
+|                      | houtwal                       |                                | houtsingel                                              |
+|                      | duin                          | open duinvegetatie             | gras- en kruidachtigen of struiken of onbegroeide grond |
+|                      |                               | gesloten duinvegetatie         | gras- en kruidachtigen of struiken of onbegroeide grond |
+|                      | grasland overig               |                                | gras- en kruidachtigen                                  |
+|                      | moeras                        |                                | moeras                                                  |
+|                      | rietland                      |                                | rietland                                                |
+|                      | kwelder                       |                                | getijdengebied: type schor                              |
+|                      | fruitteelt                    | laagstam boomgaarden           | fruit- en kweekboom: fruitkwekerij met lage opstand     |
+|                      |                               | hoogstam boomgaarden           | fruit- en kweekboom: hoogstam boomgaarden               |
+|                      |                               | wijngaarden                    | fruit- en kweekboom: fruitkwekerij met lage opstand     |
+|                      |                               | klein fruit                    | fruit- en kweekboom: fruitkwekerij met lage opstand     |
+|                      | boomteelt                     |                                | fruit- en kweekboom: boomkwekerij                       |
+|                      | bouwland                      | akkerbouw                      | akkerland                                               |
+|                      |                               | braakliggend                   | akkerland                                               |
+|                      |                               | vollegrondsteelt               | akkerland                                               |
+|                      |                               | bollenteelt                    | akkerland                                               |
+|                      | grasland agrarisch            |                                | gras- en kruidachtigen                                  |
+|                      | groenvoorziening              | bosplantsoen                   | bos                                                     |
+|                      |                               | gras- en kruidachtigen         | gras- en kruidachtigen                                  |
+|                      |                               | planten                        | struiken                                                |
+|                      |                               | struikrozen                    | struiken                                                |
+|                      |                               | heesters                       | struiken                                                |
+|                      |                               | bodembedekkers                 | struiken                                                |
 
-|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
-|-----------------|----------------------|-----------------|---------------|
-| **Begroeid terreindeel**   | **Fysiek voorkomen**   |                        |                                            |
-|   | loofbos |   | bos: type loofbos |
-|   | loofbos | griend en hakhout | bos: type griend en hakhout |
-|   | gemengd bos |   | bos: type gemengd bos |
-|   | naaldbos |   | bos: type naaldbos |
-|   | heide |   | heide |
-|   | struiken |   | struiken |
-|   | houtwal |   | houtsingel |
-|   | duin | open duinvegetatie | gras- en kruidachtigen of struiken of onbegroeide grond |
-|   |   | gesloten duinvegetatie | gras- en kruidachtigen of struiken of onbegroeide grond |
-|   | grasland overig |   | gras- en kruidachtigen |
-|   | moeras |   | moeras |
-|   | rietland |   | rietland |
-|   | kwelder |   | getijdengebied: type schor |
-|   | fruitteelt | laagstam boomgaarden | fruit- en kweekbomen: fruitkwekerij met lage opstand |
-|   |   | hoogstam boomgaarden | fruit- en kweekbomen: hoogstam boomgaarden |
-|   |   | wijngaarden | fruit- en kweekbomen: fruitkwekerij met lage opstand |
-|   |   | klein fruit | fruit- en kweekbomen: fruitkwekerij met lage opstand |
-|   | boomteelt |   | fruit- en kweekbomen: boomkwekerij |
-|   | bouwland | akkerbouw | bouwland |
-|   |   | braakliggend | bouwland |
-|   |   | vollegrondsteelt | bouwland |
-|   |   | bollenteelt | bouwland |
-|   | grasland agrarisch |   | gras- en kruidachtigen |
-|   | groenvoorziening | bosplantsoen | bos: type bosplantsoen |
-|   |   | gras- en kruidachtigen | gras- en kruidachtigen |
-|   |   | planten | struiken |
-|   |   | struikrozen | struiken |
-|   |   | heesters | struiken |
-|   |   | bodembedekkers | struiken |
 
 
 **Waterdeel**
 
-Het waterdeel uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als oppervlaktewater. Het type greppel/droge sloot komt in de SOR terug als eigenschap watervoerend bij waterloop type sloot. De plus classificatie ‘meer, plas, ven, vijver’ wordt in de SOR uitgesplitst in aparte typen. De plus classificatie haven komt niet terug als watervlakte, maar als functionele ruimte complex, type havencomplex.
+Het waterdeel uit BGT|IMGeo 2.2 wordt in de SOR opgenomen als oppervlaktewater. Het type greppel/droge sloot komt in de SOR terug als eigenschap watervoerend bij watergang type sloot. De plus classificatie ‘meer, plas, ven, vijver’ wordt in de SOR uitgesplitst in aparte typen. De plus classificatie haven komt niet terug als watervlakte, maar als functionele ruimte complex, type havencomplex.
 
-
-
-|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
-|-----------------|----------------------|-----------------|---------------|
-| **Waterdeel**               | Type:               |                         |                                                          |
-|                             | zee                 |                         | watervlakte: type zee                                    |
-|                             | waterloop           | rivier                  | waterloop: type rivier                                   |
-|                             |                     | sloot                   | waterloop: type sloot                                    |
-|                             |                     | kanaal                  | waterloop: type kanaal                                   |
-|                             |                     | beek                    | waterloop: type beek                                     |
-|                             |                     | gracht                  | waterloop: type gracht                                   |
-|                             |                     | bron                    | bron                                                     |
-|                             | watervlakte         | haven                   | complex: type havencomplex      |
-|                             |                     | meer, plas, ven, vijver | watervlakte: type meer, type plas, type ven, type vijver |
-|                             | greppel/droge sloot |                         | waterloop: type sloot |
-|                             |                     |                         |                                                          |
+| Object    | BGT classificatie (verplicht) | Plus classificatie (optioneel) | SOR-begrip in dit document                               |
+|-----------|-------------------------------|--------------------------------|----------------------------------------------------------|
+| **Waterdeel** | Type:                         |                                |                                                          |
+|           | zee                           |                                | watervlakte: type zee                                    |
+|           | waterloop                     | rivier                         | watergang: type rivier                                   |
+|           |                               | sloot                          | watergang: type sloot                                    |
+|           |                               | kanaal                         | watergang: type kanaal                                   |
+|           |                               | beek                           | watergang: type beek                                     |
+|           |                               | gracht                         | watergang: type gracht                                   |
+|           |                               | bron                           | bron                                                     |
+|           | watervlakte                   | haven                          | complex: type havencomplex                               |
+|           |                               | meer, plas, ven, vijver        | watervlakte: type meer, type plas, type ven, type vijver |
+|           | greppel/droge sloot           |                                | watergang: type sloot                                    |
 
 
 **Ondersteunend waterdeel**
