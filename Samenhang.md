@@ -30,8 +30,8 @@ relatief ten opzichte van de aarde. |
 |**Virtuele ruimte**|	Geo-object dat zich geheel of gedeeltelijk niet-materieel manifesteert en dus slechts in abstracte en/of geregistreerde vorm bestaat.|
 |Functionele ruimte|	Ruimte met een specifieke functie|
 |Transportruimte|	Natuurlijke of aangelegde transportlijnen of verbindingen met knooppunten waarlangs stromen zich kunnen verplaatsen|
-|Verkeerruimte| Verkeerruimte voor verkeer over land, water of door de lucht|
-|Wegverkeerruimte|	Verkeerruimte voor voertuigen die zich over wegen verplaatsen|
+|Verkeerruimte| Transportruimte voor verkeer over land, water of door de lucht|
+|Wegverkeerruimte|	Verkeerruimte voor weggebruikers die zich over wegen verplaatsen|
 |Scheepvaartruimte|	Verkeerruimte voor voertuigen die zich over water verplaatsen|
 |Spoorverkeerruimte|	Verkeerruimte voor voertuigen die zich over rails verplaatsen|
 |Waterverplaatsingsruimte	|Transportruimte waardoor water zich verplaatst|
