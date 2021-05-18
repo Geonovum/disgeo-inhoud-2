@@ -16,8 +16,7 @@ De verschillende in dit semantische model opgenomen hoofdklassen worden daarbij 
 
 | Begrip  | Definitie  |
 |---|---|
-|Geo-object| Een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie
-relatief ten opzichte van de aarde. |
+|Geo-object| Een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. |
 |**Reëel object**|	Geo-object dat zich geheel materieel manifesteert|
 |Bodem|	Bovenste begrenzing van het aardoppervlak, exclusief oppervlaktewater|
 |Oppervlaktewater|	Massa van water dat de bodem bedekt of in normale omstandigheden kan bedekken|
