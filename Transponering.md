@@ -15,7 +15,7 @@ De functies van wegdelen worden in de SOR grotendeels opgenomen in het wegennetw
 | Object    | BGT classificatie (verplicht) | Plus classificatie (optioneel) | SOR-begrip in dit document                                        |
 |-----------|-------------------------------|--------------------------------|-------------------------------------------------------------------|
 | Transport |                               |                                |                                                                   |
-| **Wegdeel**   | **Functie:**                      |                                |                                                                   |
+| **Wegdeel**   | Functie:                    |                                |                                                                   |
 |           | OV-baan                       |                                | wegverbinding: type busbaan                                       |
 |           | overweg                       |                                | spoorzone: type overweg                                           |
 |           | spoorbaan                     |                                | spoorzone: type spoorbaan                                         |
@@ -40,7 +40,7 @@ De functies van wegdelen worden in de SOR grotendeels opgenomen in het wegennetw
 |           | inrit                         |                                | verkeerskundig functionele zone: type inrit                       |
 |           | woonerf                       |                                | verkeerskundig functionele zone: type woonerf                     |
 |           |                               |                                |                                                                   |
-| Wegdeel   | Fysiek voorkomen:             |                                |                                                                   |
+| **Wegdeel**   | Fysiek voorkomen:             |                                |                                                                   |
 |           | gesloten verharding           | asfalt                         | verharding: asfaltverharding                                      |
 |           |                               | cementbeton                    | verharding: betonverharding                                       |
 |           | open verharding               | betonstraatstenen              | verharding: elementenverharding                                   |
@@ -57,50 +57,6 @@ De functies van wegdelen worden in de SOR grotendeels opgenomen in het wegennetw
 |           |                               | zand                           | verharding: onverhard                                             |
 
 
-
-|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
-|-----------------|----------------------|-----------------|---------------|
-| **Wegdeel** | **Functie**  |   |   |
-|   | OV-baan |   | wegverbinding: type busbaan |
-|   | overweg |   | spoorzone: type overweg |
-|   | spoorbaan |   | spoorzone: type spoorbaan |
-|   | baan voor vliegverkeer |   | luchtvaartzone: type baan voor vliegverkeer |
-|   | rijbaan autosnelweg |   | wegverbinding: type autosnelweg |
-|   | rijbaan autosnelweg | verbindingsweg | wegverbinding: type verbindingsbaan |
-|   | rijbaan autosnelweg | calamiteitendoorsteek |*vervalt*  |
-|   | rijbaan autoweg |   | wegverbinding: type autoweg |
-|   | rijbaan autoweg | verbindingsweg | wegverbinding: type verbindingsbaan |
-|   | rijbaan autoweg | calamiteitendoorsteek |*vervalt*   |
-|   | rijbaan regionale weg |   | wegverbinding: type gebiedsontsluitingsweg open / gesloten |
-|   | rijbaan regionale weg | verbindingsweg | wegverbinding: type verbindingsbaan |
-|   | rijbaan regionale weg | verkeersdrempel | wegzone: type verkeersdrempel |
-|   | rijbaan lokale weg |   | wegverbinding: type erftoegangsweg |
-|   | rijbaan lokale weg | verkeersdrempel | wegzone: type verkeersdrempel |
-|   | fietspad |   | wegverbinding: type fietspad |
-|   | voetpad |   | wegverbinding: type voetpad |
-|   | voetpad op trap |   | wegverbinding: type voetpad |
-|   | ruiterpad |   | wegverbinding: type ruiterpad |
-|   | parkeervlak |   | verkeerskundig functionele zone: type parkeervlak |
-|   | voetgangersgebied |   | wegverbinding: type voetgangerszone |
-|   | inrit |   | verkeerskundig functionele zone: type inrit |
-|   | woonerf |   | verkeerskundig functionele zone: type woonerf |
-|     |     |     |   |
-|     |    |     |     |
-| Wegdeel | Fysiek voorkomen: |   |   |
-|   | gesloten verharding | asfalt | verharding: asfaltverharding |
-|   |   | cementbeton | verharding: betonverharding |
-|   | open verharding | betonstraatstenen | verharding: elementenverharding |
-|   |   | gebakken klinkers | verharding: elementenverharding |
-|   |   | tegels | verharding: elementenverharding |
-|   |   | sierbestrating | verharding: elementenverharding |
-|   |   | beton element | verharding: elementenverharding |
-|   | half verhard | grasklinkers | verharding: halfverharding |
-|   |   | schelpen | verharding: halfverharding |
-|   |   | puin | verharding: halfverharding |
-|   |   | grind | verharding: halfverharding |
-|   |   | gravel | verharding: halfverharding |
-|   | onverhard | boomschors | verharding: halfverharding |
-|   |   | zand | verharding: onverhard |
 
 
 **Ondersteunend wegdeel**
