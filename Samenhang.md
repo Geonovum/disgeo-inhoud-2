@@ -19,7 +19,7 @@ De verschillende in dit semantische model opgenomen hoofdklassen worden daarbij 
 |Geo-object| Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde|
 |**Reëel object**|	Geo-object waarvan het fenomeen in de werkelijkheid tastbaar, zichtbaar en begrensd aanwezig is|
 |Bodem|	Bovenste deel van het natuurlijke aardoppervlak|
-|Water|	Oppervlak permanent bedekt met water of waarvan wordt geaccepteerd dat deze met water bedekt kan worden|
+|Oppervlakte Water|	Oppervlak permanent bedekt met water of waarvan wordt geaccepteerd dat deze met water bedekt kan worden|
 |Begroeiing|	Planten die op natuurlijke wijze zijn ontstaan of door mensen zijn aangeplant|
 |Constructie|	Gebouwd object dat direct of indirect met de grond is verbonden en bedoeld is om ter plaatse te functioneren|
 |Gebouw|	Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen|
