@@ -49,7 +49,7 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | 0.1    | 16-04-2020     |  concept    | Initieel document               | Kapstok document  aangemaakt  |
 | 0.4   | 4-10-2020     |  concept    | 1e opbouw              | Document met vertegenwoordigers werkveld vormgegeven |
 | 0.7  |  19-3-2021  |  concept | 2e opbouw              | Document met vertegenwoordigers werkveld bijgesteld na 1e consultatie |
-                           
+| 0.9  |   21-5-2021  |   concept |       eindconcept   |      Document bijgesteld na 2e consultatie als basis voor oplevering|                          
 
 
 
