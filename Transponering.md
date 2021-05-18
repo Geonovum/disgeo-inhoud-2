@@ -220,21 +220,20 @@ Het pand uit BGT|IMGeo 2.2 is in de SOR opgenomen als  reël object gebouw.
 
 In de SOR worden geen overige bouwwerken opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. Alle objecten met uitzondering van de plus classificatie voedersilo komen terug als object in de SOR. Overkapping en open loods zijn open bouwwerken in de SOR. Plus classificatie schuur komt terug als typering bij gebouw. Opslagtank, bezinkbak, bassin en bunker komen één op één in de SOR terug. Windturbine komt terug als installatie van type windturbine, en de winturbinemast komt in de SOR bij mast. Lage trafo is in de SOR een installatie van type kast. 
 
+| Object          | BGT classificatie (verplicht)   | Plus classificatie (optioneel) | SOR-begrip in dit document            |
+|-----------------|---------------------------------|--------------------------------|---------------------------------------|
+| **Overig bouwwerk** | Type:                           |                                |                                       |
+|                 | overkapping (maaiveldgeometrie) |                                | open bouwwerk: type overkapping       |
+|                 | open loods                      |                                | open bouwwerk: type open loods        |
+|                 | opslagtank                      |                                | opslagtank                            |
+|                 | bezinkbak                       |                                | reservoir                             |
+|                 | windturbine                     |                                | mast en installatie: type windturbine |
+|                 | lage trafo                      |                                | installatie: type kast                |
+|                 | bassin                          |                                | zwembad of dok                        |
+|                 | Niet BGT                        | bunker                         | gebouw: type vestingsgebouw, bunker   |
+|                 | Niet BGT                        | voedersilo                     | *vervalt*                             |
+|                 | Niet BGT                        | schuur                         | gebouw: type bijgebouw, schuur        |
 
-|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
-|-----------------|----------------------|-----------------|---------------|
-| **Overig bouwwerk** | Type:                           |            |                                                             |
-|                     | overkapping (maaiveldgeometrie) |            | open bouwwerk: type overkapping                             |
-|                     | open loods                      |            | open bouwwerk: type open loods                              |
-|                     | opslagtank                      |            | opslagtank                                      |
-|                     | bezinkbak                       |            | reservoir: type bezinkbak                            |
-|                     | windturbine                     |            | mast en installatie: type windturbinem  |
-|                     | lage trafo                      |            | installatie: type kast                                          |
-|                     | bassin                          |            | reservoir: type bassin                                            |
-|                     | Niet BGT                        | bunker     | gebouw: type vestingsgebouw, bunker                                                      |
-|                     | Niet BGT                        | voedersilo     | *vervalt*                                                      |
-|                     | Niet BGT                        | schuur     | gebouw: type bijgebouw, schuur                                       |
-|                     |                                 |            |                                                             |
 
 
 **Scheiding**
@@ -247,7 +246,7 @@ In de SOR worden geen scheidingen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenome
 |-----------------|----------------------|-----------------|---------------|
 | **Scheiding** | Type:          |             |  |
 |               | muur           |             | muur                                                       |
-|               | Kademuur       |             | muur                            |
+|               | kademuur       |             | muur                            |
 |               | damwand        |             | waterstaatkundig kunstwerk: type damwand        |
 |               | geluidsscherm  |             | scherm                                                     |
 |               | walbescherming |             | waterstaatkundig kunstwerk: type walbescherming                      |
@@ -338,7 +337,7 @@ De andere typen van functionele gebieden (plus classificaties) komen terug in SO
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Functioneel Gebied** | Type:    |                                            |                                                         |
-|                        | kering   |                                            | dijklichaam                                                  |
+|                        | kering   |                                            | kering                                                  |
 |                        | Niet BGT | bedrijvigheid                              | *vervalt*                                |
 |                        | Niet BGT | natuur en landschap                        | *vervalt*                                |
 |                        | Niet BGT | landbouw                                   | *vervalt*                                |
@@ -556,17 +555,17 @@ In de SOR wordt alleen straatmeubilair van type: abri, bank, fietsparkeerplaats,
 
 In de SOR worden geen waterinrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De waterinrichtingselementen van het type remmingswerk en geleidewerk komen in de SOR als geleider. Het waterinrichtingselement vuilvang komt in de SOR als waterstaatkundig kunstwerk van het type vuilvang. De waterinrichtingselementen van type betonning, meerpaal en hoogtemerk komen niet terug.
 
+| Object                   | BGT classificatie (verplicht) | Plus classificatie (optioneel) | SOR-begrip in dit document                |
+|--------------------------|-------------------------------|--------------------------------|-------------------------------------------|
+| **Waterinrichtings-element** |                               | Type:                          |                                           |
+|                          | Niet BGT                      | remmingswerk                   | geleideconstructie                        |
+|                          | Niet BGT                      | betonning                      | *vervalt*                                 |
+|                          | Niet BGT                      | geleidewerk                    | geleideconstructie                        |
+|                          | Niet BGT                      | vuilvang                       | waterstaatkundig kunstwerk: type vuilvang |
+|                          | Niet BGT                      | meerpaal                       | *vervalt*                                 |
+|                          | Niet BGT                      | hoogtemerk                     | *vervalt*                                 |
 
-|Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
-|-----------------|----------------------|-----------------|---------------|
-| **Waterinrichtings-element**   |          | Type:                         |                                           |
-|                                | Niet BGT | remmingswerk                  | geleider                 |
-|                                | Niet BGT | betonning                     | *vervalt*                                      |
-|                                | Niet BGT | geleidewerk                   | geleider                     |
-|                                | Niet BGT | vuilvang                      | waterstaatkundig kunstwerk: type vuilvang              |
-|                                | Niet BGT | meerpaal                      | *vervalt*                                      |
-|                                | Niet BGT | hoogtemerk                    | *vervalt*                  |
-|                                |          |                               |                                           |
+
 
 
 **Weginrichtings-element**
@@ -582,7 +581,7 @@ In de SOR worden geen weginrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 
 |                                | Niet BGT | wegmarkering                  | *vervalt*                  |
 |                                | Niet BGT | wildrooster                   | functionele wegzone:  type wildrooster    |
 |                                | Niet BGT | rooster                       | *vervalt*                  |
-|                                | Niet BGT | geleideconstructie            | geleider            |
+|                                | Niet BGT | geleideconstructie            | geleiderconstructie            |
 |                                | Niet BGT | balustrade                    | omheining |
 |                                | Niet BGT | boomspiegel                   | *vervalt*                  |
 |                                | Niet BGT | verblindingswering            | *vervalt*               |
@@ -597,7 +596,7 @@ In de SOR worden geen vegetatieobjecten opgenomen zoals in BGT|IMGeo 2.2 zijn op
 |-----------------|----------------------|-----------------|---------------|
 | **Vegetatieobject**            |          | Type:                         |                                           |
 |                                | Niet BGT | boom                          | boom                                      |
-|                                | Niet BGT | haag                          | haag                                      |
+|                                | Niet BGT | haag                          | struiken                                     |
 |                                |          |             
 
 
