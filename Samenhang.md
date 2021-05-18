@@ -16,17 +16,18 @@ De verschillende in dit semantische model opgenomen hoofdklassen worden daarbij 
 
 | Begrip  | Definitie  |
 |---|---|
-|Geo-object| Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde|
-|**Reëel object**|	Geo-object waarvan het fenomeen in de werkelijkheid tastbaar, zichtbaar en begrensd aanwezig is|
-|Bodem|	Bovenste deel van het natuurlijke aardoppervlak|
+|Geo-object| Een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie
+relatief ten opzichte van de aarde. |
+|**Reëel object**|	Geo-object dat zich geheel materieel manifesteert|
+|Bodem|	Bovenste begrenzing van het aardoppervlak, exclusief oppervlaktewater|
 |Oppervlaktewater|	Massa van water dat de bodem bedekt of in normale omstandigheden kan bedekken|
 |Begroeiing|	Planten die op natuurlijke wijze zijn ontstaan of door mensen zijn aangeplant|
 |Constructie|	Gebouwd object dat direct of indirect met de grond is verbonden en bedoeld is om ter plaatse te functioneren|
 |Gebouw|	Overdekte en geheel of gedeeltelijk met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen|
-|Kunstwerk|	Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen|
+|Kunstwerk|	Civiel-technische constructie voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen|
 |Verharding|	Een door egaliseren, verstevigen en/of verruwen voor het beoogde gebruik geschikt gemaakte oppervlak, bestaande uit in één of meer lagen over een ondergrond of onderliggende constructie aangelegd materiaal|
 |Leiding|	Een geheel van geleiders of ruimte welke voorzien zijn van één ommanteling en bestemd is voor transport van materie, data of energie|
-|**Virtuele ruimte**|	Geo-object waarvan geen tastbaar, zichtbaar en begrensd fenomeen in de werkelijkheid aanwezig is, maar die slechts in abstracte en/of geregistreerde vorm bestaat|
+|**Virtuele ruimte**|	Geo-object dat zich geheel of gedeeltelijk niet-materieel manifesteert en dus slechts in abstracte en/of geregistreerde vorm bestaat.|
 |Functionele ruimte|	Ruimte met een specifieke functie|
 |Transportruimte|	Natuurlijke of aangelegde transportlijnen of verbindingen met knooppunten waarlangs stromen zich kunnen verplaatsen|
 |Verkeerruimte| Verkeerruimte voor verkeer over land, water of door de lucht|
