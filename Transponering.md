@@ -450,16 +450,16 @@ In de SOR zijn masten constructies van het type open of gesloten constructie en 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Mast**                       |          | Type:                         |                                           |
-|                                | Niet BGT | bovenleidingmast              | mast              |
-|                                | Niet BGT | laagspanningsmast             | mast            |
-|                                | Niet BGT | straalzender                  | *vervalt*                  |
-|                                | Niet BGT | zendmast                      | *vervalt*                         |
-|                                | Niet BGT | radarmast                     | *vervalt*                       |
-|                                |          |                               |                                           |
+|                                | Niet BGT | bovenleidingmast              | *vervalt*            |
+|                                | Niet BGT | laagspanningsmast             | *vervalt*            |
+|                                | Niet BGT | straalzender                  | *vervalt*            |
+|                                | Niet BGT | zendmast                      | *vervalt*            |
+|                                | Niet BGT | radarmast                     | *vervalt*            |
+|                                |          |                               |                      |
 
 **Paal**
 
-In de SOR worden palen zoals in BGT|IMGeo 2.2 zijn opgenomen, opgenomen als paal zonder nadere typering.  De BGT|IMGeo palen van type lichtmast, verkeersregelinstallatiepaal en sirene komen in de SOR terug als installaties.
+In de SOR worden palen zoals in BGT|IMGeo 2.2 zijn opgenomen, opgenomen als paal zonder nadere typering.  De BGT|IMGeo palen van type lichtmast en sirene komen in de SOR terug, naast paal als installaties.
 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
@@ -542,7 +542,7 @@ In de SOR wordt alleen straatmeubilair van type: abri, bank, fietsparkeerplaats,
 |                                | Niet BGT | bank                          | straatmeubilair: type bank                           |
 |                                | Niet BGT | picknicktafel                 | straatmeubilair: type picknicktafel                          |
 |                                | Niet BGT | fontein                       | straatmeubilair: type fontein                           |
-|                                | Niet BGT | lichtpunt                     | straatmeubilair: type verlichtingsarmatuur                           |
+|                                | Niet BGT | lichtpunt                     | installatie: type verlichtingsarmatuur                           |
 |                                | Niet BGT | parkeerbeugel                 | straatmeubilair                           |
 |                                | Niet BGT | betaalautomaat                | straatmeubilair                           |
 |                                | Niet BGT | reclamezuil                   | straatmeubilair                                      |
@@ -552,7 +552,7 @@ In de SOR wordt alleen straatmeubilair van type: abri, bank, fietsparkeerplaats,
 
 **Waterinrichtings-element**
 
-In de SOR worden geen waterinrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De waterinrichtingselementen van het type remmingswerk en geleidewerk komen in de SOR als geleider. Het waterinrichtingselement vuilvang komt in de SOR als waterstaatkundig kunstwerk van het type vuilvang. De waterinrichtingselementen van type betonning, meerpaal en hoogtemerk komen niet terug.
+In de SOR worden geen waterinrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De waterinrichtingselementen van het type remmingswerk en geleidewerk komen in de SOR als geleideconstructie. Het waterinrichtingselement vuilvang komt in de SOR als waterstaatkundig kunstwerk van het type vuilvang. De waterinrichtingselementen van type betonning, meerpaal en hoogtemerk komen niet terug.
 
 | Object                   | BGT classificatie (verplicht) | Plus classificatie (optioneel) | SOR-begrip in dit document                |
 |--------------------------|-------------------------------|--------------------------------|-------------------------------------------|
@@ -569,7 +569,7 @@ In de SOR worden geen waterinrichtings-elementen opgenomen zoals in BGT|IMGeo 2.
 
 **Weginrichtings-element**
 
-In de SOR worden geen weginrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De typen molgoot, wegmarkering, rooster, boomspiegel, verblindingswering komen niet terug in de SOR. Het weginrichtingselement van het type geleideconstructie komt in de SOR als geleider. Lijnafwatering komt terug als putdeksel, wildrooster komt terug als functionele wegzone, type wildrooster, balustrade komt terug als omheining met eigenschap valbescherming.
+In de SOR worden geen weginrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. De typen molgoot, wegmarkering, rooster, boomspiegel, verblindingswering komen niet terug in de SOR. Het weginrichtingselement van het type geleideconstructie komt in de SOR als geleideconstructie. Lijnafwatering komt terug als putdeksel, wildrooster komt terug als functionele wegzone, type wildrooster, balustrade komt terug als muur of omheining met eigenschap valbescherming.
 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
@@ -588,7 +588,7 @@ In de SOR worden geen weginrichtings-elementen opgenomen zoals in BGT|IMGeo 2.2 
 
 **Vegetatieobject**
  
-In de SOR worden geen vegetatieobjecten opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. Boom en haag zijn opgenomen als aparte objecten bij begroeiing.
+In de SOR worden geen vegetatieobjecten opgenomen zoals in BGT|IMGeo 2.2 zijn opgenomen. Boom is opgenomen als aparte object bij begroeiing en haag is opgenomen als indicatie bij struiken.
 
 
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
@@ -662,7 +662,7 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 - Kunstwerkdeel: sluisdeur
 - Kunstwerkdeel: schutkolk
 - Waterstaatkundig kunstwerk
-- Waterstaatkundig kunstwerk: dam
+- Waterstaatkundig kunstwerk: vaste dam
 - Waterstaatkundig kunstwerk: schot
 - Waterstaatkundig kunstwerk: dijklichaam
 - Waterstaatkundig kunstwerk: stormvloedkering
@@ -751,9 +751,7 @@ De volgende, in BGT|IMGeo 2.2 opgenomen typeringen, zijn niet meer opgenomen in 
 -	bak, type drinkbak
 -	bord, alle typen
 -	kast, alle typen vervallen, kast blijft als type van installatie in de SOR
--	mast, type straalzender (*type vervalt, mast blijft in SOR*)
--	mast, type zendmast (*type vervalt, mast blijft in SOR*)
--	mast, type radarmast (*type vervalt, mast blijft in SOR*)
+-	mast, alle typen vervallen, mast blijft in SOR
 -	paal, merendeel van typen vervallen, paal blijft in SOR
 -	putdeksel, alle typen (*putdeksel typen vervallen, putdeksel blijft in SOR*)
 -	sensor, alle typen
