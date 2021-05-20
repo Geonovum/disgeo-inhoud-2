@@ -1497,18 +1497,20 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 | Indicatie Valbescherming| Muur die al dan niet bedoeld is om vallen te voorkomen |	Nee|
 | Status     | Fase van de levenscyclus waarin een muur zich bevindt|Ja     |
 
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
 **Relaties met andere objecttypen** 
 
 |Relatiesoort     |Relatierol |Verplicht|
 |---|---|---|
 | heeft mogelijk een functie| kering| Ja|
 | heeft mogelijk een functie| afscheiding|Ja|
+
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
 
 
 
