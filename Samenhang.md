@@ -71,7 +71,7 @@ De samenhang rond groen:
 
 De samenhang rond water:
 
-![denkraamSOR_water](media/watermodel-2021-02.png)
+![denkraamSOR_water](media/watermodel-2021-03.png)
 
 
 De samenhang rond verharding en netwerken:
