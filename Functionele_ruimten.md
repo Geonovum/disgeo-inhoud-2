@@ -141,7 +141,8 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Voetgangerszone| Wegverbinding die bedoeld is voor voetgangers met uitzondering van fietsers en bestemmingsverkeer en, tussen bepaalde tijden, andere verkeersgebruikers||
 |Veerverbinding	|Geregelde verbinding per vaartuig bestemd voor (on)bepaald hoofdverkeersgebruik|G9|
 |Voetpad|	Vrij liggend pad (zonder naast/parallel liggende weg) waarvan voetgangers gebruik dienen te maken |G7|
-Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgangerszone of ruiterpad indien er geen andere baan is die onderdeel uitmaakt van de weg. Het is dus een “vrij liggend” of "solitair" pad.
+
+Toelichting: Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgangerszone of ruiterpad indien er geen andere baan is die onderdeel uitmaakt van de weg. Het is dus een “vrij liggend” of "solitair" pad.
 
 *Type baan*
 
@@ -191,12 +192,6 @@ Een wegverbinding is van het type fiets/bromfietspad, voetpad, fietspad, voetgan
 |Vrachtwagenstrook	|Strook specifiek bestemd voor vrachtverkeer en meestal ook bussen||
 |Weefstrook |	Strook bedoeld voor het afwikkelen en uitwisselen van rijdend verkeer afkomstig van verschillende rijbanen en gaande naar verschillende rijbanen||
 |Wisselstrook |	Rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting||
-
-
-
-
-
-
 
 
 
