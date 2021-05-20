@@ -111,7 +111,7 @@ Dit SOR-begrip is een nader type van de NEN 3610-hoofdklasse Wegverkeerruimte
 | hyperverbinding | gerelateerde functionele zone | Ja|
 
 
-Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigenschappen aan het wegennetwerk te relateren.
+Toelichting: Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigenschappen aan het wegennetwerk te relateren.
 
 **Domeinwaarden**
 
@@ -123,7 +123,7 @@ Het leggen van deze relaties maken het dus mogelijk om namen en fysieke eigensch
 |Baan	|Aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers|
 |Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan|
 
-
+Toelichting: In een later stadium zal nader worden uitgewerkt hoe verschillende type wegverbindingen zich tot elkaar verhouden.
 
 *Type weg*
 
