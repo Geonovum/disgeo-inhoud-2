@@ -244,8 +244,8 @@ In de SOR worden geen scheidingen opgenomen zoals in BGT|IMGeo 2.2 zijn opgenome
 |Object|BGT classificatie (verplicht)|Plus classificatie (optioneel)|SOR-begrip in dit document|
 |-----------------|----------------------|-----------------|---------------|
 | **Scheiding** | Type:          |             |  |
-|               | muur           |             | muur                                                       |
-|               | kademuur       |             | muur                            |
+|               | muur           |             | muur                                                     |
+|               | kademuur       |             | waterstaatkundig kunstwerk: type kademuur                            |
 |               | damwand        |             | waterstaatkundig kunstwerk: type damwand        |
 |               | geluidsscherm  |             | scherm                                                     |
 |               | walbescherming |             | waterstaatkundig kunstwerk: type walbescherming                      |
@@ -304,7 +304,7 @@ In de SOR worden geen kunstwerkdelen opgenomen zoals in BGT|IMGeo 2.2 zijn opgen
 |                       | strekdam          |                              | waterstaatkundig kunstwerk: type strekdam   |
 |                       | steiger           |                              | waterstaatkundig kunstwerk: type steiger    |
 |                       | stuw              |                              | waterstaatkundig kunstwerk: type stuw       |
-|                       | Niet BGT          | keermuur                     | muur   |
+|                       | Niet BGT          | keermuur                     | waterstaatkundig kunstwerk: type keermuur   |
 |                       | Niet BGT          | overkluizing                 | overbrugging: type overkluizing   |
 |                       | Niet BGT          | duiker                       | ondertunneling: type duiker       |
 |                       | Niet BGT          | faunavoorziening             | *vervalt*          |
@@ -736,8 +736,9 @@ Bestuuriljk gebied op zee
 De volgende, in BGT|IMGeo 2.2 opgenomen typeringen, zijn niet meer opgenomen in de SOR:
 
 -	wegdeel, functie calamiteitendoorsteek
+-	spoor, functie (haven)kraan
 -	overig bouwwerk, type voedersilo
--	kunstwerkdeel, type fauna voorziening
+-	kunstwerkdeel, type faunavoorziening
 -	functioneel gebied, type bedrijvigheid
 -	functioneel gebied, type natuur en landschap
 -	functioneel gebied, type landbouw
@@ -749,10 +750,14 @@ De volgende, in BGT|IMGeo 2.2 opgenomen typeringen, zijn niet meer opgenomen in 
 -	functioneel gebied, type functioneel beheer: hondenuitlaatplaats
 -	bak, type drinkbak
 -	bord, alle typen
--	mast, alle typen (*mast typen vervallen, mast blijft in SOR*)
--	paal, alle typen (*paal typen vervallen, paal blijft in SOR*)
+-	kast, alle typen vervallen, kast blijft als type van installatie in de SOR
+-	mast, type straalzender (*type vervalt, mast blijft in SOR*)
+-	mast, type zendmast (*type vervalt, mast blijft in SOR*)
+-	mast, type radarmast (*type vervalt, mast blijft in SOR*)
+-	paal, merendeel van typen vervallen, paal blijft in SOR
+-	putdeksel, alle typen (*putdeksel typen vervallen, putdeksel blijft in SOR*)
 -	sensor, alle typen
--	straatmeubilair, merendeel van typen vervallen
+-	straatmeubilair, merendeel van typen vervallen, straatmeubilair blijft in SOR
 -	waterinrichtings-element, type betonning
 -	waterinrichtings-element, type meerpaal
 -	waterinrichtings-element, type hoogtemerk
