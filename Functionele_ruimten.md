@@ -123,7 +123,7 @@ Toelichting: Het leggen van deze relaties maken het dus mogelijk om namen en fys
 |Baan	|Aaneengesloten deel van een weg dat bedoeld is voor bepaalde groepen verkeersgebruikers|
 |Strook|	Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de baan|
 
-Toelichting: In een later stadium zal nader worden uitgewerkt hoe verschillende type wegverbindingen zich tot elkaar verhouden.
+Toelichting: In een later stadium zal nader worden uitgewerkt hoe verschillende typen wegverbindingen zich tot elkaar verhouden.
 
 *Type weg*
 
