@@ -997,6 +997,34 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
 
 
+#### Oppervlaktewaterlichaam
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse functionele ruimte
+
+**Definitie**
+
+| Naam  | Oppervlaktewaterlichaam|
+|---|---|
+| Definitie | Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater, met de daarin aanwezige stoffen, doorheen kan stromen.|
+|Herkomst definitie  |nieuw|
+|Verplicht  | Nee |
+|Gevolgen afbakening||
+|Toelichting| In een later stadium wordt aan de hand van gebruikersbehoeften bepaald of voor oppervlaktwaterlichaam kan worden volstaan met een informatieproduct waarin oppervlaktewater en oeverzone worden gecombineerd.   |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een oppervlaktewaterlichaam|Ja |
+|Geometrie|Geometrische representatie van een oppervlaktewaterlichaam|Ja (lijn, 2D-vlak)|
+|Status   | De fase van de levenscyclus waarin een oppervlaktewaterlichaam zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van functionele ruimten zijn benoemd
+
 
 
 
