@@ -265,7 +265,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 | Definitie |Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten|     
 |Herkomst definitie    |    BGT 1.2 |
 |Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen *struiken en groenvoorziening*    zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen *struiken, groenvoorziening* en *haag* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de *heg, haag* zoals deze is opgenomen in de basisregistratie topografie |
 |Toelichting| Dit omvat alle begroeiing die niet valt onder de overige reële objecten onder Begroeiing| 
 
 **Eigenschappen**
@@ -496,7 +496,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja |
 |Gevolgen afbakening|Het betreft een nieuw op te nemen objecttype|
-|Toelichting| Bomenrij wordt opgenomen vanwege het landschappelijke belang van dit object.   |
+|Toelichting| Bomenrij wordt opgenomen vanwege het landschappelijke belang van dit object. In een later stadium zullen registratieregels worden opgesteld waarin nader wordt uitgewerkt wat de exacte relatie is tussen boom, houtsingel, bomenrij en bos, hoe deze begrippen zich verhouden tot andere aan het landschap gerelateerde begrippen en op welke wijze de geometrie van deze begrippen wordt vormgegeven.  |
 
 **Eigenschappen**
 
@@ -525,7 +525,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
 |Herkomst definitie  |nieuw|
 |Verplicht  | Ja |
 |Gevolgen afbakening| Het betreft hier de bestaande populatie *houtwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Houtsingel wordt opgenomen vanwege het landschappelijke belang van dit object.   |
+|Toelichting| Houtsingel wordt opgenomen vanwege het landschappelijke belang van dit object. In een later stadium zullen registratieregels worden opgesteld waarin nader wordt uitgewerkt wat de exacte relatie is tussen boom, houtsingel, bomenrij en bos, hoe deze begrippen zich verhouden tot andere aan het landschap gerelateerde begrippen en op welke wijze de geometrie van deze begrippen wordt vormgegeven.  |
 
 **Eigenschappen**
 
@@ -585,7 +585,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Herkomst definitie    | Wikipedia    |
 |Verplicht    | Ja    |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie boom zoals deze is opgenomen in de basisregistratie grootschalige topografie    |
-|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven welke bomen verplicht in de registratie worden opgenomen |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven welke bomen verplicht in de registratie worden opgenomen. Ook zal dan nader worden uitgewerkt wat de exacte relatie is tussen boom, houtsingel, bomenrij en bos, hoe deze begrippen zich verhouden tot andere aan het landschap gerelateerde begrippen en op welke wijze de geometrie van deze begrippen wordt vormgegeven. |
 
 
 **Eigenschappen**
@@ -596,7 +596,6 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 |Geometrie| Geometrische representatie van een boom|Ja (2,5D punt)|
 |Status     | Fase van de levenscyclus waarin een boom zich bevindt|Ja     |
 
-Opmerking: Inwinnings/afbakeningsregels betreffende de geometrie en de relatie en definitie tussen bomen, houtsingel, bomenrij, danwel bos zullen nog duidelijk afgesproken worden.
 
 
 **Domeinwaarden**
