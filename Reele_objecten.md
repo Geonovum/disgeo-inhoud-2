@@ -1795,7 +1795,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 | Herkomst definitie| |nieuw|
 | Verplicht    | Ja  |
 | Gevolgen afbakening    | Het betreft hier deels de bestaande populatie overig bouwwerk type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie |
-| Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan zwembad moet worden gegeven. De gedachte gaat uit naar zowel zwembaden in de openlucht als overdekte zwembaden    |
+| Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan zwembad moet worden gegeven. Daarbij zal ook nader worden bepaald in welke gevallen overdekte zwembaden in de registratie worden opgenomen. |
 
 **Eigenschappen**
 
