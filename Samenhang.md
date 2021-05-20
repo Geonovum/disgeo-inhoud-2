@@ -48,7 +48,7 @@ Hierbij zijn de verschillende begrippen die binnen de samenhangende objectenregi
 
 . 
 
-![denkraamSOR](media/denkraam_sor.png)
+![denkraamSOR](media/denkraam_sor-01.png)
 
 .
   
