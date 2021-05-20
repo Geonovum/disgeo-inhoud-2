@@ -1196,10 +1196,11 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 |---|---|---|
 | Bodemval |Sprong in de bodem van een watergang| Nee|
 | Coupure |Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is|Nee|
-| Dam | Dwars door een water gelegen afsluiting, bedoeld om water te keren of te beheersen.| Ja|
 | Damwand |Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen|Ja|
 | Dijklichaam|Aangelegde waterkering van grond, die het achterliggende land beschermt tegen overstromingen|Ja|
 | Gemaal | Kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen|Ja|
+| Kademuur | Verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton|Ja|
+| Keermuur | Muur die door vorm, gewicht en fundering zonder verankering de grond keert | Ja|
 | Krib | Kunstmatig lichaam van aarde, steen, turf of rijshout (en tegenwoordig beton of staal), om water te keren of te leiden|Ja|
 | Ponton |Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft|Nee|
 | Schot|Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen|Nee|
@@ -1208,6 +1209,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Kunstwerk
 | Stormvloedkering|Waterkerende constructie die gesloten wordt bij zeer hoge buitenwaterstanden|Ja|
 | Strekdam | Dam in de richting van de loop van de rivier of kanaal, ter beveiliging van de oevers of brugpijlers of ter beheersing van de rivier| Ja|
 | Stuw |Vaste of beweegbare constructie in het water die dient om de waterstand bovenstrooms en/of benedenstrooms van de constructie te regelen    |Ja|
+| Vaste dam | Dwars door een water gelegen afsluiting, bedoeld om water te keren of te beheersen.| Ja|
 | Vispassage |Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland|Nee|
 | Voorde |Doorwaadbare, doorgaans verharde, plaats in de watergang, die dient voor de oversteek van die watergang|Nee|
 | Vuilvang | Voorziening om de watergang dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke|Ja|
