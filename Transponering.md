@@ -685,6 +685,8 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 - Spoorzone: emplacement
 - Luchtvaartzone: luchthaven
 - Complex
+- Gebruikszone oppervlaktewater
+- Oppervlaktewaterlichaam
 - Reducering
 
 
