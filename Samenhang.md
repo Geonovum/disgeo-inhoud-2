@@ -81,7 +81,7 @@ De samenhang rond verharding en netwerken:
 
 De samenhang rond kunstwerken:
 
-![denkraamSOR_kunstwerk](media/kunstwerkmodel-2021-01.png)
+![denkraamSOR_kunstwerk](media/kunstwerkmodel-2021-02.png)
 
 
 De samenhang rond overige constructies:
