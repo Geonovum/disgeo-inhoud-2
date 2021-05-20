@@ -708,6 +708,7 @@ Als er sprake is van een “grotere” verbouwing dan zal er een periode zijn da
 Bestaand – verbouw gepland – in aanbouw – bestaand
 
 Deze wijze van registratie is bijvoorbeeld aan de orde wanneer de nieuwe “bestaande situatie” een duidelijke voortzetting is van de oorspronkelijke situatie, zoals een kantoor dat wordt gestript, gemoderniseerd en weer als kantoor in gebruik wordt genomen. Ook in dit voorbeeld kan sprake zijn van één verblijfsobject binnen dit gebouw. In de periode dat het gebouw de status heeft "in aanbouw" zal dit verblijfsobject echter niet geschikt zijn om zijn functie vervullen en is de status "in voorbereiding" beter van toepassing.
+
 Bij de transitie van een bestaand kantoorgebouw of een bestaand schoolgebouw zal het gebouw (reëel object) een doorlopende tijdlijn geldigheid hebben, maar zullen er wel nieuwe verblijfsobjecten worden gevormd en bestaande verblijfsobjecten beëindigd. Bij een dergelijke ingrijpende transitie zal het gebouw dan ook de volgende levensfasen kennen:
 
 Bestaand – verbouw gepland – in aanbouw – bestaand
