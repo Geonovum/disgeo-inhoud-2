@@ -642,7 +642,7 @@ De transponering vanuit de BRT zal op een later moment worden toegevoegd op basi
 
 ### Nieuw in de SOR
 
-Hier worden de begrippen aangeduid die nieuw zijn ten opzichte van de begrippen uit de basisregistraties waauit de SOR is doorontwikkeld. Het gaat daarbij om dingen in de werkelijkheid die voorheen in de basisregistraties nog niet waren opgenomen. 
+Hier worden de begrippen aangeduid die nieuw zijn ten opzichte van de begrippen uit de basisregistraties waaruit de SOR is doorontwikkeld. Het gaat daarbij om dingen in de werkelijkheid die voorheen in de basisregistraties nog niet waren opgenomen. 
 
 Het gaat *NIET* om dingen in de werkelijkheid die al waren opgenomen maar die nu van een ándere begripsnaam zijn voorzien. Deze worden in de voorgaande paragrafen van dit hoofdstuk al geduid.
 
@@ -696,14 +696,14 @@ Deze opsomming verwijst naar begrippen uit de index van het document. Indien een
 - Wijk
 - Buurt
 
-Bestuuriljk gebied
+Bestuurlijk gebied
 - Rijk
 - Provincie
 - Waterschap
 - Gemeente
 - Veiligheidsregio
 
-Bestuuriljk gebied op zee
+Bestuurlijk gebied op zee
 - Nederlandse territoriale zee
 - Nederlandse aansluitende zone
 - Nederlandse exclusieve economische zone
