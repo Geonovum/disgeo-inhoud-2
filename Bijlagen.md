@@ -8,16 +8,19 @@
 |BAG        | Basisregistratie Adressen en Gebouwen |
 |BGT        | Basisregistratie Grootschalige Topografie |
 |BOR        | Beheer van de Openbare Ruimte|
-|BRT        | Basisregistratie Topografie  |
+|BRT        | BasisRegistratie Topografie  |
 |BRT.Next   | nieuwe vorm van Basisregistratie Topografie  |
-|CRS        | Coördinaatreferentiesysteem               |
+|CRS        | CoördinaatReferentieSysteem               |
 |DiSGeo     | Doorontwikkeling in Samenhang van de Geo-basisregistraties  |
 |ETRS89     | European Terrestrial Reference System 1989|
 |LoD        | Level of Detail  | 
 |LR         | Lineair Referencing|
 |NAP        | Normaal Amsterdams Peil|
-|NEN 3610    | Basismodel voor geo-informatiemodellen|
-|PBP        | Plaatsbepalingspunt|
+|NEN 2660   | Ordeningsregels voor gegevens in de bouw - Termen, definities en algemene regels|
+|NEN 3610   | Basismodel voor geo-informatiemodellen|
+|NTA 8035   | Semantische gegevensmodellering in de gebouwde omgeving|
+|NWB        | Nationaal WegenBestand|
+|PBP        | PlaatsBepalingsPunt|
 |RD         | Coördinatensysteem van de Rijksdriehoeksmeting|
 |SOR        | Samenhangende ObjectenRegistratie                           |
 |UOI        | Unieke Object Identificatie|
