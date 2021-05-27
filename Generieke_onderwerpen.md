@@ -27,10 +27,11 @@ Ontwerpprincipe:
 
 **De opbouw van de objectidentificatie voor alle objecten is gelijk**
 
-Voor alle objecten in de SOR wordt dezelfde opbouw en toekenning van een objectidentificatie toegepast.
-De opbouw van de identificatiecode wordt op dit moment onderzocht in het externe project Regie Op Bouwgegevens (Unique Object Identifier, UOI). In fase 1 van dit project is een 0.8-versie van de UOI beschreven (
+Voor alle objecten in de SOR wordt dezelfde opbouw en toekenning van een objectidentificatie toegepast. De opbouw van de identificatiecode is onderzocht in het externe project Regie Op Bouwgegevens (Unique Object Identifier, UOI) en in een rapport gepubliceerd (
 https://www.geobasisregistraties.nl/documenten/rapport/2020/12/01/rapport-regie-op-bouwgegevens-uoi-2020-onderzoeksfase ).
-In de start van fase 2 zal een UOI-versie 1.0 opgesteld worden die als basis kan dienen voor de identificatie van de objecten in de samenhangende objectenregistratie. Daarnaast wordt onderzocht, en beproefd in een aantal use cases of de waarde van de UOI ook buiten het domein van de samenhangende objectenregistratie bruikbaar is.
+Dit kan als basis dienen voor het bepalen van de identificatie van de objecten in de samenhangende objectenregistratie.
+
+
 
 #### Identiteit
 
