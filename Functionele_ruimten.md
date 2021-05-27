@@ -374,7 +374,7 @@ De definitieve lijst met gebruiksfuncties zal op een later moment nog definitief
 |     Bijeenkomsten    |     Activiteiten waarin grotere groepen bijeen worden gebracht voor communicatieve doeleinden    |
 |     Cellen    |     Dwangverblijf van personen    |
 |     Detailhandel    |     Bedrijfsmatige levering van fysieke goederen voor persoonlijk gebruik aan consumenten    |
-|     Dienstverlening    |     Levering van niet-fysieke goederen door een persoon , instantie of onderneming aan een andere partij    |
+|     Dienstverlening    |     Levering van niet-fysieke goederen door een persoon, instantie of onderneming aan een andere partij    |
 |     Energievoorziening    |     Levering van  elektriciteit en warmte aan consumenten en bedrijven    |
 |     Groothandel    |     Bedrijfsmatige levering van fysieke goederen aan bedrijfsmatige afnemers    |
 |     Horeca    |     Verstrekken van logies en/of bereide maaltijden, snacks en dranken aan gasten voor onmiddellijke consumptie    |
@@ -549,7 +549,7 @@ Toelichting: Op een later moment zal nog worden uitgewerkt op welke wijze de num
 |     Bijeenkomsten    |     Activiteiten   waarin grotere groepen bijeen worden gebracht voor communicatieve doeleinden    |
 |     Cellen    |     Dwangverblijf   van personen    |
 |     Detailhandel    |     Bedrijfsmatige   levering van fysieke goederen voor persoonlijk gebruik aan consumenten    |
-|     Dienstverlening    |     Levering van   niet-fysieke goederen door een persoon , instantie of onderneming aan een   andere partij    |
+|     Dienstverlening    |     Levering van   niet-fysieke goederen door een persoon, instantie of onderneming aan een   andere partij    |
 |     Energievoorziening    |     Levering van   elektriciteit en warmte aan consumenten en bedrijven    |
 |     Groothandel    |     Bedrijfsmatige   levering van fysieke goederen aan bedrijfsmatige afnemers    |
 |     Horeca    |     Verstrekken   van logies en/of bereide maaltijden, snacks en dranken aan gasten voor   onmiddellijke consumptie    |
