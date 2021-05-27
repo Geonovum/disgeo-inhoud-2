@@ -220,135 +220,96 @@ Toelichting: Nog bekeken wordt hoe griend en hakhout als een subtype van loofbos
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
+#### Bomenrij
 
-#### Gras- en kruidachtigen
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
-
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
 
 **Definitie**
 
-| Naam    | Gras- en kruidachtigen |
+| Naam  | Bomenrij |
 |---|---|
-| Definitie |Begroeiing die een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie betreft| 
-|Herkomst definitie    | IMBOR 2020 |
-|Verplicht    | ja    |
-|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *gras- en kruidachtigen*,*grasland agrarisch* en *grasland overig* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Onderscheid in gras voor agrarisch gebruik, dan wel voor natuurlijk gebruik of 'overig' gebruik is op basis van het nieuwe reëel object Gras- en kruidachtigen niet meer te zien. In sectormodel kan onderscheid gemaakt worden obv sector specifiek kenmerken. De combinatie van reëel object Gras- en kruidachtigen en    functioneel object Park of Sportterrein en/of sectorregistraties (bv IMNA, gewaspercelen, IMBOR) kan voorzien in informatiebehoefte aan specifieke grastypen zoals 'gazon', agrarisch/natuurlijk gras' of 'sportveld'.| 
+| Definitie | Opgaande rijvormige begroeiing van bomen zonder ondergroei van struiken |
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja |
+|Gevolgen afbakening|Het betreft een nieuw op te nemen objecttype|
+|Toelichting| Bomenrij wordt opgenomen vanwege het landschappelijke belang van dit object. In een later stadium zullen registratieregels worden opgesteld waarin nader wordt uitgewerkt wat de exacte relatie is tussen boom, houtsingel, bomenrij en bos, hoe deze begrippen zich verhouden tot andere aan het landschap gerelateerde begrippen en op welke wijze de geometrie van deze begrippen wordt vormgegeven.  |
 
 **Eigenschappen**
 
-|Eigenschap     |Beschrijving     |Verplicht     |
+|Eigenschap   |Beschrijving   |Verplicht   |
 |---|---|---|
-|Identificatie     | Unieke aanduiding van gras- en kruidachtigen|Ja |
-|Geometrie| Geometrische representatie van veld met gras- en kruidachtigen|Ja (2,5D vlak)|
-|Status     | Fase van de levenscyclus waarin een veld met gras- en kruidachtigen zich bevindt|Ja     |
-
+|Identificatie   |Unieke aanduiding van een bomenrij|Ja |
+|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn of vlak)|
+|Status   | De fase van de levenscyclus waarin een bomenrij zich bevindt|Ja   |
 
 **Domeinwaarden**
 
-*Status* 
+*Status*
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
+#### Houtsingel
 
-####    Struiken
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
+
+**Definitie**
+
+| Naam  | Houtsingel |
+|---|---|
+| Definitie |  Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken|
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja |
+|Gevolgen afbakening| Het betreft hier de bestaande populatie *houtwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting| Houtsingel wordt opgenomen vanwege het landschappelijke belang van dit object. In een later stadium zullen registratieregels worden opgesteld waarin nader wordt uitgewerkt wat de exacte relatie is tussen boom, houtsingel, bomenrij en bos, hoe deze begrippen zich verhouden tot andere aan het landschap gerelateerde begrippen en op welke wijze de geometrie van deze begrippen wordt vormgegeven.  |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een houtsingel|Ja |
+|Geometrie|Geometrische representatie van een Houtsingel|Ja (2,5D lijn of vlak)|
+|Status   | De fase van de levenscyclus waarin een Houtsingel zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+#### Boom
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 
 **Definitie**
 
-| Naam    | Struiken |
+| Naam    | Boom |
 |---|---|
-| Definitie |Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten|     
-|Herkomst definitie    |    BGT 1.2 |
+| Definitie | Een overblijvende plant met verhoute stam en kroon|
+|Herkomst definitie    | Wikipedia    |
 |Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen *struiken, groenvoorziening* en *haag* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de *heg, haag* zoals deze is opgenomen in de basisregistratie topografie |
-|Toelichting| Dit omvat alle begroeiing die niet valt onder de overige reële objecten onder Begroeiing| 
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie boom zoals deze is opgenomen in de basisregistratie grootschalige topografie    |
+|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven welke bomen verplicht in de registratie worden opgenomen. Ook zal dan nader worden uitgewerkt wat de exacte relatie is tussen boom, houtsingel, bomenrij en bos, hoe deze begrippen zich verhouden tot andere aan het landschap gerelateerde begrippen en op welke wijze de geometrie van deze begrippen wordt vormgegeven. |
+
 
 **Eigenschappen**
 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
-|Identificatie     | Unieke aanduiding van struiken|Ja |
-|Geometrie| Geometrische representatie van struiken|Ja (2,5D vlak)|
-|Indicatie haag | Geeft aan of struiken als een haag onderhouden worden|Ja|
-|Status     | Fase van de levenscyclus waarin struiken zich bevinden|Ja     |
+|Identificatie     |Unieke aanduiding van een boom|Ja |
+|Geometrie| Geometrische representatie van een boom|Ja (2,5D punt)|
+|Status     | Fase van de levenscyclus waarin een boom zich bevindt|Ja     |
+
 
 
 **Domeinwaarden**
 
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-
-
-#### Akkerland
-
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
-
-
-**Definitie**
-
-| Naam    | Akkerland    |
-|---|---|
-| Akkerland | Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen|
-|Herkomst definitie    | Definitie gebaseerd op bouwland in de BGT 1.2 |
-|Verplicht    | ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object    Braakliggend    wordt voor zover het landbouwgrond betreft ook in dit objecttype akkerland opgenomen|
-|Toelichting| Kan tijdelijk zonder gewas zijn of braak liggen|
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     | Unieke aanduiding van een terrein akkerland|Ja |
-|Geometrie| Geometrische representatie van een terrein akkerland|Ja (2,5D vlak)|
-|Status     | Fase van de levenscyclus waarin een terrein akkerland zich bevindt|Ja     |
-
-**Domeinwaarden**
 
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-#### Onbegroeide grond
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
-
-
-**Definitie**
-
-| Naam    | Onbegroeide grond |
-|---|---|
-| Definitie |Oppervlakte die niet bedekt is met enige vorm van begroeiing, water, verharding, gebouwen of andere constructies|
-| Herkomst definitie    | Nieuw |
-| Verplicht    | Ja    |
-| Gevolgen afbakening    | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen type onverhard van terreinen in de basisregistratie grootschalige topografie|
-| Toelichting| Onbegroeide grond is bewust niet bedekt|
-
-**Eigenschappen**
-
-|Eigenschap     |Beschrijving     |Verplicht     |
-|---|---|---|
-|Identificatie     |Unieke aanduiding van onbegroeide grond|Ja |
-|Geometrie| Geometrische representatie van onbegroeide grond|Ja (2,5D vlak)|
-|Status     | Fase van de levenscyclus waarin een stuk onbegroeide grond zich bevindt|Ja     |
-
-
-**Domeinwaarden**
-
-*Status* 
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
 
 
 #### Fruit- of kweekbomen
@@ -391,6 +352,140 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 *Status* 
 
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+#### Tuunwal
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
+
+**Definitie**
+
+| Naam  | Tuunwal |
+|---|---|
+| Definitie | Gestapelde grasplaggen op de scheiding tussen twee percelen |
+|Herkomst definitie  |nieuw|
+|Verplicht  | Ja |
+|Gevolgen afbakening|Het betreft een nieuw op te nemen objecttype|
+|Toelichting|  Tuunwal wordt opgenomen vanwege het landschappelijke belang van dit object. Tuunwallen wijken duidelijk af van vegetatieve perceelsscheiding (haag, bomenrij en houtsingel) en ook van de verschillende afscheidingen |
+
+**Eigenschappen**
+
+|Eigenschap   |Beschrijving   |Verplicht   |
+|---|---|---|
+|Identificatie   |Unieke aanduiding van een tuunwal|Ja |
+|Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D lijn of vlak)|
+|Status   | De fase van de levenscyclus waarin een tuunwal zich bevindt|Ja   |
+
+**Domeinwaarden**
+
+
+*Status*
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+####    Struiken
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
+
+
+**Definitie**
+
+| Naam    | Struiken |
+|---|---|
+| Definitie |Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten|     
+|Herkomst definitie    |    BGT 1.2 |
+|Verplicht    | Ja    |
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen *struiken, groenvoorziening* en *haag* zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de *heg, haag* zoals deze is opgenomen in de basisregistratie topografie |
+|Toelichting| Dit omvat alle begroeiing die niet valt onder de overige reële objecten onder Begroeiing| 
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+|Identificatie     | Unieke aanduiding van struiken|Ja |
+|Geometrie| Geometrische representatie van struiken|Ja (2,5D vlak)|
+|Indicatie haag | Geeft aan of struiken als een haag onderhouden worden|Ja|
+|Status     | Fase van de levenscyclus waarin struiken zich bevinden|Ja     |
+
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+
+
+
+
+
+#### Gras- en kruidachtigen
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
+
+
+**Definitie**
+
+| Naam    | Gras- en kruidachtigen |
+|---|---|
+| Definitie |Begroeiing die een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie betreft| 
+|Herkomst definitie    | IMBOR 2020 |
+|Verplicht    | ja    |
+|Gevolgen afbakening    | Het betreft hier grotendeels de bestaande populatie fysiek voorkomen *gras- en kruidachtigen*,*grasland agrarisch* en *grasland overig* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
+|Toelichting| Onderscheid in gras voor agrarisch gebruik, dan wel voor natuurlijk gebruik of 'overig' gebruik is op basis van het nieuwe reëel object Gras- en kruidachtigen niet meer te zien. In sectormodel kan onderscheid gemaakt worden op basis van sector specifieke kenmerken. De combinatie van reëel object Gras- en kruidachtigen en functioneel object Park of Sportterrein en/of sectorregistraties (bv IMNA, gewaspercelen, IMBOR) kan voorzien in informatiebehoefte aan specifieke grastypen zoals 'gazon', agrarisch/natuurlijk gras' of 'sportveld'.| 
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+|Identificatie     | Unieke aanduiding van gras- en kruidachtigen|Ja |
+|Geometrie| Geometrische representatie van veld met gras- en kruidachtigen|Ja (2,5D vlak)|
+|Status     | Fase van de levenscyclus waarin een veld met gras- en kruidachtigen zich bevindt|Ja     |
+
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
+
+
+
+#### Akkerland
+
+
+Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
+
+
+**Definitie**
+
+| Naam    | Akkerland    |
+|---|---|
+| Akkerland | Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen|
+|Herkomst definitie    | Definitie gebaseerd op bouwland in de BGT 1.2 |
+|Verplicht    | ja    |
+|Gevolgen afbakening    | Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object    Braakliggend    wordt voor zover het landbouwgrond betreft ook in dit objecttype akkerland opgenomen|
+|Toelichting| Kan tijdelijk zonder gewas zijn of braak liggen|
+
+**Eigenschappen**
+
+|Eigenschap     |Beschrijving     |Verplicht     |
+|---|---|---|
+|Identificatie     | Unieke aanduiding van een terrein akkerland|Ja |
+|Geometrie| Geometrische representatie van een terrein akkerland|Ja (2,5D vlak)|
+|Status     | Fase van de levenscyclus waarin een terrein akkerland zich bevindt|Ja     |
+
+**Domeinwaarden**
+
+*Status* 
+
+Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
+
+
 
 
 #### Moeras
@@ -484,122 +579,32 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing
 Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
 
 
-#### Bomenrij
 
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
-
-**Definitie**
-
-| Naam  | Bomenrij |
-|---|---|
-| Definitie | Opgaande rijvorimige begroeiing van bomen zonder ondergroei van struiken |
-|Herkomst definitie  |nieuw|
-|Verplicht  | Ja |
-|Gevolgen afbakening|Het betreft een nieuw op te nemen objecttype|
-|Toelichting| Bomenrij wordt opgenomen vanwege het landschappelijke belang van dit object. In een later stadium zullen registratieregels worden opgesteld waarin nader wordt uitgewerkt wat de exacte relatie is tussen boom, houtsingel, bomenrij en bos, hoe deze begrippen zich verhouden tot andere aan het landschap gerelateerde begrippen en op welke wijze de geometrie van deze begrippen wordt vormgegeven.  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een bomenrij|Ja |
-|Geometrie|Geometrische representatie van een bomenrij|Ja (2,5D lijn of vlak)|
-|Status   | De fase van de levenscyclus waarin een bomenrij zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-#### Houtsingel
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
-
-**Definitie**
-
-| Naam  | Houtsingel |
-|---|---|
-| Definitie |  Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken|
-|Herkomst definitie  |nieuw|
-|Verplicht  | Ja |
-|Gevolgen afbakening| Het betreft hier de bestaande populatie *houtwal* zoals deze is opgenomen in de basisregistratie grootschalige topografie|
-|Toelichting| Houtsingel wordt opgenomen vanwege het landschappelijke belang van dit object. In een later stadium zullen registratieregels worden opgesteld waarin nader wordt uitgewerkt wat de exacte relatie is tussen boom, houtsingel, bomenrij en bos, hoe deze begrippen zich verhouden tot andere aan het landschap gerelateerde begrippen en op welke wijze de geometrie van deze begrippen wordt vormgegeven.  |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een houtsingel|Ja |
-|Geometrie|Geometrische representatie van een Houtsingel|Ja (2,5D lijn of vlak)|
-|Status   | De fase van de levenscyclus waarin een Houtsingel zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-#### Tuunwal
-
-Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse begroeiing
-
-**Definitie**
-
-| Naam  | Tuunwal |
-|---|---|
-| Definitie | Gestapelde grasplaggen op de scheiding tussen twee percelen |
-|Herkomst definitie  |nieuw|
-|Verplicht  | Ja |
-|Gevolgen afbakening|Het betreft een nieuw op te nemen objecttype|
-|Toelichting|  Tuunwal wordt opgenomen vanwege het landschappelijke belang van dit object. Tuunwallen wijken duidelijk af van vegetatieve perceelsscheiding (heg, haag, bomenrij en houtsingel) en ook van de verschillende afscheidingen |
-
-**Eigenschappen**
-
-|Eigenschap   |Beschrijving   |Verplicht   |
-|---|---|---|
-|Identificatie   |Unieke aanduiding van een tuunwal|Ja |
-|Geometrie|Geometrische representatie van een tuunwal|Ja (2,5D lijn of vlak)|
-|Status   | De fase van de levenscyclus waarin een tuunwal zich bevindt|Ja   |
-
-**Domeinwaarden**
-
-
-*Status*
-
-Deze eigenschap kan alle waarden aannemen die bij de [levensfase](#levensfasen) van reële objecten zijn benoemd
-
-
-#### Boom
+#### Onbegroeide grond
 
 Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Begroeiing 
 
 
 **Definitie**
 
-| Naam    | Boom |
+| Naam    | Onbegroeide grond |
 |---|---|
-| Definitie | Een overblijvende plant met verhoute stam en kroon|
-|Herkomst definitie    | Wikipedia    |
-|Verplicht    | Ja    |
-|Gevolgen afbakening    | Het betreft hier de bestaande populatie boom zoals deze is opgenomen in de basisregistratie grootschalige topografie    |
-|Toelichting| In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven welke bomen verplicht in de registratie worden opgenomen. Ook zal dan nader worden uitgewerkt wat de exacte relatie is tussen boom, houtsingel, bomenrij en bos, hoe deze begrippen zich verhouden tot andere aan het landschap gerelateerde begrippen en op welke wijze de geometrie van deze begrippen wordt vormgegeven. |
-
+| Definitie |Oppervlakte die niet bedekt is met enige vorm van begroeiing, water, verharding, gebouwen of andere constructies|
+| Herkomst definitie    | Nieuw |
+| Verplicht    | Ja    |
+| Gevolgen afbakening    | Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen type onverhard van terreinen in de basisregistratie grootschalige topografie|
+| Toelichting| Onbegroeide grond is bewust niet bedekt|
 
 **Eigenschappen**
 
 |Eigenschap     |Beschrijving     |Verplicht     |
 |---|---|---|
-|Identificatie     |Unieke aanduiding van een boom|Ja |
-|Geometrie| Geometrische representatie van een boom|Ja (2,5D punt)|
-|Status     | Fase van de levenscyclus waarin een boom zich bevindt|Ja     |
-
+|Identificatie     |Unieke aanduiding van onbegroeide grond|Ja |
+|Geometrie| Geometrische representatie van onbegroeide grond|Ja (2,5D vlak)|
+|Status     | Fase van de levenscyclus waarin een stuk onbegroeide grond zich bevindt|Ja     |
 
 
 **Domeinwaarden**
-
 
 *Status* 
 
