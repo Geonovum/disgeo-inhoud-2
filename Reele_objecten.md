@@ -1499,7 +1499,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|---|
 | Identificatie     |Unieke aanduiding van een muur|Ja |
 | Geometrie|Geometrische representatie van een muur|Ja (2,5D lijn) Nee (2,5D vlak)|
-| Indicatie Valbescherming| Muur die al dan niet bedoeld is om vallen te voorkomen |	Nee|
+| Indicatie Valbescherming| Muur die al dan niet bedoeld is om vallen te voorkomen |	Ja|
 | Status     | Fase van de levenscyclus waarin een muur zich bevindt|Ja     |
 
 **Relaties met andere objecttypen** 
@@ -1545,7 +1545,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|---|
 |Identificatie     |Unieke aanduiding van een omheining|Ja |
 |Geometrie|Geometrische representatie van een omheining|Ja (2,5D lijn)|
-| Indicatie Valbescherming| Omheining die al dan niet bedoeld is om vallen te voorkomen |	Nee|
+| Indicatie Valbescherming| Omheining die al dan niet bedoeld is om vallen te voorkomen |	Ja|
 |Status     | Fase van de levenscyclus waarin een omheining zich bevindt|Ja     |
 
 
