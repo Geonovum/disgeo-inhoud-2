@@ -1394,7 +1394,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Constructie
 |---|---|
 | Definitie | Constructie die een technisch samenhangend systeem betreft dat een bepaald doel dient|
 |Herkomst definitie    | Gebaseerd op installatie in IMGeo 2.2    |
-|Verplicht    | Ja|
+|Verplicht    | Deels |
 |Gevolgen afbakening    | Het betreft hier de bestaande populatie    *installatie* en onderdelen van de bestaande populaties *paal, kast en overig bouwwerk*    zoals deze zijn opgenomen in de basisregistratie grootschalige topografie|
 |Toelichting|    |
 
