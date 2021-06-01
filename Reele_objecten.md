@@ -752,7 +752,7 @@ Dit SOR-begrip is een nader type van de NEN 3610- hoofdklasse Gebouw
 |Identificatie     |Unieke aanduiding van een bouwlaag|Ja |
 |Geometrie |Geometrische representatie van een bouwlaag    |Ja (2,5D)|
 |Bouwlaagnummer |Niveau waarop een bouwlaag zich bevindt|Ja|
-|Status     |Fase vruimtean de levenscyclus waarin een bouwlaag zich bevindt     |Ja     |
+|Status     |Fase van de levenscyclus waarin een bouwlaag zich bevindt     |Ja     |
 
 
 **Relaties met andere objecttypen** 
