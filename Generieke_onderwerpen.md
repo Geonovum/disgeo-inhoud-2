@@ -29,7 +29,7 @@ Ontwerpprincipe:
 
 Voor alle objecten in de SOR wordt dezelfde opbouw en toekenning van een objectidentificatie toegepast. De opbouw van de identificatiecode is onderzocht in het externe project Regie Op Bouwgegevens (Unique Object Identifier, UOI) en in een rapport gepubliceerd (
 https://www.geobasisregistraties.nl/documenten/rapport/2020/12/01/rapport-regie-op-bouwgegevens-uoi-2020-onderzoeksfase ).
-Dit onderzoek, en de uitkomsten uit het vervolgonderzoek door medio 2021, kunnen als basis dienen voor het bepalen van de identificatie van de objecten in de samenhangende objectenregistratie.
+Dit onderzoek, en de uitkomsten uit het vervolgonderzoek medio 2021, kunnen als basis dienen voor het bepalen van de identificatie van de objecten in de samenhangende objectenregistratie.
 
 
 
@@ -558,7 +558,7 @@ In het voorgaande is een eerste schets gegeven van het onderwerp meta-informatie
 - Zo effectief en efficiënt mogelijk met tools in de systemen om metagegevens eenvoudig vast te leggen en te controleren op consistentie.
 - Niet onnodig muteren (met name van geometrie). Dit kan bijvoorbeeld door alleen het relevante object te muteren en niet gelijk de aangrenzende objecten in de omgeving ook muteren. Het zorgdragen van consistentie van de geometrie is hierbij een aandachtspunt (zie paragraaf [Topologie](#topologie)).
 - Zoveel mogelijk werken met domeintabellen in de metadata. Voorbeeld bij inwinning kunnen kiezen uit b.v. terrestrisch, digitalisering, constructie. fotokartering. Dit geldt ook voor "wijze van controle".
-- Het werken met formele brondocumenten is een belangrijk aspect van een basisregistratie waar de herkomst van gegevens naspeurbaar moet zijn. Deze formele brondocumenten worden voor die gegevens gehanteerd waarvoor ze voorhanden zijn (zoals vergunningen). De SOR bevat ook gegevens waarvoor dergelijke formele brondocumenten niet nodig zijn. In die gevallen wordt volstaan met het gebruik van bijvoorbeeld plaatsbepalingspunten of een luchtfoto als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplicht om een "proces verbaal van constatering" op te maken.
+- Het werken met formele brondocumenten is een belangrijk aspect van een basisregistratie waar de herkomst van gegevens naspeurbaar moet zijn. Deze formele brondocumenten worden voor die gegevens gehanteerd waarvoor ze voorhanden zijn (zoals vergunningen). De SOR bevat ook gegevens waarvoor dergelijke formele brondocumenten niet nodig zijn. In die gevallen wordt volstaan met het gebruik van bijvoorbeeld plaatsbepalingspunten of een luchtfoto als bronverwijzing, dan wel een beschrijving van de herkomst van het gegeven. Dan kan volstaan worden met de aanduiding dat het object geconstateerd is in het veld, zonder de verplichting om een "proces verbaal van constatering" op te maken.
 
 
 ### Historie
