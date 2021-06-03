@@ -563,7 +563,6 @@ Toelichting: Op een later moment zal nog worden uitgewerkt op welke wijze de num
 |     Religie    |     Activiteiten   verbonden aan zingeving of het zoeken naar betekenisvolle verbindingen,   waarbij meestal een hogere macht, opperwezen of god centraal staat    |
 |     Sport    |     Activiteiten   gericht op lichamelijke oefeningen en ontspanning waarbij vaardigheid, kracht   en inzicht vereist worden    |
 |     Techniek    |     Activiteiten   waarin de ontwikkeling of het gebruik van apparaten, machines en andere   complexe voorwerpen centraal staat    |
-|     Tuinbouw    |     Op commerciële   basis op intensieve wijze telen van groenten, paddenstoelen, fruit, bloemen,   planten, bomen, bollen of zaden    |
 |     Voertuigen    |     Bedrijfsmatige   stalling of opstelpunt van voertuigen    |
 |     Wonen    |     Permanent   verblijf van personen voor niet bedrijfsmatige activiteiten    |
 |     Zorg   |     Bieden van   lichamelijke of geestelijke hulp of aandacht    |
